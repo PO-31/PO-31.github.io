@@ -90,6 +90,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
 <a href="classqtreports_1_1detail_1_1_report-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle">
 <div class="title">Класс qtreports::detail::Report</div>  </div>
@@ -230,6 +232,51 @@ GroupPtr&#160;</td><td class="memItemRight" valign="bottom"><b>getGroupByIndex</
 <tr class="separator:a422e2eea58e5698b7069de43fdca995c inherit pub_methods_classqtreports_1_1detail_1_1_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5217697b83b0d5d6467a4be188ea1e1 inherit pub_methods_classqtreports_1_1detail_1_1_object"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_object.html#ae5217697b83b0d5d6467a4be188ea1e1">getLastError</a> () const </td></tr>
 <tr class="separator:ae5217697b83b0d5d6467a4be188ea1e1 inherit pub_methods_classqtreports_1_1detail_1_1_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:a3ef94ea79b55c104906a59f092c757ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ef94ea79b55c104906a59f092c757ad"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>swapRows</b> (int row1, int row2, QVector&lt; bool &gt; &amp;vec)</td></tr>
+<tr class="separator:a3ef94ea79b55c104906a59f092c757ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a2c390bf0c75090329db2356a021d9d03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c390bf0c75090329db2356a021d9d03"></a>
+QPrinter::Orientation&#160;</td><td class="memItemRight" valign="bottom"><b>m_orientation</b></td></tr>
+<tr class="separator:a2c390bf0c75090329db2356a021d9d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae497804d8cef7722e40ebfc62beea252"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae497804d8cef7722e40ebfc62beea252"></a>
+QSize&#160;</td><td class="memItemRight" valign="bottom"><b>m_size</b></td></tr>
+<tr class="separator:ae497804d8cef7722e40ebfc62beea252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0dce8295287611e3a4f7f34e8d6224a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0dce8295287611e3a4f7f34e8d6224a"></a>
+QMargins&#160;</td><td class="memItemRight" valign="bottom"><b>m_margins</b></td></tr>
+<tr class="separator:aa0dce8295287611e3a4f7f34e8d6224a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfb9446452dfdb7995cd7c672d0821a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebfb9446452dfdb7995cd7c672d0821a"></a>
+StylePtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_defaultStyle</b></td></tr>
+<tr class="separator:aebfb9446452dfdb7995cd7c672d0821a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13192a0ade408cf75a8bb8953ca16cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae13192a0ade408cf75a8bb8953ca16cb"></a>
+QMap&lt; QString, StylePtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_styles</b></td></tr>
+<tr class="separator:ae13192a0ade408cf75a8bb8953ca16cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff7228c8fef36634229c39edbe5edc3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaff7228c8fef36634229c39edbe5edc3"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>m_query</b></td></tr>
+<tr class="separator:aaff7228c8fef36634229c39edbe5edc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749cf7dbac1dd25f38a02938a5db2bb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a749cf7dbac1dd25f38a02938a5db2bb4"></a>
+QMap&lt; QString, FieldPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_fields</b></td></tr>
+<tr class="separator:a749cf7dbac1dd25f38a02938a5db2bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3acec686b212b2d0b50aafbb1217b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc3acec686b212b2d0b50aafbb1217b0"></a>
+QMap&lt; QString, GroupPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_groups</b></td></tr>
+<tr class="separator:abc3acec686b212b2d0b50aafbb1217b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d951e4326df136ab164e43fac4cb269"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d951e4326df136ab164e43fac4cb269"></a>
+TitlePtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_title</b></td></tr>
+<tr class="separator:a2d951e4326df136ab164e43fac4cb269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fdd5ebc88ba5092c8315f656079f7e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fdd5ebc88ba5092c8315f656079f7e6"></a>
+DetailPtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_detail</b></td></tr>
+<tr class="separator:a8fdd5ebc88ba5092c8315f656079f7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a987c0915f293a2b4fbbdcb792f2b4ddf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a987c0915f293a2b4fbbdcb792f2b4ddf"></a>
+QMap&lt; QString, QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_parameters</b></td></tr>
+<tr class="separator:a987c0915f293a2b4fbbdcb792f2b4ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0726fe1e300697172d3482202142a95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0726fe1e300697172d3482202142a95"></a>
+QVector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_group_vec</b></td></tr>
+<tr class="separator:aa0726fe1e300697172d3482202142a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Дополнительные унаследованные члены</h2></td></tr>

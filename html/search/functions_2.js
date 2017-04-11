@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['getattribute',['getAttribute',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4',1,'qtreports::detail::ParserFromXML']]],
   ['getbottommargin',['getBottomMargin',['../classqtreports_1_1detail_1_1_report.html#a1aac1a22db0225606814ea687e1d9298',1,'qtreports::detail::Report']]],
   ['getclassname',['getClassName',['../classqtreports_1_1detail_1_1_field.html#a5208eca6f0064477efd12c2df17ee9a2',1,'qtreports::detail::Field::getClassName()'],['../classqtreports_1_1detail_1_1_text_field.html#a50c6ba3f1b96253e28666556721f9df5',1,'qtreports::detail::TextField::getClassName()']]],
   ['getdata',['getData',['../classqtreports_1_1detail_1_1_field.html#a4ecc69df8b63e2c3d3a1f8bb2701faab',1,'qtreports::detail::Field::getData(int row)'],['../classqtreports_1_1detail_1_1_field.html#a6479482ff09c2eedab090cf58c9a0ca9',1,'qtreports::detail::Field::getData(int row)']]],
@@ -31,6 +32,7 @@ var searchData=
   ['getlog',['getLog',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a1fedf145e441f88832bd7f7e4b890e28',1,'qtreports::detail::ParserFromXML']]],
   ['getmargins',['getMargins',['../classqtreports_1_1detail_1_1_report.html#ac419173360ddd88515334207755d5733',1,'qtreports::detail::Report']]],
   ['getname',['getName',['../classqtreports_1_1detail_1_1_object.html#acf3f084ddddcae074dedfe99f28eac9f',1,'qtreports::detail::Object']]],
+  ['getoptionalattribute',['getOptionalAttribute',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a478329a44761310039078ee6871a355d',1,'qtreports::detail::ParserFromXML']]],
   ['getorientation',['getOrientation',['../classqtreports_1_1detail_1_1_report.html#aa1d8698f427cfe8f89469a249681d899',1,'qtreports::detail::Report']]],
   ['getoriginaltext',['getOriginalText',['../classqtreports_1_1detail_1_1_text_widget.html#a86102d201b588219125b4bbfd2a1dade',1,'qtreports::detail::TextWidget']]],
   ['getparameter',['getParameter',['../classqtreports_1_1detail_1_1_report.html#ad9be4eb7c2bc8298ab535911c5d1e2df',1,'qtreports::detail::Report']]],
@@ -43,6 +45,7 @@ var searchData=
   ['getrects',['getRects',['../classqtreports_1_1detail_1_1_band.html#afdd4c1c109eedbcd75e5967e4c7879b8',1,'qtreports::detail::Band']]],
   ['getrectssize',['getRectsSize',['../classqtreports_1_1detail_1_1_band.html#ac2c4dfe6c30cafaeaf01bee83466af85',1,'qtreports::detail::Band']]],
   ['getreport',['getReport',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a02bfc8c0470ec16ff1bb34a5b6b78981',1,'qtreports::detail::ParserFromXML']]],
+  ['getrequiredattribute',['getRequiredAttribute',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab1cbf7385fa2d56c5e8526bf97cda9b1',1,'qtreports::detail::ParserFromXML']]],
   ['getrightmargin',['getRightMargin',['../classqtreports_1_1detail_1_1_report.html#a8a22c99b343bc9c19d8f305ccfbc2be0',1,'qtreports::detail::Report']]],
   ['getrowcount',['getRowCount',['../classqtreports_1_1detail_1_1_field.html#a53c646a9e83d661e7d19654632e764aa',1,'qtreports::detail::Field::getRowCount()'],['../classqtreports_1_1detail_1_1_report.html#aedb49125bf91cbd57285b8c23ff2e4d8',1,'qtreports::detail::Report::getRowCount()']]],
   ['getsize',['getSize',['../classqtreports_1_1detail_1_1_report.html#ad6d9cd7ef861c34b1982b7bec95873ed',1,'qtreports::detail::Report::getSize()'],['../classqtreports_1_1detail_1_1_widget.html#a1d3e0141c71b248e3c40ca7adc397305',1,'qtreports::detail::Widget::getSize()']]],
@@ -60,7 +63,9 @@ var searchData=
   ['gettextwidgetssize',['getTextWidgetsSize',['../classqtreports_1_1detail_1_1_band.html#abfd513714ddfc19cc4ce614b8d02e354',1,'qtreports::detail::Band']]],
   ['gettitle',['getTitle',['../classqtreports_1_1detail_1_1_report.html#a96085144b5a7935cbce1668da919e968',1,'qtreports::detail::Report']]],
   ['gettopmargin',['getTopMargin',['../classqtreports_1_1detail_1_1_report.html#a3924e930c60b852c276699a11394b872',1,'qtreports::detail::Report']]],
+  ['getvalue',['getValue',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a79b3db940ae07e1f3128371d529ca38b',1,'qtreports::detail::ParserFromXML']]],
   ['getwidth',['getWidth',['../classqtreports_1_1detail_1_1_report.html#a257b935d6c7f136c46bdb3d4bf806041',1,'qtreports::detail::Report::getWidth()'],['../classqtreports_1_1detail_1_1_widget.html#a5f35a2f07f750cb8c9bbf0e4a798ffa9',1,'qtreports::detail::Widget::getWidth()']]],
   ['getx',['getX',['../classqtreports_1_1detail_1_1_widget.html#a942aa31fb96a404e2ac485ca55768bcb',1,'qtreports::detail::Widget']]],
-  ['gety',['getY',['../classqtreports_1_1detail_1_1_widget.html#ab42c49b415c4800d263a86987f6e710f',1,'qtreports::detail::Widget']]]
+  ['gety',['getY',['../classqtreports_1_1detail_1_1_widget.html#ab42c49b415c4800d263a86987f6e710f',1,'qtreports::detail::Widget']]],
+  ['gotoelementend',['goToElementEnd',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf',1,'qtreports::detail::ParserFromXML']]]
 ];
