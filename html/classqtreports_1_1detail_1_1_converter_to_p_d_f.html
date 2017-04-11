@@ -109,12 +109,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 &#160;</td><td class="memItemRight" valign="bottom"><b>ConverterToPDF</b> (const ReportPtr &amp;report)</td></tr>
 <tr class="separator:ac41383eede72f1b3296bd310e13cab6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af39953d8db1bdcbbcf59cc00b05747eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb">convert</a> (const QString &amp;path)</td></tr>
+<tr class="memdesc:af39953d8db1bdcbbcf59cc00b05747eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает процесс конвертации.  <a href="#af39953d8db1bdcbbcf59cc00b05747eb">Подробнее...</a><br /></td></tr>
 <tr class="separator:af39953d8db1bdcbbcf59cc00b05747eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cac83dd515822a5c3c7560ef5eb5fd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a2cac83dd515822a5c3c7560ef5eb5fd8">setDPI</a> (int dpi)</td></tr>
+<tr class="memdesc:a2cac83dd515822a5c3c7560ef5eb5fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Устанавливает DPI.  <a href="#a2cac83dd515822a5c3c7560ef5eb5fd8">Подробнее...</a><br /></td></tr>
 <tr class="separator:a2cac83dd515822a5c3c7560ef5eb5fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1069b167434da43b9428ffa3a556a3b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a1069b167434da43b9428ffa3a556a3b3">getDPI</a> () const </td></tr>
+<tr class="memitem:a1069b167434da43b9428ffa3a556a3b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1069b167434da43b9428ffa3a556a3b3"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a1069b167434da43b9428ffa3a556a3b3">getDPI</a> () const </td></tr>
+<tr class="memdesc:a1069b167434da43b9428ffa3a556a3b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает текущее значение DPI. <br /></td></tr>
 <tr class="separator:a1069b167434da43b9428ffa3a556a3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d5862efb544884825efeafcf6fec683"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a2d5862efb544884825efeafcf6fec683">getLastError</a> () const </td></tr>
+<tr class="memitem:a2d5862efb544884825efeafcf6fec683"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d5862efb544884825efeafcf6fec683"></a>
+const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a2d5862efb544884825efeafcf6fec683">getLastError</a> () const </td></tr>
+<tr class="memdesc:a2d5862efb544884825efeafcf6fec683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает строку, содержащую описание последней произошедшей ошибки. <br /></td></tr>
 <tr class="separator:a2d5862efb544884825efeafcf6fec683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -137,7 +143,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dpi</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
 <div class="textblock"><p>Класс, используемый для конвертации документа в PDF формат. </p>
-<dl class="section note"><dt>Заметки</dt><dd>Все функции данного класса, возвращающие bool, возвращают true в случае успеха либо false, если во время выполнения произошли ошибки. При этом с помощью метода <a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a2d5862efb544884825efeafcf6fec683">getLastError()</a> можно получить описание последней произошедшей ошибки.</dd></dl>
+<dl class="section note"><dt>Заметки</dt><dd>Все функции данного класса, возвращающие bool, возвращают true в случае успеха либо false, если во время выполнения произошли ошибки. При этом с помощью метода <a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a2d5862efb544884825efeafcf6fec683" title="Возвращает строку, содержащую описание последней произошедшей ошибки. ">getLastError()</a> можно получить описание последней произошедшей ошибки.</dd></dl>
 <p>Класс, используемый для конвертации документа в PDF формат. Поддерживает установку DPI. </p>
 </div><h2 class="groupheader">Методы</h2>
 <a class="anchor" id="af39953d8db1bdcbbcf59cc00b05747eb"></a>
@@ -153,44 +159,14 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dpi</b></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Запускает процесс конвертации. Путь может быть полным или относительным, примеры: "C:/example.pdf" "example.pdf" </p><dl class="params"><dt>Аргументы</dt><dd>
+
+<p>Запускает процесс конвертации. </p>
+<p>Путь может быть полным или относительным, примеры: "C:/example.pdf" "example.pdf" </p><dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>Путь, по которому будет создан PDF документ. </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a class="anchor" id="a1069b167434da43b9428ffa3a556a3b3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int qtreports::detail::ConverterToPDF::getDPI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Возвращает текущее значение DPI </p>
-
-</div>
-</div>
-<a class="anchor" id="a2d5862efb544884825efeafcf6fec683"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const QString qtreports::detail::ConverterToPDF::getLastError </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Возвращает строку, содержащую описание последней произошедшей ошибки. </p>
 
 </div>
 </div>
@@ -207,7 +183,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dpi</b></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Устанавливает DPI </p><dl class="params"><dt>Аргументы</dt><dd>
+
+<p>Устанавливает DPI. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dpi</td><td>Новое значение DPI </td></tr>
   </table>
