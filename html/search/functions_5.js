@@ -14,6 +14,7 @@ var searchData=
   ['parsegroupheader',['parseGroupHeader',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a92ffb4f04daa047da0ddfe3d583262',1,'qtreports::detail::ParserFromXML']]],
   ['parseimage',['parseImage',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a877a6f05ca0b9dda625083f9860202cc',1,'qtreports::detail::ParserFromXML']]],
   ['parseimageexpression',['parseImageExpression',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5bb40e2d4ed991c7d61f2c16d8aeaf26',1,'qtreports::detail::ParserFromXML']]],
+  ['parseinitialvalueexpression',['parseInitialValueExpression',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a7b3d2910b7db68f10044fa5146c808f6',1,'qtreports::detail::ParserFromXML']]],
   ['parseline',['parseLine',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a14d5b8d1921d17d067c10554864120a2',1,'qtreports::detail::ParserFromXML']]],
   ['parsequerystring',['parseQueryString',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a027c1caea8508dc831486969bc47734c',1,'qtreports::detail::ParserFromXML']]],
   ['parserect',['parseRect',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8b364c4886eb32dc960079052e5158ec',1,'qtreports::detail::ParserFromXML']]],
@@ -25,5 +26,7 @@ var searchData=
   ['parsetextelement',['parseTextElement',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe',1,'qtreports::detail::ParserFromXML']]],
   ['parsetextfield',['parseTextField',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a6249b073f54ee7fbb194e467349b9f4f',1,'qtreports::detail::ParserFromXML']]],
   ['parsetextfieldexpression',['parseTextFieldExpression',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a459f21efce7b714320d84d304d304d60',1,'qtreports::detail::ParserFromXML']]],
-  ['parsetitle',['parseTitle',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a88dc32b7c6b8727e6a7fed5e222a7aab',1,'qtreports::detail::ParserFromXML']]]
+  ['parsetitle',['parseTitle',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a88dc32b7c6b8727e6a7fed5e222a7aab',1,'qtreports::detail::ParserFromXML']]],
+  ['parsevariable',['parseVariable',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#abae86fff31affc499e427922f199dfd6',1,'qtreports::detail::ParserFromXML']]],
+  ['parsevariableexpression',['parseVariableExpression',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ae098d2d009cd6937196461de43652cf1',1,'qtreports::detail::ParserFromXML']]]
 ];

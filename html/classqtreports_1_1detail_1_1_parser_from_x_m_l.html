@@ -236,6 +236,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a5bb40e2d4ed991c7d61f2c16d8aeaf26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5bb40e2d4ed991c7d61f2c16d8aeaf26">parseImageExpression</a> (QXmlStreamReader &amp;reader, const ImagePtr &amp;image)</td></tr>
 <tr class="memdesc:a5bb40e2d4ed991c7d61f2c16d8aeaf26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит текст (imageExpression) для image.  <a href="#a5bb40e2d4ed991c7d61f2c16d8aeaf26">Подробнее...</a><br /></td></tr>
 <tr class="separator:a5bb40e2d4ed991c7d61f2c16d8aeaf26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae86fff31affc499e427922f199dfd6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#abae86fff31affc499e427922f199dfd6">parseVariable</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:abae86fff31affc499e427922f199dfd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тег variable.  <a href="#abae86fff31affc499e427922f199dfd6">Подробнее...</a><br /></td></tr>
+<tr class="separator:abae86fff31affc499e427922f199dfd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae098d2d009cd6937196461de43652cf1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ae098d2d009cd6937196461de43652cf1">parseVariableExpression</a> (QXmlStreamReader &amp;reader, const VariablePtr &amp;variable)</td></tr>
+<tr class="memdesc:ae098d2d009cd6937196461de43652cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит текст (VariableExpression) для variable.  <a href="#ae098d2d009cd6937196461de43652cf1">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae098d2d009cd6937196461de43652cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3d2910b7db68f10044fa5146c808f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a7b3d2910b7db68f10044fa5146c808f6">parseInitialValueExpression</a> (QXmlStreamReader &amp;reader, const VariablePtr &amp;variable)</td></tr>
+<tr class="memdesc:a7b3d2910b7db68f10044fa5146c808f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит текст (InitialValueExpression) для variable.  <a href="#a7b3d2910b7db68f10044fa5146c808f6">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7b3d2910b7db68f10044fa5146c808f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Закрытые данные</h2></td></tr>
@@ -981,6 +990,48 @@ QMap&lt; QString, ParseFunc &gt;&#160;</td><td class="memItemRight" valign="bott
 
 </div>
 </div>
+<a class="anchor" id="a7b3d2910b7db68f10044fa5146c808f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseInitialValueExpression </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VariablePtr &amp;&#160;</td>
+          <td class="paramname"><em>variable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит текст (InitialValueExpression) для variable. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">variable</td><td>тэг variable, текущий объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a14d5b8d1921d17d067c10554864120a2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1479,6 +1530,90 @@ QMap&lt; QString, ParseFunc &gt;&#160;</td><td class="memItemRight" valign="bott
 <dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abae86fff31affc499e427922f199dfd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseVariable </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тег variable. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>тэг report, текущий объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae098d2d009cd6937196461de43652cf1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseVariableExpression </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VariablePtr &amp;&#160;</td>
+          <td class="paramname"><em>variable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит текст (VariableExpression) для variable. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">variable</td><td>тэг variable, текущий объект </td></tr>
   </table>
   </dd>
 </dl>

@@ -9,5 +9,6 @@ var searchData=
   ['addscript',['addScript',['../classqtreports_1_1_engine.html#a336b9687b971d58798b1a7833ca5a74a',1,'qtreports::Engine']]],
   ['addstatictext',['addStaticText',['../classqtreports_1_1detail_1_1_band.html#ad495e3bbc1d9291746533f6c8d7b1229',1,'qtreports::detail::Band']]],
   ['addstyle',['addStyle',['../classqtreports_1_1detail_1_1_report.html#a1d84e45ea0cd0a132162247a061a7dd1',1,'qtreports::detail::Report']]],
-  ['addtextfield',['addTextField',['../classqtreports_1_1detail_1_1_band.html#af4609fb4af26484079ab6e7f9eed8c87',1,'qtreports::detail::Band']]]
+  ['addtextfield',['addTextField',['../classqtreports_1_1detail_1_1_band.html#af4609fb4af26484079ab6e7f9eed8c87',1,'qtreports::detail::Band']]],
+  ['addvariable',['addVariable',['../classqtreports_1_1detail_1_1_report.html#a24430c2e89eca6f2819d05c9020706ba',1,'qtreports::detail::Report']]]
 ];
