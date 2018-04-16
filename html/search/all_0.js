@@ -10,6 +10,5 @@ var searchData=
   ['addstatictext',['addStaticText',['../classqtreports_1_1detail_1_1_band.html#ad495e3bbc1d9291746533f6c8d7b1229',1,'qtreports::detail::Band']]],
   ['addstyle',['addStyle',['../classqtreports_1_1detail_1_1_report.html#a1d84e45ea0cd0a132162247a061a7dd1',1,'qtreports::detail::Report']]],
   ['addtextfield',['addTextField',['../classqtreports_1_1detail_1_1_band.html#af4609fb4af26484079ab6e7f9eed8c87',1,'qtreports::detail::Band']]],
-  ['addvariable',['addVariable',['../classqtreports_1_1detail_1_1_report.html#a24430c2e89eca6f2819d05c9020706ba',1,'qtreports::detail::Report']]],
   ['attributeoption',['AttributeOption',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3f',1,'qtreports::detail::ParserFromXML']]]
 ];

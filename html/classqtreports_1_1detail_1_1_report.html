@@ -132,17 +132,6 @@ const StylePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 const QMap&lt; QString, StylePtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#abc16908148ab474dd24d5850292aa69f">getStyles</a> () const </td></tr>
 <tr class="memdesc:abc16908148ab474dd24d5850292aa69f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает карту указателей на &lt;style&gt; <br /></td></tr>
 <tr class="separator:abc16908148ab474dd24d5850292aa69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24430c2e89eca6f2819d05c9020706ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#a24430c2e89eca6f2819d05c9020706ba">addVariable</a> (const QString &amp;name, const VariablePtr &amp;variable)</td></tr>
-<tr class="memdesc:a24430c2e89eca6f2819d05c9020706ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет &lt;variable&gt; в &lt;report&gt;  <a href="#a24430c2e89eca6f2819d05c9020706ba">Подробнее...</a><br /></td></tr>
-<tr class="separator:a24430c2e89eca6f2819d05c9020706ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b23a1a420c5a557f2516d7669043593"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b23a1a420c5a557f2516d7669043593"></a>
-const VariablePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#a8b23a1a420c5a557f2516d7669043593">getVariable</a> (const QString &amp;name) const </td></tr>
-<tr class="memdesc:a8b23a1a420c5a557f2516d7669043593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает указатель на &lt;variable&gt; по имени <br /></td></tr>
-<tr class="separator:a8b23a1a420c5a557f2516d7669043593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed3e1dedc65faef4f79e9a67de4350ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed3e1dedc65faef4f79e9a67de4350ca"></a>
-const QMap&lt; QString, VariablePtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#aed3e1dedc65faef4f79e9a67de4350ca">getVariables</a> () const </td></tr>
-<tr class="memdesc:aed3e1dedc65faef4f79e9a67de4350ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает карту указателей на &lt;variable&gt; <br /></td></tr>
-<tr class="separator:aed3e1dedc65faef4f79e9a67de4350ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c91cfef8636b62a8a3e62504d3a76d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#a9c91cfef8636b62a8a3e62504d3a76d8">addGroup</a> (const QString &amp;name, const GroupPtr &amp;group)</td></tr>
 <tr class="memdesc:a9c91cfef8636b62a8a3e62504d3a76d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет &lt;group&gt; в &lt;report&gt;  <a href="#a9c91cfef8636b62a8a3e62504d3a76d8">Подробнее...</a><br /></td></tr>
 <tr class="separator:a9c91cfef8636b62a8a3e62504d3a76d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,9 +347,6 @@ DetailPtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_detail</b></td
 <tr class="memitem:a987c0915f293a2b4fbbdcb792f2b4ddf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a987c0915f293a2b4fbbdcb792f2b4ddf"></a>
 QMap&lt; QString, QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_parameters</b></td></tr>
 <tr class="separator:a987c0915f293a2b4fbbdcb792f2b4ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae77db03e2a7facfe6b19c211e7233060"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae77db03e2a7facfe6b19c211e7233060"></a>
-QMap&lt; QString, VariablePtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_variables</b></td></tr>
-<tr class="separator:ae77db03e2a7facfe6b19c211e7233060"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0726fe1e300697172d3482202142a95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0726fe1e300697172d3482202142a95"></a>
 QVector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_group_vec</b></td></tr>
 <tr class="separator:aa0726fe1e300697172d3482202142a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,41 +432,6 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastError</b></t
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Имя стиля </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">style</td><td>Указатель на &lt;style&gt; </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a24430c2e89eca6f2819d05c9020706ba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void qtreports::detail::Report::addVariable </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VariablePtr &amp;&#160;</td>
-          <td class="paramname"><em>variable</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Добавляет &lt;variable&gt; в &lt;report&gt; </p>
-<dl class="params"><dt>Аргументы</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Имя стиля </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">style</td><td>Указатель на &lt;variable&gt; </td></tr>
   </table>
   </dd>
 </dl>
