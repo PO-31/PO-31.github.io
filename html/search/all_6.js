@@ -53,7 +53,7 @@ var searchData=
   ['getstatictexts',['getStaticTexts',['../classqtreports_1_1detail_1_1_band.html#a060f906c4eb5afe9d6dcdbe33b935d09',1,'qtreports::detail::Band']]],
   ['getstatictextssize',['getStaticTextsSize',['../classqtreports_1_1detail_1_1_band.html#aa154d5e1eef9be35f5ec44a8d0b13e00',1,'qtreports::detail::Band']]],
   ['getstyle',['getStyle',['../classqtreports_1_1detail_1_1_report.html#a7455c33806b08cc24743e5674be8f595',1,'qtreports::detail::Report::getStyle()'],['../classqtreports_1_1detail_1_1_widget.html#a4cc11637be41c05d224c6f59261caafa',1,'qtreports::detail::Widget::getStyle()']]],
-  ['getstyles',['getStyles',['../classqtreports_1_1detail_1_1_report.html#abc16908148ab474dd24d5850292aa69f',1,'qtreports::detail::Report']]],
+  ['getstyles',['getStyles',['../classqtreports_1_1detail_1_1_report.html#aa72ed4d099be47d70757685cf5921a27',1,'qtreports::detail::Report']]],
   ['gettagname',['getTagName',['../classqtreports_1_1detail_1_1_object.html#a422e2eea58e5698b7069de43fdca995c',1,'qtreports::detail::Object']]],
   ['gettext',['getText',['../classqtreports_1_1detail_1_1_query_string.html#a6eafd05ad897935806b1699d49e1b250',1,'qtreports::detail::QueryString::getText()'],['../classqtreports_1_1detail_1_1_text_widget.html#ad823fa8df671a3776b939c9808661feb',1,'qtreports::detail::TextWidget::getText()']]],
   ['gettextfield',['getTextField',['../classqtreports_1_1detail_1_1_band.html#acffc1d8fc7cd651607d596cb0681d128',1,'qtreports::detail::Band']]],
