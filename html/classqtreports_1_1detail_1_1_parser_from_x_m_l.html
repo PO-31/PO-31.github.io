@@ -1,0 +1,1500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>QtReports: Класс qtreports::detail::ParserFromXML</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">QtReports
+   &#160;<span id="projectnumber">0.3.0</span>
+   </div>
+   <div id="projectbrief">Reimplementation of JasperReports in Qt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="hierarchy.html"><span>Иерархия&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>qtreports</b></li><li class="navelem"><b>detail</b></li><li class="navelem"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html">ParserFromXML</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-types">Закрытые типы</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="classqtreports_1_1detail_1_1_parser_from_x_m_l-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс qtreports::detail::ParserFromXML</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс, используемый для парсинга исходного отчета.  
+ <a href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="parserfromxml_8hpp_source.html">parserfromxml.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:ae0183c3fb19f0befae617d719b525285"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0183c3fb19f0befae617d719b525285"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParseFuncPtr</b> = bool(QXmlStreamReader &amp;, const ObjectPtr &amp;)</td></tr>
+<tr class="separator:ae0183c3fb19f0befae617d719b525285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a025c60de376de47b95464a744af6cc30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a025c60de376de47b95464a744af6cc30"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParseMethodPtr</b> = bool(ParserFromXML::*)(QXmlStreamReader &amp;, const ObjectPtr &amp;)</td></tr>
+<tr class="separator:a025c60de376de47b95464a744af6cc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec42eb3dff48f43fdaa4d5a68ef87a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ec42eb3dff48f43fdaa4d5a68ef87a4"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParseFunc</b> = std::function&lt; ParseFuncPtr &gt;</td></tr>
+<tr class="separator:a0ec42eb3dff48f43fdaa4d5a68ef87a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ac5de42ec7fdd07773b0435484df51c2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ac5de42ec7fdd07773b0435484df51c2e">parse</a> (const QString &amp;path)</td></tr>
+<tr class="memdesc:ac5de42ec7fdd07773b0435484df51c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсит отчет и создает из него внутреннюю структуру данных <a class="el" href="classqtreports_1_1detail_1_1_report.html" title="Класс, реализующий тэг &lt;report&gt; ">Report</a>.  <a href="#ac5de42ec7fdd07773b0435484df51c2e">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac5de42ec7fdd07773b0435484df51c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02bfc8c0470ec16ff1bb34a5b6b78981"><td class="memItemLeft" align="right" valign="top">const ReportPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a02bfc8c0470ec16ff1bb34a5b6b78981">getReport</a> () const </td></tr>
+<tr class="memdesc:a02bfc8c0470ec16ff1bb34a5b6b78981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает указатель на внутреннюю структуру отчета.  <a href="#a02bfc8c0470ec16ff1bb34a5b6b78981">Подробнее...</a><br /></td></tr>
+<tr class="separator:a02bfc8c0470ec16ff1bb34a5b6b78981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39cecb46637a228bcc6135a2cc2eb7a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39cecb46637a228bcc6135a2cc2eb7a9"></a>
+const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a39cecb46637a228bcc6135a2cc2eb7a9">getLastError</a> () const </td></tr>
+<tr class="memdesc:a39cecb46637a228bcc6135a2cc2eb7a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает описание последней произошедшей ошибки. <br /></td></tr>
+<tr class="separator:a39cecb46637a228bcc6135a2cc2eb7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fedf145e441f88832bd7f7e4b890e28"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a1fedf145e441f88832bd7f7e4b890e28">getLog</a> () const </td></tr>
+<tr class="memdesc:a1fedf145e441f88832bd7f7e4b890e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает лог процесса парсинга.  <a href="#a1fedf145e441f88832bd7f7e4b890e28">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1fedf145e441f88832bd7f7e4b890e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Закрытые типы</h2></td></tr>
+<tr class="memitem:a0d7770fab9a27418149a44cb48f18a3f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3f">AttributeOption</a> { <a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3fab651efdb98a5d6bd2b3935d0c3f4a5e2">AttributeOption::Required</a> = 0, 
+<a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3faebb061953c0454b2c8ee7b0ac615ebcd">AttributeOption::Optional</a>
+ }<tr class="memdesc:a0d7770fab9a27418149a44cb48f18a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Опции при получении аттрибута с помощью вызова <a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" title="Записывает в data значение аттрибута с именем name текущего тэга ">getAttribute()</a>.  <a href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3f">Подробнее...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a0d7770fab9a27418149a44cb48f18a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:a79b3db940ae07e1f3128371d529ca38b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a79b3db940ae07e1f3128371d529ca38b">getValue</a> (QXmlStreamReader &amp;reader, QString &amp;data)</td></tr>
+<tr class="memdesc:a79b3db940ae07e1f3128371d529ca38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Считывает xml элемент в data.  <a href="#a79b3db940ae07e1f3128371d529ca38b">Подробнее...</a><br /></td></tr>
+<tr class="separator:a79b3db940ae07e1f3128371d529ca38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0cab06b62d590495eaa6a16465ed2b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4">getAttribute</a> (QXmlStreamReader &amp;reader, const QString &amp;name, QString &amp;data, <a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3f">AttributeOption</a> option)</td></tr>
+<tr class="memdesc:ad0cab06b62d590495eaa6a16465ed2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Записывает в data значение аттрибута с именем name текущего тэга  <a href="#ad0cab06b62d590495eaa6a16465ed2b4">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad0cab06b62d590495eaa6a16465ed2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1cbf7385fa2d56c5e8526bf97cda9b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1cbf7385fa2d56c5e8526bf97cda9b1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab1cbf7385fa2d56c5e8526bf97cda9b1">getRequiredAttribute</a> (QXmlStreamReader &amp;reader, const QString &amp;name, QString &amp;data)</td></tr>
+<tr class="memdesc:ab1cbf7385fa2d56c5e8526bf97cda9b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вызывает функцию getAttribute с переданными параметрами и с параметром option - "обязательный аттрибут". <br /></td></tr>
+<tr class="separator:ab1cbf7385fa2d56c5e8526bf97cda9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478329a44761310039078ee6871a355d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a478329a44761310039078ee6871a355d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a478329a44761310039078ee6871a355d">getOptionalAttribute</a> (QXmlStreamReader &amp;reader, const QString &amp;name, QString &amp;data)</td></tr>
+<tr class="memdesc:a478329a44761310039078ee6871a355d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вызывает функцию getAttribute с переданными параметрами и с параметром option - "опциональный аттрибут". <br /></td></tr>
+<tr class="separator:a478329a44761310039078ee6871a355d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace9dca09d283384d721c2a985991c9bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace9dca09d283384d721c2a985991c9bf"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf">goToElementEnd</a> (QXmlStreamReader &amp;reader)</td></tr>
+<tr class="memdesc:ace9dca09d283384d721c2a985991c9bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Устанавлиает курсор reader(а) к к началу следующего тэга или к концу документа <br /></td></tr>
+<tr class="separator:ace9dca09d283384d721c2a985991c9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905c36f37ab8c2833ab85e4d8c22716f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f">parseChilds</a> (QXmlStreamReader &amp;reader, const ObjectPtr &amp;object)</td></tr>
+<tr class="memdesc:a905c36f37ab8c2833ab85e4d8c22716f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит дочерние тэги объекта object.  <a href="#a905c36f37ab8c2833ab85e4d8c22716f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a905c36f37ab8c2833ab85e4d8c22716f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa67a21faa016b0ef4686b22a390fd446"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aa67a21faa016b0ef4686b22a390fd446">parseDocument</a> (const QString &amp;text)</td></tr>
+<tr class="memdesc:aa67a21faa016b0ef4686b22a390fd446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Начинает парсинг документа  <a href="#aa67a21faa016b0ef4686b22a390fd446">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa67a21faa016b0ef4686b22a390fd446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8247dc85ae5cae03ab3f175982a0857e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8247dc85ae5cae03ab3f175982a0857e">parseReport</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:a8247dc85ae5cae03ab3f175982a0857e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг report.  <a href="#a8247dc85ae5cae03ab3f175982a0857e">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8247dc85ae5cae03ab3f175982a0857e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a366e39f908935a618b137e7e27496c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a366e39f908935a618b137e7e27496c">parseStyle</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:a5a366e39f908935a618b137e7e27496c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг style.  <a href="#a5a366e39f908935a618b137e7e27496c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5a366e39f908935a618b137e7e27496c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027c1caea8508dc831486969bc47734c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a027c1caea8508dc831486969bc47734c">parseQueryString</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:a027c1caea8508dc831486969bc47734c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит запросы  <a href="#a027c1caea8508dc831486969bc47734c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a027c1caea8508dc831486969bc47734c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a5b5081956769e0d219779407ba76c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a20a5b5081956769e0d219779407ba76c">parseField</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:a20a5b5081956769e0d219779407ba76c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_field.html" title="Класс, реализующий тэг &lt;field&gt; ">Field</a>.  <a href="#a20a5b5081956769e0d219779407ba76c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a20a5b5081956769e0d219779407ba76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477a961860b1de77b5a0da28e361987a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a477a961860b1de77b5a0da28e361987a">parseGroup</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:a477a961860b1de77b5a0da28e361987a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг group.  <a href="#a477a961860b1de77b5a0da28e361987a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a477a961860b1de77b5a0da28e361987a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5227072dac0a691b04214b47f55f96ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5227072dac0a691b04214b47f55f96ad">parseGroupExpression</a> (QXmlStreamReader &amp;reader, const GroupPtr &amp;group)</td></tr>
+<tr class="memdesc:a5227072dac0a691b04214b47f55f96ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг groupExpression.  <a href="#a5227072dac0a691b04214b47f55f96ad">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5227072dac0a691b04214b47f55f96ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a92ffb4f04daa047da0ddfe3d583262"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a92ffb4f04daa047da0ddfe3d583262">parseGroupHeader</a> (QXmlStreamReader &amp;reader, const GroupPtr &amp;group)</td></tr>
+<tr class="memdesc:a5a92ffb4f04daa047da0ddfe3d583262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг groupHeader.  <a href="#a5a92ffb4f04daa047da0ddfe3d583262">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5a92ffb4f04daa047da0ddfe3d583262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfd1224b98c50412fd1b1897da5a362a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#acfd1224b98c50412fd1b1897da5a362a">parseGroupFooter</a> (QXmlStreamReader &amp;reader, const GroupPtr &amp;group)</td></tr>
+<tr class="memdesc:acfd1224b98c50412fd1b1897da5a362a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг groupFooter.  <a href="#acfd1224b98c50412fd1b1897da5a362a">Подробнее...</a><br /></td></tr>
+<tr class="separator:acfd1224b98c50412fd1b1897da5a362a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88dc32b7c6b8727e6a7fed5e222a7aab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a88dc32b7c6b8727e6a7fed5e222a7aab">parseTitle</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:a88dc32b7c6b8727e6a7fed5e222a7aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_title.html" title="Класс, реализующий тэг &lt;title&gt; ">Title</a>.  <a href="#a88dc32b7c6b8727e6a7fed5e222a7aab">Подробнее...</a><br /></td></tr>
+<tr class="separator:a88dc32b7c6b8727e6a7fed5e222a7aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d177b44a8d13065f226fd7940bdde0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a79d177b44a8d13065f226fd7940bdde0">parseDetail</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:a79d177b44a8d13065f226fd7940bdde0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_detail.html" title="Класс, реализующий тэг &lt;detail&gt; ">Detail</a>.  <a href="#a79d177b44a8d13065f226fd7940bdde0">Подробнее...</a><br /></td></tr>
+<tr class="separator:a79d177b44a8d13065f226fd7940bdde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04b8018f1bb3d60ecb6525f31d29885"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#af04b8018f1bb3d60ecb6525f31d29885">parseBand</a> (QXmlStreamReader &amp;reader, const SectionPtr &amp;section)</td></tr>
+<tr class="memdesc:af04b8018f1bb3d60ecb6525f31d29885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_band.html" title="Класс, реализующий тэг &lt;band&gt; ">Band</a>.  <a href="#af04b8018f1bb3d60ecb6525f31d29885">Подробнее...</a><br /></td></tr>
+<tr class="separator:af04b8018f1bb3d60ecb6525f31d29885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53c4121976bc3f27125f8f698d4d8304"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a53c4121976bc3f27125f8f698d4d8304">parseStaticText</a> (QXmlStreamReader &amp;reader, const BandPtr &amp;band)</td></tr>
+<tr class="memdesc:a53c4121976bc3f27125f8f698d4d8304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_static_text.html" title="Класс, реализующий тэг &lt;staticText&gt; ">StaticText</a>.  <a href="#a53c4121976bc3f27125f8f698d4d8304">Подробнее...</a><br /></td></tr>
+<tr class="separator:a53c4121976bc3f27125f8f698d4d8304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6249b073f54ee7fbb194e467349b9f4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a6249b073f54ee7fbb194e467349b9f4f">parseTextField</a> (QXmlStreamReader &amp;reader, const BandPtr &amp;band)</td></tr>
+<tr class="memdesc:a6249b073f54ee7fbb194e467349b9f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_text_field.html" title="Класс, реализующий тэг &lt;textField&gt; ">TextField</a>.  <a href="#a6249b073f54ee7fbb194e467349b9f4f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6249b073f54ee7fbb194e467349b9f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d5b8d1921d17d067c10554864120a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a14d5b8d1921d17d067c10554864120a2">parseLine</a> (QXmlStreamReader &amp;reader, const BandPtr &amp;band)</td></tr>
+<tr class="memdesc:a14d5b8d1921d17d067c10554864120a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_line.html" title="Класс, реализующий тэг &lt;line&gt; ">Line</a>.  <a href="#a14d5b8d1921d17d067c10554864120a2">Подробнее...</a><br /></td></tr>
+<tr class="separator:a14d5b8d1921d17d067c10554864120a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b364c4886eb32dc960079052e5158ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8b364c4886eb32dc960079052e5158ec">parseRect</a> (QXmlStreamReader &amp;reader, const BandPtr &amp;band)</td></tr>
+<tr class="memdesc:a8b364c4886eb32dc960079052e5158ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_rect.html" title="Класс, реализующий тэг &lt;rect&gt; ">Rect</a>.  <a href="#a8b364c4886eb32dc960079052e5158ec">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8b364c4886eb32dc960079052e5158ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc4d03466c276ea931ad46b295d5ee7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a7dc4d03466c276ea931ad46b295d5ee7">parseEllipse</a> (QXmlStreamReader &amp;reader, const BandPtr &amp;band)</td></tr>
+<tr class="memdesc:a7dc4d03466c276ea931ad46b295d5ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_ellipse.html" title="Класс, реализующий тэг &lt;ellipse&gt; ">Ellipse</a>.  <a href="#a7dc4d03466c276ea931ad46b295d5ee7">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7dc4d03466c276ea931ad46b295d5ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877a6f05ca0b9dda625083f9860202cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a877a6f05ca0b9dda625083f9860202cc">parseImage</a> (QXmlStreamReader &amp;reader, const BandPtr &amp;band)</td></tr>
+<tr class="memdesc:a877a6f05ca0b9dda625083f9860202cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_image.html" title="Класс, реализующий тэг &lt;image&gt; ">Image</a>.  <a href="#a877a6f05ca0b9dda625083f9860202cc">Подробнее...</a><br /></td></tr>
+<tr class="separator:a877a6f05ca0b9dda625083f9860202cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee6cb5359125988f68abfcd2f6fe4514"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aee6cb5359125988f68abfcd2f6fe4514">parseReportElement</a> (QXmlStreamReader &amp;reader, const WidgetPtr &amp;widget)</td></tr>
+<tr class="memdesc:aee6cb5359125988f68abfcd2f6fe4514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг ReportElement - общие данные о элементе отчета (положение, размеры и пр.)  <a href="#aee6cb5359125988f68abfcd2f6fe4514">Подробнее...</a><br /></td></tr>
+<tr class="separator:aee6cb5359125988f68abfcd2f6fe4514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3693d70428f413c6adb999bf0ad69abe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe">parseTextElement</a> (QXmlStreamReader &amp;reader, const WidgetPtr &amp;widget)</td></tr>
+<tr class="memdesc:a3693d70428f413c6adb999bf0ad69abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит тэг TextElement - общие данные о текстовом элементе (выравнивание текста и пр.)  <a href="#a3693d70428f413c6adb999bf0ad69abe">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3693d70428f413c6adb999bf0ad69abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f7803080037058f482a499ebc1a51ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a4f7803080037058f482a499ebc1a51ee">parseFont</a> (QXmlStreamReader &amp;reader, const WidgetPtr &amp;widget)</td></tr>
+<tr class="memdesc:a4f7803080037058f482a499ebc1a51ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит font - данные о шрифте текста  <a href="#a4f7803080037058f482a499ebc1a51ee">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4f7803080037058f482a499ebc1a51ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae037521ded63aa8447653b9079b4de08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ae037521ded63aa8447653b9079b4de08">parseText</a> (QXmlStreamReader &amp;reader, const StaticTextPtr &amp;text)</td></tr>
+<tr class="memdesc:ae037521ded63aa8447653b9079b4de08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит текст для staticText.  <a href="#ae037521ded63aa8447653b9079b4de08">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae037521ded63aa8447653b9079b4de08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a459f21efce7b714320d84d304d304d60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a459f21efce7b714320d84d304d304d60">parseTextFieldExpression</a> (QXmlStreamReader &amp;reader, const TextFieldPtr &amp;text)</td></tr>
+<tr class="memdesc:a459f21efce7b714320d84d304d304d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит текст для textField.  <a href="#a459f21efce7b714320d84d304d304d60">Подробнее...</a><br /></td></tr>
+<tr class="separator:a459f21efce7b714320d84d304d304d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb40e2d4ed991c7d61f2c16d8aeaf26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5bb40e2d4ed991c7d61f2c16d8aeaf26">parseImageExpression</a> (QXmlStreamReader &amp;reader, const ImagePtr &amp;image)</td></tr>
+<tr class="memdesc:a5bb40e2d4ed991c7d61f2c16d8aeaf26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсерит текст (imageExpression) для image.  <a href="#a5bb40e2d4ed991c7d61f2c16d8aeaf26">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5bb40e2d4ed991c7d61f2c16d8aeaf26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:afc21e89b3b0fc2a48f5a2c41ab007673"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc21e89b3b0fc2a48f5a2c41ab007673"></a>
+ReportPtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_report</b></td></tr>
+<tr class="separator:afc21e89b3b0fc2a48f5a2c41ab007673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ce9e9ce0226d8ae6895a200d5f4893"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33ce9e9ce0226d8ae6895a200d5f4893"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastError</b></td></tr>
+<tr class="separator:a33ce9e9ce0226d8ae6895a200d5f4893"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29cacbdc56b832513e58b18184dc4179"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29cacbdc56b832513e58b18184dc4179"></a>
+QTextStream&#160;</td><td class="memItemRight" valign="bottom"><b>m_log</b></td></tr>
+<tr class="separator:a29cacbdc56b832513e58b18184dc4179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a165bb9727c93c7a01d0f6ceca9bf1dae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a165bb9727c93c7a01d0f6ceca9bf1dae"></a>
+QMap&lt; QString, ParseFunc &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_functions</b></td></tr>
+<tr class="separator:a165bb9727c93c7a01d0f6ceca9bf1dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс, используемый для парсинга исходного отчета. </p>
+<dl class="section warning"><dt>Предупреждения</dt><dd>Все функции данного класса, возвращающие bool, возвращают true в случае успеха либо false, если во время выполнения произошли ошибки. При этом с помощью метода <a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a39cecb46637a228bcc6135a2cc2eb7a9" title="Возвращает описание последней произошедшей ошибки. ">getLastError()</a> можно получить описание последней произошедшей ошибки.</dd></dl>
+<p>Класс, который отвечает за парсинг отчета и создание из него внутренней структуры данных <a class="el" href="classqtreports_1_1detail_1_1_report.html" title="Класс, реализующий тэг &lt;report&gt; ">Report</a>. </p>
+</div><h2 class="groupheader">Перечисления</h2>
+<a class="anchor" id="a0d7770fab9a27418149a44cb48f18a3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3f">qtreports::detail::ParserFromXML::AttributeOption</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Опции при получении аттрибута с помощью вызова <a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" title="Записывает в data значение аттрибута с именем name текущего тэга ">getAttribute()</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a class="anchor" id="a0d7770fab9a27418149a44cb48f18a3fab651efdb98a5d6bd2b3935d0c3f4a5e2"></a>Required&#160;</td><td class="fielddoc">
+<p>При отсутствии аттрибута будет выдана ошибка. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a0d7770fab9a27418149a44cb48f18a3faebb061953c0454b2c8ee7b0ac615ebcd"></a>Optional&#160;</td><td class="fielddoc">
+<p>При отсутствии аттрибута будет использовано значение по умолчанию. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="ad0cab06b62d590495eaa6a16465ed2b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::getAttribute </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3f">AttributeOption</a>&#160;</td>
+          <td class="paramname"><em>option</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Записывает в data значение аттрибута с именем name текущего тэга </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">reader</td><td>QXmlStreamReader </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>имя аттрибута </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">option</td><td>указывает обязателен ли атрибут [out] data считанные данные </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1fedf145e441f88832bd7f7e4b890e28"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString qtreports::detail::ParserFromXML::getLog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает лог процесса парсинга. </p>
+<p>Используется для отладки при добавлении новый тэгов. </p>
+
+</div>
+</div>
+<a class="anchor" id="a02bfc8c0470ec16ff1bb34a5b6b78981"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ReportPtr qtreports::detail::ParserFromXML::getReport </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает указатель на внутреннюю структуру отчета. </p>
+<p>Указатель может быть пустым, перед использованием необходимо проверить с помощью </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> ( !report.isNull() ) {</div></div><!-- fragment --> 
+</div>
+</div>
+<a class="anchor" id="a79b3db940ae07e1f3128371d529ca38b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::getValue </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Считывает xml элемент в data. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">reader</td><td>QXmlStreamReader [out] data считанные данные </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac5de42ec7fdd07773b0435484df51c2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parse </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Парсит отчет и создает из него внутреннюю структуру данных <a class="el" href="classqtreports_1_1detail_1_1_report.html" title="Класс, реализующий тэг &lt;report&gt; ">Report</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>Путь к отчету формата .qreport </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af04b8018f1bb3d60ecb6525f31d29885"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseBand </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SectionPtr &amp;&#160;</td>
+          <td class="paramname"><em>section</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_band.html" title="Класс, реализующий тэг &lt;band&gt; ">Band</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>секция (объект, содержащий <a class="el" href="classqtreports_1_1detail_1_1_band.html" title="Класс, реализующий тэг &lt;band&gt; ">Band</a>(ы), <a class="el" href="classqtreports_1_1detail_1_1_detail.html" title="Класс, реализующий тэг &lt;detail&gt; ">Detail</a>, <a class="el" href="classqtreports_1_1detail_1_1_title.html" title="Класс, реализующий тэг &lt;title&gt; ">Title</a>, groupHeader и т.д.), которой принадлежит <a class="el" href="classqtreports_1_1detail_1_1_band.html" title="Класс, реализующий тэг &lt;band&gt; ">Band</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a905c36f37ab8c2833ab85e4d8c22716f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseChilds </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ObjectPtr &amp;&#160;</td>
+          <td class="paramname"><em>object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит дочерние тэги объекта object. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">object</td><td>родительский объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a79d177b44a8d13065f226fd7940bdde0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseDetail </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_detail.html" title="Класс, реализующий тэг &lt;detail&gt; ">Detail</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa67a21faa016b0ef4686b22a390fd446"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseDocument </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Начинает парсинг документа </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>имя xml файла </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7dc4d03466c276ea931ad46b295d5ee7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseEllipse </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BandPtr &amp;&#160;</td>
+          <td class="paramname"><em>band</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_ellipse.html" title="Класс, реализующий тэг &lt;ellipse&gt; ">Ellipse</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">band</td><td>Строка, которой принадлежит объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a20a5b5081956769e0d219779407ba76c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseField </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_field.html" title="Класс, реализующий тэг &lt;field&gt; ">Field</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4f7803080037058f482a499ebc1a51ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseFont </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WidgetPtr &amp;&#160;</td>
+          <td class="paramname"><em>widget</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит font - данные о шрифте текста </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>общий класс для объектов, подлежащих отображению. Для него загружается текущий font </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a477a961860b1de77b5a0da28e361987a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseGroup </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг group. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5227072dac0a691b04214b47f55f96ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseGroupExpression </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const GroupPtr &amp;&#160;</td>
+          <td class="paramname"><em>group</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг groupExpression. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">group</td><td>указатель на группу, которой принадлежит groupExpression </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acfd1224b98c50412fd1b1897da5a362a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseGroupFooter </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const GroupPtr &amp;&#160;</td>
+          <td class="paramname"><em>group</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг groupFooter. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">group</td><td>указатель на группу, которой принадлежит groupFooter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5a92ffb4f04daa047da0ddfe3d583262"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseGroupHeader </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const GroupPtr &amp;&#160;</td>
+          <td class="paramname"><em>group</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг groupHeader. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">group</td><td>указатель на группу, которой принадлежит groupHeader </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a877a6f05ca0b9dda625083f9860202cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseImage </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BandPtr &amp;&#160;</td>
+          <td class="paramname"><em>band</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_image.html" title="Класс, реализующий тэг &lt;image&gt; ">Image</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">band</td><td>Строка, которой принадлежит объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5bb40e2d4ed991c7d61f2c16d8aeaf26"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseImageExpression </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImagePtr &amp;&#160;</td>
+          <td class="paramname"><em>image</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит текст (imageExpression) для image. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">image</td><td>тэг image, текущий объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a14d5b8d1921d17d067c10554864120a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseLine </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BandPtr &amp;&#160;</td>
+          <td class="paramname"><em>band</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_line.html" title="Класс, реализующий тэг &lt;line&gt; ">Line</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">band</td><td>Строка, которой принадлежит объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a027c1caea8508dc831486969bc47734c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseQueryString </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит запросы </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8b364c4886eb32dc960079052e5158ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseRect </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BandPtr &amp;&#160;</td>
+          <td class="paramname"><em>band</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_rect.html" title="Класс, реализующий тэг &lt;rect&gt; ">Rect</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">band</td><td>Строка, которой принадлежит объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8247dc85ae5cae03ab3f175982a0857e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseReport </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг report. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aee6cb5359125988f68abfcd2f6fe4514"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseReportElement </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WidgetPtr &amp;&#160;</td>
+          <td class="paramname"><em>widget</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг ReportElement - общие данные о элементе отчета (положение, размеры и пр.) </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>общий класс для объектов, подлежащих отображению. Для него загружается текущий reportElement </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a53c4121976bc3f27125f8f698d4d8304"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseStaticText </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BandPtr &amp;&#160;</td>
+          <td class="paramname"><em>band</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_static_text.html" title="Класс, реализующий тэг &lt;staticText&gt; ">StaticText</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">band</td><td>Строка, которой принадлежит объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5a366e39f908935a618b137e7e27496c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseStyle </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг style. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae037521ded63aa8447653b9079b4de08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseText </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const StaticTextPtr &amp;&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит текст для staticText. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>staticText, текущий объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3693d70428f413c6adb999bf0ad69abe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseTextElement </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WidgetPtr &amp;&#160;</td>
+          <td class="paramname"><em>widget</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг TextElement - общие данные о текстовом элементе (выравнивание текста и пр.) </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>общий класс для объектов, подлежащих отображению. Для него загружается текущий textElement </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6249b073f54ee7fbb194e467349b9f4f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseTextField </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BandPtr &amp;&#160;</td>
+          <td class="paramname"><em>band</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_text_field.html" title="Класс, реализующий тэг &lt;textField&gt; ">TextField</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">band</td><td>Строка, которой принадлежит объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a459f21efce7b714320d84d304d304d60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseTextFieldExpression </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TextFieldPtr &amp;&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит текст для textField. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>textField, текущий объект </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a88dc32b7c6b8727e6a7fed5e222a7aab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseTitle </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсерит тэг <a class="el" href="classqtreports_1_1detail_1_1_title.html" title="Класс, реализующий тэг &lt;title&gt; ">Title</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/parsers/<a class="el" href="parserfromxml_8hpp_source.html">parserfromxml.hpp</a></li>
+<li>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
