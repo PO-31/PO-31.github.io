@@ -3,6 +3,8 @@ var searchData=
   ['getattribute',['getAttribute',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4',1,'qtreports::detail::ParserFromXML']]],
   ['getbottommargin',['getBottomMargin',['../classqtreports_1_1detail_1_1_report.html#a1aac1a22db0225606814ea687e1d9298',1,'qtreports::detail::Report']]],
   ['getclassname',['getClassName',['../classqtreports_1_1detail_1_1_field.html#a5208eca6f0064477efd12c2df17ee9a2',1,'qtreports::detail::Field::getClassName()'],['../classqtreports_1_1detail_1_1_text_field.html#a50c6ba3f1b96253e28666556721f9df5',1,'qtreports::detail::TextField::getClassName()']]],
+  ['getcrosstab',['getCrosstab',['../classqtreports_1_1detail_1_1_band.html#a38b3ca75aa612fca88b72d52d48082c8',1,'qtreports::detail::Band']]],
+  ['getcrosstabs',['getCrosstabs',['../classqtreports_1_1detail_1_1_band.html#a8215c1a4d5834f262fbac415438e3525',1,'qtreports::detail::Band']]],
   ['getdata',['getData',['../classqtreports_1_1detail_1_1_field.html#a4ecc69df8b63e2c3d3a1f8bb2701faab',1,'qtreports::detail::Field::getData(int row)'],['../classqtreports_1_1detail_1_1_field.html#a6479482ff09c2eedab090cf58c9a0ca9',1,'qtreports::detail::Field::getData(int row)']]],
   ['getdefaultstyle',['getDefaultStyle',['../classqtreports_1_1detail_1_1_report.html#a3e524ea97242d402efca8debbd6cb8e9',1,'qtreports::detail::Report']]],
   ['getdetail',['getDetail',['../classqtreports_1_1detail_1_1_report.html#aba47cf3ddf9a6d3844fe83dfd4eecc5d',1,'qtreports::detail::Report']]],
