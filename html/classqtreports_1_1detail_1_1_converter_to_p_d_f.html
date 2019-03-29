@@ -106,7 +106,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:ac41383eede72f1b3296bd310e13cab6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#ac41383eede72f1b3296bd310e13cab6b">ConverterToPDF</a> (const ReportPtr &amp;report)</td></tr>
-<tr class="memdesc:ac41383eede72f1b3296bd310e13cab6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор по умолчанию  <a href="#ac41383eede72f1b3296bd310e13cab6b">Подробнее...</a><br /></td></tr>
+<tr class="memdesc:ac41383eede72f1b3296bd310e13cab6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор по умолчанию.  <a href="#ac41383eede72f1b3296bd310e13cab6b">Подробнее...</a><br /></td></tr>
 <tr class="separator:ac41383eede72f1b3296bd310e13cab6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af39953d8db1bdcbbcf59cc00b05747eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb">convert</a> (const QString &amp;path)</td></tr>
 <tr class="memdesc:af39953d8db1bdcbbcf59cc00b05747eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает процесс конвертации.  <a href="#af39953d8db1bdcbbcf59cc00b05747eb">Подробнее...</a><br /></td></tr>
@@ -182,10 +182,10 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </table>
 </div><div class="memdoc">
 
-<p>Конструктор по умолчанию </p>
+<p>Конструктор по умолчанию. </p>
 <dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
-    <tr><td class="paramname">report</td><td>ссылка на объект ReportPtr </td></tr>
+    <tr><td class="paramname">report</td><td>ссылка на объект ReportPtr. </td></tr>
   </table>
   </dd>
 </dl>
@@ -247,6 +247,7 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Возвращает</dt><dd><div class="fragment"><div class="line"><span class="keyword">true</span> </div></div><!-- fragment -->, если добавление группы прошло успешно, иначе<div class="fragment"><div class="line"><span class="keyword">false</span> </div></div><!-- fragment -->. </dd></dl>
 
 </div>
 </div>
@@ -271,6 +272,7 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Возвращает</dt><dd><div class="fragment"><div class="line"><span class="keyword">true</span> </div></div><!-- fragment -->, если конвертация отчета в PDF прошла успешно, иначе<div class="fragment"><div class="line"><span class="keyword">false</span> </div></div><!-- fragment -->. </dd></dl>
 
 </div>
 </div>
@@ -303,6 +305,7 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Возвращает</dt><dd><div class="fragment"><div class="line"><span class="keyword">true</span> </div></div><!-- fragment -->, если конвертация прошла успешно, иначе<div class="fragment"><div class="line"><span class="keyword">false</span> </div></div><!-- fragment -->. </dd></dl>
 
 </div>
 </div>
@@ -353,6 +356,7 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Возвращает</dt><dd><div class="fragment"><div class="line"><span class="keyword">true</span> </div></div><!-- fragment -->, если создание bsnd'a прошло успешно, иначе<div class="fragment"><div class="line"><span class="keyword">false</span> </div></div><!-- fragment -->. </dd></dl>
 
 </div>
 </div>
@@ -405,11 +409,12 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">writer</td><td>Ссылка на объект QPdfWriter. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">painter</td><td>Ссылка на объект QPainter. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>Ссылка на объект SectionPtr. SectionPtr может указывать на такие секции, как: <div class="fragment"><div class="line">title, header, footer, detail </div></div><!-- fragment --> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>Ссылка на объект SectionPtr. SectionPtr может указывать на такие секции, как: <div class="fragment"><div class="line">title, header, footer, detail </div></div><!-- fragment -->. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>Индекс текущей секции. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Возвращает</dt><dd><div class="fragment"><div class="line"><span class="keyword">true</span> </div></div><!-- fragment -->, если создание секции прошло успешно, иначе<div class="fragment"><div class="line"><span class="keyword">false</span> </div></div><!-- fragment -->. </dd></dl>
 
 </div>
 </div>
@@ -430,7 +435,7 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Устанавливает DPI. </p>
 <dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dpi</td><td>Новое значение DPI </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dpi</td><td>Новое значение DPI. </td></tr>
   </table>
   </dd>
 </dl>
