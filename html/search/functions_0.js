@@ -3,7 +3,7 @@ var searchData=
   ['addcrosstab',['addCrosstab',['../classqtreports_1_1detail_1_1_band.html#aa1415625f28cd5eed660e1ea2dc403b5',1,'qtreports::detail::Band']]],
   ['addellipse',['addEllipse',['../classqtreports_1_1detail_1_1_band.html#a02b980791263ae274739862f90470d3f',1,'qtreports::detail::Band']]],
   ['addgroup',['addGroup',['../classqtreports_1_1detail_1_1_report.html#a9c91cfef8636b62a8a3e62504d3a76d8',1,'qtreports::detail::Report']]],
-  ['addgroupsintoreport',['addGroupsIntoReport',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296',1,'qtreports::detail::ConverterToQWidget']]],
+  ['addgroupsintoreport',['addGroupsIntoReport',['../classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff',1,'qtreports::detail::ConverterToPDF::addGroupsIntoReport()'],['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296',1,'qtreports::detail::ConverterToQWidget::addGroupsIntoReport()']]],
   ['addimage',['addImage',['../classqtreports_1_1detail_1_1_band.html#a17d80de3c7c045ef1b0b19f179f95f06',1,'qtreports::detail::Band']]],
   ['addline',['addLine',['../classqtreports_1_1detail_1_1_band.html#ad5fc6e52223d858ff83c968766dccd61',1,'qtreports::detail::Band']]],
   ['addrect',['addRect',['../classqtreports_1_1detail_1_1_band.html#aa3ff3c44bcfb20890ee08022b5c3e895',1,'qtreports::detail::Band']]],

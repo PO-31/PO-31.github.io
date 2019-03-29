@@ -105,8 +105,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
-<tr class="memitem:ac41383eede72f1b3296bd310e13cab6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac41383eede72f1b3296bd310e13cab6b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ConverterToPDF</b> (const ReportPtr &amp;report)</td></tr>
+<tr class="memitem:ac41383eede72f1b3296bd310e13cab6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#ac41383eede72f1b3296bd310e13cab6b">ConverterToPDF</a> (const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:ac41383eede72f1b3296bd310e13cab6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор по умолчанию  <a href="#ac41383eede72f1b3296bd310e13cab6b">Подробнее...</a><br /></td></tr>
 <tr class="separator:ac41383eede72f1b3296bd310e13cab6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af39953d8db1bdcbbcf59cc00b05747eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb">convert</a> (const QString &amp;path)</td></tr>
 <tr class="memdesc:af39953d8db1bdcbbcf59cc00b05747eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает процесс конвертации.  <a href="#af39953d8db1bdcbbcf59cc00b05747eb">Подробнее...</a><br /></td></tr>
@@ -125,30 +125,131 @@ const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Закрытые члены</h2></td></tr>
-<tr class="memitem:aad8435572f5ba065f8f2fef428d97b22"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad8435572f5ba065f8f2fef428d97b22"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>create</b> (const QString &amp;path)</td></tr>
+<tr class="memitem:adda58d86ecfee05cdcc5e5ce161926ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff">addGroupsIntoReport</a> (QPdfWriter &amp;writer, QPainter &amp;painter, const ReportPtr &amp;report, const DetailPtr &amp;detail)</td></tr>
+<tr class="memdesc:adda58d86ecfee05cdcc5e5ce161926ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет группу в репорт.  <a href="#adda58d86ecfee05cdcc5e5ce161926ff">Подробнее...</a><br /></td></tr>
+<tr class="separator:adda58d86ecfee05cdcc5e5ce161926ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8435572f5ba065f8f2fef428d97b22"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aad8435572f5ba065f8f2fef428d97b22">create</a> (const QString &amp;path)</td></tr>
+<tr class="memdesc:aad8435572f5ba065f8f2fef428d97b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конвертирует отчет в PDF документ.  <a href="#aad8435572f5ba065f8f2fef428d97b22">Подробнее...</a><br /></td></tr>
 <tr class="separator:aad8435572f5ba065f8f2fef428d97b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710216e7366aa9959a06cc7a311e2a6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a710216e7366aa9959a06cc7a311e2a6a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createBand</b> (QSharedPointer&lt; <a class="el" href="classqtreports_1_1detail_1_1_band.html">Band</a> &gt; band, QPainter &amp;painter)</td></tr>
-<tr class="separator:a710216e7366aa9959a06cc7a311e2a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9212cf5250d8d938359c417537337c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c">createSection</a> (QPdfWriter &amp;writer, QPainter &amp;painter, const SectionPtr &amp;section, int i)</td></tr>
+<tr class="memdesc:a5d9212cf5250d8d938359c417537337c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает секцию.  <a href="#a5d9212cf5250d8d938359c417537337c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5d9212cf5250d8d938359c417537337c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1de1bf9abc3ea9b7b5c2b8317f5a0f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aba1de1bf9abc3ea9b7b5c2b8317f5a0f">createBands</a> (QPdfWriter &amp;writer, QPainter &amp;painter, const SectionPtr &amp;section)</td></tr>
+<tr class="memdesc:aba1de1bf9abc3ea9b7b5c2b8317f5a0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает band.  <a href="#aba1de1bf9abc3ea9b7b5c2b8317f5a0f">Подробнее...</a><br /></td></tr>
+<tr class="separator:aba1de1bf9abc3ea9b7b5c2b8317f5a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Закрытые данные</h2></td></tr>
 <tr class="memitem:ae295dae7db4f6f83d55f0ca70b035796"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae295dae7db4f6f83d55f0ca70b035796"></a>
-ReportPtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_report</b></td></tr>
+ReportPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#ae295dae7db4f6f83d55f0ca70b035796">m_report</a></td></tr>
+<tr class="memdesc:ae295dae7db4f6f83d55f0ca70b035796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Объект класса ReportPtr. <br /></td></tr>
 <tr class="separator:ae295dae7db4f6f83d55f0ca70b035796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9fb55ffe55bec1cd0eaa3a73f46308c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9fb55ffe55bec1cd0eaa3a73f46308c"></a>
-QString&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastError</b></td></tr>
+QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af9fb55ffe55bec1cd0eaa3a73f46308c">m_lastError</a></td></tr>
+<tr class="memdesc:af9fb55ffe55bec1cd0eaa3a73f46308c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Содержит информацию о последней ошибке, возникшей в процессе конвертации. <br /></td></tr>
 <tr class="separator:af9fb55ffe55bec1cd0eaa3a73f46308c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0d7b2f0420f8b0eb3483550be546679"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0d7b2f0420f8b0eb3483550be546679"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dpi</b></td></tr>
-<tr class="separator:ad0d7b2f0420f8b0eb3483550be546679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc5bb2b5fdca09cebdcbd9462855094"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#addc5bb2b5fdca09cebdcbd9462855094">m_currentResolution</a></td></tr>
+<tr class="memdesc:addc5bb2b5fdca09cebdcbd9462855094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Значение текущего разрешения для PDF документа в DPI.  <a href="#addc5bb2b5fdca09cebdcbd9462855094">Подробнее...</a><br /></td></tr>
+<tr class="separator:addc5bb2b5fdca09cebdcbd9462855094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdfd7c1e9538b7c12c3df8d4285c899b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#afdfd7c1e9538b7c12c3df8d4285c899b">m_currentHeight</a></td></tr>
+<tr class="memdesc:afdfd7c1e9538b7c12c3df8d4285c899b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Значение текущей высоты кисти, рисующей на листе документа PDF.  <a href="#afdfd7c1e9538b7c12c3df8d4285c899b">Подробнее...</a><br /></td></tr>
+<tr class="separator:afdfd7c1e9538b7c12c3df8d4285c899b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
 <div class="textblock"><p>Класс, используемый для конвертации документа в PDF формат. </p>
 <dl class="section note"><dt>Заметки</dt><dd>Все функции данного класса, возвращающие bool, возвращают true в случае успеха либо false, если во время выполнения произошли ошибки. При этом с помощью метода <a class="el" href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a2d5862efb544884825efeafcf6fec683" title="Возвращает строку, содержащую описание последней произошедшей ошибки. ">getLastError()</a> можно получить описание последней произошедшей ошибки.</dd></dl>
 <p>Класс, используемый для конвертации документа в PDF формат. Поддерживает установку DPI. </p>
-</div><h2 class="groupheader">Методы</h2>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a class="anchor" id="ac41383eede72f1b3296bd310e13cab6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qtreports::detail::ConverterToPDF::ConverterToPDF </td>
+          <td>(</td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Конструктор по умолчанию </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">report</td><td>ссылка на объект ReportPtr </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="adda58d86ecfee05cdcc5e5ce161926ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ConverterToPDF::addGroupsIntoReport </td>
+          <td>(</td>
+          <td class="paramtype">QPdfWriter &amp;&#160;</td>
+          <td class="paramname"><em>writer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const DetailPtr &amp;&#160;</td>
+          <td class="paramname"><em>detail</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Добавляет группу в репорт. </p>
+<p>Если не удалось добавить группу, вернет false. </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">writer</td><td>Ссылка на объект QPdfWriter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">painter</td><td>Ссылка на объект QPainter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>Ссылка на объект ReportPtr. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">detail</td><td>Ссылка на объект DetailPtr. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="af39953d8db1bdcbbcf59cc00b05747eb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -167,6 +268,145 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dpi</b></td></tr>
 <p>Путь может быть полным или относительным, примеры: "C:/example.pdf" "example.pdf" </p><dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>Путь, по которому будет создан PDF документ. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aad8435572f5ba065f8f2fef428d97b22"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ConverterToPDF::create </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Конвертирует отчет в PDF документ. </p>
+<p>Если не удалось конвертировать в PDF, вернет false. Информация об ошибке содержится в переменной m_lastError. </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>Путь к файлу PDF. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aba1de1bf9abc3ea9b7b5c2b8317f5a0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ConverterToPDF::createBands </td>
+          <td>(</td>
+          <td class="paramtype">QPdfWriter &amp;&#160;</td>
+          <td class="paramname"><em>writer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SectionPtr &amp;&#160;</td>
+          <td class="paramname"><em>section</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Создает band. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">writer</td><td>Ссылка на объект QPdfWriter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">painter</td><td>Ссылка на объект QPainter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>Ссылка на объект SectionPtr. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5d9212cf5250d8d938359c417537337c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ConverterToPDF::createSection </td>
+          <td>(</td>
+          <td class="paramtype">QPdfWriter &amp;&#160;</td>
+          <td class="paramname"><em>writer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SectionPtr &amp;&#160;</td>
+          <td class="paramname"><em>section</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Создает секцию. </p>
+<p>Если не удалось создать секцию, вернет false. Информация об ошибке содержится в переменной m_lastError. </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">writer</td><td>Ссылка на объект QPdfWriter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">painter</td><td>Ссылка на объект QPainter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">section</td><td>Ссылка на объект SectionPtr. SectionPtr может указывать на такие секции, как: <div class="fragment"><div class="line">title, header, footer, detail </div></div><!-- fragment --> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>Индекс текущей секции. </td></tr>
   </table>
   </dd>
 </dl>
@@ -194,6 +434,53 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dpi</b></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a class="anchor" id="afdfd7c1e9538b7c12c3df8d4285c899b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int qtreports::detail::ConverterToPDF::m_currentHeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Значение текущей высоты кисти, рисующей на листе документа PDF. </p>
+<p>Значение постоянно меняется в зависимости от высоты band. Например, если в отчете для band'а, который отрисовывается в данный момент, значение параметра height равняется 35, то после отрисовки данного band'а, кисть переместится вниз на 35 единиц. </p>
+
+</div>
+</div>
+<a class="anchor" id="addc5bb2b5fdca09cebdcbd9462855094"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int qtreports::detail::ConverterToPDF::m_currentResolution</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Значение текущего разрешения для PDF документа в DPI. </p>
+<p>По умолчанию установлено значение 75. </p>
 
 </div>
 </div>
