@@ -197,6 +197,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a79d177b44a8d13065f226fd7940bdde0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a79d177b44a8d13065f226fd7940bdde0">parseDetail</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
 <tr class="memdesc:a79d177b44a8d13065f226fd7940bdde0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсит тэг <a class="el" href="classqtreports_1_1detail_1_1_detail.html" title="Класс, реализующий тэг &lt;detail&gt; ">Detail</a>.  <a href="#a79d177b44a8d13065f226fd7940bdde0">Подробнее...</a><br /></td></tr>
 <tr class="separator:a79d177b44a8d13065f226fd7940bdde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d2dfaa79bc7e339443ac12d56b3ba11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a1d2dfaa79bc7e339443ac12d56b3ba11">parseSummary</a> (QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</td></tr>
+<tr class="memdesc:a1d2dfaa79bc7e339443ac12d56b3ba11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсит тэг <a class="el" href="classqtreports_1_1detail_1_1_summary.html" title="Класс, реализующий тэг ">Summary</a>.  <a href="#a1d2dfaa79bc7e339443ac12d56b3ba11">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1d2dfaa79bc7e339443ac12d56b3ba11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af04b8018f1bb3d60ecb6525f31d29885"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#af04b8018f1bb3d60ecb6525f31d29885">parseBand</a> (QXmlStreamReader &amp;reader, const SectionPtr &amp;section)</td></tr>
 <tr class="memdesc:af04b8018f1bb3d60ecb6525f31d29885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Парсит тэг <a class="el" href="classqtreports_1_1detail_1_1_band.html" title="Класс, реализующий тэг &lt;band&gt; ">Band</a>.  <a href="#af04b8018f1bb3d60ecb6525f31d29885">Подробнее...</a><br /></td></tr>
 <tr class="separator:af04b8018f1bb3d60ecb6525f31d29885"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1311,6 +1314,48 @@ QMap&lt; QString, ParseFunc &gt;&#160;</td><td class="memItemRight" valign="bott
 </div><div class="memdoc">
 
 <p>Парсит тэг style. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1d2dfaa79bc7e339443ac12d56b3ba11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qtreports::detail::ParserFromXML::parseSummary </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ReportPtr &amp;&#160;</td>
+          <td class="paramname"><em>report</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Парсит тэг <a class="el" href="classqtreports_1_1detail_1_1_summary.html" title="Класс, реализующий тэг ">Summary</a>. </p>
 <dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">report</td><td>указатель на объект отчета </td></tr>

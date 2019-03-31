@@ -178,6 +178,12 @@ const TitlePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 const DetailPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#aba47cf3ddf9a6d3844fe83dfd4eecc5d">getDetail</a> () const </td></tr>
 <tr class="memdesc:aba47cf3ddf9a6d3844fe83dfd4eecc5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает указатель на обьект &lt;detail&gt; <br /></td></tr>
 <tr class="separator:aba47cf3ddf9a6d3844fe83dfd4eecc5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08b5eade490343f2b1dee0b5969a9d20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#a08b5eade490343f2b1dee0b5969a9d20">setSummary</a> (const SummaryPtr &amp;summary)</td></tr>
+<tr class="memdesc:a08b5eade490343f2b1dee0b5969a9d20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Устанавливает  <a href="#a08b5eade490343f2b1dee0b5969a9d20">Подробнее...</a><br /></td></tr>
+<tr class="separator:a08b5eade490343f2b1dee0b5969a9d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8749c01e7d55fbbac8a07a4b7f20eeb6"><td class="memItemLeft" align="right" valign="top">const SummaryPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#a8749c01e7d55fbbac8a07a4b7f20eeb6">getSummary</a> () const </td></tr>
+<tr class="memdesc:a8749c01e7d55fbbac8a07a4b7f20eeb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает указатель на обьект  <a href="#a8749c01e7d55fbbac8a07a4b7f20eeb6">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8749c01e7d55fbbac8a07a4b7f20eeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7e81f75e7b83bc8a795e7f559c5e97a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#aa7e81f75e7b83bc8a795e7f559c5e97a">setParameter</a> (const QString &amp;name, const QVariant &amp;value)</td></tr>
 <tr class="memdesc:aa7e81f75e7b83bc8a795e7f559c5e97a"><td class="mdescLeft">&#160;</td><td class="mdescRight">устанавливает значение парамметра  <a href="#aa7e81f75e7b83bc8a795e7f559c5e97a">Подробнее...</a><br /></td></tr>
 <tr class="separator:aa7e81f75e7b83bc8a795e7f559c5e97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -344,6 +350,9 @@ TitlePtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_title</b></td><
 <tr class="memitem:a8fdd5ebc88ba5092c8315f656079f7e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fdd5ebc88ba5092c8315f656079f7e6"></a>
 DetailPtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_detail</b></td></tr>
 <tr class="separator:a8fdd5ebc88ba5092c8315f656079f7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48e0a2207d9f83772f2b9aba55a8fb74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48e0a2207d9f83772f2b9aba55a8fb74"></a>
+SummaryPtr&#160;</td><td class="memItemRight" valign="bottom"><b>m_summary</b></td></tr>
+<tr class="separator:a48e0a2207d9f83772f2b9aba55a8fb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a987c0915f293a2b4fbbdcb792f2b4ddf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a987c0915f293a2b4fbbdcb792f2b4ddf"></a>
 QMap&lt; QString, QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_parameters</b></td></tr>
 <tr class="separator:a987c0915f293a2b4fbbdcb792f2b4ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -435,6 +444,23 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastError</b></t
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a8749c01e7d55fbbac8a07a4b7f20eeb6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const SummaryPtr qtreports::detail::Report::getSummary </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает указатель на обьект </p>
 
 </div>
 </div>
@@ -850,6 +876,30 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastError</b></t
 <dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>размер </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a08b5eade490343f2b1dee0b5969a9d20"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qtreports::detail::Report::setSummary </td>
+          <td>(</td>
+          <td class="paramtype">const SummaryPtr &amp;&#160;</td>
+          <td class="paramname"><em>summary</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Устанавливает </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">summary</td><td>Указатель на обьект </td></tr>
   </table>
   </dd>
 </dl>
