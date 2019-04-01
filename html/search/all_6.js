@@ -15,6 +15,7 @@ var searchData=
   ['getexpression',['getExpression',['../classqtreports_1_1detail_1_1_group.html#aeef702054079b890eaf53757bc4c86de',1,'qtreports::detail::Group']]],
   ['getfield',['getField',['../classqtreports_1_1detail_1_1_report.html#a9dd28e96177db0e293dd24c61c1a4400',1,'qtreports::detail::Report']]],
   ['getfields',['getFields',['../classqtreports_1_1detail_1_1_report.html#a0954c5253b36d9a1fe2bd3784f70d7de',1,'qtreports::detail::Report']]],
+  ['getfieldsdatacount',['getFieldsDataCount',['../classqtreports_1_1detail_1_1_report.html#ae4c4bf1aa69bdf87be1f7628eb2e267d',1,'qtreports::detail::Report']]],
   ['getfontcolor',['getFontColor',['../classqtreports_1_1detail_1_1_style.html#a2d8d9d0d898c4306e47dcca067c60c28',1,'qtreports::detail::Style']]],
   ['getfontname',['getFontName',['../classqtreports_1_1detail_1_1_style.html#ae233bf8f53b1ceb560398925a50fcb44',1,'qtreports::detail::Style']]],
   ['getfontsize',['getFontSize',['../classqtreports_1_1detail_1_1_style.html#ac969a5ba6cd39a890a72ec4146ba8dda',1,'qtreports::detail::Style']]],
