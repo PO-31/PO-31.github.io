@@ -8,5 +8,6 @@ var searchData=
   ['m_5fpages',['m_pages',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a0fb46f8e4347bcde3af9ea50bae6139e',1,'qtreports::detail::ConverterToQWidget']]],
   ['m_5fqwidget',['m_qwidget',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a52b21b8a01b877e5dc9ea736111736cd',1,'qtreports::detail::ConverterToQWidget']]],
   ['m_5freport',['m_report',['../classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ac26b71fc6bbf2a8883974083d59f8cdd',1,'qtreports::detail::ConverterToHTML::m_report()'],['../classqtreports_1_1detail_1_1_converter_to_p_d_f.html#ae295dae7db4f6f83d55f0ca70b035796',1,'qtreports::detail::ConverterToPDF::m_report()'],['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a7930492174e0a58f710c8ac26932045d',1,'qtreports::detail::ConverterToQWidget::m_report()']]],
-  ['m_5ftype',['m_type',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a8624b135a946f6219a133444da184791',1,'qtreports::detail::ConverterToQWidget']]]
+  ['m_5ftype',['m_type',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a8624b135a946f6219a133444da184791',1,'qtreports::detail::ConverterToQWidget']]],
+  ['measure',['Measure',['../classqtreports_1_1detail_1_1_measure.html',1,'qtreports::detail']]]
 ];

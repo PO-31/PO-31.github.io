@@ -11,7 +11,8 @@ var searchData=
   ['replaceparametersinsection',['replaceParametersInSection',['../classqtreports_1_1detail_1_1_replacer.html#a626052332a0425d71f1f754824dc97dd',1,'qtreports::detail::Replacer']]],
   ['replaceparametersintextwidget',['replaceParametersInTextWidget',['../classqtreports_1_1detail_1_1_replacer.html#add3b6a2869033620c4618669870c26f8',1,'qtreports::detail::Replacer']]],
   ['replacer',['Replacer',['../classqtreports_1_1detail_1_1_replacer.html',1,'qtreports::detail']]],
-  ['report',['Report',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c',1,'qtreports::detail::ConverterToQWidget']]],
   ['report',['Report',['../classqtreports_1_1detail_1_1_report.html',1,'qtreports::detail']]],
-  ['required',['Required',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3fab651efdb98a5d6bd2b3935d0c3f4a5e2',1,'qtreports::detail::ParserFromXML']]]
+  ['report',['Report',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c',1,'qtreports::detail::ConverterToQWidget']]],
+  ['required',['Required',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3fab651efdb98a5d6bd2b3935d0c3f4a5e2',1,'qtreports::detail::ParserFromXML']]],
+  ['rowgroup',['RowGroup',['../classqtreports_1_1detail_1_1_row_group.html',1,'qtreports::detail']]]
 ];
