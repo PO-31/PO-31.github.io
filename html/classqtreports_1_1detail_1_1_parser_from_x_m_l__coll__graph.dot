@@ -1,0 +1,8 @@
+digraph "qtreports::detail::ParserFromXML"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{qtreports::detail::\lParserFromXML\n|- m_report\l- m_lastError\l- m_log\l- m_functions\l|+ ParserFromXML()\l+ ~ParserFromXML()\l+ parse()\l+ getReport()\l+ getLastError()\l+ getLog()\l- getValue()\l- getAttribute()\l- getRequiredAttribute()\l- getOptionalAttribute()\l- goToElementEnd()\l- parseChilds()\l- parseDocument()\l- parseReport()\l- parseStyle()\l- parseQueryString()\l- parseField()\l- parseGroup()\l- parseGroupExpression()\l- parseGroupHeader()\l- parseGroupFooter()\l- parseTitle()\l- parseDetail()\l- parseSummary()\l- parseBand()\l- parseCrosstab()\l- parseStaticText()\l- parseTextField()\l- parseLine()\l- parseRect()\l- parseEllipse()\l- parseImage()\l- parseReportElement()\l- parseTextElement()\l- parseFont()\l- parseText()\l- parseTextFieldExpression()\l- parseImageExpression()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

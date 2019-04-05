@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceqtreports_1_1detail" kind="namespace" language="C++">
+    <compoundname>qtreports::detail</compoundname>
+    <innerclass refid="classqtreports_1_1detail_1_1_band" prot="public">qtreports::detail::Band</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_box" prot="public">qtreports::detail::Box</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_cell_contents" prot="public">qtreports::detail::CellContents</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_column_group" prot="public">qtreports::detail::ColumnGroup</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l" prot="public">qtreports::detail::ConverterToHTML</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_converter_to_p_d_f" prot="public">qtreports::detail::ConverterToPDF</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_converter_to_q_widget" prot="public">qtreports::detail::ConverterToQWidget</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_crosstab" prot="public">qtreports::detail::Crosstab</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_crosstab_column_header" prot="public">qtreports::detail::CrosstabColumnHeader</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_crosstab_row_header" prot="public">qtreports::detail::CrosstabRowHeader</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_detail" prot="public">qtreports::detail::Detail</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_ellipse" prot="public">qtreports::detail::Ellipse</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_field" prot="public">qtreports::detail::Field</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_group" prot="public">qtreports::detail::Group</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_image" prot="public">qtreports::detail::Image</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_line" prot="public">qtreports::detail::Line</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_measure" prot="public">qtreports::detail::Measure</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_object" prot="public">qtreports::detail::Object</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_parser_from_x_m_l" prot="public">qtreports::detail::ParserFromXML</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_query_string" prot="public">qtreports::detail::QueryString</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_rect" prot="public">qtreports::detail::Rect</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_replacer" prot="public">qtreports::detail::Replacer</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_report" prot="public">qtreports::detail::Report</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_row_group" prot="public">qtreports::detail::RowGroup</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_section" prot="public">qtreports::detail::Section</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_static_text" prot="public">qtreports::detail::StaticText</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_style" prot="public">qtreports::detail::Style</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_summary" prot="public">qtreports::detail::Summary</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_text_field" prot="public">qtreports::detail::TextField</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_text_widget" prot="public">qtreports::detail::TextWidget</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_title" prot="public">qtreports::detail::Title</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_widget" prot="public">qtreports::detail::Widget</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_report" kindref="compound">Report</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Report &gt; qtreports::detail::ReportPtr</definition>
+        <argsstring></argsstring>
+        <name>ReportPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="71" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Band &gt; qtreports::detail::BandPtr</definition>
+        <argsstring></argsstring>
+        <name>BandPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="203" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a7e5197d24b8fb17fd72eb051d6f3a13a" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_box" kindref="compound">Box</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;Box&gt; qtreports::detail::BoxPtr</definition>
+        <argsstring></argsstring>
+        <name>BoxPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="28" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_cell_contents" kindref="compound">CellContents</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;CellContents&gt; qtreports::detail::CellContentsPtr</definition>
+        <argsstring></argsstring>
+        <name>CellContentsPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="30" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a7e7a68e69659c807732f7fd1225e40f1" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_column_group" kindref="compound">ColumnGroup</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;ColumnGroup&gt; qtreports::detail::ColumnGroupPtr</definition>
+        <argsstring></argsstring>
+        <name>ColumnGroupPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/columngroup.hpp" line="26" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/columngroup.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab" kindref="compound">Crosstab</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;Crosstab&gt; qtreports::detail::CrosstabPtr</definition>
+        <argsstring></argsstring>
+        <name>CrosstabPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" line="17" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a416a3480ec2e38f24be880e584364650" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab_column_header" kindref="compound">CrosstabColumnHeader</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;CrosstabColumnHeader&gt; qtreports::detail::CrosstabColumnHeaderPtr</definition>
+        <argsstring></argsstring>
+        <name>CrosstabColumnHeaderPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabcolumnheader.hpp" line="25" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabcolumnheader.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a6c14ac3a24d19c25cdfeb1075c433080" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab_row_header" kindref="compound">CrosstabRowHeader</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;CrosstabRowHeader&gt; qtreports::detail::CrosstabRowHeaderPtr</definition>
+        <argsstring></argsstring>
+        <name>CrosstabRowHeaderPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp" line="26" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_detail" kindref="compound">Detail</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Detail &gt; qtreports::detail::DetailPtr</definition>
+        <argsstring></argsstring>
+        <name>DetailPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/detail.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/detail.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1aa954afb307d7338189bce90f89fc1650" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_ellipse" kindref="compound">Ellipse</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Ellipse &gt; qtreports::detail::EllipsePtr</definition>
+        <argsstring></argsstring>
+        <name>EllipsePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/ellipse.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/ellipse.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1adb6f986cd4bdf38132dd8335365d3c07" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_field" kindref="compound">Field</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Field &gt; qtreports::detail::FieldPtr</definition>
+        <argsstring></argsstring>
+        <name>FieldPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/field.hpp" line="77" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/field.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Group &gt; qtreports::detail::GroupPtr</definition>
+        <argsstring></argsstring>
+        <name>GroupPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="64" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_image" kindref="compound">Image</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Image &gt; qtreports::detail::ImagePtr</definition>
+        <argsstring></argsstring>
+        <name>ImagePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/image.hpp" line="40" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/image.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a4bec416fc9e94bb474fb7c7ee5794206" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_line" kindref="compound">Line</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Line &gt; qtreports::detail::LinePtr</definition>
+        <argsstring></argsstring>
+        <name>LinePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/line.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/line.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a510abb7a2858d9dd294bb0fb737a789a" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_measure" kindref="compound">Measure</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;Measure&gt; qtreports::detail::MeasurePtr</definition>
+        <argsstring></argsstring>
+        <name>MeasurePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/measure.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/measure.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a958bf79d952dfb0b6382863ae3a4fd5a" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_object" kindref="compound">Object</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Object &gt; qtreports::detail::ObjectPtr</definition>
+        <argsstring></argsstring>
+        <name>ObjectPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="63" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a355c6b3bd32c458f453f9d04b0d765c4" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_query_string" kindref="compound">QueryString</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; QueryString &gt; qtreports::detail::QueryStringPtr</definition>
+        <argsstring></argsstring>
+        <name>QueryStringPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp" line="39" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1ab30d690e2ab4bc1cb5d6b2c47fcd1172" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_rect" kindref="compound">Rect</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Rect &gt; qtreports::detail::RectPtr</definition>
+        <argsstring></argsstring>
+        <name>RectPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1ab688ffde4f793e1a20c6f3b1b27fd407" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_row_group" kindref="compound">RowGroup</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;RowGroup&gt; qtreports::detail::RowGroupPtr</definition>
+        <argsstring></argsstring>
+        <name>RowGroupPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.hpp" line="25" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_section" kindref="compound">Section</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Section &gt; qtreports::detail::SectionPtr</definition>
+        <argsstring></argsstring>
+        <name>SectionPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.hpp" line="42" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a8da710b0963ea1b4e5a74b99420d3e4b" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_static_text" kindref="compound">StaticText</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; StaticText &gt; qtreports::detail::StaticTextPtr</definition>
+        <argsstring></argsstring>
+        <name>StaticTextPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/statictext.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/statictext.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1af2c9ab68a81905943108723a95a4acad" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_style" kindref="compound">Style</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Style &gt; qtreports::detail::StylePtr</definition>
+        <argsstring></argsstring>
+        <name>StylePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="162" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a7827ce11c607153fbe83eb4f3beb66a9" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_summary" kindref="compound">Summary</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;Summary&gt; qtreports::detail::SummaryPtr</definition>
+        <argsstring></argsstring>
+        <name>SummaryPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_text_field" kindref="compound">TextField</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; TextField &gt; qtreports::detail::TextFieldPtr</definition>
+        <argsstring></argsstring>
+        <name>TextFieldPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/textfield.hpp" line="41" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/textfield.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a0dbda428d8a49120c4536ab502e83edd" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_text_widget" kindref="compound">TextWidget</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; TextWidget &gt; qtreports::detail::TextWidgetPtr</definition>
+        <argsstring></argsstring>
+        <name>TextWidgetPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/textwidget.hpp" line="53" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/textwidget.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a582fd4ea4493ad562e1b4a92541cd084" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_title" kindref="compound">Title</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Title &gt; qtreports::detail::TitlePtr</definition>
+        <argsstring></argsstring>
+        <name>TitlePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_widget" kindref="compound">Widget</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Widget &gt; qtreports::detail::WidgetPtr</definition>
+        <argsstring></argsstring>
+        <name>WidgetPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="150" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceqtreports_1_1detail_1a57ac54d6807a30b13e419a3106735b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* qtreports::detail::createLayout</definition>
+        <argsstring>(QWidget *left, QWidget *center, QWidget *right)</argsstring>
+        <name>createLayout</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" line="64" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="64" bodyend="75"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1af350953efb07bf3393c33846a81b1121" compoundref="convertertoqwidget_8cpp" startline="77" endline="99">qtreports::detail::ConverterToQWidget::addVerticalBorder</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a21d211f4a1f0f46f2220a0959c36367b" compoundref="convertertoqwidget_8cpp" startline="101" endline="122">qtreports::detail::ConverterToQWidget::addEmptySection</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ae126b16c5a846e84f12d86ca8ef253dd" compoundref="convertertoqwidget_8cpp" startline="124" endline="152">qtreports::detail::ConverterToQWidget::addSectionLayout</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceqtreports_1_1detail_1af9d1cf052a8d77b7e8147f729d9bd0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0ec42eb3dff48f43fdaa4d5a68ef87a4" kindref="member">ParserFromXML::ParseFunc</ref></type>
+        <definition>ParserFromXML::ParseFunc qtreports::detail::bindParseFunc</definition>
+        <argsstring>(ParserFromXML *obj, ParserFromXML::ParseMethodPtr method)</argsstring>
+        <name>bindParseFunc</name>
+        <param>
+          <type><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l" kindref="compound">ParserFromXML</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a025c60de376de47b95464a744af6cc30" kindref="member">ParserFromXML::ParseMethodPtr</ref></type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" line="12" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="12" bodyend="17"/>
+        <referencedby refid="namespaceqtreports_1_1detail_1a7e95fb3972b92694c2f40f3f9e29a3fc" compoundref="parserfromxml_8cpp" startline="20" endline="25">toParseFunc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceqtreports_1_1detail_1a7e95fb3972b92694c2f40f3f9e29a3fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0ec42eb3dff48f43fdaa4d5a68ef87a4" kindref="member">ParserFromXML::ParseFunc</ref></type>
+        <definition>ParserFromXML::ParseFunc qtreports::detail::toParseFunc</definition>
+        <argsstring>(ParserFromXML *obj, bool(ParserFromXML::*method)(QXmlStreamReader &amp;, const T1 &amp;))</argsstring>
+        <name>toParseFunc</name>
+        <param>
+          <type><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l" kindref="compound">ParserFromXML</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool(ParserFromXML::*)(QXmlStreamReader &amp;, const T1 &amp;)</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" line="20" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="20" bodyend="25"/>
+        <references refid="namespaceqtreports_1_1detail_1af9d1cf052a8d77b7e8147f729d9bd0a6" compoundref="parserfromxml_8cpp" startline="12" endline="17">bindParseFunc</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="59">qtreports::detail::ParserFromXML::ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::toBool</definition>
+        <argsstring>(const QString &amp;string)</argsstring>
+        <name>toBool</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="27" bodyend="30"/>
+        <references refid="namespaceqtreports_1_1detail_1a3ce46912811f49a63ad2d9b6a5d310d3" compoundref="object_8cpp" startline="5" endline="7">isEquals</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="331" endline="485">qtreports::detail::ParserFromXML::parseStyle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="860" endline="879">qtreports::detail::ParserFromXML::parseFont</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceqtreports_1_1detail_1a3ce46912811f49a63ad2d9b6a5d310d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::isEquals</definition>
+        <argsstring>(const QString &amp;string1, const QString &amp;string2)</argsstring>
+        <name>isEquals</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>string1</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>string2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" line="5" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="5" bodyend="7"/>
+        <referencedby refid="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" compoundref="parserfromxml_8cpp" startline="27" endline="30">toBool</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="231" endline="328">qtreports::detail::ParserFromXML::parseReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="827" endline="858">qtreports::detail::ParserFromXML::parseTextElement</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="69" column="1"/>
+  </compounddef>
+</doxygen>

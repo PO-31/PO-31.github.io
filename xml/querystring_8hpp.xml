@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="querystring_8hpp" kind="file" language="C++">
+    <compoundname>querystring.hpp</compoundname>
+    <includes local="no">QSharedPointer</includes>
+    <includes refid="object_8hpp" local="yes">object.hpp</includes>
+    <includedby refid="querystring_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.cpp</includedby>
+    <incdepgraph>
+      <node id="3195">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp</label>
+        <link refid="querystring.hpp"/>
+        <childnode refid="3196" relation="include">
+        </childnode>
+        <childnode refid="3197" relation="include">
+        </childnode>
+      </node>
+      <node id="3196">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="3198">
+        <label>QString</label>
+      </node>
+      <node id="3197">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="3198" relation="include">
+        </childnode>
+        <childnode refid="3199" relation="include">
+        </childnode>
+        <childnode refid="3196" relation="include">
+        </childnode>
+      </node>
+      <node id="3199">
+        <label>QVariant</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3200">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp</label>
+        <link refid="querystring.hpp"/>
+        <childnode refid="3201" relation="include">
+        </childnode>
+      </node>
+      <node id="3201">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.cpp</label>
+        <link refid="querystring_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classqtreports_1_1detail_1_1_query_string" prot="public">qtreports::detail::QueryString</innerclass>
+    <innernamespace refid="namespaceqtreports">qtreports</innernamespace>
+    <innernamespace refid="namespaceqtreports_1_1detail">qtreports::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="querystring_8hpp_1a8eba0069b607e93d24bcdb34f3fd384c" prot="public" static="no">
+        <name>QUERYSTRING_HPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp" line="3" column="9" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QUERYSTRING_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="querystring_8hpp_1a8eba0069b607e93d24bcdb34f3fd384c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>QUERYSTRING_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSharedPointer&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="object_8hpp" kindref="compound">object.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceqtreports" kindref="compound">qtreports</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classqtreports_1_1detail_1_1_query_string" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classqtreports_1_1detail_1_1_query_string" kindref="compound">QueryString</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_object" kindref="compound">Object</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_query_string_1ae8995eb6d4059933e82cc17400338b98" kindref="member">QueryString</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_query_string_1a46b2573acef86657bcb7979c17d76d49" kindref="member">~QueryString</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_query_string_1a23fd1de2dce137cb30c9d87668442309" kindref="member">setText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<sp/>text<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_query_string_1a6eafd05ad897935806b1699d49e1b250" kindref="member">getText</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36" refid="classqtreports_1_1detail_1_1_query_string_1afc6c164e32cd2bcc9bc71dd4f9337923" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_query_string_1afc6c164e32cd2bcc9bc71dd4f9337923" kindref="member">m_text</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="39" refid="namespaceqtreports_1_1detail_1a355c6b3bd32c458f453f9d04b0d765c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QSharedPointer&lt;<sp/>QueryString<sp/>&gt;<sp/><ref refid="namespaceqtreports_1_1detail_1a355c6b3bd32c458f453f9d04b0d765c4" kindref="member">QueryStringPtr</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QUERYSTRING_HPP</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp"/>
+  </compounddef>
+</doxygen>

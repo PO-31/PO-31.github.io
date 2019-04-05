@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="crosstabrowheader_8hpp" kind="file" language="C++">
+    <compoundname>crosstabrowheader.hpp</compoundname>
+    <includes local="no">QString</includes>
+    <includes local="no">QSharedPointer</includes>
+    <includes refid="object_8hpp" local="yes">object.hpp</includes>
+    <includes refid="cellcontents_8hpp" local="yes">cellcontents.hpp</includes>
+    <includedby refid="crosstabrowheader_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.cpp</includedby>
+    <includedby refid="rowgroup_8hpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.hpp</includedby>
+    <incdepgraph>
+      <node id="2753">
+        <label>style.hpp</label>
+        <link refid="style_8hpp"/>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2754" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2743" relation="include">
+        </childnode>
+      </node>
+      <node id="2746">
+        <label>box.hpp</label>
+        <link refid="box_8hpp"/>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2743" relation="include">
+        </childnode>
+      </node>
+      <node id="2752">
+        <label>QRect</label>
+      </node>
+      <node id="2750">
+        <label>QPoint</label>
+      </node>
+      <node id="2742">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2740">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp</label>
+        <link refid="crosstabrowheader.hpp"/>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2743" relation="include">
+        </childnode>
+        <childnode refid="2745" relation="include">
+        </childnode>
+      </node>
+      <node id="2745">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2746" relation="include">
+        </childnode>
+        <childnode refid="2747" relation="include">
+        </childnode>
+      </node>
+      <node id="2748">
+        <label>textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2749" relation="include">
+        </childnode>
+      </node>
+      <node id="2741">
+        <label>QString</label>
+      </node>
+      <node id="2751">
+        <label>QSize</label>
+      </node>
+      <node id="2747">
+        <label>textfield.hpp</label>
+        <link refid="textfield_8hpp"/>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2748" relation="include">
+        </childnode>
+      </node>
+      <node id="2754">
+        <label>QColor</label>
+      </node>
+      <node id="2743">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2744" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+      </node>
+      <node id="2749">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2750" relation="include">
+        </childnode>
+        <childnode refid="2751" relation="include">
+        </childnode>
+        <childnode refid="2752" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2753" relation="include">
+        </childnode>
+        <childnode refid="2743" relation="include">
+        </childnode>
+      </node>
+      <node id="2744">
+        <label>QVariant</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2755">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp</label>
+        <link refid="crosstabrowheader.hpp"/>
+        <childnode refid="2756" relation="include">
+        </childnode>
+        <childnode refid="2757" relation="include">
+        </childnode>
+      </node>
+      <node id="2757">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.hpp</label>
+        <link refid="rowgroup_8hpp"/>
+        <childnode refid="2758" relation="include">
+        </childnode>
+      </node>
+      <node id="2756">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.cpp</label>
+        <link refid="crosstabrowheader_8cpp"/>
+      </node>
+      <node id="2758">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.cpp</label>
+        <link refid="rowgroup_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classqtreports_1_1detail_1_1_crosstab_row_header" prot="public">qtreports::detail::CrosstabRowHeader</innerclass>
+    <innernamespace refid="namespaceqtreports">qtreports</innernamespace>
+    <innernamespace refid="namespaceqtreports_1_1detail">qtreports::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="crosstabrowheader_8hpp_1a9e23f13275fff6c6c99fcf7ecf444e54" prot="public" static="no">
+        <name>CROSSTABROWHEADER_HPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp" line="3" column="9" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CROSSTABROWHEADER_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="crosstabrowheader_8hpp_1a9e23f13275fff6c6c99fcf7ecf444e54" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CROSSTABROWHEADER_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSharedPointer&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="object_8hpp" kindref="compound">object.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cellcontents_8hpp" kindref="compound">cellcontents.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceqtreports" kindref="compound">qtreports</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="classqtreports_1_1detail_1_1_crosstab_row_header" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classqtreports_1_1detail_1_1_crosstab_row_header" kindref="compound">CrosstabRowHeader</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_object" kindref="compound">Object</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_row_header_1a9c3bc3728df3e4178973b9afd210259a" kindref="member">CrosstabRowHeader</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_row_header_1afe61044a20ff69b9efd592060070de60" kindref="member">~CrosstabRowHeader</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_row_header_1a18566b01960560838e11d6bf7b458f3c" kindref="member">setCellContents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" kindref="member">CellContentsPtr</ref><sp/>&amp;<sp/>cellContents);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" kindref="member">CellContentsPtr</ref><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_row_header_1a7f226ac1ff70ec1f4c116fdf43d23101" kindref="member">getCellContents</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="classqtreports_1_1detail_1_1_crosstab_row_header_1acaee92ef72588544219c78e2fa2e1123" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" kindref="member">CellContentsPtr</ref><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_row_header_1acaee92ef72588544219c78e2fa2e1123" kindref="member">m_cellContentsPtr</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="26" refid="namespaceqtreports_1_1detail_1a6c14ac3a24d19c25cdfeb1075c433080" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QSharedPointer&lt;CrosstabRowHeader&gt;<sp/><ref refid="namespaceqtreports_1_1detail_1a6c14ac3a24d19c25cdfeb1075c433080" kindref="member">CrosstabRowHeaderPtr</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CROSSTABROWHEADER_HPP</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp"/>
+  </compounddef>
+</doxygen>

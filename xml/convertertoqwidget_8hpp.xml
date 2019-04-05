@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="convertertoqwidget_8hpp" kind="file" language="C++">
+    <compoundname>convertertoqwidget.hpp</compoundname>
+    <includes local="no">QString</includes>
+    <includes local="no">QWidget</includes>
+    <includes local="no">QFrame</includes>
+    <includes local="no">QBoxLayout</includes>
+    <includes local="no">QVBoxLayout</includes>
+    <includes local="no">QHBoxLayout</includes>
+    <includes refid="report_8hpp" local="yes">../tags/report.hpp</includes>
+    <includedby refid="convertertopdf_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp</includedby>
+    <includedby refid="convertertoqwidget_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp</includedby>
+    <includedby refid="engine_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</includedby>
+    <incdepgraph>
+      <node id="2191">
+        <label>QMap</label>
+      </node>
+      <node id="2204">
+        <label>section.hpp</label>
+        <link refid="section_8hpp"/>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+        <childnode refid="2205" relation="include">
+        </childnode>
+      </node>
+      <node id="2203">
+        <label>group.hpp</label>
+        <link refid="group_8hpp"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2204" relation="include">
+        </childnode>
+      </node>
+      <node id="2205">
+        <label>band.hpp</label>
+        <link refid="band_8hpp"/>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2206" relation="include">
+        </childnode>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2213" relation="include">
+        </childnode>
+        <childnode refid="2214" relation="include">
+        </childnode>
+        <childnode refid="2215" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2216" relation="include">
+        </childnode>
+      </node>
+      <node id="2201">
+        <label>style.hpp</label>
+        <link refid="style_8hpp"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2202" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+      </node>
+      <node id="2199">
+        <label>field.hpp</label>
+        <link refid="field_8hpp"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2198" relation="include">
+        </childnode>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2200" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+      </node>
+      <node id="2218">
+        <label>detail.hpp</label>
+        <link refid="detail_8hpp"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2204" relation="include">
+        </childnode>
+      </node>
+      <node id="2195">
+        <label>QPrinter</label>
+      </node>
+      <node id="2210">
+        <label>QRect</label>
+      </node>
+      <node id="2209">
+        <label>QPoint</label>
+      </node>
+      <node id="2193">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2200">
+        <label>QImage</label>
+      </node>
+      <node id="2206">
+        <label>statictext.hpp</label>
+        <link refid="statictext_8hpp"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2207" relation="include">
+        </childnode>
+      </node>
+      <node id="2213">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2188">
+        <label>QHBoxLayout</label>
+      </node>
+      <node id="2215">
+        <label>image.hpp</label>
+        <link refid="image_8hpp"/>
+        <childnode refid="2200" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2207" relation="include">
+        </childnode>
+      </node>
+      <node id="2212">
+        <label>line.hpp</label>
+        <link refid="line_8hpp"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2216">
+        <label>crosstab.hpp</label>
+        <link refid="crosstab_8hpp"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2187">
+        <label>QVBoxLayout</label>
+      </node>
+      <node id="2207">
+        <label>textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2184">
+        <label>QWidget</label>
+      </node>
+      <node id="2196">
+        <label>QRegularExpression</label>
+      </node>
+      <node id="2183">
+        <label>QString</label>
+      </node>
+      <node id="2190">
+        <label>QSize</label>
+      </node>
+      <node id="2211">
+        <label>textfield.hpp</label>
+        <link refid="textfield_8hpp"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2207" relation="include">
+        </childnode>
+      </node>
+      <node id="2202">
+        <label>QColor</label>
+      </node>
+      <node id="2194">
+        <label>QMargins</label>
+      </node>
+      <node id="2197">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2198" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+      </node>
+      <node id="2186">
+        <label>QBoxLayout</label>
+      </node>
+      <node id="2217">
+        <label>title.hpp</label>
+        <link refid="title_8hpp"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2204" relation="include">
+        </childnode>
+      </node>
+      <node id="2185">
+        <label>QFrame</label>
+      </node>
+      <node id="2219">
+        <label>summary.hpp</label>
+        <link refid="summary_8hpp"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2204" relation="include">
+        </childnode>
+      </node>
+      <node id="2208">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2209" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+        <childnode refid="2210" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2201" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+      </node>
+      <node id="2198">
+        <label>QVariant</label>
+      </node>
+      <node id="2189">
+        <label>../tags/report.hpp</label>
+        <link refid="report_8hpp"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+        <childnode refid="2191" relation="include">
+        </childnode>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2194" relation="include">
+        </childnode>
+        <childnode refid="2195" relation="include">
+        </childnode>
+        <childnode refid="2196" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+        <childnode refid="2199" relation="include">
+        </childnode>
+        <childnode refid="2201" relation="include">
+        </childnode>
+        <childnode refid="2203" relation="include">
+        </childnode>
+        <childnode refid="2217" relation="include">
+        </childnode>
+        <childnode refid="2218" relation="include">
+        </childnode>
+        <childnode refid="2219" relation="include">
+        </childnode>
+      </node>
+      <node id="2182">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp</label>
+        <link refid="convertertoqwidget.hpp"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2184" relation="include">
+        </childnode>
+        <childnode refid="2185" relation="include">
+        </childnode>
+        <childnode refid="2186" relation="include">
+        </childnode>
+        <childnode refid="2187" relation="include">
+        </childnode>
+        <childnode refid="2188" relation="include">
+        </childnode>
+        <childnode refid="2189" relation="include">
+        </childnode>
+      </node>
+      <node id="2192">
+        <label>QVector</label>
+      </node>
+      <node id="2214">
+        <label>ellipse.hpp</label>
+        <link refid="ellipse_8hpp"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2222">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp</label>
+        <link refid="convertertoqwidget_8cpp"/>
+      </node>
+      <node id="2221">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp</label>
+        <link refid="convertertopdf_8cpp"/>
+      </node>
+      <node id="2220">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp</label>
+        <link refid="convertertoqwidget.hpp"/>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2222" relation="include">
+        </childnode>
+        <childnode refid="2223" relation="include">
+        </childnode>
+      </node>
+      <node id="2223">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</label>
+        <link refid="engine_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classqtreports_1_1detail_1_1_converter_to_q_widget" prot="public">qtreports::detail::ConverterToQWidget</innerclass>
+    <innernamespace refid="namespaceqtreports">qtreports</innernamespace>
+    <innernamespace refid="namespaceqtreports_1_1detail">qtreports::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="convertertoqwidget_8hpp_1aeb00e39f15b034fe78774945ce1fa4dd" prot="public" static="no">
+        <name>CONVERTERTOQWIDGET_HPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="3" column="9" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CONVERTERTOQWIDGET_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="convertertoqwidget_8hpp_1aeb00e39f15b034fe78774945ce1fa4dd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONVERTERTOQWIDGET_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QFrame&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QBoxLayout&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QVBoxLayout&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QHBoxLayout&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../tags/report.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceqtreports" kindref="compound">qtreports</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QSharedPointer&lt;<sp/>QWidget<sp/>&gt;<sp/><ref refid="namespaceqtreports_1a8c388f58321d9cf9e0b5d22ed159a65e" kindref="member">QWidgetPtr</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail<sp/>{</highlight></codeline>
+<codeline lineno="21" refid="classqtreports_1_1detail_1_1_converter_to_q_widget" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget" kindref="compound">ConverterToQWidget</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a32991c517ff05f5507f8cc7139037a58" kindref="member">ConverterToQWidget</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a18c9906cd7f9be981729cd2260a57429" kindref="member">~ConverterToQWidget</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">WidgetType</ref><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_report" kindref="compound">Report</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7aebd9bec4d70abc789d439c1f136b0538" kindref="member">Layout</ref><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" kindref="member">convert</ref>(<ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">WidgetType</ref><sp/>type<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c" kindref="member">WidgetType::Report</ref>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5e49976fe8fac12633ccda1ba928b9b1" kindref="member">isReport</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a76bb37f2855d12afc9056c75cdbc5e0b" kindref="member">isLayout</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">WidgetType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a2ebbfa1a9f761ea5180bb2dfd1f792a7" kindref="member">getType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QWidgetPtr<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ab01f3bcd13f00483adbdec4eacc272e8" kindref="member">getQWidget</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QWidgetPtr<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ad2781acf981bf0ef4513879894fa9711" kindref="member">getPage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>QWidgetPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7ee736dd6be3d2cd5b3407751d94617a" kindref="member">getPages</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" kindref="member">getLastError</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="93" refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7930492174e0a58f710c8ac26932045d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7930492174e0a58f710c8ac26932045d" kindref="member">m_report</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1afa2db8d8d38f4c15bd88f3be25d6fa96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1afa2db8d8d38f4c15bd88f3be25d6fa96" kindref="member">m_lastError</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a52b21b8a01b877e5dc9ea736111736cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QWidgetPtr<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a52b21b8a01b877e5dc9ea736111736cd" kindref="member">m_qwidget</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a8624b135a946f6219a133444da184791" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">WidgetType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a8624b135a946f6219a133444da184791" kindref="member">m_type</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a0fb46f8e4347bcde3af9ea50bae6139e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>QWidgetPtr<sp/>&gt;<sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a0fb46f8e4347bcde3af9ea50bae6139e" kindref="member">m_pages</ref>;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a762cc5f3f372078ddc89d0a91f2f4502" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a762cc5f3f372078ddc89d0a91f2f4502" kindref="member">m_currentHeight</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1af350953efb07bf3393c33846a81b1121" kindref="member">addVerticalBorder</ref>(QBoxLayout<sp/>*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMargins<sp/>&amp;<sp/>margins,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a21d211f4a1f0f46f2220a0959c36367b" kindref="member">addEmptySection</ref>(QBoxLayout<sp/>*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMargins<sp/>&amp;<sp/>margins);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFrame<sp/>*<sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ae126b16c5a846e84f12d86ca8ef253dd" kindref="member">addSectionLayout</ref>(QBoxLayout<sp/>*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMargins<sp/>&amp;<sp/>margins,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a23d6229235fca8bd8bbddcc5e2e28f92" kindref="member">addPage</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ac98aceb5ee703053d7691029da84e296" kindref="member">addGroupsIntoReport</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" kindref="member">DetailPtr</ref><sp/>&amp;<sp/>detail,<sp/>QVBoxLayout*<sp/>layout);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a96a53267cf2b8092e174906ea7f0f56f" kindref="member">createQWidget</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" kindref="member">createSection</ref>(QWidget<sp/>*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref><sp/>&amp;<sp/>section,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" kindref="member">createBands</ref>(QWidget<sp/>*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref><sp/>&amp;<sp/>section);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONVERTERTOQWIDGET_HPP</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp"/>
+  </compounddef>
+</doxygen>

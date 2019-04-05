@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>QtReports</title>
+    <detaileddescription>
+<para>Добро пожаловать в документацию проекта QtReports.</para><sect1 id="index_1intro_sec">
+<title>Введение</title>
+<para>Эта документация предназначена для того, чтобы помочь в использовании проекта.</para></sect1>
+<sect1 id="index_1install_sec">
+<title>Инструкция по сборке проекта</title>
+<sect2 id="index_1step1">
+<title>Шаг 1: Распаковка.</title>
+<para>Клонировать проект или скачать релиз из репозитория <ulink url="https://github.com/PO-31/QtReports/">https://github.com/PO-31/QtReports/</ulink>.</para><para>Распаковать архив в папку QtReports.</para><para>(Рекомендуется, чтобы полный путь к папке QtReports содержал только латиницу)</para></sect2>
+<sect2 id="index_1step2">
+<title>Шаг 2: Сборка.</title>
+<para>Собрать проект можно несколькими способами, но если необходимо указать версию собираемой библиотеки, то необходимо задать переменную среды QTREPORTS_VERSION</para><sect3 id="index_1step2_1">
+<title>Способ 1. При помощи QtCreator:</title>
+<para>Используя программу, в корневой папке QtReports необходимо открыть файл проекта &quot;QtReports.pro&quot;.</para><para>Для сборки со статистикой для Coverage установить значение переменной среды BUILD_COVERAGE на &quot;TRUE&quot;.</para><para>Далее нажать кнопку &quot;Собрать&quot; (кнопка Молоток) для сборки всего проекта.</para><para>Если необходимо собрать только определенный компонент, то нужно нажать ПКМ по проекту компонента в обозревателе проектов и выбрать &quot;Собрать Название_Модуля&quot;</para></sect3>
+<sect3 id="index_1step2_2">
+<title>Способ 2. При помощи Qmake:</title>
+<para>Запускаем консоль/терминал и переходим в каталог необходимого нам модуля</para><para>Набираем qmake [-spec &quot;Используемый_Компилятор&quot;] &quot;CONFIG += Необходимые_Типы_Сборки_(release,debug,coverage,etc.)&quot; Имя_Проекта_Модуля.pro</para><para>После генерации Makefile вызываем make [-jКоличествоПотоков]</para></sect3>
+</sect2>
+</sect1>
+<sect1 id="index_1use_sec">
+<title>Использование</title>
+<para>После сборки файл библиотеки можно будет найти в папке &quot;build/lib&quot;, а заголовочные файлы - &quot;qtreports/include&quot;</para><para>Для подключения собранной библиотеки к Qmake проекту необходимо в файле проекта указать &quot;LIB += -lqtreports&quot; и, если необходимо, &quot;LIB += Путь_До_Библиотеки&quot;, &quot;INCLUDEPATH += Путь_До_Заголовочных_Файлов&quot; </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

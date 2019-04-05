@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['addband',['addBand',['../classqtreports_1_1detail_1_1_section.html#a1c07823c6ba7650dc7d44dd3d36d0b26',1,'qtreports::detail::Section']]],
   ['addbands',['addBands',['../classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#aa9d511353f62cfc489c3e071ebf5182b',1,'qtreports::detail::ConverterToHTML']]],
   ['addcrosstab',['addCrosstab',['../classqtreports_1_1detail_1_1_band.html#aa1415625f28cd5eed660e1ea2dc403b5',1,'qtreports::detail::Band']]],
   ['addellipse',['addEllipse',['../classqtreports_1_1detail_1_1_band.html#a02b980791263ae274739862f90470d3f',1,'qtreports::detail::Band']]],

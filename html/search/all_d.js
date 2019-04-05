@@ -1,6 +1,12 @@
 var searchData=
 [
   ['rect',['Rect',['../classqtreports_1_1detail_1_1_rect.html',1,'qtreports::detail']]],
+  ['rect',['Rect',['../classqtreports_1_1detail_1_1_rect.html#a9312f7e221a9c66d37ef7b198f516fb6',1,'qtreports::detail::Rect']]],
+  ['rect_2ecpp',['rect.cpp',['../rect_8cpp.html',1,'']]],
+  ['rect_2ehpp',['rect.hpp',['../rect_8hpp.html',1,'']]],
+  ['rect_5fhpp',['RECT_HPP',['../rect_8hpp.html#af1be77553d385d1c6bb3b402b2ae3c76',1,'rect.hpp']]],
+  ['rectptr',['RectPtr',['../namespaceqtreports_1_1detail.html#ab30d690e2ab4bc1cb5d6b2c47fcd1172',1,'qtreports::detail']]],
+  ['reorderbygroups',['reorderByGroups',['../classqtreports_1_1detail_1_1_report.html#aa2eb56a54e9cb57831ab6fb6a7d745ab',1,'qtreports::detail::Report']]],
   ['replace',['replace',['../classqtreports_1_1detail_1_1_replacer.html#af7ccb83be264f7c72b7485cf38455450',1,'qtreports::detail::Replacer']]],
   ['replacefield',['replaceField',['../classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd',1,'qtreports::detail::Replacer']]],
   ['replacefieldimage',['replaceFieldImage',['../classqtreports_1_1detail_1_1_replacer.html#ae1ac521aeaf5fdd694e79e2ae52d4704',1,'qtreports::detail::Replacer']]],
@@ -11,8 +17,21 @@ var searchData=
   ['replaceparametersinsection',['replaceParametersInSection',['../classqtreports_1_1detail_1_1_replacer.html#a626052332a0425d71f1f754824dc97dd',1,'qtreports::detail::Replacer']]],
   ['replaceparametersintextwidget',['replaceParametersInTextWidget',['../classqtreports_1_1detail_1_1_replacer.html#add3b6a2869033620c4618669870c26f8',1,'qtreports::detail::Replacer']]],
   ['replacer',['Replacer',['../classqtreports_1_1detail_1_1_replacer.html',1,'qtreports::detail']]],
+  ['replacer',['Replacer',['../classqtreports_1_1detail_1_1_replacer.html#adb6551cf5bc3fda21e3eeba1894bc172',1,'qtreports::detail::Replacer']]],
+  ['replacer_2ecpp',['replacer.cpp',['../replacer_8cpp.html',1,'']]],
+  ['replacer_2ehpp',['replacer.hpp',['../replacer_8hpp.html',1,'']]],
+  ['replacer_5fhpp',['REPLACER_HPP',['../replacer_8hpp.html#a88556cfe04eeb252dae65de4a71b9975',1,'replacer.hpp']]],
+  ['report',['Report',['../classqtreports_1_1detail_1_1_report.html#aaadd946ee47903c33364417793d84347',1,'qtreports::detail::Report::Report()'],['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c',1,'qtreports::detail::ConverterToQWidget::Report()']]],
   ['report',['Report',['../classqtreports_1_1detail_1_1_report.html',1,'qtreports::detail']]],
-  ['report',['Report',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c',1,'qtreports::detail::ConverterToQWidget']]],
+  ['report_2ecpp',['report.cpp',['../report_8cpp.html',1,'']]],
+  ['report_2ehpp',['report.hpp',['../report_8hpp.html',1,'']]],
+  ['report_5fhpp',['REPORT_HPP',['../report_8hpp.html#a5c6f8e46b8a39c2ef905d11b0cb651da',1,'report.hpp']]],
+  ['reportptr',['ReportPtr',['../namespaceqtreports_1_1detail.html#a44f599ffe398f114e5d2edcffdbdc3d8',1,'qtreports::detail']]],
   ['required',['Required',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3fab651efdb98a5d6bd2b3935d0c3f4a5e2',1,'qtreports::detail::ParserFromXML']]],
-  ['rowgroup',['RowGroup',['../classqtreports_1_1detail_1_1_row_group.html',1,'qtreports::detail']]]
+  ['rowgroup',['RowGroup',['../classqtreports_1_1detail_1_1_row_group.html',1,'qtreports::detail']]],
+  ['rowgroup',['RowGroup',['../classqtreports_1_1detail_1_1_row_group.html#a1d9eeb2f4e01691dc29bbda593814eb1',1,'qtreports::detail::RowGroup']]],
+  ['rowgroup_2ecpp',['rowgroup.cpp',['../rowgroup_8cpp.html',1,'']]],
+  ['rowgroup_2ehpp',['rowgroup.hpp',['../rowgroup_8hpp.html',1,'']]],
+  ['rowgroup_5fhpp',['ROWGROUP_HPP',['../rowgroup_8hpp.html#a65963e88a76c7ae847da0721c52df622',1,'rowgroup.hpp']]],
+  ['rowgroupptr',['RowGroupPtr',['../namespaceqtreports_1_1detail.html#ab688ffde4f793e1a20c6f3b1b27fd407',1,'qtreports::detail']]]
 ];

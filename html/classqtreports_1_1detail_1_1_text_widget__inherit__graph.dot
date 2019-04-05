@@ -1,0 +1,20 @@
+digraph "qtreports::detail::TextWidget"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{qtreports::detail::\lTextWidget\n|# m_text\l# m_originalText\l|+ TextWidget()\l+ ~TextWidget()\l+ setText()\l+ getText()\l+ setOriginalText()\l+ getOriginalText()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{qtreports::detail::\lWidget\n|# m_isBold\l# m_rect\l# m_alignment\l# m_style\l|+ Widget()\l+ ~Widget()\l+ setPosition()\l+ setX()\l+ setY()\l+ setSize()\l+ setWidth()\l+ setHeight()\l+ setRect()\l+ setStyle()\l+ setAlignment()\l+ getAlignment()\l+ getPos()\l+ getX()\l+ getY()\l+ getSize()\l+ getWidth()\l+ getHeight()\l+ getRect()\l+ getStyle()\l+ isBold()\l+ setBold()\l}",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_widget.html",tooltip="Базовый класс для тэгов, которые подлежат отображению "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_object.html",tooltip="Базовый класс для любого тэга "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{qtreports::detail::\lImage\n|- m_image\l|+ Image()\l+ ~Image()\l+ setImage()\l+ getImage()\l}",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_image.html",tooltip="Класс, реализующий тэг <image> "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{qtreports::detail::\lMeasure\n|- m_className\l- m_calculation\l|+ Measure()\l+ ~Measure()\l+ setClassName()\l+ setCalculation()\l+ getClassName()\l+ getCalculation()\l}",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_measure.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{qtreports::detail::\lStaticText\n||+ StaticText()\l+ ~StaticText()\l}",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_static_text.html",tooltip="Класс, реализующий тэг <staticText> "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{qtreports::detail::\lTextField\n|- m_className\l|+ TextField()\l+ ~TextField()\l+ setClassName()\l+ getClassName()\l}",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_text_field.html",tooltip="Класс, реализующий тэг <textField> "];
+}

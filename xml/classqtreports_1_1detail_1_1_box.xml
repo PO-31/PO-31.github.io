@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_box" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::Box</compoundname>
+    <basecompoundref refid="classqtreports_1_1detail_1_1_object" prot="public" virt="non-virtual">qtreports::detail::Object</basecompoundref>
+    <includes refid="box_8hpp" local="no">box.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_box_1a739984d04652ccb1d3ad2a73ae1fa587" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Box::m_border</definition>
+        <argsstring></argsstring>
+        <name>m_border</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="25" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_box_1a0c8aa3f4fe9d3dd9c782c9edded82c98" compoundref="box_8cpp" startline="7" endline="11">Box</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_box_1adaeaae296a5c67014bd797c20e8bd48b" compoundref="box_8cpp" startline="14" endline="17">setBorder</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_box_1abb13e42329365ae6ea92ab3e945b0174" compoundref="box_8cpp" startline="24" endline="27">getBorder</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_box_1a5a2797c7c12c2f78b50d586706612c60" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Box::m_borderColor</definition>
+        <argsstring></argsstring>
+        <name>m_borderColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="26" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_box_1a0c8aa3f4fe9d3dd9c782c9edded82c98" compoundref="box_8cpp" startline="7" endline="11">Box</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_box_1a3fe1fd8927c6d3a697a26d19ff126bbf" compoundref="box_8cpp" startline="19" endline="22">setBorderColor</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_box_1a1462d2c256c4954b6212d5dd6de78322" compoundref="box_8cpp" startline="29" endline="32">getBorderColor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_box_1a0c8aa3f4fe9d3dd9c782c9edded82c98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Box::Box</definition>
+        <argsstring>()</argsstring>
+        <name>Box</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="16" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.cpp" bodystart="7" bodyend="11"/>
+        <references refid="classqtreports_1_1detail_1_1_box_1a739984d04652ccb1d3ad2a73ae1fa587" compoundref="box_8hpp" startline="25">m_border</references>
+        <references refid="classqtreports_1_1detail_1_1_box_1a5a2797c7c12c2f78b50d586706612c60" compoundref="box_8hpp" startline="26">m_borderColor</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_box_1ad761d41b45d73e182a7818166fe5e1bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Box::~Box</definition>
+        <argsstring>()</argsstring>
+        <name>~Box</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="17" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_box_1adaeaae296a5c67014bd797c20e8bd48b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Box::setBorder</definition>
+        <argsstring>(const QString &amp;border)</argsstring>
+        <name>setBorder</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>border</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="19" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.cpp" bodystart="14" bodyend="17"/>
+        <references refid="classqtreports_1_1detail_1_1_box_1a739984d04652ccb1d3ad2a73ae1fa587" compoundref="box_8hpp" startline="25">m_border</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_box_1a3fe1fd8927c6d3a697a26d19ff126bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Box::setBorderColor</definition>
+        <argsstring>(const QString &amp;borderColor)</argsstring>
+        <name>setBorderColor</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>borderColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="20" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.cpp" bodystart="19" bodyend="22"/>
+        <references refid="classqtreports_1_1detail_1_1_box_1a5a2797c7c12c2f78b50d586706612c60" compoundref="box_8hpp" startline="26">m_borderColor</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_box_1abb13e42329365ae6ea92ab3e945b0174" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Box::getBorder</definition>
+        <argsstring>() const </argsstring>
+        <name>getBorder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="21" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.cpp" bodystart="24" bodyend="27"/>
+        <references refid="classqtreports_1_1detail_1_1_box_1a739984d04652ccb1d3ad2a73ae1fa587" compoundref="box_8hpp" startline="25">m_border</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_box_1a1462d2c256c4954b6212d5dd6de78322" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Box::getBorderColor</definition>
+        <argsstring>() const </argsstring>
+        <name>getBorderColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="22" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.cpp" bodystart="29" bodyend="32"/>
+        <references refid="classqtreports_1_1detail_1_1_box_1a5a2797c7c12c2f78b50d586706612c60" compoundref="box_8hpp" startline="26">m_borderColor</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="212">
+        <label>qtreports::detail::Box</label>
+        <link refid="classqtreports_1_1detail_1_1_box"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="214">
+        <label>qtreports::detail::Box</label>
+        <link refid="classqtreports_1_1detail_1_1_box"/>
+        <childnode refid="215" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="215">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="14" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" bodystart="14" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_box_1a0c8aa3f4fe9d3dd9c782c9edded82c98" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>Box</name></member>
+      <member refid="classqtreports_1_1detail_1_1_box_1abb13e42329365ae6ea92ab3e945b0174" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>getBorder</name></member>
+      <member refid="classqtreports_1_1detail_1_1_box_1a1462d2c256c4954b6212d5dd6de78322" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>getBorderColor</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>getName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>getTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_box_1a739984d04652ccb1d3ad2a73ae1fa587" prot="private" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>m_border</name></member>
+      <member refid="classqtreports_1_1detail_1_1_box_1a5a2797c7c12c2f78b50d586706612c60" prot="private" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>m_borderColor</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>m_name</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>m_tagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_box_1adaeaae296a5c67014bd797c20e8bd48b" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>setBorder</name></member>
+      <member refid="classqtreports_1_1detail_1_1_box_1a3fe1fd8927c6d3a697a26d19ff126bbf" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>setBorderColor</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>setName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>setTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_box_1ad761d41b45d73e182a7818166fe5e1bf" prot="public" virt="non-virtual"><scope>qtreports::detail::Box</scope><name>~Box</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" virt="virtual"><scope>qtreports::detail::Box</scope><name>~Object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

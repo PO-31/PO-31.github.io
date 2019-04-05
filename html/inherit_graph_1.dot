@@ -1,0 +1,9 @@
+digraph "Иерархия классов. Графический вид."
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="qtreports::detail::\lConverterToPDF",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html",tooltip="Класс, используемый для конвертации документа в PDF формат. "];
+}

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_cell_contents" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::CellContents</compoundname>
+    <basecompoundref refid="classqtreports_1_1detail_1_1_object" prot="public" virt="non-virtual">qtreports::detail::Object</basecompoundref>
+    <includes refid="cellcontents_8hpp" local="no">cellcontents.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_cell_contents_1a58636f1a1fb84d65c455b5a55054fb3f" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a7e5197d24b8fb17fd72eb051d6f3a13a" kindref="member">BoxPtr</ref></type>
+        <definition>BoxPtr qtreports::detail::CellContents::m_boxPtr</definition>
+        <argsstring></argsstring>
+        <name>m_boxPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_cell_contents_1a19fbdcde42d08b38a42e24ef6a3948ae" compoundref="cellcontents_8cpp" startline="10" endline="13">setBox</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_cell_contents_1a7989943a78ef578271042ed92dfccd0a" compoundref="cellcontents_8cpp" startline="20" endline="23">getBox</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_cell_contents_1a6db9c1e595ffd534e32dfc4cfe228801" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref></type>
+        <definition>TextFieldPtr qtreports::detail::CellContents::m_textFieldPtr</definition>
+        <argsstring></argsstring>
+        <name>m_textFieldPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="28" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" compoundref="cellcontents_8cpp" startline="15" endline="18">setTextField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" compoundref="cellcontents_8cpp" startline="25" endline="28">getTextField</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_cell_contents_1a0a1c471c32d2ab468309e5894b50728a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::CellContents::CellContents</definition>
+        <argsstring>()</argsstring>
+        <name>CellContents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="18" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_cell_contents_1a1ba62f3f6a8e7157b035061b6e983801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::CellContents::~CellContents</definition>
+        <argsstring>()</argsstring>
+        <name>~CellContents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="19" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_cell_contents_1a19fbdcde42d08b38a42e24ef6a3948ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::CellContents::setBox</definition>
+        <argsstring>(const BoxPtr &amp;box)</argsstring>
+        <name>setBox</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a7e5197d24b8fb17fd72eb051d6f3a13a" kindref="member">BoxPtr</ref> &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="21" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp" bodystart="10" bodyend="13"/>
+        <references refid="classqtreports_1_1detail_1_1_cell_contents_1a58636f1a1fb84d65c455b5a55054fb3f" compoundref="cellcontents_8hpp" startline="27">m_boxPtr</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::CellContents::setTextField</definition>
+        <argsstring>(const TextFieldPtr &amp;textField)</argsstring>
+        <name>setTextField</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref> &amp;</type>
+          <declname>textField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="22" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp" bodystart="15" bodyend="18"/>
+        <references refid="classqtreports_1_1detail_1_1_cell_contents_1a6db9c1e595ffd534e32dfc4cfe228801" compoundref="cellcontents_8hpp" startline="28">m_textFieldPtr</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_cell_contents_1a7989943a78ef578271042ed92dfccd0a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1a7e5197d24b8fb17fd72eb051d6f3a13a" kindref="member">BoxPtr</ref></type>
+        <definition>const BoxPtr qtreports::detail::CellContents::getBox</definition>
+        <argsstring>() const </argsstring>
+        <name>getBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="23" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp" bodystart="20" bodyend="23"/>
+        <references refid="classqtreports_1_1detail_1_1_cell_contents_1a58636f1a1fb84d65c455b5a55054fb3f" compoundref="cellcontents_8hpp" startline="27">m_boxPtr</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref></type>
+        <definition>const TextFieldPtr qtreports::detail::CellContents::getTextField</definition>
+        <argsstring>() const </argsstring>
+        <name>getTextField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="24" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp" bodystart="25" bodyend="28"/>
+        <references refid="classqtreports_1_1detail_1_1_cell_contents_1a6db9c1e595ffd534e32dfc4cfe228801" compoundref="cellcontents_8hpp" startline="28">m_textFieldPtr</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="217">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="216">
+        <label>qtreports::detail::CellContents</label>
+        <link refid="classqtreports_1_1detail_1_1_cell_contents"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="219">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="218">
+        <label>qtreports::detail::CellContents</label>
+        <link refid="classqtreports_1_1detail_1_1_cell_contents"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="16" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" bodystart="16" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_cell_contents_1a0a1c471c32d2ab468309e5894b50728a" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>CellContents</name></member>
+      <member refid="classqtreports_1_1detail_1_1_cell_contents_1a7989943a78ef578271042ed92dfccd0a" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>getBox</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>getName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>getTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>getTextField</name></member>
+      <member refid="classqtreports_1_1detail_1_1_cell_contents_1a58636f1a1fb84d65c455b5a55054fb3f" prot="private" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>m_boxPtr</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>m_name</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>m_tagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_cell_contents_1a6db9c1e595ffd534e32dfc4cfe228801" prot="private" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>m_textFieldPtr</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_cell_contents_1a19fbdcde42d08b38a42e24ef6a3948ae" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>setBox</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>setName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>setTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>setTextField</name></member>
+      <member refid="classqtreports_1_1detail_1_1_cell_contents_1a1ba62f3f6a8e7157b035061b6e983801" prot="public" virt="non-virtual"><scope>qtreports::detail::CellContents</scope><name>~CellContents</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" virt="virtual"><scope>qtreports::detail::CellContents</scope><name>~Object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

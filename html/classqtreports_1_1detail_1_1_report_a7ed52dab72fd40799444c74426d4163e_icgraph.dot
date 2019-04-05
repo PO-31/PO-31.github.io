@@ -1,0 +1,21 @@
+digraph "qtreports::detail::Report::getFieldFromGroupExpression"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="qtreports::detail::\lReport::getFieldFromGroupExpression",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="qtreports::detail::\lReport::isDetailHasGroupHeader",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_report.html#a2317483290ac109877b05e90d8f86835"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="qtreports::detail::\lReport::isDetailHasGroupFooter",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_report.html#a36b4f8b33892fabbfd4858602bb511e1"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="qtreports::detail::\lReport::reorderByGroups",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_report.html#aa2eb56a54e9cb57831ab6fb6a7d745ab"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="qtreports::detail::\lReport::getGroupIndexFromField",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_report.html#a6bec8b279652c93ca97fbc981a1bbde6"];
+  Node5 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="qtreports::detail::\lReport::getGroupVec",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_report.html#a963b1c807eb08e9b8b38b842d27acca0"];
+}

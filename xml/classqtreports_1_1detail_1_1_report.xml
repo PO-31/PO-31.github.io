@@ -1,0 +1,1546 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_report" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::Report</compoundname>
+    <basecompoundref refid="classqtreports_1_1detail_1_1_object" prot="public" virt="non-virtual">qtreports::detail::Object</basecompoundref>
+    <includes refid="report_8hpp" local="no">report.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1a2c390bf0c75090329db2356a021d9d03" prot="private" static="no" mutable="no">
+        <type>QPrinter::Orientation</type>
+        <definition>QPrinter::Orientation qtreports::detail::Report::m_orientation</definition>
+        <argsstring></argsstring>
+        <name>m_orientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="301" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="301" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ac48e76408c0670a9601c4671f4696900" compoundref="report_8cpp" startline="161" endline="164">setOrientation</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa1d8698f427cfe8f89469a249681d899" compoundref="report_8cpp" startline="166" endline="169">getOrientation</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ad6d9cd7ef861c34b1982b7bec95873ed" compoundref="report_8cpp" startline="177" endline="180">getSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1ae497804d8cef7722e40ebfc62beea252" prot="private" static="no" mutable="no">
+        <type>QSize</type>
+        <definition>QSize qtreports::detail::Report::m_size</definition>
+        <argsstring></argsstring>
+        <name>m_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="302" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="302" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a249095261d61a52960b044107c506457" compoundref="report_8cpp" startline="171" endline="175">setSize</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ad6d9cd7ef861c34b1982b7bec95873ed" compoundref="report_8cpp" startline="177" endline="180">getSize</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ac48c3e513cc04d27a2c2057a458add9a" compoundref="report_8cpp" startline="182" endline="192">setWidth</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a68f87e7301b607127d273ee18e324da4" compoundref="report_8cpp" startline="199" endline="209">setHeight</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" prot="private" static="no" mutable="no">
+        <type>QMargins</type>
+        <definition>QMargins qtreports::detail::Report::m_margins</definition>
+        <argsstring></argsstring>
+        <name>m_margins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="303" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="303" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aaa6cf15a91127d493bc03603454bfbbb" compoundref="report_8cpp" startline="216" endline="219">setLeftMargin</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa37e59088797c07a28c52f25f36d34c9" compoundref="report_8cpp" startline="221" endline="224">getLeftMargin</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a18e54847516cafc89b302e22ae67412d" compoundref="report_8cpp" startline="226" endline="229">setTopMargin</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a3924e930c60b852c276699a11394b872" compoundref="report_8cpp" startline="231" endline="234">getTopMargin</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a7ad10c84c5e8fe2483433f9f54abd0bb" compoundref="report_8cpp" startline="236" endline="239">setRightMargin</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a8a22c99b343bc9c19d8f305ccfbc2be0" compoundref="report_8cpp" startline="241" endline="244">getRightMargin</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ab7d00202111001a7e5bca8c2a4ae77bd" compoundref="report_8cpp" startline="246" endline="249">setBottomMargin</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a1aac1a22db0225606814ea687e1d9298" compoundref="report_8cpp" startline="251" endline="254">getBottomMargin</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a882256895dd7a94b2213608245db6773" compoundref="report_8cpp" startline="264" endline="267">setMargins</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ac419173360ddd88515334207755d5733" compoundref="report_8cpp" startline="269" endline="272">getMargins</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1aebfb9446452dfdb7995cd7c672d0821a" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1af2c9ab68a81905943108723a95a4acad" kindref="member">StylePtr</ref></type>
+        <definition>StylePtr qtreports::detail::Report::m_defaultStyle</definition>
+        <argsstring></argsstring>
+        <name>m_defaultStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="304" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="304" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a83c186515546872d76de145df28c8044" compoundref="report_8cpp" startline="16" endline="19">setDefaultStyle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a3e524ea97242d402efca8debbd6cb8e9" compoundref="report_8cpp" startline="21" endline="24">getDefaultStyle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1ae13192a0ade408cf75a8bb8953ca16cb" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, <ref refid="namespaceqtreports_1_1detail_1af2c9ab68a81905943108723a95a4acad" kindref="member">StylePtr</ref> &gt;</type>
+        <definition>QMap&lt; QString, StylePtr &gt; qtreports::detail::Report::m_styles</definition>
+        <argsstring></argsstring>
+        <name>m_styles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="305" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="305" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a1d84e45ea0cd0a132162247a061a7dd1" compoundref="report_8cpp" startline="26" endline="29">addStyle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a7455c33806b08cc24743e5674be8f595" compoundref="report_8cpp" startline="31" endline="34">getStyle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa72ed4d099be47d70757685cf5921a27" compoundref="report_8cpp" startline="36" endline="39">getStyles</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1aaff7228c8fef36634229c39edbe5edc3" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Report::m_query</definition>
+        <argsstring></argsstring>
+        <name>m_query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="306" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="306" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a2225bf295c226b92ecd987c8ea0a7de2" compoundref="report_8cpp" startline="56" endline="59">setQuery</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a231b3bebf8e20cbeacd34f7987701f46" compoundref="report_8cpp" startline="61" endline="64">getQuery</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, <ref refid="namespaceqtreports_1_1detail_1adb6f986cd4bdf38132dd8335365d3c07" kindref="member">FieldPtr</ref> &gt;</type>
+        <definition>QMap&lt; QString, FieldPtr &gt; qtreports::detail::Report::m_fields</definition>
+        <argsstring></argsstring>
+        <name>m_fields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="307" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="307" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a6d0547d027a54f331dd1ee6b4be928d9" compoundref="report_8cpp" startline="66" endline="69">setField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a9dd28e96177db0e293dd24c61c1a4400" compoundref="report_8cpp" startline="71" endline="74">getField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a0954c5253b36d9a1fe2bd3784f70d7de" compoundref="report_8cpp" startline="76" endline="79">getFields</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ae4c4bf1aa69bdf87be1f7628eb2e267d" compoundref="report_8cpp" startline="81" endline="88">getFieldsDataCount</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a2317483290ac109877b05e90d8f86835" compoundref="report_8cpp" startline="274" endline="303">isDetailHasGroupHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a36b4f8b33892fabbfd4858602bb511e1" compoundref="report_8cpp" startline="305" endline="334">isDetailHasGroupFooter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a3ef94ea79b55c104906a59f092c757ad" compoundref="report_8cpp" startline="394" endline="405">swapRows</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1abc3acec686b212b2d0b50aafbb1217b0" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, <ref refid="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" kindref="member">GroupPtr</ref> &gt;</type>
+        <definition>QMap&lt; QString, GroupPtr &gt; qtreports::detail::Report::m_groups</definition>
+        <argsstring></argsstring>
+        <name>m_groups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="308" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="308" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a9c91cfef8636b62a8a3e62504d3a76d8" compoundref="report_8cpp" startline="41" endline="44">addGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a8f94fdd1dfb340cba96eed4a8f46c46c" compoundref="report_8cpp" startline="46" endline="49">getGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a06b451008a1b02da0e60203f3935e859" compoundref="report_8cpp" startline="51" endline="54">getGroups</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a6bec8b279652c93ca97fbc981a1bbde6" compoundref="report_8cpp" startline="375" endline="387">getGroupIndexFromField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a0af8f2932f7b116c2db67cc8d8ee644e" compoundref="report_8cpp" startline="389" endline="392">getGroupByIndex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1a2d951e4326df136ab164e43fac4cb269" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a582fd4ea4493ad562e1b4a92541cd084" kindref="member">TitlePtr</ref></type>
+        <definition>TitlePtr qtreports::detail::Report::m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="309" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="309" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a27c3ad0c3688ba468d9949eabb3994b9" compoundref="report_8cpp" startline="99" endline="102">setTitle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a96085144b5a7935cbce1668da919e968" compoundref="report_8cpp" startline="104" endline="107">getTitle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1a8fdd5ebc88ba5092c8315f656079f7e6" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" kindref="member">DetailPtr</ref></type>
+        <definition>DetailPtr qtreports::detail::Report::m_detail</definition>
+        <argsstring></argsstring>
+        <name>m_detail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="310" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="310" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aaceb354a0f02a81ab05b105b49a8bc4e" compoundref="report_8cpp" startline="109" endline="112">setDetail</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aba47cf3ddf9a6d3844fe83dfd4eecc5d" compoundref="report_8cpp" startline="114" endline="117">getDetail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1a48e0a2207d9f83772f2b9aba55a8fb74" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a7827ce11c607153fbe83eb4f3beb66a9" kindref="member">SummaryPtr</ref></type>
+        <definition>SummaryPtr qtreports::detail::Report::m_summary</definition>
+        <argsstring></argsstring>
+        <name>m_summary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="311" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="311" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a08b5eade490343f2b1dee0b5969a9d20" compoundref="report_8cpp" startline="119" endline="122">setSummary</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a8749c01e7d55fbbac8a07a4b7f20eeb6" compoundref="report_8cpp" startline="124" endline="127">getSummary</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1a987c0915f293a2b4fbbdcb792f2b4ddf" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, QVariant &gt;</type>
+        <definition>QMap&lt; QString, QVariant &gt; qtreports::detail::Report::m_parameters</definition>
+        <argsstring></argsstring>
+        <name>m_parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="312" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="312" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa7e81f75e7b83bc8a795e7f559c5e97a" compoundref="report_8cpp" startline="129" endline="132">setParameter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a385f9db70507fda2ada7664ee9c92a36" compoundref="report_8cpp" startline="134" endline="137">setParameters</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ad9be4eb7c2bc8298ab535911c5d1e2df" compoundref="report_8cpp" startline="139" endline="142">getParameter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a23a5eb0d1a4a2c5aaf4404948465af62" compoundref="report_8cpp" startline="144" endline="147">getParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_report_1aa0726fe1e300697172d3482202142a95" prot="private" static="no" mutable="no">
+        <type>QVector&lt; bool &gt;</type>
+        <definition>QVector&lt;bool&gt; qtreports::detail::Report::m_group_vec</definition>
+        <argsstring></argsstring>
+        <name>m_group_vec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="313" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="313" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" compoundref="report_8cpp" startline="336" endline="362">reorderByGroups</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a963b1c807eb08e9b8b38b842d27acca0" compoundref="report_8hpp" startline="296" endline="296">getGroupVec</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aaadd946ee47903c33364417793d84347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Report::Report</definition>
+        <argsstring>()</argsstring>
+        <name>Report</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="33" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1affcccbb4519236f4b138674195661077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Report::~Report</definition>
+        <argsstring>()</argsstring>
+        <name>~Report</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="34" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a83c186515546872d76de145df28c8044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setDefaultStyle</definition>
+        <argsstring>(const StylePtr &amp;style)</argsstring>
+        <name>setDefaultStyle</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1af2c9ab68a81905943108723a95a4acad" kindref="member">StylePtr</ref> &amp;</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает &lt;style&gt; по умолчанию </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на &lt;style&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="40" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="16" bodyend="19"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aebfb9446452dfdb7995cd7c672d0821a" compoundref="report_8hpp" startline="304">m_defaultStyle</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a3e524ea97242d402efca8debbd6cb8e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1af2c9ab68a81905943108723a95a4acad" kindref="member">StylePtr</ref></type>
+        <definition>const StylePtr qtreports::detail::Report::getDefaultStyle</definition>
+        <argsstring>() const </argsstring>
+        <name>getDefaultStyle</name>
+        <briefdescription>
+<para>Возвращает &lt;style&gt; по умолчанию </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="45" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="21" bodyend="24"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aebfb9446452dfdb7995cd7c672d0821a" compoundref="report_8hpp" startline="304">m_defaultStyle</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a1d84e45ea0cd0a132162247a061a7dd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::addStyle</definition>
+        <argsstring>(const QString &amp;name, const StylePtr &amp;style)</argsstring>
+        <name>addStyle</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1af2c9ab68a81905943108723a95a4acad" kindref="member">StylePtr</ref> &amp;</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>Добавляет &lt;style&gt; в &lt;report&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя стиля </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на &lt;style&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="52" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="26" bodyend="29"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1ae13192a0ade408cf75a8bb8953ca16cb" compoundref="report_8hpp" startline="305">m_styles</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a7455c33806b08cc24743e5674be8f595" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1af2c9ab68a81905943108723a95a4acad" kindref="member">StylePtr</ref></type>
+        <definition>const StylePtr qtreports::detail::Report::getStyle</definition>
+        <argsstring>(const QString &amp;name) const </argsstring>
+        <name>getStyle</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Возвращает указатель на &lt;style&gt; по имени </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="57" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="31" bodyend="34"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1ae13192a0ade408cf75a8bb8953ca16cb" compoundref="report_8hpp" startline="305">m_styles</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aa72ed4d099be47d70757685cf5921a27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QMap&lt; QString, <ref refid="namespaceqtreports_1_1detail_1af2c9ab68a81905943108723a95a4acad" kindref="member">StylePtr</ref> &gt; &amp;</type>
+        <definition>const QMap&lt; QString, StylePtr &gt; &amp; qtreports::detail::Report::getStyles</definition>
+        <argsstring>() const </argsstring>
+        <name>getStyles</name>
+        <briefdescription>
+<para>Возвращает карту указателей на &lt;style&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="62" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="36" bodyend="39"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1ae13192a0ade408cf75a8bb8953ca16cb" compoundref="report_8hpp" startline="305">m_styles</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a9c91cfef8636b62a8a3e62504d3a76d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::addGroup</definition>
+        <argsstring>(const QString &amp;name, const GroupPtr &amp;group)</argsstring>
+        <name>addGroup</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" kindref="member">GroupPtr</ref> &amp;</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+<para>Добавляет &lt;group&gt; в &lt;report&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя &lt;group&gt; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">group</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на &lt;group&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="69" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="41" bodyend="44"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1abc3acec686b212b2d0b50aafbb1217b0" compoundref="report_8hpp" startline="308">m_groups</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a8f94fdd1dfb340cba96eed4a8f46c46c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" kindref="member">GroupPtr</ref></type>
+        <definition>const GroupPtr qtreports::detail::Report::getGroup</definition>
+        <argsstring>(const QString &amp;name) const </argsstring>
+        <name>getGroup</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Возвращает указатель на &lt;group&gt; по имени </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="74" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="46" bodyend="49"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1abc3acec686b212b2d0b50aafbb1217b0" compoundref="report_8hpp" startline="308">m_groups</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a06b451008a1b02da0e60203f3935e859" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QMap&lt; QString, <ref refid="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" kindref="member">GroupPtr</ref> &gt;</type>
+        <definition>const QMap&lt; QString, GroupPtr &gt; qtreports::detail::Report::getGroups</definition>
+        <argsstring>() const </argsstring>
+        <name>getGroups</name>
+        <briefdescription>
+<para>Возвращает карту указателей на &lt;group&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="79" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="51" bodyend="54"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1abc3acec686b212b2d0b50aafbb1217b0" compoundref="report_8hpp" startline="308">m_groups</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" compoundref="report_8cpp" startline="336" endline="362">reorderByGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a2225bf295c226b92ecd987c8ea0a7de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setQuery</definition>
+        <argsstring>(const QString &amp;query)</argsstring>
+        <name>setQuery</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает &lt;queryString&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Значение &lt;queryString&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="85" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="56" bodyend="59"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aaff7228c8fef36634229c39edbe5edc3" compoundref="report_8hpp" startline="306">m_query</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a231b3bebf8e20cbeacd34f7987701f46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::Report::getQuery</definition>
+        <argsstring>() const </argsstring>
+        <name>getQuery</name>
+        <briefdescription>
+<para>Возвращает &lt;queryString&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="90" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="61" bodyend="64"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aaff7228c8fef36634229c39edbe5edc3" compoundref="report_8hpp" startline="306">m_query</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a6d0547d027a54f331dd1ee6b4be928d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setField</definition>
+        <argsstring>(const QString &amp;name, const FieldPtr &amp;field)</argsstring>
+        <name>setField</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1adb6f986cd4bdf38132dd8335365d3c07" kindref="member">FieldPtr</ref> &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает &lt;field&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя &lt;field&gt; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на обьект &lt;field&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="97" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="66" bodyend="69"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" compoundref="report_8hpp" startline="307">m_fields</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a9dd28e96177db0e293dd24c61c1a4400" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1adb6f986cd4bdf38132dd8335365d3c07" kindref="member">FieldPtr</ref></type>
+        <definition>const FieldPtr qtreports::detail::Report::getField</definition>
+        <argsstring>(const QString &amp;name) const </argsstring>
+        <name>getField</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Возвращает &lt;field&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="102" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="71" bodyend="74"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" compoundref="report_8hpp" startline="307">m_fields</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a3a3b8a46537cdc10a7972b4d12308659" compoundref="report_8cpp" startline="90" endline="97">setFieldData</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" compoundref="report_8cpp" startline="336" endline="362">reorderByGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a0954c5253b36d9a1fe2bd3784f70d7de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QMap&lt; QString, <ref refid="namespaceqtreports_1_1detail_1adb6f986cd4bdf38132dd8335365d3c07" kindref="member">FieldPtr</ref> &gt;</type>
+        <definition>const QMap&lt; QString, FieldPtr &gt; qtreports::detail::Report::getFields</definition>
+        <argsstring>() const </argsstring>
+        <name>getFields</name>
+        <briefdescription>
+<para>Возвращает карту &lt;field&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="107" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="76" bodyend="79"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" compoundref="report_8hpp" startline="307">m_fields</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aedb49125bf91cbd57285b8c23ff2e4d8" compoundref="report_8cpp" startline="149" endline="159">getRowCount</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1ae4c4bf1aa69bdf87be1f7628eb2e267d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getFieldsDataCount</definition>
+        <argsstring>() const </argsstring>
+        <name>getFieldsDataCount</name>
+        <briefdescription>
+<para>Возвращает количество строк данных поля </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="113" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="81" bodyend="88"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" compoundref="report_8hpp" startline="307">m_fields</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a3a3b8a46537cdc10a7972b4d12308659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setFieldData</definition>
+        <argsstring>(const QString &amp;name, const QVector&lt; QVariant &gt; &amp;data)</argsstring>
+        <name>setFieldData</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QVector&lt; QVariant &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает данные &lt;field&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя &lt;field&gt; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Вектор данных &lt;field&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="120" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="90" bodyend="97"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a9dd28e96177db0e293dd24c61c1a4400" compoundref="report_8cpp" startline="71" endline="74">getField</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a27c3ad0c3688ba468d9949eabb3994b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setTitle</definition>
+        <argsstring>(const TitlePtr &amp;title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a582fd4ea4493ad562e1b4a92541cd084" kindref="member">TitlePtr</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает &lt;title&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на обьект &lt;title&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="126" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="99" bodyend="102"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a2d951e4326df136ab164e43fac4cb269" compoundref="report_8hpp" startline="309">m_title</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a96085144b5a7935cbce1668da919e968" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1a582fd4ea4493ad562e1b4a92541cd084" kindref="member">TitlePtr</ref></type>
+        <definition>const TitlePtr qtreports::detail::Report::getTitle</definition>
+        <argsstring>() const </argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+<para>Возвращает указатель на обьект &lt;title&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="131" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="104" bodyend="107"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a2d951e4326df136ab164e43fac4cb269" compoundref="report_8hpp" startline="309">m_title</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aaceb354a0f02a81ab05b105b49a8bc4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setDetail</definition>
+        <argsstring>(const DetailPtr &amp;detail)</argsstring>
+        <name>setDetail</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" kindref="member">DetailPtr</ref> &amp;</type>
+          <declname>detail</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает &lt;detail&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">detail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на обьект &lt;detail&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="137" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="109" bodyend="112"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a8fdd5ebc88ba5092c8315f656079f7e6" compoundref="report_8hpp" startline="310">m_detail</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aba47cf3ddf9a6d3844fe83dfd4eecc5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" kindref="member">DetailPtr</ref></type>
+        <definition>const DetailPtr qtreports::detail::Report::getDetail</definition>
+        <argsstring>() const </argsstring>
+        <name>getDetail</name>
+        <briefdescription>
+<para>Возвращает указатель на обьект &lt;detail&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="142" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="114" bodyend="117"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a8fdd5ebc88ba5092c8315f656079f7e6" compoundref="report_8hpp" startline="310">m_detail</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a08b5eade490343f2b1dee0b5969a9d20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setSummary</definition>
+        <argsstring>(const SummaryPtr &amp;summary)</argsstring>
+        <name>setSummary</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a7827ce11c607153fbe83eb4f3beb66a9" kindref="member">SummaryPtr</ref> &amp;</type>
+          <declname>summary</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">summary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на обьект </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="148" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="119" bodyend="122"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a48e0a2207d9f83772f2b9aba55a8fb74" compoundref="report_8hpp" startline="311">m_summary</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a8749c01e7d55fbbac8a07a4b7f20eeb6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1a7827ce11c607153fbe83eb4f3beb66a9" kindref="member">SummaryPtr</ref></type>
+        <definition>const SummaryPtr qtreports::detail::Report::getSummary</definition>
+        <argsstring>() const </argsstring>
+        <name>getSummary</name>
+        <briefdescription>
+<para>Возвращает указатель на обьект </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="153" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="124" bodyend="127"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a48e0a2207d9f83772f2b9aba55a8fb74" compoundref="report_8hpp" startline="311">m_summary</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aa7e81f75e7b83bc8a795e7f559c5e97a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setParameter</definition>
+        <argsstring>(const QString &amp;name, const QVariant &amp;value)</argsstring>
+        <name>setParameter</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>устанавливает значение парамметра </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>новое имя </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>новое значение </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="161" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="129" bodyend="132"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a987c0915f293a2b4fbbdcb792f2b4ddf" compoundref="report_8hpp" startline="312">m_parameters</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a385f9db70507fda2ada7664ee9c92a36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setParameters</definition>
+        <argsstring>(const QMap&lt; QString, QVariant &gt; &amp;parameters)</argsstring>
+        <name>setParameters</name>
+        <param>
+          <type>const QMap&lt; QString, QVariant &gt; &amp;</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает карту параметров </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылки на параметры </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="167" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="134" bodyend="137"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a987c0915f293a2b4fbbdcb792f2b4ddf" compoundref="report_8hpp" startline="312">m_parameters</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1ad9be4eb7c2bc8298ab535911c5d1e2df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QVariant</type>
+        <definition>const QVariant qtreports::detail::Report::getParameter</definition>
+        <argsstring>(const QString &amp;name) const </argsstring>
+        <name>getParameter</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Возвращает имя параметра </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="172" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="139" bodyend="142"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a987c0915f293a2b4fbbdcb792f2b4ddf" compoundref="report_8hpp" startline="312">m_parameters</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a23a5eb0d1a4a2c5aaf4404948465af62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QMap&lt; QString, QVariant &gt;</type>
+        <definition>const QMap&lt; QString, QVariant &gt; qtreports::detail::Report::getParameters</definition>
+        <argsstring>() const </argsstring>
+        <name>getParameters</name>
+        <briefdescription>
+<para>Возвращает карту параметров с названием и значением </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="177" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="144" bodyend="147"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a987c0915f293a2b4fbbdcb792f2b4ddf" compoundref="report_8hpp" startline="312">m_parameters</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aedb49125bf91cbd57285b8c23ff2e4d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getRowCount</definition>
+        <argsstring>() const </argsstring>
+        <name>getRowCount</name>
+        <briefdescription>
+<para>Возвращает количество строк </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="182" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="149" bodyend="159"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a0954c5253b36d9a1fe2bd3784f70d7de" compoundref="report_8cpp" startline="76" endline="79">getFields</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a36b4f8b33892fabbfd4858602bb511e1" compoundref="report_8cpp" startline="305" endline="334">isDetailHasGroupFooter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" compoundref="report_8cpp" startline="336" endline="362">reorderByGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1ac48e76408c0670a9601c4671f4696900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setOrientation</definition>
+        <argsstring>(QPrinter::Orientation orientation)</argsstring>
+        <name>setOrientation</name>
+        <param>
+          <type>QPrinter::Orientation</type>
+          <declname>orientation</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает ориентации отчета книжная/альбомная </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">orientation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ориентация </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="188" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="161" bodyend="164"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a2c390bf0c75090329db2356a021d9d03" compoundref="report_8hpp" startline="301">m_orientation</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aa1d8698f427cfe8f89469a249681d899" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QPrinter::Orientation</type>
+        <definition>QPrinter::Orientation qtreports::detail::Report::getOrientation</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrientation</name>
+        <briefdescription>
+<para>Возвращает ориентацию отчета(книжная/альбомная) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="193" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="166" bodyend="169"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a2c390bf0c75090329db2356a021d9d03" compoundref="report_8hpp" startline="301">m_orientation</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a249095261d61a52960b044107c506457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setSize</definition>
+        <argsstring>(const QSize &amp;size)</argsstring>
+        <name>setSize</name>
+        <param>
+          <type>const QSize &amp;</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает размер отчета </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>размер </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="199" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="171" bodyend="175"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1ae497804d8cef7722e40ebfc62beea252" compoundref="report_8hpp" startline="302">m_size</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1ad6d9cd7ef861c34b1982b7bec95873ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QSize</type>
+        <definition>const QSize qtreports::detail::Report::getSize</definition>
+        <argsstring>() const </argsstring>
+        <name>getSize</name>
+        <briefdescription>
+<para>Возвращает размер отчета </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="204" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="177" bodyend="180"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a2c390bf0c75090329db2356a021d9d03" compoundref="report_8hpp" startline="301">m_orientation</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1ae497804d8cef7722e40ebfc62beea252" compoundref="report_8hpp" startline="302">m_size</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a257b935d6c7f136c46bdb3d4bf806041" compoundref="report_8cpp" startline="194" endline="197">getWidth</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1acc2c23b7d2729d02778727dc8d6ea54d" compoundref="report_8cpp" startline="211" endline="214">getHeight</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1ac48c3e513cc04d27a2c2057a458add9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setWidth</definition>
+        <argsstring>(int width)</argsstring>
+        <name>setWidth</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает ширину отчета </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>значение ширины </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="210" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="182" bodyend="192"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1ae497804d8cef7722e40ebfc62beea252" compoundref="report_8hpp" startline="302">m_size</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a257b935d6c7f136c46bdb3d4bf806041" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getWidth</definition>
+        <argsstring>() const </argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+<para>Возвращает ширину отчета </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="215" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="194" bodyend="197"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1ad6d9cd7ef861c34b1982b7bec95873ed" compoundref="report_8cpp" startline="177" endline="180">getSize</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a68f87e7301b607127d273ee18e324da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setHeight</definition>
+        <argsstring>(int height)</argsstring>
+        <name>setHeight</name>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает высоту отчета </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>значение высоты </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="221" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="199" bodyend="209"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1ae497804d8cef7722e40ebfc62beea252" compoundref="report_8hpp" startline="302">m_size</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1acc2c23b7d2729d02778727dc8d6ea54d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getHeight</definition>
+        <argsstring>() const </argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+<para>Возвращает высоту отчета </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="226" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="211" bodyend="214"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1ad6d9cd7ef861c34b1982b7bec95873ed" compoundref="report_8cpp" startline="177" endline="180">getSize</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aaa6cf15a91127d493bc03603454bfbbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setLeftMargin</definition>
+        <argsstring>(int left)</argsstring>
+        <name>setLeftMargin</name>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает левый отступ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>значение </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="232" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="216" bodyend="219"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ac378ebf1818dceed15798c968ca87b46" compoundref="report_8cpp" startline="256" endline="262">setMargins</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aa37e59088797c07a28c52f25f36d34c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getLeftMargin</definition>
+        <argsstring>() const </argsstring>
+        <name>getLeftMargin</name>
+        <briefdescription>
+<para>Возвращает левый отступ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="237" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="221" bodyend="224"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a18e54847516cafc89b302e22ae67412d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setTopMargin</definition>
+        <argsstring>(int top)</argsstring>
+        <name>setTopMargin</name>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает верхний отступ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>значение </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="243" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="226" bodyend="229"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ac378ebf1818dceed15798c968ca87b46" compoundref="report_8cpp" startline="256" endline="262">setMargins</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a3924e930c60b852c276699a11394b872" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getTopMargin</definition>
+        <argsstring>() const </argsstring>
+        <name>getTopMargin</name>
+        <briefdescription>
+<para>Возвращает верхний отступ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="248" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="231" bodyend="234"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a7ad10c84c5e8fe2483433f9f54abd0bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setRightMargin</definition>
+        <argsstring>(int right)</argsstring>
+        <name>setRightMargin</name>
+        <param>
+          <type>int</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает правый отступ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">right</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>значение </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="254" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="236" bodyend="239"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ac378ebf1818dceed15798c968ca87b46" compoundref="report_8cpp" startline="256" endline="262">setMargins</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a8a22c99b343bc9c19d8f305ccfbc2be0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getRightMargin</definition>
+        <argsstring>() const </argsstring>
+        <name>getRightMargin</name>
+        <briefdescription>
+<para>Возвращает правый отступ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="259" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="241" bodyend="244"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1ab7d00202111001a7e5bca8c2a4ae77bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setBottomMargin</definition>
+        <argsstring>(int bottom)</argsstring>
+        <name>setBottomMargin</name>
+        <param>
+          <type>int</type>
+          <declname>bottom</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает нижний отступ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bottom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>значение </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="265" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="246" bodyend="249"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1ac378ebf1818dceed15798c968ca87b46" compoundref="report_8cpp" startline="256" endline="262">setMargins</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a1aac1a22db0225606814ea687e1d9298" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getBottomMargin</definition>
+        <argsstring>() const </argsstring>
+        <name>getBottomMargin</name>
+        <briefdescription>
+<para>Возвращает нижний отступ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="270" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="251" bodyend="254"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1ac378ebf1818dceed15798c968ca87b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setMargins</definition>
+        <argsstring>(int left, int top, int right, int bottom)</argsstring>
+        <name>setMargins</name>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bottom</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает отступы от краев </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>слева </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сверху </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">right</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>справа </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">bottom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>снизу </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="279" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="256" bodyend="262"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aaa6cf15a91127d493bc03603454bfbbb" compoundref="report_8cpp" startline="216" endline="219">setLeftMargin</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a18e54847516cafc89b302e22ae67412d" compoundref="report_8cpp" startline="226" endline="229">setTopMargin</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a7ad10c84c5e8fe2483433f9f54abd0bb" compoundref="report_8cpp" startline="236" endline="239">setRightMargin</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1ab7d00202111001a7e5bca8c2a4ae77bd" compoundref="report_8cpp" startline="246" endline="249">setBottomMargin</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a882256895dd7a94b2213608245db6773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::setMargins</definition>
+        <argsstring>(const QMargins &amp;margins)</argsstring>
+        <name>setMargins</name>
+        <param>
+          <type>const QMargins &amp;</type>
+          <declname>margins</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает карту отступов </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">margins</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>отступы </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="285" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="264" bodyend="267"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1ac419173360ddd88515334207755d5733" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QMargins</type>
+        <definition>const QMargins qtreports::detail::Report::getMargins</definition>
+        <argsstring>() const </argsstring>
+        <name>getMargins</name>
+        <briefdescription>
+<para>Возвращает карту отступов </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="290" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="269" bodyend="272"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" compoundref="report_8hpp" startline="303">m_margins</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a2317483290ac109877b05e90d8f86835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::Report::isDetailHasGroupHeader</definition>
+        <argsstring>(int detailNum, const QString &amp;groupField)</argsstring>
+        <name>isDetailHasGroupHeader</name>
+        <param>
+          <type>int</type>
+          <declname>detailNum</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>groupField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="292" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="274" bodyend="303"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a6bec8b279652c93ca97fbc981a1bbde6" compoundref="report_8cpp" startline="375" endline="387">getGroupIndexFromField</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" compoundref="report_8hpp" startline="307">m_fields</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a7ed52dab72fd40799444c74426d4163e" compoundref="report_8cpp" startline="364" endline="373">getFieldFromGroupExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a0af8f2932f7b116c2db67cc8d8ee644e" compoundref="report_8cpp" startline="389" endline="392">getGroupByIndex</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a36b4f8b33892fabbfd4858602bb511e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::Report::isDetailHasGroupFooter</definition>
+        <argsstring>(int detailNum, const QString &amp;groupField)</argsstring>
+        <name>isDetailHasGroupFooter</name>
+        <param>
+          <type>int</type>
+          <declname>detailNum</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>groupField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="293" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="305" bodyend="334"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a6bec8b279652c93ca97fbc981a1bbde6" compoundref="report_8cpp" startline="375" endline="387">getGroupIndexFromField</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1aedb49125bf91cbd57285b8c23ff2e4d8" compoundref="report_8cpp" startline="149" endline="159">getRowCount</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" compoundref="report_8hpp" startline="307">m_fields</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a7ed52dab72fd40799444c74426d4163e" compoundref="report_8cpp" startline="364" endline="373">getFieldFromGroupExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a0af8f2932f7b116c2db67cc8d8ee644e" compoundref="report_8cpp" startline="389" endline="392">getGroupByIndex</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::reorderByGroups</definition>
+        <argsstring>()</argsstring>
+        <name>reorderByGroups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="294" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="336" bodyend="362"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aedb49125bf91cbd57285b8c23ff2e4d8" compoundref="report_8cpp" startline="149" endline="159">getRowCount</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0726fe1e300697172d3482202142a95" compoundref="report_8hpp" startline="313">m_group_vec</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a06b451008a1b02da0e60203f3935e859" compoundref="report_8cpp" startline="51" endline="54">getGroups</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a7ed52dab72fd40799444c74426d4163e" compoundref="report_8cpp" startline="364" endline="373">getFieldFromGroupExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a9dd28e96177db0e293dd24c61c1a4400" compoundref="report_8cpp" startline="71" endline="74">getField</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a3ef94ea79b55c104906a59f092c757ad" compoundref="report_8cpp" startline="394" endline="405">swapRows</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a7ed52dab72fd40799444c74426d4163e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::Report::getFieldFromGroupExpression</definition>
+        <argsstring>(const QString &amp;expression)</argsstring>
+        <name>getFieldFromGroupExpression</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="295" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="364" bodyend="373"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a2317483290ac109877b05e90d8f86835" compoundref="report_8cpp" startline="274" endline="303">isDetailHasGroupHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a36b4f8b33892fabbfd4858602bb511e1" compoundref="report_8cpp" startline="305" endline="334">isDetailHasGroupFooter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" compoundref="report_8cpp" startline="336" endline="362">reorderByGroups</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a6bec8b279652c93ca97fbc981a1bbde6" compoundref="report_8cpp" startline="375" endline="387">getGroupIndexFromField</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a963b1c807eb08e9b8b38b842d27acca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QVector&lt; bool &gt;</type>
+        <definition>const QVector&lt;bool&gt; qtreports::detail::Report::getGroupVec</definition>
+        <argsstring>()</argsstring>
+        <name>getGroupVec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="296" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="296" bodyend="296"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1aa0726fe1e300697172d3482202142a95" compoundref="report_8hpp" startline="313">m_group_vec</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a6bec8b279652c93ca97fbc981a1bbde6" compoundref="report_8cpp" startline="375" endline="387">getGroupIndexFromField</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a0af8f2932f7b116c2db67cc8d8ee644e" compoundref="report_8cpp" startline="389" endline="392">getGroupByIndex</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a6bec8b279652c93ca97fbc981a1bbde6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::Report::getGroupIndexFromField</definition>
+        <argsstring>(const QString &amp;field)</argsstring>
+        <name>getGroupIndexFromField</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="297" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="375" bodyend="387"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1abc3acec686b212b2d0b50aafbb1217b0" compoundref="report_8hpp" startline="308">m_groups</references>
+        <references refid="classqtreports_1_1detail_1_1_report_1a7ed52dab72fd40799444c74426d4163e" compoundref="report_8cpp" startline="364" endline="373">getFieldFromGroupExpression</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a2317483290ac109877b05e90d8f86835" compoundref="report_8cpp" startline="274" endline="303">isDetailHasGroupHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a36b4f8b33892fabbfd4858602bb511e1" compoundref="report_8cpp" startline="305" endline="334">isDetailHasGroupFooter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a963b1c807eb08e9b8b38b842d27acca0" compoundref="report_8hpp" startline="296" endline="296">getGroupVec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a0af8f2932f7b116c2db67cc8d8ee644e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" kindref="member">GroupPtr</ref></type>
+        <definition>GroupPtr qtreports::detail::Report::getGroupByIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getGroupByIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="298" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="389" bodyend="392"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1abc3acec686b212b2d0b50aafbb1217b0" compoundref="report_8hpp" startline="308">m_groups</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a2317483290ac109877b05e90d8f86835" compoundref="report_8cpp" startline="274" endline="303">isDetailHasGroupHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a36b4f8b33892fabbfd4858602bb511e1" compoundref="report_8cpp" startline="305" endline="334">isDetailHasGroupFooter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1a963b1c807eb08e9b8b38b842d27acca0" compoundref="report_8hpp" startline="296" endline="296">getGroupVec</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_report_1a3ef94ea79b55c104906a59f092c757ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Report::swapRows</definition>
+        <argsstring>(int row1, int row2, QVector&lt; bool &gt; &amp;vec)</argsstring>
+        <name>swapRows</name>
+        <param>
+          <type>int</type>
+          <declname>row1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row2</declname>
+        </param>
+        <param>
+          <type>QVector&lt; bool &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="315" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp" bodystart="394" bodyend="405"/>
+        <references refid="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" compoundref="report_8hpp" startline="307">m_fields</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" compoundref="report_8cpp" startline="336" endline="362">reorderByGroups</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Класс, реализующий тэг &lt;report&gt; </para>    </briefdescription>
+    <detaileddescription>
+<para>Класс, реализующий тэг &lt;report&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="337">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="336">
+        <label>qtreports::detail::Report</label>
+        <link refid="classqtreports_1_1detail_1_1_report"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="339">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="338">
+        <label>qtreports::detail::Report</label>
+        <link refid="classqtreports_1_1detail_1_1_report"/>
+        <childnode refid="339" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="30" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="30" bodyend="317"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_report_1a9c91cfef8636b62a8a3e62504d3a76d8" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>addGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a1d84e45ea0cd0a132162247a061a7dd1" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>addStyle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a1aac1a22db0225606814ea687e1d9298" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getBottomMargin</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a3e524ea97242d402efca8debbd6cb8e9" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getDefaultStyle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aba47cf3ddf9a6d3844fe83dfd4eecc5d" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getDetail</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a9dd28e96177db0e293dd24c61c1a4400" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getField</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a7ed52dab72fd40799444c74426d4163e" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getFieldFromGroupExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a0954c5253b36d9a1fe2bd3784f70d7de" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getFields</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ae4c4bf1aa69bdf87be1f7628eb2e267d" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getFieldsDataCount</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a8f94fdd1dfb340cba96eed4a8f46c46c" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a0af8f2932f7b116c2db67cc8d8ee644e" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getGroupByIndex</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a6bec8b279652c93ca97fbc981a1bbde6" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getGroupIndexFromField</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a06b451008a1b02da0e60203f3935e859" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getGroups</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a963b1c807eb08e9b8b38b842d27acca0" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getGroupVec</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1acc2c23b7d2729d02778727dc8d6ea54d" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getHeight</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aa37e59088797c07a28c52f25f36d34c9" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getLeftMargin</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ac419173360ddd88515334207755d5733" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getMargins</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aa1d8698f427cfe8f89469a249681d899" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getOrientation</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ad9be4eb7c2bc8298ab535911c5d1e2df" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getParameter</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a23a5eb0d1a4a2c5aaf4404948465af62" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getParameters</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a231b3bebf8e20cbeacd34f7987701f46" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getQuery</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a8a22c99b343bc9c19d8f305ccfbc2be0" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getRightMargin</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aedb49125bf91cbd57285b8c23ff2e4d8" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getRowCount</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ad6d9cd7ef861c34b1982b7bec95873ed" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getSize</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a7455c33806b08cc24743e5674be8f595" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getStyle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aa72ed4d099be47d70757685cf5921a27" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getStyles</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a8749c01e7d55fbbac8a07a4b7f20eeb6" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getSummary</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a96085144b5a7935cbce1668da919e968" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getTitle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a3924e930c60b852c276699a11394b872" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getTopMargin</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a257b935d6c7f136c46bdb3d4bf806041" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>getWidth</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a36b4f8b33892fabbfd4858602bb511e1" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>isDetailHasGroupFooter</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a2317483290ac109877b05e90d8f86835" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>isDetailHasGroupHeader</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aebfb9446452dfdb7995cd7c672d0821a" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_defaultStyle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a8fdd5ebc88ba5092c8315f656079f7e6" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_detail</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a749cf7dbac1dd25f38a02938a5db2bb4" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_fields</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aa0726fe1e300697172d3482202142a95" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_group_vec</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1abc3acec686b212b2d0b50aafbb1217b0" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_groups</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aa0dce8295287611e3a4f7f34e8d6224a" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_margins</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_name</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a2c390bf0c75090329db2356a021d9d03" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_orientation</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a987c0915f293a2b4fbbdcb792f2b4ddf" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_parameters</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aaff7228c8fef36634229c39edbe5edc3" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_query</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ae497804d8cef7722e40ebfc62beea252" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_size</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ae13192a0ade408cf75a8bb8953ca16cb" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_styles</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a48e0a2207d9f83772f2b9aba55a8fb74" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_summary</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_tagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a2d951e4326df136ab164e43fac4cb269" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>m_title</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>reorderByGroups</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aaadd946ee47903c33364417793d84347" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>Report</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ab7d00202111001a7e5bca8c2a4ae77bd" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setBottomMargin</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a83c186515546872d76de145df28c8044" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setDefaultStyle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aaceb354a0f02a81ab05b105b49a8bc4e" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setDetail</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a6d0547d027a54f331dd1ee6b4be928d9" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setField</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a3a3b8a46537cdc10a7972b4d12308659" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setFieldData</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a68f87e7301b607127d273ee18e324da4" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setHeight</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aaa6cf15a91127d493bc03603454bfbbb" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setLeftMargin</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ac378ebf1818dceed15798c968ca87b46" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setMargins</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a882256895dd7a94b2213608245db6773" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setMargins</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ac48e76408c0670a9601c4671f4696900" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setOrientation</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1aa7e81f75e7b83bc8a795e7f559c5e97a" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setParameter</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a385f9db70507fda2ada7664ee9c92a36" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setParameters</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a2225bf295c226b92ecd987c8ea0a7de2" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setQuery</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a7ad10c84c5e8fe2483433f9f54abd0bb" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setRightMargin</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a249095261d61a52960b044107c506457" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setSize</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a08b5eade490343f2b1dee0b5969a9d20" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setSummary</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a27c3ad0c3688ba468d9949eabb3994b9" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setTitle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a18e54847516cafc89b302e22ae67412d" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setTopMargin</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1ac48c3e513cc04d27a2c2057a458add9a" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>setWidth</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1a3ef94ea79b55c104906a59f092c757ad" prot="private" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>swapRows</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" virt="virtual"><scope>qtreports::detail::Report</scope><name>~Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_report_1affcccbb4519236f4b138674195661077" prot="public" virt="non-virtual"><scope>qtreports::detail::Report</scope><name>~Report</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

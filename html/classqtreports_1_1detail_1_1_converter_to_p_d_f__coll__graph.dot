@@ -1,0 +1,8 @@
+digraph "qtreports::detail::ConverterToPDF"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{qtreports::detail::\lConverterToPDF\n|- m_report\l- m_lastError\l- m_currentResolution\l- m_currentHeight\l|+ ConverterToPDF()\l+ ~ConverterToPDF()\l+ convert()\l+ setDPI()\l+ getDPI()\l+ getLastError()\l- addGroupsIntoReport()\l- create()\l- createSection()\l- createBands()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

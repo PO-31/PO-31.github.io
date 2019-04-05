@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_converter_to_p_d_f" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::ConverterToPDF</compoundname>
+    <includes refid="convertertopdf_8hpp" local="no">convertertopdf.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ae295dae7db4f6f83d55f0ca70b035796" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref></type>
+        <definition>ReportPtr qtreports::detail::ConverterToPDF::m_report</definition>
+        <argsstring></argsstring>
+        <name>m_report</name>
+        <briefdescription>
+<para>Объект класса ReportPtr. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="61" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="209">createBands</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::ConverterToPDF::m_lastError</definition>
+        <argsstring></argsstring>
+        <name>m_lastError</name>
+        <briefdescription>
+<para>Содержит информацию о последней ошибке, возникшей в процессе конвертации. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="66" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" compoundref="convertertopdf_8cpp" startline="211" endline="214">getLastError</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1addc5bb2b5fdca09cebdcbd9462855094" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int qtreports::detail::ConverterToPDF::m_currentResolution</definition>
+        <argsstring></argsstring>
+        <name>m_currentResolution</name>
+        <briefdescription>
+<para>Значение текущего разрешения для PDF документа в DPI. </para>        </briefdescription>
+        <detaileddescription>
+<para>По умолчанию установлено значение 75. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="71" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="71" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2cac83dd515822a5c3c7560ef5eb5fd8" compoundref="convertertopdf_8cpp" startline="24" endline="27">setDPI</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a1069b167434da43b9428ffa3a556a3b3" compoundref="convertertopdf_8cpp" startline="29" endline="32">getDPI</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1afdfd7c1e9538b7c12c3df8d4285c899b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int qtreports::detail::ConverterToPDF::m_currentHeight</definition>
+        <argsstring></argsstring>
+        <name>m_currentHeight</name>
+        <briefdescription>
+<para>Значение текущей высоты кисти, рисующей на листе документа PDF. </para>        </briefdescription>
+        <detaileddescription>
+<para>Значение постоянно меняется в зависимости от высоты band. Например, если в отчете для band&apos;а, который отрисовывается в данный момент, значение параметра height равняется 35, то после отрисовки данного band&apos;а, кисть переместится вниз на 35 единиц. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="79" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="79" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="209">createBands</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ac41383eede72f1b3296bd310e13cab6b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::ConverterToPDF::ConverterToPDF</definition>
+        <argsstring>(const ReportPtr &amp;report)</argsstring>
+        <name>ConverterToPDF</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор по умолчанию. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>report</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ссылка на объект ReportPtr. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="29" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a448204c13be794ec0d5381ed48c3bab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::ConverterToPDF::~ConverterToPDF</definition>
+        <argsstring>()</argsstring>
+        <name>~ConverterToPDF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="30" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af39953d8db1bdcbbcf59cc00b05747eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ConverterToPDF::convert</definition>
+        <argsstring>(const QString &amp;path)</argsstring>
+        <name>convert</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Запускает процесс конвертации. </para>        </briefdescription>
+        <detaileddescription>
+<para>Путь может быть полным или относительным, примеры: &quot;C:/example.pdf&quot; &quot;example.pdf&quot; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Путь, по которому будет создан PDF документ. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>, если конвертация отчета в PDF прошла успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="39" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="19" bodyend="22"/>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</references>
+        <referencedby refid="classqtreports_1_1_engine_1a34b6ccdf31af3bd275d9fb95100c6bda" compoundref="engine_8cpp" startline="171" endline="188">qtreports::Engine::createPDF</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2cac83dd515822a5c3c7560ef5eb5fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::ConverterToPDF::setDPI</definition>
+        <argsstring>(int dpi)</argsstring>
+        <name>setDPI</name>
+        <param>
+          <type>int</type>
+          <declname>dpi</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает DPI. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">dpi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Новое значение DPI. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="45" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="24" bodyend="27"/>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1addc5bb2b5fdca09cebdcbd9462855094" compoundref="convertertopdf_8hpp" startline="71">m_currentResolution</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a1069b167434da43b9428ffa3a556a3b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int qtreports::detail::ConverterToPDF::getDPI</definition>
+        <argsstring>() const </argsstring>
+        <name>getDPI</name>
+        <briefdescription>
+<para>Возвращает текущее значение DPI. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="50" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="29" bodyend="32"/>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1addc5bb2b5fdca09cebdcbd9462855094" compoundref="convertertopdf_8hpp" startline="71">m_currentResolution</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::ConverterToPDF::getLastError</definition>
+        <argsstring>() const </argsstring>
+        <name>getLastError</name>
+        <briefdescription>
+<para>Возвращает строку, содержащую описание последней произошедшей ошибки. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="55" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="211" bodyend="214"/>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" compoundref="convertertopdf_8hpp" startline="66">m_lastError</references>
+        <referencedby refid="classqtreports_1_1_engine_1a34b6ccdf31af3bd275d9fb95100c6bda" compoundref="engine_8cpp" startline="171" endline="188">qtreports::Engine::createPDF</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ConverterToPDF::addGroupsIntoReport</definition>
+        <argsstring>(QPdfWriter &amp;writer, QPainter &amp;painter, const ReportPtr &amp;report, const DetailPtr &amp;detail)</argsstring>
+        <name>addGroupsIntoReport</name>
+        <param>
+          <type>QPdfWriter &amp;</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" kindref="member">DetailPtr</ref> &amp;</type>
+          <declname>detail</declname>
+        </param>
+        <briefdescription>
+<para>Добавляет группу в репорт. </para>        </briefdescription>
+        <detaileddescription>
+<para>Если не удалось добавить группу, вернет false. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">writer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект QPdfWriter. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект QPainter. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">report</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект ReportPtr. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">detail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект DetailPtr. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>, если добавление группы прошло успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="90" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="216" bodyend="327"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" compoundref="replacer_8cpp" startline="99" endline="113">qtreports::detail::Replacer::replaceField</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ConverterToPDF::create</definition>
+        <argsstring>(const QString &amp;path)</argsstring>
+        <name>create</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Конвертирует отчет в PDF документ. </para>        </briefdescription>
+        <detaileddescription>
+<para>Если не удалось конвертировать в PDF, вернет false. Информация об ошибке содержится в переменной m_lastError. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Путь к файлу PDF. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>, если конвертация прошла успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="99" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="34" bodyend="98"/>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ae295dae7db4f6f83d55f0ca70b035796" compoundref="convertertopdf_8hpp" startline="61">m_report</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" compoundref="convertertopdf_8hpp" startline="66">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1addc5bb2b5fdca09cebdcbd9462855094" compoundref="convertertopdf_8hpp" startline="71">m_currentResolution</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="216" endline="327">addGroupsIntoReport</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af39953d8db1bdcbbcf59cc00b05747eb" compoundref="convertertopdf_8cpp" startline="19" endline="22">convert</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ConverterToPDF::createSection</definition>
+        <argsstring>(QPdfWriter &amp;writer, QPainter &amp;painter, const SectionPtr &amp;section, int i)</argsstring>
+        <name>createSection</name>
+        <param>
+          <type>QPdfWriter &amp;</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref> &amp;</type>
+          <declname>section</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Создает секцию. </para>        </briefdescription>
+        <detaileddescription>
+<para>Если не удалось создать секцию, вернет false. Информация об ошибке содержится в переменной m_lastError. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">writer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект QPdfWriter. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект QPainter. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">section</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект SectionPtr. SectionPtr может указывать на такие секции, как: <programlisting><codeline><highlight class="normal">title,<sp/>header,<sp/>footer,<sp/>detail<sp/></highlight></codeline>
+</programlisting>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Индекс текущей секции. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>, если создание секции прошло успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="112" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="100" bodyend="116"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="180" endline="192">qtreports::detail::Replacer::replace</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ae295dae7db4f6f83d55f0ca70b035796" compoundref="convertertopdf_8hpp" startline="61">m_report</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" compoundref="convertertopdf_8hpp" startline="66">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="194" endline="197">qtreports::detail::Replacer::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="209">createBands</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="216" endline="327">addGroupsIntoReport</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ConverterToPDF::createBands</definition>
+        <argsstring>(QPdfWriter &amp;writer, QPainter &amp;painter, const SectionPtr &amp;section)</argsstring>
+        <name>createBands</name>
+        <param>
+          <type>QPdfWriter &amp;</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref> &amp;</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+<para>Создает band. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">writer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект QPdfWriter. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект QPainter. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">section</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект SectionPtr. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>, если создание bsnd&apos;a прошло успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="121" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="118" bodyend="209"/>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1afdfd7c1e9538b7c12c3df8d4285c899b" compoundref="convertertopdf_8hpp" startline="79">m_currentHeight</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ae295dae7db4f6f83d55f0ca70b035796" compoundref="convertertopdf_8hpp" startline="61">m_report</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Класс, используемый для конвертации документа в PDF формат. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="note"><para>Все функции данного класса, возвращающие bool, возвращают true в случае успеха либо false, если во время выполнения произошли ошибки. При этом с помощью метода <ref refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" kindref="member">getLastError()</ref> можно получить описание последней произошедшей ошибки.</para></simplesect>
+Класс, используемый для конвертации документа в PDF формат. Поддерживает установку DPI. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="229">
+        <label>qtreports::detail::ConverterToPDF</label>
+        <link refid="classqtreports_1_1detail_1_1_converter_to_p_d_f"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="22" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="22" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>addGroupsIntoReport</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af39953d8db1bdcbbcf59cc00b05747eb" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>convert</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ac41383eede72f1b3296bd310e13cab6b" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>ConverterToPDF</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>create</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>createBands</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>createSection</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a1069b167434da43b9428ffa3a556a3b3" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>getDPI</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1afdfd7c1e9538b7c12c3df8d4285c899b" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>m_currentHeight</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1addc5bb2b5fdca09cebdcbd9462855094" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>m_currentResolution</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ae295dae7db4f6f83d55f0ca70b035796" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>m_report</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2cac83dd515822a5c3c7560ef5eb5fd8" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>setDPI</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a448204c13be794ec0d5381ed48c3bab7" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToPDF</scope><name>~ConverterToPDF</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

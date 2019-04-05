@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="rect_8cpp" kind="file" language="C++">
+    <compoundname>rect.cpp</compoundname>
+    <includes refid="rect_8hpp" local="yes">rect.hpp</includes>
+    <incdepgraph>
+      <node id="3210">
+        <label>style.hpp</label>
+        <link refid="style_8hpp"/>
+        <childnode refid="3206" relation="include">
+        </childnode>
+        <childnode refid="3211" relation="include">
+        </childnode>
+        <childnode refid="3204" relation="include">
+        </childnode>
+        <childnode refid="3212" relation="include">
+        </childnode>
+      </node>
+      <node id="3202">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.cpp</label>
+        <link refid="rect.cpp"/>
+        <childnode refid="3203" relation="include">
+        </childnode>
+      </node>
+      <node id="3209">
+        <label>QRect</label>
+      </node>
+      <node id="3207">
+        <label>QPoint</label>
+      </node>
+      <node id="3204">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="3203">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp"/>
+        <childnode refid="3204" relation="include">
+        </childnode>
+        <childnode refid="3205" relation="include">
+        </childnode>
+      </node>
+      <node id="3206">
+        <label>QString</label>
+      </node>
+      <node id="3208">
+        <label>QSize</label>
+      </node>
+      <node id="3211">
+        <label>QColor</label>
+      </node>
+      <node id="3212">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="3206" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+        <childnode refid="3204" relation="include">
+        </childnode>
+      </node>
+      <node id="3205">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
+        <childnode refid="3206" relation="include">
+        </childnode>
+        <childnode refid="3207" relation="include">
+        </childnode>
+        <childnode refid="3208" relation="include">
+        </childnode>
+        <childnode refid="3209" relation="include">
+        </childnode>
+        <childnode refid="3204" relation="include">
+        </childnode>
+        <childnode refid="3210" relation="include">
+        </childnode>
+        <childnode refid="3212" relation="include">
+        </childnode>
+      </node>
+      <node id="3213">
+        <label>QVariant</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceqtreports">qtreports</innernamespace>
+    <innernamespace refid="namespaceqtreports_1_1detail">qtreports::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rect_8hpp" kindref="compound">rect.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceqtreports" kindref="compound">qtreports</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classqtreports_1_1detail_1_1_rect_1a9312f7e221a9c66d37ef7b198f516fb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_rect_1a9312f7e221a9c66d37ef7b198f516fb6" kindref="member">Rect::Rect</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classqtreports_1_1detail_1_1_rect_1ad4a232d5f7fe00c237b870d8726c92a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_rect_1ad4a232d5f7fe00c237b870d8726c92a8" kindref="member">Rect::~Rect</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.cpp"/>
+  </compounddef>
+</doxygen>
