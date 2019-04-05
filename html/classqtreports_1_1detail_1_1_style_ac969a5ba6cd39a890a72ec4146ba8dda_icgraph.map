@@ -1,0 +1,6 @@
+<map id="qtreports::detail::Style::getFontSize" name="qtreports::detail::Style::getFontSize">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" title="Процесс конвертации репорта в HTML формат. " alt="" coords="192,39,409,80"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" title="Запускает процесс конвертации репорта в HTML формат. " alt="" coords="457,39,647,80"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" title="Создает HTML документ при успешной конвертации репорта в HTML формат. " alt="" coords="695,5,884,47"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" title="Создает HTML документ отчета по указанному пути " alt="" coords="719,71,859,112"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="qtreports::detail::Report::reorderByGroups" name="qtreports::detail::Report::reorderByGroups">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_report.html#aedb49125bf91cbd57285b8c23ff2e4d8" title="Возвращает количество строк " alt="" coords="286,5,441,47"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_report.html#a06b451008a1b02da0e60203f3935e859" title="Возвращает карту указателей на &lt;group&gt; " alt="" coords="294,71,433,112"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_report.html#a7ed52dab72fd40799444c74426d4163e" title="qtreports::detail::\lReport::getFieldFromGroupExpression" alt="" coords="233,136,493,177"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_report.html#a9dd28e96177db0e293dd24c61c1a4400" title="Возвращает &lt;field&gt; " alt="" coords="297,201,429,243"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_report.html#a3ef94ea79b55c104906a59f092c757ad" title="qtreports::detail::\lReport::swapRows" alt="" coords="296,267,431,308"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_report.html#a0954c5253b36d9a1fe2bd3784f70d7de" title="Возвращает карту &lt;field&gt; " alt="" coords="541,5,673,47"/>
+</map>

@@ -1,8 +1,0 @@
-digraph "qtreports::detail::Object"
-{
- // INTERACTIVE_SVG=YES
-  bgcolor="transparent";
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

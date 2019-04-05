@@ -1,9 +1,0 @@
-digraph "Иерархия классов. Графический вид."
-{
- // INTERACTIVE_SVG=YES
-  bgcolor="transparent";
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1 [label="qtreports::detail::\lConverterToHTML",height=0.2,width=0.4,color="black",URL="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html",tooltip="Класс, используемый для конвертации репорта в HTML формат. "];
-}

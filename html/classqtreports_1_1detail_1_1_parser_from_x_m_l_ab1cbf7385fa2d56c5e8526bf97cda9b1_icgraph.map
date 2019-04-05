@@ -1,0 +1,11 @@
+<map id="qtreports::detail::ParserFromXML::getRequiredAttribute" name="qtreports::detail::ParserFromXML::getRequiredAttribute">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8247dc85ae5cae03ab3f175982a0857e" title="Парсит тэг report. " alt="" coords="276,5,481,47"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a366e39f908935a618b137e7e27496c" title="Парсит тэг style. " alt="" coords="281,71,477,112"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a20a5b5081956769e0d219779407ba76c" title="Парсит тэг Field. " alt="" coords="283,136,475,177"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a477a961860b1de77b5a0da28e361987a" title="Парсит тэг group. " alt="" coords="277,201,480,243"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#af04b8018f1bb3d60ecb6525f31d29885" title="Парсит тэг Band. " alt="" coords="280,267,477,308"/>
+<area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aee6cb5359125988f68abfcd2f6fe4514" title="Парсит тэг ReportElement &#45; общие данные о элементе отчета (положение, размеры и пр.) " alt="" coords="276,331,481,387"/>
+<area shape="rect" id="node9" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe" title="Парсит тэг TextElement &#45; общие данные о текстовом элементе (выравнивание текста и пр..." alt="" coords="257,411,500,452"/>
+<area shape="rect" id="node10" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a459f21efce7b714320d84d304d304d60" title="Парсит текст для textField. " alt="" coords="270,475,487,531"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab548bd252b2e13a315daefae6b43f1d6" title="qtreports::detail::\lParserFromXML::ParserFromXML" alt="" coords="548,235,775,276"/>
+</map>

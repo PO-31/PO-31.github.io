@@ -1,0 +1,20 @@
+<map id="qtreports::detail::ConverterToQWidget::createQWidget" name="qtreports::detail::ConverterToQWidget::createQWidget">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a23d6229235fca8bd8bbddcc5e2e28f92" title="Добавляет новую страницу на виджет. " alt="" coords="866,169,1025,225"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#af350953efb07bf3393c33846a81b1121" title="Добавляет вертикальную границу. " alt="" coords="419,667,577,723"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a76bb37f2855d12afc9056c75cdbc5e0b" title="Проверяет, является ли виджет типа WidgetType::Layout. " alt="" coords="866,484,1025,540"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#ae126b16c5a846e84f12d86ca8ef253dd" title="Добавляет секцию. " alt="" coords="419,507,577,563"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" title="Создает секцию. " alt="" coords="419,220,577,276"/>
+<area shape="rect" id="node17" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" title="Функция добавления группировок в отчет. " alt="" coords="212,395,371,451"/>
+<area shape="rect" id="node19" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a21d211f4a1f0f46f2220a0959c36367b" title="Добавляет пустую секцию. " alt="" coords="419,587,577,643"/>
+<area shape="rect" id="node5" href="$namespaceqtreports_1_1detail.html#a57ac54d6807a30b13e419a3106735b19" title="qtreports::detail::\lcreateLayout" alt="" coords="641,550,773,591"/>
+<area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_replacer.html#af7ccb83be264f7c72b7485cf38455450" title="Заменяет текст всех виджетов секции текстом с подставленными значениями. " alt="" coords="641,13,773,54"/>
+<area shape="rect" id="node15" href="$classqtreports_1_1detail_1_1_replacer.html#a677f7802e444f2de3af4cb43b6cedf30" title="Возвращает описание последней произошедшей ошибки. " alt="" coords="625,130,788,171"/>
+<area shape="rect" id="node16" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#aa3be16e037533a4a5b58596087207187" title="Создает band. " alt="" coords="627,195,786,251"/>
+<area shape="rect" id="node9" href="$classqtreports_1_1detail_1_1_replacer.html#a58cf857aa78eb3e273f6543769af425b" title="Заменяет текст всех виджетов секции текстом с подставленными значениями полей из источника данных..." alt="" coords="836,13,1055,54"/>
+<area shape="rect" id="node14" href="$classqtreports_1_1detail_1_1_replacer.html#abb903f1c1172efa7e26b040a5695cc86" title="Возвращает текст с подставленными значениями параметров. " alt="" coords="843,78,1048,119"/>
+<area shape="rect" id="node10" href="$classqtreports_1_1detail_1_1_replacer.html#a2be57bd514335f9b9f2a520247562ce1" title="Заменяет текст виджета текстом с подставленными значениями полей из источника данных. " alt="" coords="1111,165,1305,221"/>
+<area shape="rect" id="node12" href="$classqtreports_1_1detail_1_1_replacer.html#a4aeb7794f90c0be34a30ab60a6df1920" title="На основе текста виджета вставляет в него изображение из источника данных. " alt="" coords="1103,5,1313,61"/>
+<area shape="rect" id="node11" href="$classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd" title="Возвращает текст с подставленными значениями полей из источника данных. " alt="" coords="1381,245,1540,286"/>
+<area shape="rect" id="node13" href="$classqtreports_1_1detail_1_1_replacer.html#ae1ac521aeaf5fdd694e79e2ae52d4704" title="Возвращает изображение на основе первого найденного выражения. " alt="" coords="1361,13,1560,54"/>
+<area shape="rect" id="node18" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a5e49976fe8fac12633ccda1ba928b9b1" title="Проверяет, является ли виджет типа WidgetType::Report. " alt="" coords="419,427,577,483"/>
+</map>

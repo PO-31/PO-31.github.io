@@ -1,8 +1,0 @@
-digraph "qtreports::detail::ConverterToQWidget"
-{
- // INTERACTIVE_SVG=YES
-  bgcolor="transparent";
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{qtreports::detail::\lConverterToQWidget\n|- m_report\l- m_lastError\l- m_qwidget\l- m_type\l- m_pages\l- m_currentHeight\l|+ ConverterToQWidget()\l+ ~ConverterToQWidget()\l+ convert()\l+ isReport()\l+ isLayout()\l+ getType()\l+ getQWidget()\l+ getPage()\l+ getPages()\l+ getLastError()\l- addVerticalBorder()\l- addEmptySection()\l- addSectionLayout()\l- addPage()\l- addGroupsIntoReport()\l- createQWidget()\l- createSection()\l- createBands()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}
