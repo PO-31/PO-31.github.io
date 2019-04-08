@@ -1,7 +1,0 @@
-<map id="qtreports::detail::Report::isDetailHasGroupFooter" name="qtreports::detail::Report::isDetailHasGroupFooter">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_report.html#a6bec8b279652c93ca97fbc981a1bbde6" title="qtreports::detail::\lReport::getGroupIndexFromField" alt="" coords="276,5,501,47"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_report.html#a7ed52dab72fd40799444c74426d4163e" title="qtreports::detail::\lReport::getFieldFromGroupExpression" alt="" coords="549,32,809,73"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_report.html#aedb49125bf91cbd57285b8c23ff2e4d8" title="Возвращает количество строк " alt="" coords="311,123,466,164"/>
-<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_report.html#a0af8f2932f7b116c2db67cc8d8ee644e" title="qtreports::detail::\lReport::getGroupByIndex" alt="" coords="298,188,479,229"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_report.html#a0954c5253b36d9a1fe2bd3784f70d7de" title="Возвращает карту &lt;field&gt; " alt="" coords="613,123,745,164"/>
-</map>

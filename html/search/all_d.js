@@ -6,7 +6,6 @@ var searchData=
   ['rect_2ehpp',['rect.hpp',['../rect_8hpp.html',1,'']]],
   ['rect_5fhpp',['RECT_HPP',['../rect_8hpp.html#af1be77553d385d1c6bb3b402b2ae3c76',1,'rect.hpp']]],
   ['rectptr',['RectPtr',['../namespaceqtreports_1_1detail.html#ab30d690e2ab4bc1cb5d6b2c47fcd1172',1,'qtreports::detail']]],
-  ['reorderbygroups',['reorderByGroups',['../classqtreports_1_1detail_1_1_report.html#aa2eb56a54e9cb57831ab6fb6a7d745ab',1,'qtreports::detail::Report']]],
   ['replace',['replace',['../classqtreports_1_1detail_1_1_replacer.html#af7ccb83be264f7c72b7485cf38455450',1,'qtreports::detail::Replacer']]],
   ['replacefield',['replaceField',['../classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd',1,'qtreports::detail::Replacer']]],
   ['replacefieldimage',['replaceFieldImage',['../classqtreports_1_1detail_1_1_replacer.html#ae1ac521aeaf5fdd694e79e2ae52d4704',1,'qtreports::detail::Replacer']]],

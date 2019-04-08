@@ -1,7 +1,6 @@
 var searchData=
 [
   ['rect',['Rect',['../classqtreports_1_1detail_1_1_rect.html#a9312f7e221a9c66d37ef7b198f516fb6',1,'qtreports::detail::Rect']]],
-  ['reorderbygroups',['reorderByGroups',['../classqtreports_1_1detail_1_1_report.html#aa2eb56a54e9cb57831ab6fb6a7d745ab',1,'qtreports::detail::Report']]],
   ['replace',['replace',['../classqtreports_1_1detail_1_1_replacer.html#af7ccb83be264f7c72b7485cf38455450',1,'qtreports::detail::Replacer']]],
   ['replacefield',['replaceField',['../classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd',1,'qtreports::detail::Replacer']]],
   ['replacefieldimage',['replaceFieldImage',['../classqtreports_1_1detail_1_1_replacer.html#ae1ac521aeaf5fdd694e79e2ae52d4704',1,'qtreports::detail::Replacer']]],

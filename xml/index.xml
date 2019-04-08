@@ -385,14 +385,7 @@
     <member refid="classqtreports_1_1detail_1_1_report_1ac378ebf1818dceed15798c968ca87b46" kind="function"><name>setMargins</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a882256895dd7a94b2213608245db6773" kind="function"><name>setMargins</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1ac419173360ddd88515334207755d5733" kind="function"><name>getMargins</name></member>
-    <member refid="classqtreports_1_1detail_1_1_report_1a2317483290ac109877b05e90d8f86835" kind="function"><name>isDetailHasGroupHeader</name></member>
-    <member refid="classqtreports_1_1detail_1_1_report_1a36b4f8b33892fabbfd4858602bb511e1" kind="function"><name>isDetailHasGroupFooter</name></member>
-    <member refid="classqtreports_1_1detail_1_1_report_1aa2eb56a54e9cb57831ab6fb6a7d745ab" kind="function"><name>reorderByGroups</name></member>
-    <member refid="classqtreports_1_1detail_1_1_report_1a7ed52dab72fd40799444c74426d4163e" kind="function"><name>getFieldFromGroupExpression</name></member>
-    <member refid="classqtreports_1_1detail_1_1_report_1a963b1c807eb08e9b8b38b842d27acca0" kind="function"><name>getGroupVec</name></member>
-    <member refid="classqtreports_1_1detail_1_1_report_1a6bec8b279652c93ca97fbc981a1bbde6" kind="function"><name>getGroupIndexFromField</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a0af8f2932f7b116c2db67cc8d8ee644e" kind="function"><name>getGroupByIndex</name></member>
-    <member refid="classqtreports_1_1detail_1_1_report_1a3ef94ea79b55c104906a59f092c757ad" kind="function"><name>swapRows</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_row_group" kind="class"><name>qtreports::detail::RowGroup</name>
     <member refid="classqtreports_1_1detail_1_1_row_group_1a8a157204f61067d1bd89ae146e1f9bbb" kind="variable"><name>m_crosstabRowHeaderPtr</name></member>

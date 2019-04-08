@@ -76,11 +76,10 @@ var searchData=
   ['style_2ehpp',['style.hpp',['../style_8hpp.html',1,'']]],
   ['style_5fhpp',['STYLE_HPP',['../style_8hpp.html#acc3e15cf7b6a688a8c6bd2f2b0beb683',1,'style.hpp']]],
   ['styleptr',['StylePtr',['../namespaceqtreports_1_1detail.html#af2c9ab68a81905943108723a95a4acad',1,'qtreports::detail']]],
-  ['summary',['Summary',['../classqtreports_1_1detail_1_1_summary.html',1,'qtreports::detail']]],
   ['summary',['Summary',['../classqtreports_1_1detail_1_1_summary.html#a3b574ef5964700fd32940cfeb048e074',1,'qtreports::detail::Summary']]],
+  ['summary',['Summary',['../classqtreports_1_1detail_1_1_summary.html',1,'qtreports::detail']]],
   ['summary_2ecpp',['summary.cpp',['../summary_8cpp.html',1,'']]],
   ['summary_2ehpp',['summary.hpp',['../summary_8hpp.html',1,'']]],
   ['summary_5fhpp',['SUMMARY_HPP',['../summary_8hpp.html#a242f84b6ec2452452ac45448183071e2',1,'summary.hpp']]],
-  ['summaryptr',['SummaryPtr',['../namespaceqtreports_1_1detail.html#a7827ce11c607153fbe83eb4f3beb66a9',1,'qtreports::detail']]],
-  ['swaprows',['swapRows',['../classqtreports_1_1detail_1_1_report.html#a3ef94ea79b55c104906a59f092c757ad',1,'qtreports::detail::Report']]]
+  ['summaryptr',['SummaryPtr',['../namespaceqtreports_1_1detail.html#a7827ce11c607153fbe83eb4f3beb66a9',1,'qtreports::detail']]]
 ];

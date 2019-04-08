@@ -1,5 +1,3 @@
 <map id="qtreports::detail::Report::getFields" name="qtreports::detail::Report::getFields">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_report.html#aedb49125bf91cbd57285b8c23ff2e4d8" title="Возвращает количество строк " alt="" coords="185,39,340,80"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_report.html#a36b4f8b33892fabbfd4858602bb511e1" title="qtreports::detail::\lReport::isDetailHasGroupFooter" alt="" coords="388,5,611,47"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_report.html#aa2eb56a54e9cb57831ab6fb6a7d745ab" title="qtreports::detail::\lReport::reorderByGroups" alt="" coords="409,71,589,112"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_report.html#aedb49125bf91cbd57285b8c23ff2e4d8" title="Возвращает количество строк " alt="" coords="185,5,340,47"/>
 </map>
