@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_crosstab_group" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::CrosstabGroup</compoundname>
+    <basecompoundref refid="classqtreports_1_1detail_1_1_object" prot="public" virt="non-virtual">qtreports::detail::Object</basecompoundref>
+    <includes refid="crosstabgroup_8hpp" local="no">crosstabgroup.hpp</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17" prot="public" static="no">
+        <name>GroupType</name>
+        <enumvalue id="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17ac22e43abe8607ed40f6b932affe46257" prot="public">
+          <name>ROW</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17aa61ca899ea333431a755324690ec87dc" prot="public">
+          <name>COLUMN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="15" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_crosstab_group_1a442064808e9cd926c231508bf15354d8" prot="protected" static="no" mutable="no">
+        <type><ref refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17" kindref="member">GroupType</ref></type>
+        <definition>GroupType qtreports::detail::CrosstabGroup::m_groupType</definition>
+        <argsstring></argsstring>
+        <name>m_groupType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="30" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_crosstab_group_1a2f62b918f6f2e5e038e52c62949e9bdb" compoundref="crosstabgroup_8cpp" startline="3" endline="6">CrosstabGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_crosstab_group_1a61cf1bae2cc569c3a8b9d672074d0b8c" compoundref="crosstabgroup_8cpp" startline="13" endline="16">setGroupType</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_crosstab_group_1a46803b2e01918495e5fccab52cfa3ab4" compoundref="crosstabgroup_8cpp" startline="18" endline="21">getGroupType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_crosstab_group_1a06f1db8add0ab1b2fcb8c27f4866fdcd" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1af844fc83e9381631359270e18a0afabd" kindref="member">CrosstabSectionPtr</ref></type>
+        <definition>CrosstabSectionPtr qtreports::detail::CrosstabGroup::m_header</definition>
+        <argsstring></argsstring>
+        <name>m_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="31" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_crosstab_group_1a1ec2bf3f7af568d5ea54a938cfa65716" compoundref="crosstabgroup_8cpp" startline="23" endline="26">setHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_crosstab_group_1a5284261a27fb3752787a1effc395d2d6" compoundref="crosstabgroup_8cpp" startline="28" endline="31">getHeader</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_group_1a2f62b918f6f2e5e038e52c62949e9bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::CrosstabGroup::CrosstabGroup</definition>
+        <argsstring>(const GroupType &amp;groupType=qtreports::detail::CrosstabGroup::ROW)</argsstring>
+        <name>CrosstabGroup</name>
+        <param>
+          <type>const <ref refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17" kindref="member">GroupType</ref> &amp;</type>
+          <declname>groupType</declname>
+          <defval><ref refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17ac22e43abe8607ed40f6b932affe46257" kindref="member">qtreports::detail::CrosstabGroup::ROW</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="20" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.cpp" bodystart="3" bodyend="6"/>
+        <references refid="classqtreports_1_1detail_1_1_crosstab_group_1a442064808e9cd926c231508bf15354d8" compoundref="crosstabgroup_8hpp" startline="30">m_groupType</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_group_1a3df8a51fabd1a3d52b294d8e3ac7b6d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::CrosstabGroup::~CrosstabGroup</definition>
+        <argsstring>()</argsstring>
+        <name>~CrosstabGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="21" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_group_1a61cf1bae2cc569c3a8b9d672074d0b8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::CrosstabGroup::setGroupType</definition>
+        <argsstring>(const qtreports::detail::CrosstabGroup::GroupType &amp;groupType)</argsstring>
+        <name>setGroupType</name>
+        <param>
+          <type>const <ref refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17" kindref="member">qtreports::detail::CrosstabGroup::GroupType</ref> &amp;</type>
+          <declname>groupType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="23" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.cpp" bodystart="13" bodyend="16"/>
+        <references refid="classqtreports_1_1detail_1_1_crosstab_group_1a442064808e9cd926c231508bf15354d8" compoundref="crosstabgroup_8hpp" startline="30">m_groupType</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_group_1a46803b2e01918495e5fccab52cfa3ab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17" kindref="member">qtreports::detail::CrosstabGroup::GroupType</ref></type>
+        <definition>qtreports::detail::CrosstabGroup::GroupType qtreports::detail::CrosstabGroup::getGroupType</definition>
+        <argsstring>()</argsstring>
+        <name>getGroupType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="24" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.cpp" bodystart="18" bodyend="21"/>
+        <references refid="classqtreports_1_1detail_1_1_crosstab_group_1a442064808e9cd926c231508bf15354d8" compoundref="crosstabgroup_8hpp" startline="30">m_groupType</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_group_1a1ec2bf3f7af568d5ea54a938cfa65716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::CrosstabGroup::setHeader</definition>
+        <argsstring>(const CrosstabSectionPtr &amp;header)</argsstring>
+        <name>setHeader</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1af844fc83e9381631359270e18a0afabd" kindref="member">CrosstabSectionPtr</ref> &amp;</type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="25" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.cpp" bodystart="23" bodyend="26"/>
+        <references refid="classqtreports_1_1detail_1_1_crosstab_group_1a06f1db8add0ab1b2fcb8c27f4866fdcd" compoundref="crosstabgroup_8hpp" startline="31">m_header</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_group_1a5284261a27fb3752787a1effc395d2d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1af844fc83e9381631359270e18a0afabd" kindref="member">CrosstabSectionPtr</ref></type>
+        <definition>const qtreports::detail::CrosstabSectionPtr qtreports::detail::CrosstabGroup::getHeader</definition>
+        <argsstring>()</argsstring>
+        <name>getHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="26" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.cpp" bodystart="28" bodyend="31"/>
+        <references refid="classqtreports_1_1detail_1_1_crosstab_group_1a06f1db8add0ab1b2fcb8c27f4866fdcd" compoundref="crosstabgroup_8hpp" startline="31">m_header</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="211">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="210">
+        <label>qtreports::detail::CrosstabGroup</label>
+        <link refid="classqtreports_1_1detail_1_1_crosstab_group"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="213">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="212">
+        <label>qtreports::detail::CrosstabGroup</label>
+        <link refid="classqtreports_1_1detail_1_1_crosstab_group"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="12" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" bodystart="11" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17aa61ca899ea333431a755324690ec87dc" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>COLUMN</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a2f62b918f6f2e5e038e52c62949e9bdb" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>CrosstabGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a46803b2e01918495e5fccab52cfa3ab4" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>getGroupType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a5284261a27fb3752787a1effc395d2d6" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>getHeader</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>getName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>getTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>GroupType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a442064808e9cd926c231508bf15354d8" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>m_groupType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a06f1db8add0ab1b2fcb8c27f4866fdcd" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>m_header</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>m_name</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>m_tagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17ac22e43abe8607ed40f6b932affe46257" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>ROW</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a61cf1bae2cc569c3a8b9d672074d0b8c" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>setGroupType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a1ec2bf3f7af568d5ea54a938cfa65716" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>setHeader</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>setName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>setTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a3df8a51fabd1a3d52b294d8e3ac7b6d0" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>~CrosstabGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" virt="virtual"><scope>qtreports::detail::CrosstabGroup</scope><name>~Object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

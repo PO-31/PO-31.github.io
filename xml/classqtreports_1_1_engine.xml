@@ -626,24 +626,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="259">
+      <node id="231">
         <label>QObject</label>
       </node>
-      <node id="258">
+      <node id="230">
         <label>qtreports::Engine</label>
         <link refid="classqtreports_1_1_engine"/>
-        <childnode refid="259" relation="public-inheritance">
+        <childnode refid="231" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="261">
+      <node id="233">
         <label>QObject</label>
       </node>
-      <node id="260">
+      <node id="232">
         <label>qtreports::Engine</label>
         <link refid="classqtreports_1_1_engine"/>
-        <childnode refid="261" relation="public-inheritance">
+        <childnode refid="233" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

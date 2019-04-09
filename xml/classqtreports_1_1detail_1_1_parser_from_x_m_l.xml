@@ -1334,7 +1334,7 @@
 <para><simplesect kind="warning"><para>Все функции данного класса, возвращающие bool, возвращают true в случае успеха либо false, если во время выполнения произошли ошибки. При этом с помощью метода <ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" kindref="member">getLastError()</ref> можно получить описание последней произошедшей ошибки.</para></simplesect>
 Класс, который отвечает за парсинг отчета и создание из него внутренней структуры данных <ref refid="classqtreports_1_1detail_1_1_report" kindref="compound">Report</ref>. </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="323">
+      <node id="284">
         <label>qtreports::detail::ParserFromXML</label>
         <link refid="classqtreports_1_1detail_1_1_parser_from_x_m_l"/>
       </node>

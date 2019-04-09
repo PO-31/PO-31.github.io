@@ -2,7 +2,6 @@ var searchData=
 [
   ['cellcontents',['CellContents',['../classqtreports_1_1detail_1_1_cell_contents.html#a0a1c471c32d2ab468309e5894b50728a',1,'qtreports::detail::CellContents']]],
   ['close',['close',['../classqtreports_1_1_engine.html#a2a4b818b959aa56fedc37ffbdfae47f6',1,'qtreports::Engine']]],
-  ['columngroup',['ColumnGroup',['../classqtreports_1_1detail_1_1_column_group.html#a5f12ed1bb2dcdc6b490111feabcff114',1,'qtreports::detail::ColumnGroup']]],
   ['convert',['convert',['../classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae',1,'qtreports::detail::ConverterToHTML::convert()'],['../classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a',1,'qtreports::detail::ConverterToHTML::convert(const QString &amp;path)'],['../classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb',1,'qtreports::detail::ConverterToPDF::convert()'],['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6',1,'qtreports::detail::ConverterToQWidget::convert()']]],
   ['convertertohtml',['ConverterToHTML',['../classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ab807ceb590ddaa20537dbc27d12e075b',1,'qtreports::detail::ConverterToHTML']]],
   ['convertertopdf',['ConverterToPDF',['../classqtreports_1_1detail_1_1_converter_to_p_d_f.html#ac41383eede72f1b3296bd310e13cab6b',1,'qtreports::detail::ConverterToPDF']]],
@@ -16,6 +15,6 @@ var searchData=
   ['createsection',['createSection',['../classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c',1,'qtreports::detail::ConverterToPDF::createSection()'],['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e',1,'qtreports::detail::ConverterToQWidget::createSection()']]],
   ['createwidget',['createWidget',['../classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434',1,'qtreports::Engine']]],
   ['crosstab',['Crosstab',['../classqtreports_1_1detail_1_1_crosstab.html#a36978895815a04d91b7a0fdb34559db0',1,'qtreports::detail::Crosstab']]],
-  ['crosstabcolumnheader',['CrosstabColumnHeader',['../classqtreports_1_1detail_1_1_crosstab_column_header.html#a4bc6eb2927c340b6de460ff2bd16e5fb',1,'qtreports::detail::CrosstabColumnHeader']]],
-  ['crosstabrowheader',['CrosstabRowHeader',['../classqtreports_1_1detail_1_1_crosstab_row_header.html#a9c3bc3728df3e4178973b9afd210259a',1,'qtreports::detail::CrosstabRowHeader']]]
+  ['crosstabgroup',['CrosstabGroup',['../classqtreports_1_1detail_1_1_crosstab_group.html#a2f62b918f6f2e5e038e52c62949e9bdb',1,'qtreports::detail::CrosstabGroup']]],
+  ['crosstabsection',['CrosstabSection',['../classqtreports_1_1detail_1_1_crosstab_section.html#adc039d86e0dc4622a6632732c3e745ff',1,'qtreports::detail::CrosstabSection']]]
 ];

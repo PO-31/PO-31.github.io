@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_crosstab_section" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::CrosstabSection</compoundname>
+    <basecompoundref refid="classqtreports_1_1detail_1_1_object" prot="public" virt="non-virtual">qtreports::detail::Object</basecompoundref>
+    <includes refid="crosstabsection_8hpp" local="no">crosstabsection.hpp</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_crosstab_section_1a4e70aada11ec3b97f83a2aa0cc44391b" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" kindref="member">CellContentsPtr</ref></type>
+        <definition>CellContentsPtr qtreports::detail::CrosstabSection::m_cellContents</definition>
+        <argsstring></argsstring>
+        <name>m_cellContents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" line="21" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_crosstab_section_1ac4ec72a8d3fb56eb68ba40844e4e2da8" compoundref="crosstabsection_8cpp" startline="14" endline="17">setCellContents</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_crosstab_section_1adeddbccba28ccb586a0e3df55b1e8e3e" compoundref="crosstabsection_8cpp" startline="19" endline="22">getCellContents</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_section_1adc039d86e0dc4622a6632732c3e745ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::CrosstabSection::CrosstabSection</definition>
+        <argsstring>()</argsstring>
+        <name>CrosstabSection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" line="14" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.cpp" bodystart="4" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_section_1a1bdadfde80b9ce8165e7c17f3a52afbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::CrosstabSection::~CrosstabSection</definition>
+        <argsstring>()</argsstring>
+        <name>~CrosstabSection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" line="15" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.cpp" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_section_1ac4ec72a8d3fb56eb68ba40844e4e2da8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::CrosstabSection::setCellContents</definition>
+        <argsstring>(const CellContentsPtr &amp;cellContents)</argsstring>
+        <name>setCellContents</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" kindref="member">CellContentsPtr</ref> &amp;</type>
+          <declname>cellContents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" line="17" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.cpp" bodystart="14" bodyend="17"/>
+        <references refid="classqtreports_1_1detail_1_1_crosstab_section_1a4e70aada11ec3b97f83a2aa0cc44391b" compoundref="crosstabsection_8hpp" startline="21">m_cellContents</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_section_1adeddbccba28ccb586a0e3df55b1e8e3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" kindref="member">CellContentsPtr</ref></type>
+        <definition>const qtreports::detail::CellContentsPtr qtreports::detail::CrosstabSection::getCellContents</definition>
+        <argsstring>()</argsstring>
+        <name>getCellContents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" line="18" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.cpp" bodystart="19" bodyend="22"/>
+        <references refid="classqtreports_1_1detail_1_1_crosstab_section_1a4e70aada11ec3b97f83a2aa0cc44391b" compoundref="crosstabsection_8hpp" startline="21">m_cellContents</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="215">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="214">
+        <label>qtreports::detail::CrosstabSection</label>
+        <link refid="classqtreports_1_1detail_1_1_crosstab_section"/>
+        <childnode refid="215" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="217">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="216">
+        <label>qtreports::detail::CrosstabSection</label>
+        <link refid="classqtreports_1_1detail_1_1_crosstab_section"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" line="12" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_section_1adc039d86e0dc4622a6632732c3e745ff" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>CrosstabSection</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_section_1adeddbccba28ccb586a0e3df55b1e8e3e" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>getCellContents</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>getName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>getTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_section_1a4e70aada11ec3b97f83a2aa0cc44391b" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>m_cellContents</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>m_name</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>m_tagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_section_1ac4ec72a8d3fb56eb68ba40844e4e2da8" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>setCellContents</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>setName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>setTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_crosstab_section_1a1bdadfde80b9ce8165e7c17f3a52afbc" prot="public" virt="non-virtual"><scope>qtreports::detail::CrosstabSection</scope><name>~CrosstabSection</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" virt="virtual"><scope>qtreports::detail::CrosstabSection</scope><name>~Object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['sectionptr',['SectionPtr',['../namespaceqtreports_1_1detail.html#af2fce6f553fa34eaba536a59045c6471',1,'qtreports::detail']]],
-  ['statictextptr',['StaticTextPtr',['../namespaceqtreports_1_1detail.html#a8da710b0963ea1b4e5a74b99420d3e4b',1,'qtreports::detail']]],
-  ['styleptr',['StylePtr',['../namespaceqtreports_1_1detail.html#af2c9ab68a81905943108723a95a4acad',1,'qtreports::detail']]],
-  ['summaryptr',['SummaryPtr',['../namespaceqtreports_1_1detail.html#a7827ce11c607153fbe83eb4f3beb66a9',1,'qtreports::detail']]]
+  ['textfieldptr',['TextFieldPtr',['../namespaceqtreports_1_1detail.html#a5eeea9833babe21c57f50c7c401defb6',1,'qtreports::detail']]],
+  ['textwidgetptr',['TextWidgetPtr',['../namespaceqtreports_1_1detail.html#a0dbda428d8a49120c4536ab502e83edd',1,'qtreports::detail']]],
+  ['titleptr',['TitlePtr',['../namespaceqtreports_1_1detail.html#a582fd4ea4493ad562e1b4a92541cd084',1,'qtreports::detail']]]
 ];

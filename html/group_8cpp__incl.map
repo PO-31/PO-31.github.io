@@ -1,16 +1,20 @@
 <map id="/home/travis/build/PO&#45;31/QtReports/qtreports/src/tags/group.cpp" name="/home/travis/build/PO&#45;31/QtReports/qtreports/src/tags/group.cpp">
-<area shape="rect" id="node2" href="$group_8hpp.html" title="group.hpp" alt="" coords="505,109,591,136"/>
-<area shape="rect" id="node5" href="$section_8hpp.html" title="section.hpp" alt="" coords="500,184,596,211"/>
-<area shape="rect" id="node7" href="$object_8hpp.html" title="object.hpp" alt="" coords="195,632,285,659"/>
-<area shape="rect" id="node9" href="$band_8hpp.html" title="band.hpp" alt="" coords="633,259,716,285"/>
-<area shape="rect" id="node10" href="$statictext_8hpp.html" title="statictext.hpp" alt="" coords="854,333,965,360"/>
-<area shape="rect" id="node12" href="$widget_8hpp.html" title="widget.hpp" alt="" coords="624,483,715,509"/>
-<area shape="rect" id="node18" href="$textfield_8hpp.html" title="textfield.hpp" alt="" coords="311,333,412,360"/>
-<area shape="rect" id="node19" href="$line_8hpp.html" title="line.hpp" alt="" coords="721,408,793,435"/>
-<area shape="rect" id="node20" href="$rect_8hpp.html" title="rect.hpp" alt="" coords="817,408,892,435"/>
-<area shape="rect" id="node21" href="$ellipse_8hpp.html" title="ellipse.hpp" alt="" coords="981,408,1072,435"/>
-<area shape="rect" id="node22" href="$image_8hpp.html" title="image.hpp" alt="" coords="447,333,537,360"/>
-<area shape="rect" id="node24" href="$crosstab_8hpp.html" title="crosstab.hpp" alt="" coords="622,333,727,360"/>
-<area shape="rect" id="node11" href="$textwidget_8hpp.html" title="textwidget.hpp" alt="" coords="283,408,399,435"/>
-<area shape="rect" id="node16" href="$style_8hpp.html" title="style.hpp" alt="" coords="485,557,565,584"/>
+<area shape="rect" id="node2" href="$group_8hpp.html" title="group.hpp" alt="" coords="666,109,753,136"/>
+<area shape="rect" id="node5" href="$section_8hpp.html" title="section.hpp" alt="" coords="661,184,757,211"/>
+<area shape="rect" id="node7" href="$object_8hpp.html" title="object.hpp" alt="" coords="1110,931,1199,957"/>
+<area shape="rect" id="node9" href="$band_8hpp.html" title="band.hpp" alt="" coords="572,259,655,285"/>
+<area shape="rect" id="node10" href="$statictext_8hpp.html" title="statictext.hpp" alt="" coords="755,632,866,659"/>
+<area shape="rect" id="node12" href="$widget_8hpp.html" title="widget.hpp" alt="" coords="552,781,643,808"/>
+<area shape="rect" id="node18" href="$textfield_8hpp.html" title="textfield.hpp" alt="" coords="923,632,1024,659"/>
+<area shape="rect" id="node19" href="$line_8hpp.html" title="line.hpp" alt="" coords="405,707,477,733"/>
+<area shape="rect" id="node20" href="$rect_8hpp.html" title="rect.hpp" alt="" coords="501,707,576,733"/>
+<area shape="rect" id="node21" href="$ellipse_8hpp.html" title="ellipse.hpp" alt="" coords="144,707,235,733"/>
+<area shape="rect" id="node22" href="$image_8hpp.html" title="image.hpp" alt="" coords="320,632,411,659"/>
+<area shape="rect" id="node24" href="$crosstab_8hpp.html" title="crosstab.hpp" alt="" coords="753,333,858,360"/>
+<area shape="rect" id="node11" href="$textwidget_8hpp.html" title="textwidget.hpp" alt="" coords="753,707,869,733"/>
+<area shape="rect" id="node16" href="$style_8hpp.html" title="style.hpp" alt="" coords="651,856,731,883"/>
+<area shape="rect" id="node25" href="$crosstabgroup_8hpp.html" title="crosstabgroup.hpp" alt="" coords="951,408,1094,435"/>
+<area shape="rect" id="node26" href="$crosstabsection_8hpp.html" title="crosstabsection.hpp" alt="" coords="947,483,1098,509"/>
+<area shape="rect" id="node27" href="$cellcontents_8hpp.html" title="cellcontents.hpp" alt="" coords="959,557,1086,584"/>
+<area shape="rect" id="node28" href="$box_8hpp.html" title="box.hpp" alt="" coords="1062,781,1135,808"/>
 </map>

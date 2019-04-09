@@ -1274,26 +1274,26 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;report&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="337">
+      <node id="298">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="336">
+      <node id="297">
         <label>qtreports::detail::Report</label>
         <link refid="classqtreports_1_1detail_1_1_report"/>
-        <childnode refid="337" relation="public-inheritance">
+        <childnode refid="298" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="339">
+      <node id="300">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="338">
+      <node id="299">
         <label>qtreports::detail::Report</label>
         <link refid="classqtreports_1_1detail_1_1_report"/>
-        <childnode refid="339" relation="public-inheritance">
+        <childnode refid="300" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -25,364 +25,398 @@
     <includedby refid="engine_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</includedby>
     <includedby refid="report_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp</includedby>
     <incdepgraph>
-      <node id="3294">
+      <node id="3378">
         <label>QMap</label>
       </node>
-      <node id="3307">
+      <node id="3391">
         <label>section.hpp</label>
         <link refid="section_8hpp"/>
-        <childnode refid="3295" relation="include">
+        <childnode refid="3379" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3300" relation="include">
+        <childnode refid="3384" relation="include">
         </childnode>
-        <childnode refid="3308" relation="include">
+        <childnode refid="3392" relation="include">
         </childnode>
       </node>
-      <node id="3306">
+      <node id="3390">
         <label>group.hpp</label>
         <link refid="group_8hpp"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3376" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3307" relation="include">
+        <childnode refid="3391" relation="include">
         </childnode>
       </node>
-      <node id="3308">
+      <node id="3392">
         <label>band.hpp</label>
         <link refid="band_8hpp"/>
-        <childnode refid="3295" relation="include">
+        <childnode refid="3379" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3309" relation="include">
+        <childnode refid="3393" relation="include">
         </childnode>
-        <childnode refid="3314" relation="include">
+        <childnode refid="3398" relation="include">
         </childnode>
-        <childnode refid="3315" relation="include">
+        <childnode refid="3399" relation="include">
         </childnode>
-        <childnode refid="3316" relation="include">
+        <childnode refid="3400" relation="include">
         </childnode>
-        <childnode refid="3317" relation="include">
+        <childnode refid="3401" relation="include">
         </childnode>
-        <childnode refid="3318" relation="include">
+        <childnode refid="3402" relation="include">
         </childnode>
-        <childnode refid="3311" relation="include">
+        <childnode refid="3395" relation="include">
         </childnode>
-        <childnode refid="3319" relation="include">
+        <childnode refid="3403" relation="include">
         </childnode>
       </node>
-      <node id="3304">
+      <node id="3388">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3376" relation="include">
         </childnode>
-        <childnode refid="3305" relation="include">
+        <childnode refid="3389" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3300" relation="include">
+        <childnode refid="3384" relation="include">
         </childnode>
       </node>
-      <node id="3302">
+      <node id="3386">
         <label>field.hpp</label>
         <link refid="field_8hpp"/>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3301" relation="include">
+        <childnode refid="3385" relation="include">
         </childnode>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3376" relation="include">
         </childnode>
-        <childnode refid="3295" relation="include">
+        <childnode refid="3379" relation="include">
         </childnode>
-        <childnode refid="3303" relation="include">
+        <childnode refid="3387" relation="include">
         </childnode>
-        <childnode refid="3300" relation="include">
+        <childnode refid="3384" relation="include">
         </childnode>
       </node>
-      <node id="3321">
+      <node id="3405">
+        <label>crosstabsection.hpp</label>
+        <link refid="crosstabsection_8hpp"/>
+        <childnode refid="3384" relation="include">
+        </childnode>
+        <childnode refid="3406" relation="include">
+        </childnode>
+      </node>
+      <node id="3407">
+        <label>box.hpp</label>
+        <link refid="box_8hpp"/>
+        <childnode refid="3384" relation="include">
+        </childnode>
+      </node>
+      <node id="3409">
         <label>detail.hpp</label>
         <link refid="detail_8hpp"/>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3307" relation="include">
+        <childnode refid="3391" relation="include">
         </childnode>
       </node>
-      <node id="3298">
+      <node id="3382">
         <label>QPrinter</label>
       </node>
-      <node id="3313">
+      <node id="3397">
         <label>QRect</label>
       </node>
-      <node id="3312">
+      <node id="3396">
         <label>QPoint</label>
       </node>
-      <node id="3296">
+      <node id="3380">
         <label>QSharedPointer</label>
       </node>
-      <node id="3303">
+      <node id="3387">
         <label>QImage</label>
       </node>
-      <node id="3309">
+      <node id="3393">
         <label>statictext.hpp</label>
         <link refid="statictext_8hpp"/>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3310" relation="include">
+        <childnode refid="3394" relation="include">
         </childnode>
       </node>
-      <node id="3316">
+      <node id="3400">
         <label>rect.hpp</label>
         <link refid="rect_8hpp"/>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3311" relation="include">
+        <childnode refid="3395" relation="include">
         </childnode>
       </node>
-      <node id="3318">
+      <node id="3402">
         <label>image.hpp</label>
         <link refid="image_8hpp"/>
-        <childnode refid="3303" relation="include">
+        <childnode refid="3387" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3310" relation="include">
+        <childnode refid="3394" relation="include">
         </childnode>
       </node>
-      <node id="3315">
+      <node id="3404">
+        <label>crosstabgroup.hpp</label>
+        <link refid="crosstabgroup_8hpp"/>
+        <childnode refid="3384" relation="include">
+        </childnode>
+        <childnode refid="3405" relation="include">
+        </childnode>
+      </node>
+      <node id="3399">
         <label>line.hpp</label>
         <link refid="line_8hpp"/>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3311" relation="include">
+        <childnode refid="3395" relation="include">
         </childnode>
       </node>
-      <node id="3319">
+      <node id="3403">
         <label>crosstab.hpp</label>
         <link refid="crosstab_8hpp"/>
-        <childnode refid="3311" relation="include">
+        <childnode refid="3395" relation="include">
+        </childnode>
+        <childnode refid="3404" relation="include">
+        </childnode>
+        <childnode refid="3405" relation="include">
         </childnode>
       </node>
-      <node id="3310">
+      <node id="3406">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="3407" relation="include">
+        </childnode>
+        <childnode refid="3398" relation="include">
+        </childnode>
+      </node>
+      <node id="3394">
         <label>textwidget.hpp</label>
         <link refid="textwidget_8hpp"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3376" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3311" relation="include">
+        <childnode refid="3395" relation="include">
         </childnode>
       </node>
-      <node id="3299">
+      <node id="3383">
         <label>QRegularExpression</label>
       </node>
-      <node id="3292">
+      <node id="3376">
         <label>QString</label>
       </node>
-      <node id="3293">
+      <node id="3377">
         <label>QSize</label>
       </node>
-      <node id="3314">
+      <node id="3398">
         <label>textfield.hpp</label>
         <link refid="textfield_8hpp"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3376" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3310" relation="include">
+        <childnode refid="3394" relation="include">
         </childnode>
       </node>
-      <node id="3305">
+      <node id="3389">
         <label>QColor</label>
       </node>
-      <node id="3297">
+      <node id="3381">
         <label>QMargins</label>
       </node>
-      <node id="3300">
+      <node id="3384">
         <label>object.hpp</label>
         <link refid="object_8hpp"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3376" relation="include">
         </childnode>
-        <childnode refid="3301" relation="include">
+        <childnode refid="3385" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
       </node>
-      <node id="3320">
+      <node id="3408">
         <label>title.hpp</label>
         <link refid="title_8hpp"/>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3307" relation="include">
+        <childnode refid="3391" relation="include">
         </childnode>
       </node>
-      <node id="3322">
+      <node id="3410">
         <label>summary.hpp</label>
         <link refid="summary_8hpp"/>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3307" relation="include">
+        <childnode refid="3391" relation="include">
         </childnode>
       </node>
-      <node id="3311">
+      <node id="3395">
         <label>widget.hpp</label>
         <link refid="widget_8hpp"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3376" relation="include">
         </childnode>
-        <childnode refid="3312" relation="include">
+        <childnode refid="3396" relation="include">
         </childnode>
-        <childnode refid="3293" relation="include">
+        <childnode refid="3377" relation="include">
         </childnode>
-        <childnode refid="3313" relation="include">
+        <childnode refid="3397" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3304" relation="include">
+        <childnode refid="3388" relation="include">
         </childnode>
-        <childnode refid="3300" relation="include">
+        <childnode refid="3384" relation="include">
         </childnode>
       </node>
-      <node id="3301">
+      <node id="3385">
         <label>QVariant</label>
       </node>
-      <node id="3291">
+      <node id="3375">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp</label>
         <link refid="report.hpp"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3376" relation="include">
         </childnode>
-        <childnode refid="3293" relation="include">
+        <childnode refid="3377" relation="include">
         </childnode>
-        <childnode refid="3294" relation="include">
+        <childnode refid="3378" relation="include">
         </childnode>
-        <childnode refid="3295" relation="include">
+        <childnode refid="3379" relation="include">
         </childnode>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3297" relation="include">
+        <childnode refid="3381" relation="include">
         </childnode>
-        <childnode refid="3298" relation="include">
+        <childnode refid="3382" relation="include">
         </childnode>
-        <childnode refid="3299" relation="include">
+        <childnode refid="3383" relation="include">
         </childnode>
-        <childnode refid="3300" relation="include">
+        <childnode refid="3384" relation="include">
         </childnode>
-        <childnode refid="3302" relation="include">
+        <childnode refid="3386" relation="include">
         </childnode>
-        <childnode refid="3304" relation="include">
+        <childnode refid="3388" relation="include">
         </childnode>
-        <childnode refid="3306" relation="include">
+        <childnode refid="3390" relation="include">
         </childnode>
-        <childnode refid="3320" relation="include">
+        <childnode refid="3408" relation="include">
         </childnode>
-        <childnode refid="3321" relation="include">
+        <childnode refid="3409" relation="include">
         </childnode>
-        <childnode refid="3322" relation="include">
+        <childnode refid="3410" relation="include">
         </childnode>
       </node>
-      <node id="3295">
+      <node id="3379">
         <label>QVector</label>
       </node>
-      <node id="3317">
+      <node id="3401">
         <label>ellipse.hpp</label>
         <link refid="ellipse_8hpp"/>
-        <childnode refid="3296" relation="include">
+        <childnode refid="3380" relation="include">
         </childnode>
-        <childnode refid="3311" relation="include">
+        <childnode refid="3395" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3330">
+      <node id="3418">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp</label>
         <link refid="replacer_8cpp"/>
       </node>
-      <node id="3331">
+      <node id="3419">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp</label>
         <link refid="convertertopdf_8hpp"/>
-        <childnode refid="3328" relation="include">
+        <childnode refid="3416" relation="include">
         </childnode>
-        <childnode refid="3326" relation="include">
+        <childnode refid="3414" relation="include">
         </childnode>
       </node>
-      <node id="3327">
+      <node id="3415">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp</label>
         <link refid="replacer_8hpp"/>
-        <childnode refid="3325" relation="include">
+        <childnode refid="3413" relation="include">
         </childnode>
-        <childnode refid="3328" relation="include">
+        <childnode refid="3416" relation="include">
         </childnode>
-        <childnode refid="3329" relation="include">
+        <childnode refid="3417" relation="include">
         </childnode>
-        <childnode refid="3330" relation="include">
+        <childnode refid="3418" relation="include">
         </childnode>
       </node>
-      <node id="3329">
+      <node id="3417">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp</label>
         <link refid="convertertoqwidget_8cpp"/>
       </node>
-      <node id="3324">
+      <node id="3412">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp</label>
         <link refid="convertertohtml_8hpp"/>
-        <childnode refid="3325" relation="include">
+        <childnode refid="3413" relation="include">
         </childnode>
-        <childnode refid="3326" relation="include">
+        <childnode refid="3414" relation="include">
         </childnode>
       </node>
-      <node id="3333">
+      <node id="3421">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</label>
         <link refid="parserfromxml_8hpp"/>
-        <childnode refid="3326" relation="include">
+        <childnode refid="3414" relation="include">
         </childnode>
-        <childnode refid="3334" relation="include">
+        <childnode refid="3422" relation="include">
         </childnode>
       </node>
-      <node id="3335">
+      <node id="3423">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp</label>
         <link refid="report_8cpp"/>
       </node>
-      <node id="3334">
+      <node id="3422">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp</label>
         <link refid="parserfromxml_8cpp"/>
       </node>
-      <node id="3328">
+      <node id="3416">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp</label>
         <link refid="convertertopdf_8cpp"/>
       </node>
-      <node id="3323">
+      <node id="3411">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp</label>
         <link refid="report.hpp"/>
-        <childnode refid="3324" relation="include">
+        <childnode refid="3412" relation="include">
         </childnode>
-        <childnode refid="3327" relation="include">
+        <childnode refid="3415" relation="include">
         </childnode>
-        <childnode refid="3331" relation="include">
+        <childnode refid="3419" relation="include">
         </childnode>
-        <childnode refid="3332" relation="include">
+        <childnode refid="3420" relation="include">
         </childnode>
-        <childnode refid="3333" relation="include">
+        <childnode refid="3421" relation="include">
         </childnode>
-        <childnode refid="3326" relation="include">
+        <childnode refid="3414" relation="include">
         </childnode>
-        <childnode refid="3335" relation="include">
+        <childnode refid="3423" relation="include">
         </childnode>
       </node>
-      <node id="3332">
+      <node id="3420">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp</label>
         <link refid="convertertoqwidget_8hpp"/>
-        <childnode refid="3328" relation="include">
+        <childnode refid="3416" relation="include">
         </childnode>
-        <childnode refid="3329" relation="include">
+        <childnode refid="3417" relation="include">
         </childnode>
-        <childnode refid="3326" relation="include">
+        <childnode refid="3414" relation="include">
         </childnode>
       </node>
-      <node id="3325">
+      <node id="3413">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp</label>
         <link refid="convertertohtml_8cpp"/>
       </node>
-      <node id="3326">
+      <node id="3414">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</label>
         <link refid="engine_8cpp"/>
       </node>

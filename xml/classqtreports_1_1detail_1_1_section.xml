@@ -3,10 +3,8 @@
   <compounddef id="classqtreports_1_1detail_1_1_section" kind="class" language="C++" prot="public">
     <compoundname>qtreports::detail::Section</compoundname>
     <basecompoundref refid="classqtreports_1_1detail_1_1_object" prot="public" virt="non-virtual">qtreports::detail::Object</basecompoundref>
-    <derivedcompoundref refid="classqtreports_1_1detail_1_1_column_group" prot="public" virt="non-virtual">qtreports::detail::ColumnGroup</derivedcompoundref>
     <derivedcompoundref refid="classqtreports_1_1detail_1_1_detail" prot="public" virt="non-virtual">qtreports::detail::Detail</derivedcompoundref>
     <derivedcompoundref refid="classqtreports_1_1detail_1_1_group" prot="public" virt="non-virtual">qtreports::detail::Group</derivedcompoundref>
-    <derivedcompoundref refid="classqtreports_1_1detail_1_1_row_group" prot="public" virt="non-virtual">qtreports::detail::RowGroup</derivedcompoundref>
     <derivedcompoundref refid="classqtreports_1_1detail_1_1_summary" prot="public" virt="non-virtual">qtreports::detail::Summary</derivedcompoundref>
     <derivedcompoundref refid="classqtreports_1_1detail_1_1_title" prot="public" virt="non-virtual">qtreports::detail::Title</derivedcompoundref>
     <includes refid="section_8hpp" local="no">section.hpp</includes>
@@ -203,62 +201,50 @@
     <detaileddescription>
 <para>и подобных.</para><para>Базовый класс для тэгов &lt;title&gt;, &lt;detail&gt;, </para><para>и подобных. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="347">
+      <node id="302">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="352">
+      <node id="305">
         <label>qtreports::detail::Summary</label>
         <link refid="classqtreports_1_1detail_1_1_summary"/>
-        <childnode refid="346" relation="public-inheritance">
+        <childnode refid="301" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="353">
+      <node id="306">
         <label>qtreports::detail::Title</label>
         <link refid="classqtreports_1_1detail_1_1_title"/>
-        <childnode refid="346" relation="public-inheritance">
+        <childnode refid="301" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="346">
+      <node id="301">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="347" relation="public-inheritance">
+        <childnode refid="302" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="348">
-        <label>qtreports::detail::ColumnGroup</label>
-        <link refid="classqtreports_1_1detail_1_1_column_group"/>
-        <childnode refid="346" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="351">
-        <label>qtreports::detail::RowGroup</label>
-        <link refid="classqtreports_1_1detail_1_1_row_group"/>
-        <childnode refid="346" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="349">
+      <node id="303">
         <label>qtreports::detail::Detail</label>
         <link refid="classqtreports_1_1detail_1_1_detail"/>
-        <childnode refid="346" relation="public-inheritance">
+        <childnode refid="301" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="350">
+      <node id="304">
         <label>qtreports::detail::Group</label>
         <link refid="classqtreports_1_1detail_1_1_group"/>
-        <childnode refid="346" relation="public-inheritance">
+        <childnode refid="301" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="355">
+      <node id="308">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="354">
+      <node id="307">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="355" relation="public-inheritance">
+        <childnode refid="308" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

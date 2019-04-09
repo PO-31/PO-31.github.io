@@ -76,6 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
       <li class="current"><a href="functions_vars.html"><span>Переменные</span></a></li>
       <li><a href="functions_type.html"><span>Определения&#160;типов</span></a></li>
       <li><a href="functions_enum.html"><span>Перечисления</span></a></li>
+      <li><a href="functions_eval.html"><span>Элементы&#160;перечислений</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -117,26 +118,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <li>m_boxPtr
 : <a class="el" href="classqtreports_1_1detail_1_1_cell_contents.html#a58636f1a1fb84d65c455b5a55054fb3f">qtreports::detail::CellContents</a>
 </li>
-<li>m_calculation
-: <a class="el" href="classqtreports_1_1detail_1_1_measure.html#a3d1b8e355338d5ec63d906d0f1f87182">qtreports::detail::Measure</a>
-</li>
-<li>m_cellContentsPtr
-: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_column_header.html#ad518e04993eeff284d18af1db9de3e5b">qtreports::detail::CrosstabColumnHeader</a>
-, <a class="el" href="classqtreports_1_1detail_1_1_crosstab_row_header.html#acaee92ef72588544219c78e2fa2e1123">qtreports::detail::CrosstabRowHeader</a>
+<li>m_cellContents
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_section.html#a4e70aada11ec3b97f83a2aa0cc44391b">qtreports::detail::CrosstabSection</a>
 </li>
 <li>m_className
 : <a class="el" href="classqtreports_1_1detail_1_1_field.html#ab4757a8363d670cc0459084b1053b9a2">qtreports::detail::Field</a>
-, <a class="el" href="classqtreports_1_1detail_1_1_measure.html#af91249602576ded66a2e8f049700fd2e">qtreports::detail::Measure</a>
 , <a class="el" href="classqtreports_1_1detail_1_1_text_field.html#a7abcf0a6f0fed61bd1f1b8d901c85371">qtreports::detail::TextField</a>
+</li>
+<li>m_columnGroup
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab.html#abecbb06eca6d8545547b7e35f5232b9f">qtreports::detail::Crosstab</a>
 </li>
 <li>m_compiledPath
 : <a class="el" href="classqtreports_1_1_engine.html#a10926ee63a333e1b2cc358c0e9e3990d">qtreports::Engine</a>
 </li>
-<li>m_crosstabColumnHeaderPtr
-: <a class="el" href="classqtreports_1_1detail_1_1_column_group.html#a1b0a7124fdf6d0bdda5661e0d5c6be08">qtreports::detail::ColumnGroup</a>
-</li>
-<li>m_crosstabRowHeaderPtr
-: <a class="el" href="classqtreports_1_1detail_1_1_row_group.html#a8a157204f61067d1bd89ae146e1f9bbb">qtreports::detail::RowGroup</a>
+<li>m_crosstabCell
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab.html#a02c4a6cc906dc5d58da5b5f7724d8780">qtreports::detail::Crosstab</a>
 </li>
 <li>m_crosstabs
 : <a class="el" href="classqtreports_1_1detail_1_1_band.html#af69c85455254e1661167bc957c72c457">qtreports::detail::Band</a>
@@ -193,8 +189,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <li>m_groups
 : <a class="el" href="classqtreports_1_1detail_1_1_report.html#abc3acec686b212b2d0b50aafbb1217b0">qtreports::detail::Report</a>
 </li>
+<li>m_groupType
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_group.html#a442064808e9cd926c231508bf15354d8">qtreports::detail::CrosstabGroup</a>
+</li>
 <li>m_header
-: <a class="el" href="classqtreports_1_1detail_1_1_group.html#a41c8b9bd92064c5a16de3465e7198f88">qtreports::detail::Group</a>
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_group.html#a06f1db8add0ab1b2fcb8c27f4866fdcd">qtreports::detail::CrosstabGroup</a>
+, <a class="el" href="classqtreports_1_1detail_1_1_group.html#a41c8b9bd92064c5a16de3465e7198f88">qtreports::detail::Group</a>
 </li>
 <li>m_height
 : <a class="el" href="classqtreports_1_1detail_1_1_section.html#ace4feb8fe2e3fa6c26c24ece74c33530">qtreports::detail::Section</a>
@@ -287,6 +287,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 , <a class="el" href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a7930492174e0a58f710c8ac26932045d">qtreports::detail::ConverterToQWidget</a>
 , <a class="el" href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#afc21e89b3b0fc2a48f5a2c41ab007673">qtreports::detail::ParserFromXML</a>
 , <a class="el" href="classqtreports_1_1_engine.html#a25a0291b567dcbd20183bffcd9aed420">qtreports::Engine</a>
+</li>
+<li>m_rowGroup
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab.html#aa0955137b1f47ed8e55eb0f22fb55289">qtreports::detail::Crosstab</a>
 </li>
 <li>m_scripts
 : <a class="el" href="classqtreports_1_1_engine.html#a48e81d0de1fc4c6cc70a124e43a8ac56">qtreports::Engine</a>

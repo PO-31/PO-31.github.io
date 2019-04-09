@@ -4,91 +4,91 @@
     <compoundname>textfield.cpp</compoundname>
     <includes refid="textfield_8hpp" local="yes">textfield.hpp</includes>
     <incdepgraph>
-      <node id="3667">
+      <node id="3699">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="3660" relation="include">
+        <childnode refid="3692" relation="include">
         </childnode>
-        <childnode refid="3668" relation="include">
+        <childnode refid="3700" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="3693" relation="include">
         </childnode>
-        <childnode refid="3669" relation="include">
+        <childnode refid="3701" relation="include">
         </childnode>
       </node>
-      <node id="3666">
+      <node id="3698">
         <label>QRect</label>
       </node>
-      <node id="3664">
+      <node id="3696">
         <label>QPoint</label>
       </node>
-      <node id="3661">
+      <node id="3693">
         <label>QSharedPointer</label>
       </node>
-      <node id="3662">
+      <node id="3694">
         <label>textwidget.hpp</label>
         <link refid="textwidget_8hpp"/>
-        <childnode refid="3660" relation="include">
+        <childnode refid="3692" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="3693" relation="include">
         </childnode>
-        <childnode refid="3663" relation="include">
+        <childnode refid="3695" relation="include">
         </childnode>
       </node>
-      <node id="3660">
+      <node id="3692">
         <label>QString</label>
       </node>
-      <node id="3665">
+      <node id="3697">
         <label>QSize</label>
       </node>
-      <node id="3659">
+      <node id="3691">
         <label>textfield.hpp</label>
         <link refid="textfield_8hpp"/>
-        <childnode refid="3660" relation="include">
+        <childnode refid="3692" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="3693" relation="include">
         </childnode>
-        <childnode refid="3662" relation="include">
+        <childnode refid="3694" relation="include">
         </childnode>
       </node>
-      <node id="3668">
+      <node id="3700">
         <label>QColor</label>
       </node>
-      <node id="3669">
+      <node id="3701">
         <label>object.hpp</label>
         <link refid="object_8hpp"/>
-        <childnode refid="3660" relation="include">
+        <childnode refid="3692" relation="include">
         </childnode>
-        <childnode refid="3670" relation="include">
+        <childnode refid="3702" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="3693" relation="include">
         </childnode>
       </node>
-      <node id="3663">
+      <node id="3695">
         <label>widget.hpp</label>
         <link refid="widget_8hpp"/>
-        <childnode refid="3660" relation="include">
+        <childnode refid="3692" relation="include">
         </childnode>
-        <childnode refid="3664" relation="include">
+        <childnode refid="3696" relation="include">
         </childnode>
-        <childnode refid="3665" relation="include">
+        <childnode refid="3697" relation="include">
         </childnode>
-        <childnode refid="3666" relation="include">
+        <childnode refid="3698" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="3693" relation="include">
         </childnode>
-        <childnode refid="3667" relation="include">
+        <childnode refid="3699" relation="include">
         </childnode>
-        <childnode refid="3669" relation="include">
+        <childnode refid="3701" relation="include">
         </childnode>
       </node>
-      <node id="3670">
+      <node id="3702">
         <label>QVariant</label>
       </node>
-      <node id="3658">
+      <node id="3690">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/textfield.cpp</label>
         <link refid="textfield.cpp"/>
-        <childnode refid="3659" relation="include">
+        <childnode refid="3691" relation="include">
         </childnode>
       </node>
     </incdepgraph>

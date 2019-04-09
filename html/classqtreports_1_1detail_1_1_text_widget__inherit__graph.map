@@ -1,8 +1,7 @@
 <map id="qtreports::detail::TextWidget" name="qtreports::detail::TextWidget">
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_image.html" title="Класс, реализующий тэг &lt;image&gt; " alt="" coords="5,1019,137,1155"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_measure.html" title="{qtreports::detail::\lMeasure\n|&#45; m_className\l&#45; m_calculation\l|+ Measure()\l+ ~Measure()\l+ setClassName()\l+ setCalculation()\l+ getClassName()\l+ getCalculation()\l}" alt="" coords="162,997,303,1177"/>
-<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_static_text.html" title="Класс, реализующий тэг &lt;staticText&gt; " alt="" coords="328,1034,460,1141"/>
-<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_text_field.html" title="Класс, реализующий тэг &lt;textField&gt; " alt="" coords="485,1019,626,1155"/>
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_widget.html" title="Базовый класс для тэгов, которые подлежат отображению " alt="" coords="246,277,379,721"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_object.html" title="Базовый класс для любого тэга " alt="" coords="247,5,379,229"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_image.html" title="Класс, реализующий тэг &lt;image&gt; " alt="" coords="5,997,137,1133"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_static_text.html" title="Класс, реализующий тэг &lt;staticText&gt; " alt="" coords="161,1012,293,1119"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_text_field.html" title="Класс, реализующий тэг &lt;textField&gt; " alt="" coords="318,997,459,1133"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_widget.html" title="Базовый класс для тэгов, которые подлежат отображению " alt="" coords="161,277,294,721"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_object.html" title="Базовый класс для любого тэга " alt="" coords="161,5,293,229"/>
 </map>

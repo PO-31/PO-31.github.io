@@ -17,56 +17,46 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="none" stroke="#bfbfbf" points="0,-0.5 0,-19.5 53,-19.5 53,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="26.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QString</text>
-</g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M83.7049,-112.255C75.2817,-101.847 65.2515,-88.6451 57.5,-76 48.2196,-60.8607 39.6947,-42.5124 33.9436,-29.1759"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="37.0668,-27.5737 29.9646,-19.7119 30.6139,-30.2868 37.0668,-27.5737"/>
-</g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<polygon fill="none" stroke="#bfbfbf" points="147.5,-0.5 147.5,-19.5 239.5,-19.5 239.5,-0.5 147.5,-0.5"/>
-<text text-anchor="middle" x="193.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QSharedPointer</text>
-</g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M115.649,-112.29C133.744,-88.7471 163.695,-49.779 180.688,-27.6691"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="183.591,-29.6364 186.909,-19.5748 178.04,-25.3706 183.591,-29.6364"/>
-</g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="object_8hpp.html" target="_top" xlink:title="object.hpp">
+<g id="a_node2"><a xlink:href="object_8hpp.html" target="_top" xlink:title="object.hpp">
 <polygon fill="none" stroke="black" points="67,-56.5 67,-75.5 134,-75.5 134,-56.5 67,-56.5"/>
 <text text-anchor="middle" x="100.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">object.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M100.5,-112.498C100.5,-104.065 100.5,-94.2351 100.5,-85.874"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="104,-85.6525 100.5,-75.6525 97.0001,-85.6525 104,-85.6525"/>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node3 -->
+<g id="node3" class="node"><title>Node3</title>
+<polygon fill="none" stroke="#bfbfbf" points="0,-0.5 0,-19.5 53,-19.5 53,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="26.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QString</text>
+</g>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M88.6106,-56.324C77.3498,-48.1066 60.2134,-35.6017 46.7909,-25.8069"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="48.7468,-22.9014 38.6057,-19.8339 44.6205,-28.5559 48.7468,-22.9014"/>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge6" class="edge"><title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M115.442,-56.324C130.085,-47.8215 152.634,-34.7288 169.738,-24.7975"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="171.705,-27.7027 178.595,-19.6545 168.19,-21.6491 171.705,-27.7027"/>
-</g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
 <polygon fill="none" stroke="#bfbfbf" points="71.5,-0.5 71.5,-19.5 129.5,-19.5 129.5,-0.5 71.5,-0.5"/>
 <text text-anchor="middle" x="100.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QVariant</text>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node2&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M100.5,-56.083C100.5,-49.0059 100.5,-38.8611 100.5,-29.9865"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="104,-29.751 100.5,-19.7511 97.0001,-29.7511 104,-29.751"/>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<polygon fill="none" stroke="#bfbfbf" points="147.5,-0.5 147.5,-19.5 239.5,-19.5 239.5,-0.5 147.5,-0.5"/>
+<text text-anchor="middle" x="193.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QSharedPointer</text>
+</g>
+<!-- Node2&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M115.442,-56.324C130.085,-47.8215 152.634,-34.7288 169.738,-24.7975"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="171.705,-27.7027 178.595,-19.6545 168.19,-21.6491 171.705,-27.7027"/>
 </g>
 </g>
 </svg>

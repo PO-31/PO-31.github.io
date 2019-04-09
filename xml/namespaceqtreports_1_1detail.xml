@@ -5,27 +5,24 @@
     <innerclass refid="classqtreports_1_1detail_1_1_band" prot="public">qtreports::detail::Band</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_box" prot="public">qtreports::detail::Box</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_cell_contents" prot="public">qtreports::detail::CellContents</innerclass>
-    <innerclass refid="classqtreports_1_1detail_1_1_column_group" prot="public">qtreports::detail::ColumnGroup</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l" prot="public">qtreports::detail::ConverterToHTML</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_converter_to_p_d_f" prot="public">qtreports::detail::ConverterToPDF</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_converter_to_q_widget" prot="public">qtreports::detail::ConverterToQWidget</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_crosstab" prot="public">qtreports::detail::Crosstab</innerclass>
-    <innerclass refid="classqtreports_1_1detail_1_1_crosstab_column_header" prot="public">qtreports::detail::CrosstabColumnHeader</innerclass>
-    <innerclass refid="classqtreports_1_1detail_1_1_crosstab_row_header" prot="public">qtreports::detail::CrosstabRowHeader</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_crosstab_group" prot="public">qtreports::detail::CrosstabGroup</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_crosstab_section" prot="public">qtreports::detail::CrosstabSection</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_detail" prot="public">qtreports::detail::Detail</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_ellipse" prot="public">qtreports::detail::Ellipse</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_field" prot="public">qtreports::detail::Field</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_group" prot="public">qtreports::detail::Group</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_image" prot="public">qtreports::detail::Image</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_line" prot="public">qtreports::detail::Line</innerclass>
-    <innerclass refid="classqtreports_1_1detail_1_1_measure" prot="public">qtreports::detail::Measure</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_object" prot="public">qtreports::detail::Object</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_parser_from_x_m_l" prot="public">qtreports::detail::ParserFromXML</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_query_string" prot="public">qtreports::detail::QueryString</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_rect" prot="public">qtreports::detail::Rect</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_replacer" prot="public">qtreports::detail::Replacer</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_report" prot="public">qtreports::detail::Report</innerclass>
-    <innerclass refid="classqtreports_1_1detail_1_1_row_group" prot="public">qtreports::detail::RowGroup</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_section" prot="public">qtreports::detail::Section</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_static_text" prot="public">qtreports::detail::StaticText</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_style" prot="public">qtreports::detail::Style</innerclass>
@@ -72,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="28" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" bodystart="28" bodyend="-1"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="25" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_cell_contents" kindref="compound">CellContents</ref> &gt;</type>
@@ -85,20 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="30" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a7e7a68e69659c807732f7fd1225e40f1" prot="public" static="no">
-        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_column_group" kindref="compound">ColumnGroup</ref> &gt;</type>
-        <definition>typedef QSharedPointer&lt;ColumnGroup&gt; qtreports::detail::ColumnGroupPtr</definition>
-        <argsstring></argsstring>
-        <name>ColumnGroupPtr</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/columngroup.hpp" line="26" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/columngroup.hpp" bodystart="26" bodyend="-1"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="26" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab" kindref="compound">Crosstab</ref> &gt;</type>
@@ -111,33 +95,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" line="17" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" bodystart="17" bodyend="-1"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" line="31" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a416a3480ec2e38f24be880e584364650" prot="public" static="no">
-        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab_column_header" kindref="compound">CrosstabColumnHeader</ref> &gt;</type>
-        <definition>typedef QSharedPointer&lt;CrosstabColumnHeader&gt; qtreports::detail::CrosstabColumnHeaderPtr</definition>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab_group" kindref="compound">CrosstabGroup</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;CrosstabGroup&gt; qtreports::detail::CrosstabGroupPtr</definition>
         <argsstring></argsstring>
-        <name>CrosstabColumnHeaderPtr</name>
+        <name>CrosstabGroupPtr</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabcolumnheader.hpp" line="25" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabcolumnheader.hpp" bodystart="25" bodyend="-1"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" line="34" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabgroup.hpp" bodystart="34" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a6c14ac3a24d19c25cdfeb1075c433080" prot="public" static="no">
-        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab_row_header" kindref="compound">CrosstabRowHeader</ref> &gt;</type>
-        <definition>typedef QSharedPointer&lt;CrosstabRowHeader&gt; qtreports::detail::CrosstabRowHeaderPtr</definition>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1af844fc83e9381631359270e18a0afabd" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab_section" kindref="compound">CrosstabSection</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt;CrosstabSection&gt; qtreports::detail::CrosstabSectionPtr</definition>
         <argsstring></argsstring>
-        <name>CrosstabRowHeaderPtr</name>
+        <name>CrosstabSectionPtr</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp" line="26" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabrowheader.hpp" bodystart="26" bodyend="-1"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" line="23" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabsection.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_detail" kindref="compound">Detail</ref> &gt;</type>
@@ -217,19 +201,6 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/line.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/line.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a510abb7a2858d9dd294bb0fb737a789a" prot="public" static="no">
-        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_measure" kindref="compound">Measure</ref> &gt;</type>
-        <definition>typedef QSharedPointer&lt;Measure&gt; qtreports::detail::MeasurePtr</definition>
-        <argsstring></argsstring>
-        <name>MeasurePtr</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/measure.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/measure.hpp" bodystart="27" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a958bf79d952dfb0b6382863ae3a4fd5a" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_object" kindref="compound">Object</ref> &gt;</type>
         <definition>typedef QSharedPointer&lt; Object &gt; qtreports::detail::ObjectPtr</definition>
@@ -268,19 +239,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.hpp" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1ab688ffde4f793e1a20c6f3b1b27fd407" prot="public" static="no">
-        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_row_group" kindref="compound">RowGroup</ref> &gt;</type>
-        <definition>typedef QSharedPointer&lt;RowGroup&gt; qtreports::detail::RowGroupPtr</definition>
-        <argsstring></argsstring>
-        <name>RowGroupPtr</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.hpp" line="25" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_section" kindref="compound">Section</ref> &gt;</type>

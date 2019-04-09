@@ -2,8 +2,6 @@ var searchData=
 [
   ['cellcontents_2ecpp',['cellcontents.cpp',['../cellcontents_8cpp.html',1,'']]],
   ['cellcontents_2ehpp',['cellcontents.hpp',['../cellcontents_8hpp.html',1,'']]],
-  ['columngroup_2ecpp',['columngroup.cpp',['../columngroup_8cpp.html',1,'']]],
-  ['columngroup_2ehpp',['columngroup.hpp',['../columngroup_8hpp.html',1,'']]],
   ['convertertohtml_2ecpp',['convertertohtml.cpp',['../convertertohtml_8cpp.html',1,'']]],
   ['convertertohtml_2ehpp',['convertertohtml.hpp',['../convertertohtml_8hpp.html',1,'']]],
   ['convertertopdf_2ecpp',['convertertopdf.cpp',['../convertertopdf_8cpp.html',1,'']]],
@@ -12,8 +10,8 @@ var searchData=
   ['convertertoqwidget_2ehpp',['convertertoqwidget.hpp',['../convertertoqwidget_8hpp.html',1,'']]],
   ['crosstab_2ecpp',['crosstab.cpp',['../crosstab_8cpp.html',1,'']]],
   ['crosstab_2ehpp',['crosstab.hpp',['../crosstab_8hpp.html',1,'']]],
-  ['crosstabcolumnheader_2ecpp',['crosstabcolumnheader.cpp',['../crosstabcolumnheader_8cpp.html',1,'']]],
-  ['crosstabcolumnheader_2ehpp',['crosstabcolumnheader.hpp',['../crosstabcolumnheader_8hpp.html',1,'']]],
-  ['crosstabrowheader_2ecpp',['crosstabrowheader.cpp',['../crosstabrowheader_8cpp.html',1,'']]],
-  ['crosstabrowheader_2ehpp',['crosstabrowheader.hpp',['../crosstabrowheader_8hpp.html',1,'']]]
+  ['crosstabgroup_2ecpp',['crosstabgroup.cpp',['../crosstabgroup_8cpp.html',1,'']]],
+  ['crosstabgroup_2ehpp',['crosstabgroup.hpp',['../crosstabgroup_8hpp.html',1,'']]],
+  ['crosstabsection_2ecpp',['crosstabsection.cpp',['../crosstabsection_8cpp.html',1,'']]],
+  ['crosstabsection_2ehpp',['crosstabsection.hpp',['../crosstabsection_8hpp.html',1,'']]]
 ];

@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['rect_2ecpp',['rect.cpp',['../rect_8cpp.html',1,'']]],
-  ['rect_2ehpp',['rect.hpp',['../rect_8hpp.html',1,'']]],
-  ['replacer_2ecpp',['replacer.cpp',['../replacer_8cpp.html',1,'']]],
-  ['replacer_2ehpp',['replacer.hpp',['../replacer_8hpp.html',1,'']]],
-  ['report_2ecpp',['report.cpp',['../report_8cpp.html',1,'']]],
-  ['report_2ehpp',['report.hpp',['../report_8hpp.html',1,'']]],
-  ['rowgroup_2ecpp',['rowgroup.cpp',['../rowgroup_8cpp.html',1,'']]],
-  ['rowgroup_2ehpp',['rowgroup.hpp',['../rowgroup_8hpp.html',1,'']]]
+  ['section_2ecpp',['section.cpp',['../section_8cpp.html',1,'']]],
+  ['section_2ehpp',['section.hpp',['../section_8hpp.html',1,'']]],
+  ['statictext_2ecpp',['statictext.cpp',['../statictext_8cpp.html',1,'']]],
+  ['statictext_2ehpp',['statictext.hpp',['../statictext_8hpp.html',1,'']]],
+  ['style_2ecpp',['style.cpp',['../style_8cpp.html',1,'']]],
+  ['style_2ehpp',['style.hpp',['../style_8hpp.html',1,'']]],
+  ['summary_2ecpp',['summary.cpp',['../summary_8cpp.html',1,'']]],
+  ['summary_2ehpp',['summary.hpp',['../summary_8hpp.html',1,'']]]
 ];

@@ -3,296 +3,328 @@
   <compounddef id="crosstab_8hpp" kind="file" language="C++">
     <compoundname>crosstab.hpp</compoundname>
     <includes refid="widget_8hpp" local="yes">widget.hpp</includes>
+    <includes refid="crosstabgroup_8hpp" local="yes">crosstabgroup.hpp</includes>
+    <includes refid="crosstabsection_8hpp" local="yes">crosstabsection.hpp</includes>
     <includedby refid="band_8hpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp</includedby>
     <includedby refid="parserfromxml_8hpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</includedby>
     <includedby refid="crosstab_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.cpp</includedby>
     <incdepgraph>
-      <node id="2652">
+      <node id="2710">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="2647" relation="include">
+        <childnode refid="2705" relation="include">
         </childnode>
-        <childnode refid="2653" relation="include">
+        <childnode refid="2711" relation="include">
         </childnode>
-        <childnode refid="2651" relation="include">
+        <childnode refid="2709" relation="include">
         </childnode>
-        <childnode refid="2654" relation="include">
+        <childnode refid="2712" relation="include">
         </childnode>
       </node>
-      <node id="2650">
+      <node id="2715">
+        <label>crosstabsection.hpp</label>
+        <link refid="crosstabsection_8hpp"/>
+        <childnode refid="2712" relation="include">
+        </childnode>
+        <childnode refid="2716" relation="include">
+        </childnode>
+      </node>
+      <node id="2717">
+        <label>box.hpp</label>
+        <link refid="box_8hpp"/>
+        <childnode refid="2712" relation="include">
+        </childnode>
+      </node>
+      <node id="2708">
         <label>QRect</label>
       </node>
-      <node id="2648">
+      <node id="2706">
         <label>QPoint</label>
       </node>
-      <node id="2651">
+      <node id="2709">
         <label>QSharedPointer</label>
       </node>
-      <node id="2645">
+      <node id="2714">
+        <label>crosstabgroup.hpp</label>
+        <link refid="crosstabgroup_8hpp"/>
+        <childnode refid="2712" relation="include">
+        </childnode>
+        <childnode refid="2715" relation="include">
+        </childnode>
+      </node>
+      <node id="2703">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp</label>
         <link refid="crosstab.hpp"/>
-        <childnode refid="2646" relation="include">
+        <childnode refid="2704" relation="include">
+        </childnode>
+        <childnode refid="2714" relation="include">
+        </childnode>
+        <childnode refid="2715" relation="include">
         </childnode>
       </node>
-      <node id="2647">
+      <node id="2716">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2717" relation="include">
+        </childnode>
+        <childnode refid="2718" relation="include">
+        </childnode>
+      </node>
+      <node id="2719">
+        <label>textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2705" relation="include">
+        </childnode>
+        <childnode refid="2709" relation="include">
+        </childnode>
+        <childnode refid="2704" relation="include">
+        </childnode>
+      </node>
+      <node id="2705">
         <label>QString</label>
       </node>
-      <node id="2649">
+      <node id="2707">
         <label>QSize</label>
       </node>
-      <node id="2653">
+      <node id="2718">
+        <label>textfield.hpp</label>
+        <link refid="textfield_8hpp"/>
+        <childnode refid="2705" relation="include">
+        </childnode>
+        <childnode refid="2709" relation="include">
+        </childnode>
+        <childnode refid="2719" relation="include">
+        </childnode>
+      </node>
+      <node id="2711">
         <label>QColor</label>
       </node>
-      <node id="2654">
+      <node id="2712">
         <label>object.hpp</label>
         <link refid="object_8hpp"/>
-        <childnode refid="2647" relation="include">
+        <childnode refid="2705" relation="include">
         </childnode>
-        <childnode refid="2655" relation="include">
+        <childnode refid="2713" relation="include">
         </childnode>
-        <childnode refid="2651" relation="include">
+        <childnode refid="2709" relation="include">
         </childnode>
       </node>
-      <node id="2646">
+      <node id="2704">
         <label>widget.hpp</label>
         <link refid="widget_8hpp"/>
-        <childnode refid="2647" relation="include">
+        <childnode refid="2705" relation="include">
         </childnode>
-        <childnode refid="2648" relation="include">
+        <childnode refid="2706" relation="include">
         </childnode>
-        <childnode refid="2649" relation="include">
+        <childnode refid="2707" relation="include">
         </childnode>
-        <childnode refid="2650" relation="include">
+        <childnode refid="2708" relation="include">
         </childnode>
-        <childnode refid="2651" relation="include">
+        <childnode refid="2709" relation="include">
         </childnode>
-        <childnode refid="2652" relation="include">
+        <childnode refid="2710" relation="include">
         </childnode>
-        <childnode refid="2654" relation="include">
+        <childnode refid="2712" relation="include">
         </childnode>
       </node>
-      <node id="2655">
+      <node id="2713">
         <label>QVariant</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2667">
+      <node id="2731">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp</label>
         <link refid="replacer_8cpp"/>
       </node>
-      <node id="2658">
+      <node id="2722">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.hpp</label>
         <link refid="section_8hpp"/>
-        <childnode refid="2659" relation="include">
+        <childnode refid="2723" relation="include">
         </childnode>
-        <childnode refid="2674" relation="include">
+        <childnode refid="2738" relation="include">
         </childnode>
-        <childnode refid="2676" relation="include">
+        <childnode refid="2740" relation="include">
         </childnode>
-        <childnode refid="2678" relation="include">
+        <childnode refid="2742" relation="include">
         </childnode>
-        <childnode refid="2668" relation="include">
+        <childnode refid="2732" relation="include">
         </childnode>
-        <childnode refid="2680" relation="include">
-        </childnode>
-        <childnode refid="2682" relation="include">
-        </childnode>
-        <childnode refid="2684" relation="include">
+        <childnode refid="2744" relation="include">
         </childnode>
       </node>
-      <node id="2659">
+      <node id="2723">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp</label>
         <link refid="group_8hpp"/>
-        <childnode refid="2660" relation="include">
+        <childnode refid="2724" relation="include">
         </childnode>
-        <childnode refid="2670" relation="include">
+        <childnode refid="2734" relation="include">
         </childnode>
-        <childnode refid="2673" relation="include">
+        <childnode refid="2737" relation="include">
         </childnode>
       </node>
-      <node id="2657">
+      <node id="2721">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp</label>
         <link refid="band_8hpp"/>
-        <childnode refid="2658" relation="include">
+        <childnode refid="2722" relation="include">
         </childnode>
-        <childnode refid="2670" relation="include">
+        <childnode refid="2734" relation="include">
         </childnode>
-        <childnode refid="2685" relation="include">
+        <childnode refid="2745" relation="include">
         </childnode>
       </node>
-      <node id="2668">
+      <node id="2732">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp</label>
         <link refid="convertertopdf_8hpp"/>
-        <childnode refid="2665" relation="include">
+        <childnode refid="2729" relation="include">
         </childnode>
-        <childnode refid="2663" relation="include">
-        </childnode>
-      </node>
-      <node id="2680">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/columngroup.hpp</label>
-        <link refid="columngroup_8hpp"/>
-        <childnode refid="2681" relation="include">
+        <childnode refid="2727" relation="include">
         </childnode>
       </node>
-      <node id="2676">
+      <node id="2740">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/detail.hpp</label>
         <link refid="detail_8hpp"/>
-        <childnode refid="2660" relation="include">
+        <childnode refid="2724" relation="include">
         </childnode>
-        <childnode refid="2670" relation="include">
+        <childnode refid="2734" relation="include">
         </childnode>
-        <childnode refid="2677" relation="include">
+        <childnode refid="2741" relation="include">
         </childnode>
       </node>
-      <node id="2664">
+      <node id="2728">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp</label>
         <link refid="replacer_8hpp"/>
-        <childnode refid="2662" relation="include">
+        <childnode refid="2726" relation="include">
         </childnode>
-        <childnode refid="2665" relation="include">
+        <childnode refid="2729" relation="include">
         </childnode>
-        <childnode refid="2666" relation="include">
+        <childnode refid="2730" relation="include">
         </childnode>
-        <childnode refid="2667" relation="include">
+        <childnode refid="2731" relation="include">
         </childnode>
       </node>
-      <node id="2666">
+      <node id="2730">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp</label>
         <link refid="convertertoqwidget_8cpp"/>
       </node>
-      <node id="2661">
+      <node id="2725">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp</label>
         <link refid="convertertohtml_8hpp"/>
-        <childnode refid="2662" relation="include">
+        <childnode refid="2726" relation="include">
         </childnode>
-        <childnode refid="2663" relation="include">
+        <childnode refid="2727" relation="include">
         </childnode>
       </node>
-      <node id="2673">
+      <node id="2737">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp</label>
         <link refid="group_8cpp"/>
       </node>
-      <node id="2685">
+      <node id="2745">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp</label>
         <link refid="band_8cpp"/>
       </node>
-      <node id="2681">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/columngroup.cpp</label>
-        <link refid="columngroup_8cpp"/>
-      </node>
-      <node id="2670">
+      <node id="2734">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</label>
         <link refid="parserfromxml_8hpp"/>
-        <childnode refid="2663" relation="include">
+        <childnode refid="2727" relation="include">
         </childnode>
-        <childnode refid="2671" relation="include">
+        <childnode refid="2735" relation="include">
         </childnode>
       </node>
-      <node id="2656">
+      <node id="2720">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp</label>
         <link refid="crosstab.hpp"/>
-        <childnode refid="2657" relation="include">
+        <childnode refid="2721" relation="include">
         </childnode>
-        <childnode refid="2670" relation="include">
+        <childnode refid="2734" relation="include">
         </childnode>
-        <childnode refid="2686" relation="include">
+        <childnode refid="2746" relation="include">
         </childnode>
       </node>
-      <node id="2675">
+      <node id="2739">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.cpp</label>
         <link refid="title_8cpp"/>
       </node>
-      <node id="2679">
+      <node id="2743">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.cpp</label>
         <link refid="summary_8cpp"/>
       </node>
-      <node id="2672">
+      <node id="2736">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp</label>
         <link refid="report_8cpp"/>
       </node>
-      <node id="2682">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.hpp</label>
-        <link refid="rowgroup_8hpp"/>
-        <childnode refid="2683" relation="include">
-        </childnode>
-      </node>
-      <node id="2671">
+      <node id="2735">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp</label>
         <link refid="parserfromxml_8cpp"/>
       </node>
-      <node id="2684">
+      <node id="2744">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.cpp</label>
         <link refid="section_8cpp"/>
       </node>
-      <node id="2665">
+      <node id="2729">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp</label>
         <link refid="convertertopdf_8cpp"/>
       </node>
-      <node id="2686">
+      <node id="2746">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.cpp</label>
         <link refid="crosstab_8cpp"/>
       </node>
-      <node id="2674">
+      <node id="2738">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.hpp</label>
         <link refid="title_8hpp"/>
-        <childnode refid="2660" relation="include">
+        <childnode refid="2724" relation="include">
         </childnode>
-        <childnode refid="2670" relation="include">
+        <childnode refid="2734" relation="include">
         </childnode>
-        <childnode refid="2675" relation="include">
+        <childnode refid="2739" relation="include">
         </childnode>
       </node>
-      <node id="2678">
+      <node id="2742">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.hpp</label>
         <link refid="summary_8hpp"/>
-        <childnode refid="2660" relation="include">
+        <childnode refid="2724" relation="include">
         </childnode>
-        <childnode refid="2670" relation="include">
+        <childnode refid="2734" relation="include">
         </childnode>
-        <childnode refid="2679" relation="include">
+        <childnode refid="2743" relation="include">
         </childnode>
       </node>
-      <node id="2660">
+      <node id="2724">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp</label>
         <link refid="report_8hpp"/>
-        <childnode refid="2661" relation="include">
+        <childnode refid="2725" relation="include">
         </childnode>
-        <childnode refid="2664" relation="include">
+        <childnode refid="2728" relation="include">
         </childnode>
-        <childnode refid="2668" relation="include">
+        <childnode refid="2732" relation="include">
         </childnode>
-        <childnode refid="2669" relation="include">
+        <childnode refid="2733" relation="include">
         </childnode>
-        <childnode refid="2670" relation="include">
+        <childnode refid="2734" relation="include">
         </childnode>
-        <childnode refid="2663" relation="include">
+        <childnode refid="2727" relation="include">
         </childnode>
-        <childnode refid="2672" relation="include">
+        <childnode refid="2736" relation="include">
         </childnode>
       </node>
-      <node id="2683">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/rowgroup.cpp</label>
-        <link refid="rowgroup_8cpp"/>
-      </node>
-      <node id="2677">
+      <node id="2741">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/detail.cpp</label>
         <link refid="detail_8cpp"/>
       </node>
-      <node id="2669">
+      <node id="2733">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp</label>
         <link refid="convertertoqwidget_8hpp"/>
-        <childnode refid="2665" relation="include">
+        <childnode refid="2729" relation="include">
         </childnode>
-        <childnode refid="2666" relation="include">
+        <childnode refid="2730" relation="include">
         </childnode>
-        <childnode refid="2663" relation="include">
+        <childnode refid="2727" relation="include">
         </childnode>
       </node>
-      <node id="2662">
+      <node id="2726">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp</label>
         <link refid="convertertohtml_8cpp"/>
       </node>
-      <node id="2663">
+      <node id="2727">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</label>
         <link refid="engine_8cpp"/>
       </node>
@@ -322,22 +354,36 @@
 <codeline lineno="3" refid="crosstab_8hpp_1acc1d7a886899efb9ebe8a470491e24a7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CROSSTAB_HPP</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="widget_8hpp" kindref="compound">widget.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceqtreports" kindref="compound">qtreports</ref></highlight></codeline>
-<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="11" refid="classqtreports_1_1detail_1_1_crosstab" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classqtreports_1_1detail_1_1_crosstab" kindref="compound">Crosstab</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_widget" kindref="compound">Widget</ref></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a36978895815a04d91b7a0fdb34559db0" kindref="member">Crosstab</ref>();</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a2d04917dc642e4a404ace7b078fff04a" kindref="member">~Crosstab</ref>();</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="17" refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QSharedPointer&lt;Crosstab&gt;<sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref>;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CROSSTAB_HPP</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="crosstabgroup_8hpp" kindref="compound">crosstabgroup.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="crosstabsection_8hpp" kindref="compound">crosstabsection.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceqtreports" kindref="compound">qtreports</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="classqtreports_1_1detail_1_1_crosstab" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classqtreports_1_1detail_1_1_crosstab" kindref="compound">Crosstab</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_widget" kindref="compound">Widget</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a36978895815a04d91b7a0fdb34559db0" kindref="member">Crosstab</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a2d04917dc642e4a404ace7b078fff04a" kindref="member">~Crosstab</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1ac72da1cee7bfb219b3f64c42d12a2f29" kindref="member">setRowGroup</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref><sp/>&amp;rowGroup);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a175be4654ff520c1c8d15f7b4142ca21" kindref="member">getRowGroup</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a3e24986d09051289736a8a5cd9ba0f2e" kindref="member">setColumnGroup</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref><sp/>&amp;columnGroup);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a774e2886b48b1211a6e03f56bf1eb1dc" kindref="member">getColumnGroup</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a533f960be52ed2e78265bdad3d3cc9eb" kindref="member">setCrosstabCell</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af844fc83e9381631359270e18a0afabd" kindref="member">CrosstabSectionPtr</ref><sp/>&amp;crosstabCell);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af844fc83e9381631359270e18a0afabd" kindref="member">CrosstabSectionPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a25637936504da10946e7e5a844208bba" kindref="member">getCrosstabCell</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27" refid="classqtreports_1_1detail_1_1_crosstab_1aa0955137b1f47ed8e55eb0f22fb55289" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1aa0955137b1f47ed8e55eb0f22fb55289" kindref="member">m_rowGroup</ref>;</highlight></codeline>
+<codeline lineno="28" refid="classqtreports_1_1detail_1_1_crosstab_1abecbb06eca6d8545547b7e35f5232b9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1abecbb06eca6d8545547b7e35f5232b9f" kindref="member">m_columnGroup</ref>;</highlight></codeline>
+<codeline lineno="29" refid="classqtreports_1_1detail_1_1_crosstab_1a02c4a6cc906dc5d58da5b5f7724d8780" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceqtreports_1_1detail_1af844fc83e9381631359270e18a0afabd" kindref="member">CrosstabSectionPtr</ref><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_crosstab_1a02c4a6cc906dc5d58da5b5f7724d8780" kindref="member">m_crosstabCell</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="31" refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QSharedPointer&lt;Crosstab&gt;<sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CROSSTAB_HPP</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp"/>
   </compounddef>

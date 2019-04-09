@@ -8,14 +8,12 @@
     <innerfile refid="box_8hpp">box.hpp</innerfile>
     <innerfile refid="cellcontents_8cpp">cellcontents.cpp</innerfile>
     <innerfile refid="cellcontents_8hpp">cellcontents.hpp</innerfile>
-    <innerfile refid="columngroup_8cpp">columngroup.cpp</innerfile>
-    <innerfile refid="columngroup_8hpp">columngroup.hpp</innerfile>
     <innerfile refid="crosstab_8cpp">crosstab.cpp</innerfile>
     <innerfile refid="crosstab_8hpp">crosstab.hpp</innerfile>
-    <innerfile refid="crosstabcolumnheader_8cpp">crosstabcolumnheader.cpp</innerfile>
-    <innerfile refid="crosstabcolumnheader_8hpp">crosstabcolumnheader.hpp</innerfile>
-    <innerfile refid="crosstabrowheader_8cpp">crosstabrowheader.cpp</innerfile>
-    <innerfile refid="crosstabrowheader_8hpp">crosstabrowheader.hpp</innerfile>
+    <innerfile refid="crosstabgroup_8cpp">crosstabgroup.cpp</innerfile>
+    <innerfile refid="crosstabgroup_8hpp">crosstabgroup.hpp</innerfile>
+    <innerfile refid="crosstabsection_8cpp">crosstabsection.cpp</innerfile>
+    <innerfile refid="crosstabsection_8hpp">crosstabsection.hpp</innerfile>
     <innerfile refid="detail_8cpp">detail.cpp</innerfile>
     <innerfile refid="detail_8hpp">detail.hpp</innerfile>
     <innerfile refid="ellipse_8cpp">ellipse.cpp</innerfile>
@@ -28,8 +26,6 @@
     <innerfile refid="image_8hpp">image.hpp</innerfile>
     <innerfile refid="line_8cpp">line.cpp</innerfile>
     <innerfile refid="line_8hpp">line.hpp</innerfile>
-    <innerfile refid="measure_8cpp">measure.cpp</innerfile>
-    <innerfile refid="measure_8hpp">measure.hpp</innerfile>
     <innerfile refid="object_8cpp">object.cpp</innerfile>
     <innerfile refid="object_8hpp">object.hpp</innerfile>
     <innerfile refid="querystring_8cpp">querystring.cpp</innerfile>
@@ -38,8 +34,6 @@
     <innerfile refid="rect_8hpp">rect.hpp</innerfile>
     <innerfile refid="report_8cpp">report.cpp</innerfile>
     <innerfile refid="report_8hpp">report.hpp</innerfile>
-    <innerfile refid="rowgroup_8cpp">rowgroup.cpp</innerfile>
-    <innerfile refid="rowgroup_8hpp">rowgroup.hpp</innerfile>
     <innerfile refid="section_8cpp">section.cpp</innerfile>
     <innerfile refid="section_8hpp">section.hpp</innerfile>
     <innerfile refid="statictext_8cpp">statictext.cpp</innerfile>

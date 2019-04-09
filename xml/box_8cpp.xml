@@ -4,39 +4,35 @@
     <compoundname>box.cpp</compoundname>
     <includes refid="box_8hpp" local="yes">box.hpp</includes>
     <incdepgraph>
-      <node id="2513">
+      <node id="2575">
         <label>box.hpp</label>
         <link refid="box_8hpp"/>
-        <childnode refid="2514" relation="include">
-        </childnode>
-        <childnode refid="2515" relation="include">
-        </childnode>
-        <childnode refid="2516" relation="include">
+        <childnode refid="2576" relation="include">
         </childnode>
       </node>
-      <node id="2515">
+      <node id="2579">
         <label>QSharedPointer</label>
       </node>
-      <node id="2512">
+      <node id="2574">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.cpp</label>
         <link refid="box.cpp"/>
-        <childnode refid="2513" relation="include">
+        <childnode refid="2575" relation="include">
         </childnode>
       </node>
-      <node id="2514">
+      <node id="2577">
         <label>QString</label>
       </node>
-      <node id="2516">
+      <node id="2576">
         <label>object.hpp</label>
         <link refid="object_8hpp"/>
-        <childnode refid="2514" relation="include">
+        <childnode refid="2577" relation="include">
         </childnode>
-        <childnode refid="2517" relation="include">
+        <childnode refid="2578" relation="include">
         </childnode>
-        <childnode refid="2515" relation="include">
+        <childnode refid="2579" relation="include">
         </childnode>
       </node>
-      <node id="2517">
+      <node id="2578">
         <label>QVariant</label>
       </node>
     </incdepgraph>
