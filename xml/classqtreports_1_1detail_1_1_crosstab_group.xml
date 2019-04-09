@@ -65,7 +65,7 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_group_1a2f62b918f6f2e5e038e52c62949e9bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_crosstab_group_1a2f62b918f6f2e5e038e52c62949e9bdb" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
         <definition>qtreports::detail::CrosstabGroup::CrosstabGroup</definition>
         <argsstring>(const GroupType &amp;groupType=qtreports::detail::CrosstabGroup::ROW)</argsstring>
