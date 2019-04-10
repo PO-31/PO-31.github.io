@@ -12,9 +12,9 @@
     <member refid="classqtreports_1_1detail_1_1_band_1a93d475b2676268248143b1b7f44802e4" kind="function"><name>Band</name></member>
     <member refid="classqtreports_1_1detail_1_1_band_1ae30e6f7082a5f166cad1300db8b90052" kind="function"><name>~Band</name></member>
     <member refid="classqtreports_1_1detail_1_1_band_1aa1415625f28cd5eed660e1ea2dc403b5" kind="function"><name>addCrosstab</name></member>
-    <member refid="classqtreports_1_1detail_1_1_band_1ad495e3bbc1d9291746533f6c8d7b1229" kind="function"><name>addStaticText</name></member>
     <member refid="classqtreports_1_1detail_1_1_band_1a8215c1a4d5834f262fbac415438e3525" kind="function"><name>getCrosstabs</name></member>
     <member refid="classqtreports_1_1detail_1_1_band_1a38b3ca75aa612fca88b72d52d48082c8" kind="function"><name>getCrosstab</name></member>
+    <member refid="classqtreports_1_1detail_1_1_band_1ad495e3bbc1d9291746533f6c8d7b1229" kind="function"><name>addStaticText</name></member>
     <member refid="classqtreports_1_1detail_1_1_band_1a060f906c4eb5afe9d6dcdbe33b935d09" kind="function"><name>getStaticTexts</name></member>
     <member refid="classqtreports_1_1detail_1_1_band_1a23f2aebafb2019f3c4a6396b63641a00" kind="function"><name>getStaticText</name></member>
     <member refid="classqtreports_1_1detail_1_1_band_1aa154d5e1eef9be35f5ec44a8d0b13e00" kind="function"><name>getStaticTextsSize</name></member>
@@ -52,13 +52,10 @@
     <member refid="classqtreports_1_1detail_1_1_box_1a1462d2c256c4954b6212d5dd6de78322" kind="function"><name>getBorderColor</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_cell_contents" kind="class"><name>qtreports::detail::CellContents</name>
-    <member refid="classqtreports_1_1detail_1_1_cell_contents_1a58636f1a1fb84d65c455b5a55054fb3f" kind="variable"><name>m_boxPtr</name></member>
-    <member refid="classqtreports_1_1detail_1_1_cell_contents_1a6db9c1e595ffd534e32dfc4cfe228801" kind="variable"><name>m_textFieldPtr</name></member>
+    <member refid="classqtreports_1_1detail_1_1_cell_contents_1a3bd51502a559ee862e2e5da49e1ccbc9" kind="variable"><name>m_textField</name></member>
     <member refid="classqtreports_1_1detail_1_1_cell_contents_1a0a1c471c32d2ab468309e5894b50728a" kind="function"><name>CellContents</name></member>
     <member refid="classqtreports_1_1detail_1_1_cell_contents_1a1ba62f3f6a8e7157b035061b6e983801" kind="function"><name>~CellContents</name></member>
-    <member refid="classqtreports_1_1detail_1_1_cell_contents_1a19fbdcde42d08b38a42e24ef6a3948ae" kind="function"><name>setBox</name></member>
     <member refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" kind="function"><name>setTextField</name></member>
-    <member refid="classqtreports_1_1detail_1_1_cell_contents_1a7989943a78ef578271042ed92dfccd0a" kind="function"><name>getBox</name></member>
     <member refid="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" kind="function"><name>getTextField</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l" kind="class"><name>qtreports::detail::ConverterToHTML</name>
@@ -125,35 +122,54 @@
   <compound refid="classqtreports_1_1detail_1_1_crosstab" kind="class"><name>qtreports::detail::Crosstab</name>
     <member refid="classqtreports_1_1detail_1_1_crosstab_1aa0955137b1f47ed8e55eb0f22fb55289" kind="variable"><name>m_rowGroup</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_1abecbb06eca6d8545547b7e35f5232b9f" kind="variable"><name>m_columnGroup</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_1a02c4a6cc906dc5d58da5b5f7724d8780" kind="variable"><name>m_crosstabCell</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_1af702e130ab26eed098b64215ae29c621" kind="variable"><name>m_crosstabCell</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_1a36978895815a04d91b7a0fdb34559db0" kind="function"><name>Crosstab</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_1a2d04917dc642e4a404ace7b078fff04a" kind="function"><name>~Crosstab</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_1ac72da1cee7bfb219b3f64c42d12a2f29" kind="function"><name>setRowGroup</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_1a175be4654ff520c1c8d15f7b4142ca21" kind="function"><name>getRowGroup</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_1a3e24986d09051289736a8a5cd9ba0f2e" kind="function"><name>setColumnGroup</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_1a774e2886b48b1211a6e03f56bf1eb1dc" kind="function"><name>getColumnGroup</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_1a533f960be52ed2e78265bdad3d3cc9eb" kind="function"><name>setCrosstabCell</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_1a25637936504da10946e7e5a844208bba" kind="function"><name>getCrosstabCell</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_1a56b24b4d962af198d0bf4f750cb86e49" kind="function"><name>setCrosstabCell</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_1a984716afe7f30df38ab387022f336cc8" kind="function"><name>getCrosstabCell</name></member>
+  </compound>
+  <compound refid="classqtreports_1_1detail_1_1_crosstab_cell" kind="class"><name>qtreports::detail::CrosstabCell</name>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1a7a87b69d07f01d3daac186f85bb01292" kind="variable"><name>m_cellContents</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1ace9a59003c3a1408bc629c0ebcdc15f4" kind="variable"><name>m_width</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1a9f567ca76c53c3021c8c007bb8346859" kind="variable"><name>m_height</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1ab0e8c9c735e1201c45b05db9e17fdcb0" kind="function"><name>CrosstabCell</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1a0deb58958701790e5af1d0b7000fa2de" kind="function"><name>~CrosstabCell</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1a46969f7dc2d7b18a5508cf6967eb31f1" kind="function"><name>setCellContents</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1a793d0835bb4586b2f8a9b24c7c0bca89" kind="function"><name>getCellContents</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1a3ba58bcf1ba3e647936b6cc032d3d3df" kind="function"><name>setWidth</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1a83961bf9c94b1c127ba7d3f8d803cdd7" kind="function"><name>getWidth</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1a69bf471d011507685349983442c42400" kind="function"><name>setHeight</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_cell_1aa72244ec3d22eade4f2771c00c359121" kind="function"><name>getHeight</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_crosstab_group" kind="class"><name>qtreports::detail::CrosstabGroup</name>
     <member refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17" kind="enum"><name>GroupType</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17ac22e43abe8607ed40f6b932affe46257" kind="enumvalue"><name>ROW</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_group_1ad4be5a4a122f67aa01a4f12699cf3a17aa61ca899ea333431a755324690ec87dc" kind="enumvalue"><name>COLUMN</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a442064808e9cd926c231508bf15354d8" kind="variable"><name>m_groupType</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a06f1db8add0ab1b2fcb8c27f4866fdcd" kind="variable"><name>m_header</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a2f62b918f6f2e5e038e52c62949e9bdb" kind="function"><name>CrosstabGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1ad747344ec8641c4c832a7b8ae6a0d642" kind="variable"><name>m_type</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a1270c1dbedc2e897a3abad49aa9a7e13" kind="variable"><name>m_header</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a65b186356b7cb14a99856d87b704638f" kind="variable"><name>m_width</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a03110304b3701c48f3d9203e46c89db6" kind="variable"><name>m_height</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a906e886220629b1d54fe02779875cae9" kind="function"><name>CrosstabGroup</name></member>
     <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a3df8a51fabd1a3d52b294d8e3ac7b6d0" kind="function"><name>~CrosstabGroup</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a61cf1bae2cc569c3a8b9d672074d0b8c" kind="function"><name>setGroupType</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a46803b2e01918495e5fccab52cfa3ab4" kind="function"><name>getGroupType</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a1ec2bf3f7af568d5ea54a938cfa65716" kind="function"><name>setHeader</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a5284261a27fb3752787a1effc395d2d6" kind="function"><name>getHeader</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1ac729e5dd5a0bc58b8302807ae580c84d" kind="function"><name>setType</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1af67c6a6ed04440d3008896ad027fafea" kind="function"><name>getType</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a7b5b0a0559518945fcffa72a8280e93f" kind="function"><name>setHeader</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a5d7b73a3583b22b7eb8f867baff8994f" kind="function"><name>getHeader</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1acd35c1ea353337a58818203bdda330cf" kind="function"><name>setWidth</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a5719adc62bec3d82cdcd5f81b21139f2" kind="function"><name>getWidth</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a24de4d68ca9b9dd8431f8368282ac6c9" kind="function"><name>setHeight</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_group_1a9f16d544a05038ddb62fe7b3ada88ea8" kind="function"><name>getHeight</name></member>
   </compound>
-  <compound refid="classqtreports_1_1detail_1_1_crosstab_section" kind="class"><name>qtreports::detail::CrosstabSection</name>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_section_1a4e70aada11ec3b97f83a2aa0cc44391b" kind="variable"><name>m_cellContents</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_section_1adc039d86e0dc4622a6632732c3e745ff" kind="function"><name>CrosstabSection</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_section_1a1bdadfde80b9ce8165e7c17f3a52afbc" kind="function"><name>~CrosstabSection</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_section_1ac4ec72a8d3fb56eb68ba40844e4e2da8" kind="function"><name>setCellContents</name></member>
-    <member refid="classqtreports_1_1detail_1_1_crosstab_section_1adeddbccba28ccb586a0e3df55b1e8e3e" kind="function"><name>getCellContents</name></member>
+  <compound refid="classqtreports_1_1detail_1_1_crosstab_header" kind="class"><name>qtreports::detail::CrosstabHeader</name>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_header_1a52fd81f6700b387c21066bd5808c6e69" kind="variable"><name>m_cellContents</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_header_1a297dc020332c56af7f6f7bb350c04f23" kind="function"><name>CrosstabHeader</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_header_1a998ba327e71db5fcd6a93342b083b951" kind="function"><name>~CrosstabHeader</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_header_1a30e93a3fa0ea8999b839b8175ec519f3" kind="function"><name>setCellContents</name></member>
+    <member refid="classqtreports_1_1detail_1_1_crosstab_header_1af1bca553e977905662e0e1909f8b9e9f" kind="function"><name>getCellContents</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_detail" kind="class"><name>qtreports::detail::Detail</name>
     <member refid="classqtreports_1_1detail_1_1_detail_1a056a617320262e5e8d7a08e0270b9e95" kind="function"><name>Detail</name></member>
@@ -282,8 +298,14 @@
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1d2dfaa79bc7e339443ac12d56b3ba11" kind="function"><name>parseSummary</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" kind="function"><name>parseBand</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" kind="function"><name>parseCrosstab</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" kind="function"><name>parseRowGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" kind="function"><name>parseColumnGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" kind="function"><name>parseCrosstabCell</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" kind="function"><name>parseCrosstabRowHeader</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" kind="function"><name>parseCrosstabColumnHeader</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" kind="function"><name>parseCrosstabCellContents</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" kind="function"><name>parseStaticText</name></member>
-    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a6249b073f54ee7fbb194e467349b9f4f" kind="function"><name>parseTextField</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" kind="function"><name>parseTextField</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" kind="function"><name>parseLine</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" kind="function"><name>parseRect</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" kind="function"><name>parseEllipse</name></member>
@@ -502,8 +524,10 @@
     <member refid="namespaceqtreports_1_1detail_1a7e5197d24b8fb17fd72eb051d6f3a13a" kind="typedef"><name>BoxPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1ad34a27477a52389b9187b1f0c931569d" kind="typedef"><name>CellContentsPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kind="typedef"><name>CrosstabPtr</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a3120cf0c2fbe8af770ad8b9112b34eaa" kind="typedef"><name>CrosstabCellPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kind="typedef"><name>CrosstabGroupPtr</name></member>
-    <member refid="namespaceqtreports_1_1detail_1af844fc83e9381631359270e18a0afabd" kind="typedef"><name>CrosstabSectionPtr</name></member>
+    <member refid="namespaceqtreports_1_1detail_1afac44b7e907fab8e94946c99f0787b41" kind="typedef"><name>CrosstabGroupType</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a97d3fff4385fcc97c05ed8a612ee7c34" kind="typedef"><name>CrosstabHeaderPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" kind="typedef"><name>DetailPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1aa954afb307d7338189bce90f89fc1650" kind="typedef"><name>EllipsePtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1adb6f986cd4bdf38132dd8335365d3c07" kind="typedef"><name>FieldPtr</name></member>
@@ -576,13 +600,17 @@
   <compound refid="crosstab_8hpp" kind="file"><name>crosstab.hpp</name>
     <member refid="crosstab_8hpp_1acc1d7a886899efb9ebe8a470491e24a7" kind="define"><name>CROSSTAB_HPP</name></member>
   </compound>
+  <compound refid="crosstabcell_8cpp" kind="file"><name>crosstabcell.cpp</name>
+  </compound>
+  <compound refid="crosstabcell_8hpp" kind="file"><name>crosstabcell.hpp</name>
+  </compound>
   <compound refid="crosstabgroup_8cpp" kind="file"><name>crosstabgroup.cpp</name>
   </compound>
   <compound refid="crosstabgroup_8hpp" kind="file"><name>crosstabgroup.hpp</name>
   </compound>
-  <compound refid="crosstabsection_8cpp" kind="file"><name>crosstabsection.cpp</name>
+  <compound refid="crosstabheader_8cpp" kind="file"><name>crosstabheader.cpp</name>
   </compound>
-  <compound refid="crosstabsection_8hpp" kind="file"><name>crosstabsection.hpp</name>
+  <compound refid="crosstabheader_8hpp" kind="file"><name>crosstabheader.hpp</name>
   </compound>
   <compound refid="detail_8cpp" kind="file"><name>detail.cpp</name>
   </compound>

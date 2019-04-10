@@ -115,11 +115,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <li>m_borderColor
 : <a class="el" href="classqtreports_1_1detail_1_1_box.html#a5a2797c7c12c2f78b50d586706612c60">qtreports::detail::Box</a>
 </li>
-<li>m_boxPtr
-: <a class="el" href="classqtreports_1_1detail_1_1_cell_contents.html#a58636f1a1fb84d65c455b5a55054fb3f">qtreports::detail::CellContents</a>
-</li>
 <li>m_cellContents
-: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_section.html#a4e70aada11ec3b97f83a2aa0cc44391b">qtreports::detail::CrosstabSection</a>
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a7a87b69d07f01d3daac186f85bb01292">qtreports::detail::CrosstabCell</a>
+, <a class="el" href="classqtreports_1_1detail_1_1_crosstab_header.html#a52fd81f6700b387c21066bd5808c6e69">qtreports::detail::CrosstabHeader</a>
 </li>
 <li>m_className
 : <a class="el" href="classqtreports_1_1detail_1_1_field.html#ab4757a8363d670cc0459084b1053b9a2">qtreports::detail::Field</a>
@@ -132,7 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 : <a class="el" href="classqtreports_1_1_engine.html#a10926ee63a333e1b2cc358c0e9e3990d">qtreports::Engine</a>
 </li>
 <li>m_crosstabCell
-: <a class="el" href="classqtreports_1_1detail_1_1_crosstab.html#a02c4a6cc906dc5d58da5b5f7724d8780">qtreports::detail::Crosstab</a>
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab.html#af702e130ab26eed098b64215ae29c621">qtreports::detail::Crosstab</a>
 </li>
 <li>m_crosstabs
 : <a class="el" href="classqtreports_1_1detail_1_1_band.html#af69c85455254e1661167bc957c72c457">qtreports::detail::Band</a>
@@ -189,15 +187,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <li>m_groups
 : <a class="el" href="classqtreports_1_1detail_1_1_report.html#abc3acec686b212b2d0b50aafbb1217b0">qtreports::detail::Report</a>
 </li>
-<li>m_groupType
-: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_group.html#a442064808e9cd926c231508bf15354d8">qtreports::detail::CrosstabGroup</a>
-</li>
 <li>m_header
-: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_group.html#a06f1db8add0ab1b2fcb8c27f4866fdcd">qtreports::detail::CrosstabGroup</a>
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_group.html#a1270c1dbedc2e897a3abad49aa9a7e13">qtreports::detail::CrosstabGroup</a>
 , <a class="el" href="classqtreports_1_1detail_1_1_group.html#a41c8b9bd92064c5a16de3465e7198f88">qtreports::detail::Group</a>
 </li>
 <li>m_height
-: <a class="el" href="classqtreports_1_1detail_1_1_section.html#ace4feb8fe2e3fa6c26c24ece74c33530">qtreports::detail::Section</a>
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a9f567ca76c53c3021c8c007bb8346859">qtreports::detail::CrosstabCell</a>
+, <a class="el" href="classqtreports_1_1detail_1_1_crosstab_group.html#a03110304b3701c48f3d9203e46c89db6">qtreports::detail::CrosstabGroup</a>
+, <a class="el" href="classqtreports_1_1detail_1_1_section.html#ace4feb8fe2e3fa6c26c24ece74c33530">qtreports::detail::Section</a>
 </li>
 <li>m_html
 : <a class="el" href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a7ce37e96779cea03cf71570d93680048">qtreports::detail::ConverterToHTML</a>
@@ -316,8 +313,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 : <a class="el" href="classqtreports_1_1detail_1_1_query_string.html#afc6c164e32cd2bcc9bc71dd4f9337923">qtreports::detail::QueryString</a>
 , <a class="el" href="classqtreports_1_1detail_1_1_text_widget.html#a770ad1054b4ad8e980a545577f160cf0">qtreports::detail::TextWidget</a>
 </li>
-<li>m_textFieldPtr
-: <a class="el" href="classqtreports_1_1detail_1_1_cell_contents.html#a6db9c1e595ffd534e32dfc4cfe228801">qtreports::detail::CellContents</a>
+<li>m_textField
+: <a class="el" href="classqtreports_1_1detail_1_1_cell_contents.html#a3bd51502a559ee862e2e5da49e1ccbc9">qtreports::detail::CellContents</a>
 </li>
 <li>m_textFields
 : <a class="el" href="classqtreports_1_1detail_1_1_band.html#a6b1fd81893e403c84397fdc5e01f1087">qtreports::detail::Band</a>
@@ -330,9 +327,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 </li>
 <li>m_type
 : <a class="el" href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a8624b135a946f6219a133444da184791">qtreports::detail::ConverterToQWidget</a>
+, <a class="el" href="classqtreports_1_1detail_1_1_crosstab_group.html#ad747344ec8641c4c832a7b8ae6a0d642">qtreports::detail::CrosstabGroup</a>
 </li>
 <li>m_width
-: <a class="el" href="classqtreports_1_1detail_1_1_section.html#a447e69cfbbb2494422c967466da8f5e9">qtreports::detail::Section</a>
+: <a class="el" href="classqtreports_1_1detail_1_1_crosstab_cell.html#ace9a59003c3a1408bc629c0ebcdc15f4">qtreports::detail::CrosstabCell</a>
+, <a class="el" href="classqtreports_1_1detail_1_1_crosstab_group.html#a65b186356b7cb14a99856d87b704638f">qtreports::detail::CrosstabGroup</a>
+, <a class="el" href="classqtreports_1_1detail_1_1_section.html#a447e69cfbbb2494422c967466da8f5e9">qtreports::detail::Section</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -37,50 +37,50 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;staticText&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="309">
+      <node id="319">
         <label>qtreports::detail::StaticText</label>
         <link refid="classqtreports_1_1detail_1_1_static_text"/>
-        <childnode refid="310" relation="public-inheritance">
+        <childnode refid="320" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="310">
+      <node id="320">
         <label>qtreports::detail::TextWidget</label>
         <link refid="classqtreports_1_1detail_1_1_text_widget"/>
-        <childnode refid="311" relation="public-inheritance">
+        <childnode refid="321" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="312">
+      <node id="322">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="311">
+      <node id="321">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="312" relation="public-inheritance">
+        <childnode refid="322" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="313">
+      <node id="323">
         <label>qtreports::detail::StaticText</label>
         <link refid="classqtreports_1_1detail_1_1_static_text"/>
-        <childnode refid="314" relation="public-inheritance">
+        <childnode refid="324" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="314">
+      <node id="324">
         <label>qtreports::detail::TextWidget</label>
         <link refid="classqtreports_1_1detail_1_1_text_widget"/>
-        <childnode refid="315" relation="public-inheritance">
+        <childnode refid="325" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="316">
+      <node id="326">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="315">
+      <node id="325">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="316" relation="public-inheritance">
+        <childnode refid="326" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

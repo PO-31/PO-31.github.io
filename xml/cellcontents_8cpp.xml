@@ -4,105 +4,99 @@
     <compoundname>cellcontents.cpp</compoundname>
     <includes refid="cellcontents_8hpp" local="yes">cellcontents.hpp</includes>
     <incdepgraph>
-      <node id="2634">
+      <node id="2628">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="2625" relation="include">
-        </childnode>
-        <childnode refid="2635" relation="include">
-        </childnode>
-        <childnode refid="2627" relation="include">
-        </childnode>
-        <childnode refid="2624" relation="include">
-        </childnode>
-      </node>
-      <node id="2623">
-        <label>box.hpp</label>
-        <link refid="box_8hpp"/>
-        <childnode refid="2624" relation="include">
-        </childnode>
-      </node>
-      <node id="2633">
-        <label>QRect</label>
-      </node>
-      <node id="2631">
-        <label>QPoint</label>
-      </node>
-      <node id="2627">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="2621">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp</label>
-        <link refid="cellcontents.cpp"/>
-        <childnode refid="2622" relation="include">
-        </childnode>
-      </node>
-      <node id="2622">
-        <label>cellcontents.hpp</label>
-        <link refid="cellcontents_8hpp"/>
         <childnode refid="2623" relation="include">
         </childnode>
-        <childnode refid="2628" relation="include">
-        </childnode>
-      </node>
-      <node id="2629">
-        <label>textwidget.hpp</label>
-        <link refid="textwidget_8hpp"/>
-        <childnode refid="2625" relation="include">
+        <childnode refid="2629" relation="include">
         </childnode>
         <childnode refid="2627" relation="include">
         </childnode>
         <childnode refid="2630" relation="include">
         </childnode>
       </node>
-      <node id="2625">
-        <label>QString</label>
+      <node id="2626">
+        <label>QRect</label>
       </node>
-      <node id="2632">
-        <label>QSize</label>
+      <node id="2624">
+        <label>QPoint</label>
       </node>
-      <node id="2628">
-        <label>textfield.hpp</label>
-        <link refid="textfield_8hpp"/>
-        <childnode refid="2625" relation="include">
+      <node id="2627">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2620">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp</label>
+        <link refid="cellcontents.cpp"/>
+        <childnode refid="2621" relation="include">
+        </childnode>
+      </node>
+      <node id="2621">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2622" relation="include">
+        </childnode>
+        <childnode refid="2632" relation="include">
+        </childnode>
+      </node>
+      <node id="2633">
+        <label>textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2623" relation="include">
         </childnode>
         <childnode refid="2627" relation="include">
         </childnode>
-        <childnode refid="2629" relation="include">
+        <childnode refid="2622" relation="include">
         </childnode>
       </node>
-      <node id="2635">
+      <node id="2623">
+        <label>QString</label>
+      </node>
+      <node id="2625">
+        <label>QSize</label>
+      </node>
+      <node id="2632">
+        <label>textfield.hpp</label>
+        <link refid="textfield_8hpp"/>
+        <childnode refid="2623" relation="include">
+        </childnode>
+        <childnode refid="2627" relation="include">
+        </childnode>
+        <childnode refid="2633" relation="include">
+        </childnode>
+      </node>
+      <node id="2629">
         <label>QColor</label>
       </node>
-      <node id="2624">
+      <node id="2630">
         <label>object.hpp</label>
         <link refid="object_8hpp"/>
+        <childnode refid="2623" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+        <childnode refid="2627" relation="include">
+        </childnode>
+      </node>
+      <node id="2622">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
+        <childnode refid="2623" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
         <childnode refid="2625" relation="include">
         </childnode>
         <childnode refid="2626" relation="include">
         </childnode>
         <childnode refid="2627" relation="include">
         </childnode>
-      </node>
-      <node id="2630">
-        <label>widget.hpp</label>
-        <link refid="widget_8hpp"/>
-        <childnode refid="2625" relation="include">
+        <childnode refid="2628" relation="include">
         </childnode>
-        <childnode refid="2631" relation="include">
-        </childnode>
-        <childnode refid="2632" relation="include">
-        </childnode>
-        <childnode refid="2633" relation="include">
-        </childnode>
-        <childnode refid="2627" relation="include">
-        </childnode>
-        <childnode refid="2634" relation="include">
-        </childnode>
-        <childnode refid="2624" relation="include">
+        <childnode refid="2630" relation="include">
         </childnode>
       </node>
-      <node id="2626">
+      <node id="2631">
         <label>QVariant</label>
       </node>
     </incdepgraph>
@@ -122,27 +116,17 @@
 <codeline lineno="7" refid="classqtreports_1_1detail_1_1_cell_contents_1a0a1c471c32d2ab468309e5894b50728a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a0a1c471c32d2ab468309e5894b50728a" kindref="member">CellContents::CellContents</ref>()<sp/>{}</highlight></codeline>
 <codeline lineno="8" refid="classqtreports_1_1detail_1_1_cell_contents_1a1ba62f3f6a8e7157b035061b6e983801" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a1ba62f3f6a8e7157b035061b6e983801" kindref="member">CellContents::~CellContents</ref>()<sp/>{}</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="classqtreports_1_1detail_1_1_cell_contents_1a19fbdcde42d08b38a42e24ef6a3948ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a19fbdcde42d08b38a42e24ef6a3948ae" kindref="member">CellContents::setBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a7e5197d24b8fb17fd72eb051d6f3a13a" kindref="member">BoxPtr</ref><sp/>&amp;box)</highlight></codeline>
+<codeline lineno="10" refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" kindref="member">CellContents::setTextField</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/>&amp;textField)</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a58636f1a1fb84d65c455b5a55054fb3f" kindref="member">m_boxPtr</ref><sp/>=<sp/>box;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a3bd51502a559ee862e2e5da49e1ccbc9" kindref="member">m_textField</ref><sp/>=<sp/>textField;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" kindref="member">CellContents::setTextField</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/>&amp;textField)</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a6db9c1e595ffd534e32dfc4cfe228801" kindref="member">m_textFieldPtr</ref><sp/>=<sp/>textField;</highlight></codeline>
+<codeline lineno="15" refid="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" kindref="member">CellContents::getTextField</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="16"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a3bd51502a559ee862e2e5da49e1ccbc9" kindref="member">m_textField</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classqtreports_1_1detail_1_1_cell_contents_1a7989943a78ef578271042ed92dfccd0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a7e5197d24b8fb17fd72eb051d6f3a13a" kindref="member">BoxPtr</ref><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a7989943a78ef578271042ed92dfccd0a" kindref="member">CellContents::getBox</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="21"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a58636f1a1fb84d65c455b5a55054fb3f" kindref="member">m_boxPtr</ref>;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" kindref="member">CellContents::getTextField</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="26"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_cell_contents_1a6db9c1e595ffd534e32dfc4cfe228801" kindref="member">m_textFieldPtr</ref>;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp"/>
   </compounddef>

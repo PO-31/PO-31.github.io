@@ -1,11 +1,12 @@
 <map id="/home/travis/build/PO&#45;31/QtReports/qtreports/src/tags/cellcontents.hpp" name="/home/travis/build/PO&#45;31/QtReports/qtreports/src/tags/cellcontents.hpp">
-<area shape="rect" id="node2" href="$crosstabsection_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabsection.hpp" alt="" coords="2112,109,2323,165"/>
-<area shape="rect" id="node33" href="$cellcontents_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/cellcontents.cpp" alt="" coords="2347,109,2541,165"/>
-<area shape="rect" id="node3" href="$crosstabgroup_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabgroup.hpp" alt="" coords="2117,213,2318,269"/>
+<area shape="rect" id="node2" href="$crosstabheader_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabheader.hpp" alt="" coords="1865,109,2073,165"/>
+<area shape="rect" id="node33" href="$crosstabcell_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabcell.hpp" alt="" coords="2097,109,2292,165"/>
+<area shape="rect" id="node35" href="$cellcontents_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/cellcontents.cpp" alt="" coords="2316,109,2511,165"/>
+<area shape="rect" id="node3" href="$crosstabgroup_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabgroup.hpp" alt="" coords="1683,213,1885,269"/>
+<area shape="rect" id="node32" href="$crosstabheader_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabheader.cpp" alt="" coords="1909,213,2115,269"/>
 <area shape="rect" id="node4" href="$crosstab_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstab.hpp" alt="" coords="1981,317,2176,373"/>
-<area shape="rect" id="node32" href="$crosstabsection_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabsection.cpp" alt="" coords="2342,213,2551,269"/>
-<area shape="rect" id="node31" href="$crosstabgroup_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabgroup.cpp" alt="" coords="2200,317,2400,373"/>
-<area shape="rect" id="node5" href="$band_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/band.hpp" alt="" coords="1687,421,1881,477"/>
+<area shape="rect" id="node31" href="$crosstabgroup_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabgroup.cpp" alt="" coords="1684,317,1884,373"/>
+<area shape="rect" id="node5" href="$band_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/band.hpp" alt="" coords="1577,421,1772,477"/>
 <area shape="rect" id="node18" href="$parserfromxml_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/parsers/parserfromxml.hpp" alt="" coords="1635,837,1858,893"/>
 <area shape="rect" id="node30" href="$crosstab_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstab.cpp" alt="" coords="2116,421,2311,477"/>
 <area shape="rect" id="node6" href="$section_8hpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/section.hpp" alt="" coords="1417,525,1612,581"/>
@@ -31,4 +32,5 @@
 <area shape="rect" id="node23" href="$title_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/title.cpp" alt="" coords="1476,733,1671,789"/>
 <area shape="rect" id="node25" href="$detail_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/detail.cpp" alt="" coords="1745,733,1940,789"/>
 <area shape="rect" id="node27" href="$summary_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/summary.cpp" alt="" coords="719,733,913,789"/>
+<area shape="rect" id="node34" href="$crosstabcell_8cpp.html" title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabcell.cpp" alt="" coords="2191,213,2385,269"/>
 </map>

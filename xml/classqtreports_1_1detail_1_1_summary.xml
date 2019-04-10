@@ -37,38 +37,38 @@
     <detaileddescription>
 <para>Класс, реализующий тэг </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="323">
+      <node id="333">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="321">
+      <node id="331">
         <label>qtreports::detail::Summary</label>
         <link refid="classqtreports_1_1detail_1_1_summary"/>
-        <childnode refid="322" relation="public-inheritance">
+        <childnode refid="332" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="322">
+      <node id="332">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="323" relation="public-inheritance">
+        <childnode refid="333" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="326">
+      <node id="336">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="324">
+      <node id="334">
         <label>qtreports::detail::Summary</label>
         <link refid="classqtreports_1_1detail_1_1_summary"/>
-        <childnode refid="325" relation="public-inheritance">
+        <childnode refid="335" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="325">
+      <node id="335">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="326" relation="public-inheritance">
+        <childnode refid="336" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -16,380 +16,382 @@
     <includedby refid="parserfromxml_8hpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</includedby>
     <includedby refid="band_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp</includedby>
     <incdepgraph>
-      <node id="2524">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp</label>
-        <link refid="band.hpp"/>
-        <childnode refid="2525" relation="include">
-        </childnode>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2527" relation="include">
-        </childnode>
-        <childnode refid="2538" relation="include">
-        </childnode>
-        <childnode refid="2539" relation="include">
-        </childnode>
-        <childnode refid="2540" relation="include">
-        </childnode>
-        <childnode refid="2541" relation="include">
-        </childnode>
-        <childnode refid="2542" relation="include">
-        </childnode>
-        <childnode refid="2530" relation="include">
-        </childnode>
-        <childnode refid="2544" relation="include">
-        </childnode>
-      </node>
-      <node id="2534">
-        <label>style.hpp</label>
-        <link refid="style_8hpp"/>
-        <childnode refid="2529" relation="include">
-        </childnode>
-        <childnode refid="2535" relation="include">
-        </childnode>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2536" relation="include">
-        </childnode>
-      </node>
-      <node id="2546">
-        <label>crosstabsection.hpp</label>
-        <link refid="crosstabsection_8hpp"/>
-        <childnode refid="2536" relation="include">
-        </childnode>
-        <childnode refid="2547" relation="include">
-        </childnode>
-      </node>
-      <node id="2548">
-        <label>box.hpp</label>
-        <link refid="box_8hpp"/>
-        <childnode refid="2536" relation="include">
-        </childnode>
-      </node>
-      <node id="2533">
-        <label>QRect</label>
-      </node>
-      <node id="2531">
-        <label>QPoint</label>
-      </node>
-      <node id="2526">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="2543">
-        <label>QImage</label>
-      </node>
-      <node id="2527">
-        <label>statictext.hpp</label>
-        <link refid="statictext_8hpp"/>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2528" relation="include">
-        </childnode>
-      </node>
-      <node id="2540">
-        <label>rect.hpp</label>
-        <link refid="rect_8hpp"/>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2530" relation="include">
-        </childnode>
-      </node>
-      <node id="2542">
-        <label>image.hpp</label>
-        <link refid="image_8hpp"/>
-        <childnode refid="2543" relation="include">
-        </childnode>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2528" relation="include">
-        </childnode>
-      </node>
-      <node id="2545">
-        <label>crosstabgroup.hpp</label>
-        <link refid="crosstabgroup_8hpp"/>
-        <childnode refid="2536" relation="include">
-        </childnode>
-        <childnode refid="2546" relation="include">
-        </childnode>
-      </node>
-      <node id="2539">
-        <label>line.hpp</label>
-        <link refid="line_8hpp"/>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2530" relation="include">
-        </childnode>
-      </node>
-      <node id="2544">
-        <label>crosstab.hpp</label>
-        <link refid="crosstab_8hpp"/>
-        <childnode refid="2530" relation="include">
-        </childnode>
-        <childnode refid="2545" relation="include">
-        </childnode>
-        <childnode refid="2546" relation="include">
-        </childnode>
-      </node>
-      <node id="2547">
-        <label>cellcontents.hpp</label>
-        <link refid="cellcontents_8hpp"/>
-        <childnode refid="2548" relation="include">
-        </childnode>
-        <childnode refid="2538" relation="include">
-        </childnode>
-      </node>
-      <node id="2528">
-        <label>textwidget.hpp</label>
-        <link refid="textwidget_8hpp"/>
-        <childnode refid="2529" relation="include">
-        </childnode>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2530" relation="include">
-        </childnode>
-      </node>
-      <node id="2529">
-        <label>QString</label>
-      </node>
-      <node id="2532">
-        <label>QSize</label>
-      </node>
-      <node id="2538">
-        <label>textfield.hpp</label>
-        <link refid="textfield_8hpp"/>
-        <childnode refid="2529" relation="include">
-        </childnode>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2528" relation="include">
-        </childnode>
-      </node>
-      <node id="2535">
-        <label>QColor</label>
-      </node>
-      <node id="2536">
-        <label>object.hpp</label>
-        <link refid="object_8hpp"/>
-        <childnode refid="2529" relation="include">
-        </childnode>
-        <childnode refid="2537" relation="include">
-        </childnode>
-        <childnode refid="2526" relation="include">
-        </childnode>
-      </node>
-      <node id="2530">
-        <label>widget.hpp</label>
-        <link refid="widget_8hpp"/>
-        <childnode refid="2529" relation="include">
-        </childnode>
-        <childnode refid="2531" relation="include">
-        </childnode>
-        <childnode refid="2532" relation="include">
-        </childnode>
-        <childnode refid="2533" relation="include">
-        </childnode>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2534" relation="include">
-        </childnode>
-        <childnode refid="2536" relation="include">
-        </childnode>
-      </node>
-      <node id="2537">
-        <label>QVariant</label>
-      </node>
-      <node id="2525">
-        <label>QVector</label>
-      </node>
-      <node id="2541">
-        <label>ellipse.hpp</label>
-        <link refid="ellipse_8hpp"/>
-        <childnode refid="2526" relation="include">
-        </childnode>
-        <childnode refid="2530" relation="include">
-        </childnode>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="2559">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp</label>
-        <link refid="replacer_8cpp"/>
-      </node>
-      <node id="2550">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.hpp</label>
-        <link refid="section_8hpp"/>
-        <childnode refid="2551" relation="include">
-        </childnode>
-        <childnode refid="2566" relation="include">
-        </childnode>
-        <childnode refid="2568" relation="include">
-        </childnode>
-        <childnode refid="2570" relation="include">
-        </childnode>
-        <childnode refid="2560" relation="include">
-        </childnode>
-        <childnode refid="2572" relation="include">
-        </childnode>
-      </node>
-      <node id="2551">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp</label>
-        <link refid="group_8hpp"/>
-        <childnode refid="2552" relation="include">
-        </childnode>
-        <childnode refid="2562" relation="include">
-        </childnode>
-        <childnode refid="2565" relation="include">
-        </childnode>
-      </node>
-      <node id="2549">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp</label>
-        <link refid="band.hpp"/>
-        <childnode refid="2550" relation="include">
-        </childnode>
-        <childnode refid="2562" relation="include">
-        </childnode>
-        <childnode refid="2573" relation="include">
-        </childnode>
-      </node>
-      <node id="2560">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp</label>
-        <link refid="convertertopdf_8hpp"/>
-        <childnode refid="2557" relation="include">
-        </childnode>
-        <childnode refid="2555" relation="include">
-        </childnode>
-      </node>
-      <node id="2568">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/detail.hpp</label>
-        <link refid="detail_8hpp"/>
-        <childnode refid="2552" relation="include">
-        </childnode>
-        <childnode refid="2562" relation="include">
-        </childnode>
-        <childnode refid="2569" relation="include">
-        </childnode>
-      </node>
       <node id="2556">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp</label>
-        <link refid="replacer_8hpp"/>
-        <childnode refid="2554" relation="include">
-        </childnode>
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp</label>
+        <link refid="band.hpp"/>
         <childnode refid="2557" relation="include">
         </childnode>
         <childnode refid="2558" relation="include">
         </childnode>
         <childnode refid="2559" relation="include">
         </childnode>
-      </node>
-      <node id="2558">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp</label>
-        <link refid="convertertoqwidget_8cpp"/>
-      </node>
-      <node id="2553">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp</label>
-        <link refid="convertertohtml_8hpp"/>
-        <childnode refid="2554" relation="include">
-        </childnode>
-        <childnode refid="2555" relation="include">
-        </childnode>
-      </node>
-      <node id="2565">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp</label>
-        <link refid="group_8cpp"/>
-      </node>
-      <node id="2573">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp</label>
-        <link refid="band_8cpp"/>
-      </node>
-      <node id="2562">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</label>
-        <link refid="parserfromxml_8hpp"/>
-        <childnode refid="2555" relation="include">
-        </childnode>
-        <childnode refid="2563" relation="include">
-        </childnode>
-      </node>
-      <node id="2567">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.cpp</label>
-        <link refid="title_8cpp"/>
-      </node>
-      <node id="2571">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.cpp</label>
-        <link refid="summary_8cpp"/>
-      </node>
-      <node id="2564">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp</label>
-        <link refid="report_8cpp"/>
-      </node>
-      <node id="2563">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp</label>
-        <link refid="parserfromxml_8cpp"/>
-      </node>
-      <node id="2572">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.cpp</label>
-        <link refid="section_8cpp"/>
-      </node>
-      <node id="2557">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp</label>
-        <link refid="convertertopdf_8cpp"/>
-      </node>
-      <node id="2566">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.hpp</label>
-        <link refid="title_8hpp"/>
-        <childnode refid="2552" relation="include">
-        </childnode>
-        <childnode refid="2562" relation="include">
-        </childnode>
-        <childnode refid="2567" relation="include">
-        </childnode>
-      </node>
-      <node id="2570">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.hpp</label>
-        <link refid="summary_8hpp"/>
-        <childnode refid="2552" relation="include">
-        </childnode>
-        <childnode refid="2562" relation="include">
+        <childnode refid="2570" relation="include">
         </childnode>
         <childnode refid="2571" relation="include">
         </childnode>
-      </node>
-      <node id="2552">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp</label>
-        <link refid="report_8hpp"/>
-        <childnode refid="2553" relation="include">
+        <childnode refid="2572" relation="include">
         </childnode>
-        <childnode refid="2556" relation="include">
+        <childnode refid="2573" relation="include">
         </childnode>
-        <childnode refid="2560" relation="include">
-        </childnode>
-        <childnode refid="2561" relation="include">
+        <childnode refid="2574" relation="include">
         </childnode>
         <childnode refid="2562" relation="include">
         </childnode>
-        <childnode refid="2555" relation="include">
-        </childnode>
-        <childnode refid="2564" relation="include">
+        <childnode refid="2576" relation="include">
         </childnode>
       </node>
-      <node id="2569">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/detail.cpp</label>
-        <link refid="detail_8cpp"/>
-      </node>
-      <node id="2561">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp</label>
-        <link refid="convertertoqwidget_8hpp"/>
-        <childnode refid="2557" relation="include">
+      <node id="2566">
+        <label>style.hpp</label>
+        <link refid="style_8hpp"/>
+        <childnode refid="2561" relation="include">
+        </childnode>
+        <childnode refid="2567" relation="include">
         </childnode>
         <childnode refid="2558" relation="include">
         </childnode>
-        <childnode refid="2555" relation="include">
+        <childnode refid="2568" relation="include">
         </childnode>
       </node>
-      <node id="2554">
+      <node id="2565">
+        <label>QRect</label>
+      </node>
+      <node id="2563">
+        <label>QPoint</label>
+      </node>
+      <node id="2558">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2575">
+        <label>QImage</label>
+      </node>
+      <node id="2559">
+        <label>statictext.hpp</label>
+        <link refid="statictext_8hpp"/>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2560" relation="include">
+        </childnode>
+      </node>
+      <node id="2572">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp"/>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2562" relation="include">
+        </childnode>
+      </node>
+      <node id="2574">
+        <label>image.hpp</label>
+        <link refid="image_8hpp"/>
+        <childnode refid="2575" relation="include">
+        </childnode>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2560" relation="include">
+        </childnode>
+      </node>
+      <node id="2577">
+        <label>crosstabgroup.hpp</label>
+        <link refid="crosstabgroup_8hpp"/>
+        <childnode refid="2568" relation="include">
+        </childnode>
+        <childnode refid="2578" relation="include">
+        </childnode>
+      </node>
+      <node id="2571">
+        <label>line.hpp</label>
+        <link refid="line_8hpp"/>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2562" relation="include">
+        </childnode>
+      </node>
+      <node id="2576">
+        <label>crosstab.hpp</label>
+        <link refid="crosstab_8hpp"/>
+        <childnode refid="2562" relation="include">
+        </childnode>
+        <childnode refid="2577" relation="include">
+        </childnode>
+        <childnode refid="2580" relation="include">
+        </childnode>
+      </node>
+      <node id="2580">
+        <label>crosstabcell.hpp</label>
+        <link refid="crosstabcell_8hpp"/>
+        <childnode refid="2568" relation="include">
+        </childnode>
+        <childnode refid="2579" relation="include">
+        </childnode>
+      </node>
+      <node id="2579">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2562" relation="include">
+        </childnode>
+        <childnode refid="2570" relation="include">
+        </childnode>
+      </node>
+      <node id="2560">
+        <label>textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2561" relation="include">
+        </childnode>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2562" relation="include">
+        </childnode>
+      </node>
+      <node id="2561">
+        <label>QString</label>
+      </node>
+      <node id="2564">
+        <label>QSize</label>
+      </node>
+      <node id="2570">
+        <label>textfield.hpp</label>
+        <link refid="textfield_8hpp"/>
+        <childnode refid="2561" relation="include">
+        </childnode>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2560" relation="include">
+        </childnode>
+      </node>
+      <node id="2567">
+        <label>QColor</label>
+      </node>
+      <node id="2568">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="2561" relation="include">
+        </childnode>
+        <childnode refid="2569" relation="include">
+        </childnode>
+        <childnode refid="2558" relation="include">
+        </childnode>
+      </node>
+      <node id="2578">
+        <label>crosstabheader.hpp</label>
+        <link refid="crosstabheader_8hpp"/>
+        <childnode refid="2568" relation="include">
+        </childnode>
+        <childnode refid="2579" relation="include">
+        </childnode>
+      </node>
+      <node id="2562">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
+        <childnode refid="2561" relation="include">
+        </childnode>
+        <childnode refid="2563" relation="include">
+        </childnode>
+        <childnode refid="2564" relation="include">
+        </childnode>
+        <childnode refid="2565" relation="include">
+        </childnode>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2566" relation="include">
+        </childnode>
+        <childnode refid="2568" relation="include">
+        </childnode>
+      </node>
+      <node id="2569">
+        <label>QVariant</label>
+      </node>
+      <node id="2557">
+        <label>QVector</label>
+      </node>
+      <node id="2573">
+        <label>ellipse.hpp</label>
+        <link refid="ellipse_8hpp"/>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2562" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2591">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp</label>
+        <link refid="replacer_8cpp"/>
+      </node>
+      <node id="2582">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.hpp</label>
+        <link refid="section_8hpp"/>
+        <childnode refid="2583" relation="include">
+        </childnode>
+        <childnode refid="2598" relation="include">
+        </childnode>
+        <childnode refid="2600" relation="include">
+        </childnode>
+        <childnode refid="2602" relation="include">
+        </childnode>
+        <childnode refid="2592" relation="include">
+        </childnode>
+        <childnode refid="2604" relation="include">
+        </childnode>
+      </node>
+      <node id="2583">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp</label>
+        <link refid="group_8hpp"/>
+        <childnode refid="2584" relation="include">
+        </childnode>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2597" relation="include">
+        </childnode>
+      </node>
+      <node id="2581">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp</label>
+        <link refid="band.hpp"/>
+        <childnode refid="2582" relation="include">
+        </childnode>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2605" relation="include">
+        </childnode>
+      </node>
+      <node id="2592">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp</label>
+        <link refid="convertertopdf_8hpp"/>
+        <childnode refid="2589" relation="include">
+        </childnode>
+        <childnode refid="2587" relation="include">
+        </childnode>
+      </node>
+      <node id="2600">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/detail.hpp</label>
+        <link refid="detail_8hpp"/>
+        <childnode refid="2584" relation="include">
+        </childnode>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2601" relation="include">
+        </childnode>
+      </node>
+      <node id="2588">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp</label>
+        <link refid="replacer_8hpp"/>
+        <childnode refid="2586" relation="include">
+        </childnode>
+        <childnode refid="2589" relation="include">
+        </childnode>
+        <childnode refid="2590" relation="include">
+        </childnode>
+        <childnode refid="2591" relation="include">
+        </childnode>
+      </node>
+      <node id="2590">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp</label>
+        <link refid="convertertoqwidget_8cpp"/>
+      </node>
+      <node id="2585">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp</label>
+        <link refid="convertertohtml_8hpp"/>
+        <childnode refid="2586" relation="include">
+        </childnode>
+        <childnode refid="2587" relation="include">
+        </childnode>
+      </node>
+      <node id="2597">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp</label>
+        <link refid="group_8cpp"/>
+      </node>
+      <node id="2605">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp</label>
+        <link refid="band_8cpp"/>
+      </node>
+      <node id="2594">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</label>
+        <link refid="parserfromxml_8hpp"/>
+        <childnode refid="2587" relation="include">
+        </childnode>
+        <childnode refid="2595" relation="include">
+        </childnode>
+      </node>
+      <node id="2599">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.cpp</label>
+        <link refid="title_8cpp"/>
+      </node>
+      <node id="2603">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.cpp</label>
+        <link refid="summary_8cpp"/>
+      </node>
+      <node id="2596">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.cpp</label>
+        <link refid="report_8cpp"/>
+      </node>
+      <node id="2595">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp</label>
+        <link refid="parserfromxml_8cpp"/>
+      </node>
+      <node id="2604">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.cpp</label>
+        <link refid="section_8cpp"/>
+      </node>
+      <node id="2589">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp</label>
+        <link refid="convertertopdf_8cpp"/>
+      </node>
+      <node id="2598">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.hpp</label>
+        <link refid="title_8hpp"/>
+        <childnode refid="2584" relation="include">
+        </childnode>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2599" relation="include">
+        </childnode>
+      </node>
+      <node id="2602">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.hpp</label>
+        <link refid="summary_8hpp"/>
+        <childnode refid="2584" relation="include">
+        </childnode>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2603" relation="include">
+        </childnode>
+      </node>
+      <node id="2584">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp</label>
+        <link refid="report_8hpp"/>
+        <childnode refid="2585" relation="include">
+        </childnode>
+        <childnode refid="2588" relation="include">
+        </childnode>
+        <childnode refid="2592" relation="include">
+        </childnode>
+        <childnode refid="2593" relation="include">
+        </childnode>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2587" relation="include">
+        </childnode>
+        <childnode refid="2596" relation="include">
+        </childnode>
+      </node>
+      <node id="2601">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/detail.cpp</label>
+        <link refid="detail_8cpp"/>
+      </node>
+      <node id="2593">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp</label>
+        <link refid="convertertoqwidget_8hpp"/>
+        <childnode refid="2589" relation="include">
+        </childnode>
+        <childnode refid="2590" relation="include">
+        </childnode>
+        <childnode refid="2587" relation="include">
+        </childnode>
+      </node>
+      <node id="2586">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp</label>
         <link refid="convertertohtml_8cpp"/>
       </node>
-      <node id="2555">
+      <node id="2587">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</label>
         <link refid="engine_8cpp"/>
       </node>
@@ -442,80 +444,79 @@
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa1415625f28cd5eed660e1ea2dc403b5" kindref="member">addCrosstab</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab<sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1ad495e3bbc1d9291746533f6c8d7b1229" kindref="member">addStaticText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a8da710b0963ea1b4e5a74b99420d3e4b" kindref="member">StaticTextPtr</ref><sp/>&amp;<sp/>staticText<sp/>);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>CrosstabPtr<sp/>&gt;<sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a8215c1a4d5834f262fbac415438e3525" kindref="member">getCrosstabs</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a38b3ca75aa612fca88b72d52d48082c8" kindref="member">getCrosstab</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>StaticTextPtr<sp/>&gt;<sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a060f906c4eb5afe9d6dcdbe33b935d09" kindref="member">getStaticTexts</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a8da710b0963ea1b4e5a74b99420d3e4b" kindref="member">StaticTextPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a23f2aebafb2019f3c4a6396b63641a00" kindref="member">getStaticText</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa154d5e1eef9be35f5ec44a8d0b13e00" kindref="member">getStaticTextsSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1af4609fb4af26484079ab6e7f9eed8c87" kindref="member">addTextField</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/>&amp;<sp/>textField<sp/>);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>TextFieldPtr<sp/>&gt;<sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a635f26e50cb92abd2f49fc19c48da0bf" kindref="member">getTextFields</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1acffc1d8fc7cd651607d596cb0681d128" kindref="member">getTextField</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a338ce758d304830ca207afb19a98663e" kindref="member">getTextFieldsSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1abfd513714ddfc19cc4ce614b8d02e354" kindref="member">getTextWidgetsSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>TextWidgetPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aaa061adcdabca37be62c1b78e730b0bf" kindref="member">getTextWidgets</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1ad5fc6e52223d858ff83c968766dccd61" kindref="member">addLine</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4bec416fc9e94bb474fb7c7ee5794206" kindref="member">LinePtr</ref><sp/>&amp;<sp/>line<sp/>);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4bec416fc9e94bb474fb7c7ee5794206" kindref="member">LinePtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a8d40282443467204436d8dd7b74b12ab" kindref="member">getLine</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a80336ee54b75ad9d9a5816f7652cc95f" kindref="member">getLinesSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>LinePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa1a654bc6396f860e1662a6c29d14dad" kindref="member">getLines</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa3ff3c44bcfb20890ee08022b5c3e895" kindref="member">addRect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1ab30d690e2ab4bc1cb5d6b2c47fcd1172" kindref="member">RectPtr</ref><sp/>&amp;<sp/>rect<sp/>);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1ab30d690e2ab4bc1cb5d6b2c47fcd1172" kindref="member">RectPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_widget_1ab3156821ebe35805a20f7b33b3c49d33" kindref="member">getRect</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1ac2c4dfe6c30cafaeaf01bee83466af85" kindref="member">getRectsSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>RectPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1afdd4c1c109eedbcd75e5967e4c7879b8" kindref="member">getRects</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a02b980791263ae274739862f90470d3f" kindref="member">addEllipse</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1aa954afb307d7338189bce90f89fc1650" kindref="member">EllipsePtr</ref><sp/>&amp;<sp/>ellipse<sp/>);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1aa954afb307d7338189bce90f89fc1650" kindref="member">EllipsePtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a77ca6f6126d836c2338e4132c2160929" kindref="member">getEllipse</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aea918f429fe37d358a7fd076e67faecd" kindref="member">getEllipsesSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>EllipsePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1abd9f491bab5daef5c1326476b66babea" kindref="member">getEllipses</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a17d80de3c7c045ef1b0b19f179f95f06" kindref="member">addImage</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref><sp/>&amp;<sp/>image<sp/>);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a0613da11a6eb031f94b17bc8f61bb85c" kindref="member">getImage</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a842d6883ac576ea488ca1ae2c1e845d9" kindref="member">getImagesSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>ImagePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a4a53533207ed4742d2ebd147723ce296" kindref="member">getImages</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="193" refid="classqtreports_1_1detail_1_1_band_1aa057c3487699dddd2df5925bb3a3fd4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>StaticTextPtr<sp/>&gt;<sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa057c3487699dddd2df5925bb3a3fd4c" kindref="member">m_staticTexts</ref>;</highlight></codeline>
-<codeline lineno="194" refid="classqtreports_1_1detail_1_1_band_1a6b1fd81893e403c84397fdc5e01f1087" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>TextFieldPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a6b1fd81893e403c84397fdc5e01f1087" kindref="member">m_textFields</ref>;</highlight></codeline>
-<codeline lineno="195" refid="classqtreports_1_1detail_1_1_band_1a7ea4f67b9529cb38f29b982c8c7ec193" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>TextWidgetPtr<sp/>&gt;<sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a7ea4f67b9529cb38f29b982c8c7ec193" kindref="member">m_textWidgets</ref>;</highlight></codeline>
-<codeline lineno="196" refid="classqtreports_1_1detail_1_1_band_1a484a00c8296761679148fd7929f9f332" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>LinePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a484a00c8296761679148fd7929f9f332" kindref="member">m_lines</ref>;</highlight></codeline>
-<codeline lineno="197" refid="classqtreports_1_1detail_1_1_band_1abd3e29b025ca2d805dfbdd1481d59470" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>RectPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1abd3e29b025ca2d805dfbdd1481d59470" kindref="member">m_rects</ref>;</highlight></codeline>
-<codeline lineno="198" refid="classqtreports_1_1detail_1_1_band_1a8e7b3e66557cc29bd1f57df59328dd1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>EllipsePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a8e7b3e66557cc29bd1f57df59328dd1a" kindref="member">m_ellipses</ref>;</highlight></codeline>
-<codeline lineno="199" refid="classqtreports_1_1detail_1_1_band_1a62b3eb1b22ec7fb047d89574b1acc323" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>ImagePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a62b3eb1b22ec7fb047d89574b1acc323" kindref="member">m_images</ref>;</highlight></codeline>
-<codeline lineno="200" refid="classqtreports_1_1detail_1_1_band_1af69c85455254e1661167bc957c72c457" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>CrosstabPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1af69c85455254e1661167bc957c72c457" kindref="member">m_crosstabs</ref>;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="203" refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QSharedPointer&lt;<sp/>Band<sp/>&gt;<sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref>;</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="206"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BAND_HPP</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>CrosstabPtr<sp/>&gt;<sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a8215c1a4d5834f262fbac415438e3525" kindref="member">getCrosstabs</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a38b3ca75aa612fca88b72d52d48082c8" kindref="member">getCrosstab</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1ad495e3bbc1d9291746533f6c8d7b1229" kindref="member">addStaticText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a8da710b0963ea1b4e5a74b99420d3e4b" kindref="member">StaticTextPtr</ref><sp/>&amp;<sp/>staticText<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>StaticTextPtr<sp/>&gt;<sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a060f906c4eb5afe9d6dcdbe33b935d09" kindref="member">getStaticTexts</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a8da710b0963ea1b4e5a74b99420d3e4b" kindref="member">StaticTextPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a23f2aebafb2019f3c4a6396b63641a00" kindref="member">getStaticText</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa154d5e1eef9be35f5ec44a8d0b13e00" kindref="member">getStaticTextsSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1af4609fb4af26484079ab6e7f9eed8c87" kindref="member">addTextField</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/>&amp;<sp/>textField<sp/>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>TextFieldPtr<sp/>&gt;<sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a635f26e50cb92abd2f49fc19c48da0bf" kindref="member">getTextFields</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1acffc1d8fc7cd651607d596cb0681d128" kindref="member">getTextField</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a338ce758d304830ca207afb19a98663e" kindref="member">getTextFieldsSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1abfd513714ddfc19cc4ce614b8d02e354" kindref="member">getTextWidgetsSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>TextWidgetPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aaa061adcdabca37be62c1b78e730b0bf" kindref="member">getTextWidgets</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1ad5fc6e52223d858ff83c968766dccd61" kindref="member">addLine</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4bec416fc9e94bb474fb7c7ee5794206" kindref="member">LinePtr</ref><sp/>&amp;<sp/>line<sp/>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4bec416fc9e94bb474fb7c7ee5794206" kindref="member">LinePtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a8d40282443467204436d8dd7b74b12ab" kindref="member">getLine</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a80336ee54b75ad9d9a5816f7652cc95f" kindref="member">getLinesSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>LinePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa1a654bc6396f860e1662a6c29d14dad" kindref="member">getLines</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa3ff3c44bcfb20890ee08022b5c3e895" kindref="member">addRect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1ab30d690e2ab4bc1cb5d6b2c47fcd1172" kindref="member">RectPtr</ref><sp/>&amp;<sp/>rect<sp/>);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1ab30d690e2ab4bc1cb5d6b2c47fcd1172" kindref="member">RectPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_widget_1ab3156821ebe35805a20f7b33b3c49d33" kindref="member">getRect</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1ac2c4dfe6c30cafaeaf01bee83466af85" kindref="member">getRectsSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>RectPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1afdd4c1c109eedbcd75e5967e4c7879b8" kindref="member">getRects</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a02b980791263ae274739862f90470d3f" kindref="member">addEllipse</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1aa954afb307d7338189bce90f89fc1650" kindref="member">EllipsePtr</ref><sp/>&amp;<sp/>ellipse<sp/>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1aa954afb307d7338189bce90f89fc1650" kindref="member">EllipsePtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a77ca6f6126d836c2338e4132c2160929" kindref="member">getEllipse</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aea918f429fe37d358a7fd076e67faecd" kindref="member">getEllipsesSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>EllipsePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1abd9f491bab5daef5c1326476b66babea" kindref="member">getEllipses</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a17d80de3c7c045ef1b0b19f179f95f06" kindref="member">addImage</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref><sp/>&amp;<sp/>image<sp/>);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a0613da11a6eb031f94b17bc8f61bb85c" kindref="member">getImage</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a842d6883ac576ea488ca1ae2c1e845d9" kindref="member">getImagesSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;<sp/>ImagePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a4a53533207ed4742d2ebd147723ce296" kindref="member">getImages</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="192" refid="classqtreports_1_1detail_1_1_band_1aa057c3487699dddd2df5925bb3a3fd4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>StaticTextPtr<sp/>&gt;<sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1aa057c3487699dddd2df5925bb3a3fd4c" kindref="member">m_staticTexts</ref>;</highlight></codeline>
+<codeline lineno="193" refid="classqtreports_1_1detail_1_1_band_1a6b1fd81893e403c84397fdc5e01f1087" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>TextFieldPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a6b1fd81893e403c84397fdc5e01f1087" kindref="member">m_textFields</ref>;</highlight></codeline>
+<codeline lineno="194" refid="classqtreports_1_1detail_1_1_band_1a7ea4f67b9529cb38f29b982c8c7ec193" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>TextWidgetPtr<sp/>&gt;<sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a7ea4f67b9529cb38f29b982c8c7ec193" kindref="member">m_textWidgets</ref>;</highlight></codeline>
+<codeline lineno="195" refid="classqtreports_1_1detail_1_1_band_1a484a00c8296761679148fd7929f9f332" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>LinePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a484a00c8296761679148fd7929f9f332" kindref="member">m_lines</ref>;</highlight></codeline>
+<codeline lineno="196" refid="classqtreports_1_1detail_1_1_band_1abd3e29b025ca2d805dfbdd1481d59470" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>RectPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1abd3e29b025ca2d805dfbdd1481d59470" kindref="member">m_rects</ref>;</highlight></codeline>
+<codeline lineno="197" refid="classqtreports_1_1detail_1_1_band_1a8e7b3e66557cc29bd1f57df59328dd1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>EllipsePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a8e7b3e66557cc29bd1f57df59328dd1a" kindref="member">m_ellipses</ref>;</highlight></codeline>
+<codeline lineno="198" refid="classqtreports_1_1detail_1_1_band_1a62b3eb1b22ec7fb047d89574b1acc323" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>ImagePtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1a62b3eb1b22ec7fb047d89574b1acc323" kindref="member">m_images</ref>;</highlight></codeline>
+<codeline lineno="199" refid="classqtreports_1_1detail_1_1_band_1af69c85455254e1661167bc957c72c457" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;<sp/>CrosstabPtr<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_band_1af69c85455254e1661167bc957c72c457" kindref="member">m_crosstabs</ref>;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="202" refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QSharedPointer&lt;<sp/>Band<sp/>&gt;<sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref>;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BAND_HPP</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp"/>
   </compounddef>

@@ -25,375 +25,377 @@
     <includedby refid="engine_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</includedby>
     <includedby refid="parserfromxml_8cpp" local="yes">/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp</includedby>
     <incdepgraph>
-      <node id="2458">
+      <node id="2490">
         <label>QMap</label>
       </node>
-      <node id="2474">
+      <node id="2506">
         <label>section.hpp</label>
         <link refid="section_8hpp"/>
-        <childnode refid="2462" relation="include">
+        <childnode refid="2494" relation="include">
         </childnode>
-        <childnode refid="2463" relation="include">
+        <childnode refid="2495" relation="include">
         </childnode>
-        <childnode refid="2467" relation="include">
+        <childnode refid="2499" relation="include">
         </childnode>
-        <childnode refid="2475" relation="include">
+        <childnode refid="2507" relation="include">
         </childnode>
       </node>
-      <node id="2473">
+      <node id="2505">
         <label>group.hpp</label>
         <link refid="group_8hpp"/>
-        <childnode refid="2456" relation="include">
+        <childnode refid="2488" relation="include">
         </childnode>
-        <childnode refid="2463" relation="include">
+        <childnode refid="2495" relation="include">
         </childnode>
-        <childnode refid="2474" relation="include">
-        </childnode>
-      </node>
-      <node id="2455">
-        <label>functional</label>
-      </node>
-      <node id="2475">
-        <label>band.hpp</label>
-        <link refid="band_8hpp"/>
-        <childnode refid="2462" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2476" relation="include">
-        </childnode>
-        <childnode refid="2481" relation="include">
-        </childnode>
-        <childnode refid="2482" relation="include">
-        </childnode>
-        <childnode refid="2483" relation="include">
-        </childnode>
-        <childnode refid="2484" relation="include">
-        </childnode>
-        <childnode refid="2485" relation="include">
-        </childnode>
-        <childnode refid="2478" relation="include">
-        </childnode>
-        <childnode refid="2486" relation="include">
-        </childnode>
-      </node>
-      <node id="2471">
-        <label>style.hpp</label>
-        <link refid="style_8hpp"/>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2472" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2467" relation="include">
-        </childnode>
-      </node>
-      <node id="2457">
-        <label>QXmlStreamReader</label>
-      </node>
-      <node id="2469">
-        <label>field.hpp</label>
-        <link refid="field_8hpp"/>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2468" relation="include">
-        </childnode>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2462" relation="include">
-        </childnode>
-        <childnode refid="2470" relation="include">
-        </childnode>
-        <childnode refid="2467" relation="include">
-        </childnode>
-      </node>
-      <node id="2488">
-        <label>crosstabsection.hpp</label>
-        <link refid="crosstabsection_8hpp"/>
-        <childnode refid="2467" relation="include">
-        </childnode>
-        <childnode refid="2489" relation="include">
-        </childnode>
-      </node>
-      <node id="2490">
-        <label>box.hpp</label>
-        <link refid="box_8hpp"/>
-        <childnode refid="2467" relation="include">
-        </childnode>
-      </node>
-      <node id="2492">
-        <label>detail.hpp</label>
-        <link refid="detail_8hpp"/>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2474" relation="include">
-        </childnode>
-      </node>
-      <node id="2465">
-        <label>QPrinter</label>
-      </node>
-      <node id="2480">
-        <label>QRect</label>
-      </node>
-      <node id="2479">
-        <label>QPoint</label>
-      </node>
-      <node id="2463">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="2470">
-        <label>QImage</label>
-      </node>
-      <node id="2476">
-        <label>statictext.hpp</label>
-        <link refid="statictext_8hpp"/>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2477" relation="include">
-        </childnode>
-      </node>
-      <node id="2483">
-        <label>rect.hpp</label>
-        <link refid="rect_8hpp"/>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2478" relation="include">
-        </childnode>
-      </node>
-      <node id="2454">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</label>
-        <link refid="parserfromxml.hpp"/>
-        <childnode refid="2455" relation="include">
-        </childnode>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2458" relation="include">
-        </childnode>
-        <childnode refid="2459" relation="include">
-        </childnode>
-        <childnode refid="2460" relation="include">
-        </childnode>
-        <childnode refid="2471" relation="include">
-        </childnode>
-        <childnode refid="2469" relation="include">
-        </childnode>
-        <childnode refid="2473" relation="include">
-        </childnode>
-        <childnode refid="2491" relation="include">
-        </childnode>
-        <childnode refid="2492" relation="include">
-        </childnode>
-        <childnode refid="2493" relation="include">
-        </childnode>
-        <childnode refid="2475" relation="include">
-        </childnode>
-        <childnode refid="2476" relation="include">
-        </childnode>
-        <childnode refid="2481" relation="include">
-        </childnode>
-        <childnode refid="2482" relation="include">
-        </childnode>
-        <childnode refid="2483" relation="include">
-        </childnode>
-        <childnode refid="2484" relation="include">
-        </childnode>
-        <childnode refid="2485" relation="include">
-        </childnode>
-        <childnode refid="2486" relation="include">
-        </childnode>
-      </node>
-      <node id="2485">
-        <label>image.hpp</label>
-        <link refid="image_8hpp"/>
-        <childnode refid="2470" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2477" relation="include">
+        <childnode refid="2506" relation="include">
         </childnode>
       </node>
       <node id="2487">
-        <label>crosstabgroup.hpp</label>
-        <link refid="crosstabgroup_8hpp"/>
-        <childnode refid="2467" relation="include">
+        <label>functional</label>
+      </node>
+      <node id="2507">
+        <label>band.hpp</label>
+        <link refid="band_8hpp"/>
+        <childnode refid="2494" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2508" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+        <childnode refid="2514" relation="include">
+        </childnode>
+        <childnode refid="2515" relation="include">
+        </childnode>
+        <childnode refid="2516" relation="include">
+        </childnode>
+        <childnode refid="2517" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+        <childnode refid="2518" relation="include">
+        </childnode>
+      </node>
+      <node id="2503">
+        <label>style.hpp</label>
+        <link refid="style_8hpp"/>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2504" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+      </node>
+      <node id="2489">
+        <label>QXmlStreamReader</label>
+      </node>
+      <node id="2501">
+        <label>field.hpp</label>
+        <link refid="field_8hpp"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2500" relation="include">
         </childnode>
         <childnode refid="2488" relation="include">
         </childnode>
-      </node>
-      <node id="2482">
-        <label>line.hpp</label>
-        <link refid="line_8hpp"/>
-        <childnode refid="2463" relation="include">
+        <childnode refid="2494" relation="include">
         </childnode>
-        <childnode refid="2478" relation="include">
+        <childnode refid="2502" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+      </node>
+      <node id="2524">
+        <label>detail.hpp</label>
+        <link refid="detail_8hpp"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+      </node>
+      <node id="2497">
+        <label>QPrinter</label>
+      </node>
+      <node id="2512">
+        <label>QRect</label>
+      </node>
+      <node id="2511">
+        <label>QPoint</label>
+      </node>
+      <node id="2495">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2502">
+        <label>QImage</label>
+      </node>
+      <node id="2508">
+        <label>statictext.hpp</label>
+        <link refid="statictext_8hpp"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2509" relation="include">
+        </childnode>
+      </node>
+      <node id="2515">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
         </childnode>
       </node>
       <node id="2486">
-        <label>crosstab.hpp</label>
-        <link refid="crosstab_8hpp"/>
-        <childnode refid="2478" relation="include">
-        </childnode>
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</label>
+        <link refid="parserfromxml.hpp"/>
         <childnode refid="2487" relation="include">
         </childnode>
         <childnode refid="2488" relation="include">
         </childnode>
-      </node>
-      <node id="2489">
-        <label>cellcontents.hpp</label>
-        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2489" relation="include">
+        </childnode>
         <childnode refid="2490" relation="include">
-        </childnode>
-        <childnode refid="2481" relation="include">
-        </childnode>
-      </node>
-      <node id="2477">
-        <label>textwidget.hpp</label>
-        <link refid="textwidget_8hpp"/>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2478" relation="include">
-        </childnode>
-      </node>
-      <node id="2466">
-        <label>QRegularExpression</label>
-      </node>
-      <node id="2456">
-        <label>QString</label>
-      </node>
-      <node id="2461">
-        <label>QSize</label>
-      </node>
-      <node id="2481">
-        <label>textfield.hpp</label>
-        <link refid="textfield_8hpp"/>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2477" relation="include">
-        </childnode>
-      </node>
-      <node id="2472">
-        <label>QColor</label>
-      </node>
-      <node id="2464">
-        <label>QMargins</label>
-      </node>
-      <node id="2467">
-        <label>object.hpp</label>
-        <link refid="object_8hpp"/>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2468" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-      </node>
-      <node id="2459">
-        <label>QTextStream</label>
-      </node>
-      <node id="2491">
-        <label>title.hpp</label>
-        <link refid="title_8hpp"/>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2474" relation="include">
-        </childnode>
-      </node>
-      <node id="2493">
-        <label>summary.hpp</label>
-        <link refid="summary_8hpp"/>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2474" relation="include">
-        </childnode>
-      </node>
-      <node id="2478">
-        <label>widget.hpp</label>
-        <link refid="widget_8hpp"/>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2479" relation="include">
-        </childnode>
-        <childnode refid="2461" relation="include">
-        </childnode>
-        <childnode refid="2480" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2471" relation="include">
-        </childnode>
-        <childnode refid="2467" relation="include">
-        </childnode>
-      </node>
-      <node id="2468">
-        <label>QVariant</label>
-      </node>
-      <node id="2460">
-        <label>../tags/report.hpp</label>
-        <link refid="report_8hpp"/>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2461" relation="include">
-        </childnode>
-        <childnode refid="2458" relation="include">
-        </childnode>
-        <childnode refid="2462" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2464" relation="include">
-        </childnode>
-        <childnode refid="2465" relation="include">
-        </childnode>
-        <childnode refid="2466" relation="include">
-        </childnode>
-        <childnode refid="2467" relation="include">
-        </childnode>
-        <childnode refid="2469" relation="include">
-        </childnode>
-        <childnode refid="2471" relation="include">
-        </childnode>
-        <childnode refid="2473" relation="include">
         </childnode>
         <childnode refid="2491" relation="include">
         </childnode>
         <childnode refid="2492" relation="include">
         </childnode>
+        <childnode refid="2503" relation="include">
+        </childnode>
+        <childnode refid="2501" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+        <childnode refid="2523" relation="include">
+        </childnode>
+        <childnode refid="2524" relation="include">
+        </childnode>
+        <childnode refid="2525" relation="include">
+        </childnode>
+        <childnode refid="2507" relation="include">
+        </childnode>
+        <childnode refid="2508" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+        <childnode refid="2514" relation="include">
+        </childnode>
+        <childnode refid="2515" relation="include">
+        </childnode>
+        <childnode refid="2516" relation="include">
+        </childnode>
+        <childnode refid="2517" relation="include">
+        </childnode>
+        <childnode refid="2518" relation="include">
+        </childnode>
+      </node>
+      <node id="2517">
+        <label>image.hpp</label>
+        <link refid="image_8hpp"/>
+        <childnode refid="2502" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2509" relation="include">
+        </childnode>
+      </node>
+      <node id="2519">
+        <label>crosstabgroup.hpp</label>
+        <link refid="crosstabgroup_8hpp"/>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2520" relation="include">
+        </childnode>
+      </node>
+      <node id="2514">
+        <label>line.hpp</label>
+        <link refid="line_8hpp"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+      </node>
+      <node id="2518">
+        <label>crosstab.hpp</label>
+        <link refid="crosstab_8hpp"/>
+        <childnode refid="2510" relation="include">
+        </childnode>
+        <childnode refid="2519" relation="include">
+        </childnode>
+        <childnode refid="2522" relation="include">
+        </childnode>
+      </node>
+      <node id="2522">
+        <label>crosstabcell.hpp</label>
+        <link refid="crosstabcell_8hpp"/>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+      </node>
+      <node id="2521">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2510" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+      </node>
+      <node id="2509">
+        <label>textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+      </node>
+      <node id="2498">
+        <label>QRegularExpression</label>
+      </node>
+      <node id="2488">
+        <label>QString</label>
+      </node>
+      <node id="2493">
+        <label>QSize</label>
+      </node>
+      <node id="2513">
+        <label>textfield.hpp</label>
+        <link refid="textfield_8hpp"/>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2509" relation="include">
+        </childnode>
+      </node>
+      <node id="2504">
+        <label>QColor</label>
+      </node>
+      <node id="2496">
+        <label>QMargins</label>
+      </node>
+      <node id="2499">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2500" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+      </node>
+      <node id="2491">
+        <label>QTextStream</label>
+      </node>
+      <node id="2523">
+        <label>title.hpp</label>
+        <link refid="title_8hpp"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+      </node>
+      <node id="2525">
+        <label>summary.hpp</label>
+        <link refid="summary_8hpp"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+      </node>
+      <node id="2520">
+        <label>crosstabheader.hpp</label>
+        <link refid="crosstabheader_8hpp"/>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+      </node>
+      <node id="2510">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2511" relation="include">
+        </childnode>
         <childnode refid="2493" relation="include">
         </childnode>
-      </node>
-      <node id="2462">
-        <label>QVector</label>
-      </node>
-      <node id="2484">
-        <label>ellipse.hpp</label>
-        <link refid="ellipse_8hpp"/>
-        <childnode refid="2463" relation="include">
+        <childnode refid="2512" relation="include">
         </childnode>
-        <childnode refid="2478" relation="include">
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2503" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
         </childnode>
       </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="2494">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</label>
-        <link refid="parserfromxml.hpp"/>
+      <node id="2500">
+        <label>QVariant</label>
+      </node>
+      <node id="2492">
+        <label>../tags/report.hpp</label>
+        <link refid="report_8hpp"/>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2493" relation="include">
+        </childnode>
+        <childnode refid="2490" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
+        </childnode>
         <childnode refid="2495" relation="include">
         </childnode>
         <childnode refid="2496" relation="include">
         </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2498" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2501" relation="include">
+        </childnode>
+        <childnode refid="2503" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+        <childnode refid="2523" relation="include">
+        </childnode>
+        <childnode refid="2524" relation="include">
+        </childnode>
+        <childnode refid="2525" relation="include">
+        </childnode>
       </node>
-      <node id="2496">
+      <node id="2494">
+        <label>QVector</label>
+      </node>
+      <node id="2516">
+        <label>ellipse.hpp</label>
+        <link refid="ellipse_8hpp"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2526">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp</label>
+        <link refid="parserfromxml.hpp"/>
+        <childnode refid="2527" relation="include">
+        </childnode>
+        <childnode refid="2528" relation="include">
+        </childnode>
+      </node>
+      <node id="2528">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp</label>
         <link refid="parserfromxml_8cpp"/>
       </node>
-      <node id="2495">
+      <node id="2527">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</label>
         <link refid="engine_8cpp"/>
       </node>
@@ -495,25 +497,31 @@
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79d177b44a8d13065f226fd7940bdde0" kindref="member">parseDetail</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report<sp/>);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1d2dfaa79bc7e339443ac12d56b3ba11" kindref="member">parseSummary</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report<sp/>);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" kindref="member">parseBand</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref><sp/>&amp;<sp/>section<sp/>);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" kindref="member">parseCrosstab</ref>(QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" kindref="member">parseStaticText</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a6249b073f54ee7fbb194e467349b9f4f" kindref="member">parseTextField</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" kindref="member">parseLine</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" kindref="member">parseRect</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
-<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" kindref="member">parseEllipse</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" kindref="member">parseImage</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" kindref="member">parseReportElement</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref><sp/>&amp;<sp/>widget<sp/>);</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" kindref="member">parseTextElement</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref><sp/>&amp;<sp/>widget<sp/>);</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" kindref="member">parseFont</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref><sp/>&amp;<sp/>widget<sp/>);</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" kindref="member">parseText</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a8da710b0963ea1b4e5a74b99420d3e4b" kindref="member">StaticTextPtr</ref><sp/>&amp;<sp/>text<sp/>);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" kindref="member">parseTextFieldExpression</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/>&amp;<sp/>text<sp/>);</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" kindref="member">parseImageExpression</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref><sp/>&amp;<sp/>image<sp/>);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="255"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>TRANSLATOR_HPP</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" kindref="member">parseCrosstab</ref>(QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" kindref="member">parseRowGroup</ref>(QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" kindref="member">parseColumnGroup</ref>(QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" kindref="member">parseCrosstabCell</ref>(QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" kindref="member">parseCrosstabRowHeader</ref>(QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref><sp/>&amp;rowGroup);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" kindref="member">parseCrosstabColumnHeader</ref>(QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref><sp/>&amp;<sp/>columnGroup);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" kindref="member">parseCrosstabCellContents</ref>(QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a3120cf0c2fbe8af770ad8b9112b34eaa" kindref="member">CrosstabCellPtr</ref><sp/>&amp;crosstabSection);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" kindref="member">parseStaticText</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" kindref="member">parseTextField</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref><sp/>&amp;<sp/>widget<sp/>);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" kindref="member">parseLine</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" kindref="member">parseRect</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" kindref="member">parseEllipse</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" kindref="member">parseImage</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref><sp/>&amp;<sp/>band<sp/>);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" kindref="member">parseReportElement</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref><sp/>&amp;<sp/>widget<sp/>);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" kindref="member">parseTextElement</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref><sp/>&amp;<sp/>widget<sp/>);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" kindref="member">parseFont</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref><sp/>&amp;<sp/>widget<sp/>);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" kindref="member">parseText</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a8da710b0963ea1b4e5a74b99420d3e4b" kindref="member">StaticTextPtr</ref><sp/>&amp;<sp/>text<sp/>);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" kindref="member">parseTextFieldExpression</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref><sp/>&amp;<sp/>text<sp/>);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" kindref="member">parseImageExpression</ref>(<sp/>QXmlStreamReader<sp/>&amp;<sp/>reader,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref><sp/>&amp;<sp/>image<sp/>);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="285"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>TRANSLATOR_HPP</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp"/>
   </compounddef>

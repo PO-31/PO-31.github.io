@@ -199,14 +199,14 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="86" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="31" bodyend="54"/>
         <references refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" compoundref="engine_8cpp" startline="377" endline="380">isOpened</references>
         <references refid="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" compoundref="engine_8cpp" startline="56" endline="61">close</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="63" endline="84">qtreports::detail::ParserFromXML::parse</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="69" endline="90">qtreports::detail::ParserFromXML::parse</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="152">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" compoundref="parserfromxml_8cpp" startline="954" endline="957">qtreports::detail::ParserFromXML::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" compoundref="parserfromxml_8cpp" startline="1102" endline="1105">qtreports::detail::ParserFromXML::getLastError</references>
         <references refid="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" compoundref="engine_8hpp" startline="151">m_isOpened</references>
         <references refid="classqtreports_1_1_engine_1a10926ee63a333e1b2cc358c0e9e3990d" compoundref="engine_8hpp" startline="152">m_compiledPath</references>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="153">m_report</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a02bfc8c0470ec16ff1bb34a5b6b78981" compoundref="parserfromxml_8cpp" startline="949" endline="952">qtreports::detail::ParserFromXML::getReport</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1fedf145e441f88832bd7f7e4b890e28" compoundref="parserfromxml_8cpp" startline="959" endline="962">qtreports::detail::ParserFromXML::getLog</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a02bfc8c0470ec16ff1bb34a5b6b78981" compoundref="parserfromxml_8cpp" startline="1097" endline="1100">qtreports::detail::ParserFromXML::getReport</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1fedf145e441f88832bd7f7e4b890e28" compoundref="parserfromxml_8cpp" startline="1107" endline="1110">qtreports::detail::ParserFromXML::getLog</references>
         <referencedby refid="classqtreports_1_1_engine_1a18298bdce3e086347705e133eccfd7fa" compoundref="engine_8cpp" startline="23" endline="27">Engine</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -626,24 +626,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="231">
+      <node id="240">
         <label>QObject</label>
       </node>
-      <node id="230">
+      <node id="239">
         <label>qtreports::Engine</label>
         <link refid="classqtreports_1_1_engine"/>
-        <childnode refid="231" relation="public-inheritance">
+        <childnode refid="240" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="233">
+      <node id="242">
         <label>QObject</label>
       </node>
-      <node id="232">
+      <node id="241">
         <label>qtreports::Engine</label>
         <link refid="classqtreports_1_1_engine"/>
-        <childnode refid="233" relation="public-inheritance">
+        <childnode refid="242" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

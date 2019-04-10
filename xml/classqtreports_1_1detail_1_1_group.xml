@@ -204,38 +204,38 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;group&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="240">
+      <node id="249">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="239">
+      <node id="248">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="240" relation="public-inheritance">
+        <childnode refid="249" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="238">
+      <node id="247">
         <label>qtreports::detail::Group</label>
         <link refid="classqtreports_1_1detail_1_1_group"/>
-        <childnode refid="239" relation="public-inheritance">
+        <childnode refid="248" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="243">
+      <node id="252">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="242">
+      <node id="251">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="243" relation="public-inheritance">
+        <childnode refid="252" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="241">
+      <node id="250">
         <label>qtreports::detail::Group</label>
         <link refid="classqtreports_1_1detail_1_1_group"/>
-        <childnode refid="242" relation="public-inheritance">
+        <childnode refid="251" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

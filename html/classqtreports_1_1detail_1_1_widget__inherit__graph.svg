@@ -106,9 +106,9 @@ var sectionId = 'dynsection-0';
 <text text-anchor="start" x="8" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Band()</text>
 <text text-anchor="start" x="8" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Band()</text>
 <text text-anchor="start" x="8" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addCrosstab()</text>
-<text text-anchor="start" x="8" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addStaticText()</text>
-<text text-anchor="start" x="8" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getCrosstabs()</text>
-<text text-anchor="start" x="8" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getCrosstab()</text>
+<text text-anchor="start" x="8" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getCrosstabs()</text>
+<text text-anchor="start" x="8" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getCrosstab()</text>
+<text text-anchor="start" x="8" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addStaticText()</text>
 <text text-anchor="start" x="8" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getStaticTexts()</text>
 <text text-anchor="start" x="8" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getStaticText()</text>
 <text text-anchor="start" x="8" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getStaticTextsSize()</text>
@@ -144,38 +144,35 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_cell_contents.html" target="_top" xlink:title="{qtreports::detail::\lCellContents\n|&#45; m_boxPtr\l&#45; m_textFieldPtr\l|+ CellContents()\l+ ~CellContents()\l+ setBox()\l+ setTextField()\l+ getBox()\l+ getTextField()\l}">
-<polygon fill="none" stroke="black" points="146,-303.5 146,-437.5 250,-437.5 250,-303.5 146,-303.5"/>
-<text text-anchor="start" x="154" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="198" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">CellContents</text>
-<polyline fill="none" stroke="black" points="146,-407.5 250,-407.5 "/>
-<text text-anchor="start" x="154" y="-395.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_boxPtr</text>
-<text text-anchor="start" x="154" y="-384.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_textFieldPtr</text>
-<polyline fill="none" stroke="black" points="146,-377.5 250,-377.5 "/>
-<text text-anchor="start" x="154" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CellContents()</text>
-<text text-anchor="start" x="154" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CellContents()</text>
-<text text-anchor="start" x="154" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setBox()</text>
-<text text-anchor="start" x="154" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setTextField()</text>
-<text text-anchor="start" x="154" y="-321.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBox()</text>
-<text text-anchor="start" x="154" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getTextField()</text>
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_cell_contents.html" target="_top" xlink:title="{qtreports::detail::\lCellContents\n|&#45; m_textField\l|+ CellContents()\l+ ~CellContents()\l+ setTextField()\l+ getTextField()\l}">
+<polygon fill="none" stroke="black" points="146,-320 146,-421 250,-421 250,-320 146,-320"/>
+<text text-anchor="start" x="154" y="-409" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="198" y="-398" font-family="Helvetica,sans-Serif" font-size="10.00">CellContents</text>
+<polyline fill="none" stroke="black" points="146,-391 250,-391 "/>
+<text text-anchor="start" x="154" y="-379" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_textField</text>
+<polyline fill="none" stroke="black" points="146,-372 250,-372 "/>
+<text text-anchor="start" x="154" y="-360" font-family="Helvetica,sans-Serif" font-size="10.00">+ CellContents()</text>
+<text text-anchor="start" x="154" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CellContents()</text>
+<text text-anchor="start" x="154" y="-338" font-family="Helvetica,sans-Serif" font-size="10.00">+ setTextField()</text>
+<text text-anchor="start" x="154" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00">+ getTextField()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M394.918,-758.538C351.376,-721.091 293.565,-664.5 259,-603 230.083,-551.55 214.478,-485.95 206.313,-437.728"/>
+<path fill="none" stroke="midnightblue" d="M394.918,-758.538C351.376,-721.091 293.565,-664.5 259,-603 226.621,-545.391 210.932,-470.04 203.691,-421.209"/>
 <polygon fill="none" stroke="midnightblue" points="392.714,-761.259 402.599,-765.074 397.251,-755.927 392.714,-761.259"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_crosstab.html" target="_top" xlink:title="{qtreports::detail::\lCrosstab\n|# m_rowGroup\l# m_columnGroup\l# m_crosstabCell\l|+ Crosstab()\l+ ~Crosstab()\l+ setRowGroup()\l+ getRowGroup()\l+ setColumnGroup()\l+ getColumnGroup()\l+ setCrosstabCell()\l+ getCrosstabCell()\l}">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_crosstab.html" target="_top" xlink:title="{qtreports::detail::\lCrosstab\n|&#45; m_rowGroup\l&#45; m_columnGroup\l&#45; m_crosstabCell\l|+ Crosstab()\l+ ~Crosstab()\l+ setRowGroup()\l+ getRowGroup()\l+ setColumnGroup()\l+ getColumnGroup()\l+ setCrosstabCell()\l+ getCrosstabCell()\l}">
 <polygon fill="none" stroke="black" points="268.5,-287 268.5,-454 385.5,-454 385.5,-287 268.5,-287"/>
 <text text-anchor="start" x="276.5" y="-442" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="327" y="-431" font-family="Helvetica,sans-Serif" font-size="10.00">Crosstab</text>
 <polyline fill="none" stroke="black" points="268.5,-424 385.5,-424 "/>
-<text text-anchor="start" x="276.5" y="-412" font-family="Helvetica,sans-Serif" font-size="10.00"># m_rowGroup</text>
-<text text-anchor="start" x="276.5" y="-401" font-family="Helvetica,sans-Serif" font-size="10.00"># m_columnGroup</text>
-<text text-anchor="start" x="276.5" y="-390" font-family="Helvetica,sans-Serif" font-size="10.00"># m_crosstabCell</text>
+<text text-anchor="start" x="276.5" y="-412" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_rowGroup</text>
+<text text-anchor="start" x="276.5" y="-401" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_columnGroup</text>
+<text text-anchor="start" x="276.5" y="-390" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_crosstabCell</text>
 <polyline fill="none" stroke="black" points="268.5,-383 385.5,-383 "/>
 <text text-anchor="start" x="276.5" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">+ Crosstab()</text>
 <text text-anchor="start" x="276.5" y="-360" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Crosstab()</text>

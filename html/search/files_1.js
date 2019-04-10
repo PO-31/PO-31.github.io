@@ -10,8 +10,10 @@ var searchData=
   ['convertertoqwidget_2ehpp',['convertertoqwidget.hpp',['../convertertoqwidget_8hpp.html',1,'']]],
   ['crosstab_2ecpp',['crosstab.cpp',['../crosstab_8cpp.html',1,'']]],
   ['crosstab_2ehpp',['crosstab.hpp',['../crosstab_8hpp.html',1,'']]],
+  ['crosstabcell_2ecpp',['crosstabcell.cpp',['../crosstabcell_8cpp.html',1,'']]],
+  ['crosstabcell_2ehpp',['crosstabcell.hpp',['../crosstabcell_8hpp.html',1,'']]],
   ['crosstabgroup_2ecpp',['crosstabgroup.cpp',['../crosstabgroup_8cpp.html',1,'']]],
   ['crosstabgroup_2ehpp',['crosstabgroup.hpp',['../crosstabgroup_8hpp.html',1,'']]],
-  ['crosstabsection_2ecpp',['crosstabsection.cpp',['../crosstabsection_8cpp.html',1,'']]],
-  ['crosstabsection_2ehpp',['crosstabsection.hpp',['../crosstabsection_8hpp.html',1,'']]]
+  ['crosstabheader_2ecpp',['crosstabheader.cpp',['../crosstabheader_8cpp.html',1,'']]],
+  ['crosstabheader_2ehpp',['crosstabheader.hpp',['../crosstabheader_8hpp.html',1,'']]]
 ];

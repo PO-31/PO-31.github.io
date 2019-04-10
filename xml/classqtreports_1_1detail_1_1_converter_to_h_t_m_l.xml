@@ -349,7 +349,7 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="199">
+      <node id="204">
         <label>qtreports::detail::ConverterToHTML</label>
         <link refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l"/>
       </node>

@@ -15,6 +15,7 @@ var searchData=
   ['createsection',['createSection',['../classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c',1,'qtreports::detail::ConverterToPDF::createSection()'],['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e',1,'qtreports::detail::ConverterToQWidget::createSection()']]],
   ['createwidget',['createWidget',['../classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434',1,'qtreports::Engine']]],
   ['crosstab',['Crosstab',['../classqtreports_1_1detail_1_1_crosstab.html#a36978895815a04d91b7a0fdb34559db0',1,'qtreports::detail::Crosstab']]],
-  ['crosstabgroup',['CrosstabGroup',['../classqtreports_1_1detail_1_1_crosstab_group.html#a2f62b918f6f2e5e038e52c62949e9bdb',1,'qtreports::detail::CrosstabGroup']]],
-  ['crosstabsection',['CrosstabSection',['../classqtreports_1_1detail_1_1_crosstab_section.html#adc039d86e0dc4622a6632732c3e745ff',1,'qtreports::detail::CrosstabSection']]]
+  ['crosstabcell',['CrosstabCell',['../classqtreports_1_1detail_1_1_crosstab_cell.html#ab0e8c9c735e1201c45b05db9e17fdcb0',1,'qtreports::detail::CrosstabCell']]],
+  ['crosstabgroup',['CrosstabGroup',['../classqtreports_1_1detail_1_1_crosstab_group.html#a906e886220629b1d54fe02779875cae9',1,'qtreports::detail::CrosstabGroup']]],
+  ['crosstabheader',['CrosstabHeader',['../classqtreports_1_1detail_1_1_crosstab_header.html#a297dc020332c56af7f6f7bb350c04f23',1,'qtreports::detail::CrosstabHeader']]]
 ];

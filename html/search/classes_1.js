@@ -5,6 +5,7 @@ var searchData=
   ['convertertopdf',['ConverterToPDF',['../classqtreports_1_1detail_1_1_converter_to_p_d_f.html',1,'qtreports::detail']]],
   ['convertertoqwidget',['ConverterToQWidget',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html',1,'qtreports::detail']]],
   ['crosstab',['Crosstab',['../classqtreports_1_1detail_1_1_crosstab.html',1,'qtreports::detail']]],
+  ['crosstabcell',['CrosstabCell',['../classqtreports_1_1detail_1_1_crosstab_cell.html',1,'qtreports::detail']]],
   ['crosstabgroup',['CrosstabGroup',['../classqtreports_1_1detail_1_1_crosstab_group.html',1,'qtreports::detail']]],
-  ['crosstabsection',['CrosstabSection',['../classqtreports_1_1detail_1_1_crosstab_section.html',1,'qtreports::detail']]]
+  ['crosstabheader',['CrosstabHeader',['../classqtreports_1_1detail_1_1_crosstab_header.html',1,'qtreports::detail']]]
 ];
