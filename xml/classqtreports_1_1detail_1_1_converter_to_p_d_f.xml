@@ -18,7 +18,7 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="61" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="61" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="209">createBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="328">createBands</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -34,7 +34,7 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="66" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="66" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" compoundref="convertertopdf_8cpp" startline="211" endline="214">getLastError</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" compoundref="convertertopdf_8cpp" startline="330" endline="333">getLastError</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1addc5bb2b5fdca09cebdcbd9462855094" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -64,7 +64,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="79" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="79" bodyend="-1"/>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="209">createBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="328">createBands</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="55" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="211" bodyend="214"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="55" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="330" bodyend="333"/>
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" compoundref="convertertopdf_8hpp" startline="66">m_lastError</references>
         <referencedby refid="classqtreports_1_1_engine_1a34b6ccdf31af3bd275d9fb95100c6bda" compoundref="engine_8cpp" startline="171" endline="188">qtreports::Engine::createPDF</referencedby>
       </memberdef>
@@ -252,7 +252,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="90" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="216" bodyend="327"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="90" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="335" bodyend="446"/>
         <references refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" compoundref="replacer_8cpp" startline="101" endline="115">qtreports::detail::Replacer::replaceField</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
@@ -288,7 +288,7 @@
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" compoundref="convertertopdf_8hpp" startline="66">m_lastError</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1addc5bb2b5fdca09cebdcbd9462855094" compoundref="convertertopdf_8hpp" startline="71">m_currentResolution</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="216" endline="327">addGroupsIntoReport</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="335" endline="446">addGroupsIntoReport</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af39953d8db1bdcbbcf59cc00b05747eb" compoundref="convertertopdf_8cpp" startline="19" endline="22">convert</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -356,9 +356,9 @@
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ae295dae7db4f6f83d55f0ca70b035796" compoundref="convertertopdf_8hpp" startline="61">m_report</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af9fb55ffe55bec1cd0eaa3a73f46308c" compoundref="convertertopdf_8hpp" startline="66">m_lastError</references>
         <references refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="247" endline="250">qtreports::detail::Replacer::getLastError</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="209">createBands</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="328">createBands</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aad8435572f5ba065f8f2fef428d97b22" compoundref="convertertopdf_8cpp" startline="34" endline="98">create</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="216" endline="327">addGroupsIntoReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="335" endline="446">addGroupsIntoReport</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -408,9 +408,11 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="121" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="118" bodyend="209"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="121" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="118" bodyend="328"/>
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1afdfd7c1e9538b7c12c3df8d4285c899b" compoundref="convertertopdf_8hpp" startline="79">m_currentHeight</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ae295dae7db4f6f83d55f0ca70b035796" compoundref="convertertopdf_8hpp" startline="61">m_report</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" compoundref="replacer_8cpp" startline="145" endline="155">qtreports::detail::Replacer::replaceColumnGroupsInCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" compoundref="replacer_8cpp" startline="133" endline="143">qtreports::detail::Replacer::replaceRowGroupsInCrosstab</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">createSection</referencedby>
       </memberdef>
       </sectiondef>

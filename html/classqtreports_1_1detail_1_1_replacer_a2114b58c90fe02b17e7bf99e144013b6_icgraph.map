@@ -1,12 +1,18 @@
 <map id="qtreports::detail::Replacer::replaceRowGroupInCrosstab" name="qtreports::detail::Replacer::replaceRowGroupInCrosstab">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_replacer.html#ae0f12ba0e77e9ef89b9479272e843fe6" title="qtreports::detail::\lReplacer::replaceRowGroups\lInCrosstab" alt="" coords="259,63,460,119"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#aa3be16e037533a4a5b58596087207187" title="Создает band. " alt="" coords="508,63,667,119"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" title="Создает секцию. " alt="" coords="715,63,873,119"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" title="Конвертирует отчет в QWidget. " alt="" coords="1128,63,1287,119"/>
-<area shape="rect" id="node11" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" title="Функция добавления группировок в отчет. " alt="" coords="921,95,1080,151"/>
-<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" title="Конвертирует отчет в виджет. " alt="" coords="1335,63,1493,119"/>
-<area shape="rect" id="node7" href="$classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" title="Создает виджет отчета для вывода на экран. " alt="" coords="1541,5,1681,47"/>
-<area shape="rect" id="node8" href="$classqtreports_1_1_engine.html#a3966d8f0ebb6c1f94812ec21e21680c0" title="qtreports::Engine::\lcreateLayout" alt="" coords="1541,71,1681,112"/>
-<area shape="rect" id="node9" href="$classqtreports_1_1_engine.html#a93dc7711446a155f87d9146efb493f9e" title="qtreports::Engine::\ldrawPreview" alt="" coords="1541,136,1681,177"/>
-<area shape="rect" id="node10" href="$classqtreports_1_1_engine.html#ae80c66a0bc958bf82e023b646e18d55b" title="qtreports::Engine::\lprint" alt="" coords="1729,136,1869,177"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_replacer.html#ae0f12ba0e77e9ef89b9479272e843fe6" title="qtreports::detail::\lReplacer::replaceRowGroups\lInCrosstab" alt="" coords="259,60,460,116"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aba1de1bf9abc3ea9b7b5c2b8317f5a0f" title="Создает band. " alt="" coords="508,32,719,73"/>
+<area shape="rect" id="node9" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#aa3be16e037533a4a5b58596087207187" title="Создает band. " alt="" coords="534,96,693,152"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c" title="Создает секцию. " alt="" coords="767,32,985,73"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aad8435572f5ba065f8f2fef428d97b22" title="Конвертирует отчет в PDF документ. " alt="" coords="1305,33,1476,74"/>
+<area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff" title="Добавляет группу в репорт. " alt="" coords="1033,27,1257,83"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb" title="Запускает процесс конвертации. " alt="" coords="1524,33,1703,74"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" title="Создает PDF документ отчета по указанному пути " alt="" coords="1751,33,1891,74"/>
+<area shape="rect" id="node10" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" title="Создает секцию. " alt="" coords="797,96,955,152"/>
+<area shape="rect" id="node11" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" title="Конвертирует отчет в QWidget. " alt="" coords="1311,158,1470,214"/>
+<area shape="rect" id="node17" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" title="Функция добавления группировок в отчет. " alt="" coords="1066,159,1225,215"/>
+<area shape="rect" id="node12" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" title="Конвертирует отчет в виджет. " alt="" coords="1534,158,1693,214"/>
+<area shape="rect" id="node13" href="$classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" title="Создает виджет отчета для вывода на экран. " alt="" coords="1751,100,1891,141"/>
+<area shape="rect" id="node14" href="$classqtreports_1_1_engine.html#a3966d8f0ebb6c1f94812ec21e21680c0" title="qtreports::Engine::\lcreateLayout" alt="" coords="1751,165,1891,206"/>
+<area shape="rect" id="node15" href="$classqtreports_1_1_engine.html#a93dc7711446a155f87d9146efb493f9e" title="qtreports::Engine::\ldrawPreview" alt="" coords="1751,230,1891,272"/>
+<area shape="rect" id="node16" href="$classqtreports_1_1_engine.html#ae80c66a0bc958bf82e023b646e18d55b" title="qtreports::Engine::\lprint" alt="" coords="1939,230,2079,272"/>
 </map>

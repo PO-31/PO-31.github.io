@@ -407,7 +407,7 @@
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="153">m_report</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="152">m_lastError</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af39953d8db1bdcbbcf59cc00b05747eb" compoundref="convertertopdf_8cpp" startline="19" endline="22">qtreports::detail::ConverterToPDF::convert</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" compoundref="convertertopdf_8cpp" startline="211" endline="214">qtreports::detail::ConverterToPDF::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" compoundref="convertertopdf_8cpp" startline="330" endline="333">qtreports::detail::ConverterToPDF::getLastError</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>

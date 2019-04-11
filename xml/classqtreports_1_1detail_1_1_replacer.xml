@@ -238,7 +238,7 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="63" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="101" bodyend="115"/>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a587e5f6bfbd1185f6bf32d76ac231a13" compoundref="convertertohtml_8cpp" startline="201" endline="313">qtreports::detail::ConverterToHTML::addGroupsIntoReport</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="216" endline="327">qtreports::detail::ConverterToPDF::addGroupsIntoReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="335" endline="446">qtreports::detail::ConverterToPDF::addGroupsIntoReport</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ac98aceb5ee703053d7691029da84e296" compoundref="convertertoqwidget_8cpp" startline="216" endline="332">qtreports::detail::ConverterToQWidget::addGroupsIntoReport</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" compoundref="replacer_8cpp" startline="157" endline="164">replaceRowGroupInCrosstab</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" compoundref="replacer_8cpp" startline="166" endline="173">replaceColumnGroupInCrosstab</referencedby>
@@ -318,6 +318,7 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="73" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="145" bodyend="155"/>
         <references refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" compoundref="replacer_8cpp" startline="166" endline="173">replaceColumnGroupInCrosstab</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="328">qtreports::detail::ConverterToPDF::createBands</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">qtreports::detail::ConverterToQWidget::createBands</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -345,6 +346,7 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="75" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="133" bodyend="143"/>
         <references refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" compoundref="replacer_8cpp" startline="157" endline="164">replaceRowGroupInCrosstab</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1aba1de1bf9abc3ea9b7b5c2b8317f5a0f" compoundref="convertertopdf_8cpp" startline="118" endline="328">qtreports::detail::ConverterToPDF::createBands</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">qtreports::detail::ConverterToQWidget::createBands</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
