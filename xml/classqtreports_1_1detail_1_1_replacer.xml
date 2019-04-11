@@ -15,11 +15,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="117" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" bodystart="117" bodyend="-1"/>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a626052332a0425d71f1f754824dc97dd" compoundref="replacer_8cpp" startline="42" endline="62">replaceParametersInSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a0755107511a830346c28a8e51bcf99e2" compoundref="replacer_8cpp" startline="64" endline="97">replaceParameters</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" compoundref="replacer_8cpp" startline="150" endline="178">replaceFieldInSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="194" endline="197">getLastError</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="127" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" bodystart="127" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a626052332a0425d71f1f754824dc97dd" compoundref="replacer_8cpp" startline="44" endline="64">replaceParametersInSection</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a0755107511a830346c28a8e51bcf99e2" compoundref="replacer_8cpp" startline="66" endline="99">replaceParameters</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" compoundref="replacer_8cpp" startline="203" endline="231">replaceFieldInSection</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="247" endline="250">getLastError</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="23" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="13" bodyend="13"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="23" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="15" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a346565f872ea148913fb6f9a79f7479f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="24" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="15" bodyend="15"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="24" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="17" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1abb903f1c1172efa7e26b040a5695cc86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -83,9 +83,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="31" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="17" bodyend="31"/>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1add3b6a2869033620c4618669870c26f8" compoundref="replacer_8cpp" startline="33" endline="40">replaceParametersInTextWidget</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="180" endline="192">replace</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="31" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="19" bodyend="33"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1add3b6a2869033620c4618669870c26f8" compoundref="replacer_8cpp" startline="35" endline="42">replaceParametersInTextWidget</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="233" endline="245">replace</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1add3b6a2869033620c4618669870c26f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -121,9 +121,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="39" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="33" bodyend="40"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1abb903f1c1172efa7e26b040a5695cc86" compoundref="replacer_8cpp" startline="17" endline="31">replaceParameters</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a626052332a0425d71f1f754824dc97dd" compoundref="replacer_8cpp" startline="42" endline="62">replaceParametersInSection</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="39" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="35" bodyend="42"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1abb903f1c1172efa7e26b040a5695cc86" compoundref="replacer_8cpp" startline="19" endline="33">replaceParameters</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a626052332a0425d71f1f754824dc97dd" compoundref="replacer_8cpp" startline="44" endline="64">replaceParametersInSection</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a626052332a0425d71f1f754824dc97dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -159,10 +159,10 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="47" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="42" bodyend="62"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" compoundref="replacer_8hpp" startline="117">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1add3b6a2869033620c4618669870c26f8" compoundref="replacer_8cpp" startline="33" endline="40">replaceParametersInTextWidget</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a0755107511a830346c28a8e51bcf99e2" compoundref="replacer_8cpp" startline="64" endline="97">replaceParameters</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="47" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="44" bodyend="64"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" compoundref="replacer_8hpp" startline="127">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1add3b6a2869033620c4618669870c26f8" compoundref="replacer_8cpp" startline="35" endline="42">replaceParametersInTextWidget</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a0755107511a830346c28a8e51bcf99e2" compoundref="replacer_8cpp" startline="66" endline="99">replaceParameters</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a0755107511a830346c28a8e51bcf99e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -187,9 +187,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="55" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="64" bodyend="97"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" compoundref="replacer_8hpp" startline="117">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a626052332a0425d71f1f754824dc97dd" compoundref="replacer_8cpp" startline="42" endline="62">replaceParametersInSection</references>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="55" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="66" bodyend="99"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" compoundref="replacer_8hpp" startline="127">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a626052332a0425d71f1f754824dc97dd" compoundref="replacer_8cpp" startline="44" endline="64">replaceParametersInSection</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -236,11 +236,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="63" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="99" bodyend="113"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="63" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="101" bodyend="115"/>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a587e5f6bfbd1185f6bf32d76ac231a13" compoundref="convertertohtml_8cpp" startline="201" endline="313">qtreports::detail::ConverterToHTML::addGroupsIntoReport</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1adda58d86ecfee05cdcc5e5ce161926ff" compoundref="convertertopdf_8cpp" startline="216" endline="327">qtreports::detail::ConverterToPDF::addGroupsIntoReport</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ac98aceb5ee703053d7691029da84e296" compoundref="convertertoqwidget_8cpp" startline="217" endline="333">qtreports::detail::ConverterToQWidget::addGroupsIntoReport</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" compoundref="replacer_8cpp" startline="131" endline="138">replaceFieldInTextWidget</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ac98aceb5ee703053d7691029da84e296" compoundref="convertertoqwidget_8cpp" startline="216" endline="332">qtreports::detail::ConverterToQWidget::addGroupsIntoReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" compoundref="replacer_8cpp" startline="157" endline="164">replaceRowGroupInCrosstab</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" compoundref="replacer_8cpp" startline="166" endline="173">replaceColumnGroupInCrosstab</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" compoundref="replacer_8cpp" startline="175" endline="182">replaceCellInCrosstab</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" compoundref="replacer_8cpp" startline="184" endline="191">replaceFieldInTextWidget</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1ae1ac521aeaf5fdd694e79e2ae52d4704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QImage</type>
@@ -287,8 +290,142 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="71" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="115" bodyend="129"/>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" compoundref="replacer_8cpp" startline="140" endline="148">replaceFieldInImageWidget</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="71" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="117" bodyend="131"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" compoundref="replacer_8cpp" startline="193" endline="201">replaceFieldInImageWidget</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::Replacer::replaceColumnGroupsInCrosstab</definition>
+        <argsstring>(const CrosstabPtr &amp;crosstab, const ReportPtr &amp;report, QList&lt; QString &gt; &amp;columnGroups)</argsstring>
+        <name>replaceColumnGroupsInCrosstab</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref> &amp;</type>
+          <declname>crosstab</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <param>
+          <type>QList&lt; QString &gt; &amp;</type>
+          <declname>columnGroups</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="73" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="145" bodyend="155"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" compoundref="replacer_8cpp" startline="166" endline="173">replaceColumnGroupInCrosstab</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">qtreports::detail::ConverterToQWidget::createBands</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::Replacer::replaceRowGroupsInCrosstab</definition>
+        <argsstring>(const CrosstabPtr &amp;crosstab, const ReportPtr &amp;report, QList&lt; QString &gt; &amp;rowGroups)</argsstring>
+        <name>replaceRowGroupsInCrosstab</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref> &amp;</type>
+          <declname>crosstab</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <param>
+          <type>QList&lt; QString &gt; &amp;</type>
+          <declname>rowGroups</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="75" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="133" bodyend="143"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" compoundref="replacer_8cpp" startline="157" endline="164">replaceRowGroupInCrosstab</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">qtreports::detail::ConverterToQWidget::createBands</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::Replacer::replaceRowGroupInCrosstab</definition>
+        <argsstring>(const CrosstabPtr &amp;crosstab, const ReportPtr &amp;report, int i)</argsstring>
+        <name>replaceRowGroupInCrosstab</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref> &amp;</type>
+          <declname>crosstab</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="77" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="157" bodyend="164"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" compoundref="replacer_8cpp" startline="101" endline="115">replaceField</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" compoundref="replacer_8cpp" startline="133" endline="143">replaceRowGroupsInCrosstab</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::Replacer::replaceColumnGroupInCrosstab</definition>
+        <argsstring>(const CrosstabPtr &amp;crosstab, const ReportPtr &amp;report, int i)</argsstring>
+        <name>replaceColumnGroupInCrosstab</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref> &amp;</type>
+          <declname>crosstab</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="79" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="166" bodyend="173"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" compoundref="replacer_8cpp" startline="101" endline="115">replaceField</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" compoundref="replacer_8cpp" startline="145" endline="155">replaceColumnGroupsInCrosstab</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::Replacer::replaceCellInCrosstab</definition>
+        <argsstring>(const CrosstabPtr &amp;crosstab, const ReportPtr &amp;report, int i)</argsstring>
+        <name>replaceCellInCrosstab</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref> &amp;</type>
+          <declname>crosstab</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="81" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="175" bodyend="182"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" compoundref="replacer_8cpp" startline="101" endline="115">replaceField</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -335,9 +472,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="80" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="131" bodyend="138"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" compoundref="replacer_8cpp" startline="99" endline="113">replaceField</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" compoundref="replacer_8cpp" startline="150" endline="178">replaceFieldInSection</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="90" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="184" bodyend="191"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" compoundref="replacer_8cpp" startline="101" endline="115">replaceField</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" compoundref="replacer_8cpp" startline="203" endline="231">replaceFieldInSection</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -384,9 +521,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="89" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="140" bodyend="148"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1ae1ac521aeaf5fdd694e79e2ae52d4704" compoundref="replacer_8cpp" startline="115" endline="129">replaceFieldImage</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" compoundref="replacer_8cpp" startline="150" endline="178">replaceFieldInSection</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="99" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="193" bodyend="201"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1ae1ac521aeaf5fdd694e79e2ae52d4704" compoundref="replacer_8cpp" startline="117" endline="131">replaceFieldImage</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" compoundref="replacer_8cpp" startline="203" endline="231">replaceFieldInSection</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -433,11 +570,11 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="99" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="150" bodyend="178"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" compoundref="replacer_8hpp" startline="117">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" compoundref="replacer_8cpp" startline="131" endline="138">replaceFieldInTextWidget</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" compoundref="replacer_8cpp" startline="140" endline="148">replaceFieldInImageWidget</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="180" endline="192">replace</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="109" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="203" bodyend="231"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" compoundref="replacer_8hpp" startline="127">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" compoundref="replacer_8cpp" startline="184" endline="191">replaceFieldInTextWidget</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" compoundref="replacer_8cpp" startline="193" endline="201">replaceFieldInImageWidget</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="233" endline="245">replace</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -484,12 +621,12 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="109" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="180" bodyend="192"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" compoundref="replacer_8cpp" startline="150" endline="178">replaceFieldInSection</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1abb903f1c1172efa7e26b040a5695cc86" compoundref="replacer_8cpp" startline="17" endline="31">replaceParameters</references>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="119" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="233" bodyend="245"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" compoundref="replacer_8cpp" startline="203" endline="231">replaceFieldInSection</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1abb903f1c1172efa7e26b040a5695cc86" compoundref="replacer_8cpp" startline="19" endline="33">replaceParameters</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">qtreports::detail::ConverterToHTML::addBands</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">qtreports::detail::ConverterToPDF::createSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" compoundref="convertertoqwidget_8cpp" startline="336" endline="363">qtreports::detail::ConverterToQWidget::createSection</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" compoundref="convertertoqwidget_8cpp" startline="335" endline="362">qtreports::detail::ConverterToQWidget::createSection</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const QString</type>
@@ -502,11 +639,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="114" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="194" bodyend="197"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" compoundref="replacer_8hpp" startline="117">m_lastError</references>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="124" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="247" bodyend="250"/>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" compoundref="replacer_8hpp" startline="127">m_lastError</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">qtreports::detail::ConverterToHTML::addBands</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a5d9212cf5250d8d938359c417537337c" compoundref="convertertopdf_8cpp" startline="100" endline="116">qtreports::detail::ConverterToPDF::createSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" compoundref="convertertoqwidget_8cpp" startline="336" endline="363">qtreports::detail::ConverterToQWidget::createSection</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" compoundref="convertertoqwidget_8cpp" startline="335" endline="362">qtreports::detail::ConverterToQWidget::createSection</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -519,11 +656,14 @@
         <link refid="classqtreports_1_1detail_1_1_replacer"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="20" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" bodystart="20" bodyend="119"/>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="20" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" bodystart="20" bodyend="129"/>
     <listofallmembers>
       <member refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>getLastError</name></member>
       <member refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" prot="private" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>m_lastError</name></member>
       <member refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replace</name></member>
+      <member refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceCellInCrosstab</name></member>
+      <member refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceColumnGroupInCrosstab</name></member>
+      <member refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceColumnGroupsInCrosstab</name></member>
       <member refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceField</name></member>
       <member refid="classqtreports_1_1detail_1_1_replacer_1ae1ac521aeaf5fdd694e79e2ae52d4704" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceFieldImage</name></member>
       <member refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceFieldInImageWidget</name></member>
@@ -534,6 +674,8 @@
       <member refid="classqtreports_1_1detail_1_1_replacer_1a626052332a0425d71f1f754824dc97dd" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceParametersInSection</name></member>
       <member refid="classqtreports_1_1detail_1_1_replacer_1add3b6a2869033620c4618669870c26f8" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceParametersInTextWidget</name></member>
       <member refid="classqtreports_1_1detail_1_1_replacer_1adb6551cf5bc3fda21e3eeba1894bc172" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>Replacer</name></member>
+      <member refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceRowGroupInCrosstab</name></member>
+      <member refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>replaceRowGroupsInCrosstab</name></member>
       <member refid="classqtreports_1_1detail_1_1_replacer_1a346565f872ea148913fb6f9a79f7479f" prot="public" virt="non-virtual"><scope>qtreports::detail::Replacer</scope><name>~Replacer</name></member>
     </listofallmembers>
   </compounddef>

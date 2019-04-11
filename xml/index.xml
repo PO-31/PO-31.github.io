@@ -338,6 +338,11 @@
     <member refid="classqtreports_1_1detail_1_1_replacer_1a0755107511a830346c28a8e51bcf99e2" kind="function"><name>replaceParameters</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kind="function"><name>replaceField</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1ae1ac521aeaf5fdd694e79e2ae52d4704" kind="function"><name>replaceFieldImage</name></member>
+    <member refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" kind="function"><name>replaceColumnGroupsInCrosstab</name></member>
+    <member refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" kind="function"><name>replaceRowGroupsInCrosstab</name></member>
+    <member refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" kind="function"><name>replaceRowGroupInCrosstab</name></member>
+    <member refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" kind="function"><name>replaceColumnGroupInCrosstab</name></member>
+    <member refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" kind="function"><name>replaceCellInCrosstab</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" kind="function"><name>replaceFieldInTextWidget</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" kind="function"><name>replaceFieldInImageWidget</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" kind="function"><name>replaceFieldInSection</name></member>

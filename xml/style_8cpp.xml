@@ -4,44 +4,44 @@
     <compoundname>style.cpp</compoundname>
     <includes refid="style_8hpp" local="yes">style.hpp</includes>
     <incdepgraph>
-      <node id="3611">
+      <node id="3617">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="3612" relation="include">
+        <childnode refid="3618" relation="include">
         </childnode>
-        <childnode refid="3613" relation="include">
+        <childnode refid="3619" relation="include">
         </childnode>
-        <childnode refid="3614" relation="include">
+        <childnode refid="3620" relation="include">
         </childnode>
-        <childnode refid="3615" relation="include">
+        <childnode refid="3621" relation="include">
         </childnode>
       </node>
-      <node id="3614">
+      <node id="3620">
         <label>QSharedPointer</label>
       </node>
-      <node id="3610">
+      <node id="3616">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp</label>
         <link refid="style.cpp"/>
-        <childnode refid="3611" relation="include">
+        <childnode refid="3617" relation="include">
         </childnode>
       </node>
-      <node id="3612">
+      <node id="3618">
         <label>QString</label>
       </node>
-      <node id="3613">
+      <node id="3619">
         <label>QColor</label>
       </node>
-      <node id="3615">
+      <node id="3621">
         <label>object.hpp</label>
         <link refid="object_8hpp"/>
-        <childnode refid="3612" relation="include">
+        <childnode refid="3618" relation="include">
         </childnode>
-        <childnode refid="3616" relation="include">
+        <childnode refid="3622" relation="include">
         </childnode>
-        <childnode refid="3614" relation="include">
+        <childnode refid="3620" relation="include">
         </childnode>
       </node>
-      <node id="3616">
+      <node id="3622">
         <label>QVariant</label>
       </node>
     </incdepgraph>

@@ -396,10 +396,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" line="64" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="64" bodyend="75"/>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1af350953efb07bf3393c33846a81b1121" compoundref="convertertoqwidget_8cpp" startline="77" endline="99">qtreports::detail::ConverterToQWidget::addVerticalBorder</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a21d211f4a1f0f46f2220a0959c36367b" compoundref="convertertoqwidget_8cpp" startline="101" endline="122">qtreports::detail::ConverterToQWidget::addEmptySection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ae126b16c5a846e84f12d86ca8ef253dd" compoundref="convertertoqwidget_8cpp" startline="124" endline="152">qtreports::detail::ConverterToQWidget::addSectionLayout</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" line="65" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="65" bodyend="76"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1af350953efb07bf3393c33846a81b1121" compoundref="convertertoqwidget_8cpp" startline="78" endline="100">qtreports::detail::ConverterToQWidget::addVerticalBorder</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a21d211f4a1f0f46f2220a0959c36367b" compoundref="convertertoqwidget_8cpp" startline="102" endline="123">qtreports::detail::ConverterToQWidget::addEmptySection</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ae126b16c5a846e84f12d86ca8ef253dd" compoundref="convertertoqwidget_8cpp" startline="125" endline="151">qtreports::detail::ConverterToQWidget::addSectionLayout</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceqtreports_1_1detail_1af9d1cf052a8d77b7e8147f729d9bd0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0ec42eb3dff48f43fdaa4d5a68ef87a4" kindref="member">ParserFromXML::ParseFunc</ref></type>

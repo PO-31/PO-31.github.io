@@ -4,79 +4,79 @@
     <compoundname>ellipse.cpp</compoundname>
     <includes refid="ellipse_8hpp" local="yes">ellipse.hpp</includes>
     <incdepgraph>
-      <node id="3006">
+      <node id="3012">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="3002" relation="include">
-        </childnode>
-        <childnode refid="3007" relation="include">
-        </childnode>
-        <childnode refid="3000" relation="include">
-        </childnode>
         <childnode refid="3008" relation="include">
         </childnode>
-      </node>
-      <node id="2998">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/ellipse.cpp</label>
-        <link refid="ellipse.cpp"/>
-        <childnode refid="2999" relation="include">
-        </childnode>
-      </node>
-      <node id="3005">
-        <label>QRect</label>
-      </node>
-      <node id="3003">
-        <label>QPoint</label>
-      </node>
-      <node id="3000">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="3002">
-        <label>QString</label>
-      </node>
-      <node id="3004">
-        <label>QSize</label>
-      </node>
-      <node id="3007">
-        <label>QColor</label>
-      </node>
-      <node id="3008">
-        <label>object.hpp</label>
-        <link refid="object_8hpp"/>
-        <childnode refid="3002" relation="include">
-        </childnode>
-        <childnode refid="3009" relation="include">
-        </childnode>
-        <childnode refid="3000" relation="include">
-        </childnode>
-      </node>
-      <node id="3001">
-        <label>widget.hpp</label>
-        <link refid="widget_8hpp"/>
-        <childnode refid="3002" relation="include">
-        </childnode>
-        <childnode refid="3003" relation="include">
-        </childnode>
-        <childnode refid="3004" relation="include">
-        </childnode>
-        <childnode refid="3005" relation="include">
-        </childnode>
-        <childnode refid="3000" relation="include">
+        <childnode refid="3013" relation="include">
         </childnode>
         <childnode refid="3006" relation="include">
         </childnode>
-        <childnode refid="3008" relation="include">
+        <childnode refid="3014" relation="include">
         </childnode>
+      </node>
+      <node id="3004">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/ellipse.cpp</label>
+        <link refid="ellipse.cpp"/>
+        <childnode refid="3005" relation="include">
+        </childnode>
+      </node>
+      <node id="3011">
+        <label>QRect</label>
       </node>
       <node id="3009">
+        <label>QPoint</label>
+      </node>
+      <node id="3006">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="3008">
+        <label>QString</label>
+      </node>
+      <node id="3010">
+        <label>QSize</label>
+      </node>
+      <node id="3013">
+        <label>QColor</label>
+      </node>
+      <node id="3014">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="3008" relation="include">
+        </childnode>
+        <childnode refid="3015" relation="include">
+        </childnode>
+        <childnode refid="3006" relation="include">
+        </childnode>
+      </node>
+      <node id="3007">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
+        <childnode refid="3008" relation="include">
+        </childnode>
+        <childnode refid="3009" relation="include">
+        </childnode>
+        <childnode refid="3010" relation="include">
+        </childnode>
+        <childnode refid="3011" relation="include">
+        </childnode>
+        <childnode refid="3006" relation="include">
+        </childnode>
+        <childnode refid="3012" relation="include">
+        </childnode>
+        <childnode refid="3014" relation="include">
+        </childnode>
+      </node>
+      <node id="3015">
         <label>QVariant</label>
       </node>
-      <node id="2999">
+      <node id="3005">
         <label>ellipse.hpp</label>
         <link refid="ellipse_8hpp"/>
-        <childnode refid="3000" relation="include">
+        <childnode refid="3006" relation="include">
         </childnode>
-        <childnode refid="3001" relation="include">
+        <childnode refid="3007" relation="include">
         </childnode>
       </node>
     </incdepgraph>

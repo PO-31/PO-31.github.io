@@ -452,10 +452,10 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="139" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="209" bodyend="226"/>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="153">m_report</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="152">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="23" endline="27">qtreports::detail::ConverterToQWidget::convert</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="24" endline="28">qtreports::detail::ConverterToQWidget::convert</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c">qtreports::detail::ConverterToQWidget::Report</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="59" endline="62">qtreports::detail::ConverterToQWidget::getLastError</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ab01f3bcd13f00483adbdec4eacc272e8" compoundref="convertertoqwidget_8cpp" startline="44" endline="47">qtreports::detail::ConverterToQWidget::getQWidget</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="60" endline="63">qtreports::detail::ConverterToQWidget::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ab01f3bcd13f00483adbdec4eacc272e8" compoundref="convertertoqwidget_8cpp" startline="45" endline="48">qtreports::detail::ConverterToQWidget::getQWidget</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a3966d8f0ebb6c1f94812ec21e21680c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceqtreports_1a8c388f58321d9cf9e0b5d22ed159a65e" kindref="member">QWidgetPtr</ref></type>
@@ -471,10 +471,10 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="140" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="228" bodyend="245"/>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="153">m_report</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="152">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="23" endline="27">qtreports::detail::ConverterToQWidget::convert</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="24" endline="28">qtreports::detail::ConverterToQWidget::convert</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7aebd9bec4d70abc789d439c1f136b0538">qtreports::detail::ConverterToQWidget::Layout</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="59" endline="62">qtreports::detail::ConverterToQWidget::getLastError</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ab01f3bcd13f00483adbdec4eacc272e8" compoundref="convertertoqwidget_8cpp" startline="44" endline="47">qtreports::detail::ConverterToQWidget::getQWidget</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="60" endline="63">qtreports::detail::ConverterToQWidget::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ab01f3bcd13f00483adbdec4eacc272e8" compoundref="convertertoqwidget_8cpp" startline="45" endline="48">qtreports::detail::ConverterToQWidget::getQWidget</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1ae80c66a0bc958bf82e023b646e18d55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -555,11 +555,11 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="158" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="269" bodyend="313"/>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="153">m_report</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="23" endline="27">qtreports::detail::ConverterToQWidget::convert</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="24" endline="28">qtreports::detail::ConverterToQWidget::convert</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c">qtreports::detail::ConverterToQWidget::Report</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="152">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="59" endline="62">qtreports::detail::ConverterToQWidget::getLastError</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7ee736dd6be3d2cd5b3407751d94617a" compoundref="convertertoqwidget_8cpp" startline="54" endline="57">qtreports::detail::ConverterToQWidget::getPages</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="60" endline="63">qtreports::detail::ConverterToQWidget::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7ee736dd6be3d2cd5b3407751d94617a" compoundref="convertertoqwidget_8cpp" startline="55" endline="58">qtreports::detail::ConverterToQWidget::getPages</references>
         <referencedby refid="classqtreports_1_1_engine_1ae80c66a0bc958bf82e023b646e18d55b" compoundref="engine_8cpp" startline="247" endline="267">print</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
