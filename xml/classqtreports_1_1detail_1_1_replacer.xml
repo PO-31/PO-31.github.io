@@ -244,7 +244,7 @@
         <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" compoundref="replacer_8cpp" startline="222" endline="229">replaceColumnGroupInCrosstab</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" compoundref="replacer_8cpp" startline="231" endline="238">replaceCellInCrosstab</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" compoundref="replacer_8cpp" startline="240" endline="247">replaceFieldInTextWidget</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_report_1affe78e092884b14167194cf609b26681" compoundref="report_8cpp" startline="295" endline="321">qtreports::detail::Report::fillGroupsData</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_report_1affe78e092884b14167194cf609b26681" compoundref="report_8cpp" startline="295" endline="323">qtreports::detail::Report::fillGroupsData</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_replacer_1ae1ac521aeaf5fdd694e79e2ae52d4704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QImage</type>
