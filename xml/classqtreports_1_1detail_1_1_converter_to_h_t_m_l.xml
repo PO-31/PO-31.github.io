@@ -17,8 +17,9 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="63" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" bodystart="63" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ace8358a3612fc8085b7c34f1f92341e2" compoundref="convertertohtml_8cpp" startline="45" endline="199">createHTML</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a587e5f6bfbd1185f6bf32d76ac231a13" compoundref="convertertohtml_8cpp" startline="201" endline="313">addGroupsIntoReport</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">addBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a602c8f3bd3bc44df48b2edcee8bcdfa0" compoundref="convertertohtml_8cpp" startline="201" endline="313">addGroupsIntoReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" compoundref="convertertohtml_8cpp" startline="315" endline="421">addBand</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5b8d80606e58c8bcdadc7ce6134e9c2f" compoundref="convertertohtml_8cpp" startline="552" endline="621">addCrosstabsIntoReport</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ae8b03ca6b59a060cb4931adaf484ff4e" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -34,8 +35,8 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="68" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" bodystart="68" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a38e92f3fd70f61c44871b22cddffd15a" compoundref="convertertohtml_8cpp" startline="21" endline="43">convert</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ace8358a3612fc8085b7c34f1f92341e2" compoundref="convertertohtml_8cpp" startline="45" endline="199">createHTML</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">addBands</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5a9c398ebd439b443636448e8a3db924" compoundref="convertertohtml_8cpp" startline="590" endline="592">getLastError</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" compoundref="convertertohtml_8cpp" startline="315" endline="421">addBand</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5a9c398ebd439b443636448e8a3db924" compoundref="convertertohtml_8cpp" startline="623" endline="625">getLastError</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a7ce37e96779cea03cf71570d93680048" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -51,8 +52,8 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="73" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" bodystart="73" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a38e92f3fd70f61c44871b22cddffd15a" compoundref="convertertohtml_8cpp" startline="21" endline="43">convert</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ace8358a3612fc8085b7c34f1f92341e2" compoundref="convertertohtml_8cpp" startline="45" endline="199">createHTML</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">addBands</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ab704b5c4d322179f0cf533045222f3dc" compoundref="convertertohtml_8cpp" startline="594" endline="596">getHTML</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" compoundref="convertertohtml_8cpp" startline="315" endline="421">addBand</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ab704b5c4d322179f0cf533045222f3dc" compoundref="convertertohtml_8cpp" startline="627" endline="629">getHTML</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a42fb7b544afafff1e7416f157bc094df" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -67,7 +68,8 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="78" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" bodystart="78" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ace8358a3612fc8085b7c34f1f92341e2" compoundref="convertertohtml_8cpp" startline="45" endline="199">createHTML</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">addBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" compoundref="convertertohtml_8cpp" startline="315" endline="421">addBand</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5b8d80606e58c8bcdadc7ce6134e9c2f" compoundref="convertertohtml_8cpp" startline="552" endline="621">addCrosstabsIntoReport</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -173,7 +175,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="50" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="590" bodyend="592"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="50" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="623" bodyend="625"/>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ae8b03ca6b59a060cb4931adaf484ff4e" compoundref="convertertohtml_8hpp" startline="68">m_lastError</references>
         <referencedby refid="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" compoundref="engine_8cpp" startline="190" endline="207">qtreports::Engine::createHTML</referencedby>
       </memberdef>
@@ -189,7 +191,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="57" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="594" bodyend="596"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="57" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="627" bodyend="629"/>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a7ce37e96779cea03cf71570d93680048" compoundref="convertertohtml_8hpp" startline="73">m_html</references>
       </memberdef>
       </sectiondef>
@@ -219,17 +221,17 @@
         <references refid="classqtreports_1_1detail_1_1_style_1a2d8d9d0d898c4306e47dcca067c60c28" compoundref="style_8cpp" startline="43" endline="45">qtreports::detail::Style::getFontColor</references>
         <references refid="classqtreports_1_1detail_1_1_style_1a058eab1051810ffdb26d43fb08e523c9" compoundref="style_8cpp" startline="61" endline="64">qtreports::detail::Style::isItalic</references>
         <references refid="classqtreports_1_1detail_1_1_style_1a9f4c8c581c08ffd758fbd3e1b93dee07" compoundref="style_8cpp" startline="51" endline="54">qtreports::detail::Style::isBold</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">addBands</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a587e5f6bfbd1185f6bf32d76ac231a13" compoundref="convertertohtml_8cpp" startline="201" endline="313">addGroupsIntoReport</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" compoundref="convertertohtml_8cpp" startline="315" endline="421">addBand</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a602c8f3bd3bc44df48b2edcee8bcdfa0" compoundref="convertertohtml_8cpp" startline="201" endline="313">addGroupsIntoReport</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ad91ac333abf7d02f7590970a54ef7aae" compoundref="convertertohtml_8cpp" startline="17" endline="19">convert</referencedby>
       </memberdef>
-      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a587e5f6bfbd1185f6bf32d76ac231a13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a602c8f3bd3bc44df48b2edcee8bcdfa0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool qtreports::detail::ConverterToHTML::addGroupsIntoReport</definition>
-        <argsstring>(QSharedPointer&lt; Detail &gt; detail)</argsstring>
+        <argsstring>(DetailPtr detail)</argsstring>
         <name>addGroupsIntoReport</name>
         <param>
-          <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_detail" kindref="compound">Detail</ref> &gt;</type>
+          <type><ref refid="namespaceqtreports_1_1detail_1a77c43eeb3e45752039cc87cfef2bebea" kindref="member">DetailPtr</ref></type>
           <declname>detail</declname>
         </param>
         <briefdescription>
@@ -253,16 +255,16 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="97" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="201" bodyend="313"/>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ac26b71fc6bbf2a8883974083d59f8cdd" compoundref="convertertohtml_8hpp" startline="63">m_report</references>
         <references refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" compoundref="replacer_8cpp" startline="101" endline="115">qtreports::detail::Replacer::replaceField</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">addBands</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" compoundref="convertertohtml_8cpp" startline="315" endline="421">addBand</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ace8358a3612fc8085b7c34f1f92341e2" compoundref="convertertohtml_8cpp" startline="45" endline="199">createHTML</referencedby>
       </memberdef>
-      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
-        <definition>bool qtreports::detail::ConverterToHTML::addBands</definition>
-        <argsstring>(QSharedPointer&lt; Section &gt; section, int sectionIndex)</argsstring>
-        <name>addBands</name>
+        <definition>bool qtreports::detail::ConverterToHTML::addBand</definition>
+        <argsstring>(SectionPtr section, int sectionIndex)</argsstring>
+        <name>addBand</name>
         <param>
-          <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_section" kindref="compound">Section</ref> &gt;</type>
+          <type><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref></type>
           <declname>section</declname>
         </param>
         <param>
@@ -270,14 +272,14 @@
           <declname>sectionIndex</declname>
         </param>
         <briefdescription>
-<para>Добавление &lt;band&gt;, принадлежащего конкретной &lt;section&gt;, в документ HTML. </para>        </briefdescription>
+<para>Добавление &lt;band&gt; в документ HTML. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">section</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_section" kindref="compound">Section</ref>. Может указывать на такие секции, как: <programlisting><codeline><highlight class="normal">title,<sp/>header,<sp/>footer,<sp/>detail<sp/></highlight></codeline>
+<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_section" kindref="compound">Section</ref>, который содержит объект <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref>. Может указывать на такие секции, как: <programlisting><codeline><highlight class="normal">title,<sp/>header,<sp/>footer,<sp/>detail<sp/></highlight></codeline>
 </programlisting> </para></parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -295,24 +297,25 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="109" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="315" bodyend="459"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="110" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="315" bodyend="421"/>
         <references refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="289" endline="301">qtreports::detail::Replacer::replace</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ac26b71fc6bbf2a8883974083d59f8cdd" compoundref="convertertohtml_8hpp" startline="63">m_report</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ae8b03ca6b59a060cb4931adaf484ff4e" compoundref="convertertohtml_8hpp" startline="68">m_lastError</references>
         <references refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="303" endline="306">qtreports::detail::Replacer::getLastError</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a42fb7b544afafff1e7416f157bc094df" compoundref="convertertohtml_8hpp" startline="78">m_defaultStyleName</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a759cb19710076fd669793a84e62d14eb" compoundref="convertertohtml_8cpp" startline="461" endline="588">addShapes</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a76b4b701d1182ddd78d612d3b23be043" compoundref="convertertohtml_8cpp" startline="423" endline="550">addShapes</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5b8d80606e58c8bcdadc7ce6134e9c2f" compoundref="convertertohtml_8cpp" startline="552" endline="621">addCrosstabsIntoReport</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a7ce37e96779cea03cf71570d93680048" compoundref="convertertohtml_8hpp" startline="73">m_html</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ace8358a3612fc8085b7c34f1f92341e2" compoundref="convertertohtml_8cpp" startline="45" endline="199">createHTML</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a587e5f6bfbd1185f6bf32d76ac231a13" compoundref="convertertohtml_8cpp" startline="201" endline="313">addGroupsIntoReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a602c8f3bd3bc44df48b2edcee8bcdfa0" compoundref="convertertohtml_8cpp" startline="201" endline="313">addGroupsIntoReport</referencedby>
       </memberdef>
-      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a759cb19710076fd669793a84e62d14eb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a76b4b701d1182ddd78d612d3b23be043" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void qtreports::detail::ConverterToHTML::addShapes</definition>
-        <argsstring>(QSharedPointer&lt; Band &gt; band, QString &amp;elementStr)</argsstring>
+        <argsstring>(BandPtr band, QString &amp;elementStr)</argsstring>
         <name>addShapes</name>
         <param>
-          <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref> &gt;</type>
+          <type><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref></type>
           <declname>band</declname>
         </param>
         <param>
@@ -320,14 +323,15 @@
           <declname>elementStr</declname>
         </param>
         <briefdescription>
-<para>Добавление &lt;shape&gt;, принадлежащего конретному &lt;band&gt;, в документ HTML. </para>        </briefdescription>
+<para>Добавление объекта Shape в документ HTML. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">band</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref>. </para></parameterdescription>
+<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref>, который содержит объект Shape: <programlisting><codeline><highlight class="normal">image,<sp/>line,<sp/>rect,<sp/>ellipse<sp/></highlight></codeline>
+</programlisting> </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
@@ -340,8 +344,54 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="117" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="461" bodyend="588"/>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" compoundref="convertertohtml_8cpp" startline="315" endline="459">addBands</referencedby>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="119" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="423" bodyend="550"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" compoundref="convertertohtml_8cpp" startline="315" endline="421">addBand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5b8d80606e58c8bcdadc7ce6134e9c2f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ConverterToHTML::addCrosstabsIntoReport</definition>
+        <argsstring>(BandPtr band, QString &amp;elementStr)</argsstring>
+        <name>addCrosstabsIntoReport</name>
+        <param>
+          <type><ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref></type>
+          <declname>band</declname>
+        </param>
+        <param>
+          <type>QString &amp;</type>
+          <declname>elementStr</declname>
+        </param>
+        <briefdescription>
+<para>Добавление объектов <ref refid="classqtreports_1_1detail_1_1_crosstab" kindref="compound">Crosstab</ref> в документ HTML. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">band</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref>, который содержит объекты <ref refid="classqtreports_1_1detail_1_1_crosstab" kindref="compound">Crosstab</ref>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">elemenStr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Строка с содержимым band. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting> если добавление прошло успешно. </para></simplesect>
+<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting> если добавление не удалось. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="128" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="552" bodyend="621"/>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ac26b71fc6bbf2a8883974083d59f8cdd" compoundref="convertertohtml_8hpp" startline="63">m_report</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" compoundref="replacer_8cpp" startline="153" endline="171">qtreports::detail::Replacer::replaceColumnGroupsInCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" compoundref="replacer_8cpp" startline="133" endline="151">qtreports::detail::Replacer::replaceRowGroupsInCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a5dc72251354d389091776142436ebd22" compoundref="replacer_8cpp" startline="173" endline="211">qtreports::detail::Replacer::replaceCellsInCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a42fb7b544afafff1e7416f157bc094df" compoundref="convertertohtml_8hpp" startline="78">m_defaultStyleName</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" compoundref="convertertohtml_8cpp" startline="315" endline="421">addBand</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -354,11 +404,12 @@
         <link refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="15" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" bodystart="15" bodyend="118"/>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="15" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" bodystart="15" bodyend="129"/>
     <listofallmembers>
-      <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>addBands</name></member>
-      <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a587e5f6bfbd1185f6bf32d76ac231a13" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>addGroupsIntoReport</name></member>
-      <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a759cb19710076fd669793a84e62d14eb" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>addShapes</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>addBand</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5b8d80606e58c8bcdadc7ce6134e9c2f" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>addCrosstabsIntoReport</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a602c8f3bd3bc44df48b2edcee8bcdfa0" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>addGroupsIntoReport</name></member>
+      <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a76b4b701d1182ddd78d612d3b23be043" prot="private" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>addShapes</name></member>
       <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ad91ac333abf7d02f7590970a54ef7aae" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>convert</name></member>
       <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a38e92f3fd70f61c44871b22cddffd15a" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>convert</name></member>
       <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ab807ceb590ddaa20537dbc27d12e075b" prot="public" virt="non-virtual"><scope>qtreports::detail::ConverterToHTML</scope><name>ConverterToHTML</name></member>

@@ -70,9 +70,10 @@
     <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5a9c398ebd439b443636448e8a3db924" kind="function"><name>getLastError</name></member>
     <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ab704b5c4d322179f0cf533045222f3dc" kind="function"><name>getHTML</name></member>
     <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ace8358a3612fc8085b7c34f1f92341e2" kind="function"><name>createHTML</name></member>
-    <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a587e5f6bfbd1185f6bf32d76ac231a13" kind="function"><name>addGroupsIntoReport</name></member>
-    <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1aa9d511353f62cfc489c3e071ebf5182b" kind="function"><name>addBands</name></member>
-    <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a759cb19710076fd669793a84e62d14eb" kind="function"><name>addShapes</name></member>
+    <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a602c8f3bd3bc44df48b2edcee8bcdfa0" kind="function"><name>addGroupsIntoReport</name></member>
+    <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1acd1d271ed38019d408d8597000e974be" kind="function"><name>addBand</name></member>
+    <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a76b4b701d1182ddd78d612d3b23be043" kind="function"><name>addShapes</name></member>
+    <member refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5b8d80606e58c8bcdadc7ce6134e9c2f" kind="function"><name>addCrosstabsIntoReport</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_converter_to_p_d_f" kind="class"><name>qtreports::detail::ConverterToPDF</name>
     <member refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1ae295dae7db4f6f83d55f0ca70b035796" kind="variable"><name>m_report</name></member>

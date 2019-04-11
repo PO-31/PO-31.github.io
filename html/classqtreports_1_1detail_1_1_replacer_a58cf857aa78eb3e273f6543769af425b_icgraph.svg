@@ -76,10 +76,10 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#aa9d511353f62cfc489c3e071ebf5182b" target="_top" xlink:title="Добавление &lt;band&gt;, принадлежащего конкретной &lt;section&gt;, в документ HTML. ">
-<polygon fill="none" stroke="black" points="340,-220.5 340,-250.5 494,-250.5 494,-220.5 340,-220.5"/>
-<text text-anchor="start" x="348" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="417" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addBands</text>
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" target="_top" xlink:title="Добавление &lt;band&gt; в документ HTML. ">
+<polygon fill="none" stroke="black" points="342.5,-220.5 342.5,-250.5 491.5,-250.5 491.5,-220.5 342.5,-220.5"/>
+<text text-anchor="start" x="350.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="417" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addBand</text>
 </a>
 </g>
 </g>
@@ -133,7 +133,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a587e5f6bfbd1185f6bf32d76ac231a13" target="_top" xlink:title="Добавление &lt;group&gt; в документ HTML. ">
+<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" target="_top" xlink:title="Добавление &lt;group&gt; в документ HTML. ">
 <polygon fill="none" stroke="black" points="540,-215 540,-256 698,-256 698,-215 540,-215"/>
 <text text-anchor="start" x="548" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="548" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addGroups</text>
@@ -143,8 +143,8 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node3&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node3&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M504.41,-235.5C516.142,-235.5 528.128,-235.5 539.707,-235.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="504.182,-232 494.182,-235.5 504.182,-239 504.182,-232"/>
+<path fill="none" stroke="midnightblue" d="M501.667,-235.5C514.311,-235.5 527.312,-235.5 539.833,-235.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="501.621,-232 491.621,-235.5 501.621,-239 501.621,-232"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>

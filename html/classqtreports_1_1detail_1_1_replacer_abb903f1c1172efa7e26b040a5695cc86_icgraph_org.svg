@@ -74,16 +74,16 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#aa9d511353f62cfc489c3e071ebf5182b" target="_top" xlink:title="Добавление &lt;band&gt;, принадлежащего конкретной &lt;section&gt;, в документ HTML. ">
-<polygon fill="none" stroke="black" points="385,-220.5 385,-250.5 539,-250.5 539,-220.5 385,-220.5"/>
-<text text-anchor="start" x="393" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="462" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addBands</text>
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" target="_top" xlink:title="Добавление &lt;band&gt; в документ HTML. ">
+<polygon fill="none" stroke="black" points="387.5,-220.5 387.5,-250.5 536.5,-250.5 536.5,-220.5 387.5,-220.5"/>
+<text text-anchor="start" x="395.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="462" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addBand</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M326.651,-213.225C344.999,-216.267 365.517,-219.669 384.886,-222.88"/>
+<path fill="none" stroke="midnightblue" d="M326.772,-213.245C345.913,-216.418 367.404,-219.981 387.484,-223.311"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="327.14,-209.758 316.702,-211.575 325.995,-216.664 327.14,-209.758"/>
 </g>
 <!-- Node12 -->
@@ -131,7 +131,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a587e5f6bfbd1185f6bf32d76ac231a13" target="_top" xlink:title="Добавление &lt;group&gt; в документ HTML. ">
+<g id="a_node11"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" target="_top" xlink:title="Добавление &lt;group&gt; в документ HTML. ">
 <polygon fill="none" stroke="black" points="585,-215 585,-256 743,-256 743,-215 585,-215"/>
 <text text-anchor="start" x="593" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="593" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addGroups</text>
@@ -141,8 +141,8 @@
 </g>
 <!-- Node6&#45;&gt;Node11 -->
 <g id="edge10" class="edge"><title>Node6&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M549.41,-235.5C561.142,-235.5 573.128,-235.5 584.707,-235.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="549.182,-232 539.182,-235.5 549.182,-239 549.182,-232"/>
+<path fill="none" stroke="midnightblue" d="M546.667,-235.5C559.311,-235.5 572.312,-235.5 584.833,-235.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="546.621,-232 536.621,-235.5 546.621,-239 546.621,-232"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>

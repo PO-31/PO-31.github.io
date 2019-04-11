@@ -436,7 +436,7 @@
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="153">m_report</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="152">m_lastError</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ad91ac333abf7d02f7590970a54ef7aae" compoundref="convertertohtml_8cpp" startline="17" endline="19">qtreports::detail::ConverterToHTML::convert</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5a9c398ebd439b443636448e8a3db924" compoundref="convertertohtml_8cpp" startline="590" endline="592">qtreports::detail::ConverterToHTML::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5a9c398ebd439b443636448e8a3db924" compoundref="convertertohtml_8cpp" startline="623" endline="625">qtreports::detail::ConverterToHTML::getLastError</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a2a0fef0c95335eec5df4f61e4ffa7434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceqtreports_1a8c388f58321d9cf9e0b5d22ed159a65e" kindref="member">QWidgetPtr</ref></type>

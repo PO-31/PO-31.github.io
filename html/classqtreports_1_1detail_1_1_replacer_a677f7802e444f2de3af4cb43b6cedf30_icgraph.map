@@ -1,9 +1,9 @@
 <map id="qtreports::detail::Replacer::getLastError" name="qtreports::detail::Replacer::getLastError">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#aa9d511353f62cfc489c3e071ebf5182b" title="Добавление &lt;band&gt;, принадлежащего конкретной &lt;section&gt;, в документ HTML. " alt="" coords="223,75,428,116"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" title="Добавление &lt;band&gt; в документ HTML. " alt="" coords="226,75,425,116"/>
 <area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c" title="Создает секцию. " alt="" coords="216,169,435,211"/>
 <area shape="rect" id="node13" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" title="Создает секцию. " alt="" coords="246,263,405,319"/>
 <area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" title="Процесс конвертации репорта в HTML формат. " alt="" coords="755,63,972,104"/>
-<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a587e5f6bfbd1185f6bf32d76ac231a13" title="Добавление &lt;group&gt; в документ HTML. " alt="" coords="489,67,700,123"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" title="Добавление &lt;group&gt; в документ HTML. " alt="" coords="489,67,700,123"/>
 <area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" title="Запускает процесс конвертации репорта в HTML формат. " alt="" coords="1020,63,1209,104"/>
 <area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" title="Создает HTML документ при успешной конвертации репорта в HTML формат. " alt="" coords="1257,5,1447,47"/>
 <area shape="rect" id="node6" href="$classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" title="Создает HTML документ отчета по указанному пути " alt="" coords="1282,71,1422,112"/>
