@@ -751,39 +751,116 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;band&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="189">
+      <node id="316">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="188">
+      <node id="315">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="189" relation="public-inheritance">
+        <childnode refid="316" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="187">
+      <node id="314">
         <label>qtreports::detail::Band</label>
         <link refid="classqtreports_1_1detail_1_1_band"/>
-        <childnode refid="188" relation="public-inheritance">
+        <childnode refid="315" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="192">
+      <node id="328">
+        <label>QVector&lt; TextFieldPtr &gt;</label>
+      </node>
+      <node id="319">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
+        <childnode refid="320" relation="usage">
+          <edgelabel>#m_tagName</edgelabel>
+          <edgelabel>#m_name</edgelabel>
+          <edgelabel>#m_lastError</edgelabel>
+        </childnode>
       </node>
-      <node id="191">
+      <node id="322">
+        <label>QRect</label>
+      </node>
+      <node id="318">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="192" relation="public-inheritance">
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+        <childnode refid="320" relation="usage">
+          <edgelabel>#m_style</edgelabel>
+        </childnode>
+        <childnode refid="321" relation="usage">
+          <edgelabel>#m_isBold</edgelabel>
+        </childnode>
+        <childnode refid="322" relation="usage">
+          <edgelabel>#m_rect</edgelabel>
+        </childnode>
+        <childnode refid="323" relation="usage">
+          <edgelabel>#m_alignment</edgelabel>
         </childnode>
       </node>
-      <node id="190">
+      <node id="325">
+        <label>QVector&lt; ImagePtr &gt;</label>
+      </node>
+      <node id="330">
+        <label>QVector&lt; StaticTextPtr &gt;</label>
+      </node>
+      <node id="329">
+        <label>QVector&lt; TextWidgetPtr &gt;</label>
+      </node>
+      <node id="327">
+        <label>QVector&lt; LinePtr &gt;</label>
+      </node>
+      <node id="320">
+        <label>QString</label>
+      </node>
+      <node id="317">
         <label>qtreports::detail::Band</label>
         <link refid="classqtreports_1_1detail_1_1_band"/>
-        <childnode refid="191" relation="public-inheritance">
+        <childnode refid="318" relation="public-inheritance">
         </childnode>
+        <childnode refid="324" relation="usage">
+          <edgelabel>-m_ellipses</edgelabel>
+        </childnode>
+        <childnode refid="325" relation="usage">
+          <edgelabel>-m_images</edgelabel>
+        </childnode>
+        <childnode refid="326" relation="usage">
+          <edgelabel>-m_crosstabs</edgelabel>
+        </childnode>
+        <childnode refid="327" relation="usage">
+          <edgelabel>-m_lines</edgelabel>
+        </childnode>
+        <childnode refid="328" relation="usage">
+          <edgelabel>-m_textFields</edgelabel>
+        </childnode>
+        <childnode refid="329" relation="usage">
+          <edgelabel>-m_textWidgets</edgelabel>
+        </childnode>
+        <childnode refid="330" relation="usage">
+          <edgelabel>-m_staticTexts</edgelabel>
+        </childnode>
+        <childnode refid="331" relation="usage">
+          <edgelabel>-m_rects</edgelabel>
+        </childnode>
+      </node>
+      <node id="326">
+        <label>QVector&lt; CrosstabPtr &gt;</label>
+      </node>
+      <node id="321">
+        <label>bool</label>
+      </node>
+      <node id="323">
+        <label>Alignment</label>
+      </node>
+      <node id="331">
+        <label>QVector&lt; RectPtr &gt;</label>
+      </node>
+      <node id="324">
+        <label>QVector&lt; EllipsePtr &gt;</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="26" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" bodystart="26" bodyend="201"/>

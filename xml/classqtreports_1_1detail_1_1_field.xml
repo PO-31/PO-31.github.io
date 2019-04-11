@@ -255,27 +255,44 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;field&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="243">
+      <node id="426">
         <label>qtreports::detail::Field</label>
         <link refid="classqtreports_1_1detail_1_1_field"/>
-        <childnode refid="244" relation="public-inheritance">
+        <childnode refid="427" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="244">
+      <node id="427">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="245">
+      <node id="428">
         <label>qtreports::detail::Field</label>
         <link refid="classqtreports_1_1detail_1_1_field"/>
-        <childnode refid="246" relation="public-inheritance">
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="430" relation="usage">
+          <edgelabel>-m_className</edgelabel>
+        </childnode>
+        <childnode refid="431" relation="usage">
+          <edgelabel>-m_data</edgelabel>
         </childnode>
       </node>
-      <node id="246">
+      <node id="429">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
+        <childnode refid="430" relation="usage">
+          <edgelabel>#m_tagName</edgelabel>
+          <edgelabel>#m_name</edgelabel>
+          <edgelabel>#m_lastError</edgelabel>
+        </childnode>
+      </node>
+      <node id="431">
+        <label>QVector&lt; QVariant &gt;</label>
+      </node>
+      <node id="430">
+        <label>QString</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/field.hpp" line="23" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/field.hpp" bodystart="23" bodyend="75"/>

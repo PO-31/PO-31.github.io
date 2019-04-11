@@ -1274,27 +1274,110 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;report&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="308">
+      <node id="520">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="307">
+      <node id="519">
         <label>qtreports::detail::Report</label>
         <link refid="classqtreports_1_1detail_1_1_report"/>
-        <childnode refid="308" relation="public-inheritance">
+        <childnode refid="520" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="310">
+      <node id="533">
+        <label>QVector&lt; bool &gt;</label>
+      </node>
+      <node id="534">
+        <label>QMap&lt; QString, QVariant &gt;</label>
+      </node>
+      <node id="528">
+        <label>Orientation</label>
+      </node>
+      <node id="532">
+        <label>QSharedPointer&lt; Style &gt;</label>
+      </node>
+      <node id="526">
+        <label>QMap&lt; QString, StylePtr &gt;</label>
+      </node>
+      <node id="522">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
+        <childnode refid="523" relation="usage">
+          <edgelabel>#m_tagName</edgelabel>
+          <edgelabel>#m_name</edgelabel>
+          <edgelabel>#m_lastError</edgelabel>
+        </childnode>
       </node>
-      <node id="309">
+      <node id="529">
+        <label>QSharedPointer&lt; Title &gt;</label>
+      </node>
+      <node id="531">
+        <label>QSharedPointer&lt; Detail &gt;</label>
+      </node>
+      <node id="523">
+        <label>QString</label>
+      </node>
+      <node id="535">
+        <label>QSize</label>
+      </node>
+      <node id="530">
+        <label>QMap&lt; QString, FieldPtr &gt;</label>
+      </node>
+      <node id="527">
+        <label>QMargins</label>
+      </node>
+      <node id="524">
+        <label>QSharedPointer&lt; Summary &gt;</label>
+      </node>
+      <node id="521">
         <label>qtreports::detail::Report</label>
         <link refid="classqtreports_1_1detail_1_1_report"/>
-        <childnode refid="310" relation="public-inheritance">
+        <childnode refid="522" relation="public-inheritance">
         </childnode>
+        <childnode refid="524" relation="usage">
+          <edgelabel>-m_summary</edgelabel>
+        </childnode>
+        <childnode refid="525" relation="usage">
+          <edgelabel>-m_groups</edgelabel>
+        </childnode>
+        <childnode refid="526" relation="usage">
+          <edgelabel>-m_styles</edgelabel>
+        </childnode>
+        <childnode refid="527" relation="usage">
+          <edgelabel>-m_margins</edgelabel>
+        </childnode>
+        <childnode refid="523" relation="usage">
+          <edgelabel>-m_query</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>-m_orientation</edgelabel>
+        </childnode>
+        <childnode refid="529" relation="usage">
+          <edgelabel>-m_title</edgelabel>
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>-m_fields</edgelabel>
+        </childnode>
+        <childnode refid="531" relation="usage">
+          <edgelabel>-m_detail</edgelabel>
+        </childnode>
+        <childnode refid="532" relation="usage">
+          <edgelabel>-m_defaultStyle</edgelabel>
+        </childnode>
+        <childnode refid="533" relation="usage">
+          <edgelabel>-m_group_vec</edgelabel>
+        </childnode>
+        <childnode refid="534" relation="usage">
+          <edgelabel>-m_parameters</edgelabel>
+        </childnode>
+        <childnode refid="535" relation="usage">
+          <edgelabel>-m_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="525">
+        <label>QMap&lt; QString, GroupPtr &gt;</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" line="30" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/report.hpp" bodystart="30" bodyend="313"/>

@@ -349,9 +349,23 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="204">
+      <node id="351">
+        <label>QSharedPointer&lt; Report &gt;</label>
+      </node>
+      <node id="349">
         <label>qtreports::detail::ConverterToHTML</label>
         <link refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l"/>
+        <childnode refid="350" relation="usage">
+          <edgelabel>-m_defaultStyleName</edgelabel>
+          <edgelabel>-m_lastError</edgelabel>
+          <edgelabel>-m_html</edgelabel>
+        </childnode>
+        <childnode refid="351" relation="usage">
+          <edgelabel>-m_report</edgelabel>
+        </childnode>
+      </node>
+      <node id="350">
+        <label>QString</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="15" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" bodystart="15" bodyend="118"/>

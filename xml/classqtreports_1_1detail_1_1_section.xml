@@ -201,51 +201,72 @@
     <detaileddescription>
 <para>и подобных.</para><para>Базовый класс для тэгов &lt;title&gt;, &lt;detail&gt;, </para><para>и подобных. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="312">
+      <node id="537">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="315">
+      <node id="540">
         <label>qtreports::detail::Summary</label>
         <link refid="classqtreports_1_1detail_1_1_summary"/>
-        <childnode refid="311" relation="public-inheritance">
+        <childnode refid="536" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="316">
+      <node id="541">
         <label>qtreports::detail::Title</label>
         <link refid="classqtreports_1_1detail_1_1_title"/>
-        <childnode refid="311" relation="public-inheritance">
+        <childnode refid="536" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="311">
+      <node id="536">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="312" relation="public-inheritance">
+        <childnode refid="537" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="313">
+      <node id="538">
         <label>qtreports::detail::Detail</label>
         <link refid="classqtreports_1_1detail_1_1_detail"/>
-        <childnode refid="311" relation="public-inheritance">
+        <childnode refid="536" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="314">
+      <node id="539">
         <label>qtreports::detail::Group</label>
         <link refid="classqtreports_1_1detail_1_1_group"/>
-        <childnode refid="311" relation="public-inheritance">
+        <childnode refid="536" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="318">
+      <node id="543">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
+        <childnode refid="544" relation="usage">
+          <edgelabel>#m_tagName</edgelabel>
+          <edgelabel>#m_name</edgelabel>
+          <edgelabel>#m_lastError</edgelabel>
+        </childnode>
       </node>
-      <node id="317">
+      <node id="546">
+        <label>int</label>
+      </node>
+      <node id="542">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="318" relation="public-inheritance">
+        <childnode refid="543" relation="public-inheritance">
         </childnode>
+        <childnode refid="545" relation="usage">
+          <edgelabel>#m_bands</edgelabel>
+        </childnode>
+        <childnode refid="546" relation="usage">
+          <edgelabel>#m_height</edgelabel>
+          <edgelabel>#m_width</edgelabel>
+        </childnode>
+      </node>
+      <node id="544">
+        <label>QString</label>
+      </node>
+      <node id="545">
+        <label>QVector&lt; BandPtr &gt;</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.hpp" line="20" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/section.hpp" bodystart="20" bodyend="41"/>

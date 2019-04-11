@@ -37,39 +37,60 @@
     <detaileddescription>
 <para>Класс, реализующий тэг </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="333">
+      <node id="569">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="331">
+      <node id="567">
         <label>qtreports::detail::Summary</label>
         <link refid="classqtreports_1_1detail_1_1_summary"/>
-        <childnode refid="332" relation="public-inheritance">
+        <childnode refid="568" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="332">
+      <node id="568">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="333" relation="public-inheritance">
+        <childnode refid="569" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="336">
+      <node id="572">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
+        <childnode refid="573" relation="usage">
+          <edgelabel>#m_tagName</edgelabel>
+          <edgelabel>#m_name</edgelabel>
+          <edgelabel>#m_lastError</edgelabel>
+        </childnode>
       </node>
-      <node id="334">
+      <node id="570">
         <label>qtreports::detail::Summary</label>
         <link refid="classqtreports_1_1detail_1_1_summary"/>
-        <childnode refid="335" relation="public-inheritance">
+        <childnode refid="571" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="335">
+      <node id="575">
+        <label>int</label>
+      </node>
+      <node id="571">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="336" relation="public-inheritance">
+        <childnode refid="572" relation="public-inheritance">
         </childnode>
+        <childnode refid="574" relation="usage">
+          <edgelabel>#m_bands</edgelabel>
+        </childnode>
+        <childnode refid="575" relation="usage">
+          <edgelabel>#m_height</edgelabel>
+          <edgelabel>#m_width</edgelabel>
+        </childnode>
+      </node>
+      <node id="573">
+        <label>QString</label>
+      </node>
+      <node id="574">
+        <label>QVector&lt; BandPtr &gt;</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.hpp" line="18" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/summary.hpp" bodystart="18" bodyend="26"/>

@@ -512,87 +512,116 @@
     <detaileddescription>
 <para>Базовый класс для тэгов, которые подлежат отображению. Координаты объекта являются локальными относительно родительского объекта. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="369">
+      <node id="619">
         <label>qtreports::detail::Image</label>
         <link refid="classqtreports_1_1detail_1_1_image"/>
-        <childnode refid="368" relation="public-inheritance">
+        <childnode refid="618" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="366">
+      <node id="616">
         <label>qtreports::detail::Line</label>
         <link refid="classqtreports_1_1detail_1_1_line"/>
-        <childnode refid="360" relation="public-inheritance">
+        <childnode refid="610" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="370">
+      <node id="620">
         <label>qtreports::detail::StaticText</label>
         <link refid="classqtreports_1_1detail_1_1_static_text"/>
-        <childnode refid="368" relation="public-inheritance">
+        <childnode refid="618" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="368">
+      <node id="618">
         <label>qtreports::detail::TextWidget</label>
         <link refid="classqtreports_1_1detail_1_1_text_widget"/>
-        <childnode refid="360" relation="public-inheritance">
+        <childnode refid="610" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="361">
+      <node id="611">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="360">
+      <node id="610">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="361" relation="public-inheritance">
+        <childnode refid="611" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="367">
+      <node id="617">
         <label>qtreports::detail::Rect</label>
         <link refid="classqtreports_1_1detail_1_1_rect"/>
-        <childnode refid="360" relation="public-inheritance">
+        <childnode refid="610" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="363">
+      <node id="613">
         <label>qtreports::detail::CellContents</label>
         <link refid="classqtreports_1_1detail_1_1_cell_contents"/>
-        <childnode refid="360" relation="public-inheritance">
+        <childnode refid="610" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="371">
+      <node id="621">
         <label>qtreports::detail::TextField</label>
         <link refid="classqtreports_1_1detail_1_1_text_field"/>
-        <childnode refid="368" relation="public-inheritance">
+        <childnode refid="618" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="364">
+      <node id="614">
         <label>qtreports::detail::Crosstab</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab"/>
-        <childnode refid="360" relation="public-inheritance">
+        <childnode refid="610" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="362">
+      <node id="612">
         <label>qtreports::detail::Band</label>
         <link refid="classqtreports_1_1detail_1_1_band"/>
-        <childnode refid="360" relation="public-inheritance">
+        <childnode refid="610" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="365">
+      <node id="615">
         <label>qtreports::detail::Ellipse</label>
         <link refid="classqtreports_1_1detail_1_1_ellipse"/>
-        <childnode refid="360" relation="public-inheritance">
+        <childnode refid="610" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="373">
+      <node id="623">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
+        <childnode refid="624" relation="usage">
+          <edgelabel>#m_tagName</edgelabel>
+          <edgelabel>#m_name</edgelabel>
+          <edgelabel>#m_lastError</edgelabel>
+        </childnode>
       </node>
-      <node id="372">
+      <node id="626">
+        <label>QRect</label>
+      </node>
+      <node id="622">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="373" relation="public-inheritance">
+        <childnode refid="623" relation="public-inheritance">
         </childnode>
+        <childnode refid="624" relation="usage">
+          <edgelabel>#m_style</edgelabel>
+        </childnode>
+        <childnode refid="625" relation="usage">
+          <edgelabel>#m_isBold</edgelabel>
+        </childnode>
+        <childnode refid="626" relation="usage">
+          <edgelabel>#m_rect</edgelabel>
+        </childnode>
+        <childnode refid="627" relation="usage">
+          <edgelabel>#m_alignment</edgelabel>
+        </childnode>
+      </node>
+      <node id="624">
+        <label>QString</label>
+      </node>
+      <node id="625">
+        <label>bool</label>
+      </node>
+      <node id="627">
+        <label>Alignment</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="24" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" bodystart="24" bodyend="149"/>

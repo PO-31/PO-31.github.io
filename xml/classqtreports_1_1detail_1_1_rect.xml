@@ -37,39 +37,68 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;rect&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="301">
+      <node id="508">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="300">
+      <node id="507">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="301" relation="public-inheritance">
+        <childnode refid="508" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="299">
+      <node id="506">
         <label>qtreports::detail::Rect</label>
         <link refid="classqtreports_1_1detail_1_1_rect"/>
-        <childnode refid="300" relation="public-inheritance">
+        <childnode refid="507" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="304">
+      <node id="511">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
+        <childnode refid="512" relation="usage">
+          <edgelabel>#m_tagName</edgelabel>
+          <edgelabel>#m_name</edgelabel>
+          <edgelabel>#m_lastError</edgelabel>
+        </childnode>
       </node>
-      <node id="303">
+      <node id="514">
+        <label>QRect</label>
+      </node>
+      <node id="510">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="304" relation="public-inheritance">
+        <childnode refid="511" relation="public-inheritance">
+        </childnode>
+        <childnode refid="512" relation="usage">
+          <edgelabel>#m_style</edgelabel>
+        </childnode>
+        <childnode refid="513" relation="usage">
+          <edgelabel>#m_isBold</edgelabel>
+        </childnode>
+        <childnode refid="514" relation="usage">
+          <edgelabel>#m_rect</edgelabel>
+        </childnode>
+        <childnode refid="515" relation="usage">
+          <edgelabel>#m_alignment</edgelabel>
         </childnode>
       </node>
-      <node id="302">
+      <node id="509">
         <label>qtreports::detail::Rect</label>
         <link refid="classqtreports_1_1detail_1_1_rect"/>
-        <childnode refid="303" relation="public-inheritance">
+        <childnode refid="510" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="512">
+        <label>QString</label>
+      </node>
+      <node id="513">
+        <label>bool</label>
+      </node>
+      <node id="515">
+        <label>Alignment</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.hpp" line="18" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.hpp" bodystart="18" bodyend="26"/>

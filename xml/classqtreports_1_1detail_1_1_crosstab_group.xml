@@ -265,26 +265,53 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="220">
+      <node id="385">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="219">
+      <node id="384">
         <label>qtreports::detail::CrosstabGroup</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab_group"/>
-        <childnode refid="220" relation="public-inheritance">
+        <childnode refid="385" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="222">
+      <node id="387">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
+        <childnode refid="388" relation="usage">
+          <edgelabel>#m_tagName</edgelabel>
+          <edgelabel>#m_name</edgelabel>
+          <edgelabel>#m_lastError</edgelabel>
+        </childnode>
       </node>
-      <node id="221">
+      <node id="391">
+        <label>QSharedPointer&lt; CrosstabHeader &gt;</label>
+      </node>
+      <node id="390">
+        <label>int</label>
+      </node>
+      <node id="389">
+        <label>GroupType</label>
+      </node>
+      <node id="388">
+        <label>QString</label>
+      </node>
+      <node id="386">
         <label>qtreports::detail::CrosstabGroup</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab_group"/>
-        <childnode refid="222" relation="public-inheritance">
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+        <childnode refid="389" relation="usage">
+          <edgelabel>#m_type</edgelabel>
+        </childnode>
+        <childnode refid="390" relation="usage">
+          <edgelabel>#m_height</edgelabel>
+          <edgelabel>#m_width</edgelabel>
+        </childnode>
+        <childnode refid="391" relation="usage">
+          <edgelabel>#m_header</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
