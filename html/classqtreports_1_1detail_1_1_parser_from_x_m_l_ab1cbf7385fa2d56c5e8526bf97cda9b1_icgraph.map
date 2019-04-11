@@ -10,5 +10,6 @@
 <area shape="rect" id="node11" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aee6cb5359125988f68abfcd2f6fe4514" title="Парсит тэг ReportElement &#45; общие данные о элементе отчета (положение, размеры и пр.) " alt="" coords="277,541,482,597"/>
 <area shape="rect" id="node12" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe" title="Парсит тэг TextElement &#45; общие данные о текстовом элементе (выравнивание текста и пр..." alt="" coords="258,620,501,661"/>
 <area shape="rect" id="node13" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a459f21efce7b714320d84d304d304d60" title="Парсит текст для textField. " alt="" coords="271,685,488,741"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab548bd252b2e13a315daefae6b43f1d6" title="qtreports::detail::\lParserFromXML::ParserFromXML" alt="" coords="549,332,776,373"/>
+<area shape="rect" id="node14" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#abae86fff31affc499e427922f199dfd6" title="qtreports::detail::\lParserFromXML::parseVariable" alt="" coords="272,764,487,805"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab548bd252b2e13a315daefae6b43f1d6" title="qtreports::detail::\lParserFromXML::ParserFromXML" alt="" coords="549,368,776,409"/>
 </map>

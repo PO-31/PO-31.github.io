@@ -180,26 +180,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="216">
+      <node id="221">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="215">
+      <node id="220">
         <label>qtreports::detail::CrosstabCell</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab_cell"/>
-        <childnode refid="216" relation="public-inheritance">
+        <childnode refid="221" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="218">
+      <node id="223">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="217">
+      <node id="222">
         <label>qtreports::detail::CrosstabCell</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab_cell"/>
-        <childnode refid="218" relation="public-inheritance">
+        <childnode refid="223" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

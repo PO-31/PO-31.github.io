@@ -4,107 +4,107 @@
     <compoundname>crosstabheader.cpp</compoundname>
     <includes refid="crosstabheader_8hpp" local="yes">crosstabheader.hpp</includes>
     <incdepgraph>
-      <node id="2883">
+      <node id="2936">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="2875" relation="include">
+        <childnode refid="2928" relation="include">
         </childnode>
-        <childnode refid="2884" relation="include">
+        <childnode refid="2937" relation="include">
         </childnode>
-        <childnode refid="2877" relation="include">
+        <childnode refid="2930" relation="include">
         </childnode>
-        <childnode refid="2874" relation="include">
+        <childnode refid="2927" relation="include">
         </childnode>
       </node>
-      <node id="2882">
+      <node id="2935">
         <label>QRect</label>
       </node>
-      <node id="2880">
+      <node id="2933">
         <label>QPoint</label>
       </node>
-      <node id="2877">
+      <node id="2930">
         <label>QSharedPointer</label>
       </node>
-      <node id="2878">
+      <node id="2931">
         <label>cellcontents.hpp</label>
         <link refid="cellcontents_8hpp"/>
-        <childnode refid="2879" relation="include">
+        <childnode refid="2932" relation="include">
         </childnode>
-        <childnode refid="2885" relation="include">
+        <childnode refid="2938" relation="include">
         </childnode>
       </node>
-      <node id="2886">
+      <node id="2939">
         <label>textwidget.hpp</label>
         <link refid="textwidget_8hpp"/>
-        <childnode refid="2875" relation="include">
+        <childnode refid="2928" relation="include">
         </childnode>
-        <childnode refid="2877" relation="include">
+        <childnode refid="2930" relation="include">
         </childnode>
-        <childnode refid="2879" relation="include">
+        <childnode refid="2932" relation="include">
         </childnode>
       </node>
-      <node id="2875">
+      <node id="2928">
         <label>QString</label>
       </node>
-      <node id="2872">
+      <node id="2925">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabheader.cpp</label>
         <link refid="crosstabheader.cpp"/>
-        <childnode refid="2873" relation="include">
+        <childnode refid="2926" relation="include">
         </childnode>
       </node>
-      <node id="2881">
+      <node id="2934">
         <label>QSize</label>
       </node>
-      <node id="2885">
+      <node id="2938">
         <label>textfield.hpp</label>
         <link refid="textfield_8hpp"/>
-        <childnode refid="2875" relation="include">
+        <childnode refid="2928" relation="include">
         </childnode>
-        <childnode refid="2877" relation="include">
+        <childnode refid="2930" relation="include">
         </childnode>
-        <childnode refid="2886" relation="include">
+        <childnode refid="2939" relation="include">
         </childnode>
       </node>
-      <node id="2884">
+      <node id="2937">
         <label>QColor</label>
       </node>
-      <node id="2874">
+      <node id="2927">
         <label>object.hpp</label>
         <link refid="object_8hpp"/>
-        <childnode refid="2875" relation="include">
+        <childnode refid="2928" relation="include">
         </childnode>
-        <childnode refid="2876" relation="include">
+        <childnode refid="2929" relation="include">
         </childnode>
-        <childnode refid="2877" relation="include">
+        <childnode refid="2930" relation="include">
         </childnode>
       </node>
-      <node id="2873">
+      <node id="2926">
         <label>crosstabheader.hpp</label>
         <link refid="crosstabheader_8hpp"/>
-        <childnode refid="2874" relation="include">
+        <childnode refid="2927" relation="include">
         </childnode>
-        <childnode refid="2878" relation="include">
+        <childnode refid="2931" relation="include">
         </childnode>
       </node>
-      <node id="2879">
+      <node id="2932">
         <label>widget.hpp</label>
         <link refid="widget_8hpp"/>
-        <childnode refid="2875" relation="include">
+        <childnode refid="2928" relation="include">
         </childnode>
-        <childnode refid="2880" relation="include">
+        <childnode refid="2933" relation="include">
         </childnode>
-        <childnode refid="2881" relation="include">
+        <childnode refid="2934" relation="include">
         </childnode>
-        <childnode refid="2882" relation="include">
+        <childnode refid="2935" relation="include">
         </childnode>
-        <childnode refid="2877" relation="include">
+        <childnode refid="2930" relation="include">
         </childnode>
-        <childnode refid="2883" relation="include">
+        <childnode refid="2936" relation="include">
         </childnode>
-        <childnode refid="2874" relation="include">
+        <childnode refid="2927" relation="include">
         </childnode>
       </node>
-      <node id="2876">
+      <node id="2929">
         <label>QVariant</label>
       </node>
     </incdepgraph>

@@ -31,7 +31,148 @@
     <innerclass refid="classqtreports_1_1detail_1_1_text_field" prot="public">qtreports::detail::TextField</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_text_widget" prot="public">qtreports::detail::TextWidget</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_title" prot="public">qtreports::detail::Title</innerclass>
+    <innerclass refid="classqtreports_1_1detail_1_1_variable" prot="public">qtreports::detail::Variable</innerclass>
     <innerclass refid="classqtreports_1_1detail_1_1_widget" prot="public">qtreports::detail::Widget</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16ee" prot="public" static="no">
+        <name>VariableResetType</name>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea4b1b4dc8cf38b3c64b1d657da8f5ac8c" prot="public">
+          <name>Report</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea193cfc9be3b995831c6af2fea6650e60" prot="public">
+          <name>Page</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea1976d7f704de389d9fe064e08ea35b2d" prot="public">
+          <name>Column</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea03937134cedab9078be39a77ee3a48a0" prot="public">
+          <name>Group</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="13" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="12" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1" prot="public" static="no">
+        <name>VariableIncrementType</name>
+        <enumvalue id="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a4b1b4dc8cf38b3c64b1d657da8f5ac8c" prot="public">
+          <name>Report</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a193cfc9be3b995831c6af2fea6650e60" prot="public">
+          <name>Page</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a1976d7f704de389d9fe064e08ea35b2d" prot="public">
+          <name>Column</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a03937134cedab9078be39a77ee3a48a0" prot="public">
+          <name>Group</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="22" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="21" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3" prot="public" static="no">
+        <name>VariableCalculation</name>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3aa0ec87054b5e5b7847d0d8780a01a3d5" prot="public">
+          <name>Sum</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ab1897515d548a960afe49ecf66a29021" prot="public">
+          <name>Average</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ab5b8e20937205384be7b9e0c29a28fdb" prot="public">
+          <name>Lowest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3a582996407922dab08d5cf2b3d2a7c1c9" prot="public">
+          <name>Highest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="31" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="30" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
       <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_report" kindref="compound">Report</ref> &gt;</type>
@@ -358,6 +499,19 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/title.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a32a91d41922e9d4408b31af4aa2a9231" prot="public" static="no">
+        <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_variable" kindref="compound">Variable</ref> &gt;</type>
+        <definition>typedef QSharedPointer&lt; Variable &gt; qtreports::detail::VariablePtr</definition>
+        <argsstring></argsstring>
+        <name>VariablePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="87" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_widget" kindref="compound">Widget</ref> &gt;</type>
         <definition>typedef QSharedPointer&lt; Widget &gt; qtreports::detail::WidgetPtr</definition>
@@ -449,7 +603,7 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" line="20" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="20" bodyend="25"/>
         <references refid="namespaceqtreports_1_1detail_1af9d1cf052a8d77b7e8147f729d9bd0a6" compoundref="parserfromxml_8cpp" startline="12" endline="17">bindParseFunc</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="65">qtreports::detail::ParserFromXML::ParserFromXML</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">qtreports::detail::ParserFromXML::ParserFromXML</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -468,8 +622,8 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="27" bodyend="30"/>
         <references refid="namespaceqtreports_1_1detail_1a3ce46912811f49a63ad2d9b6a5d310d3" compoundref="object_8cpp" startline="5" endline="7">isEquals</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="337" endline="491">qtreports::detail::ParserFromXML::parseStyle</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1008" endline="1027">qtreports::detail::ParserFromXML::parseFont</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="340" endline="494">qtreports::detail::ParserFromXML::parseStyle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1011" endline="1030">qtreports::detail::ParserFromXML::parseFont</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceqtreports_1_1detail_1a3ce46912811f49a63ad2d9b6a5d310d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -492,8 +646,8 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" line="5" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="5" bodyend="7"/>
         <referencedby refid="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" compoundref="parserfromxml_8cpp" startline="27" endline="30">toBool</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="237" endline="334">qtreports::detail::ParserFromXML::parseReport</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="975" endline="1006">qtreports::detail::ParserFromXML::parseTextElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="240" endline="337">qtreports::detail::ParserFromXML::parseReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="978" endline="1009">qtreports::detail::ParserFromXML::parseTextElement</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>

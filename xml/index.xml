@@ -316,6 +316,9 @@
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" kind="function"><name>parseText</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" kind="function"><name>parseTextFieldExpression</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" kind="function"><name>parseImageExpression</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" kind="function"><name>parseVariable</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" kind="function"><name>parseVariableExpression</name></member>
+    <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" kind="function"><name>parseInitialValueExpression</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_query_string" kind="class"><name>qtreports::detail::QueryString</name>
     <member refid="classqtreports_1_1detail_1_1_query_string_1afc6c164e32cd2bcc9bc71dd4f9337923" kind="variable"><name>m_text</name></member>
@@ -362,6 +365,7 @@
     <member refid="classqtreports_1_1detail_1_1_report_1a8fdd5ebc88ba5092c8315f656079f7e6" kind="variable"><name>m_detail</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a48e0a2207d9f83772f2b9aba55a8fb74" kind="variable"><name>m_summary</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a987c0915f293a2b4fbbdcb792f2b4ddf" kind="variable"><name>m_parameters</name></member>
+    <member refid="classqtreports_1_1detail_1_1_report_1a4ea225d5d0aa9336e358c944bf05e8c0" kind="variable"><name>m_variables</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1aa0726fe1e300697172d3482202142a95" kind="variable"><name>m_group_vec</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1aaadd946ee47903c33364417793d84347" kind="function"><name>Report</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1affcccbb4519236f4b138674195661077" kind="function"><name>~Report</name></member>
@@ -411,6 +415,9 @@
     <member refid="classqtreports_1_1detail_1_1_report_1a882256895dd7a94b2213608245db6773" kind="function"><name>setMargins</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1ac419173360ddd88515334207755d5733" kind="function"><name>getMargins</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a0af8f2932f7b116c2db67cc8d8ee644e" kind="function"><name>getGroupByIndex</name></member>
+    <member refid="classqtreports_1_1detail_1_1_report_1adf4605cbc908ababac7a072220331fe5" kind="function"><name>addVaraible</name></member>
+    <member refid="classqtreports_1_1detail_1_1_report_1a8b23a1a420c5a557f2516d7669043593" kind="function"><name>getVariable</name></member>
+    <member refid="classqtreports_1_1detail_1_1_report_1ab1e50fe493d56c319039a858e58c9d1a" kind="function"><name>getVariables</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_section" kind="class"><name>qtreports::detail::Section</name>
     <member refid="classqtreports_1_1detail_1_1_section_1a38da6f2187e8a2fdd568a18fccae5db2" kind="variable"><name>m_bands</name></member>
@@ -492,6 +499,33 @@
     <member refid="classqtreports_1_1detail_1_1_title_1aba3122c667191aa3891e64d1c73a4c30" kind="function"><name>Title</name></member>
     <member refid="classqtreports_1_1detail_1_1_title_1af8def5dfbeee82b1b38ba2a195ad80ba" kind="function"><name>~Title</name></member>
   </compound>
+  <compound refid="classqtreports_1_1detail_1_1_variable" kind="class"><name>qtreports::detail::Variable</name>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a72fb9274535c974b1003ae2c5e9c152e" kind="variable"><name>m_value</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1abd79a6491c594482b39bcf1b5b6008a9" kind="variable"><name>m_expression</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a22275fad2fdab1e5ae3d081543c3af0a" kind="variable"><name>m_className</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a93fb6a0e4329dd6371071fff2c334371" kind="variable"><name>m_resetGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1acf06ad971243b60174ed63f31f952fc3" kind="variable"><name>m_incrementGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a7f142fef0f43051e03eac827945df52b" kind="variable"><name>m_resetType</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a2177a2769ecda054dd662b05941503c6" kind="variable"><name>m_incrementType</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a7a303b7b58fbb4fe5591fdfeae7f2ea3" kind="variable"><name>m_calculation</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a5716c9dcafcc8cf59a6f6b5dac3ec7a2" kind="function"><name>Variable</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1abe4f6a3286678d1d5b29a9a4db5776ac" kind="function"><name>getValue</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a483d6866d77d828c1308f35537190aa5" kind="function"><name>getExpression</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1ac63a651354560e8b1e32e51b1f051820" kind="function"><name>getClassName</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1adca7263b317ff0add67a04e71be41534" kind="function"><name>getResetGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a99a7102c0e700e52c12f607676892637" kind="function"><name>getIncrementGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1ab6484a761188e670f02416af968a87ef" kind="function"><name>getResetType</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a3c67c92f5dbe47b1c63be12dc2f788db" kind="function"><name>getIncrementType</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1afb444c8e267a5241589986ae28051703" kind="function"><name>getCalculation</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a7ecd8b0450902de4082e9fc7ca80d234" kind="function"><name>setValue</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a23c3b04c1701ccce6306377fcfe419f5" kind="function"><name>setExpression</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1ab36907baa5cd48be3d4d0af556d8cf1c" kind="function"><name>setClassName</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a944af297cd9f3e9a71137f3621b4f5c0" kind="function"><name>setResetGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a0255d048e1e26548f2a65419609335d8" kind="function"><name>setIncrementGroup</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a414a0e395728d4c25b9ce435770f815a" kind="function"><name>setResetType</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1ad0c670887835cf49d0ed485edde2da3d" kind="function"><name>setIncrementType</name></member>
+    <member refid="classqtreports_1_1detail_1_1_variable_1a6861294facebc5d27e6f2a486be883b8" kind="function"><name>setCalculation</name></member>
+  </compound>
   <compound refid="classqtreports_1_1detail_1_1_widget" kind="class"><name>qtreports::detail::Widget</name>
     <member refid="classqtreports_1_1detail_1_1_widget_1a6fcaa320c3caf77b82d3e1fcb930e62d" kind="variable"><name>m_isBold</name></member>
     <member refid="classqtreports_1_1detail_1_1_widget_1a236f89437f6f52f4a26a17856ca7ec72" kind="variable"><name>m_rect</name></member>
@@ -524,6 +558,24 @@
     <member refid="namespaceqtreports_1a8c388f58321d9cf9e0b5d22ed159a65e" kind="typedef"><name>QWidgetPtr</name></member>
   </compound>
   <compound refid="namespaceqtreports_1_1detail" kind="namespace"><name>qtreports::detail</name>
+    <member refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16ee" kind="enum"><name>VariableResetType</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea4b1b4dc8cf38b3c64b1d657da8f5ac8c" kind="enumvalue"><name>Report</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea193cfc9be3b995831c6af2fea6650e60" kind="enumvalue"><name>Page</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea1976d7f704de389d9fe064e08ea35b2d" kind="enumvalue"><name>Column</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea03937134cedab9078be39a77ee3a48a0" kind="enumvalue"><name>Group</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1" kind="enum"><name>VariableIncrementType</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a4b1b4dc8cf38b3c64b1d657da8f5ac8c" kind="enumvalue"><name>Report</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a193cfc9be3b995831c6af2fea6650e60" kind="enumvalue"><name>Page</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a1976d7f704de389d9fe064e08ea35b2d" kind="enumvalue"><name>Column</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1a03937134cedab9078be39a77ee3a48a0" kind="enumvalue"><name>Group</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3" kind="enum"><name>VariableCalculation</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3aa0ec87054b5e5b7847d0d8780a01a3d5" kind="enumvalue"><name>Sum</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ab1897515d548a960afe49ecf66a29021" kind="enumvalue"><name>Average</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ab5b8e20937205384be7b9e0c29a28fdb" kind="enumvalue"><name>Lowest</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3a582996407922dab08d5cf2b3d2a7c1c9" kind="enumvalue"><name>Highest</name></member>
     <member refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kind="typedef"><name>ReportPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kind="typedef"><name>BandPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a7e5197d24b8fb17fd72eb051d6f3a13a" kind="typedef"><name>BoxPtr</name></member>
@@ -549,6 +601,7 @@
     <member refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kind="typedef"><name>TextFieldPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a0dbda428d8a49120c4536ab502e83edd" kind="typedef"><name>TextWidgetPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a582fd4ea4493ad562e1b4a92541cd084" kind="typedef"><name>TitlePtr</name></member>
+    <member refid="namespaceqtreports_1_1detail_1a32a91d41922e9d4408b31af4aa2a9231" kind="typedef"><name>VariablePtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kind="typedef"><name>WidgetPtr</name></member>
     <member refid="namespaceqtreports_1_1detail_1a57ac54d6807a30b13e419a3106735b19" kind="function"><name>createLayout</name></member>
     <member refid="namespaceqtreports_1_1detail_1af9d1cf052a8d77b7e8147f729d9bd0a6" kind="function"><name>bindParseFunc</name></member>
@@ -701,6 +754,11 @@
   </compound>
   <compound refid="title_8hpp" kind="file"><name>title.hpp</name>
     <member refid="title_8hpp_1a90056dabf151b76eea7a46ae65bb59da" kind="define"><name>TITLE_HPP</name></member>
+  </compound>
+  <compound refid="variable_8cpp" kind="file"><name>variable.cpp</name>
+  </compound>
+  <compound refid="variable_8hpp" kind="file"><name>variable.hpp</name>
+    <member refid="variable_8hpp_1a8825708900ccdc1d79d2aa26f2881614" kind="define"><name>VARIABLE_H</name></member>
   </compound>
   <compound refid="widget_8cpp" kind="file"><name>widget.cpp</name>
   </compound>

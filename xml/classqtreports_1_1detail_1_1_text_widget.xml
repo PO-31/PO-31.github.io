@@ -154,42 +154,18 @@
     <detaileddescription>
 <para>Базовый класс для тегов, имеющих текстовое содержание. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="348">
+      <node id="354">
         <label>qtreports::detail::Image</label>
         <link refid="classqtreports_1_1detail_1_1_image"/>
-        <childnode refid="345" relation="public-inheritance">
+        <childnode refid="351" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="349">
+      <node id="355">
         <label>qtreports::detail::StaticText</label>
         <link refid="classqtreports_1_1detail_1_1_static_text"/>
-        <childnode refid="345" relation="public-inheritance">
+        <childnode refid="351" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="345">
-        <label>qtreports::detail::TextWidget</label>
-        <link refid="classqtreports_1_1detail_1_1_text_widget"/>
-        <childnode refid="346" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="347">
-        <label>qtreports::detail::Object</label>
-        <link refid="classqtreports_1_1detail_1_1_object"/>
-      </node>
-      <node id="346">
-        <label>qtreports::detail::Widget</label>
-        <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="347" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="350">
-        <label>qtreports::detail::TextField</label>
-        <link refid="classqtreports_1_1detail_1_1_text_field"/>
-        <childnode refid="345" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="351">
         <label>qtreports::detail::TextWidget</label>
         <link refid="classqtreports_1_1detail_1_1_text_widget"/>
@@ -204,6 +180,30 @@
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
         <childnode refid="353" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="356">
+        <label>qtreports::detail::TextField</label>
+        <link refid="classqtreports_1_1detail_1_1_text_field"/>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="357">
+        <label>qtreports::detail::TextWidget</label>
+        <link refid="classqtreports_1_1detail_1_1_text_widget"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="359">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="358">
+        <label>qtreports::detail::Widget</label>
+        <link refid="classqtreports_1_1detail_1_1_widget"/>
+        <childnode refid="359" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

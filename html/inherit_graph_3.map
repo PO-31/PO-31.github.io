@@ -1,5 +1,5 @@
 <map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
-<area shape="rect" id="node1" href="$classqtreports_1_1detail_1_1_object.html" title="Базовый класс для любого тэга " alt="" coords="5,286,137,327"/>
+<area shape="rect" id="node1" href="$classqtreports_1_1detail_1_1_object.html" title="Базовый класс для любого тэга " alt="" coords="5,318,137,359"/>
 <area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_box.html" title="qtreports::detail::Box" alt="" coords="185,5,341,32"/>
 <area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_crosstab_cell.html" title="qtreports::detail::\lCrosstabCell" alt="" coords="197,57,329,98"/>
 <area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_crosstab_group.html" title="qtreports::detail::\lCrosstabGroup" alt="" coords="197,122,329,163"/>
@@ -9,19 +9,20 @@
 <area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_report.html" title="Класс, реализующий тэг &lt;report&gt; " alt="" coords="197,383,329,425"/>
 <area shape="rect" id="node9" href="$classqtreports_1_1detail_1_1_section.html" title="Базовый класс для тэгов &lt;title&gt;, &lt;detail&gt;,. " alt="" coords="197,449,329,490"/>
 <area shape="rect" id="node14" href="$classqtreports_1_1detail_1_1_style.html" title="Класс, реализующий тэг &lt;style&gt; " alt="" coords="197,514,329,555"/>
-<area shape="rect" id="node15" href="$classqtreports_1_1detail_1_1_widget.html" title="Базовый класс для тэгов, которые подлежат отображению " alt="" coords="197,730,329,771"/>
+<area shape="rect" id="node15" href="$classqtreports_1_1detail_1_1_variable.html" title="qtreports::detail::\lVariable" alt="" coords="197,579,329,621"/>
+<area shape="rect" id="node16" href="$classqtreports_1_1detail_1_1_widget.html" title="Базовый класс для тэгов, которые подлежат отображению " alt="" coords="197,730,329,771"/>
 <area shape="rect" id="node10" href="$classqtreports_1_1detail_1_1_detail.html" title="Класс, реализующий тэг &lt;detail&gt; " alt="" coords="406,318,538,359"/>
 <area shape="rect" id="node11" href="$classqtreports_1_1detail_1_1_group.html" title="Класс, реализующий тэг &lt;group&gt; " alt="" coords="406,383,538,425"/>
 <area shape="rect" id="node12" href="$classqtreports_1_1detail_1_1_summary.html" title="Класс, реализующий тэг " alt="" coords="406,449,538,490"/>
 <area shape="rect" id="node13" href="$classqtreports_1_1detail_1_1_title.html" title="Класс, реализующий тэг &lt;title&gt; " alt="" coords="406,514,538,555"/>
-<area shape="rect" id="node16" href="$classqtreports_1_1detail_1_1_band.html" title="Класс, реализующий тэг &lt;band&gt; " alt="" coords="389,580,555,607"/>
-<area shape="rect" id="node17" href="$classqtreports_1_1detail_1_1_cell_contents.html" title="qtreports::detail::\lCellContents" alt="" coords="406,631,538,673"/>
-<area shape="rect" id="node18" href="$classqtreports_1_1detail_1_1_crosstab.html" title="qtreports::detail::\lCrosstab" alt="" coords="406,697,538,738"/>
-<area shape="rect" id="node19" href="$classqtreports_1_1detail_1_1_ellipse.html" title="Класс, реализующий тэг &lt;ellipse&gt; " alt="" coords="406,762,538,803"/>
-<area shape="rect" id="node20" href="$classqtreports_1_1detail_1_1_line.html" title="Класс, реализующий тэг &lt;line&gt; " alt="" coords="393,828,551,855"/>
-<area shape="rect" id="node21" href="$classqtreports_1_1detail_1_1_rect.html" title="Класс, реализующий тэг &lt;rect&gt; " alt="" coords="393,879,551,905"/>
-<area shape="rect" id="node22" href="$classqtreports_1_1detail_1_1_text_widget.html" title="Базовый класс для тегов, имеющих текстовое содержание. " alt="" coords="406,930,538,971"/>
-<area shape="rect" id="node23" href="$classqtreports_1_1detail_1_1_image.html" title="Класс, реализующий тэг &lt;image&gt; " alt="" coords="603,865,735,906"/>
-<area shape="rect" id="node24" href="$classqtreports_1_1detail_1_1_static_text.html" title="Класс, реализующий тэг &lt;staticText&gt; " alt="" coords="603,930,735,971"/>
-<area shape="rect" id="node25" href="$classqtreports_1_1detail_1_1_text_field.html" title="Класс, реализующий тэг &lt;textField&gt; " alt="" coords="603,995,735,1037"/>
+<area shape="rect" id="node17" href="$classqtreports_1_1detail_1_1_band.html" title="Класс, реализующий тэг &lt;band&gt; " alt="" coords="389,580,555,607"/>
+<area shape="rect" id="node18" href="$classqtreports_1_1detail_1_1_cell_contents.html" title="qtreports::detail::\lCellContents" alt="" coords="406,631,538,673"/>
+<area shape="rect" id="node19" href="$classqtreports_1_1detail_1_1_crosstab.html" title="qtreports::detail::\lCrosstab" alt="" coords="406,697,538,738"/>
+<area shape="rect" id="node20" href="$classqtreports_1_1detail_1_1_ellipse.html" title="Класс, реализующий тэг &lt;ellipse&gt; " alt="" coords="406,762,538,803"/>
+<area shape="rect" id="node21" href="$classqtreports_1_1detail_1_1_line.html" title="Класс, реализующий тэг &lt;line&gt; " alt="" coords="393,828,551,855"/>
+<area shape="rect" id="node22" href="$classqtreports_1_1detail_1_1_rect.html" title="Класс, реализующий тэг &lt;rect&gt; " alt="" coords="393,879,551,905"/>
+<area shape="rect" id="node23" href="$classqtreports_1_1detail_1_1_text_widget.html" title="Базовый класс для тегов, имеющих текстовое содержание. " alt="" coords="406,930,538,971"/>
+<area shape="rect" id="node24" href="$classqtreports_1_1detail_1_1_image.html" title="Класс, реализующий тэг &lt;image&gt; " alt="" coords="603,865,735,906"/>
+<area shape="rect" id="node25" href="$classqtreports_1_1detail_1_1_static_text.html" title="Класс, реализующий тэг &lt;staticText&gt; " alt="" coords="603,930,735,971"/>
+<area shape="rect" id="node26" href="$classqtreports_1_1detail_1_1_text_field.html" title="Класс, реализующий тэг &lt;textField&gt; " alt="" coords="603,995,735,1037"/>
 </map>

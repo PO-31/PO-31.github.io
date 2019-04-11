@@ -180,38 +180,38 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="211">
+      <node id="216">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="210">
+      <node id="215">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="211" relation="public-inheritance">
+        <childnode refid="216" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="209">
+      <node id="214">
         <label>qtreports::detail::Crosstab</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab"/>
-        <childnode refid="210" relation="public-inheritance">
+        <childnode refid="215" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="214">
+      <node id="219">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="213">
+      <node id="218">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="214" relation="public-inheritance">
+        <childnode refid="219" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="212">
+      <node id="217">
         <label>qtreports::detail::Crosstab</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab"/>
-        <childnode refid="213" relation="public-inheritance">
+        <childnode refid="218" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

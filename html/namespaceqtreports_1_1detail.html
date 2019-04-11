@@ -90,6 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
   <div class="summary">
 <a href="#nested-classes">Классы</a> &#124;
 <a href="#typedef-members">Определения типов</a> &#124;
+<a href="#enum-members">Перечисления</a> &#124;
 <a href="#func-members">Функции</a>  </div>
   <div class="headertitle">
 <div class="title">Пространство имен qtreports::detail</div>  </div>
@@ -179,6 +180,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_title.html">Title</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Класс, реализующий тэг &lt;title&gt;  <a href="classqtreports_1_1detail_1_1_title.html#details">Подробнее...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_variable.html">Variable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_widget.html">Widget</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Базовый класс для тэгов, которые подлежат отображению  <a href="classqtreports_1_1detail_1_1_widget.html#details">Подробнее...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,8 +238,43 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <tr class="separator:a0dbda428d8a49120c4536ab502e83edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a582fd4ea4493ad562e1b4a92541cd084"><td class="memItemLeft" align="right" valign="top">typedef QSharedPointer&lt; <a class="el" href="classqtreports_1_1detail_1_1_title.html">Title</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqtreports_1_1detail.html#a582fd4ea4493ad562e1b4a92541cd084">TitlePtr</a></td></tr>
 <tr class="separator:a582fd4ea4493ad562e1b4a92541cd084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a91d41922e9d4408b31af4aa2a9231"><td class="memItemLeft" align="right" valign="top">typedef QSharedPointer&lt; <a class="el" href="classqtreports_1_1detail_1_1_variable.html">Variable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqtreports_1_1detail.html#a32a91d41922e9d4408b31af4aa2a9231">VariablePtr</a></td></tr>
+<tr class="separator:a32a91d41922e9d4408b31af4aa2a9231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a310fd67f32772344225a4e685ef01da4"><td class="memItemLeft" align="right" valign="top">typedef QSharedPointer&lt; <a class="el" href="classqtreports_1_1detail_1_1_widget.html">Widget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqtreports_1_1detail.html#a310fd67f32772344225a4e685ef01da4">WidgetPtr</a></td></tr>
 <tr class="separator:a310fd67f32772344225a4e685ef01da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Перечисления</h2></td></tr>
+<tr class="memitem:a9cb3d152e585044a1e4b3057278a16ee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqtreports_1_1detail.html#a9cb3d152e585044a1e4b3057278a16ee">VariableResetType</a> : unsigned char { <br />
+&#160;&#160;<a class="el" href="namespaceqtreports_1_1detail.html#a9cb3d152e585044a1e4b3057278a16eea6adf97f83acf6453d4a6a4b1070f3754">VariableResetType::None</a> = 0, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a9cb3d152e585044a1e4b3057278a16eea4b1b4dc8cf38b3c64b1d657da8f5ac8c">VariableResetType::Report</a>, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a9cb3d152e585044a1e4b3057278a16eea193cfc9be3b995831c6af2fea6650e60">VariableResetType::Page</a>, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a9cb3d152e585044a1e4b3057278a16eea1976d7f704de389d9fe064e08ea35b2d">VariableResetType::Column</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceqtreports_1_1detail.html#a9cb3d152e585044a1e4b3057278a16eea03937134cedab9078be39a77ee3a48a0">VariableResetType::Group</a>
+<br />
+ }</td></tr>
+<tr class="separator:a9cb3d152e585044a1e4b3057278a16ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a167c97eac4fca15c4622695431746cf1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqtreports_1_1detail.html#a167c97eac4fca15c4622695431746cf1">VariableIncrementType</a> : unsigned char { <br />
+&#160;&#160;<a class="el" href="namespaceqtreports_1_1detail.html#a167c97eac4fca15c4622695431746cf1a6adf97f83acf6453d4a6a4b1070f3754">VariableIncrementType::None</a> = 0, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a167c97eac4fca15c4622695431746cf1a4b1b4dc8cf38b3c64b1d657da8f5ac8c">VariableIncrementType::Report</a>, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a167c97eac4fca15c4622695431746cf1a193cfc9be3b995831c6af2fea6650e60">VariableIncrementType::Page</a>, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a167c97eac4fca15c4622695431746cf1a1976d7f704de389d9fe064e08ea35b2d">VariableIncrementType::Column</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceqtreports_1_1detail.html#a167c97eac4fca15c4622695431746cf1a03937134cedab9078be39a77ee3a48a0">VariableIncrementType::Group</a>
+<br />
+ }</td></tr>
+<tr class="separator:a167c97eac4fca15c4622695431746cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be1f327b6c12c6a7b2ef834065a06c3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqtreports_1_1detail.html#a9be1f327b6c12c6a7b2ef834065a06c3">VariableCalculation</a> : unsigned char { <br />
+&#160;&#160;<a class="el" href="namespaceqtreports_1_1detail.html#a9be1f327b6c12c6a7b2ef834065a06c3ae93f994f01c537c4e2f7d8528c3eb5e9">VariableCalculation::Count</a> = 0, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a9be1f327b6c12c6a7b2ef834065a06c3aa0ec87054b5e5b7847d0d8780a01a3d5">VariableCalculation::Sum</a>, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a9be1f327b6c12c6a7b2ef834065a06c3ab1897515d548a960afe49ecf66a29021">VariableCalculation::Average</a>, 
+<a class="el" href="namespaceqtreports_1_1detail.html#a9be1f327b6c12c6a7b2ef834065a06c3ab5b8e20937205384be7b9e0c29a28fdb">VariableCalculation::Lowest</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceqtreports_1_1detail.html#a9be1f327b6c12c6a7b2ef834065a06c3a582996407922dab08d5cf2b3d2a7c1c9">VariableCalculation::Highest</a>
+<br />
+ }</td></tr>
+<tr class="separator:a9be1f327b6c12c6a7b2ef834065a06c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Функции</h2></td></tr>
@@ -553,6 +591,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 
 </div>
 </div>
+<a class="anchor" id="a32a91d41922e9d4408b31af4aa2a9231"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef QSharedPointer&lt; <a class="el" href="classqtreports_1_1detail_1_1_variable.html">Variable</a> &gt; <a class="el" href="namespaceqtreports_1_1detail.html#a32a91d41922e9d4408b31af4aa2a9231">qtreports::detail::VariablePtr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a310fd67f32772344225a4e685ef01da4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -562,6 +612,103 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Перечисления</h2>
+<a class="anchor" id="a9be1f327b6c12c6a7b2ef834065a06c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceqtreports_1_1detail.html#a9be1f327b6c12c6a7b2ef834065a06c3">qtreports::detail::VariableCalculation</a> : unsigned char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a class="anchor" id="a9be1f327b6c12c6a7b2ef834065a06c3ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9be1f327b6c12c6a7b2ef834065a06c3aa0ec87054b5e5b7847d0d8780a01a3d5"></a>Sum&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9be1f327b6c12c6a7b2ef834065a06c3ab1897515d548a960afe49ecf66a29021"></a>Average&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9be1f327b6c12c6a7b2ef834065a06c3ab5b8e20937205384be7b9e0c29a28fdb"></a>Lowest&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9be1f327b6c12c6a7b2ef834065a06c3a582996407922dab08d5cf2b3d2a7c1c9"></a>Highest&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="a167c97eac4fca15c4622695431746cf1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceqtreports_1_1detail.html#a167c97eac4fca15c4622695431746cf1">qtreports::detail::VariableIncrementType</a> : unsigned char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a class="anchor" id="a167c97eac4fca15c4622695431746cf1a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a167c97eac4fca15c4622695431746cf1a4b1b4dc8cf38b3c64b1d657da8f5ac8c"></a>Report&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a167c97eac4fca15c4622695431746cf1a193cfc9be3b995831c6af2fea6650e60"></a>Page&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a167c97eac4fca15c4622695431746cf1a1976d7f704de389d9fe064e08ea35b2d"></a>Column&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a167c97eac4fca15c4622695431746cf1a03937134cedab9078be39a77ee3a48a0"></a>Group&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="a9cb3d152e585044a1e4b3057278a16ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceqtreports_1_1detail.html#a9cb3d152e585044a1e4b3057278a16ee">qtreports::detail::VariableResetType</a> : unsigned char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a class="anchor" id="a9cb3d152e585044a1e4b3057278a16eea6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9cb3d152e585044a1e4b3057278a16eea4b1b4dc8cf38b3c64b1d657da8f5ac8c"></a>Report&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9cb3d152e585044a1e4b3057278a16eea193cfc9be3b995831c6af2fea6650e60"></a>Page&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9cb3d152e585044a1e4b3057278a16eea1976d7f704de389d9fe064e08ea35b2d"></a>Column&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9cb3d152e585044a1e4b3057278a16eea03937134cedab9078be39a77ee3a48a0"></a>Group&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
 
 </div>
 </div>

@@ -50,6 +50,8 @@
     <innerfile refid="textwidget_8hpp">textwidget.hpp</innerfile>
     <innerfile refid="title_8cpp">title.cpp</innerfile>
     <innerfile refid="title_8hpp">title.hpp</innerfile>
+    <innerfile refid="variable_8cpp">variable.cpp</innerfile>
+    <innerfile refid="variable_8hpp">variable.hpp</innerfile>
     <innerfile refid="widget_8cpp">widget.cpp</innerfile>
     <innerfile refid="widget_8hpp">widget.hpp</innerfile>
     <briefdescription>

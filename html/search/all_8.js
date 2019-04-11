@@ -1,10 +1,19 @@
 var searchData=
 [
-  ['layout',['Layout',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a5a1a0eee82b83313e90b505536a527f7aebd9bec4d70abc789d439c1f136b0538',1,'qtreports::detail::ConverterToQWidget']]],
-  ['line',['Line',['../classqtreports_1_1detail_1_1_line.html',1,'qtreports::detail']]],
-  ['line',['Line',['../classqtreports_1_1detail_1_1_line.html#a4d0c9ec8d991cbbf5282b7e764504996',1,'qtreports::detail::Line']]],
-  ['line_2ecpp',['line.cpp',['../line_8cpp.html',1,'']]],
-  ['line_2ehpp',['line.hpp',['../line_8hpp.html',1,'']]],
-  ['line_5fhpp',['LINE_HPP',['../line_8hpp.html#a012aa6f0b8d86f4ecefe5cbc498ffc0e',1,'line.hpp']]],
-  ['lineptr',['LinePtr',['../namespaceqtreports_1_1detail.html#a4bec416fc9e94bb474fb7c7ee5794206',1,'qtreports::detail']]]
+  ['image',['Image',['../classqtreports_1_1detail_1_1_image.html',1,'qtreports::detail']]],
+  ['image',['Image',['../classqtreports_1_1detail_1_1_image.html#ab8f6802ba0bcaac6c8aa175c9ac4c750',1,'qtreports::detail::Image']]],
+  ['image_2ecpp',['image.cpp',['../image_8cpp.html',1,'']]],
+  ['image_2ehpp',['image.hpp',['../image_8hpp.html',1,'']]],
+  ['image_5fhpp',['IMAGE_HPP',['../image_8hpp.html#a2f20209b07a0a2b9528389abc835d731',1,'image.hpp']]],
+  ['imageptr',['ImagePtr',['../namespaceqtreports_1_1detail.html#a63bee55a8b0ccfcc9fb2050d2c18e917',1,'qtreports::detail']]],
+  ['isbold',['isBold',['../classqtreports_1_1detail_1_1_style.html#a9f4c8c581c08ffd758fbd3e1b93dee07',1,'qtreports::detail::Style::isBold()'],['../classqtreports_1_1detail_1_1_widget.html#ae66db5f810d564e46f1cbb5e3643fa18',1,'qtreports::detail::Widget::isBold()']]],
+  ['isdefault',['isDefault',['../classqtreports_1_1detail_1_1_style.html#ae3b307b5c92ded10d3bd63cced5d3a79',1,'qtreports::detail::Style']]],
+  ['isequals',['isEquals',['../namespaceqtreports_1_1detail.html#a3ce46912811f49a63ad2d9b6a5d310d3',1,'qtreports::detail']]],
+  ['isitalic',['isItalic',['../classqtreports_1_1detail_1_1_style.html#a058eab1051810ffdb26d43fb08e523c9',1,'qtreports::detail::Style']]],
+  ['islayout',['isLayout',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a76bb37f2855d12afc9056c75cdbc5e0b',1,'qtreports::detail::ConverterToQWidget']]],
+  ['isopened',['isOpened',['../classqtreports_1_1_engine.html#aa3bb792af61b2661226814de9c3881ea',1,'qtreports::Engine']]],
+  ['ispdfembedded',['isPDFEmbedded',['../classqtreports_1_1detail_1_1_style.html#a1f58498aef2437cc4689ab4408560cc1',1,'qtreports::detail::Style']]],
+  ['isreport',['isReport',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#a5e49976fe8fac12633ccda1ba928b9b1',1,'qtreports::detail::ConverterToQWidget']]],
+  ['isstrikethrough',['isStrikeThrough',['../classqtreports_1_1detail_1_1_style.html#ac8cc338b439918b845de9f96023840e3',1,'qtreports::detail::Style']]],
+  ['isunderline',['isUnderline',['../classqtreports_1_1detail_1_1_style.html#a879b9cf0745255ff5a45d45de39e6b3e',1,'qtreports::detail::Style']]]
 ];

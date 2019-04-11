@@ -65,7 +65,7 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="17" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.cpp" bodystart="10" bodyend="13"/>
         <references refid="classqtreports_1_1detail_1_1_cell_contents_1a3bd51502a559ee862e2e5da49e1ccbc9" compoundref="cellcontents_8hpp" startline="21">m_textField</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="816" endline="843">qtreports::detail::ParserFromXML::parseTextField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="819" endline="846">qtreports::detail::ParserFromXML::parseTextField</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_cell_contents_1a578e372ebf8daf785e2879cc866bc88b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref></type>
@@ -87,38 +87,38 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="199">
+      <node id="204">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="198">
+      <node id="203">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="199" relation="public-inheritance">
+        <childnode refid="204" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="197">
+      <node id="202">
         <label>qtreports::detail::CellContents</label>
         <link refid="classqtreports_1_1detail_1_1_cell_contents"/>
-        <childnode refid="198" relation="public-inheritance">
+        <childnode refid="203" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="202">
+      <node id="207">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="201">
+      <node id="206">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="202" relation="public-inheritance">
+        <childnode refid="207" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="200">
+      <node id="205">
         <label>qtreports::detail::CellContents</label>
         <link refid="classqtreports_1_1detail_1_1_cell_contents"/>
-        <childnode refid="201" relation="public-inheritance">
+        <childnode refid="206" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
