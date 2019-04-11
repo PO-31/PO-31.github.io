@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1895;
+var viewWidth = 1745;
 var viewHeight = 908;
 var sectionId = 'dynsection-1';
 </script>
@@ -56,770 +56,775 @@ var sectionId = 'dynsection-1';
 <title>/home/travis/build/PO&#45;31/QtReports/qtreports/src/tags/textwidget.hpp</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="1469,-858.5 1469,-899.5 1615,-899.5 1615,-858.5 1469,-858.5"/>
-<text text-anchor="start" x="1477" y="-887.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1477" y="-876.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1542" y="-865.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/textwidget.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="836,-858.5 836,-899.5 982,-899.5 982,-858.5 836,-858.5"/>
+<text text-anchor="start" x="844" y="-887.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="844" y="-876.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="909" y="-865.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/textwidget.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="statictext_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/statictext.hpp">
-<polygon fill="none" stroke="black" points="1665,-468.5 1665,-509.5 1811,-509.5 1811,-468.5 1665,-468.5"/>
-<text text-anchor="start" x="1673" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1673" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1738" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/statictext.hpp</text>
+<polygon fill="none" stroke="black" points="836,-468.5 836,-509.5 982,-509.5 982,-468.5 836,-468.5"/>
+<text text-anchor="start" x="844" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="844" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="909" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/statictext.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M1553.67,-848.843C1564.84,-818.258 1580,-768.534 1580,-724 1580,-724 1580,-724 1580,-644 1580,-580.031 1647.24,-533.987 1693.99,-509.703"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1550.3,-847.855 1550.06,-858.447 1556.85,-850.316 1550.3,-847.855"/>
+<path fill="none" stroke="midnightblue" d="M909,-847.91C909,-816.868 909,-767.049 909,-724 909,-724 909,-724 909,-644 909,-595.875 909,-539.291 909,-509.935"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="905.5,-848.065 909,-858.065 912.5,-848.065 905.5,-848.065"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
 <g id="a_node10"><a xlink:href="replacer_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/utils/replacer.hpp">
-<polygon fill="none" stroke="black" points="199.5,-78.5 199.5,-119.5 372.5,-119.5 372.5,-78.5 199.5,-78.5"/>
-<text text-anchor="start" x="207.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="207.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="286" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/utils/replacer.hpp</text>
+<polygon fill="none" stroke="black" points="1325.5,-78.5 1325.5,-119.5 1498.5,-119.5 1498.5,-78.5 1325.5,-78.5"/>
+<text text-anchor="start" x="1333.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1333.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="1412" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/utils/replacer.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
-<g id="edge67" class="edge"><title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M1458.71,-875.934C1189.18,-868.154 358,-835.153 358,-724 358,-724 358,-724 358,-254 358,-201.465 323.191,-147.534 301.979,-119.546"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1458.73,-879.436 1468.83,-876.221 1458.93,-872.438 1458.73,-879.436"/>
+<g id="edge68" class="edge"><title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M992.335,-872.627C1085.96,-861.543 1225,-827.635 1225,-724 1225,-724 1225,-724 1225,-254 1225,-185.972 1299.65,-142.43 1354.62,-119.589"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="991.84,-869.161 982.291,-873.75 992.618,-876.117 991.84,-869.161"/>
 </g>
 <!-- Node29 -->
 <g id="node29" class="node"><title>Node29</title>
 <g id="a_node29"><a xlink:href="textfield_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/textfield.hpp">
-<polygon fill="none" stroke="black" points="1213,-780.5 1213,-821.5 1359,-821.5 1359,-780.5 1213,-780.5"/>
-<text text-anchor="start" x="1221" y="-809.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1221" y="-798.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1286" y="-787.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/textfield.hpp</text>
+<polygon fill="none" stroke="black" points="510,-780.5 510,-821.5 656,-821.5 656,-780.5 510,-780.5"/>
+<text text-anchor="start" x="518" y="-809.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="518" y="-798.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="583" y="-787.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/textfield.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node29 -->
-<g id="edge46" class="edge"><title>Node1&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M1466.48,-855.58C1430.05,-844.764 1386.75,-831.911 1351.7,-821.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1465.49,-858.937 1476.07,-858.428 1467.48,-852.227 1465.49,-858.937"/>
+<g id="edge47" class="edge"><title>Node1&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M825.905,-858.628C773.54,-846.42 706.557,-830.805 656.198,-819.065"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="825.306,-862.082 835.839,-860.944 826.895,-855.265 825.306,-862.082"/>
 </g>
 <!-- Node41 -->
 <g id="node41" class="node"><title>Node41</title>
 <g id="a_node41"><a xlink:href="image_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/image.hpp">
-<polygon fill="none" stroke="black" points="1501,-468.5 1501,-509.5 1647,-509.5 1647,-468.5 1501,-468.5"/>
-<text text-anchor="start" x="1509" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1509" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1574" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/image.hpp</text>
+<polygon fill="none" stroke="black" points="642,-468.5 642,-509.5 788,-509.5 788,-468.5 642,-468.5"/>
+<text text-anchor="start" x="650" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="650" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="715" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/image.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node41 -->
-<g id="edge63" class="edge"><title>Node1&#45;&gt;Node41</title>
-<path fill="none" stroke="midnightblue" d="M1542,-847.91C1542,-816.868 1542,-767.049 1542,-724 1542,-724 1542,-724 1542,-644 1542,-594.847 1557.82,-538.68 1567.21,-509.663"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1538.5,-848.065 1542,-858.065 1545.5,-848.065 1538.5,-848.065"/>
+<g id="edge64" class="edge"><title>Node1&#45;&gt;Node41</title>
+<path fill="none" stroke="midnightblue" d="M884.164,-850.639C860.352,-821.482 828,-772.875 828,-724 828,-724 828,-724 828,-644 828,-586.299 775.797,-535.891 742.354,-509.519"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="881.51,-852.921 890.62,-858.331 886.872,-848.421 881.51,-852.921"/>
 </g>
 <!-- Node43 -->
 <g id="node43" class="node"><title>Node43</title>
 <g id="a_node43"><a xlink:href="textwidget_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/textwidget.cpp">
-<polygon fill="none" stroke="black" points="1608,-780.5 1608,-821.5 1754,-821.5 1754,-780.5 1608,-780.5"/>
-<text text-anchor="start" x="1616" y="-809.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1616" y="-798.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1681" y="-787.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/textwidget.cpp</text>
+<polygon fill="none" stroke="black" points="1253,-780.5 1253,-821.5 1399,-821.5 1399,-780.5 1253,-780.5"/>
+<text text-anchor="start" x="1261" y="-809.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1261" y="-798.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="1326" y="-787.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/textwidget.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node43 -->
-<g id="edge68" class="edge"><title>Node1&#45;&gt;Node43</title>
-<path fill="none" stroke="midnightblue" d="M1586.58,-853.627C1605.57,-843.242 1627.43,-831.292 1645.33,-821.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1584.89,-850.56 1577.8,-858.428 1588.25,-856.702 1584.89,-850.56"/>
+<g id="edge69" class="edge"><title>Node1&#45;&gt;Node43</title>
+<path fill="none" stroke="midnightblue" d="M992.356,-865.222C1059.22,-854.643 1155.39,-838.69 1239,-822 1243.56,-821.09 1248.25,-820.118 1252.96,-819.112"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="991.629,-861.794 982.296,-866.808 992.719,-868.708 991.629,-861.794"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="band_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/band.hpp">
-<polygon fill="none" stroke="black" points="983,-390.5 983,-431.5 1129,-431.5 1129,-390.5 983,-390.5"/>
-<text text-anchor="start" x="991" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="991" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1056" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/band.hpp</text>
+<polygon fill="none" stroke="black" points="451,-390.5 451,-431.5 597,-431.5 597,-390.5 451,-390.5"/>
+<text text-anchor="start" x="459" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="459" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="524" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/band.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M1654.66,-467.899C1460.05,-435.913 1241.01,-421.305 1129.41,-415.389"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1654.35,-471.395 1664.79,-469.583 1655.5,-464.49 1654.35,-471.395"/>
+<path fill="none" stroke="midnightblue" d="M825.833,-471.583C757.71,-458.135 662.259,-439.293 597.049,-426.42"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="825.19,-475.023 835.678,-473.526 826.545,-468.156 825.19,-475.023"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="parserfromxml_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/parsers/parserfromxml.hpp">
-<polygon fill="none" stroke="black" points="1223.5,-78.5 1223.5,-119.5 1390.5,-119.5 1390.5,-78.5 1223.5,-78.5"/>
-<text text-anchor="start" x="1231.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1231.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1307" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/parsers/parserfromxml.hpp</text>
+<!-- Node17 -->
+<g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:href="parserfromxml_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/parsers/parserfromxml.hpp">
+<polygon fill="none" stroke="black" points="440.5,-78.5 440.5,-119.5 607.5,-119.5 607.5,-78.5 440.5,-78.5"/>
+<text text-anchor="start" x="448.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="448.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="524" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/parsers/parserfromxml.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node16 -->
-<g id="edge44" class="edge"><title>Node2&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1730.23,-458.143C1722.89,-427.286 1713,-377.613 1713,-334 1713,-334 1713,-334 1713,-254 1713,-194.864 1674.85,-184.437 1623,-156 1551.07,-116.548 1457.34,-103.953 1390.68,-100.373"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1726.92,-459.35 1732.7,-468.232 1733.72,-457.686 1726.92,-459.35"/>
+<!-- Node2&#45;&gt;Node17 -->
+<g id="edge45" class="edge"><title>Node2&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M961.969,-462.904C973.594,-454.758 984.393,-444.512 991,-432 1030.33,-357.52 1119.06,-316.73 952,-156 906.315,-112.046 731.846,-128.331 669,-120 649.099,-117.362 627.672,-114.447 607.556,-111.678"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="959.886,-460.084 953.407,-468.467 963.699,-465.954 959.886,-460.084"/>
 </g>
 <!-- Node28 -->
 <g id="node28" class="node"><title>Node28</title>
 <g id="a_node28"><a xlink:href="statictext_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/statictext.cpp">
-<polygon fill="none" stroke="black" points="1741,-390.5 1741,-431.5 1887,-431.5 1887,-390.5 1741,-390.5"/>
-<text text-anchor="start" x="1749" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1749" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1814" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/statictext.cpp</text>
+<polygon fill="none" stroke="black" points="836,-390.5 836,-431.5 982,-431.5 982,-390.5 836,-390.5"/>
+<text text-anchor="start" x="844" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="844" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="909" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/statictext.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node28 -->
-<g id="edge45" class="edge"><title>Node2&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M1764.8,-461.204C1774.58,-451.416 1785.46,-440.539 1794.49,-431.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1762.17,-458.882 1757.57,-468.428 1767.12,-463.832 1762.17,-458.882"/>
+<g id="edge46" class="edge"><title>Node2&#45;&gt;Node28</title>
+<path fill="none" stroke="midnightblue" d="M909,-458.297C909,-449.301 909,-439.653 909,-431.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="905.5,-458.428 909,-468.428 912.5,-458.428 905.5,-458.428"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="section_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/section.hpp">
-<polygon fill="none" stroke="black" points="983,-312.5 983,-353.5 1129,-353.5 1129,-312.5 983,-312.5"/>
-<text text-anchor="start" x="991" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="991" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1056" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/section.hpp</text>
+<polygon fill="none" stroke="black" points="451,-312.5 451,-353.5 597,-353.5 597,-312.5 451,-312.5"/>
+<text text-anchor="start" x="459" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="459" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="524" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/section.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M1056,-380.297C1056,-371.301 1056,-361.653 1056,-353.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1052.5,-380.428 1056,-390.428 1059.5,-380.428 1052.5,-380.428"/>
+<path fill="none" stroke="midnightblue" d="M524,-380.297C524,-371.301 524,-361.653 524,-353.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="520.5,-380.428 524,-390.428 527.5,-380.428 520.5,-380.428"/>
 </g>
-<!-- Node3&#45;&gt;Node16 -->
-<g id="edge42" class="edge"><title>Node3&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1139.18,-407.583C1233.65,-400.042 1385.13,-372.496 1466,-276 1500.4,-234.951 1508.39,-199.392 1477,-156 1457.06,-128.432 1423.07,-114.202 1390.71,-106.943"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1138.8,-404.101 1129.09,-408.33 1139.32,-411.082 1138.8,-404.101"/>
+<!-- Node3&#45;&gt;Node17 -->
+<g id="edge43" class="edge"><title>Node3&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M455.978,-387.257C394.707,-366.949 302.08,-336.687 221,-312 165.284,-295.036 130.072,-322.497 95,-276 83.759,-261.097 92.1167,-252.443 95,-234 100.623,-198.033 92.1377,-179.429 120,-156 167.082,-116.409 336.356,-104.763 440.268,-101.367"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="454.942,-390.601 465.536,-390.429 457.147,-383.957 454.942,-390.601"/>
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
 <g id="a_node27"><a xlink:href="band_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/band.cpp">
-<polygon fill="none" stroke="black" points="819,-312.5 819,-353.5 965,-353.5 965,-312.5 819,-312.5"/>
-<text text-anchor="start" x="827" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="827" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="892" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/band.cpp</text>
+<polygon fill="none" stroke="black" points="66,-312.5 66,-353.5 212,-353.5 212,-312.5 66,-312.5"/>
+<text text-anchor="start" x="74" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="74" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="139" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/band.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node27 -->
-<g id="edge43" class="edge"><title>Node3&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M1004.62,-386.189C981.93,-375.675 955.59,-363.469 934.091,-353.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1003.22,-389.399 1013.77,-390.428 1006.16,-383.048 1003.22,-389.399"/>
+<g id="edge44" class="edge"><title>Node3&#45;&gt;Node27</title>
+<path fill="none" stroke="midnightblue" d="M440.814,-395.293C380.948,-384.483 298.338,-369.105 226,-354 221.449,-353.05 216.769,-352.047 212.055,-351.018"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="440.507,-398.794 450.969,-397.122 441.748,-391.905 440.507,-398.794"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="group_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/group.hpp">
-<polygon fill="none" stroke="black" points="655,-234.5 655,-275.5 801,-275.5 801,-234.5 655,-234.5"/>
-<text text-anchor="start" x="663" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="663" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="728" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/group.hpp</text>
+<polygon fill="none" stroke="black" points="760,-234.5 760,-275.5 906,-275.5 906,-234.5 760,-234.5"/>
+<text text-anchor="start" x="768" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="768" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="833" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/group.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M972.548,-311.69C899.603,-294.932 879.575,-292.119 810,-276 807.145,-275.339 804.235,-274.658 801.298,-273.966"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="972.171,-315.195 982.702,-314.034 973.746,-308.374 972.171,-315.195"/>
+<path fill="none" stroke="midnightblue" d="M607.199,-311.537C654.79,-299.832 713.941,-285.283 759.762,-274.013"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="606.103,-308.202 597.229,-313.989 607.775,-314.999 606.103,-308.202"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="convertertopdf_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/convertertopdf.hpp">
-<polygon fill="none" stroke="black" points="613,-78.5 613,-119.5 795,-119.5 795,-78.5 613,-78.5"/>
-<text text-anchor="start" x="621" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="621" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="704" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertopdf.hpp</text>
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="convertertopdf_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/convertertopdf.hpp">
+<polygon fill="none" stroke="black" points="903,-78.5 903,-119.5 1085,-119.5 1085,-78.5 903,-78.5"/>
+<text text-anchor="start" x="911" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="911" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="994" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertopdf.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node14 -->
-<g id="edge40" class="edge"><title>Node4&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M972.843,-311.977C751.099,-276.773 603.403,-383.671 488,-198 478.146,-182.146 476.576,-170.763 488,-156 496.135,-145.487 557.634,-130.15 612.938,-118.184"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="972.341,-315.442 982.782,-313.643 973.498,-308.538 972.341,-315.442"/>
+<!-- Node4&#45;&gt;Node15 -->
+<g id="edge41" class="edge"><title>Node4&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M607.471,-327.909C766.331,-318.12 1102.22,-287.12 1168,-198 1179.09,-182.982 1178.99,-171.086 1168,-156 1157.35,-141.381 1121.68,-128.677 1085.38,-119.081"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="607.04,-324.429 597.268,-328.524 607.46,-331.416 607.04,-324.429"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
 <g id="a_node20"><a xlink:href="title_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/title.hpp">
-<polygon fill="none" stroke="black" points="983,-234.5 983,-275.5 1129,-275.5 1129,-234.5 983,-234.5"/>
-<text text-anchor="start" x="991" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="991" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1056" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/title.hpp</text>
+<polygon fill="none" stroke="black" points="268,-234.5 268,-275.5 414,-275.5 414,-234.5 268,-234.5"/>
+<text text-anchor="start" x="276" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="276" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="341" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/title.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node20 -->
-<g id="edge28" class="edge"><title>Node4&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M1056,-302.297C1056,-293.301 1056,-283.653 1056,-275.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1052.5,-302.428 1056,-312.428 1059.5,-302.428 1052.5,-302.428"/>
+<g id="edge29" class="edge"><title>Node4&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M467.34,-308.469C441.872,-297.892 412.171,-285.557 387.967,-275.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="466.295,-311.825 476.873,-312.428 468.98,-305.36 466.295,-311.825"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
 <g id="a_node22"><a xlink:href="detail_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/detail.hpp">
-<polygon fill="none" stroke="black" points="1147,-234.5 1147,-275.5 1293,-275.5 1293,-234.5 1147,-234.5"/>
-<text text-anchor="start" x="1155" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1155" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1220" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/detail.hpp</text>
+<polygon fill="none" stroke="black" points="432,-234.5 432,-275.5 578,-275.5 578,-234.5 432,-234.5"/>
+<text text-anchor="start" x="440" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="440" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="505" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/detail.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node22 -->
-<g id="edge32" class="edge"><title>Node4&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M1107.38,-308.189C1130.07,-297.675 1156.41,-285.469 1177.91,-275.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1105.84,-305.048 1098.23,-312.428 1108.78,-311.399 1105.84,-305.048"/>
+<g id="edge33" class="edge"><title>Node4&#45;&gt;Node22</title>
+<path fill="none" stroke="midnightblue" d="M516.647,-302.59C514.378,-293.511 511.935,-283.742 509.876,-275.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="513.286,-303.576 519.107,-312.428 520.077,-301.878 513.286,-303.576"/>
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
 <g id="a_node24"><a xlink:href="summary_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/summary.hpp">
-<polygon fill="none" stroke="black" points="1311,-234.5 1311,-275.5 1457,-275.5 1457,-234.5 1311,-234.5"/>
-<text text-anchor="start" x="1319" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1319" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1384" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/summary.hpp</text>
+<polygon fill="none" stroke="black" points="596,-234.5 596,-275.5 742,-275.5 742,-234.5 596,-234.5"/>
+<text text-anchor="start" x="604" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="604" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="669" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/summary.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node24 -->
-<g id="edge36" class="edge"><title>Node4&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M1139.23,-313.388C1186.92,-302.64 1247.87,-288.761 1302,-276 1304.85,-275.328 1307.76,-274.638 1310.7,-273.938"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1138.25,-310.021 1129.26,-315.632 1139.79,-316.85 1138.25,-310.021"/>
+<g id="edge37" class="edge"><title>Node4&#45;&gt;Node24</title>
+<path fill="none" stroke="midnightblue" d="M570.233,-307.768C590.109,-297.35 613.03,-285.336 631.785,-275.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="568.573,-304.686 561.341,-312.428 571.823,-310.886 568.573,-304.686"/>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
 <g id="a_node26"><a xlink:href="section_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/section.cpp">
-<polygon fill="none" stroke="black" points="819,-234.5 819,-275.5 965,-275.5 965,-234.5 819,-234.5"/>
-<text text-anchor="start" x="827" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="827" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="892" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/section.cpp</text>
+<polygon fill="none" stroke="black" points="104,-234.5 104,-275.5 250,-275.5 250,-234.5 104,-234.5"/>
+<text text-anchor="start" x="112" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="112" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="177" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/section.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node26 -->
-<g id="edge41" class="edge"><title>Node4&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M1004.62,-308.189C981.93,-297.675 955.59,-285.469 934.091,-275.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1003.22,-311.399 1013.77,-312.428 1006.16,-305.048 1003.22,-311.399"/>
+<g id="edge42" class="edge"><title>Node4&#45;&gt;Node26</title>
+<path fill="none" stroke="midnightblue" d="M440.857,-315.119C388.568,-304.332 319.735,-289.821 259,-276 256.142,-275.35 253.231,-274.679 250.291,-273.995"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="440.254,-318.568 450.755,-317.157 441.666,-311.712 440.254,-318.568"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="report_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/report.hpp">
-<polygon fill="none" stroke="black" points="661,-156.5 661,-197.5 807,-197.5 807,-156.5 661,-156.5"/>
-<text text-anchor="start" x="669" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="669" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="734" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/report.hpp</text>
+<polygon fill="none" stroke="black" points="1013,-156.5 1013,-197.5 1159,-197.5 1159,-156.5 1013,-156.5"/>
+<text text-anchor="start" x="1021" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1021" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="1086" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/report.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M730.345,-224.297C731.055,-215.301 731.817,-205.653 732.46,-197.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="726.843,-224.184 729.545,-234.428 733.821,-224.735 726.843,-224.184"/>
+<path fill="none" stroke="midnightblue" d="M908.093,-231.442C944.004,-220.655 986.574,-207.867 1021.07,-197.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="906.724,-228.199 898.154,-234.428 908.738,-234.903 906.724,-228.199"/>
 </g>
-<!-- Node5&#45;&gt;Node16 -->
-<g id="edge26" class="edge"><title>Node5&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M789.383,-230.45C809.194,-221.6 830.738,-210.589 849,-198 870.995,-182.838 867.858,-167.439 892,-156 1022.13,-94.3398 1071.87,-143.167 1214,-120 1217.1,-119.495 1220.25,-118.955 1223.42,-118.388"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="787.888,-227.284 780.122,-234.49 790.687,-233.7 787.888,-227.284"/>
+<!-- Node5&#45;&gt;Node17 -->
+<g id="edge27" class="edge"><title>Node5&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M798.911,-228.044C787.494,-218.907 774.903,-208.333 764,-198 745.729,-180.684 747.422,-169.22 726,-156 690.385,-134.022 646.004,-120.489 607.921,-112.249"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="796.961,-230.963 806.977,-234.419 801.302,-225.472 796.961,-230.963"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
 <g id="a_node19"><a xlink:href="group_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/group.cpp">
-<polygon fill="none" stroke="black" points="497,-156.5 497,-197.5 643,-197.5 643,-156.5 497,-156.5"/>
-<text text-anchor="start" x="505" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="505" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="570" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/group.cpp</text>
+<polygon fill="none" stroke="black" points="773,-156.5 773,-197.5 919,-197.5 919,-156.5 773,-156.5"/>
+<text text-anchor="start" x="781" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="781" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="846" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/group.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node19 -->
-<g id="edge27" class="edge"><title>Node5&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M678.206,-230.049C656.415,-219.566 631.172,-207.424 610.551,-197.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="676.782,-233.247 687.311,-234.428 679.817,-226.939 676.782,-233.247"/>
+<g id="edge28" class="edge"><title>Node5&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M838.081,-224.297C839.62,-215.301 841.27,-205.653 842.664,-197.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="834.584,-223.981 836.348,-234.428 841.484,-225.161 834.584,-223.981"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="convertertohtml_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/convertertohtml.hpp">
-<polygon fill="none" stroke="black" points="813.5,-78.5 813.5,-119.5 1002.5,-119.5 1002.5,-78.5 813.5,-78.5"/>
-<text text-anchor="start" x="821.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="821.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="908" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertohtml.hpp</text>
+<polygon fill="none" stroke="black" points="695.5,-78.5 695.5,-119.5 884.5,-119.5 884.5,-78.5 695.5,-78.5"/>
+<text text-anchor="start" x="703.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="703.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="790" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertohtml.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M788.194,-152.329C812.338,-141.783 840.431,-129.513 863.343,-119.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="786.572,-149.218 778.809,-156.428 789.374,-155.633 786.572,-149.218"/>
+<path fill="none" stroke="midnightblue" d="M1002.98,-154.684C960.072,-143.667 908.072,-130.316 866.196,-119.564"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1002.28,-158.117 1012.83,-157.213 1004.02,-151.336 1002.28,-158.117"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
 <g id="a_node9"><a xlink:href="engine_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/engine.cpp">
-<polygon fill="none" stroke="black" points="835,-0.5 835,-41.5 981,-41.5 981,-0.5 835,-0.5"/>
-<text text-anchor="start" x="843" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="843" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="908" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/engine.cpp</text>
+<polygon fill="none" stroke="black" points="610,-0.5 610,-41.5 756,-41.5 756,-0.5 610,-0.5"/>
+<text text-anchor="start" x="618" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="618" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="683" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/engine.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node9 -->
-<g id="edge24" class="edge"><title>Node6&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M817.132,-156.816C818.43,-156.541 819.72,-156.268 821,-156 863.06,-147.184 983.587,-153.095 1011,-120 1022.91,-105.624 1020.54,-94.045 1011,-78 1001.38,-61.8168 985.262,-50.0173 968.601,-41.5464"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="816.093,-153.46 807.056,-158.99 817.569,-160.302 816.093,-153.46"/>
+<g id="edge25" class="edge"><title>Node6&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M1002.34,-156.586C1001.22,-156.386 1000.11,-156.19 999,-156 929.998,-144.139 733.387,-171.54 686,-120 666.76,-99.074 671.346,-63.7458 676.859,-41.7108"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1002.07,-160.097 1012.54,-158.508 1003.37,-153.217 1002.07,-160.097"/>
 </g>
 <!-- Node6&#45;&gt;Node10 -->
 <g id="edge9" class="edge"><title>Node6&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M650.859,-155.885C531.292,-133.961 498.191,-139.822 382,-120 378.895,-119.47 375.738,-118.913 372.552,-118.334"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="650.295,-159.34 660.766,-157.728 651.575,-152.458 650.295,-159.34"/>
+<path fill="none" stroke="midnightblue" d="M1169.05,-156.639C1217.81,-145.271 1279.26,-130.946 1328.15,-119.547"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1168.1,-153.265 1159.16,-158.944 1169.69,-160.082 1168.1,-153.265"/>
+</g>
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="report_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/report.cpp">
+<polygon fill="none" stroke="black" points="1591,-0.5 1591,-41.5 1737,-41.5 1737,-0.5 1591,-0.5"/>
+<text text-anchor="start" x="1599" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1599" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="1664" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/report.cpp</text>
+</a>
+</g>
 </g>
 <!-- Node6&#45;&gt;Node14 -->
-<g id="edge14" class="edge"><title>Node6&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M722.506,-146.882C718.89,-137.721 714.986,-127.83 711.7,-119.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="719.347,-148.412 726.274,-156.428 725.858,-145.841 719.347,-148.412"/>
-</g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="convertertoqwidget_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/convertertoqwidget.hpp">
-<polygon fill="none" stroke="black" points="391,-78.5 391,-119.5 595,-119.5 595,-78.5 391,-78.5"/>
-<text text-anchor="start" x="399" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="399" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="493" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertoqwidget.hpp</text>
-</a>
-</g>
+<g id="edge26" class="edge"><title>Node6&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M1169.39,-175.231C1256.13,-172.08 1394.7,-160.373 1507,-120 1558.25,-101.574 1610.46,-64.5861 1639.89,-41.6939"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1169.21,-171.735 1159.33,-175.566 1169.45,-178.731 1169.21,-171.735"/>
 </g>
 <!-- Node6&#45;&gt;Node15 -->
-<g id="edge17" class="edge"><title>Node6&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M662.029,-153.304C627.915,-142.546 587.57,-129.823 554.853,-119.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="661.347,-156.758 671.937,-156.428 663.452,-150.083 661.347,-156.758"/>
+<g id="edge15" class="edge"><title>Node6&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M1054.26,-149.779C1042.23,-139.843 1028.76,-128.716 1017.61,-119.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1052.37,-152.758 1062.31,-156.428 1056.83,-147.361 1052.37,-152.758"/>
 </g>
-<!-- Node6&#45;&gt;Node16 -->
-<g id="edge21" class="edge"><title>Node6&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M817.652,-156.55C818.774,-156.361 819.89,-156.178 821,-156 994.195,-128.289 1040.61,-146.486 1214,-120 1217.1,-119.526 1220.26,-119.012 1223.44,-118.468"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="816.658,-153.173 807.435,-158.387 817.897,-160.062 816.658,-153.173"/>
-</g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="report_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/report.cpp">
-<polygon fill="none" stroke="black" points="1059,-78.5 1059,-119.5 1205,-119.5 1205,-78.5 1059,-78.5"/>
-<text text-anchor="start" x="1067" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1067" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1132" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/report.cpp</text>
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="convertertoqwidget_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/convertertoqwidget.hpp">
+<polygon fill="none" stroke="black" points="1103,-78.5 1103,-119.5 1307,-119.5 1307,-78.5 1103,-78.5"/>
+<text text-anchor="start" x="1111" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1111" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="1205" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertoqwidget.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node18 -->
-<g id="edge25" class="edge"><title>Node6&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M817.122,-156.766C818.423,-156.506 819.717,-156.25 821,-156 919.968,-136.694 946.032,-139.306 1045,-120 1049.56,-119.11 1054.25,-118.154 1058.97,-117.159"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="816.117,-153.4 807.026,-158.841 817.526,-160.256 816.117,-153.4"/>
+<!-- Node6&#45;&gt;Node16 -->
+<g id="edge18" class="edge"><title>Node6&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M1125.27,-150.919C1141.27,-140.702 1159.48,-129.07 1174.46,-119.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1123.19,-148.096 1116.65,-156.428 1126.96,-153.995 1123.19,-148.096"/>
+</g>
+<!-- Node6&#45;&gt;Node17 -->
+<g id="edge22" class="edge"><title>Node6&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M1002.34,-156.569C1001.22,-156.374 1000.11,-156.184 999,-156 846.487,-130.633 806.328,-139.85 653,-120 638.278,-118.094 622.645,-115.854 607.531,-113.576"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1002.09,-160.08 1012.55,-158.451 1003.35,-153.196 1002.09,-160.08"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="convertertohtml_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/convertertohtml.cpp">
-<polygon fill="none" stroke="black" points="623,-0.5 623,-41.5 811,-41.5 811,-0.5 623,-0.5"/>
-<text text-anchor="start" x="631" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="631" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="717" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertohtml.cpp</text>
+<polygon fill="none" stroke="black" points="774,-0.5 774,-41.5 962,-41.5 962,-0.5 774,-0.5"/>
+<text text-anchor="start" x="782" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="782" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="868" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertohtml.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M849.214,-74.6086C822.555,-64.0008 791.393,-51.6015 766.021,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="848.227,-77.9829 858.813,-78.4281 850.815,-71.4789 848.227,-77.9829"/>
+<path fill="none" stroke="midnightblue" d="M817.501,-71.204C827.547,-61.416 838.71,-50.5388 847.981,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="814.807,-68.9426 810.087,-78.4281 819.692,-73.9562 814.807,-68.9426"/>
 </g>
 <!-- Node7&#45;&gt;Node9 -->
 <g id="edge8" class="edge"><title>Node7&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M908,-68.2965C908,-59.3009 908,-49.6532 908,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="904.5,-68.4281 908,-78.4281 911.5,-68.4281 904.5,-68.4281"/>
+<path fill="none" stroke="midnightblue" d="M754.289,-72.6352C740.001,-62.4868 723.803,-50.9816 710.462,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="752.265,-75.4908 762.445,-78.4281 756.319,-69.7839 752.265,-75.4908"/>
 </g>
 <!-- Node10&#45;&gt;Node8 -->
 <g id="edge10" class="edge"><title>Node10&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M382.611,-77.9242C480.643,-59.8212 506.865,-57.852 601,-42 608.154,-40.7953 615.555,-39.5401 622.996,-38.2716"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="381.767,-74.521 372.574,-79.7874 383.044,-81.4034 381.767,-74.521"/>
+<path fill="none" stroke="midnightblue" d="M1315.2,-77.9692C1161.9,-54.6825 1120.21,-64.227 971,-42 968.117,-41.5706 965.193,-41.1167 962.242,-40.6431"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1315.05,-81.4866 1325.47,-79.5512 1316.12,-74.5683 1315.05,-81.4866"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
 <g id="a_node11"><a xlink:href="convertertopdf_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/convertertopdf.cpp">
-<polygon fill="none" stroke="black" points="411.5,-0.5 411.5,-41.5 592.5,-41.5 592.5,-0.5 411.5,-0.5"/>
-<text text-anchor="start" x="419.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="419.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="502" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertopdf.cpp</text>
+<polygon fill="none" stroke="black" points="980.5,-0.5 980.5,-41.5 1161.5,-41.5 1161.5,-0.5 980.5,-0.5"/>
+<text text-anchor="start" x="988.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="988.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="1071" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertopdf.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge11" class="edge"><title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M351.293,-75.0264C381.701,-64.3275 417.492,-51.7343 446.563,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="349.897,-71.8074 341.625,-78.4281 352.22,-78.4106 349.897,-71.8074"/>
+<path fill="none" stroke="midnightblue" d="M1315.05,-76.3919C1265.83,-65.4228 1206.5,-52.1993 1158.66,-41.5374"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1314.55,-79.8661 1325.07,-78.6253 1316.07,-73.0337 1314.55,-79.8661"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
 <g id="a_node12"><a xlink:href="convertertoqwidget_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/convertertoqwidget.cpp">
-<polygon fill="none" stroke="black" points="190.5,-0.5 190.5,-41.5 393.5,-41.5 393.5,-0.5 190.5,-0.5"/>
-<text text-anchor="start" x="198.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="198.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="292" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertoqwidget.cpp</text>
+<polygon fill="none" stroke="black" points="1179.5,-0.5 1179.5,-41.5 1382.5,-41.5 1382.5,-0.5 1179.5,-0.5"/>
+<text text-anchor="start" x="1187.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1187.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="1281" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/convertertoqwidget.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node12 -->
 <g id="edge12" class="edge"><title>Node10&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M288.345,-68.2965C289.055,-59.3009 289.817,-49.6532 290.46,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="284.843,-68.1836 287.545,-78.4281 291.821,-68.7346 284.843,-68.1836"/>
+<path fill="none" stroke="midnightblue" d="M1369.26,-73.2029C1351.53,-62.9176 1331.26,-51.1587 1314.62,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1367.86,-76.4373 1378.26,-78.4281 1371.37,-70.3825 1367.86,-76.4373"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
 <g id="a_node13"><a xlink:href="replacer_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/converters/utils/replacer.cpp">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-41.5 172,-41.5 172,-0.5 0,-0.5"/>
-<text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="86" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/utils/replacer.cpp</text>
+<polygon fill="none" stroke="black" points="1401,-0.5 1401,-41.5 1573,-41.5 1573,-0.5 1401,-0.5"/>
+<text text-anchor="start" x="1409" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1409" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="1487" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/converters/utils/replacer.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node13 -->
 <g id="edge13" class="edge"><title>Node10&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M224.811,-74.7481C196.815,-64.1096 164.015,-51.6458 137.33,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="223.904,-78.1476 234.495,-78.4281 226.39,-71.6041 223.904,-78.1476"/>
+<path fill="none" stroke="midnightblue" d="M1438.44,-71.204C1448.1,-61.416 1458.84,-50.5388 1467.75,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1435.85,-68.8519 1431.31,-78.4281 1440.83,-73.7688 1435.85,-68.8519"/>
 </g>
-<!-- Node14&#45;&gt;Node9 -->
-<g id="edge16" class="edge"><title>Node14&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M766.039,-74.8874C794.677,-64.2185 828.306,-51.6901 855.643,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="764.684,-71.6572 756.535,-78.4281 767.128,-78.2167 764.684,-71.6572"/>
-</g>
-<!-- Node14&#45;&gt;Node11 -->
-<g id="edge15" class="edge"><title>Node14&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M642.569,-74.8874C614.212,-64.2185 580.913,-51.6901 553.844,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="641.388,-78.1825 651.98,-78.4281 643.853,-71.6308 641.388,-78.1825"/>
+<!-- Node10&#45;&gt;Node14 -->
+<g id="edge14" class="edge"><title>Node10&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M1486.8,-75.4423C1522.56,-64.655 1564.97,-51.8672 1599.32,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1485.46,-72.1897 1476.9,-78.4281 1487.48,-78.8916 1485.46,-72.1897"/>
 </g>
 <!-- Node15&#45;&gt;Node9 -->
-<g id="edge20" class="edge"><title>Node15&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M605.084,-77.83C701.553,-61.3145 727.585,-60.1869 820,-42 824.765,-41.0622 829.667,-40.0582 834.602,-39.0179"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="604.467,-74.3845 595.207,-79.5323 605.656,-81.2828 604.467,-74.3845"/>
+<g id="edge17" class="edge"><title>Node15&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M904.047,-76.0179C857.096,-64.5443 800.386,-50.6861 756.163,-39.879"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="903.365,-79.4541 913.91,-78.4281 905.027,-72.6542 903.365,-79.4541"/>
 </g>
 <!-- Node15&#45;&gt;Node11 -->
-<g id="edge18" class="edge"><title>Node15&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M496.518,-68.2965C497.583,-59.3009 498.725,-49.6532 499.69,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="493.018,-68.0859 495.318,-78.4281 499.97,-68.9091 493.018,-68.0859"/>
-</g>
-<!-- Node15&#45;&gt;Node12 -->
-<g id="edge19" class="edge"><title>Node15&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M431.873,-74.8874C403.657,-64.2185 370.522,-51.6901 343.587,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="430.646,-78.1651 441.238,-78.4281 433.122,-71.6175 430.646,-78.1651"/>
+<g id="edge16" class="edge"><title>Node15&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M1021.15,-71.204C1031.07,-61.416 1042.09,-50.5388 1051.24,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1018.49,-68.9124 1013.83,-78.4281 1023.41,-73.8944 1018.49,-68.9124"/>
 </g>
 <!-- Node16&#45;&gt;Node9 -->
-<g id="edge22" class="edge"><title>Node16&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M1213.48,-77.9235C1127.8,-60.9727 1040.84,-45.2748 981.077,-34.7207"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1212.88,-81.3741 1223.37,-79.8887 1214.25,-74.5082 1212.88,-81.3741"/>
+<g id="edge21" class="edge"><title>Node16&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M1092.6,-77.8574C946.634,-57.4007 906.617,-66.9092 765,-42 762.114,-41.4923 759.178,-40.9419 756.218,-40.3585"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1092.43,-81.3695 1102.83,-79.3157 1093.42,-74.4396 1092.43,-81.3695"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="parserfromxml_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/parsers/parserfromxml.cpp">
-<polygon fill="none" stroke="black" points="1223.5,-0.5 1223.5,-41.5 1390.5,-41.5 1390.5,-0.5 1223.5,-0.5"/>
-<text text-anchor="start" x="1231.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1231.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1307" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/parsers/parserfromxml.cpp</text>
+<!-- Node16&#45;&gt;Node11 -->
+<g id="edge19" class="edge"><title>Node16&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M1161.78,-73.4856C1143.52,-63.1335 1122.57,-51.2473 1105.39,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1160.07,-76.5391 1170.49,-78.4281 1163.52,-70.4502 1160.07,-76.5391"/>
+</g>
+<!-- Node16&#45;&gt;Node12 -->
+<g id="edge20" class="edge"><title>Node16&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M1231.8,-71.204C1241.58,-61.416 1252.46,-50.5388 1261.49,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1229.17,-68.8821 1224.57,-78.4281 1234.12,-73.8319 1229.17,-68.8821"/>
+</g>
+<!-- Node17&#45;&gt;Node9 -->
+<g id="edge23" class="edge"><title>Node17&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M574.109,-74.0487C596.039,-63.5665 621.441,-51.4244 642.192,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="572.459,-70.9577 564.946,-78.4281 575.478,-77.2733 572.459,-70.9577"/>
+</g>
+<!-- Node18 -->
+<g id="node18" class="node"><title>Node18</title>
+<g id="a_node18"><a xlink:href="parserfromxml_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/parsers/parserfromxml.cpp">
+<polygon fill="none" stroke="black" points="424.5,-0.5 424.5,-41.5 591.5,-41.5 591.5,-0.5 424.5,-0.5"/>
+<text text-anchor="start" x="432.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="432.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="508" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/parsers/parserfromxml.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
-<g id="edge23" class="edge"><title>Node16&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M1307,-68.2965C1307,-59.3009 1307,-49.6532 1307,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1303.5,-68.4281 1307,-78.4281 1310.5,-68.4281 1303.5,-68.4281"/>
+<!-- Node17&#45;&gt;Node18 -->
+<g id="edge24" class="edge"><title>Node17&#45;&gt;Node18</title>
+<path fill="none" stroke="midnightblue" d="M517.808,-68.5896C515.897,-59.5108 513.84,-49.7417 512.106,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="514.394,-69.3637 519.88,-78.4281 521.244,-67.9215 514.394,-69.3637"/>
 </g>
 <!-- Node20&#45;&gt;Node6 -->
-<g id="edge29" class="edge"><title>Node20&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M972.851,-233.735C911.626,-219.152 852.202,-205.304 807.041,-194.843"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="972.152,-237.166 982.691,-236.081 973.776,-230.357 972.152,-237.166"/>
+<g id="edge30" class="edge"><title>Node20&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M424.241,-233.944C647.067,-199.822 707.358,-219.813 928,-198 955.79,-195.253 986.246,-191.56 1012.94,-188.096"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="423.54,-230.511 414.195,-235.502 424.613,-237.428 423.54,-230.511"/>
 </g>
-<!-- Node20&#45;&gt;Node16 -->
-<g id="edge30" class="edge"><title>Node20&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1060.17,-224.361C1064.78,-202.474 1074.35,-173.549 1094,-156 1104.09,-146.99 1168.1,-130.832 1223.34,-118.18"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1056.68,-223.987 1058.28,-234.46 1063.56,-225.274 1056.68,-223.987"/>
+<!-- Node20&#45;&gt;Node17 -->
+<g id="edge31" class="edge"><title>Node20&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M324.411,-225.142C314.694,-204.027 306.989,-175.738 322,-156 336.787,-136.556 391.617,-122.105 440.425,-112.757"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="321.365,-226.878 328.943,-234.283 327.636,-223.769 321.365,-226.878"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
 <g id="a_node21"><a xlink:href="title_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/title.cpp">
-<polygon fill="none" stroke="black" points="901,-156.5 901,-197.5 1047,-197.5 1047,-156.5 901,-156.5"/>
-<text text-anchor="start" x="909" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="909" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="974" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/title.cpp</text>
+<polygon fill="none" stroke="black" points="129,-156.5 129,-197.5 275,-197.5 275,-156.5 129,-156.5"/>
+<text text-anchor="start" x="137" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="137" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="202" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/title.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node21 -->
-<g id="edge31" class="edge"><title>Node20&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M1027.4,-227.492C1016.76,-217.629 1004.89,-206.627 995.045,-197.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1025.17,-230.197 1034.88,-234.428 1029.93,-225.063 1025.17,-230.197"/>
+<g id="edge32" class="edge"><title>Node20&#45;&gt;Node21</title>
+<path fill="none" stroke="midnightblue" d="M296.422,-229.627C277.429,-219.242 255.573,-207.292 237.675,-197.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="294.751,-232.702 305.204,-234.428 298.109,-226.56 294.751,-232.702"/>
 </g>
 <!-- Node22&#45;&gt;Node6 -->
-<g id="edge33" class="edge"><title>Node22&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M1136.67,-233.873C1061.11,-220.235 901.488,-199.29 807.252,-187.246"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1136.29,-237.362 1146.76,-235.747 1137.57,-230.48 1136.29,-237.362"/>
+<g id="edge34" class="edge"><title>Node22&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M588.296,-233.888C738.892,-208.204 779.871,-215.193 928,-198 955.74,-194.78 986.185,-190.988 1012.88,-187.576"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="587.474,-230.478 578.215,-235.628 588.665,-237.376 587.474,-230.478"/>
 </g>
-<!-- Node22&#45;&gt;Node16 -->
-<g id="edge34" class="edge"><title>Node22&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1240.03,-226.054C1246.06,-217.236 1252.52,-207.352 1258,-198 1273.48,-171.575 1288.87,-139.626 1298.16,-119.554"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1237.02,-224.246 1234.2,-234.457 1242.77,-228.236 1237.02,-224.246"/>
+<!-- Node22&#45;&gt;Node17 -->
+<g id="edge35" class="edge"><title>Node22&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M508.656,-224.365C512.451,-193.606 518.281,-146.358 521.553,-119.832"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="505.157,-224.142 507.406,-234.496 512.105,-225 505.157,-224.142"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
 <g id="a_node23"><a xlink:href="detail_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/detail.cpp">
-<polygon fill="none" stroke="black" points="1103,-156.5 1103,-197.5 1249,-197.5 1249,-156.5 1103,-156.5"/>
-<text text-anchor="start" x="1111" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1111" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1176" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/detail.cpp</text>
+<polygon fill="none" stroke="black" points="331,-156.5 331,-197.5 477,-197.5 477,-156.5 331,-156.5"/>
+<text text-anchor="start" x="339" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="339" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="404" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/detail.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node22&#45;&gt;Node23 -->
-<g id="edge35" class="edge"><title>Node22&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M1203.65,-225.757C1198.2,-216.354 1192.27,-206.096 1187.29,-197.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1200.63,-227.527 1208.67,-234.428 1206.69,-224.02 1200.63,-227.527"/>
+<g id="edge36" class="edge"><title>Node22&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M470.913,-228.35C457.519,-218.272 442.397,-206.893 429.922,-197.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="468.895,-231.212 478.99,-234.428 473.104,-225.619 468.895,-231.212"/>
 </g>
 <!-- Node24&#45;&gt;Node6 -->
-<g id="edge37" class="edge"><title>Node24&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M1300.67,-233.908C1119.75,-204.71 1070.6,-217.137 892,-198 864.233,-195.025 833.782,-191.284 807.088,-187.845"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1300.36,-237.404 1310.8,-235.563 1301.49,-230.495 1300.36,-237.404"/>
+<g id="edge38" class="edge"><title>Node24&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M752.078,-233.844C847.551,-214.494 947.05,-198.576 1012.85,-188.641"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="751.355,-230.419 742.257,-235.849 752.755,-237.278 751.355,-230.419"/>
 </g>
-<!-- Node24&#45;&gt;Node16 -->
-<g id="edge38" class="edge"><title>Node24&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1432.86,-228.44C1443.75,-220.266 1453.87,-210.123 1460,-198 1468.42,-181.34 1470.69,-171.3 1460,-156 1443.88,-132.931 1417.18,-119.335 1390.55,-111.333"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1430.64,-225.72 1424.43,-234.307 1434.64,-231.465 1430.64,-225.72"/>
+<!-- Node24&#45;&gt;Node17 -->
+<g id="edge39" class="edge"><title>Node24&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M604.667,-229.796C589.139,-221.574 573.679,-211.069 562,-198 541.937,-175.549 531.951,-141.327 527.386,-119.835"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="603.281,-233.017 613.789,-234.376 606.422,-226.761 603.281,-233.017"/>
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
 <g id="a_node25"><a xlink:href="summary_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/summary.cpp">
-<polygon fill="none" stroke="black" points="1305,-156.5 1305,-197.5 1451,-197.5 1451,-156.5 1305,-156.5"/>
-<text text-anchor="start" x="1313" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1313" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1378" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/summary.cpp</text>
+<polygon fill="none" stroke="black" points="571,-156.5 571,-197.5 717,-197.5 717,-156.5 571,-156.5"/>
+<text text-anchor="start" x="579" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="579" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="644" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/summary.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node25 -->
-<g id="edge39" class="edge"><title>Node24&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M1381.65,-224.297C1380.94,-215.301 1380.18,-205.653 1379.54,-197.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1378.18,-224.735 1382.45,-234.428 1385.16,-224.184 1378.18,-224.735"/>
+<g id="edge40" class="edge"><title>Node24&#45;&gt;Node25</title>
+<path fill="none" stroke="midnightblue" d="M659.422,-224.882C656.408,-215.721 653.155,-205.83 650.416,-197.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="656.112,-226.023 662.562,-234.428 662.762,-223.835 656.112,-226.023"/>
 </g>
 <!-- Node29&#45;&gt;Node3 -->
-<g id="edge47" class="edge"><title>Node29&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M1202.97,-785.084C1086.84,-761.821 890,-712.57 890,-646 890,-646 890,-646 890,-566 890,-500.743 959.798,-455.364 1008.88,-431.522"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1202.42,-788.543 1212.91,-787.052 1203.78,-781.676 1202.42,-788.543"/>
+<g id="edge48" class="edge"><title>Node29&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M583,-769.91C583,-738.868 583,-689.049 583,-646 583,-646 583,-646 583,-566 583,-514.75 554.154,-459.878 536.802,-431.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="579.5,-770.065 583,-780.065 586.5,-770.065 579.5,-770.065"/>
 </g>
-<!-- Node29&#45;&gt;Node16 -->
-<g id="edge61" class="edge"><title>Node29&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1352.89,-776.33C1406.56,-752.559 1473,-710.175 1473,-646 1473,-646 1473,-646 1473,-488 1473,-339.957 1588.91,-274.372 1500,-156 1486.3,-137.763 1436.25,-123.546 1390.55,-114.001"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1351.19,-773.252 1343.38,-780.411 1353.95,-779.685 1351.19,-773.252"/>
+<!-- Node29&#45;&gt;Node17 -->
+<g id="edge62" class="edge"><title>Node29&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M499.394,-795.316C338.159,-783.984 0,-748.054 0,-646 0,-646 0,-646 0,-254 0,-205.694 7.69175,-184.077 47,-156 108.32,-112.201 320.84,-102.334 440.481,-100.318"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="499.537,-798.834 509.753,-796.027 500.016,-791.851 499.537,-798.834"/>
 </g>
 <!-- Node30 -->
 <g id="node30" class="node"><title>Node30</title>
 <g id="a_node30"><a xlink:href="cellcontents_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/cellcontents.hpp">
-<polygon fill="none" stroke="black" points="1213,-702.5 1213,-743.5 1359,-743.5 1359,-702.5 1213,-702.5"/>
-<text text-anchor="start" x="1221" y="-731.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1221" y="-720.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1286" y="-709.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/cellcontents.hpp</text>
+<polygon fill="none" stroke="black" points="316,-702.5 316,-743.5 462,-743.5 462,-702.5 316,-702.5"/>
+<text text-anchor="start" x="324" y="-731.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="324" y="-720.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="389" y="-709.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/cellcontents.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node29&#45;&gt;Node30 -->
-<g id="edge48" class="edge"><title>Node29&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M1286,-770.297C1286,-761.301 1286,-751.653 1286,-743.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1282.5,-770.428 1286,-780.428 1289.5,-770.428 1282.5,-770.428"/>
+<g id="edge49" class="edge"><title>Node29&#45;&gt;Node30</title>
+<path fill="none" stroke="midnightblue" d="M523.646,-776.748C496.49,-766.11 464.675,-753.646 438.791,-743.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="522.452,-780.039 533.04,-780.428 525.006,-773.522 522.452,-780.039"/>
 </g>
 <!-- Node40 -->
 <g id="node40" class="node"><title>Node40</title>
 <g id="a_node40"><a xlink:href="textfield_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/textfield.cpp">
-<polygon fill="none" stroke="black" points="1049,-702.5 1049,-743.5 1195,-743.5 1195,-702.5 1049,-702.5"/>
-<text text-anchor="start" x="1057" y="-731.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1057" y="-720.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1122" y="-709.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/textfield.cpp</text>
+<polygon fill="none" stroke="black" points="611,-702.5 611,-743.5 757,-743.5 757,-702.5 611,-702.5"/>
+<text text-anchor="start" x="619" y="-731.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="619" y="-720.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="684" y="-709.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/textfield.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node29&#45;&gt;Node40 -->
-<g id="edge62" class="edge"><title>Node29&#45;&gt;Node40</title>
-<path fill="none" stroke="midnightblue" d="M1234.62,-776.189C1211.93,-765.675 1185.59,-753.469 1164.09,-743.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1233.22,-779.399 1243.77,-780.428 1236.16,-773.048 1233.22,-779.399"/>
+<g id="edge63" class="edge"><title>Node29&#45;&gt;Node40</title>
+<path fill="none" stroke="midnightblue" d="M617.087,-774.35C630.481,-764.272 645.603,-752.893 658.078,-743.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="614.896,-771.619 609.01,-780.428 619.105,-777.212 614.896,-771.619"/>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node"><title>Node31</title>
 <g id="a_node31"><a xlink:href="crosstabheader_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabheader.hpp">
-<polygon fill="none" stroke="black" points="1123,-624.5 1123,-665.5 1279,-665.5 1279,-624.5 1123,-624.5"/>
-<text text-anchor="start" x="1131" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1131" y="-642.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1201" y="-631.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabheader.hpp</text>
+<polygon fill="none" stroke="black" points="396,-624.5 396,-665.5 552,-665.5 552,-624.5 396,-624.5"/>
+<text text-anchor="start" x="404" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="404" y="-642.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="474" y="-631.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabheader.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node30&#45;&gt;Node31 -->
-<g id="edge49" class="edge"><title>Node30&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M1256.35,-695.492C1245.32,-685.629 1233.02,-674.627 1222.82,-665.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1254.32,-698.372 1264.11,-702.428 1258.99,-693.154 1254.32,-698.372"/>
+<g id="edge50" class="edge"><title>Node30&#45;&gt;Node31</title>
+<path fill="none" stroke="midnightblue" d="M418.648,-695.492C429.678,-685.629 441.983,-674.627 452.185,-665.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="416.011,-693.154 410.89,-702.428 420.677,-698.372 416.011,-693.154"/>
 </g>
 <!-- Node37 -->
 <g id="node37" class="node"><title>Node37</title>
 <g id="a_node37"><a xlink:href="crosstabcell_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabcell.hpp">
-<polygon fill="none" stroke="black" points="956,-624.5 956,-665.5 1102,-665.5 1102,-624.5 956,-624.5"/>
-<text text-anchor="start" x="964" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="964" y="-642.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1029" y="-631.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabcell.hpp</text>
+<polygon fill="none" stroke="black" points="66,-624.5 66,-665.5 212,-665.5 212,-624.5 66,-624.5"/>
+<text text-anchor="start" x="74" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="74" y="-642.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="139" y="-631.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabcell.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node30&#45;&gt;Node37 -->
-<g id="edge57" class="edge"><title>Node30&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M1210.19,-699.58C1173.61,-688.764 1130.15,-675.911 1094.96,-665.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1209.23,-702.949 1219.82,-702.428 1211.22,-696.236 1209.23,-702.949"/>
+<g id="edge58" class="edge"><title>Node30&#45;&gt;Node37</title>
+<path fill="none" stroke="midnightblue" d="M314.797,-699.442C279.313,-688.655 237.247,-675.867 203.163,-665.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="314.033,-702.868 324.619,-702.428 316.069,-696.171 314.033,-702.868"/>
 </g>
 <!-- Node39 -->
 <g id="node39" class="node"><title>Node39</title>
 <g id="a_node39"><a xlink:href="cellcontents_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/cellcontents.cpp">
-<polygon fill="none" stroke="black" points="1297,-624.5 1297,-665.5 1443,-665.5 1443,-624.5 1297,-624.5"/>
-<text text-anchor="start" x="1305" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1305" y="-642.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1370" y="-631.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/cellcontents.cpp</text>
+<polygon fill="none" stroke="black" points="232,-624.5 232,-665.5 378,-665.5 378,-624.5 232,-624.5"/>
+<text text-anchor="start" x="240" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="240" y="-642.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="305" y="-631.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/cellcontents.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node30&#45;&gt;Node39 -->
-<g id="edge60" class="edge"><title>Node30&#45;&gt;Node39</title>
-<path fill="none" stroke="midnightblue" d="M1315.3,-695.492C1326.2,-685.629 1338.36,-674.627 1348.44,-665.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1312.7,-693.124 1307.63,-702.428 1317.4,-698.314 1312.7,-693.124"/>
+<g id="edge61" class="edge"><title>Node30&#45;&gt;Node39</title>
+<path fill="none" stroke="midnightblue" d="M359.701,-695.492C348.801,-685.629 336.641,-674.627 326.559,-665.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="357.604,-698.314 367.368,-702.428 362.301,-693.124 357.604,-698.314"/>
 </g>
 <!-- Node32 -->
 <g id="node32" class="node"><title>Node32</title>
 <g id="a_node32"><a xlink:href="crosstabgroup_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabgroup.hpp">
-<polygon fill="none" stroke="black" points="1120.5,-546.5 1120.5,-587.5 1271.5,-587.5 1271.5,-546.5 1120.5,-546.5"/>
-<text text-anchor="start" x="1128.5" y="-575.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1128.5" y="-564.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1196" y="-553.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabgroup.hpp</text>
+<polygon fill="none" stroke="black" points="230.5,-546.5 230.5,-587.5 381.5,-587.5 381.5,-546.5 230.5,-546.5"/>
+<text text-anchor="start" x="238.5" y="-575.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="238.5" y="-564.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="306" y="-553.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabgroup.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node31&#45;&gt;Node32 -->
-<g id="edge50" class="edge"><title>Node31&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M1199.05,-614.297C1198.45,-605.301 1197.82,-595.653 1197.28,-587.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1195.56,-614.679 1199.71,-624.428 1202.55,-614.22 1195.56,-614.679"/>
+<g id="edge51" class="edge"><title>Node31&#45;&gt;Node32</title>
+<path fill="none" stroke="midnightblue" d="M421.365,-620.189C398.124,-609.675 371.141,-597.469 349.118,-587.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="420.182,-623.495 430.736,-624.428 423.067,-617.117 420.182,-623.495"/>
 </g>
 <!-- Node36 -->
 <g id="node36" class="node"><title>Node36</title>
 <g id="a_node36"><a xlink:href="crosstabheader_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabheader.cpp">
-<polygon fill="none" stroke="black" points="1289.5,-546.5 1289.5,-587.5 1444.5,-587.5 1444.5,-546.5 1289.5,-546.5"/>
-<text text-anchor="start" x="1297.5" y="-575.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1297.5" y="-564.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1367" y="-553.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabheader.cpp</text>
+<polygon fill="none" stroke="black" points="399.5,-546.5 399.5,-587.5 554.5,-587.5 554.5,-546.5 399.5,-546.5"/>
+<text text-anchor="start" x="407.5" y="-575.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="407.5" y="-564.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="477" y="-553.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabheader.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node31&#45;&gt;Node36 -->
-<g id="edge56" class="edge"><title>Node31&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M1253.01,-620.189C1275.97,-609.675 1302.63,-597.469 1324.4,-587.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1251.38,-617.083 1243.75,-624.428 1254.3,-623.448 1251.38,-617.083"/>
+<g id="edge57" class="edge"><title>Node31&#45;&gt;Node36</title>
+<path fill="none" stroke="midnightblue" d="M475.173,-614.297C475.528,-605.301 475.908,-595.653 476.23,-587.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="471.67,-614.298 474.773,-624.428 478.664,-614.574 471.67,-614.298"/>
 </g>
 <!-- Node33 -->
 <g id="node33" class="node"><title>Node33</title>
 <g id="a_node33"><a xlink:href="crosstab_8hpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstab.hpp">
-<polygon fill="none" stroke="black" points="716,-468.5 716,-509.5 862,-509.5 862,-468.5 716,-468.5"/>
-<text text-anchor="start" x="724" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="724" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="789" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstab.hpp</text>
+<polygon fill="none" stroke="black" points="66,-468.5 66,-509.5 212,-509.5 212,-468.5 66,-468.5"/>
+<text text-anchor="start" x="74" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="74" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="139" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstab.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node32&#45;&gt;Node33 -->
-<g id="edge51" class="edge"><title>Node32&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M1110.11,-545.872C1019.07,-527.453 925.24,-511.635 862.125,-501.457"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1109.55,-549.33 1120.05,-547.895 1110.95,-542.471 1109.55,-549.33"/>
+<g id="edge52" class="edge"><title>Node32&#45;&gt;Node33</title>
+<path fill="none" stroke="midnightblue" d="M253.678,-542.189C230.575,-531.675 203.754,-519.469 181.861,-509.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="252.442,-545.472 262.993,-546.428 255.341,-539.1 252.442,-545.472"/>
 </g>
 <!-- Node35 -->
 <g id="node35" class="node"><title>Node35</title>
 <g id="a_node35"><a xlink:href="crosstabgroup_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabgroup.cpp">
-<polygon fill="none" stroke="black" points="1121,-468.5 1121,-509.5 1271,-509.5 1271,-468.5 1121,-468.5"/>
-<text text-anchor="start" x="1129" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1129" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1196" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabgroup.cpp</text>
+<polygon fill="none" stroke="black" points="231,-468.5 231,-509.5 381,-509.5 381,-468.5 231,-468.5"/>
+<text text-anchor="start" x="239" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="239" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="306" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabgroup.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node32&#45;&gt;Node35 -->
-<g id="edge55" class="edge"><title>Node32&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M1196,-536.297C1196,-527.301 1196,-517.653 1196,-509.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1192.5,-536.428 1196,-546.428 1199.5,-536.428 1192.5,-536.428"/>
+<g id="edge56" class="edge"><title>Node32&#45;&gt;Node35</title>
+<path fill="none" stroke="midnightblue" d="M306,-536.297C306,-527.301 306,-517.653 306,-509.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="302.5,-536.428 306,-546.428 309.5,-536.428 302.5,-536.428"/>
 </g>
 <!-- Node33&#45;&gt;Node3 -->
-<g id="edge52" class="edge"><title>Node33&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M867.763,-465.58C905.762,-454.764 950.916,-441.911 987.474,-431.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="866.419,-462.324 857.759,-468.428 868.335,-469.057 866.419,-462.324"/>
+<g id="edge53" class="edge"><title>Node33&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M222.285,-467.994C306.633,-450.185 391.901,-434.728 450.862,-424.441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="221.327,-464.62 212.272,-470.121 222.781,-471.467 221.327,-464.62"/>
 </g>
-<!-- Node33&#45;&gt;Node16 -->
-<g id="edge53" class="edge"><title>Node33&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M741.852,-462.8C729.25,-454.329 716.507,-443.946 707,-432 649.661,-359.95 588.024,-305.539 646,-234 694.626,-173.999 750.433,-238.812 816,-198 836.154,-185.455 828.185,-167.414 849,-156 920.466,-116.812 1133.47,-132.588 1214,-120 1217.1,-119.515 1220.25,-118.992 1223.43,-118.44"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="740.205,-465.902 750.512,-468.355 743.985,-460.01 740.205,-465.902"/>
+<!-- Node33&#45;&gt;Node17 -->
+<g id="edge54" class="edge"><title>Node33&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M89.0251,-462.902C76.8801,-454.607 65.0791,-444.289 57,-432 32.6281,-394.927 38,-378.367 38,-334 38,-334 38,-334 38,-254 38,-203.613 53.0445,-183.903 95,-156 149.959,-119.448 331.651,-106.69 440.162,-102.283"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="87.1433,-465.853 97.4466,-468.321 90.9312,-459.967 87.1433,-465.853"/>
 </g>
 <!-- Node34 -->
 <g id="node34" class="node"><title>Node34</title>
 <g id="a_node34"><a xlink:href="crosstab_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstab.cpp">
-<polygon fill="none" stroke="black" points="716,-390.5 716,-431.5 862,-431.5 862,-390.5 716,-390.5"/>
-<text text-anchor="start" x="724" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="724" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="789" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstab.cpp</text>
+<polygon fill="none" stroke="black" points="66,-390.5 66,-431.5 212,-431.5 212,-390.5 66,-390.5"/>
+<text text-anchor="start" x="74" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="74" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="139" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstab.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node33&#45;&gt;Node34 -->
-<g id="edge54" class="edge"><title>Node33&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M789,-458.297C789,-449.301 789,-439.653 789,-431.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="785.5,-458.428 789,-468.428 792.5,-458.428 785.5,-458.428"/>
+<g id="edge55" class="edge"><title>Node33&#45;&gt;Node34</title>
+<path fill="none" stroke="midnightblue" d="M139,-458.297C139,-449.301 139,-439.653 139,-431.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="135.5,-458.428 139,-468.428 142.5,-458.428 135.5,-458.428"/>
 </g>
 <!-- Node37&#45;&gt;Node33 -->
-<g id="edge58" class="edge"><title>Node37&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M990.106,-619.043C942.519,-588.508 862.942,-537.446 819.527,-509.588"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="988.297,-622.041 998.604,-624.496 992.078,-616.15 988.297,-622.041"/>
+<g id="edge59" class="edge"><title>Node37&#45;&gt;Node33</title>
+<path fill="none" stroke="midnightblue" d="M86.0309,-618.904C74.4063,-610.758 63.6068,-600.512 57,-588 48.2841,-571.493 48.2841,-562.507 57,-546 65.2104,-530.451 79.8958,-518.402 94.5931,-509.533"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="84.3006,-621.954 94.5931,-624.467 88.1144,-616.084 84.3006,-621.954"/>
 </g>
 <!-- Node38 -->
 <g id="node38" class="node"><title>Node38</title>
 <g id="a_node38"><a xlink:href="crosstabcell_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/crosstabcell.cpp">
-<polygon fill="none" stroke="black" points="956,-546.5 956,-587.5 1102,-587.5 1102,-546.5 956,-546.5"/>
-<text text-anchor="start" x="964" y="-575.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="964" y="-564.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1029" y="-553.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabcell.cpp</text>
+<polygon fill="none" stroke="black" points="66,-546.5 66,-587.5 212,-587.5 212,-546.5 66,-546.5"/>
+<text text-anchor="start" x="74" y="-575.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="74" y="-564.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="139" y="-553.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/crosstabcell.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node37&#45;&gt;Node38 -->
-<g id="edge59" class="edge"><title>Node37&#45;&gt;Node38</title>
-<path fill="none" stroke="midnightblue" d="M1029,-614.297C1029,-605.301 1029,-595.653 1029,-587.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1025.5,-614.428 1029,-624.428 1032.5,-614.428 1025.5,-614.428"/>
+<g id="edge60" class="edge"><title>Node37&#45;&gt;Node38</title>
+<path fill="none" stroke="midnightblue" d="M139,-614.297C139,-605.301 139,-595.653 139,-587.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="135.5,-614.428 139,-624.428 142.5,-614.428 135.5,-614.428"/>
 </g>
 <!-- Node41&#45;&gt;Node3 -->
-<g id="edge64" class="edge"><title>Node41&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M1490.82,-475.795C1390.79,-461.12 1224.5,-436.722 1129.16,-422.735"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1490.48,-479.283 1500.88,-477.272 1491.5,-472.358 1490.48,-479.283"/>
+<g id="edge65" class="edge"><title>Node41&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M656.214,-464.609C629.555,-454.001 598.393,-441.602 573.021,-431.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="655.227,-467.983 665.813,-468.428 657.815,-461.479 655.227,-467.983"/>
 </g>
-<!-- Node41&#45;&gt;Node16 -->
-<g id="edge65" class="edge"><title>Node41&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1623.97,-462.902C1636.12,-454.607 1647.92,-444.289 1656,-432 1680.37,-394.927 1675,-378.367 1675,-334 1675,-334 1675,-334 1675,-254 1675,-189.84 1625.96,-185.536 1569,-156 1513.57,-127.254 1444.22,-113.257 1390.8,-106.445"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1622.07,-459.967 1615.55,-468.321 1625.86,-465.853 1622.07,-459.967"/>
+<!-- Node41&#45;&gt;Node17 -->
+<g id="edge66" class="edge"><title>Node41&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M682.527,-461.135C674.624,-452.717 667.233,-442.779 663,-432 656.177,-414.625 652.88,-405.685 663,-390 729.644,-286.706 840.063,-373.446 915,-276 947.702,-233.475 963.233,-196.453 928,-156 927.836,-155.811 725.947,-127.895 607.667,-111.555"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="680.295,-463.851 689.854,-468.419 685.23,-458.887 680.295,-463.851"/>
 </g>
 <!-- Node42 -->
 <g id="node42" class="node"><title>Node42</title>
 <g id="a_node42"><a xlink:href="image_8cpp.html" target="_top" xlink:title="/home/travis/build\l/PO&#45;31/QtReports/qtreports\l/src/tags/image.cpp">
-<polygon fill="none" stroke="black" points="1501,-390.5 1501,-431.5 1647,-431.5 1647,-390.5 1501,-390.5"/>
-<text text-anchor="start" x="1509" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1509" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
-<text text-anchor="middle" x="1574" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/image.cpp</text>
+<polygon fill="none" stroke="black" points="672,-390.5 672,-431.5 818,-431.5 818,-390.5 672,-390.5"/>
+<text text-anchor="start" x="680" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="680" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PO&#45;31/QtReports/qtreports</text>
+<text text-anchor="middle" x="745" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/tags/image.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node41&#45;&gt;Node42 -->
-<g id="edge66" class="edge"><title>Node41&#45;&gt;Node42</title>
-<path fill="none" stroke="midnightblue" d="M1574,-458.297C1574,-449.301 1574,-439.653 1574,-431.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1570.5,-458.428 1574,-468.428 1577.5,-458.428 1570.5,-458.428"/>
+<g id="edge67" class="edge"><title>Node41&#45;&gt;Node42</title>
+<path fill="none" stroke="midnightblue" d="M726.494,-458.882C730.11,-449.721 734.014,-439.83 737.3,-431.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="723.142,-457.841 722.726,-468.428 729.653,-460.412 723.142,-457.841"/>
 </g>
 </g>
 </svg>

@@ -296,10 +296,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="109" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="315" bodyend="459"/>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="233" endline="245">qtreports::detail::Replacer::replace</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="289" endline="301">qtreports::detail::Replacer::replace</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ac26b71fc6bbf2a8883974083d59f8cdd" compoundref="convertertohtml_8hpp" startline="63">m_report</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ae8b03ca6b59a060cb4931adaf484ff4e" compoundref="convertertohtml_8hpp" startline="68">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="247" endline="250">qtreports::detail::Replacer::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="303" endline="306">qtreports::detail::Replacer::getLastError</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a42fb7b544afafff1e7416f157bc094df" compoundref="convertertohtml_8hpp" startline="78">m_defaultStyleName</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a759cb19710076fd669793a84e62d14eb" compoundref="convertertohtml_8cpp" startline="461" endline="588">addShapes</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a7ce37e96779cea03cf71570d93680048" compoundref="convertertohtml_8hpp" startline="73">m_html</references>

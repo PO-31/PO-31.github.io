@@ -10,59 +10,55 @@
     <includes local="no">QList</includes>
     <includes local="no">QSet</includes>
     <incdepgraph>
-      <node id="2346">
+      <node id="2348">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp</label>
         <link refid="replacer.cpp"/>
-        <childnode refid="2347" relation="include">
-        </childnode>
-        <childnode refid="2364" relation="include">
+        <childnode refid="2349" relation="include">
         </childnode>
         <childnode refid="2366" relation="include">
         </childnode>
-        <childnode refid="2385" relation="include">
-        </childnode>
-        <childnode refid="2386" relation="include">
+        <childnode refid="2368" relation="include">
         </childnode>
         <childnode refid="2387" relation="include">
         </childnode>
         <childnode refid="2388" relation="include">
         </childnode>
+        <childnode refid="2389" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
       </node>
-      <node id="2360">
+      <node id="2362">
         <label>QMap</label>
       </node>
-      <node id="2368">
+      <node id="2370">
         <label>section.hpp</label>
         <link refid="section_8hpp"/>
-        <childnode refid="2361" relation="include">
+        <childnode refid="2363" relation="include">
         </childnode>
-        <childnode refid="2350" relation="include">
+        <childnode refid="2352" relation="include">
         </childnode>
-        <childnode refid="2357" relation="include">
+        <childnode refid="2359" relation="include">
         </childnode>
-        <childnode refid="2369" relation="include">
-        </childnode>
-      </node>
-      <node id="2367">
-        <label>group.hpp</label>
-        <link refid="group_8hpp"/>
-        <childnode refid="2348" relation="include">
-        </childnode>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2368" relation="include">
+        <childnode refid="2371" relation="include">
         </childnode>
       </node>
       <node id="2369">
-        <label>band.hpp</label>
-        <link refid="band_8hpp"/>
-        <childnode refid="2361" relation="include">
-        </childnode>
+        <label>group.hpp</label>
+        <link refid="group_8hpp"/>
         <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2352" relation="include">
         </childnode>
         <childnode refid="2370" relation="include">
         </childnode>
-        <childnode refid="2371" relation="include">
+      </node>
+      <node id="2371">
+        <label>band.hpp</label>
+        <link refid="band_8hpp"/>
+        <childnode refid="2363" relation="include">
+        </childnode>
+        <childnode refid="2352" relation="include">
         </childnode>
         <childnode refid="2372" relation="include">
         </childnode>
@@ -72,293 +68,297 @@
         </childnode>
         <childnode refid="2375" relation="include">
         </childnode>
-        <childnode refid="2351" relation="include">
-        </childnode>
         <childnode refid="2376" relation="include">
         </childnode>
-      </node>
-      <node id="2355">
-        <label>style.hpp</label>
-        <link refid="style_8hpp"/>
-        <childnode refid="2348" relation="include">
+        <childnode refid="2377" relation="include">
         </childnode>
-        <childnode refid="2356" relation="include">
-        </childnode>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2357" relation="include">
-        </childnode>
-      </node>
-      <node id="2365">
-        <label>field.hpp</label>
-        <link refid="field_8hpp"/>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2358" relation="include">
-        </childnode>
-        <childnode refid="2348" relation="include">
-        </childnode>
-        <childnode refid="2361" relation="include">
-        </childnode>
-        <childnode refid="2366" relation="include">
-        </childnode>
-        <childnode refid="2357" relation="include">
-        </childnode>
-      </node>
-      <node id="2387">
-        <label>QList</label>
-      </node>
-      <node id="2382">
-        <label>detail.hpp</label>
-        <link refid="detail_8hpp"/>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2368" relation="include">
-        </childnode>
-      </node>
-      <node id="2347">
-        <label>replacer.hpp</label>
-        <link refid="replacer_8hpp"/>
-        <childnode refid="2348" relation="include">
-        </childnode>
-        <childnode refid="2349" relation="include">
-        </childnode>
-        <childnode refid="2359" relation="include">
-        </childnode>
-      </node>
-      <node id="2363">
-        <label>QPrinter</label>
-      </node>
-      <node id="2354">
-        <label>QRect</label>
-      </node>
-      <node id="2352">
-        <label>QPoint</label>
-      </node>
-      <node id="2350">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="2366">
-        <label>QImage</label>
-      </node>
-      <node id="2370">
-        <label>statictext.hpp</label>
-        <link refid="statictext_8hpp"/>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2349" relation="include">
-        </childnode>
-      </node>
-      <node id="2373">
-        <label>rect.hpp</label>
-        <link refid="rect_8hpp"/>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2351" relation="include">
-        </childnode>
-      </node>
-      <node id="2385">
-        <label>QByteArray</label>
-      </node>
-      <node id="2375">
-        <label>image.hpp</label>
-        <link refid="image_8hpp"/>
-        <childnode refid="2366" relation="include">
-        </childnode>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2349" relation="include">
-        </childnode>
-      </node>
-      <node id="2377">
-        <label>crosstabgroup.hpp</label>
-        <link refid="crosstabgroup_8hpp"/>
-        <childnode refid="2357" relation="include">
+        <childnode refid="2353" relation="include">
         </childnode>
         <childnode refid="2378" relation="include">
         </childnode>
       </node>
-      <node id="2372">
-        <label>line.hpp</label>
-        <link refid="line_8hpp"/>
+      <node id="2357">
+        <label>style.hpp</label>
+        <link refid="style_8hpp"/>
+        <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2358" relation="include">
+        </childnode>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2359" relation="include">
+        </childnode>
+      </node>
+      <node id="2367">
+        <label>field.hpp</label>
+        <link refid="field_8hpp"/>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2360" relation="include">
+        </childnode>
+        <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2363" relation="include">
+        </childnode>
+        <childnode refid="2368" relation="include">
+        </childnode>
+        <childnode refid="2359" relation="include">
+        </childnode>
+      </node>
+      <node id="2389">
+        <label>QList</label>
+      </node>
+      <node id="2384">
+        <label>detail.hpp</label>
+        <link refid="detail_8hpp"/>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2370" relation="include">
+        </childnode>
+      </node>
+      <node id="2349">
+        <label>replacer.hpp</label>
+        <link refid="replacer_8hpp"/>
         <childnode refid="2350" relation="include">
         </childnode>
         <childnode refid="2351" relation="include">
         </childnode>
+        <childnode refid="2361" relation="include">
+        </childnode>
       </node>
-      <node id="2376">
-        <label>crosstab.hpp</label>
-        <link refid="crosstab_8hpp"/>
+      <node id="2365">
+        <label>QPrinter</label>
+      </node>
+      <node id="2356">
+        <label>QRect</label>
+      </node>
+      <node id="2354">
+        <label>QPoint</label>
+      </node>
+      <node id="2352">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2368">
+        <label>QImage</label>
+      </node>
+      <node id="2372">
+        <label>statictext.hpp</label>
+        <link refid="statictext_8hpp"/>
+        <childnode refid="2352" relation="include">
+        </childnode>
         <childnode refid="2351" relation="include">
         </childnode>
-        <childnode refid="2377" relation="include">
+      </node>
+      <node id="2375">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp"/>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2353" relation="include">
+        </childnode>
+      </node>
+      <node id="2387">
+        <label>QByteArray</label>
+      </node>
+      <node id="2377">
+        <label>image.hpp</label>
+        <link refid="image_8hpp"/>
+        <childnode refid="2368" relation="include">
+        </childnode>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2351" relation="include">
+        </childnode>
+      </node>
+      <node id="2379">
+        <label>crosstabgroup.hpp</label>
+        <link refid="crosstabgroup_8hpp"/>
+        <childnode refid="2359" relation="include">
         </childnode>
         <childnode refid="2380" relation="include">
         </childnode>
       </node>
-      <node id="2386">
-        <label>QDebug</label>
-      </node>
-      <node id="2388">
-        <label>QSet</label>
-      </node>
-      <node id="2380">
-        <label>crosstabcell.hpp</label>
-        <link refid="crosstabcell_8hpp"/>
-        <childnode refid="2357" relation="include">
+      <node id="2374">
+        <label>line.hpp</label>
+        <link refid="line_8hpp"/>
+        <childnode refid="2352" relation="include">
         </childnode>
-        <childnode refid="2379" relation="include">
-        </childnode>
-      </node>
-      <node id="2379">
-        <label>cellcontents.hpp</label>
-        <link refid="cellcontents_8hpp"/>
-        <childnode refid="2351" relation="include">
-        </childnode>
-        <childnode refid="2371" relation="include">
-        </childnode>
-      </node>
-      <node id="2349">
-        <label>../../tags/textwidget.hpp</label>
-        <link refid="textwidget_8hpp"/>
-        <childnode refid="2348" relation="include">
-        </childnode>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2351" relation="include">
-        </childnode>
-      </node>
-      <node id="2364">
-        <label>QRegularExpression</label>
-      </node>
-      <node id="2348">
-        <label>QString</label>
-      </node>
-      <node id="2353">
-        <label>QSize</label>
-      </node>
-      <node id="2371">
-        <label>textfield.hpp</label>
-        <link refid="textfield_8hpp"/>
-        <childnode refid="2348" relation="include">
-        </childnode>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2349" relation="include">
-        </childnode>
-      </node>
-      <node id="2356">
-        <label>QColor</label>
-      </node>
-      <node id="2362">
-        <label>QMargins</label>
-      </node>
-      <node id="2357">
-        <label>object.hpp</label>
-        <link refid="object_8hpp"/>
-        <childnode refid="2348" relation="include">
-        </childnode>
-        <childnode refid="2358" relation="include">
-        </childnode>
-        <childnode refid="2350" relation="include">
-        </childnode>
-      </node>
-      <node id="2384">
-        <label>variable.hpp</label>
-        <link refid="variable_8hpp"/>
-        <childnode refid="2357" relation="include">
-        </childnode>
-      </node>
-      <node id="2381">
-        <label>title.hpp</label>
-        <link refid="title_8hpp"/>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2368" relation="include">
-        </childnode>
-      </node>
-      <node id="2383">
-        <label>summary.hpp</label>
-        <link refid="summary_8hpp"/>
-        <childnode refid="2350" relation="include">
-        </childnode>
-        <childnode refid="2368" relation="include">
+        <childnode refid="2353" relation="include">
         </childnode>
       </node>
       <node id="2378">
-        <label>crosstabheader.hpp</label>
-        <link refid="crosstabheader_8hpp"/>
-        <childnode refid="2357" relation="include">
+        <label>crosstab.hpp</label>
+        <link refid="crosstab_8hpp"/>
+        <childnode refid="2353" relation="include">
         </childnode>
         <childnode refid="2379" relation="include">
         </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+      </node>
+      <node id="2388">
+        <label>QDebug</label>
+      </node>
+      <node id="2390">
+        <label>QSet</label>
+      </node>
+      <node id="2382">
+        <label>crosstabcell.hpp</label>
+        <link refid="crosstabcell_8hpp"/>
+        <childnode refid="2359" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+      </node>
+      <node id="2381">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2353" relation="include">
+        </childnode>
+        <childnode refid="2373" relation="include">
+        </childnode>
       </node>
       <node id="2351">
-        <label>widget.hpp</label>
-        <link refid="widget_8hpp"/>
-        <childnode refid="2348" relation="include">
+        <label>../../tags/textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2350" relation="include">
         </childnode>
         <childnode refid="2352" relation="include">
         </childnode>
         <childnode refid="2353" relation="include">
         </childnode>
-        <childnode refid="2354" relation="include">
-        </childnode>
+      </node>
+      <node id="2366">
+        <label>QRegularExpression</label>
+      </node>
+      <node id="2350">
+        <label>QString</label>
+      </node>
+      <node id="2355">
+        <label>QSize</label>
+      </node>
+      <node id="2373">
+        <label>textfield.hpp</label>
+        <link refid="textfield_8hpp"/>
         <childnode refid="2350" relation="include">
         </childnode>
-        <childnode refid="2355" relation="include">
+        <childnode refid="2352" relation="include">
         </childnode>
-        <childnode refid="2357" relation="include">
+        <childnode refid="2351" relation="include">
         </childnode>
       </node>
       <node id="2358">
-        <label>QVariant</label>
+        <label>QColor</label>
+      </node>
+      <node id="2364">
+        <label>QMargins</label>
       </node>
       <node id="2359">
-        <label>../../tags/report.hpp</label>
-        <link refid="report_8hpp"/>
-        <childnode refid="2348" relation="include">
-        </childnode>
-        <childnode refid="2353" relation="include">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="2350" relation="include">
         </childnode>
         <childnode refid="2360" relation="include">
         </childnode>
-        <childnode refid="2361" relation="include">
+        <childnode refid="2352" relation="include">
         </childnode>
+      </node>
+      <node id="2386">
+        <label>variable.hpp</label>
+        <link refid="variable_8hpp"/>
+        <childnode refid="2359" relation="include">
+        </childnode>
+      </node>
+      <node id="2383">
+        <label>title.hpp</label>
+        <link refid="title_8hpp"/>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2370" relation="include">
+        </childnode>
+      </node>
+      <node id="2385">
+        <label>summary.hpp</label>
+        <link refid="summary_8hpp"/>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2370" relation="include">
+        </childnode>
+      </node>
+      <node id="2380">
+        <label>crosstabheader.hpp</label>
+        <link refid="crosstabheader_8hpp"/>
+        <childnode refid="2359" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+      </node>
+      <node id="2353">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
         <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2354" relation="include">
+        </childnode>
+        <childnode refid="2355" relation="include">
+        </childnode>
+        <childnode refid="2356" relation="include">
+        </childnode>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2357" relation="include">
+        </childnode>
+        <childnode refid="2359" relation="include">
+        </childnode>
+      </node>
+      <node id="2360">
+        <label>QVariant</label>
+      </node>
+      <node id="2361">
+        <label>../../tags/report.hpp</label>
+        <link refid="report_8hpp"/>
+        <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2355" relation="include">
         </childnode>
         <childnode refid="2362" relation="include">
         </childnode>
         <childnode refid="2363" relation="include">
         </childnode>
-        <childnode refid="2364" relation="include">
+        <childnode refid="2352" relation="include">
         </childnode>
-        <childnode refid="2357" relation="include">
+        <childnode refid="2364" relation="include">
         </childnode>
         <childnode refid="2365" relation="include">
         </childnode>
-        <childnode refid="2355" relation="include">
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2359" relation="include">
         </childnode>
         <childnode refid="2367" relation="include">
         </childnode>
-        <childnode refid="2381" relation="include">
+        <childnode refid="2357" relation="include">
         </childnode>
-        <childnode refid="2382" relation="include">
+        <childnode refid="2369" relation="include">
         </childnode>
         <childnode refid="2383" relation="include">
         </childnode>
         <childnode refid="2384" relation="include">
         </childnode>
+        <childnode refid="2385" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
       </node>
-      <node id="2361">
+      <node id="2363">
         <label>QVector</label>
       </node>
-      <node id="2374">
+      <node id="2376">
         <label>ellipse.hpp</label>
         <link refid="ellipse_8hpp"/>
-        <childnode refid="2350" relation="include">
+        <childnode refid="2352" relation="include">
         </childnode>
-        <childnode refid="2351" relation="include">
+        <childnode refid="2353" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -503,125 +503,181 @@
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
 <codeline lineno="133" refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" kindref="member">Replacer::replaceRowGroupsInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/>QList&lt;QString&gt;<sp/>&amp;<sp/>rowGroups)</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>report-&gt;getFieldsDataCount();<sp/>i++)</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" kindref="member">replaceRowGroupInCrosstab</ref>(crosstab,<sp/>report,<sp/>i);</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rowGroups.append(crosstab-&gt;getRowGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getText());</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSet&lt;QString&gt;<sp/>uniqueGroups<sp/>=<sp/>rowGroups.toSet();</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rowGroups<sp/>=<sp/>uniqueGroups.toList();</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" kindref="member">Replacer::replaceColumnGroupsInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/>QList&lt;QString&gt;<sp/>&amp;<sp/>columnGroups)</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>report-&gt;getFieldsDataCount();<sp/>i++)</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" kindref="member">replaceColumnGroupInCrosstab</ref>(crosstab,<sp/>report,<sp/>i);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>columnGroups.append(crosstab-&gt;getColumnGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getText());</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSet&lt;QString&gt;<sp/>uniqueGroups<sp/>=<sp/>columnGroups.toSet();</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>columnGroups<sp/>=<sp/>uniqueGroups.toList();</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" kindref="member">Replacer::replaceRowGroupInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rowGroupText<sp/>=<sp/>crosstab-&gt;getRowGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getOriginalText();</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rowGroupReplacedText<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kindref="member">replaceField</ref>(rowGroupText,<sp/>report,<sp/>i);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>crosstab-&gt;getRowGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;setText(rowGroupReplacedText);</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" kindref="member">Replacer::replaceColumnGroupInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>colGroupText<sp/>=<sp/>crosstab-&gt;getColumnGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getOriginalText();</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>colGroupReplacedText<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kindref="member">replaceField</ref>(colGroupText,<sp/>report,<sp/>i);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>crosstab-&gt;getColumnGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;setText(colGroupReplacedText);</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" kindref="member">Replacer::replaceCellInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cellText<sp/><sp/><sp/><sp/><sp/>=<sp/>crosstab-&gt;getCrosstabCell()-&gt;getCellContents()-&gt;getTextField()-&gt;getOriginalText();</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cellReplacedText<sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kindref="member">replaceField</ref>(cellText,<sp/>report,<sp/>i);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>crosstab-&gt;getCrosstabCell()-&gt;getCellContents()-&gt;getTextField()-&gt;setText(cellReplacedText);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" kindref="member">replaceRowGroupInCrosstab</ref>(crosstab,<sp/>report,<sp/>0);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QList&lt;QString&gt;<sp/>oldValues;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>value<sp/>=<sp/>crosstab-&gt;getRowGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getText();</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rowGroups.append(value);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oldValues.append(value);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>report-&gt;getFieldsDataCount();<sp/>i++)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" kindref="member">replaceRowGroupInCrosstab</ref>(crosstab,<sp/>report,<sp/>i);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>=<sp/>crosstab-&gt;getRowGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getText();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!oldValues.contains(value))</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oldValues.append(value);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rowGroups.append(value);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" kindref="member">Replacer::replaceColumnGroupsInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/>QList&lt;QString&gt;<sp/>&amp;<sp/>columnGroups)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" kindref="member">replaceColumnGroupInCrosstab</ref>(crosstab,<sp/>report,<sp/>0);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QList&lt;QString&gt;<sp/>oldValues;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>value<sp/>=<sp/>crosstab-&gt;getColumnGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getText();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>columnGroups.append(value);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oldValues.append(value);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>report-&gt;getFieldsDataCount();<sp/>i++)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" kindref="member">replaceColumnGroupInCrosstab</ref>(crosstab,<sp/>report,<sp/>i);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>=<sp/>crosstab-&gt;getColumnGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getText();</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!oldValues.contains(value))</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oldValues.append(value);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>columnGroups.append(value);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="classqtreports_1_1detail_1_1_replacer_1a5dc72251354d389091776142436ebd22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a5dc72251354d389091776142436ebd22" kindref="member">Replacer::replaceCellsInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/>QList&lt;QString&gt;<sp/>&amp;<sp/>cells)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QList&lt;QString&gt;<sp/>uniqueRowValues;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" kindref="member">replaceRowGroupsInCrosstab</ref>(crosstab,<sp/>report,<sp/>uniqueRowValues);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QList&lt;QString&gt;<sp/>uniqueColValues;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" kindref="member">replaceColumnGroupsInCrosstab</ref>(crosstab,<sp/>report,<sp/>uniqueColValues);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" kindref="member">Replacer::replaceFieldInTextWidget</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a0dbda428d8a49120c4536ab502e83edd" kindref="member">TextWidgetPtr</ref><sp/>&amp;<sp/>widget,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>text<sp/>=<sp/>widget-&gt;getOriginalText();</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>replacedText<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kindref="member">replaceField</ref>(text,<sp/>report,<sp/>i);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>widget-&gt;setText(replacedText);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>mapField<sp/>=<sp/>report-&gt;getFields();</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>colGroup<sp/>=<sp/>crosstab-&gt;getColumnGroup();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>colName<sp/>=<sp/>colGroup-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getOriginalText();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>colName<sp/>=<sp/>colName.replace(</highlight><highlight class="stringliteral">&quot;$&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">).replace(</highlight><highlight class="stringliteral">&quot;F&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">).replace(</highlight><highlight class="stringliteral">&quot;{&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">).replace(</highlight><highlight class="stringliteral">&quot;}&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>cellName<sp/>=<sp/>crosstab-&gt;getCrosstabCell()-&gt;getCellContents()-&gt;getTextField()-&gt;getOriginalText();</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cellName<sp/>=<sp/>cellName.replace(</highlight><highlight class="stringliteral">&quot;$&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">).replace(</highlight><highlight class="stringliteral">&quot;F&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">).replace(</highlight><highlight class="stringliteral">&quot;{&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">).replace(</highlight><highlight class="stringliteral">&quot;}&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" kindref="member">Replacer::replaceFieldInImageWidget</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref><sp/>&amp;<sp/>widget,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>text<sp/>=<sp/>widget-&gt;getOriginalText();</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>image<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1ae1ac521aeaf5fdd694e79e2ae52d4704" kindref="member">replaceFieldImage</ref>(text,<sp/>report,<sp/>i);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>size<sp/>=<sp/>widget-&gt;getSize();</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>widget-&gt;setImage(image.scaled(size));</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" kindref="member">Replacer::replaceFieldInSection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref><sp/>&amp;<sp/>section,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(section.isNull())</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" kindref="member">m_lastError</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Section<sp/>is<sp/>empty.&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>band<sp/>:<sp/>section-&gt;getBands())</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>textWidget<sp/>:<sp/>band-&gt;getTextWidgets())</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" kindref="member">replaceFieldInTextWidget</ref>(textWidget,<sp/>report,<sp/>i))</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>imageWidget<sp/>:<sp/>band-&gt;getImages())</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" kindref="member">replaceFieldInImageWidget</ref>(imageWidget,<sp/>report,<sp/>i))</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" kindref="member">Replacer::replace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref><sp/>&amp;<sp/>section,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" kindref="member">replaceFieldInSection</ref>(section,<sp/>report,<sp/>i))</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="classqtreports_1_1detail_1_1_replacer_1abb903f1c1172efa7e26b040a5695cc86" kindref="member">replaceParameters</ref>(report))</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" kindref="member">Replacer::getLastError</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="248"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" kindref="member">m_lastError</ref>;</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="253"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mapCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>uniqueRowValues.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>uniqueRowValues[i];</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>uniqueColValues.size();<sp/>j++)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>columnValue<sp/>=<sp/>mapField.value(colName)-&gt;getData(mapCount);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(columnValue<sp/>!=<sp/>uniqueColValues[j])</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cells.append(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" kindref="member">replaceCellInCrosstab</ref>(crosstab,<sp/>report,<sp/>mapCount);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>text<sp/>=<sp/>mapField.value(cellName)-&gt;getData(mapCount);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cells.append(text);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mapCount++;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" kindref="member">Replacer::replaceRowGroupInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rowGroupText<sp/>=<sp/>crosstab-&gt;getRowGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getOriginalText();</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rowGroupReplacedText<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kindref="member">replaceField</ref>(rowGroupText,<sp/>report,<sp/>i);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>crosstab-&gt;getRowGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;setText(rowGroupReplacedText);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" kindref="member">Replacer::replaceColumnGroupInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>colGroupText<sp/>=<sp/>crosstab-&gt;getColumnGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;getOriginalText();</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>colGroupReplacedText<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kindref="member">replaceField</ref>(colGroupText,<sp/>report,<sp/>i);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>crosstab-&gt;getColumnGroup()-&gt;getHeader()-&gt;getCellContents()-&gt;getTextField()-&gt;setText(colGroupReplacedText);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" kindref="member">Replacer::replaceCellInCrosstab</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref><sp/>&amp;<sp/>crosstab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cellText<sp/>=<sp/>crosstab-&gt;getCrosstabCell()-&gt;getCellContents()-&gt;getTextField()-&gt;getOriginalText();</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cellReplacedText<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kindref="member">replaceField</ref>(cellText,<sp/>report,<sp/>i);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>crosstab-&gt;getCrosstabCell()-&gt;getCellContents()-&gt;getTextField()-&gt;setText(cellReplacedText);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" kindref="member">Replacer::replaceFieldInTextWidget</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a0dbda428d8a49120c4536ab502e83edd" kindref="member">TextWidgetPtr</ref><sp/>&amp;<sp/>widget,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>text<sp/>=<sp/>widget-&gt;getOriginalText();</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>replacedText<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4642b07160798f2ee4de276e1d0c1ecd" kindref="member">replaceField</ref>(text,<sp/>report,<sp/>i);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>widget-&gt;setText(replacedText);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" kindref="member">Replacer::replaceFieldInImageWidget</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref><sp/>&amp;<sp/>widget,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>text<sp/>=<sp/>widget-&gt;getOriginalText();</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>image<sp/>=<sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1ae1ac521aeaf5fdd694e79e2ae52d4704" kindref="member">replaceFieldImage</ref>(text,<sp/>report,<sp/>i);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>size<sp/>=<sp/>widget-&gt;getSize();</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>widget-&gt;setImage(image.scaled(size));</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" kindref="member">Replacer::replaceFieldInSection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref><sp/>&amp;<sp/>section,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(section.isNull())</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" kindref="member">m_lastError</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Section<sp/>is<sp/>empty.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>band<sp/>:<sp/>section-&gt;getBands())</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>textWidget<sp/>:<sp/>band-&gt;getTextWidgets())</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" kindref="member">replaceFieldInTextWidget</ref>(textWidget,<sp/>report,<sp/>i))</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>imageWidget<sp/>:<sp/>band-&gt;getImages())</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" kindref="member">replaceFieldInImageWidget</ref>(imageWidget,<sp/>report,<sp/>i))</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" kindref="member">Replacer::replace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref><sp/>&amp;<sp/>section,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref><sp/>&amp;<sp/>report,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="classqtreports_1_1detail_1_1_replacer_1a58cf857aa78eb3e273f6543769af425b" kindref="member">replaceFieldInSection</ref>(section,<sp/>report,<sp/>i))</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="classqtreports_1_1detail_1_1_replacer_1abb903f1c1172efa7e26b040a5695cc86" kindref="member">replaceParameters</ref>(report))</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><sp/><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" kindref="member">Replacer::getLastError</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="304"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1detail_1_1_replacer_1a9dacb01d2507ba4d18c706fde24136d5" kindref="member">m_lastError</ref>;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp"/>
   </compounddef>

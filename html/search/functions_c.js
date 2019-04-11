@@ -3,6 +3,7 @@ var searchData=
   ['rect',['Rect',['../classqtreports_1_1detail_1_1_rect.html#a9312f7e221a9c66d37ef7b198f516fb6',1,'qtreports::detail::Rect']]],
   ['replace',['replace',['../classqtreports_1_1detail_1_1_replacer.html#af7ccb83be264f7c72b7485cf38455450',1,'qtreports::detail::Replacer']]],
   ['replacecellincrosstab',['replaceCellInCrosstab',['../classqtreports_1_1detail_1_1_replacer.html#a9ad7270fd6bdb9a2ba85bdc9652968c8',1,'qtreports::detail::Replacer']]],
+  ['replacecellsincrosstab',['replaceCellsInCrosstab',['../classqtreports_1_1detail_1_1_replacer.html#a5dc72251354d389091776142436ebd22',1,'qtreports::detail::Replacer']]],
   ['replacecolumngroupincrosstab',['replaceColumnGroupInCrosstab',['../classqtreports_1_1detail_1_1_replacer.html#a781b476a4e964da9e5afe4f642b2f275',1,'qtreports::detail::Replacer']]],
   ['replacecolumngroupsincrosstab',['replaceColumnGroupsInCrosstab',['../classqtreports_1_1detail_1_1_replacer.html#aa9fa83cf51d75301b62e11a0a93e2dcc',1,'qtreports::detail::Replacer']]],
   ['replacefield',['replaceField',['../classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd',1,'qtreports::detail::Replacer']]],

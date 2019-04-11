@@ -14,67 +14,61 @@
     <includes refid="report_8hpp" local="yes">tags/report.hpp</includes>
     <includes refid="convertertoqwidget_8hpp" local="yes">converters/convertertoqwidget.hpp</includes>
     <incdepgraph>
-      <node id="2438">
+      <node id="2441">
         <label>QMap</label>
       </node>
-      <node id="2466">
+      <node id="2469">
         <label>section.hpp</label>
         <link refid="section_8hpp"/>
-        <childnode refid="2439" relation="include">
-        </childnode>
-        <childnode refid="2457" relation="include">
+        <childnode refid="2442" relation="include">
         </childnode>
         <childnode refid="2460" relation="include">
         </childnode>
-        <childnode refid="2467" relation="include">
+        <childnode refid="2463" relation="include">
+        </childnode>
+        <childnode refid="2470" relation="include">
         </childnode>
       </node>
-      <node id="2465">
+      <node id="2468">
         <label>group.hpp</label>
         <link refid="group_8hpp"/>
-        <childnode refid="2436" relation="include">
-        </childnode>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2466" relation="include">
-        </childnode>
-      </node>
-      <node id="2452">
-        <label>functional</label>
-      </node>
-      <node id="2467">
-        <label>band.hpp</label>
-        <link refid="band_8hpp"/>
         <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2457" relation="include">
+        <childnode refid="2460" relation="include">
         </childnode>
-        <childnode refid="2468" relation="include">
+        <childnode refid="2469" relation="include">
         </childnode>
-        <childnode refid="2473" relation="include">
+      </node>
+      <node id="2455">
+        <label>functional</label>
+      </node>
+      <node id="2470">
+        <label>band.hpp</label>
+        <link refid="band_8hpp"/>
+        <childnode refid="2442" relation="include">
         </childnode>
-        <childnode refid="2474" relation="include">
+        <childnode refid="2460" relation="include">
         </childnode>
-        <childnode refid="2475" relation="include">
+        <childnode refid="2471" relation="include">
         </childnode>
         <childnode refid="2476" relation="include">
         </childnode>
         <childnode refid="2477" relation="include">
         </childnode>
-        <childnode refid="2470" relation="include">
-        </childnode>
         <childnode refid="2478" relation="include">
         </childnode>
+        <childnode refid="2479" relation="include">
+        </childnode>
+        <childnode refid="2480" relation="include">
+        </childnode>
+        <childnode refid="2473" relation="include">
+        </childnode>
+        <childnode refid="2481" relation="include">
+        </childnode>
       </node>
-      <node id="2434">
+      <node id="2437">
         <label>qtreports/engine.hpp</label>
         <link refid="engine_8hpp"/>
-        <childnode refid="2435" relation="include">
-        </childnode>
-        <childnode refid="2436" relation="include">
-        </childnode>
-        <childnode refid="2437" relation="include">
-        </childnode>
         <childnode refid="2438" relation="include">
         </childnode>
         <childnode refid="2439" relation="include">
@@ -93,156 +87,156 @@
         </childnode>
         <childnode refid="2446" relation="include">
         </childnode>
+        <childnode refid="2447" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+        <childnode refid="2449" relation="include">
+        </childnode>
       </node>
-      <node id="2463">
+      <node id="2466">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="2436" relation="include">
-        </childnode>
-        <childnode refid="2464" relation="include">
-        </childnode>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2460" relation="include">
-        </childnode>
-      </node>
-      <node id="2487">
-        <label>converters/convertertopdf.hpp</label>
-        <link refid="convertertopdf_8hpp"/>
-        <childnode refid="2436" relation="include">
-        </childnode>
-        <childnode refid="2488" relation="include">
-        </childnode>
-        <childnode refid="2455" relation="include">
-        </childnode>
-        <childnode refid="2466" relation="include">
-        </childnode>
-      </node>
-      <node id="2435">
-        <label>QObject</label>
-      </node>
-      <node id="2453">
-        <label>QXmlStreamReader</label>
-      </node>
-      <node id="2461">
-        <label>field.hpp</label>
-        <link refid="field_8hpp"/>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2437" relation="include">
-        </childnode>
-        <childnode refid="2436" relation="include">
-        </childnode>
         <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2462" relation="include">
+        <childnode refid="2467" relation="include">
         </childnode>
         <childnode refid="2460" relation="include">
         </childnode>
-      </node>
-      <node id="2488">
-        <label>QPdfWriter</label>
-      </node>
-      <node id="2484">
-        <label>detail.hpp</label>
-        <link refid="detail_8hpp"/>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2466" relation="include">
+        <childnode refid="2463" relation="include">
         </childnode>
       </node>
       <node id="2490">
-        <label>QBuffer</label>
-      </node>
-      <node id="2443">
-        <label>QSqlField</label>
-      </node>
-      <node id="2444">
-        <label>QPrinter</label>
-      </node>
-      <node id="2489">
-        <label>converters/convertertohtml.hpp</label>
-        <link refid="convertertohtml_8hpp"/>
-        <childnode refid="2436" relation="include">
+        <label>converters/convertertopdf.hpp</label>
+        <link refid="convertertopdf_8hpp"/>
+        <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2490" relation="include">
+        <childnode refid="2491" relation="include">
         </childnode>
-        <childnode refid="2455" relation="include">
-        </childnode>
-      </node>
-      <node id="2472">
-        <label>QRect</label>
-      </node>
-      <node id="2471">
-        <label>QPoint</label>
-      </node>
-      <node id="2457">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="2448">
-        <label>QPrintDialog</label>
-      </node>
-      <node id="2462">
-        <label>QImage</label>
-      </node>
-      <node id="2468">
-        <label>statictext.hpp</label>
-        <link refid="statictext_8hpp"/>
-        <childnode refid="2457" relation="include">
+        <childnode refid="2458" relation="include">
         </childnode>
         <childnode refid="2469" relation="include">
         </childnode>
       </node>
-      <node id="2450">
-        <label>QPrintPreviewDialog</label>
+      <node id="2438">
+        <label>QObject</label>
       </node>
-      <node id="2475">
-        <label>rect.hpp</label>
-        <link refid="rect_8hpp"/>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2470" relation="include">
-        </childnode>
+      <node id="2456">
+        <label>QXmlStreamReader</label>
       </node>
-      <node id="2447">
-        <label>QPainter</label>
-      </node>
-      <node id="2451">
-        <label>parsers/parserfromxml.hpp</label>
-        <link refid="parserfromxml_8hpp"/>
-        <childnode refid="2452" relation="include">
+      <node id="2464">
+        <label>field.hpp</label>
+        <link refid="field_8hpp"/>
+        <childnode refid="2460" relation="include">
         </childnode>
-        <childnode refid="2436" relation="include">
+        <childnode refid="2440" relation="include">
         </childnode>
-        <childnode refid="2453" relation="include">
+        <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2438" relation="include">
-        </childnode>
-        <childnode refid="2454" relation="include">
-        </childnode>
-        <childnode refid="2455" relation="include">
-        </childnode>
-        <childnode refid="2463" relation="include">
-        </childnode>
-        <childnode refid="2461" relation="include">
+        <childnode refid="2442" relation="include">
         </childnode>
         <childnode refid="2465" relation="include">
         </childnode>
-        <childnode refid="2483" relation="include">
+        <childnode refid="2463" relation="include">
         </childnode>
-        <childnode refid="2484" relation="include">
+      </node>
+      <node id="2491">
+        <label>QPdfWriter</label>
+      </node>
+      <node id="2487">
+        <label>detail.hpp</label>
+        <link refid="detail_8hpp"/>
+        <childnode refid="2460" relation="include">
         </childnode>
-        <childnode refid="2485" relation="include">
+        <childnode refid="2469" relation="include">
         </childnode>
-        <childnode refid="2467" relation="include">
+      </node>
+      <node id="2493">
+        <label>QBuffer</label>
+      </node>
+      <node id="2446">
+        <label>QSqlField</label>
+      </node>
+      <node id="2447">
+        <label>QPrinter</label>
+      </node>
+      <node id="2492">
+        <label>converters/convertertohtml.hpp</label>
+        <link refid="convertertohtml_8hpp"/>
+        <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2468" relation="include">
+        <childnode refid="2493" relation="include">
+        </childnode>
+        <childnode refid="2458" relation="include">
+        </childnode>
+      </node>
+      <node id="2475">
+        <label>QRect</label>
+      </node>
+      <node id="2474">
+        <label>QPoint</label>
+      </node>
+      <node id="2460">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2451">
+        <label>QPrintDialog</label>
+      </node>
+      <node id="2465">
+        <label>QImage</label>
+      </node>
+      <node id="2471">
+        <label>statictext.hpp</label>
+        <link refid="statictext_8hpp"/>
+        <childnode refid="2460" relation="include">
+        </childnode>
+        <childnode refid="2472" relation="include">
+        </childnode>
+      </node>
+      <node id="2453">
+        <label>QPrintPreviewDialog</label>
+      </node>
+      <node id="2478">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp"/>
+        <childnode refid="2460" relation="include">
         </childnode>
         <childnode refid="2473" relation="include">
         </childnode>
-        <childnode refid="2474" relation="include">
+      </node>
+      <node id="2450">
+        <label>QPainter</label>
+      </node>
+      <node id="2454">
+        <label>parsers/parserfromxml.hpp</label>
+        <link refid="parserfromxml_8hpp"/>
+        <childnode refid="2455" relation="include">
         </childnode>
-        <childnode refid="2475" relation="include">
+        <childnode refid="2439" relation="include">
+        </childnode>
+        <childnode refid="2456" relation="include">
+        </childnode>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2457" relation="include">
+        </childnode>
+        <childnode refid="2458" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+        <childnode refid="2464" relation="include">
+        </childnode>
+        <childnode refid="2468" relation="include">
+        </childnode>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2470" relation="include">
+        </childnode>
+        <childnode refid="2471" relation="include">
         </childnode>
         <childnode refid="2476" relation="include">
         </childnode>
@@ -250,282 +244,288 @@
         </childnode>
         <childnode refid="2478" relation="include">
         </childnode>
-        <childnode refid="2486" relation="include">
-        </childnode>
-      </node>
-      <node id="2441">
-        <label>QSqlDatabase</label>
-      </node>
-      <node id="2496">
-        <label>QHBoxLayout</label>
-      </node>
-      <node id="2477">
-        <label>image.hpp</label>
-        <link refid="image_8hpp"/>
-        <childnode refid="2462" relation="include">
-        </childnode>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2469" relation="include">
-        </childnode>
-      </node>
-      <node id="2479">
-        <label>crosstabgroup.hpp</label>
-        <link refid="crosstabgroup_8hpp"/>
-        <childnode refid="2460" relation="include">
+        <childnode refid="2479" relation="include">
         </childnode>
         <childnode refid="2480" relation="include">
         </childnode>
-      </node>
-      <node id="2474">
-        <label>line.hpp</label>
-        <link refid="line_8hpp"/>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2470" relation="include">
-        </childnode>
-      </node>
-      <node id="2478">
-        <label>crosstab.hpp</label>
-        <link refid="crosstab_8hpp"/>
-        <childnode refid="2470" relation="include">
-        </childnode>
-        <childnode refid="2479" relation="include">
-        </childnode>
-        <childnode refid="2482" relation="include">
-        </childnode>
-      </node>
-      <node id="2446">
-        <label>QDebug</label>
-      </node>
-      <node id="2495">
-        <label>QVBoxLayout</label>
-      </node>
-      <node id="2482">
-        <label>crosstabcell.hpp</label>
-        <link refid="crosstabcell_8hpp"/>
-        <childnode refid="2460" relation="include">
-        </childnode>
         <childnode refid="2481" relation="include">
         </childnode>
+        <childnode refid="2489" relation="include">
+        </childnode>
       </node>
-      <node id="2481">
-        <label>cellcontents.hpp</label>
-        <link refid="cellcontents_8hpp"/>
-        <childnode refid="2470" relation="include">
+      <node id="2444">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="2499">
+        <label>QHBoxLayout</label>
+      </node>
+      <node id="2480">
+        <label>image.hpp</label>
+        <link refid="image_8hpp"/>
+        <childnode refid="2465" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+        <childnode refid="2472" relation="include">
+        </childnode>
+      </node>
+      <node id="2482">
+        <label>crosstabgroup.hpp</label>
+        <link refid="crosstabgroup_8hpp"/>
+        <childnode refid="2463" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+      </node>
+      <node id="2477">
+        <label>line.hpp</label>
+        <link refid="line_8hpp"/>
+        <childnode refid="2460" relation="include">
         </childnode>
         <childnode refid="2473" relation="include">
         </childnode>
       </node>
-      <node id="2469">
-        <label>textwidget.hpp</label>
-        <link refid="textwidget_8hpp"/>
-        <childnode refid="2436" relation="include">
+      <node id="2481">
+        <label>crosstab.hpp</label>
+        <link refid="crosstab_8hpp"/>
+        <childnode refid="2473" relation="include">
         </childnode>
-        <childnode refid="2457" relation="include">
+        <childnode refid="2482" relation="include">
         </childnode>
-        <childnode refid="2470" relation="include">
+        <childnode refid="2485" relation="include">
         </childnode>
-      </node>
-      <node id="2492">
-        <label>QWidget</label>
-      </node>
-      <node id="2459">
-        <label>QRegularExpression</label>
-      </node>
-      <node id="2436">
-        <label>QString</label>
       </node>
       <node id="2449">
+        <label>QDebug</label>
+      </node>
+      <node id="2498">
+        <label>QVBoxLayout</label>
+      </node>
+      <node id="2485">
+        <label>crosstabcell.hpp</label>
+        <link refid="crosstabcell_8hpp"/>
+        <childnode refid="2463" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+      </node>
+      <node id="2484">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2473" relation="include">
+        </childnode>
+        <childnode refid="2476" relation="include">
+        </childnode>
+      </node>
+      <node id="2472">
+        <label>textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2439" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+        <childnode refid="2473" relation="include">
+        </childnode>
+      </node>
+      <node id="2495">
+        <label>QWidget</label>
+      </node>
+      <node id="2462">
+        <label>QRegularExpression</label>
+      </node>
+      <node id="2439">
+        <label>QString</label>
+      </node>
+      <node id="2452">
         <label>QPrintPreviewWidget</label>
       </node>
-      <node id="2440">
+      <node id="2443">
         <label>QSqlRecord</label>
       </node>
-      <node id="2456">
+      <node id="2459">
         <label>QSize</label>
       </node>
-      <node id="2473">
+      <node id="2476">
         <label>textfield.hpp</label>
         <link refid="textfield_8hpp"/>
-        <childnode refid="2436" relation="include">
+        <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2457" relation="include">
+        <childnode refid="2460" relation="include">
+        </childnode>
+        <childnode refid="2472" relation="include">
+        </childnode>
+      </node>
+      <node id="2467">
+        <label>QColor</label>
+      </node>
+      <node id="2445">
+        <label>QSqlQueryModel</label>
+      </node>
+      <node id="2461">
+        <label>QMargins</label>
+      </node>
+      <node id="2448">
+        <label>QAbstractItemModel</label>
+      </node>
+      <node id="2463">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="2439" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+      </node>
+      <node id="2489">
+        <label>variable.hpp</label>
+        <link refid="variable_8hpp"/>
+        <childnode refid="2463" relation="include">
+        </childnode>
+      </node>
+      <node id="2497">
+        <label>QBoxLayout</label>
+      </node>
+      <node id="2457">
+        <label>QTextStream</label>
+      </node>
+      <node id="2486">
+        <label>title.hpp</label>
+        <link refid="title_8hpp"/>
+        <childnode refid="2460" relation="include">
         </childnode>
         <childnode refid="2469" relation="include">
         </childnode>
       </node>
-      <node id="2464">
-        <label>QColor</label>
-      </node>
-      <node id="2442">
-        <label>QSqlQueryModel</label>
-      </node>
-      <node id="2458">
-        <label>QMargins</label>
-      </node>
-      <node id="2445">
-        <label>QAbstractItemModel</label>
-      </node>
-      <node id="2460">
-        <label>object.hpp</label>
-        <link refid="object_8hpp"/>
-        <childnode refid="2436" relation="include">
-        </childnode>
-        <childnode refid="2437" relation="include">
-        </childnode>
-        <childnode refid="2457" relation="include">
-        </childnode>
-      </node>
-      <node id="2486">
-        <label>variable.hpp</label>
-        <link refid="variable_8hpp"/>
-        <childnode refid="2460" relation="include">
-        </childnode>
-      </node>
-      <node id="2494">
-        <label>QBoxLayout</label>
-      </node>
-      <node id="2454">
-        <label>QTextStream</label>
-      </node>
-      <node id="2483">
-        <label>title.hpp</label>
-        <link refid="title_8hpp"/>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2466" relation="include">
-        </childnode>
-      </node>
-      <node id="2493">
+      <node id="2496">
         <label>QFrame</label>
       </node>
-      <node id="2485">
+      <node id="2488">
         <label>summary.hpp</label>
         <link refid="summary_8hpp"/>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2466" relation="include">
-        </childnode>
-      </node>
-      <node id="2480">
-        <label>crosstabheader.hpp</label>
-        <link refid="crosstabheader_8hpp"/>
         <childnode refid="2460" relation="include">
         </childnode>
-        <childnode refid="2481" relation="include">
+        <childnode refid="2469" relation="include">
         </childnode>
       </node>
-      <node id="2470">
+      <node id="2483">
+        <label>crosstabheader.hpp</label>
+        <link refid="crosstabheader_8hpp"/>
+        <childnode refid="2463" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+      </node>
+      <node id="2473">
         <label>widget.hpp</label>
         <link refid="widget_8hpp"/>
-        <childnode refid="2436" relation="include">
+        <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2471" relation="include">
+        <childnode refid="2474" relation="include">
         </childnode>
-        <childnode refid="2456" relation="include">
+        <childnode refid="2459" relation="include">
         </childnode>
-        <childnode refid="2472" relation="include">
+        <childnode refid="2475" relation="include">
         </childnode>
-        <childnode refid="2457" relation="include">
+        <childnode refid="2460" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
         </childnode>
         <childnode refid="2463" relation="include">
         </childnode>
-        <childnode refid="2460" relation="include">
-        </childnode>
       </node>
-      <node id="2437">
+      <node id="2440">
         <label>QVariant</label>
       </node>
-      <node id="2455">
+      <node id="2458">
         <label>../tags/report.hpp</label>
         <link refid="report_8hpp"/>
-        <childnode refid="2436" relation="include">
-        </childnode>
-        <childnode refid="2456" relation="include">
-        </childnode>
-        <childnode refid="2438" relation="include">
-        </childnode>
         <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2457" relation="include">
-        </childnode>
-        <childnode refid="2458" relation="include">
-        </childnode>
-        <childnode refid="2444" relation="include">
-        </childnode>
         <childnode refid="2459" relation="include">
+        </childnode>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2442" relation="include">
         </childnode>
         <childnode refid="2460" relation="include">
         </childnode>
         <childnode refid="2461" relation="include">
         </childnode>
+        <childnode refid="2447" relation="include">
+        </childnode>
+        <childnode refid="2462" relation="include">
+        </childnode>
         <childnode refid="2463" relation="include">
         </childnode>
-        <childnode refid="2465" relation="include">
+        <childnode refid="2464" relation="include">
         </childnode>
-        <childnode refid="2483" relation="include">
+        <childnode refid="2466" relation="include">
         </childnode>
-        <childnode refid="2484" relation="include">
-        </childnode>
-        <childnode refid="2485" relation="include">
+        <childnode refid="2468" relation="include">
         </childnode>
         <childnode refid="2486" relation="include">
         </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2489" relation="include">
+        </childnode>
       </node>
-      <node id="2491">
+      <node id="2494">
         <label>converters/convertertoqwidget.hpp</label>
         <link refid="convertertoqwidget_8hpp"/>
-        <childnode refid="2436" relation="include">
-        </childnode>
-        <childnode refid="2492" relation="include">
-        </childnode>
-        <childnode refid="2493" relation="include">
-        </childnode>
-        <childnode refid="2494" relation="include">
+        <childnode refid="2439" relation="include">
         </childnode>
         <childnode refid="2495" relation="include">
         </childnode>
         <childnode refid="2496" relation="include">
         </childnode>
-        <childnode refid="2455" relation="include">
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2498" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2458" relation="include">
         </childnode>
       </node>
-      <node id="2439">
+      <node id="2442">
         <label>QVector</label>
       </node>
-      <node id="2476">
+      <node id="2479">
         <label>ellipse.hpp</label>
         <link refid="ellipse_8hpp"/>
-        <childnode refid="2457" relation="include">
+        <childnode refid="2460" relation="include">
         </childnode>
-        <childnode refid="2470" relation="include">
+        <childnode refid="2473" relation="include">
         </childnode>
       </node>
-      <node id="2433">
+      <node id="2436">
         <label>/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp</label>
         <link refid="engine.cpp"/>
-        <childnode refid="2434" relation="include">
-        </childnode>
-        <childnode refid="2447" relation="include">
-        </childnode>
-        <childnode refid="2448" relation="include">
-        </childnode>
-        <childnode refid="2449" relation="include">
+        <childnode refid="2437" relation="include">
         </childnode>
         <childnode refid="2450" relation="include">
         </childnode>
-        <childnode refid="2446" relation="include">
-        </childnode>
         <childnode refid="2451" relation="include">
         </childnode>
-        <childnode refid="2487" relation="include">
+        <childnode refid="2452" relation="include">
         </childnode>
-        <childnode refid="2489" relation="include">
+        <childnode refid="2453" relation="include">
         </childnode>
-        <childnode refid="2455" relation="include">
+        <childnode refid="2449" relation="include">
         </childnode>
-        <childnode refid="2491" relation="include">
+        <childnode refid="2454" relation="include">
+        </childnode>
+        <childnode refid="2490" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+        <childnode refid="2458" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -876,57 +876,59 @@
 <codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field-&gt;setData(<sp/>iterator.value()<sp/>);</highlight></codeline>
 <codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/><sp/><sp/><sp/>Engine::fillColumnsFromReport()</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>for(<sp/>auto<sp/>&amp;&amp;<sp/>field<sp/>:<sp/>m_report-&gt;getFields()<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db.addEmptyColumn(<sp/>field-&gt;getName()<sp/>);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="353" refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" kindref="member">Engine::executeQueries</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStringList<sp/>&amp;<sp/>queries<sp/>)</highlight></codeline>
-<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMap&lt;<sp/>QString,<sp/>QVector&lt;<sp/>QVariant<sp/>&gt;<sp/>&gt;<sp/>data;</highlight></codeline>
-<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSqlQueryModel<sp/>model;</highlight></codeline>
-<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>query<sp/>:<sp/>queries<sp/>)</highlight></codeline>
-<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.setQuery(<sp/>query,<sp/><ref refid="classqtreports_1_1_engine_1a869ad6c79a3ac495a217e2c235d1e108" kindref="member">m_dbConnection</ref><sp/>);</highlight></codeline>
-<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>0;<sp/>row<sp/>&lt;<sp/>model.rowCount();<sp/>row++<sp/>)</highlight></codeline>
-<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSqlRecord<sp/>rec<sp/>=<sp/>model.record(<sp/>row<sp/>);</highlight></codeline>
-<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col<sp/>=<sp/>0;<sp/>col<sp/>&lt;<sp/>rec.count();<sp/>col++<sp/>)</highlight></codeline>
-<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>columnName<sp/>=<sp/>rec.fieldName(<sp/>col<sp/>);</highlight></codeline>
-<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>fieldValue<sp/>=<sp/>rec.field(<sp/>col<sp/>).value();</highlight></codeline>
-<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//db.appendColumnData(<sp/>columnName,<sp/>fieldValue<sp/>);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data[<sp/>columnName<sp/>].append(<sp/>fieldValue<sp/>);</highlight></codeline>
-<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" kindref="member">prepareDataSource</ref>(<sp/>data<sp/>);</highlight></codeline>
-<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="376"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377" refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" kindref="member">Engine::isOpened</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="378"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" kindref="member">m_isOpened</ref>;</highlight></codeline>
-<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="381"><highlight class="normal"></highlight></codeline>
-<codeline lineno="382" refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">detail::ReportPtr</ref><sp/><sp/><sp/><ref refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" kindref="member">Engine::getReport</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="383"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" kindref="member">m_report</ref>;</highlight></codeline>
-<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="386"><highlight class="normal"></highlight></codeline>
-<codeline lineno="387" refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><sp/><sp/><ref refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" kindref="member">Engine::getLastError</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="388"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" kindref="member">m_lastError</ref>;</highlight></codeline>
-<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="391"><highlight class="normal"></highlight></codeline>
-<codeline lineno="392"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//m_report-&gt;fillGroupsData();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/><sp/><sp/><sp/>Engine::fillColumnsFromReport()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>for(<sp/>auto<sp/>&amp;&amp;<sp/>field<sp/>:<sp/>m_report-&gt;getFields()<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db.addEmptyColumn(<sp/>field-&gt;getName()<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" kindref="member">Engine::executeQueries</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStringList<sp/>&amp;<sp/>queries<sp/>)</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMap&lt;<sp/>QString,<sp/>QVector&lt;<sp/>QVariant<sp/>&gt;<sp/>&gt;<sp/>data;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSqlQueryModel<sp/>model;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>query<sp/>:<sp/>queries<sp/>)</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.setQuery(<sp/>query,<sp/><ref refid="classqtreports_1_1_engine_1a869ad6c79a3ac495a217e2c235d1e108" kindref="member">m_dbConnection</ref><sp/>);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>0;<sp/>row<sp/>&lt;<sp/>model.rowCount();<sp/>row++<sp/>)</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSqlRecord<sp/>rec<sp/>=<sp/>model.record(<sp/>row<sp/>);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col<sp/>=<sp/>0;<sp/>col<sp/>&lt;<sp/>rec.count();<sp/>col++<sp/>)</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>columnName<sp/>=<sp/>rec.fieldName(<sp/>col<sp/>);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>fieldValue<sp/>=<sp/>rec.field(<sp/>col<sp/>).value();</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//db.appendColumnData(<sp/>columnName,<sp/>fieldValue<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data[<sp/>columnName<sp/>].append(<sp/>fieldValue<sp/>);</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" kindref="member">prepareDataSource</ref>(<sp/>data<sp/>);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379" refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" kindref="member">Engine::isOpened</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="380"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" kindref="member">m_isOpened</ref>;</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384" refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">detail::ReportPtr</ref><sp/><sp/><sp/><ref refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" kindref="member">Engine::getReport</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="385"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" kindref="member">m_report</ref>;</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389" refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><sp/><sp/><ref refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" kindref="member">Engine::getLastError</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="390"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" kindref="member">m_lastError</ref>;</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp"/>
   </compounddef>

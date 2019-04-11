@@ -4,71 +4,71 @@
     <compoundname>widget.cpp</compoundname>
     <includes refid="widget_8hpp" local="yes">widget.hpp</includes>
     <incdepgraph>
-      <node id="4046">
+      <node id="4050">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="4041" relation="include">
-        </childnode>
-        <childnode refid="4047" relation="include">
-        </childnode>
         <childnode refid="4045" relation="include">
         </childnode>
-        <childnode refid="4048" relation="include">
-        </childnode>
-      </node>
-      <node id="4039">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp</label>
-        <link refid="widget.cpp"/>
-        <childnode refid="4040" relation="include">
-        </childnode>
-      </node>
-      <node id="4044">
-        <label>QRect</label>
-      </node>
-      <node id="4042">
-        <label>QPoint</label>
-      </node>
-      <node id="4045">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="4041">
-        <label>QString</label>
-      </node>
-      <node id="4043">
-        <label>QSize</label>
-      </node>
-      <node id="4047">
-        <label>QColor</label>
-      </node>
-      <node id="4048">
-        <label>object.hpp</label>
-        <link refid="object_8hpp"/>
-        <childnode refid="4041" relation="include">
+        <childnode refid="4051" relation="include">
         </childnode>
         <childnode refid="4049" relation="include">
         </childnode>
-        <childnode refid="4045" relation="include">
+        <childnode refid="4052" relation="include">
         </childnode>
       </node>
-      <node id="4040">
-        <label>widget.hpp</label>
-        <link refid="widget_8hpp"/>
-        <childnode refid="4041" relation="include">
-        </childnode>
-        <childnode refid="4042" relation="include">
-        </childnode>
-        <childnode refid="4043" relation="include">
-        </childnode>
+      <node id="4043">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp</label>
+        <link refid="widget.cpp"/>
         <childnode refid="4044" relation="include">
         </childnode>
+      </node>
+      <node id="4048">
+        <label>QRect</label>
+      </node>
+      <node id="4046">
+        <label>QPoint</label>
+      </node>
+      <node id="4049">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="4045">
+        <label>QString</label>
+      </node>
+      <node id="4047">
+        <label>QSize</label>
+      </node>
+      <node id="4051">
+        <label>QColor</label>
+      </node>
+      <node id="4052">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="4045" relation="include">
+        </childnode>
+        <childnode refid="4053" relation="include">
+        </childnode>
+        <childnode refid="4049" relation="include">
+        </childnode>
+      </node>
+      <node id="4044">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
         <childnode refid="4045" relation="include">
         </childnode>
         <childnode refid="4046" relation="include">
         </childnode>
+        <childnode refid="4047" relation="include">
+        </childnode>
         <childnode refid="4048" relation="include">
         </childnode>
+        <childnode refid="4049" relation="include">
+        </childnode>
+        <childnode refid="4050" relation="include">
+        </childnode>
+        <childnode refid="4052" relation="include">
+        </childnode>
       </node>
-      <node id="4049">
+      <node id="4053">
         <label>QVariant</label>
       </node>
     </incdepgraph>

@@ -47,7 +47,7 @@
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a23d6229235fca8bd8bbddcc5e2e28f92" compoundref="convertertoqwidget_8cpp" startline="153" endline="159">addPage</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a96a53267cf2b8092e174906ea7f0f56f" compoundref="convertertoqwidget_8cpp" startline="161" endline="214">createQWidget</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" compoundref="convertertoqwidget_8cpp" startline="335" endline="362">createSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">createBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="669">createBands</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_q_widget_1afa2db8d8d38f4c15bd88f3be25d6fa96" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -64,7 +64,7 @@
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="60" endline="63">getLastError</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a96a53267cf2b8092e174906ea7f0f56f" compoundref="convertertoqwidget_8cpp" startline="161" endline="214">createQWidget</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" compoundref="convertertoqwidget_8cpp" startline="335" endline="362">createSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">createBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="669">createBands</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_q_widget_1a52b21b8a01b877e5dc9ea736111736cd" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceqtreports_1a8c388f58321d9cf9e0b5d22ed159a65e" kindref="member">QWidgetPtr</ref></type>
@@ -114,7 +114,7 @@
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ad2781acf981bf0ef4513879894fa9711" compoundref="convertertoqwidget_8cpp" startline="50" endline="53">getPage</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7ee736dd6be3d2cd5b3407751d94617a" compoundref="convertertoqwidget_8cpp" startline="55" endline="58">getPages</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a23d6229235fca8bd8bbddcc5e2e28f92" compoundref="convertertoqwidget_8cpp" startline="153" endline="159">addPage</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">createBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="669">createBands</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_converter_to_q_widget_1a762cc5f3f372078ddc89d0a91f2f4502" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -129,7 +129,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="120" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" bodystart="120" bodyend="-1"/>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">createBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="669">createBands</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -243,7 +243,7 @@
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a96a53267cf2b8092e174906ea7f0f56f" compoundref="convertertoqwidget_8cpp" startline="161" endline="214">createQWidget</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ac98aceb5ee703053d7691029da84e296" compoundref="convertertoqwidget_8cpp" startline="216" endline="332">addGroupsIntoReport</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" compoundref="convertertoqwidget_8cpp" startline="335" endline="362">createSection</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">createBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="669">createBands</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_q_widget_1a2ebbfa1a9f761ea5180bb2dfd1f792a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">WidgetType</ref></type>
@@ -483,7 +483,7 @@
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7930492174e0a58f710c8ac26932045d" compoundref="convertertoqwidget_8hpp" startline="93">m_report</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a0fb46f8e4347bcde3af9ea50bae6139e" compoundref="convertertoqwidget_8hpp" startline="114">m_pages</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a96a53267cf2b8092e174906ea7f0f56f" compoundref="convertertoqwidget_8cpp" startline="161" endline="214">createQWidget</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">createBands</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="669">createBands</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_converter_to_q_widget_1ac98aceb5ee703053d7691029da84e296" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -627,11 +627,11 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="177" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="335" bodyend="362"/>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a76bb37f2855d12afc9056c75cdbc5e0b" compoundref="convertertoqwidget_8cpp" startline="35" endline="38">isLayout</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="233" endline="245">qtreports::detail::Replacer::replace</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1af7ccb83be264f7c72b7485cf38455450" compoundref="replacer_8cpp" startline="289" endline="301">qtreports::detail::Replacer::replace</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7930492174e0a58f710c8ac26932045d" compoundref="convertertoqwidget_8hpp" startline="93">m_report</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1afa2db8d8d38f4c15bd88f3be25d6fa96" compoundref="convertertoqwidget_8hpp" startline="98">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="247" endline="250">qtreports::detail::Replacer::getLastError</references>
-        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="662">createBands</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a677f7802e444f2de3af4cb43b6cedf30" compoundref="replacer_8cpp" startline="303" endline="306">qtreports::detail::Replacer::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aa3be16e037533a4a5b58596087207187" compoundref="convertertoqwidget_8cpp" startline="364" endline="669">createBands</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a96a53267cf2b8092e174906ea7f0f56f" compoundref="convertertoqwidget_8cpp" startline="161" endline="214">createQWidget</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ac98aceb5ee703053d7691029da84e296" compoundref="convertertoqwidget_8cpp" startline="216" endline="332">addGroupsIntoReport</referencedby>
       </memberdef>
@@ -672,15 +672,16 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="185" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="364" bodyend="662"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="185" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="364" bodyend="669"/>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a762cc5f3f372078ddc89d0a91f2f4502" compoundref="convertertoqwidget_8hpp" startline="120">m_currentHeight</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7930492174e0a58f710c8ac26932045d" compoundref="convertertoqwidget_8hpp" startline="93">m_report</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a23d6229235fca8bd8bbddcc5e2e28f92" compoundref="convertertoqwidget_8cpp" startline="153" endline="159">addPage</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a76bb37f2855d12afc9056c75cdbc5e0b" compoundref="convertertoqwidget_8cpp" startline="35" endline="38">isLayout</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a0fb46f8e4347bcde3af9ea50bae6139e" compoundref="convertertoqwidget_8hpp" startline="114">m_pages</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1afa2db8d8d38f4c15bd88f3be25d6fa96" compoundref="convertertoqwidget_8hpp" startline="98">m_lastError</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" compoundref="replacer_8cpp" startline="145" endline="155">qtreports::detail::Replacer::replaceColumnGroupsInCrosstab</references>
-        <references refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" compoundref="replacer_8cpp" startline="133" endline="143">qtreports::detail::Replacer::replaceRowGroupsInCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1aa9fa83cf51d75301b62e11a0a93e2dcc" compoundref="replacer_8cpp" startline="153" endline="171">qtreports::detail::Replacer::replaceColumnGroupsInCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" compoundref="replacer_8cpp" startline="133" endline="151">qtreports::detail::Replacer::replaceRowGroupsInCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_replacer_1a5dc72251354d389091776142436ebd22" compoundref="replacer_8cpp" startline="173" endline="211">qtreports::detail::Replacer::replaceCellsInCrosstab</references>
         <referencedby refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a3c95daf9bd10efc4feb71e0d976bbd6e" compoundref="convertertoqwidget_8cpp" startline="335" endline="362">createSection</referencedby>
       </memberdef>
       </sectiondef>

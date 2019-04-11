@@ -345,6 +345,7 @@
     <member refid="classqtreports_1_1detail_1_1_replacer_1ae0f12ba0e77e9ef89b9479272e843fe6" kind="function"><name>replaceRowGroupsInCrosstab</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a2114b58c90fe02b17e7bf99e144013b6" kind="function"><name>replaceRowGroupInCrosstab</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a781b476a4e964da9e5afe4f642b2f275" kind="function"><name>replaceColumnGroupInCrosstab</name></member>
+    <member refid="classqtreports_1_1detail_1_1_replacer_1a5dc72251354d389091776142436ebd22" kind="function"><name>replaceCellsInCrosstab</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a9ad7270fd6bdb9a2ba85bdc9652968c8" kind="function"><name>replaceCellInCrosstab</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a2be57bd514335f9b9f2a520247562ce1" kind="function"><name>replaceFieldInTextWidget</name></member>
     <member refid="classqtreports_1_1detail_1_1_replacer_1a4aeb7794f90c0be34a30ab60a6df1920" kind="function"><name>replaceFieldInImageWidget</name></member>
@@ -366,6 +367,7 @@
     <member refid="classqtreports_1_1detail_1_1_report_1a48e0a2207d9f83772f2b9aba55a8fb74" kind="variable"><name>m_summary</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a987c0915f293a2b4fbbdcb792f2b4ddf" kind="variable"><name>m_parameters</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a4ea225d5d0aa9336e358c944bf05e8c0" kind="variable"><name>m_variables</name></member>
+    <member refid="classqtreports_1_1detail_1_1_report_1a64a61d64e368b7a681cbaccc2c4203ba" kind="variable"><name>m_groupsData</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1aa0726fe1e300697172d3482202142a95" kind="variable"><name>m_group_vec</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1aaadd946ee47903c33364417793d84347" kind="function"><name>Report</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1affcccbb4519236f4b138674195661077" kind="function"><name>~Report</name></member>
@@ -418,6 +420,7 @@
     <member refid="classqtreports_1_1detail_1_1_report_1adf4605cbc908ababac7a072220331fe5" kind="function"><name>addVaraible</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a8b23a1a420c5a557f2516d7669043593" kind="function"><name>getVariable</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1ab1e50fe493d56c319039a858e58c9d1a" kind="function"><name>getVariables</name></member>
+    <member refid="classqtreports_1_1detail_1_1_report_1affe78e092884b14167194cf609b26681" kind="function"><name>fillGroupsData</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_section" kind="class"><name>qtreports::detail::Section</name>
     <member refid="classqtreports_1_1detail_1_1_section_1a38da6f2187e8a2fdd568a18fccae5db2" kind="variable"><name>m_bands</name></member>
