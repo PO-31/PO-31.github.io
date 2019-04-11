@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classqtreports_1_1_engine" kind="class" language="C++" prot="public">
     <compoundname>qtreports::Engine</compoundname>
-    <basecompoundref refid="class_q_object" prot="public" virt="non-virtual">QObject</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
     <includes refid="engine_8hpp" local="no">engine.hpp</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" prot="private" static="no" mutable="no">
@@ -125,7 +125,7 @@
         <argsstring>(QObject *parent=Q_NULLPTR)</argsstring>
         <name>Engine</name>
         <param>
-          <type><ref refid="class_q_object" kindref="compound">QObject</ref> *</type>
+          <type>QObject *</type>
           <declname>parent</declname>
           <defval>Q_NULLPTR</defval>
         </param>
@@ -147,7 +147,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type><ref refid="class_q_object" kindref="compound">QObject</ref> *</type>
+          <type>QObject *</type>
           <declname>parent</declname>
           <defval>Q_NULLPTR</defval>
         </param>
@@ -626,58 +626,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="418">
+      <node id="240">
         <label>QObject</label>
-        <link refid="class_q_object"/>
       </node>
-      <node id="417">
+      <node id="239">
         <label>qtreports::Engine</label>
         <link refid="classqtreports_1_1_engine"/>
-        <childnode refid="418" relation="public-inheritance">
+        <childnode refid="240" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="424">
-        <label>QSharedPointer&lt; Report &gt;</label>
-      </node>
-      <node id="420">
+      <node id="242">
         <label>QObject</label>
-        <link refid="class_q_object"/>
       </node>
-      <node id="421">
-        <label>QVector&lt; QString &gt;</label>
-      </node>
-      <node id="423">
-        <label>QSqlDatabase</label>
-      </node>
-      <node id="422">
-        <label>QString</label>
-      </node>
-      <node id="419">
+      <node id="241">
         <label>qtreports::Engine</label>
         <link refid="classqtreports_1_1_engine"/>
-        <childnode refid="420" relation="public-inheritance">
+        <childnode refid="242" relation="public-inheritance">
         </childnode>
-        <childnode refid="421" relation="usage">
-          <edgelabel>-m_scripts</edgelabel>
-        </childnode>
-        <childnode refid="422" relation="usage">
-          <edgelabel>-m_lastError</edgelabel>
-          <edgelabel>-m_compiledPath</edgelabel>
-        </childnode>
-        <childnode refid="423" relation="usage">
-          <edgelabel>-m_dbConnection</edgelabel>
-        </childnode>
-        <childnode refid="424" relation="usage">
-          <edgelabel>-m_report</edgelabel>
-        </childnode>
-        <childnode refid="425" relation="usage">
-          <edgelabel>-m_isOpened</edgelabel>
-        </childnode>
-      </node>
-      <node id="425">
-        <label>bool</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="74" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="74" bodyend="163"/>

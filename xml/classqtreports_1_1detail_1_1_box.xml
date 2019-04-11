@@ -137,39 +137,27 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="332">
+      <node id="193">
         <label>qtreports::detail::Box</label>
         <link refid="classqtreports_1_1detail_1_1_box"/>
-        <childnode refid="333" relation="public-inheritance">
+        <childnode refid="194" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="333">
+      <node id="194">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="334">
+      <node id="195">
         <label>qtreports::detail::Box</label>
         <link refid="classqtreports_1_1detail_1_1_box"/>
-        <childnode refid="335" relation="public-inheritance">
-        </childnode>
-        <childnode refid="336" relation="usage">
-          <edgelabel>-m_border</edgelabel>
-          <edgelabel>-m_borderColor</edgelabel>
+        <childnode refid="196" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="335">
+      <node id="196">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="336" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
-      </node>
-      <node id="336">
-        <label>QString</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" line="11" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/box.hpp" bodystart="11" bodyend="24"/>

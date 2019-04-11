@@ -180,81 +180,39 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="367">
+      <node id="211">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="366">
+      <node id="210">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="367" relation="public-inheritance">
+        <childnode refid="211" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="365">
+      <node id="209">
         <label>qtreports::detail::Crosstab</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab"/>
-        <childnode refid="366" relation="public-inheritance">
+        <childnode refid="210" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="370">
+      <node id="214">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="371" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
       </node>
-      <node id="373">
-        <label>QRect</label>
-      </node>
-      <node id="369">
+      <node id="213">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="370" relation="public-inheritance">
-        </childnode>
-        <childnode refid="371" relation="usage">
-          <edgelabel>#m_style</edgelabel>
-        </childnode>
-        <childnode refid="372" relation="usage">
-          <edgelabel>#m_isBold</edgelabel>
-        </childnode>
-        <childnode refid="373" relation="usage">
-          <edgelabel>#m_rect</edgelabel>
-        </childnode>
-        <childnode refid="374" relation="usage">
-          <edgelabel>#m_alignment</edgelabel>
+        <childnode refid="214" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="368">
+      <node id="212">
         <label>qtreports::detail::Crosstab</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab"/>
-        <childnode refid="369" relation="public-inheritance">
+        <childnode refid="213" relation="public-inheritance">
         </childnode>
-        <childnode refid="375" relation="usage">
-          <edgelabel>-m_rowGroup</edgelabel>
-          <edgelabel>-m_columnGroup</edgelabel>
-        </childnode>
-        <childnode refid="376" relation="usage">
-          <edgelabel>-m_crosstabCell</edgelabel>
-        </childnode>
-      </node>
-      <node id="371">
-        <label>QString</label>
-      </node>
-      <node id="376">
-        <label>QSharedPointer&lt; CrosstabCell &gt;</label>
-      </node>
-      <node id="372">
-        <label>bool</label>
-      </node>
-      <node id="375">
-        <label>QSharedPointer&lt; CrosstabGroup &gt;</label>
-      </node>
-      <node id="374">
-        <label>Alignment</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" line="14" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" bodystart="13" bodyend="32"/>

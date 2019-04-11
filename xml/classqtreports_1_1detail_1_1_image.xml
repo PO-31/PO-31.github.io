@@ -94,90 +94,51 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;image&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="442">
+      <node id="253">
         <label>qtreports::detail::Image</label>
         <link refid="classqtreports_1_1detail_1_1_image"/>
-        <childnode refid="443" relation="public-inheritance">
+        <childnode refid="254" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="443">
+      <node id="254">
         <label>qtreports::detail::TextWidget</label>
         <link refid="classqtreports_1_1detail_1_1_text_widget"/>
-        <childnode refid="444" relation="public-inheritance">
+        <childnode refid="255" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="445">
+      <node id="256">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="444">
+      <node id="255">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="445" relation="public-inheritance">
+        <childnode refid="256" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="446">
+      <node id="257">
         <label>qtreports::detail::Image</label>
         <link refid="classqtreports_1_1detail_1_1_image"/>
-        <childnode refid="447" relation="public-inheritance">
-        </childnode>
-        <childnode refid="454" relation="usage">
-          <edgelabel>-m_image</edgelabel>
+        <childnode refid="258" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="447">
+      <node id="258">
         <label>qtreports::detail::TextWidget</label>
         <link refid="classqtreports_1_1detail_1_1_text_widget"/>
-        <childnode refid="448" relation="public-inheritance">
-        </childnode>
-        <childnode refid="450" relation="usage">
-          <edgelabel>#m_text</edgelabel>
-          <edgelabel>#m_originalText</edgelabel>
+        <childnode refid="259" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="449">
+      <node id="260">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="450" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
       </node>
-      <node id="452">
-        <label>QRect</label>
-      </node>
-      <node id="448">
+      <node id="259">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="449" relation="public-inheritance">
+        <childnode refid="260" relation="public-inheritance">
         </childnode>
-        <childnode refid="450" relation="usage">
-          <edgelabel>#m_style</edgelabel>
-        </childnode>
-        <childnode refid="451" relation="usage">
-          <edgelabel>#m_isBold</edgelabel>
-        </childnode>
-        <childnode refid="452" relation="usage">
-          <edgelabel>#m_rect</edgelabel>
-        </childnode>
-        <childnode refid="453" relation="usage">
-          <edgelabel>#m_alignment</edgelabel>
-        </childnode>
-      </node>
-      <node id="454">
-        <label>QImage</label>
-      </node>
-      <node id="450">
-        <label>QString</label>
-      </node>
-      <node id="451">
-        <label>bool</label>
-      </node>
-      <node id="453">
-        <label>Alignment</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/image.hpp" line="19" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/image.hpp" bodystart="19" bodyend="39"/>

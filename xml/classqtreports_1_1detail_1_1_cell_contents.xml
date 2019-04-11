@@ -87,74 +87,39 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="339">
+      <node id="199">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="338">
+      <node id="198">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="339" relation="public-inheritance">
+        <childnode refid="199" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="337">
+      <node id="197">
         <label>qtreports::detail::CellContents</label>
         <link refid="classqtreports_1_1detail_1_1_cell_contents"/>
-        <childnode refid="338" relation="public-inheritance">
+        <childnode refid="198" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="347">
-        <label>QSharedPointer&lt; TextField &gt;</label>
-      </node>
-      <node id="342">
+      <node id="202">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="343" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
       </node>
-      <node id="345">
-        <label>QRect</label>
-      </node>
-      <node id="341">
+      <node id="201">
         <label>qtreports::detail::Widget</label>
         <link refid="classqtreports_1_1detail_1_1_widget"/>
-        <childnode refid="342" relation="public-inheritance">
-        </childnode>
-        <childnode refid="343" relation="usage">
-          <edgelabel>#m_style</edgelabel>
-        </childnode>
-        <childnode refid="344" relation="usage">
-          <edgelabel>#m_isBold</edgelabel>
-        </childnode>
-        <childnode refid="345" relation="usage">
-          <edgelabel>#m_rect</edgelabel>
-        </childnode>
-        <childnode refid="346" relation="usage">
-          <edgelabel>#m_alignment</edgelabel>
+        <childnode refid="202" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="340">
+      <node id="200">
         <label>qtreports::detail::CellContents</label>
         <link refid="classqtreports_1_1detail_1_1_cell_contents"/>
-        <childnode refid="341" relation="public-inheritance">
+        <childnode refid="201" relation="public-inheritance">
         </childnode>
-        <childnode refid="347" relation="usage">
-          <edgelabel>-m_textField</edgelabel>
-        </childnode>
-      </node>
-      <node id="343">
-        <label>QString</label>
-      </node>
-      <node id="344">
-        <label>bool</label>
-      </node>
-      <node id="346">
-        <label>Alignment</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" line="12" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/cellcontents.hpp" bodystart="12" bodyend="22"/>

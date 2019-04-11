@@ -317,8 +317,6 @@
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" kind="function"><name>parseTextFieldExpression</name></member>
     <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" kind="function"><name>parseImageExpression</name></member>
   </compound>
-  <compound refid="class_q_object" kind="class"><name>QObject</name>
-  </compound>
   <compound refid="classqtreports_1_1detail_1_1_query_string" kind="class"><name>qtreports::detail::QueryString</name>
     <member refid="classqtreports_1_1detail_1_1_query_string_1afc6c164e32cd2bcc9bc71dd4f9337923" kind="variable"><name>m_text</name></member>
     <member refid="classqtreports_1_1detail_1_1_query_string_1ae8995eb6d4059933e82cc17400338b98" kind="function"><name>QueryString</name></member>

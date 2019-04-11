@@ -86,41 +86,27 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="393">
+      <node id="224">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="392">
+      <node id="223">
         <label>qtreports::detail::CrosstabHeader</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab_header"/>
-        <childnode refid="393" relation="public-inheritance">
+        <childnode refid="224" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="397">
-        <label>QSharedPointer&lt; CellContents &gt;</label>
-      </node>
-      <node id="395">
+      <node id="226">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="396" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
       </node>
-      <node id="394">
+      <node id="225">
         <label>qtreports::detail::CrosstabHeader</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab_header"/>
-        <childnode refid="395" relation="public-inheritance">
+        <childnode refid="226" relation="public-inheritance">
         </childnode>
-        <childnode refid="397" relation="usage">
-          <edgelabel>-m_cellContents</edgelabel>
-        </childnode>
-      </node>
-      <node id="396">
-        <label>QString</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabheader.hpp" line="12" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabheader.hpp" bodystart="11" bodyend="24"/>

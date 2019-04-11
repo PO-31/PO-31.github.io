@@ -204,70 +204,39 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;group&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="434">
+      <node id="249">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="433">
+      <node id="248">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="434" relation="public-inheritance">
+        <childnode refid="249" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="432">
+      <node id="247">
         <label>qtreports::detail::Group</label>
         <link refid="classqtreports_1_1detail_1_1_group"/>
-        <childnode refid="433" relation="public-inheritance">
+        <childnode refid="248" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="437">
+      <node id="252">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="438" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
       </node>
-      <node id="440">
-        <label>int</label>
-      </node>
-      <node id="436">
+      <node id="251">
         <label>qtreports::detail::Section</label>
         <link refid="classqtreports_1_1detail_1_1_section"/>
-        <childnode refid="437" relation="public-inheritance">
-        </childnode>
-        <childnode refid="439" relation="usage">
-          <edgelabel>#m_bands</edgelabel>
-        </childnode>
-        <childnode refid="440" relation="usage">
-          <edgelabel>#m_height</edgelabel>
-          <edgelabel>#m_width</edgelabel>
+        <childnode refid="252" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="438">
-        <label>QString</label>
-      </node>
-      <node id="435">
+      <node id="250">
         <label>qtreports::detail::Group</label>
         <link refid="classqtreports_1_1detail_1_1_group"/>
-        <childnode refid="436" relation="public-inheritance">
+        <childnode refid="251" relation="public-inheritance">
         </childnode>
-        <childnode refid="438" relation="usage">
-          <edgelabel>-m_expression</edgelabel>
-        </childnode>
-        <childnode refid="441" relation="usage">
-          <edgelabel>-m_footer</edgelabel>
-          <edgelabel>-m_header</edgelabel>
-        </childnode>
-      </node>
-      <node id="439">
-        <label>QVector&lt; BandPtr &gt;</label>
-      </node>
-      <node id="441">
-        <label>QSharedPointer&lt; Section &gt;</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="19" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" bodystart="19" bodyend="63"/>

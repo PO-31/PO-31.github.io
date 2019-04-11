@@ -649,62 +649,26 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;style&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="560">
+      <node id="328">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="559">
+      <node id="327">
         <label>qtreports::detail::Style</label>
         <link refid="classqtreports_1_1detail_1_1_style"/>
-        <childnode refid="560" relation="public-inheritance">
+        <childnode refid="328" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="562">
+      <node id="330">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="563" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
       </node>
-      <node id="565">
-        <label>int</label>
-      </node>
-      <node id="563">
-        <label>QString</label>
-      </node>
-      <node id="564">
-        <label>QColor</label>
-      </node>
-      <node id="566">
-        <label>bool</label>
-      </node>
-      <node id="561">
+      <node id="329">
         <label>qtreports::detail::Style</label>
         <link refid="classqtreports_1_1detail_1_1_style"/>
-        <childnode refid="562" relation="public-inheritance">
-        </childnode>
-        <childnode refid="564" relation="usage">
-          <edgelabel>-m_fontColor</edgelabel>
-        </childnode>
-        <childnode refid="563" relation="usage">
-          <edgelabel>-m_fontName</edgelabel>
-          <edgelabel>-m_pdfEncoding</edgelabel>
-          <edgelabel>-m_pdfFontName</edgelabel>
-        </childnode>
-        <childnode refid="565" relation="usage">
-          <edgelabel>-m_fontSize</edgelabel>
-        </childnode>
-        <childnode refid="566" relation="usage">
-          <edgelabel>-m_isUnderline</edgelabel>
-          <edgelabel>-m_isItalic</edgelabel>
-          <edgelabel>-m_isBold</edgelabel>
-          <edgelabel>-m_isDefault</edgelabel>
-          <edgelabel>-m_isPDFEmbedded</edgelabel>
-          <edgelabel>-m_isStrikeThrough</edgelabel>
+        <childnode refid="330" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -94,38 +94,27 @@
     <detaileddescription>
 <para>Класс, реализующий тэг &lt;queryString&gt; </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="502">
+      <node id="296">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="501">
+      <node id="295">
         <label>qtreports::detail::QueryString</label>
         <link refid="classqtreports_1_1detail_1_1_query_string"/>
-        <childnode refid="502" relation="public-inheritance">
+        <childnode refid="296" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="504">
+      <node id="298">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="505" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
       </node>
-      <node id="503">
+      <node id="297">
         <label>qtreports::detail::QueryString</label>
         <link refid="classqtreports_1_1detail_1_1_query_string"/>
-        <childnode refid="504" relation="public-inheritance">
+        <childnode refid="298" relation="public-inheritance">
         </childnode>
-        <childnode refid="505" relation="usage">
-          <edgelabel>-m_text</edgelabel>
-        </childnode>
-      </node>
-      <node id="505">
-        <label>QString</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp" line="18" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/querystring.hpp" bodystart="18" bodyend="38"/>

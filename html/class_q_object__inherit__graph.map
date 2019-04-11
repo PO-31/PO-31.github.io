@@ -1,3 +1,0 @@
-<map id="QObject" name="QObject">
-<area shape="rect" id="node2" href="$classqtreports_1_1_engine.html" title="{qtreports::Engine\n|&#45; m_isOpened\l&#45; m_lastError\l&#45; m_compiledPath\l&#45; m_report\l&#45; m_scripts\l&#45; m_dbConnection\l|+ Engine()\l+ Engine()\l+ ~Engine()\l+ open()\l+ close()\l+ setParameters()\l+ setConnection()\l+ setDataSource()\l+ setQuery()\l+ addScript()\l+ setDataModel()\l+ createPDF()\l+ createHTML()\l+ createWidget()\l+ createLayout()\l+ print()\l+ isOpened()\l+ getReport()\l+ getLastError()\l&#45; drawPreview()\l&#45; prepareDB()\l&#45; prepareDataSource()\l&#45; executeQueries()\l}" alt="" coords="5,131,172,604"/>
-</map>

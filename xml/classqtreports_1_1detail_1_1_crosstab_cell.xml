@@ -180,48 +180,27 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="378">
+      <node id="216">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
       </node>
-      <node id="377">
+      <node id="215">
         <label>qtreports::detail::CrosstabCell</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab_cell"/>
-        <childnode refid="378" relation="public-inheritance">
+        <childnode refid="216" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="382">
-        <label>QSharedPointer&lt; CellContents &gt;</label>
-      </node>
-      <node id="380">
+      <node id="218">
         <label>qtreports::detail::Object</label>
         <link refid="classqtreports_1_1detail_1_1_object"/>
-        <childnode refid="381" relation="usage">
-          <edgelabel>#m_tagName</edgelabel>
-          <edgelabel>#m_name</edgelabel>
-          <edgelabel>#m_lastError</edgelabel>
-        </childnode>
       </node>
-      <node id="379">
+      <node id="217">
         <label>qtreports::detail::CrosstabCell</label>
         <link refid="classqtreports_1_1detail_1_1_crosstab_cell"/>
-        <childnode refid="380" relation="public-inheritance">
+        <childnode refid="218" relation="public-inheritance">
         </childnode>
-        <childnode refid="382" relation="usage">
-          <edgelabel>-m_cellContents</edgelabel>
-        </childnode>
-        <childnode refid="383" relation="usage">
-          <edgelabel>-m_height</edgelabel>
-          <edgelabel>-m_width</edgelabel>
-        </childnode>
-      </node>
-      <node id="383">
-        <label>int</label>
-      </node>
-      <node id="381">
-        <label>QString</label>
       </node>
     </collaborationgraph>
     <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabcell.hpp" line="12" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabcell.hpp" bodystart="11" bodyend="32"/>
