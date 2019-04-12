@@ -6,7 +6,7 @@
 <area shape="rect" id="node27" href="$classqtreports_1_1detail_1_1_replacer.html#a781b476a4e964da9e5afe4f642b2f275" title="qtreports::detail::\lReplacer::replaceColumnGroup\lInCrosstab" alt="" coords="212,317,431,373"/>
 <area shape="rect" id="node29" href="$classqtreports_1_1detail_1_1_replacer.html#a9ad7270fd6bdb9a2ba85bdc9652968c8" title="qtreports::detail::\lReplacer::replaceCellInCrosstab" alt="" coords="481,253,703,295"/>
 <area shape="rect" id="node30" href="$classqtreports_1_1detail_1_1_replacer.html#a2be57bd514335f9b9f2a520247562ce1" title="Заменяет текст виджета текстом с подставленными значениями полей из источника данных. " alt="" coords="224,86,419,142"/>
-<area shape="rect" id="node33" href="$classqtreports_1_1detail_1_1_report.html#a11eb3acc6af941af1e2491f6bb0910b8" title="Сформировать таблицу соответствия групп и строк. " alt="" coords="241,596,402,637"/>
+<area shape="rect" id="node33" href="$classqtreports_1_1detail_1_1_report.html#a11eb3acc6af941af1e2491f6bb0910b8" title="Заполняет таблицу соответствия групп и строк. " alt="" coords="241,596,402,637"/>
 <area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" title="Процесс конвертации репорта в HTML формат. " alt="" coords="1847,320,2064,361"/>
 <area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" title="Запускает процесс конвертации репорта в HTML формат. " alt="" coords="2112,320,2301,361"/>
 <area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" title="Создает HTML документ при успешной конвертации репорта в HTML формат. " alt="" coords="2349,255,2539,296"/>

@@ -269,8 +269,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <tr class="memdesc:ab1e50fe493d56c319039a858e58c9d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает карту указателей на &lt;variable&gt;  <a href="#ab1e50fe493d56c319039a858e58c9d1a">Подробнее...</a><br /></td></tr>
 <tr class="separator:ab1e50fe493d56c319039a858e58c9d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11eb3acc6af941af1e2491f6bb0910b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#a11eb3acc6af941af1e2491f6bb0910b8">fillGroupsData</a> (const QSharedPointer&lt; <a class="el" href="classqtreports_1_1detail_1_1_report.html">Report</a> &gt; &amp;reportPtr)</td></tr>
-<tr class="memdesc:a11eb3acc6af941af1e2491f6bb0910b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сформировать таблицу соответствия групп и строк.  <a href="#a11eb3acc6af941af1e2491f6bb0910b8">Подробнее...</a><br /></td></tr>
+<tr class="memdesc:a11eb3acc6af941af1e2491f6bb0910b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Заполняет таблицу соответствия групп и строк.  <a href="#a11eb3acc6af941af1e2491f6bb0910b8">Подробнее...</a><br /></td></tr>
 <tr class="separator:a11eb3acc6af941af1e2491f6bb0910b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8cc0a8d29e28a8bdc6f1bc07626f3cd"><td class="memItemLeft" align="right" valign="top">const QMap&lt; QString, QVector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_report.html#aa8cc0a8d29e28a8bdc6f1bc07626f3cd">GetGroupsData</a> () const </td></tr>
+<tr class="memdesc:aa8cc0a8d29e28a8bdc6f1bc07626f3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает таблицу соответствия групп и строк.  <a href="#aa8cc0a8d29e28a8bdc6f1bc07626f3cd">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa8cc0a8d29e28a8bdc6f1bc07626f3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classqtreports_1_1detail_1_1_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classqtreports_1_1detail_1_1_object')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classqtreports_1_1detail_1_1_object.html">qtreports::detail::Object</a></td></tr>
 <tr class="memitem:abfb165b205406710c8d76e7e085c18cd inherit pub_methods_classqtreports_1_1detail_1_1_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqtreports_1_1detail_1_1_object.html#abfb165b205406710c8d76e7e085c18cd">Object</a> ()</td></tr>
 <tr class="separator:abfb165b205406710c8d76e7e085c18cd inherit pub_methods_classqtreports_1_1detail_1_1_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -481,7 +484,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
       </table>
 </div><div class="memdoc">
 
-<p>Сформировать таблицу соответствия групп и строк. </p>
+<p>Заполняет таблицу соответствия групп и строк. </p>
 
 <p><div class="dynheader">
 Граф вызовов:</div>
@@ -676,6 +679,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="aa8cc0a8d29e28a8bdc6f1bc07626f3cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QMap&lt; QString, QVector&lt; int &gt; &gt; qtreports::detail::Report::GetGroupsData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает таблицу соответствия групп и строк. </p>
+<p>В таблице хранится информация о соответствии групп и номеров строк, в которых меняется значение поля, по которому происходит группировка. Имени группы соответствует массив (QVector) из индексов строк, в которых группируемое поле приобретает новое значение. </p>
 
 </div>
 </div>

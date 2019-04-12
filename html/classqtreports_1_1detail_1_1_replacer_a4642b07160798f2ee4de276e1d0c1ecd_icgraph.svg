@@ -166,7 +166,7 @@ var sectionId = 'dynsection-12';
 </g>
 <!-- Node33 -->
 <g id="node33" class="node"><title>Node33</title>
-<g id="a_node33"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a11eb3acc6af941af1e2491f6bb0910b8" target="_top" xlink:title="Сформировать таблицу соответствия групп и строк. ">
+<g id="a_node33"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a11eb3acc6af941af1e2491f6bb0910b8" target="_top" xlink:title="Заполняет таблицу соответствия групп и строк. ">
 <polygon fill="none" stroke="black" points="176.5,-0.5 176.5,-30.5 297.5,-30.5 297.5,-0.5 176.5,-0.5"/>
 <text text-anchor="start" x="184.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="237" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::fillGroupsData</text>
