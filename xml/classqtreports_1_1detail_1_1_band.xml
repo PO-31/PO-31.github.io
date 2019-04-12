@@ -341,7 +341,7 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="75" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="44" bodyend="47"/>
         <references refid="classqtreports_1_1detail_1_1_band_1a6b1fd81893e403c84397fdc5e01f1087" compoundref="band_8hpp" startline="193">m_textFields</references>
         <references refid="classqtreports_1_1detail_1_1_band_1a7ea4f67b9529cb38f29b982c8c7ec193" compoundref="band_8hpp" startline="194">m_textWidgets</references>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="819" endline="846">qtreports::detail::ParserFromXML::parseTextField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="833" endline="860">qtreports::detail::ParserFromXML::parseTextField</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_band_1a635f26e50cb92abd2f49fc19c48da0bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const QVector&lt; <ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref> &gt;</type>

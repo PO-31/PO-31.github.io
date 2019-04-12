@@ -1,8 +1,9 @@
 <map id="qtreports::detail::isEquals" name="qtreports::detail::isEquals">
-<area shape="rect" id="node2" href="$namespaceqtreports_1_1detail.html#af0dcf7d492b98dd5908ab3b40edeef55" title="qtreports::detail::\ltoBool" alt="" coords="241,71,373,112"/>
-<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8247dc85ae5cae03ab3f175982a0857e" title="Парсит тэг report. " alt="" coords="476,136,681,177"/>
-<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe" title="Парсит тэг TextElement &#45; общие данные о текстовом элементе (выравнивание текста и пр..." alt="" coords="185,195,428,236"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a366e39f908935a618b137e7e27496c" title="Парсит тэг style. " alt="" coords="481,5,677,47"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a4f7803080037058f482a499ebc1a51ee" title="Парсит font &#45; данные о шрифте текста " alt="" coords="483,71,675,112"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab548bd252b2e13a315daefae6b43f1d6" title="qtreports::detail::\lParserFromXML::ParserFromXML" alt="" coords="729,104,956,145"/>
+<area shape="rect" id="node2" href="$namespaceqtreports_1_1detail.html#af0dcf7d492b98dd5908ab3b40edeef55" title="qtreports::detail::\ltoBool" alt="" coords="241,93,373,135"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8247dc85ae5cae03ab3f175982a0857e" title="Парсит тэг report. " alt="" coords="204,180,409,221"/>
+<area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe" title="Парсит тэг TextElement &#45; общие данные о текстовом элементе (выравнивание текста и пр..." alt="" coords="185,245,428,287"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a366e39f908935a618b137e7e27496c" title="Парсит тэг style. " alt="" coords="489,5,685,47"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a55d48b0d7875a6a4366c0e30f6cf5624" title="Парсит тэг Crosstab. " alt="" coords="476,71,697,112"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a4f7803080037058f482a499ebc1a51ee" title="Парсит font &#45; данные о шрифте текста " alt="" coords="491,136,683,177"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab548bd252b2e13a315daefae6b43f1d6" title="qtreports::detail::\lParserFromXML::ParserFromXML" alt="" coords="745,136,972,177"/>
 </map>

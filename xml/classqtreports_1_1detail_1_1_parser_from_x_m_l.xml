@@ -86,7 +86,7 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="77" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="77" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="72" endline="93">parse</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aa67a21faa016b0ef4686b22a390fd446" compoundref="parserfromxml_8cpp" startline="227" endline="238">parseDocument</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a02bfc8c0470ec16ff1bb34a5b6b78981" compoundref="parserfromxml_8cpp" startline="1214" endline="1217">getReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a02bfc8c0470ec16ff1bb34a5b6b78981" compoundref="parserfromxml_8cpp" startline="1228" endline="1231">getReport</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -106,7 +106,7 @@
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="340" endline="494">parseStyle</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" compoundref="parserfromxml_8cpp" startline="1219" endline="1222">getLastError</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" compoundref="parserfromxml_8cpp" startline="1233" endline="1236">getLastError</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" prot="private" static="no" mutable="no">
         <type>QTextStream</type>
@@ -125,7 +125,7 @@
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ad0cab06b62d590495eaa6a16465ed2b4" compoundref="parserfromxml_8cpp" startline="116" endline="136">getAttribute</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1fedf145e441f88832bd7f7e4b890e28" compoundref="parserfromxml_8cpp" startline="1224" endline="1227">getLog</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1fedf145e441f88832bd7f7e4b890e28" compoundref="parserfromxml_8cpp" startline="1238" endline="1241">getLog</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a165bb9727c93c7a01d0f6ceca9bf1dae" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, <ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0ec42eb3dff48f43fdaa4d5a68ef87a4" kindref="member">ParseFunc</ref> &gt;</type>
@@ -160,7 +160,7 @@
         <references refid="namespaceqtreports_1_1detail_1a7e95fb3972b92694c2f40f3f9e29a3fc" compoundref="parserfromxml_8cpp" startline="20" endline="25">qtreports::detail::toParseFunc</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="240" endline="337">parseReport</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="340" endline="494">parseStyle</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a027c1caea8508dc831486969bc47734c" compoundref="parserfromxml_8cpp" startline="1200" endline="1212">parseQueryString</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a027c1caea8508dc831486969bc47734c" compoundref="parserfromxml_8cpp" startline="1214" endline="1226">parseQueryString</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a20a5b5081956769e0d219779407ba76c" compoundref="parserfromxml_8cpp" startline="496" endline="531">parseField</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a477a961860b1de77b5a0da28e361987a" compoundref="parserfromxml_8cpp" startline="533" endline="553">parseGroup</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5227072dac0a691b04214b47f55f96ad" compoundref="parserfromxml_8cpp" startline="555" endline="566">parseGroupExpression</references>
@@ -170,28 +170,28 @@
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79d177b44a8d13065f226fd7940bdde0" compoundref="parserfromxml_8cpp" startline="613" endline="626">parseDetail</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1d2dfaa79bc7e339443ac12d56b3ba11" compoundref="parserfromxml_8cpp" startline="628" endline="640">parseSummary</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" compoundref="parserfromxml_8cpp" startline="642" endline="662">parseBand</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" compoundref="parserfromxml_8cpp" startline="805" endline="817">parseStaticText</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="819" endline="846">parseTextField</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" compoundref="parserfromxml_8cpp" startline="848" endline="860">parseLine</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" compoundref="parserfromxml_8cpp" startline="862" endline="874">parseRect</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" compoundref="parserfromxml_8cpp" startline="876" endline="888">parseEllipse</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" compoundref="parserfromxml_8cpp" startline="890" endline="902">parseImage</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" compoundref="parserfromxml_8cpp" startline="1065" endline="1083">parseImageExpression</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="904" endline="976">parseReportElement</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="978" endline="1009">parseTextElement</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1011" endline="1030">parseFont</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" compoundref="parserfromxml_8cpp" startline="1032" endline="1043">parseText</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1045" endline="1063">parseTextFieldExpression</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" compoundref="parserfromxml_8cpp" startline="664" endline="676">parseCrosstab</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="678" endline="704">parseRowGroup</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="706" endline="732">parseColumnGroup</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="734" endline="761">parseCrosstabCell</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" compoundref="parserfromxml_8cpp" startline="763" endline="775">parseCrosstabRowHeader</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" compoundref="parserfromxml_8cpp" startline="777" endline="789">parseCrosstabColumnHeader</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" compoundref="parserfromxml_8cpp" startline="791" endline="803">parseCrosstabCellContents</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1085" endline="1177">parseVariable</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" compoundref="parserfromxml_8cpp" startline="1179" endline="1187">parseVariableExpression</references>
-        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" compoundref="parserfromxml_8cpp" startline="1189" endline="1197">parseInitialValueExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" compoundref="parserfromxml_8cpp" startline="819" endline="831">parseStaticText</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="833" endline="860">parseTextField</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" compoundref="parserfromxml_8cpp" startline="862" endline="874">parseLine</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" compoundref="parserfromxml_8cpp" startline="876" endline="888">parseRect</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" compoundref="parserfromxml_8cpp" startline="890" endline="902">parseEllipse</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" compoundref="parserfromxml_8cpp" startline="904" endline="916">parseImage</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" compoundref="parserfromxml_8cpp" startline="1079" endline="1097">parseImageExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="918" endline="990">parseReportElement</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="992" endline="1023">parseTextElement</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1025" endline="1044">parseFont</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" compoundref="parserfromxml_8cpp" startline="1046" endline="1057">parseText</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1059" endline="1077">parseTextFieldExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" compoundref="parserfromxml_8cpp" startline="664" endline="690">parseCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="692" endline="718">parseRowGroup</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="720" endline="746">parseColumnGroup</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="748" endline="775">parseCrosstabCell</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" compoundref="parserfromxml_8cpp" startline="777" endline="789">parseCrosstabRowHeader</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" compoundref="parserfromxml_8cpp" startline="791" endline="803">parseCrosstabColumnHeader</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" compoundref="parserfromxml_8cpp" startline="805" endline="817">parseCrosstabCellContents</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1099" endline="1191">parseVariable</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" compoundref="parserfromxml_8cpp" startline="1193" endline="1201">parseVariableExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" compoundref="parserfromxml_8cpp" startline="1203" endline="1211">parseInitialValueExpression</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af79b52d34c559fa373562d6b2bf174ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -248,7 +248,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="60" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1214" bodyend="1217"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="60" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1228" bodyend="1231"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1afc21e89b3b0fc2a48f5a2c41ab007673" compoundref="parserfromxml_8hpp" startline="77">m_report</references>
         <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">qtreports::Engine::open</referencedby>
       </memberdef>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="65" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1219" bodyend="1222"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="65" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1233" bodyend="1236"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
         <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">qtreports::Engine::open</referencedby>
       </memberdef>
@@ -278,7 +278,7 @@
 <para>Используется для отладки при добавлении новый тэгов. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="70" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1224" bodyend="1227"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="70" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1238" bodyend="1241"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
         <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">qtreports::Engine::open</referencedby>
       </memberdef>
@@ -315,12 +315,12 @@
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5227072dac0a691b04214b47f55f96ad" compoundref="parserfromxml_8cpp" startline="555" endline="566">parseGroupExpression</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" compoundref="parserfromxml_8cpp" startline="1032" endline="1043">parseText</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1045" endline="1063">parseTextFieldExpression</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" compoundref="parserfromxml_8cpp" startline="1065" endline="1083">parseImageExpression</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" compoundref="parserfromxml_8cpp" startline="1179" endline="1187">parseVariableExpression</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" compoundref="parserfromxml_8cpp" startline="1189" endline="1197">parseInitialValueExpression</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a027c1caea8508dc831486969bc47734c" compoundref="parserfromxml_8cpp" startline="1200" endline="1212">parseQueryString</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" compoundref="parserfromxml_8cpp" startline="1046" endline="1057">parseText</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1059" endline="1077">parseTextFieldExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" compoundref="parserfromxml_8cpp" startline="1079" endline="1097">parseImageExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" compoundref="parserfromxml_8cpp" startline="1193" endline="1201">parseVariableExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" compoundref="parserfromxml_8cpp" startline="1203" endline="1211">parseInitialValueExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a027c1caea8508dc831486969bc47734c" compoundref="parserfromxml_8cpp" startline="1214" endline="1226">parseQueryString</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ad0cab06b62d590495eaa6a16465ed2b4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -409,13 +409,13 @@
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a20a5b5081956769e0d219779407ba76c" compoundref="parserfromxml_8cpp" startline="496" endline="531">parseField</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a477a961860b1de77b5a0da28e361987a" compoundref="parserfromxml_8cpp" startline="533" endline="553">parseGroup</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" compoundref="parserfromxml_8cpp" startline="642" endline="662">parseBand</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="678" endline="704">parseRowGroup</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="706" endline="732">parseColumnGroup</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="734" endline="761">parseCrosstabCell</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="904" endline="976">parseReportElement</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="978" endline="1009">parseTextElement</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1045" endline="1063">parseTextFieldExpression</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1085" endline="1177">parseVariable</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="692" endline="718">parseRowGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="720" endline="746">parseColumnGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="748" endline="775">parseCrosstabCell</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="918" endline="990">parseReportElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="992" endline="1023">parseTextElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1059" endline="1077">parseTextFieldExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1099" endline="1191">parseVariable</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -445,11 +445,12 @@
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3faebb061953c0454b2c8ee7b0ac615ebcd">Optional</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="240" endline="337">parseReport</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="340" endline="494">parseStyle</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="678" endline="704">parseRowGroup</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="706" endline="732">parseColumnGroup</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="904" endline="976">parseReportElement</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="978" endline="1009">parseTextElement</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1011" endline="1030">parseFont</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" compoundref="parserfromxml_8cpp" startline="664" endline="690">parseCrosstab</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="692" endline="718">parseRowGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="720" endline="746">parseColumnGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="918" endline="990">parseReportElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="992" endline="1023">parseTextElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1025" endline="1044">parseFont</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -470,8 +471,8 @@
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="904" endline="976">parseReportElement</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1011" endline="1030">parseFont</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="918" endline="990">parseReportElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1025" endline="1044">parseFont</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -515,21 +516,21 @@
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79d177b44a8d13065f226fd7940bdde0" compoundref="parserfromxml_8cpp" startline="613" endline="626">parseDetail</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1d2dfaa79bc7e339443ac12d56b3ba11" compoundref="parserfromxml_8cpp" startline="628" endline="640">parseSummary</referencedby>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" compoundref="parserfromxml_8cpp" startline="642" endline="662">parseBand</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" compoundref="parserfromxml_8cpp" startline="664" endline="676">parseCrosstab</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="678" endline="704">parseRowGroup</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="706" endline="732">parseColumnGroup</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="734" endline="761">parseCrosstabCell</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" compoundref="parserfromxml_8cpp" startline="763" endline="775">parseCrosstabRowHeader</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" compoundref="parserfromxml_8cpp" startline="777" endline="789">parseCrosstabColumnHeader</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" compoundref="parserfromxml_8cpp" startline="791" endline="803">parseCrosstabCellContents</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" compoundref="parserfromxml_8cpp" startline="805" endline="817">parseStaticText</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="819" endline="846">parseTextField</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" compoundref="parserfromxml_8cpp" startline="848" endline="860">parseLine</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" compoundref="parserfromxml_8cpp" startline="862" endline="874">parseRect</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" compoundref="parserfromxml_8cpp" startline="876" endline="888">parseEllipse</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" compoundref="parserfromxml_8cpp" startline="890" endline="902">parseImage</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="978" endline="1009">parseTextElement</referencedby>
-        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1085" endline="1177">parseVariable</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" compoundref="parserfromxml_8cpp" startline="664" endline="690">parseCrosstab</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="692" endline="718">parseRowGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="720" endline="746">parseColumnGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="748" endline="775">parseCrosstabCell</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" compoundref="parserfromxml_8cpp" startline="777" endline="789">parseCrosstabRowHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" compoundref="parserfromxml_8cpp" startline="791" endline="803">parseCrosstabColumnHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" compoundref="parserfromxml_8cpp" startline="805" endline="817">parseCrosstabCellContents</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" compoundref="parserfromxml_8cpp" startline="819" endline="831">parseStaticText</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="833" endline="860">parseTextField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" compoundref="parserfromxml_8cpp" startline="862" endline="874">parseLine</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" compoundref="parserfromxml_8cpp" startline="876" endline="888">parseRect</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" compoundref="parserfromxml_8cpp" startline="890" endline="902">parseEllipse</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" compoundref="parserfromxml_8cpp" startline="904" endline="916">parseImage</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="992" endline="1023">parseTextElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1099" endline="1191">parseVariable</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aa67a21faa016b0ef4686b22a390fd446" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -655,7 +656,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="141" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1200" bodyend="1212"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="141" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1214" bodyend="1226"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -969,7 +970,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="191" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="664" bodyend="676"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="191" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="664" bodyend="690"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" compoundref="parserfromxml_8cpp" startline="27" endline="30">qtreports::detail::toBool</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1000,7 +1003,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="196" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="678" bodyend="704"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="196" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="692" bodyend="718"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
@@ -1033,7 +1036,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="201" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="706" bodyend="732"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="201" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="720" bodyend="746"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
@@ -1066,7 +1069,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="206" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="734" bodyend="761"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="206" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="748" bodyend="775"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
@@ -1098,7 +1101,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="211" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="763" bodyend="775"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="211" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="777" bodyend="789"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1129,7 +1132,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="216" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="777" bodyend="789"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="216" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="791" bodyend="803"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1160,7 +1163,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="221" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="791" bodyend="803"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="221" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="805" bodyend="817"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1191,7 +1194,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="226" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="805" bodyend="817"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="226" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="819" bodyend="831"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1222,7 +1225,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="231" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="819" bodyend="846"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="231" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="833" bodyend="860"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <references refid="classqtreports_1_1detail_1_1_band_1af4609fb4af26484079ab6e7f9eed8c87" compoundref="band_8cpp" startline="44" endline="47">qtreports::detail::Band::addTextField</references>
         <references refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" compoundref="cellcontents_8cpp" startline="10" endline="13">qtreports::detail::CellContents::setTextField</references>
@@ -1255,7 +1258,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="236" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="848" bodyend="860"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="236" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="862" bodyend="874"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1286,7 +1289,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="241" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="862" bodyend="874"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="241" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="876" bodyend="888"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1317,7 +1320,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="246" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="876" bodyend="888"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="246" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="890" bodyend="902"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1348,7 +1351,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="251" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="890" bodyend="902"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="251" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="904" bodyend="916"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1379,7 +1382,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="256" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="904" bodyend="976"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="256" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="918" bodyend="990"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</references>
@@ -1412,7 +1415,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="261" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="978" bodyend="1009"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="261" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="992" bodyend="1023"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
@@ -1446,7 +1449,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="266" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1011" bodyend="1030"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="266" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1025" bodyend="1044"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</references>
         <references refid="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" compoundref="parserfromxml_8cpp" startline="27" endline="30">qtreports::detail::toBool</references>
@@ -1479,7 +1482,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="271" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1032" bodyend="1043"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="271" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1046" bodyend="1057"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1510,7 +1513,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="276" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1045" bodyend="1063"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="276" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1059" bodyend="1077"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
@@ -1542,7 +1545,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="281" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1065" bodyend="1083"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="281" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1079" bodyend="1097"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1565,7 +1568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="283" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1085" bodyend="1177"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="283" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1099" bodyend="1191"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
         <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea6adf97f83acf6453d4a6a4b1070f3754">qtreports::detail::None</references>
         <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea4b1b4dc8cf38b3c64b1d657da8f5ac8c">qtreports::detail::Report</references>
@@ -1599,7 +1602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="285" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1179" bodyend="1187"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="285" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1193" bodyend="1201"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
@@ -1622,7 +1625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="287" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1189" bodyend="1197"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="287" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1203" bodyend="1211"/>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
         <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
       </memberdef>
