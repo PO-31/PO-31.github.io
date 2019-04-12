@@ -46,9 +46,9 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 542;
+var viewWidth = 683;
 var viewHeight = 39;
-var sectionId = 'dynsection-16';
+var sectionId = 'dynsection-18';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -101,6 +101,20 @@ var sectionId = 'dynsection-16';
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M387.167,-15.5C395.398,-15.5 404.004,-15.5 412.495,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="412.763,-19.0001 422.763,-15.5 412.763,-12.0001 412.763,-19.0001"/>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="classqtreports_1_1_engine.html#ad6379f091871349d33f9a59e982160c4" target="_top" xlink:title="qtreports::Engine::\lgetReport">
+<polygon fill="none" stroke="black" points="570,-0.5 570,-30.5 675,-30.5 675,-0.5 570,-0.5"/>
+<text text-anchor="start" x="578" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
+<text text-anchor="middle" x="622.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">getReport</text>
+</a>
+</g>
+</g>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M534.401,-15.5C542.613,-15.5 551.128,-15.5 559.475,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="559.541,-19.0001 569.541,-15.5 559.541,-12.0001 559.541,-19.0001"/>
 </g>
 </g>
 </svg>

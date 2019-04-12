@@ -421,7 +421,7 @@
     <member refid="classqtreports_1_1detail_1_1_report_1adf4605cbc908ababac7a072220331fe5" kind="function"><name>addVaraible</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1a8b23a1a420c5a557f2516d7669043593" kind="function"><name>getVariable</name></member>
     <member refid="classqtreports_1_1detail_1_1_report_1ab1e50fe493d56c319039a858e58c9d1a" kind="function"><name>getVariables</name></member>
-    <member refid="classqtreports_1_1detail_1_1_report_1affe78e092884b14167194cf609b26681" kind="function"><name>fillGroupsData</name></member>
+    <member refid="classqtreports_1_1detail_1_1_report_1a11eb3acc6af941af1e2491f6bb0910b8" kind="function"><name>fillGroupsData</name></member>
   </compound>
   <compound refid="classqtreports_1_1detail_1_1_section" kind="class"><name>qtreports::detail::Section</name>
     <member refid="classqtreports_1_1detail_1_1_section_1a38da6f2187e8a2fdd568a18fccae5db2" kind="variable"><name>m_bands</name></member>
