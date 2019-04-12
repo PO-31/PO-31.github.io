@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 2196;
+var viewWidth = 2255;
 var viewHeight = 1646;
 var sectionId = 'dynsection-0';
 </script>
@@ -430,44 +430,44 @@ var sectionId = 'dynsection-0';
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
 <g id="a_node16"><a xlink:href="classqtreports_1_1detail_1_1_widget.html" target="_top" xlink:title="Базовый класс для тэгов, которые подлежат отображению ">
-<polygon fill="none" stroke="black" points="1505.5,-870.5 1505.5,-1202.5 1605.5,-1202.5 1605.5,-870.5 1505.5,-870.5"/>
-<text text-anchor="start" x="1513.5" y="-1190.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="1555.5" y="-1179.5" font-family="Helvetica,sans-Serif" font-size="10.00">Widget</text>
-<polyline fill="none" stroke="black" points="1505.5,-1172.5 1605.5,-1172.5 "/>
-<text text-anchor="start" x="1513.5" y="-1160.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_isBold</text>
-<text text-anchor="start" x="1513.5" y="-1149.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_rect</text>
-<text text-anchor="start" x="1513.5" y="-1138.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_alignment</text>
-<text text-anchor="start" x="1513.5" y="-1127.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_style</text>
-<polyline fill="none" stroke="black" points="1505.5,-1120.5 1605.5,-1120.5 "/>
-<text text-anchor="start" x="1513.5" y="-1108.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Widget()</text>
-<text text-anchor="start" x="1513.5" y="-1097.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Widget()</text>
-<text text-anchor="start" x="1513.5" y="-1086.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setPosition()</text>
-<text text-anchor="start" x="1513.5" y="-1075.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setX()</text>
-<text text-anchor="start" x="1513.5" y="-1064.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setY()</text>
-<text text-anchor="start" x="1513.5" y="-1053.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setSize()</text>
-<text text-anchor="start" x="1513.5" y="-1042.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setWidth()</text>
-<text text-anchor="start" x="1513.5" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setHeight()</text>
-<text text-anchor="start" x="1513.5" y="-1020.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setRect()</text>
-<text text-anchor="start" x="1513.5" y="-1009.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setStyle()</text>
-<text text-anchor="start" x="1513.5" y="-998.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setAlignment()</text>
-<text text-anchor="start" x="1513.5" y="-987.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getAlignment()</text>
-<text text-anchor="start" x="1513.5" y="-976.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getPos()</text>
-<text text-anchor="start" x="1513.5" y="-965.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getX()</text>
-<text text-anchor="start" x="1513.5" y="-954.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getY()</text>
-<text text-anchor="start" x="1513.5" y="-943.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSize()</text>
-<text text-anchor="start" x="1513.5" y="-932.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getWidth()</text>
-<text text-anchor="start" x="1513.5" y="-921.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getHeight()</text>
-<text text-anchor="start" x="1513.5" y="-910.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRect()</text>
-<text text-anchor="start" x="1513.5" y="-899.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getStyle()</text>
-<text text-anchor="start" x="1513.5" y="-888.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ isBold()</text>
-<text text-anchor="start" x="1513.5" y="-877.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setBold()</text>
+<polygon fill="none" stroke="black" points="1549.5,-870.5 1549.5,-1202.5 1649.5,-1202.5 1649.5,-870.5 1549.5,-870.5"/>
+<text text-anchor="start" x="1557.5" y="-1190.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="1599.5" y="-1179.5" font-family="Helvetica,sans-Serif" font-size="10.00">Widget</text>
+<polyline fill="none" stroke="black" points="1549.5,-1172.5 1649.5,-1172.5 "/>
+<text text-anchor="start" x="1557.5" y="-1160.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_isBold</text>
+<text text-anchor="start" x="1557.5" y="-1149.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_rect</text>
+<text text-anchor="start" x="1557.5" y="-1138.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_alignment</text>
+<text text-anchor="start" x="1557.5" y="-1127.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_style</text>
+<polyline fill="none" stroke="black" points="1549.5,-1120.5 1649.5,-1120.5 "/>
+<text text-anchor="start" x="1557.5" y="-1108.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Widget()</text>
+<text text-anchor="start" x="1557.5" y="-1097.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Widget()</text>
+<text text-anchor="start" x="1557.5" y="-1086.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setPosition()</text>
+<text text-anchor="start" x="1557.5" y="-1075.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setX()</text>
+<text text-anchor="start" x="1557.5" y="-1064.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setY()</text>
+<text text-anchor="start" x="1557.5" y="-1053.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setSize()</text>
+<text text-anchor="start" x="1557.5" y="-1042.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setWidth()</text>
+<text text-anchor="start" x="1557.5" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setHeight()</text>
+<text text-anchor="start" x="1557.5" y="-1020.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setRect()</text>
+<text text-anchor="start" x="1557.5" y="-1009.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setStyle()</text>
+<text text-anchor="start" x="1557.5" y="-998.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setAlignment()</text>
+<text text-anchor="start" x="1557.5" y="-987.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getAlignment()</text>
+<text text-anchor="start" x="1557.5" y="-976.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getPos()</text>
+<text text-anchor="start" x="1557.5" y="-965.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getX()</text>
+<text text-anchor="start" x="1557.5" y="-954.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getY()</text>
+<text text-anchor="start" x="1557.5" y="-943.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSize()</text>
+<text text-anchor="start" x="1557.5" y="-932.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getWidth()</text>
+<text text-anchor="start" x="1557.5" y="-921.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getHeight()</text>
+<text text-anchor="start" x="1557.5" y="-910.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRect()</text>
+<text text-anchor="start" x="1557.5" y="-899.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getStyle()</text>
+<text text-anchor="start" x="1557.5" y="-888.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ isBold()</text>
+<text text-anchor="start" x="1557.5" y="-877.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setBold()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node16 -->
 <g id="edge15" class="edge"><title>Node1&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M774.322,-1547.68C910.33,-1534.6 1237.82,-1497.25 1326.5,-1434 1411.12,-1373.65 1469.04,-1271.51 1505.46,-1186.02"/>
-<polygon fill="none" stroke="midnightblue" points="773.714,-1544.22 764.09,-1548.65 774.377,-1551.19 773.714,-1544.22"/>
+<path fill="none" stroke="midnightblue" d="M774.481,-1547.14C910.078,-1532.98 1235.5,-1493.61 1326.5,-1434 1429.44,-1366.56 1504.28,-1245.52 1549.29,-1154.86"/>
+<polygon fill="none" stroke="midnightblue" points="773.864,-1543.68 764.277,-1548.19 774.584,-1550.65 773.864,-1543.68"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
@@ -604,8 +604,8 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node16&#45;&gt;Node17 -->
 <g id="edge16" class="edge"><title>Node16&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M1500.14,-935.583C1454.81,-854.772 1388.3,-738.478 1326.5,-639 1316.35,-622.666 1310.81,-620.342 1302.5,-603 1299.45,-596.634 1296.49,-590.11 1293.61,-583.476"/>
-<polygon fill="none" stroke="midnightblue" points="1497.34,-937.753 1505.29,-944.765 1503.45,-934.331 1497.34,-937.753"/>
+<path fill="none" stroke="midnightblue" d="M1543.49,-954.258C1458.07,-830.308 1304.8,-607.721 1302.5,-603 1299.45,-596.75 1296.5,-590.344 1293.63,-583.827"/>
+<polygon fill="none" stroke="midnightblue" points="1540.71,-956.394 1549.27,-962.642 1546.48,-952.422 1540.71,-956.394"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
@@ -625,175 +625,190 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node16&#45;&gt;Node18 -->
 <g id="edge17" class="edge"><title>Node16&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M1502.57,-863.756C1478.5,-784.536 1449.98,-689.154 1425.5,-603 1407.76,-540.564 1388.62,-468.257 1376.37,-421.294"/>
-<polygon fill="none" stroke="midnightblue" points="1499.23,-864.787 1505.49,-873.336 1505.93,-862.75 1499.23,-864.787"/>
+<path fill="none" stroke="midnightblue" d="M1545.47,-913.889C1508.53,-828.057 1460.02,-709.789 1424.5,-603 1403.97,-541.278 1385.75,-468.504 1374.68,-421.258"/>
+<polygon fill="none" stroke="midnightblue" points="1542.28,-915.345 1549.46,-923.14 1548.71,-912.572 1542.28,-915.345"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classqtreports_1_1detail_1_1_crosstab.html" target="_top" xlink:title="{qtreports::detail::\lCrosstab\n|&#45; m_rowGroup\l&#45; m_columnGroup\l&#45; m_crosstabCell\l|+ Crosstab()\l+ ~Crosstab()\l+ setRowGroup()\l+ getRowGroup()\l+ setColumnGroup()\l+ getColumnGroup()\l+ setCrosstabCell()\l+ getCrosstabCell()\l}">
-<polygon fill="none" stroke="black" points="1434,-287 1434,-454 1551,-454 1551,-287 1434,-287"/>
-<text text-anchor="start" x="1442" y="-442" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="1492.5" y="-431" font-family="Helvetica,sans-Serif" font-size="10.00">Crosstab</text>
-<polyline fill="none" stroke="black" points="1434,-424 1551,-424 "/>
-<text text-anchor="start" x="1442" y="-412" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_rowGroup</text>
-<text text-anchor="start" x="1442" y="-401" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_columnGroup</text>
-<text text-anchor="start" x="1442" y="-390" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_crosstabCell</text>
-<polyline fill="none" stroke="black" points="1434,-383 1551,-383 "/>
-<text text-anchor="start" x="1442" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">+ Crosstab()</text>
-<text text-anchor="start" x="1442" y="-360" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Crosstab()</text>
-<text text-anchor="start" x="1442" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00">+ setRowGroup()</text>
-<text text-anchor="start" x="1442" y="-338" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRowGroup()</text>
-<text text-anchor="start" x="1442" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00">+ setColumnGroup()</text>
-<text text-anchor="start" x="1442" y="-316" font-family="Helvetica,sans-Serif" font-size="10.00">+ getColumnGroup()</text>
-<text text-anchor="start" x="1442" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">+ setCrosstabCell()</text>
-<text text-anchor="start" x="1442" y="-294" font-family="Helvetica,sans-Serif" font-size="10.00">+ getCrosstabCell()</text>
+<g id="a_node19"><a xlink:href="classqtreports_1_1detail_1_1_crosstab.html" target="_top" xlink:title="{qtreports::detail::\lCrosstab\n|&#45; isRepeatColumnHeaders\l&#45; isRepeatRowHeaders\l&#45; columnBreakOffset\l&#45; runDirectionLeftToRight\l&#45; ignoreWidth\l&#45; m_rowGroup\l&#45; m_columnGroup\l&#45; m_crosstabCell\l|+ Crosstab()\l+ ~Crosstab()\l+ setRowGroup()\l+ getRowGroup()\l+ setColumnGroup()\l+ getColumnGroup()\l+ setCrosstabCell()\l+ getCrosstabCell()\l+ setColumnHeadersRepeating()\l+ setRowHeadersRepeating()\l+ setWidthIgnoring()\l+ setRunDirectionLeftToRight()\l+ setColumnBreakOffset()\l+ getColumnHeadersRepeating()\l+ getRowHeadersRepeating()\l+ getWidthIgnoring()\l+ getRunDirectionLeftToRight()\l+ getColumnBreakOffset()\l}">
+<polygon fill="none" stroke="black" points="1433.5,-204.5 1433.5,-536.5 1609.5,-536.5 1609.5,-204.5 1433.5,-204.5"/>
+<text text-anchor="start" x="1441.5" y="-524.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="1521.5" y="-513.5" font-family="Helvetica,sans-Serif" font-size="10.00">Crosstab</text>
+<polyline fill="none" stroke="black" points="1433.5,-506.5 1609.5,-506.5 "/>
+<text text-anchor="start" x="1441.5" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; isRepeatColumnHeaders</text>
+<text text-anchor="start" x="1441.5" y="-483.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; isRepeatRowHeaders</text>
+<text text-anchor="start" x="1441.5" y="-472.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; columnBreakOffset</text>
+<text text-anchor="start" x="1441.5" y="-461.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; runDirectionLeftToRight</text>
+<text text-anchor="start" x="1441.5" y="-450.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; ignoreWidth</text>
+<text text-anchor="start" x="1441.5" y="-439.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_rowGroup</text>
+<text text-anchor="start" x="1441.5" y="-428.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_columnGroup</text>
+<text text-anchor="start" x="1441.5" y="-417.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_crosstabCell</text>
+<polyline fill="none" stroke="black" points="1433.5,-410.5 1609.5,-410.5 "/>
+<text text-anchor="start" x="1441.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Crosstab()</text>
+<text text-anchor="start" x="1441.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Crosstab()</text>
+<text text-anchor="start" x="1441.5" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setRowGroup()</text>
+<text text-anchor="start" x="1441.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRowGroup()</text>
+<text text-anchor="start" x="1441.5" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setColumnGroup()</text>
+<text text-anchor="start" x="1441.5" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getColumnGroup()</text>
+<text text-anchor="start" x="1441.5" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setCrosstabCell()</text>
+<text text-anchor="start" x="1441.5" y="-321.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getCrosstabCell()</text>
+<text text-anchor="start" x="1441.5" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setColumnHeadersRepeating()</text>
+<text text-anchor="start" x="1441.5" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setRowHeadersRepeating()</text>
+<text text-anchor="start" x="1441.5" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setWidthIgnoring()</text>
+<text text-anchor="start" x="1441.5" y="-277.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setRunDirectionLeftToRight()</text>
+<text text-anchor="start" x="1441.5" y="-266.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setColumnBreakOffset()</text>
+<text text-anchor="start" x="1441.5" y="-255.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getColumnHeadersRepeating()</text>
+<text text-anchor="start" x="1441.5" y="-244.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRowHeadersRepeating()</text>
+<text text-anchor="start" x="1441.5" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getWidthIgnoring()</text>
+<text text-anchor="start" x="1441.5" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRunDirectionLeftToRight()</text>
+<text text-anchor="start" x="1441.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getColumnBreakOffset()</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node19 -->
 <g id="edge18" class="edge"><title>Node16&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M1538.84,-859.915C1526.39,-728.67 1509.92,-555.151 1500.35,-454.184"/>
-<polygon fill="none" stroke="midnightblue" points="1535.38,-860.46 1539.81,-870.085 1542.35,-859.799 1535.38,-860.46"/>
+<path fill="none" stroke="midnightblue" d="M1578.87,-859.855C1567.1,-759.696 1552.45,-634.933 1540.89,-536.584"/>
+<polygon fill="none" stroke="midnightblue" points="1575.43,-860.562 1580.07,-870.085 1582.38,-859.745 1575.43,-860.562"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
 <g id="a_node20"><a xlink:href="classqtreports_1_1detail_1_1_ellipse.html" target="_top" xlink:title="Класс, реализующий тэг &lt;ellipse&gt; ">
-<polygon fill="none" stroke="black" points="1569,-331 1569,-410 1668,-410 1668,-331 1569,-331"/>
-<text text-anchor="start" x="1577" y="-398" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="1618.5" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">Ellipse</text>
-<polyline fill="none" stroke="black" points="1569,-380 1668,-380 "/>
-<text text-anchor="middle" x="1618.5" y="-368" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="1569,-361 1668,-361 "/>
-<text text-anchor="start" x="1577" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00">+ Ellipse()</text>
-<text text-anchor="start" x="1577" y="-338" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Ellipse()</text>
+<polygon fill="none" stroke="black" points="1628,-331 1628,-410 1727,-410 1727,-331 1628,-331"/>
+<text text-anchor="start" x="1636" y="-398" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="1677.5" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">Ellipse</text>
+<polyline fill="none" stroke="black" points="1628,-380 1727,-380 "/>
+<text text-anchor="middle" x="1677.5" y="-368" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="1628,-361 1727,-361 "/>
+<text text-anchor="start" x="1636" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00">+ Ellipse()</text>
+<text text-anchor="start" x="1636" y="-338" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Ellipse()</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node20 -->
 <g id="edge19" class="edge"><title>Node16&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M1572.14,-860.083C1586.67,-706.933 1606.68,-496.124 1614.82,-410.251"/>
-<polygon fill="none" stroke="midnightblue" points="1568.65,-859.799 1571.19,-870.085 1575.62,-860.46 1568.65,-859.799"/>
+<path fill="none" stroke="midnightblue" d="M1620.11,-860.083C1638.1,-706.933 1662.86,-496.124 1672.95,-410.251"/>
+<polygon fill="none" stroke="midnightblue" points="1616.62,-859.745 1618.93,-870.085 1623.57,-860.562 1616.62,-859.745"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
 <g id="a_node21"><a xlink:href="classqtreports_1_1detail_1_1_line.html" target="_top" xlink:title="Класс, реализующий тэг &lt;line&gt; ">
-<polygon fill="none" stroke="black" points="1686,-336.5 1686,-404.5 1805,-404.5 1805,-336.5 1686,-336.5"/>
-<text text-anchor="middle" x="1745.5" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::Line</text>
-<polyline fill="none" stroke="black" points="1686,-385.5 1805,-385.5 "/>
-<text text-anchor="middle" x="1745.5" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="1686,-366.5 1805,-366.5 "/>
-<text text-anchor="start" x="1694" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Line()</text>
-<text text-anchor="start" x="1694" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Line()</text>
+<polygon fill="none" stroke="black" points="1745,-336.5 1745,-404.5 1864,-404.5 1864,-336.5 1745,-336.5"/>
+<text text-anchor="middle" x="1804.5" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::Line</text>
+<polyline fill="none" stroke="black" points="1745,-385.5 1864,-385.5 "/>
+<text text-anchor="middle" x="1804.5" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="1745,-366.5 1864,-366.5 "/>
+<text text-anchor="start" x="1753" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Line()</text>
+<text text-anchor="start" x="1753" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Line()</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node21 -->
 <g id="edge20" class="edge"><title>Node16&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M1605.63,-860.325C1650.46,-703.64 1712.61,-486.453 1736.05,-404.534"/>
-<polygon fill="none" stroke="midnightblue" points="1602.22,-859.508 1602.83,-870.085 1608.95,-861.434 1602.22,-859.508"/>
+<path fill="none" stroke="midnightblue" d="M1652.62,-870.621C1678.36,-790.049 1709.46,-691.588 1736.5,-603 1758.02,-532.487 1782.09,-449.509 1795.03,-404.534"/>
+<polygon fill="none" stroke="midnightblue" points="1649.22,-869.766 1649.51,-880.357 1655.89,-871.896 1649.22,-869.766"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
 <g id="a_node22"><a xlink:href="classqtreports_1_1detail_1_1_rect.html" target="_top" xlink:title="Класс, реализующий тэг &lt;rect&gt; ">
-<polygon fill="none" stroke="black" points="1823,-336.5 1823,-404.5 1942,-404.5 1942,-336.5 1823,-336.5"/>
-<text text-anchor="middle" x="1882.5" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::Rect</text>
-<polyline fill="none" stroke="black" points="1823,-385.5 1942,-385.5 "/>
-<text text-anchor="middle" x="1882.5" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="1823,-366.5 1942,-366.5 "/>
-<text text-anchor="start" x="1831" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Rect()</text>
-<text text-anchor="start" x="1831" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Rect()</text>
+<polygon fill="none" stroke="black" points="1882,-336.5 1882,-404.5 2001,-404.5 2001,-336.5 1882,-336.5"/>
+<text text-anchor="middle" x="1941.5" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::Rect</text>
+<polyline fill="none" stroke="black" points="1882,-385.5 2001,-385.5 "/>
+<text text-anchor="middle" x="1941.5" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="1882,-366.5 2001,-366.5 "/>
+<text text-anchor="start" x="1890" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Rect()</text>
+<text text-anchor="start" x="1890" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Rect()</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node22 -->
 <g id="edge21" class="edge"><title>Node16&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M1611.43,-956.202C1668.83,-871.887 1757.58,-733.028 1814.5,-603 1844.23,-535.08 1865.36,-450.414 1875.56,-404.627"/>
-<polygon fill="none" stroke="midnightblue" points="1608.38,-954.462 1605.63,-964.694 1614.16,-958.411 1608.38,-954.462"/>
+<path fill="none" stroke="midnightblue" d="M1655.54,-961.423C1716.37,-878.076 1812.91,-736.804 1873.5,-603 1904.08,-535.459 1924.88,-450.647 1934.81,-404.735"/>
+<polygon fill="none" stroke="midnightblue" points="1652.67,-959.419 1649.59,-969.555 1658.32,-963.555 1652.67,-959.419"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
 <g id="a_node23"><a xlink:href="classqtreports_1_1detail_1_1_text_widget.html" target="_top" xlink:title="Базовый класс для тегов, имеющих текстовое содержание. ">
-<polygon fill="none" stroke="black" points="1960.5,-303.5 1960.5,-437.5 2066.5,-437.5 2066.5,-303.5 1960.5,-303.5"/>
-<text text-anchor="start" x="1968.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="2013.5" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextWidget</text>
-<polyline fill="none" stroke="black" points="1960.5,-407.5 2066.5,-407.5 "/>
-<text text-anchor="start" x="1968.5" y="-395.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_text</text>
-<text text-anchor="start" x="1968.5" y="-384.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_originalText</text>
-<polyline fill="none" stroke="black" points="1960.5,-377.5 2066.5,-377.5 "/>
-<text text-anchor="start" x="1968.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ TextWidget()</text>
-<text text-anchor="start" x="1968.5" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~TextWidget()</text>
-<text text-anchor="start" x="1968.5" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setText()</text>
-<text text-anchor="start" x="1968.5" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getText()</text>
-<text text-anchor="start" x="1968.5" y="-321.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setOriginalText()</text>
-<text text-anchor="start" x="1968.5" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getOriginalText()</text>
+<polygon fill="none" stroke="black" points="2019.5,-303.5 2019.5,-437.5 2125.5,-437.5 2125.5,-303.5 2019.5,-303.5"/>
+<text text-anchor="start" x="2027.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="2072.5" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextWidget</text>
+<polyline fill="none" stroke="black" points="2019.5,-407.5 2125.5,-407.5 "/>
+<text text-anchor="start" x="2027.5" y="-395.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_text</text>
+<text text-anchor="start" x="2027.5" y="-384.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_originalText</text>
+<polyline fill="none" stroke="black" points="2019.5,-377.5 2125.5,-377.5 "/>
+<text text-anchor="start" x="2027.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ TextWidget()</text>
+<text text-anchor="start" x="2027.5" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~TextWidget()</text>
+<text text-anchor="start" x="2027.5" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setText()</text>
+<text text-anchor="start" x="2027.5" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getText()</text>
+<text text-anchor="start" x="2027.5" y="-321.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setOriginalText()</text>
+<text text-anchor="start" x="2027.5" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getOriginalText()</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node23 -->
 <g id="edge22" class="edge"><title>Node16&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M1613.56,-988.491C1700.16,-915.237 1862.51,-765.313 1951.5,-603 1979.9,-551.193 1995.87,-485.632 2004.46,-437.515"/>
-<polygon fill="none" stroke="midnightblue" points="1611.07,-986.009 1605.67,-995.125 1615.58,-991.365 1611.07,-986.009"/>
+<path fill="none" stroke="midnightblue" d="M1657.42,-990.936C1746.77,-919.074 1917.6,-768.779 2010.5,-603 2039.38,-551.459 2055.3,-485.869 2063.75,-437.673"/>
+<polygon fill="none" stroke="midnightblue" points="1655.18,-988.246 1649.55,-997.226 1659.55,-993.712 1655.18,-988.246"/>
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
 <g id="a_node24"><a xlink:href="classqtreports_1_1detail_1_1_image.html" target="_top" xlink:title="Класс, реализующий тэг &lt;image&gt; ">
-<polygon fill="none" stroke="black" points="1847,-0.5 1847,-101.5 1946,-101.5 1946,-0.5 1847,-0.5"/>
-<text text-anchor="start" x="1855" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="1896.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">Image</text>
-<polyline fill="none" stroke="black" points="1847,-71.5 1946,-71.5 "/>
-<text text-anchor="start" x="1855" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_image</text>
-<polyline fill="none" stroke="black" points="1847,-52.5 1946,-52.5 "/>
-<text text-anchor="start" x="1855" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Image()</text>
-<text text-anchor="start" x="1855" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Image()</text>
-<text text-anchor="start" x="1855" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setImage()</text>
-<text text-anchor="start" x="1855" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getImage()</text>
+<polygon fill="none" stroke="black" points="1906,-0.5 1906,-101.5 2005,-101.5 2005,-0.5 1906,-0.5"/>
+<text text-anchor="start" x="1914" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="1955.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">Image</text>
+<polyline fill="none" stroke="black" points="1906,-71.5 2005,-71.5 "/>
+<text text-anchor="start" x="1914" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_image</text>
+<polyline fill="none" stroke="black" points="1906,-52.5 2005,-52.5 "/>
+<text text-anchor="start" x="1914" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Image()</text>
+<text text-anchor="start" x="1914" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Image()</text>
+<text text-anchor="start" x="1914" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setImage()</text>
+<text text-anchor="start" x="1914" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getImage()</text>
 </a>
 </g>
 </g>
 <!-- Node23&#45;&gt;Node24 -->
 <g id="edge23" class="edge"><title>Node23&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M1999.3,-293.379C1989.19,-247.228 1973.48,-187.832 1951.5,-138 1946.14,-125.838 1939.2,-113.421 1932.06,-101.942"/>
-<polygon fill="none" stroke="midnightblue" points="1995.91,-294.274 2001.43,-303.315 2002.75,-292.803 1995.91,-294.274"/>
+<path fill="none" stroke="midnightblue" d="M2058.3,-293.379C2048.19,-247.228 2032.48,-187.832 2010.5,-138 2005.14,-125.838 1998.2,-113.421 1991.06,-101.942"/>
+<polygon fill="none" stroke="midnightblue" points="2054.91,-294.274 2060.43,-303.315 2061.75,-292.803 2054.91,-294.274"/>
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
 <g id="a_node25"><a xlink:href="classqtreports_1_1detail_1_1_static_text.html" target="_top" xlink:title="Класс, реализующий тэг &lt;staticText&gt; ">
-<polygon fill="none" stroke="black" points="1964,-11.5 1964,-90.5 2063,-90.5 2063,-11.5 1964,-11.5"/>
-<text text-anchor="start" x="1972" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="2013.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">StaticText</text>
-<polyline fill="none" stroke="black" points="1964,-60.5 2063,-60.5 "/>
-<text text-anchor="middle" x="2013.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="1964,-41.5 2063,-41.5 "/>
-<text text-anchor="start" x="1972" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ StaticText()</text>
-<text text-anchor="start" x="1972" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~StaticText()</text>
+<polygon fill="none" stroke="black" points="2023,-11.5 2023,-90.5 2122,-90.5 2122,-11.5 2023,-11.5"/>
+<text text-anchor="start" x="2031" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="2072.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">StaticText</text>
+<polyline fill="none" stroke="black" points="2023,-60.5 2122,-60.5 "/>
+<text text-anchor="middle" x="2072.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="2023,-41.5 2122,-41.5 "/>
+<text text-anchor="start" x="2031" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ StaticText()</text>
+<text text-anchor="start" x="2031" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~StaticText()</text>
 </a>
 </g>
 </g>
 <!-- Node23&#45;&gt;Node25 -->
 <g id="edge24" class="edge"><title>Node23&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M2013.5,-293.295C2013.5,-229.402 2013.5,-140.793 2013.5,-90.6502"/>
-<polygon fill="none" stroke="midnightblue" points="2010,-293.328 2013.5,-303.328 2017,-293.328 2010,-293.328"/>
+<path fill="none" stroke="midnightblue" d="M2072.5,-293.295C2072.5,-229.402 2072.5,-140.793 2072.5,-90.6502"/>
+<polygon fill="none" stroke="midnightblue" points="2069,-293.328 2072.5,-303.328 2076,-293.328 2069,-293.328"/>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
 <g id="a_node26"><a xlink:href="classqtreports_1_1detail_1_1_text_field.html" target="_top" xlink:title="Класс, реализующий тэг &lt;textField&gt; ">
-<polygon fill="none" stroke="black" points="2081.5,-0.5 2081.5,-101.5 2187.5,-101.5 2187.5,-0.5 2081.5,-0.5"/>
-<text text-anchor="start" x="2089.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
-<text text-anchor="middle" x="2134.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextField</text>
-<polyline fill="none" stroke="black" points="2081.5,-71.5 2187.5,-71.5 "/>
-<text text-anchor="start" x="2089.5" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_className</text>
-<polyline fill="none" stroke="black" points="2081.5,-52.5 2187.5,-52.5 "/>
-<text text-anchor="start" x="2089.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ TextField()</text>
-<text text-anchor="start" x="2089.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~TextField()</text>
-<text text-anchor="start" x="2089.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setClassName()</text>
-<text text-anchor="start" x="2089.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getClassName()</text>
+<polygon fill="none" stroke="black" points="2140.5,-0.5 2140.5,-101.5 2246.5,-101.5 2246.5,-0.5 2140.5,-0.5"/>
+<text text-anchor="start" x="2148.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
+<text text-anchor="middle" x="2193.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextField</text>
+<polyline fill="none" stroke="black" points="2140.5,-71.5 2246.5,-71.5 "/>
+<text text-anchor="start" x="2148.5" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_className</text>
+<polyline fill="none" stroke="black" points="2140.5,-52.5 2246.5,-52.5 "/>
+<text text-anchor="start" x="2148.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ TextField()</text>
+<text text-anchor="start" x="2148.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~TextField()</text>
+<text text-anchor="start" x="2148.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setClassName()</text>
+<text text-anchor="start" x="2148.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getClassName()</text>
 </a>
 </g>
 </g>
 <!-- Node23&#45;&gt;Node26 -->
 <g id="edge25" class="edge"><title>Node23&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M2042.42,-293.623C2065.04,-234.262 2095.85,-153.419 2115.46,-101.96"/>
-<polygon fill="none" stroke="midnightblue" points="2039.01,-292.737 2038.72,-303.328 2045.55,-295.23 2039.01,-292.737"/>
+<path fill="none" stroke="midnightblue" d="M2101.42,-293.623C2124.04,-234.262 2154.85,-153.419 2174.46,-101.96"/>
+<polygon fill="none" stroke="midnightblue" points="2098.01,-292.737 2097.72,-303.328 2104.55,-295.23 2098.01,-292.737"/>
 </g>
 </g>
 </svg>

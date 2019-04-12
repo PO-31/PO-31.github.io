@@ -33,5 +33,6 @@ var searchData=
   ['report_5fhpp',['REPORT_HPP',['../report_8hpp.html#a5c6f8e46b8a39c2ef905d11b0cb651da',1,'report.hpp']]],
   ['reportptr',['ReportPtr',['../namespaceqtreports_1_1detail.html#a44f599ffe398f114e5d2edcffdbdc3d8',1,'qtreports::detail']]],
   ['required',['Required',['../classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a0d7770fab9a27418149a44cb48f18a3fab651efdb98a5d6bd2b3935d0c3f4a5e2',1,'qtreports::detail::ParserFromXML']]],
-  ['row',['ROW',['../classqtreports_1_1detail_1_1_crosstab_group.html#ad4be5a4a122f67aa01a4f12699cf3a17ac22e43abe8607ed40f6b932affe46257',1,'qtreports::detail::CrosstabGroup']]]
+  ['row',['ROW',['../classqtreports_1_1detail_1_1_crosstab_group.html#ad4be5a4a122f67aa01a4f12699cf3a17ac22e43abe8607ed40f6b932affe46257',1,'qtreports::detail::CrosstabGroup']]],
+  ['rundirectionlefttoright',['runDirectionLeftToRight',['../classqtreports_1_1detail_1_1_crosstab.html#a9c37382bf8377554952c614375bb2d7b',1,'qtreports::detail::Crosstab']]]
 ];

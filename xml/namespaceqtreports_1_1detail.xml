@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" line="33" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" bodystart="33" bodyend="-1"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" line="52" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstab.hpp" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a3120cf0c2fbe8af770ad8b9112b34eaa" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_crosstab_cell" kindref="compound">CrosstabCell</ref> &gt;</type>
