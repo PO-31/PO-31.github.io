@@ -19,7 +19,7 @@
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="153" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="153" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</referencedby>
         <referencedby refid="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" compoundref="engine_8cpp" startline="56" endline="61">close</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" compoundref="engine_8cpp" startline="378" endline="381">isOpened</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" compoundref="engine_8cpp" startline="379" endline="382">isOpened</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -41,10 +41,10 @@
         <referencedby refid="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" compoundref="engine_8cpp" startline="190" endline="207">createHTML</referencedby>
         <referencedby refid="classqtreports_1_1_engine_1a2a0fef0c95335eec5df4f61e4ffa7434" compoundref="engine_8cpp" startline="209" endline="226">createWidget</referencedby>
         <referencedby refid="classqtreports_1_1_engine_1a3966d8f0ebb6c1f94812ec21e21680c0" compoundref="engine_8cpp" startline="228" endline="245">createLayout</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="266">getPrintPreviewDialog</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="268" endline="312">drawPreview</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="319" endline="344">prepareDataSource</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" compoundref="engine_8cpp" startline="388" endline="391">getLastError</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="267">getPrintPreviewDialog</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="269" endline="313">drawPreview</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" compoundref="engine_8cpp" startline="389" endline="392">getLastError</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1_engine_1a10926ee63a333e1b2cc358c0e9e3990d" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -82,11 +82,11 @@
         <referencedby refid="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" compoundref="engine_8cpp" startline="190" endline="207">createHTML</referencedby>
         <referencedby refid="classqtreports_1_1_engine_1a2a0fef0c95335eec5df4f61e4ffa7434" compoundref="engine_8cpp" startline="209" endline="226">createWidget</referencedby>
         <referencedby refid="classqtreports_1_1_engine_1a3966d8f0ebb6c1f94812ec21e21680c0" compoundref="engine_8cpp" startline="228" endline="245">createLayout</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="266">getPrintPreviewDialog</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="268" endline="312">drawPreview</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="314" endline="317">prepareDB</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="319" endline="344">prepareDataSource</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" compoundref="engine_8cpp" startline="383" endline="386">getReport</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="267">getPrintPreviewDialog</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="269" endline="313">drawPreview</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="315" endline="318">prepareDB</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" compoundref="engine_8cpp" startline="384" endline="387">getReport</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classqtreports_1_1_engine_1a48e81d0de1fc4c6cc70a124e43a8ac56" prot="private" static="no" mutable="no">
         <type>QVector&lt; QString &gt;</type>
@@ -115,7 +115,7 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="157" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="157" bodyend="-1"/>
         <referencedby refid="classqtreports_1_1_engine_1a0615663aaca4ce8e80f654f2380fef64" compoundref="engine_8cpp" startline="76" endline="110">setConnection</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="354" endline="376">executeQueries</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="355" endline="377">executeQueries</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -197,7 +197,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="88" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="31" bodyend="54"/>
-        <references refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" compoundref="engine_8cpp" startline="378" endline="381">isOpened</references>
+        <references refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" compoundref="engine_8cpp" startline="379" endline="382">isOpened</references>
         <references refid="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" compoundref="engine_8cpp" startline="56" endline="61">close</references>
         <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="72" endline="93">qtreports::detail::ParserFromXML::parse</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
@@ -280,7 +280,7 @@
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
         <references refid="classqtreports_1_1_engine_1a869ad6c79a3ac495a217e2c235d1e108" compoundref="engine_8hpp" startline="157">m_dbConnection</references>
-        <references refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="314" endline="317">prepareDB</references>
+        <references refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="315" endline="318">prepareDB</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a03be86e3a0c711b1e64ab8337f67aa7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -306,7 +306,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="111" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="112" bodyend="134"/>
-        <references refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="319" endline="344">prepareDataSource</references>
+        <references refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a0c7bf107b4774cccb70577946d67666c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -334,8 +334,8 @@
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="117" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="136" bodyend="154"/>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
-        <references refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="354" endline="376">executeQueries</references>
-        <referencedby refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="314" endline="317">prepareDB</referencedby>
+        <references refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="355" endline="377">executeQueries</references>
+        <referencedby refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="315" endline="318">prepareDB</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a336b9687b971d58798b1a7833ca5a74a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -487,11 +487,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="143" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="247" bodyend="266"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="143" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="247" bodyend="267"/>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
-        <references refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="314" endline="317">prepareDB</references>
-        <references refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="268" endline="312">drawPreview</references>
+        <references refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="315" endline="318">prepareDB</references>
+        <references refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="269" endline="313">drawPreview</references>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="148" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="378" bodyend="381"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="148" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="379" bodyend="382"/>
         <references refid="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" compoundref="engine_8hpp" startline="153">m_isOpened</references>
         <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</referencedby>
       </memberdef>
@@ -519,9 +519,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="149" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="383" bodyend="386"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="149" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="384" bodyend="387"/>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
-        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="319" endline="344">prepareDataSource</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const QString</type>
@@ -534,7 +534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="150" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="388" bodyend="391"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="150" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="389" bodyend="392"/>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
       </memberdef>
       </sectiondef>
@@ -554,14 +554,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="160" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="268" bodyend="312"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="160" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="269" bodyend="313"/>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="24" endline="28">qtreports::detail::ConverterToQWidget::convert</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c">qtreports::detail::ConverterToQWidget::Report</references>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="60" endline="63">qtreports::detail::ConverterToQWidget::getLastError</references>
         <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7ee736dd6be3d2cd5b3407751d94617a" compoundref="convertertoqwidget_8cpp" startline="55" endline="58">qtreports::detail::ConverterToQWidget::getPages</references>
-        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="266">getPrintPreviewDialog</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="267">getPrintPreviewDialog</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -574,11 +574,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="161" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="314" bodyend="317"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="161" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="315" bodyend="318"/>
         <references refid="classqtreports_1_1_engine_1a0c7bf107b4774cccb70577946d67666c" compoundref="engine_8cpp" startline="136" endline="154">setQuery</references>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
         <referencedby refid="classqtreports_1_1_engine_1a0615663aaca4ce8e80f654f2380fef64" compoundref="engine_8cpp" startline="76" endline="110">setConnection</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="266">getPrintPreviewDialog</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="267">getPrintPreviewDialog</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -595,12 +595,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="162" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="319" bodyend="344"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="162" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="320" bodyend="345"/>
         <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
         <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
-        <references refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" compoundref="engine_8cpp" startline="383" endline="386">getReport</references>
+        <references refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" compoundref="engine_8cpp" startline="384" endline="387">getReport</references>
         <referencedby refid="classqtreports_1_1_engine_1a03be86e3a0c711b1e64ab8337f67aa7e" compoundref="engine_8cpp" startline="112" endline="134">setDataSource</referencedby>
-        <referencedby refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="354" endline="376">executeQueries</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="355" endline="377">executeQueries</referencedby>
       </memberdef>
       <memberdef kind="function" id="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -617,9 +617,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="164" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="354" bodyend="376"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="164" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="355" bodyend="377"/>
         <references refid="classqtreports_1_1_engine_1a869ad6c79a3ac495a217e2c235d1e108" compoundref="engine_8hpp" startline="157">m_dbConnection</references>
-        <references refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="319" endline="344">prepareDataSource</references>
+        <references refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</references>
         <referencedby refid="classqtreports_1_1_engine_1a0c7bf107b4774cccb70577946d67666c" compoundref="engine_8cpp" startline="136" endline="154">setQuery</referencedby>
       </memberdef>
       </sectiondef>
