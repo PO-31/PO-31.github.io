@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 133;
+var viewWidth = 147;
 var viewHeight = 457;
 var sectionId = 'dynsection-0';
 </script>
@@ -56,16 +56,16 @@ var sectionId = 'dynsection-0';
 <title>qtreports::Engine</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="-7.10543e-15,-0.5 -7.10543e-15,-354.5 125,-354.5 125,-0.5 -7.10543e-15,-0.5"/>
-<text text-anchor="middle" x="62.5" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine</text>
-<polyline fill="none" stroke="black" points="-7.10543e-15,-335.5 125,-335.5 "/>
+<polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-354.5 139,-354.5 139,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="69.5" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine</text>
+<polyline fill="none" stroke="black" points="0,-335.5 139,-335.5 "/>
 <text text-anchor="start" x="8" y="-323.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_isOpened</text>
 <text text-anchor="start" x="8" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_lastError</text>
 <text text-anchor="start" x="8" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_compiledPath</text>
 <text text-anchor="start" x="8" y="-290.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_report</text>
 <text text-anchor="start" x="8" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_scripts</text>
 <text text-anchor="start" x="8" y="-268.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; m_dbConnection</text>
-<polyline fill="none" stroke="black" points="-7.10543e-15,-261.5 125,-261.5 "/>
+<polyline fill="none" stroke="black" points="0,-261.5 139,-261.5 "/>
 <text text-anchor="start" x="8" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Engine()</text>
 <text text-anchor="start" x="8" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Engine()</text>
 <text text-anchor="start" x="8" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Engine()</text>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <text text-anchor="start" x="8" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ createHTML()</text>
 <text text-anchor="start" x="8" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ createWidget()</text>
 <text text-anchor="start" x="8" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ createLayout()</text>
-<text text-anchor="start" x="8" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ print()</text>
+<text text-anchor="start" x="8" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getPrintPreviewDialog()</text>
 <text text-anchor="start" x="8" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ isOpened()</text>
 <text text-anchor="start" x="8" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getReport()</text>
 <text text-anchor="start" x="8" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getLastError()</text>
@@ -92,17 +92,17 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="none" stroke="#bfbfbf" points="35,-391.5 35,-448.5 90,-448.5 90,-391.5 35,-391.5"/>
-<text text-anchor="middle" x="62.5" y="-436.5" font-family="Helvetica,sans-Serif" font-size="10.00">QObject</text>
-<polyline fill="none" stroke="#bfbfbf" points="35,-429.5 90,-429.5 "/>
-<text text-anchor="middle" x="62.5" y="-417.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="35,-410.5 90,-410.5 "/>
-<text text-anchor="middle" x="62.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polygon fill="none" stroke="#bfbfbf" points="42,-391.5 42,-448.5 97,-448.5 97,-391.5 42,-391.5"/>
+<text text-anchor="middle" x="69.5" y="-436.5" font-family="Helvetica,sans-Serif" font-size="10.00">QObject</text>
+<polyline fill="none" stroke="#bfbfbf" points="42,-429.5 97,-429.5 "/>
+<text text-anchor="middle" x="69.5" y="-417.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="42,-410.5 97,-410.5 "/>
+<text text-anchor="middle" x="69.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M62.5,-381.175C62.5,-373.225 62.5,-364.348 62.5,-354.871"/>
-<polygon fill="none" stroke="midnightblue" points="59.0001,-381.412 62.5,-391.412 66.0001,-381.412 59.0001,-381.412"/>
+<path fill="none" stroke="midnightblue" d="M69.5,-381.175C69.5,-373.225 69.5,-364.348 69.5,-354.871"/>
+<polygon fill="none" stroke="midnightblue" points="66.0001,-381.412 69.5,-391.412 73.0001,-381.412 66.0001,-381.412"/>
 </g>
 </g>
 </svg>

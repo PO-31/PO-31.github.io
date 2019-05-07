@@ -63,6 +63,7 @@ var searchData=
   ['getpdfencoding',['getPDFEncoding',['../classqtreports_1_1detail_1_1_style.html#abdc6598fc44ca7932901e74837999321',1,'qtreports::detail::Style']]],
   ['getpdffontname',['getPDFFontName',['../classqtreports_1_1detail_1_1_style.html#a5644631373866f3e4bf637054d30f767',1,'qtreports::detail::Style']]],
   ['getpos',['getPos',['../classqtreports_1_1detail_1_1_widget.html#ade3cb6ffd810de4f91d07658d716c97b',1,'qtreports::detail::Widget']]],
+  ['getprintpreviewdialog',['getPrintPreviewDialog',['../classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e',1,'qtreports::Engine']]],
   ['getquery',['getQuery',['../classqtreports_1_1detail_1_1_report.html#a231b3bebf8e20cbeacd34f7987701f46',1,'qtreports::detail::Report']]],
   ['getqwidget',['getQWidget',['../classqtreports_1_1detail_1_1_converter_to_q_widget.html#ab01f3bcd13f00483adbdec4eacc272e8',1,'qtreports::detail::ConverterToQWidget']]],
   ['getrect',['getRect',['../classqtreports_1_1detail_1_1_band.html#ad4d6ddfa58c8e368213d66767a0a598f',1,'qtreports::detail::Band::getRect()'],['../classqtreports_1_1detail_1_1_widget.html#ab3156821ebe35805a20f7b33b3c49d33',1,'qtreports::detail::Widget::getRect()']]],

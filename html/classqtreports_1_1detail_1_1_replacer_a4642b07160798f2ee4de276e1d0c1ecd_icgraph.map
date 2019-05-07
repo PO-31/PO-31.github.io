@@ -19,7 +19,7 @@
 <area shape="rect" id="node14" href="$classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" title="Создает виджет отчета для вывода на экран. " alt="" coords="2374,5,2514,47"/>
 <area shape="rect" id="node15" href="$classqtreports_1_1_engine.html#a3966d8f0ebb6c1f94812ec21e21680c0" title="qtreports::Engine::\lcreateLayout" alt="" coords="2374,71,2514,112"/>
 <area shape="rect" id="node16" href="$classqtreports_1_1_engine.html#a93dc7711446a155f87d9146efb493f9e" title="qtreports::Engine::\ldrawPreview" alt="" coords="2374,136,2514,177"/>
-<area shape="rect" id="node17" href="$classqtreports_1_1_engine.html#ae80c66a0bc958bf82e023b646e18d55b" title="qtreports::Engine::\lprint" alt="" coords="2587,136,2727,177"/>
+<area shape="rect" id="node17" href="$classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e" title="qtreports::Engine::\lgetPrintPreviewDialog" alt="" coords="2587,136,2747,177"/>
 <area shape="rect" id="node19" href="$classqtreports_1_1detail_1_1_replacer.html#ae0f12ba0e77e9ef89b9479272e843fe6" title="qtreports::detail::\lReplacer::replaceRowGroups\lInCrosstab" alt="" coords="491,174,693,230"/>
 <area shape="rect" id="node20" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a5b8d80606e58c8bcdadc7ce6134e9c2f" title="Добавление объектов Crosstab в документ HTML. " alt="" coords="1031,247,1260,303"/>
 <area shape="rect" id="node22" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aba1de1bf9abc3ea9b7b5c2b8317f5a0f" title="Создает band. " alt="" coords="1040,385,1251,427"/>

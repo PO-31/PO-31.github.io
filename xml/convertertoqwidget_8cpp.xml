@@ -10,43 +10,39 @@
     <includes local="no">QList</includes>
     <includes refid="replacer_8hpp" local="yes">utils/replacer.hpp</includes>
     <incdepgraph>
-      <node id="2261">
+      <node id="2263">
         <label>QMap</label>
       </node>
-      <node id="2274">
+      <node id="2276">
         <label>section.hpp</label>
         <link refid="section_8hpp"/>
-        <childnode refid="2262" relation="include">
+        <childnode refid="2264" relation="include">
         </childnode>
-        <childnode refid="2263" relation="include">
+        <childnode refid="2265" relation="include">
         </childnode>
-        <childnode refid="2267" relation="include">
+        <childnode refid="2269" relation="include">
         </childnode>
-        <childnode refid="2275" relation="include">
-        </childnode>
-      </node>
-      <node id="2273">
-        <label>group.hpp</label>
-        <link refid="group_8hpp"/>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2274" relation="include">
+        <childnode refid="2277" relation="include">
         </childnode>
       </node>
       <node id="2275">
-        <label>band.hpp</label>
-        <link refid="band_8hpp"/>
-        <childnode refid="2262" relation="include">
+        <label>group.hpp</label>
+        <link refid="group_8hpp"/>
+        <childnode refid="2255" relation="include">
         </childnode>
-        <childnode refid="2263" relation="include">
+        <childnode refid="2265" relation="include">
         </childnode>
         <childnode refid="2276" relation="include">
         </childnode>
-        <childnode refid="2281" relation="include">
+      </node>
+      <node id="2277">
+        <label>band.hpp</label>
+        <link refid="band_8hpp"/>
+        <childnode refid="2264" relation="include">
         </childnode>
-        <childnode refid="2282" relation="include">
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2278" relation="include">
         </childnode>
         <childnode refid="2283" relation="include">
         </childnode>
@@ -54,70 +50,70 @@
         </childnode>
         <childnode refid="2285" relation="include">
         </childnode>
-        <childnode refid="2278" relation="include">
-        </childnode>
         <childnode refid="2286" relation="include">
         </childnode>
+        <childnode refid="2287" relation="include">
+        </childnode>
+        <childnode refid="2280" relation="include">
+        </childnode>
+        <childnode refid="2288" relation="include">
+        </childnode>
       </node>
-      <node id="2271">
+      <node id="2273">
         <label>style.hpp</label>
         <link refid="style_8hpp"/>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2272" relation="include">
-        </childnode>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2267" relation="include">
-        </childnode>
-      </node>
-      <node id="2269">
-        <label>field.hpp</label>
-        <link refid="field_8hpp"/>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2268" relation="include">
-        </childnode>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2262" relation="include">
-        </childnode>
-        <childnode refid="2270" relation="include">
-        </childnode>
-        <childnode refid="2267" relation="include">
-        </childnode>
-      </node>
-      <node id="2298">
-        <label>QList</label>
-      </node>
-      <node id="2292">
-        <label>detail.hpp</label>
-        <link refid="detail_8hpp"/>
-        <childnode refid="2263" relation="include">
+        <childnode refid="2255" relation="include">
         </childnode>
         <childnode refid="2274" relation="include">
         </childnode>
-      </node>
-      <node id="2299">
-        <label>utils/replacer.hpp</label>
-        <link refid="replacer_8hpp"/>
-        <childnode refid="2253" relation="include">
+        <childnode refid="2265" relation="include">
         </childnode>
-        <childnode refid="2277" relation="include">
-        </childnode>
-        <childnode refid="2259" relation="include">
+        <childnode refid="2269" relation="include">
         </childnode>
       </node>
-      <node id="2251">
-        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp</label>
-        <link refid="convertertoqwidget.cpp"/>
-        <childnode refid="2252" relation="include">
+      <node id="2271">
+        <label>field.hpp</label>
+        <link refid="field_8hpp"/>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2270" relation="include">
         </childnode>
         <childnode refid="2255" relation="include">
         </childnode>
-        <childnode refid="2295" relation="include">
+        <childnode refid="2264" relation="include">
         </childnode>
-        <childnode refid="2296" relation="include">
+        <childnode refid="2272" relation="include">
+        </childnode>
+        <childnode refid="2269" relation="include">
+        </childnode>
+      </node>
+      <node id="2300">
+        <label>QList</label>
+      </node>
+      <node id="2294">
+        <label>detail.hpp</label>
+        <link refid="detail_8hpp"/>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2276" relation="include">
+        </childnode>
+      </node>
+      <node id="2301">
+        <label>utils/replacer.hpp</label>
+        <link refid="replacer_8hpp"/>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2279" relation="include">
+        </childnode>
+        <childnode refid="2261" relation="include">
+        </childnode>
+      </node>
+      <node id="2253">
+        <label>/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp</label>
+        <link refid="convertertoqwidget.cpp"/>
+        <childnode refid="2254" relation="include">
+        </childnode>
+        <childnode refid="2257" relation="include">
         </childnode>
         <childnode refid="2297" relation="include">
         </childnode>
@@ -125,218 +121,218 @@
         </childnode>
         <childnode refid="2299" relation="include">
         </childnode>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
       </node>
-      <node id="2265">
+      <node id="2267">
         <label>QPrinter</label>
       </node>
-      <node id="2280">
+      <node id="2282">
         <label>QRect</label>
       </node>
-      <node id="2279">
+      <node id="2281">
         <label>QPoint</label>
       </node>
-      <node id="2263">
+      <node id="2265">
         <label>QSharedPointer</label>
       </node>
-      <node id="2270">
+      <node id="2272">
         <label>QImage</label>
       </node>
-      <node id="2276">
+      <node id="2278">
         <label>statictext.hpp</label>
         <link refid="statictext_8hpp"/>
-        <childnode refid="2263" relation="include">
+        <childnode refid="2265" relation="include">
         </childnode>
-        <childnode refid="2277" relation="include">
+        <childnode refid="2279" relation="include">
         </childnode>
-      </node>
-      <node id="2283">
-        <label>rect.hpp</label>
-        <link refid="rect_8hpp"/>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2278" relation="include">
-        </childnode>
-      </node>
-      <node id="2296">
-        <label>QPainter</label>
-      </node>
-      <node id="2258">
-        <label>QHBoxLayout</label>
       </node>
       <node id="2285">
-        <label>image.hpp</label>
-        <link refid="image_8hpp"/>
-        <childnode refid="2270" relation="include">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp"/>
+        <childnode refid="2265" relation="include">
         </childnode>
-        <childnode refid="2263" relation="include">
+        <childnode refid="2280" relation="include">
         </childnode>
-        <childnode refid="2277" relation="include">
-        </childnode>
+      </node>
+      <node id="2298">
+        <label>QPainter</label>
+      </node>
+      <node id="2260">
+        <label>QHBoxLayout</label>
       </node>
       <node id="2287">
+        <label>image.hpp</label>
+        <link refid="image_8hpp"/>
+        <childnode refid="2272" relation="include">
+        </childnode>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2279" relation="include">
+        </childnode>
+      </node>
+      <node id="2289">
         <label>crosstabgroup.hpp</label>
         <link refid="crosstabgroup_8hpp"/>
-        <childnode refid="2267" relation="include">
-        </childnode>
-        <childnode refid="2288" relation="include">
-        </childnode>
-      </node>
-      <node id="2282">
-        <label>line.hpp</label>
-        <link refid="line_8hpp"/>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2278" relation="include">
-        </childnode>
-      </node>
-      <node id="2286">
-        <label>crosstab.hpp</label>
-        <link refid="crosstab_8hpp"/>
-        <childnode refid="2278" relation="include">
-        </childnode>
-        <childnode refid="2287" relation="include">
+        <childnode refid="2269" relation="include">
         </childnode>
         <childnode refid="2290" relation="include">
         </childnode>
       </node>
-      <node id="2297">
-        <label>QDebug</label>
-      </node>
-      <node id="2257">
-        <label>QVBoxLayout</label>
-      </node>
-      <node id="2290">
-        <label>crosstabcell.hpp</label>
-        <link refid="crosstabcell_8hpp"/>
-        <childnode refid="2267" relation="include">
-        </childnode>
-        <childnode refid="2289" relation="include">
-        </childnode>
-      </node>
-      <node id="2289">
-        <label>cellcontents.hpp</label>
-        <link refid="cellcontents_8hpp"/>
-        <childnode refid="2278" relation="include">
-        </childnode>
-        <childnode refid="2281" relation="include">
-        </childnode>
-      </node>
-      <node id="2277">
-        <label>textwidget.hpp</label>
-        <link refid="textwidget_8hpp"/>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2278" relation="include">
-        </childnode>
-      </node>
-      <node id="2254">
-        <label>QWidget</label>
-      </node>
-      <node id="2266">
-        <label>QRegularExpression</label>
-      </node>
-      <node id="2253">
-        <label>QString</label>
-      </node>
-      <node id="2260">
-        <label>QSize</label>
-      </node>
-      <node id="2281">
-        <label>textfield.hpp</label>
-        <link refid="textfield_8hpp"/>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2277" relation="include">
-        </childnode>
-      </node>
-      <node id="2272">
-        <label>QColor</label>
-      </node>
-      <node id="2295">
-        <label>QLabel</label>
-      </node>
-      <node id="2264">
-        <label>QMargins</label>
-      </node>
-      <node id="2267">
-        <label>object.hpp</label>
-        <link refid="object_8hpp"/>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2268" relation="include">
-        </childnode>
-        <childnode refid="2263" relation="include">
-        </childnode>
-      </node>
-      <node id="2294">
-        <label>variable.hpp</label>
-        <link refid="variable_8hpp"/>
-        <childnode refid="2267" relation="include">
-        </childnode>
-      </node>
-      <node id="2256">
-        <label>QBoxLayout</label>
-      </node>
-      <node id="2291">
-        <label>title.hpp</label>
-        <link refid="title_8hpp"/>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2274" relation="include">
-        </childnode>
-      </node>
-      <node id="2255">
-        <label>QFrame</label>
-      </node>
-      <node id="2293">
-        <label>summary.hpp</label>
-        <link refid="summary_8hpp"/>
-        <childnode refid="2263" relation="include">
-        </childnode>
-        <childnode refid="2274" relation="include">
-        </childnode>
-      </node>
-      <node id="2288">
-        <label>crosstabheader.hpp</label>
-        <link refid="crosstabheader_8hpp"/>
-        <childnode refid="2267" relation="include">
-        </childnode>
-        <childnode refid="2289" relation="include">
-        </childnode>
-      </node>
-      <node id="2278">
-        <label>widget.hpp</label>
-        <link refid="widget_8hpp"/>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2279" relation="include">
-        </childnode>
-        <childnode refid="2260" relation="include">
+      <node id="2284">
+        <label>line.hpp</label>
+        <link refid="line_8hpp"/>
+        <childnode refid="2265" relation="include">
         </childnode>
         <childnode refid="2280" relation="include">
         </childnode>
-        <childnode refid="2263" relation="include">
+      </node>
+      <node id="2288">
+        <label>crosstab.hpp</label>
+        <link refid="crosstab_8hpp"/>
+        <childnode refid="2280" relation="include">
         </childnode>
-        <childnode refid="2271" relation="include">
+        <childnode refid="2289" relation="include">
         </childnode>
-        <childnode refid="2267" relation="include">
+        <childnode refid="2292" relation="include">
         </childnode>
       </node>
-      <node id="2268">
-        <label>QVariant</label>
+      <node id="2299">
+        <label>QDebug</label>
       </node>
       <node id="2259">
+        <label>QVBoxLayout</label>
+      </node>
+      <node id="2292">
+        <label>crosstabcell.hpp</label>
+        <link refid="crosstabcell_8hpp"/>
+        <childnode refid="2269" relation="include">
+        </childnode>
+        <childnode refid="2291" relation="include">
+        </childnode>
+      </node>
+      <node id="2291">
+        <label>cellcontents.hpp</label>
+        <link refid="cellcontents_8hpp"/>
+        <childnode refid="2280" relation="include">
+        </childnode>
+        <childnode refid="2283" relation="include">
+        </childnode>
+      </node>
+      <node id="2279">
+        <label>textwidget.hpp</label>
+        <link refid="textwidget_8hpp"/>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2280" relation="include">
+        </childnode>
+      </node>
+      <node id="2256">
+        <label>QWidget</label>
+      </node>
+      <node id="2268">
+        <label>QRegularExpression</label>
+      </node>
+      <node id="2255">
+        <label>QString</label>
+      </node>
+      <node id="2262">
+        <label>QSize</label>
+      </node>
+      <node id="2283">
+        <label>textfield.hpp</label>
+        <link refid="textfield_8hpp"/>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2279" relation="include">
+        </childnode>
+      </node>
+      <node id="2274">
+        <label>QColor</label>
+      </node>
+      <node id="2297">
+        <label>QLabel</label>
+      </node>
+      <node id="2266">
+        <label>QMargins</label>
+      </node>
+      <node id="2269">
+        <label>object.hpp</label>
+        <link refid="object_8hpp"/>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2270" relation="include">
+        </childnode>
+        <childnode refid="2265" relation="include">
+        </childnode>
+      </node>
+      <node id="2296">
+        <label>variable.hpp</label>
+        <link refid="variable_8hpp"/>
+        <childnode refid="2269" relation="include">
+        </childnode>
+      </node>
+      <node id="2258">
+        <label>QBoxLayout</label>
+      </node>
+      <node id="2293">
+        <label>title.hpp</label>
+        <link refid="title_8hpp"/>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2276" relation="include">
+        </childnode>
+      </node>
+      <node id="2257">
+        <label>QFrame</label>
+      </node>
+      <node id="2295">
+        <label>summary.hpp</label>
+        <link refid="summary_8hpp"/>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2276" relation="include">
+        </childnode>
+      </node>
+      <node id="2290">
+        <label>crosstabheader.hpp</label>
+        <link refid="crosstabheader_8hpp"/>
+        <childnode refid="2269" relation="include">
+        </childnode>
+        <childnode refid="2291" relation="include">
+        </childnode>
+      </node>
+      <node id="2280">
+        <label>widget.hpp</label>
+        <link refid="widget_8hpp"/>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2281" relation="include">
+        </childnode>
+        <childnode refid="2262" relation="include">
+        </childnode>
+        <childnode refid="2282" relation="include">
+        </childnode>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2273" relation="include">
+        </childnode>
+        <childnode refid="2269" relation="include">
+        </childnode>
+      </node>
+      <node id="2270">
+        <label>QVariant</label>
+      </node>
+      <node id="2261">
         <label>../tags/report.hpp</label>
         <link refid="report_8hpp"/>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2260" relation="include">
-        </childnode>
-        <childnode refid="2261" relation="include">
+        <childnode refid="2255" relation="include">
         </childnode>
         <childnode refid="2262" relation="include">
         </childnode>
@@ -350,28 +346,28 @@
         </childnode>
         <childnode refid="2267" relation="include">
         </childnode>
+        <childnode refid="2268" relation="include">
+        </childnode>
         <childnode refid="2269" relation="include">
         </childnode>
         <childnode refid="2271" relation="include">
         </childnode>
         <childnode refid="2273" relation="include">
         </childnode>
-        <childnode refid="2291" relation="include">
-        </childnode>
-        <childnode refid="2292" relation="include">
+        <childnode refid="2275" relation="include">
         </childnode>
         <childnode refid="2293" relation="include">
         </childnode>
         <childnode refid="2294" relation="include">
         </childnode>
+        <childnode refid="2295" relation="include">
+        </childnode>
+        <childnode refid="2296" relation="include">
+        </childnode>
       </node>
-      <node id="2252">
+      <node id="2254">
         <label>convertertoqwidget.hpp</label>
         <link refid="convertertoqwidget_8hpp"/>
-        <childnode refid="2253" relation="include">
-        </childnode>
-        <childnode refid="2254" relation="include">
-        </childnode>
         <childnode refid="2255" relation="include">
         </childnode>
         <childnode refid="2256" relation="include">
@@ -382,16 +378,20 @@
         </childnode>
         <childnode refid="2259" relation="include">
         </childnode>
+        <childnode refid="2260" relation="include">
+        </childnode>
+        <childnode refid="2261" relation="include">
+        </childnode>
       </node>
-      <node id="2262">
+      <node id="2264">
         <label>QVector</label>
       </node>
-      <node id="2284">
+      <node id="2286">
         <label>ellipse.hpp</label>
         <link refid="ellipse_8hpp"/>
-        <childnode refid="2263" relation="include">
+        <childnode refid="2265" relation="include">
         </childnode>
-        <childnode refid="2278" relation="include">
+        <childnode refid="2280" relation="include">
         </childnode>
       </node>
     </incdepgraph>

@@ -2,5 +2,5 @@
 <area shape="rect" id="node2" href="$classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" title="Создает виджет отчета для вывода на экран. " alt="" coords="212,5,352,47"/>
 <area shape="rect" id="node3" href="$classqtreports_1_1_engine.html#a3966d8f0ebb6c1f94812ec21e21680c0" title="qtreports::Engine::\lcreateLayout" alt="" coords="212,71,352,112"/>
 <area shape="rect" id="node4" href="$classqtreports_1_1_engine.html#a93dc7711446a155f87d9146efb493f9e" title="qtreports::Engine::\ldrawPreview" alt="" coords="212,136,352,177"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1_engine.html#ae80c66a0bc958bf82e023b646e18d55b" title="qtreports::Engine::\lprint" alt="" coords="400,136,540,177"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e" title="qtreports::Engine::\lgetPrintPreviewDialog" alt="" coords="400,136,560,177"/>
 </map>

@@ -4,6 +4,6 @@
 <area shape="rect" id="node4" href="$classqtreports_1_1_engine.html#ac214aea9f2f2b795307550290fa1d1ae" title="qtreports::Engine::\lexecuteQueries" alt="" coords="389,71,529,112"/>
 <area shape="rect" id="node5" href="$classqtreports_1_1_engine.html#a0c7bf107b4774cccb70577946d67666c" title="Устанавливает запрос, по которому будут заполнятся поля отчета " alt="" coords="577,71,717,112"/>
 <area shape="rect" id="node6" href="$classqtreports_1_1_engine.html#a3dda769530e3713bba33c49124ad1ab6" title="qtreports::Engine::\lprepareDB" alt="" coords="765,71,905,112"/>
-<area shape="rect" id="node7" href="$classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" title="Устанавливает источник данных для отчета из БД " alt="" coords="953,37,1093,79"/>
-<area shape="rect" id="node8" href="$classqtreports_1_1_engine.html#ae80c66a0bc958bf82e023b646e18d55b" title="qtreports::Engine::\lprint" alt="" coords="953,103,1093,144"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" title="Устанавливает источник данных для отчета из БД " alt="" coords="963,37,1103,79"/>
+<area shape="rect" id="node8" href="$classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e" title="qtreports::Engine::\lgetPrintPreviewDialog" alt="" coords="953,103,1113,144"/>
 </map>

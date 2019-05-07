@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="75" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="74" bodyend="-1"/>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="73" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" prot="public" static="no">
         <type>QSharedPointer&lt; <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref> &gt;</type>
@@ -655,6 +655,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="73" column="1"/>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="71" column="1"/>
   </compounddef>
 </doxygen>

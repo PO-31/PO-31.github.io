@@ -217,7 +217,7 @@
     <member refid="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" kind="function"><name>createHTML</name></member>
     <member refid="classqtreports_1_1_engine_1a2a0fef0c95335eec5df4f61e4ffa7434" kind="function"><name>createWidget</name></member>
     <member refid="classqtreports_1_1_engine_1a3966d8f0ebb6c1f94812ec21e21680c0" kind="function"><name>createLayout</name></member>
-    <member refid="classqtreports_1_1_engine_1ae80c66a0bc958bf82e023b646e18d55b" kind="function"><name>print</name></member>
+    <member refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" kind="function"><name>getPrintPreviewDialog</name></member>
     <member refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" kind="function"><name>isOpened</name></member>
     <member refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" kind="function"><name>getReport</name></member>
     <member refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" kind="function"><name>getLastError</name></member>
@@ -576,6 +576,7 @@
   </compound>
   <compound refid="namespaceqtreports" kind="namespace"><name>qtreports</name>
     <member refid="namespaceqtreports_1a8c388f58321d9cf9e0b5d22ed159a65e" kind="typedef"><name>QWidgetPtr</name></member>
+    <member refid="namespaceqtreports_1acbc249b477c3e177eba4d1fbc0d6b943" kind="typedef"><name>QPrintPreviewDialogPtr</name></member>
   </compound>
   <compound refid="namespaceqtreports_1_1detail" kind="namespace"><name>qtreports::detail</name>
     <member refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16ee" kind="enum"><name>VariableResetType</name></member>

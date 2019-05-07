@@ -46,9 +46,9 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 824;
+var viewWidth = 839;
 var viewHeight = 112;
-var sectionId = 'dynsection-12';
+var sectionId = 'dynsection-13';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -133,30 +133,30 @@ var sectionId = 'dynsection-12';
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" target="_top" xlink:title="Устанавливает источник данных для отчета из БД ">
-<polygon fill="none" stroke="black" points="711,-49.5 711,-79.5 816,-79.5 816,-49.5 711,-49.5"/>
-<text text-anchor="start" x="719" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
-<text text-anchor="middle" x="763.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">setConnection</text>
+<polygon fill="none" stroke="black" points="718.5,-49.5 718.5,-79.5 823.5,-79.5 823.5,-49.5 718.5,-49.5"/>
+<text text-anchor="start" x="726.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
+<text text-anchor="middle" x="771" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">setConnection</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M685.163,-50.5905C693.69,-52.124 702.375,-53.6862 710.698,-55.1831"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="685.72,-47.1346 675.258,-48.8091 684.481,-54.024 685.72,-47.1346"/>
+<path fill="none" stroke="midnightblue" d="M685.158,-50.0219C696.198,-51.9059 707.599,-53.8513 718.322,-55.6813"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="685.597,-46.5462 675.15,-48.3141 684.419,-53.4464 685.597,-46.5462"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classqtreports_1_1_engine.html#ae80c66a0bc958bf82e023b646e18d55b" target="_top" xlink:title="qtreports::Engine::\lprint">
-<polygon fill="none" stroke="black" points="711,-0.5 711,-30.5 816,-30.5 816,-0.5 711,-0.5"/>
+<g id="a_node8"><a xlink:href="classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e" target="_top" xlink:title="qtreports::Engine::\lgetPrintPreviewDialog">
+<polygon fill="none" stroke="black" points="711,-0.5 711,-30.5 831,-30.5 831,-0.5 711,-0.5"/>
 <text text-anchor="start" x="719" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
-<text text-anchor="middle" x="763.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">print</text>
+<text text-anchor="middle" x="771" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">getPrintPreviewDialog</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M685.163,-28.8531C693.69,-27.3809 702.375,-25.8812 710.698,-24.4442"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="684.517,-25.4128 675.258,-30.5633 685.708,-32.3107 684.517,-25.4128"/>
+<path fill="none" stroke="midnightblue" d="M685.039,-29.4185C693.572,-28.0206 702.323,-26.587 710.812,-25.1963"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="684.453,-25.9678 675.15,-31.0385 685.585,-32.8757 684.453,-25.9678"/>
 </g>
 </g>
 </svg>

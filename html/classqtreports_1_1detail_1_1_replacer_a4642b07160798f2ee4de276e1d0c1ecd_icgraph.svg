@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 2049;
+var viewWidth = 2064;
 var viewHeight = 482;
 var sectionId = 'dynsection-12';
 </script>
@@ -350,17 +350,17 @@ var sectionId = 'dynsection-12';
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classqtreports_1_1_engine.html#ae80c66a0bc958bf82e023b646e18d55b" target="_top" xlink:title="qtreports::Engine::\lprint">
-<polygon fill="none" stroke="black" points="1936,-345.5 1936,-375.5 2041,-375.5 2041,-345.5 1936,-345.5"/>
+<g id="a_node17"><a xlink:href="classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e" target="_top" xlink:title="qtreports::Engine::\lgetPrintPreviewDialog">
+<polygon fill="none" stroke="black" points="1936,-345.5 1936,-375.5 2056,-375.5 2056,-345.5 1936,-345.5"/>
 <text text-anchor="start" x="1944" y="-363.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
-<text text-anchor="middle" x="1988.5" y="-352.5" font-family="Helvetica,sans-Serif" font-size="10.00">print</text>
+<text text-anchor="middle" x="1996" y="-352.5" font-family="Helvetica,sans-Serif" font-size="10.00">getPrintPreviewDialog</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node17 -->
 <g id="edge16" class="edge"><title>Node16&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M1891.97,-360.5C1906.49,-360.5 1921.8,-360.5 1935.81,-360.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1891.57,-357 1881.57,-360.5 1891.57,-364 1891.57,-357"/>
+<path fill="none" stroke="midnightblue" d="M1892.04,-360.5C1906.43,-360.5 1921.7,-360.5 1935.95,-360.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1891.75,-357 1881.75,-360.5 1891.75,-364 1891.75,-357"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
