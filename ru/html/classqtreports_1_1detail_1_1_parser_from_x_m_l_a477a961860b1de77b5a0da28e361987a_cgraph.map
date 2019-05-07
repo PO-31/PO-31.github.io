@@ -1,0 +1,6 @@
+<map id="qtreports::detail::ParserFromXML::parseGroup" name="qtreports::detail::ParserFromXML::parseGroup">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab1cbf7385fa2d56c5e8526bf97cda9b1" title="Вызывает функцию getAttribute с переданными параметрами и с параметром option &#45; &quot;обязательный аттрибу..." alt="" coords="256,5,460,61"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f" title="Парсит дочерние тэги объекта object. " alt="" coords="257,85,459,126"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" title="Записывает в data значение аттрибута с именем name текущего тэга " alt="" coords="523,13,728,54"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" title="Устанавлиает курсор reader(а) к к началу следующего тэга или к концу документа " alt="" coords="508,85,743,126"/>
+</map>

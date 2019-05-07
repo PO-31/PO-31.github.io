@@ -1,0 +1,8 @@
+<map id="qtreports::detail::ParserFromXML::parseCrosstab" name="qtreports::detail::ParserFromXML::parseCrosstab">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a478329a44761310039078ee6871a355d" title="qtreports::detail::\lParserFromXML::getOptional\lAttribute" alt="" coords="275,5,477,61"/>
+<area shape="rect" id="node4" href="$namespaceqtreports_1_1detail.html#af0dcf7d492b98dd5908ab3b40edeef55" title="qtreports::detail::\ltoBool" alt="" coords="310,85,442,126"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f" title="qtreports::detail::\lParserFromXML::parseChilds" alt="" coords="275,150,477,191"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" title="qtreports::detail::\lParserFromXML::getAttribute" alt="" coords="540,13,745,54"/>
+<area shape="rect" id="node5" href="$namespaceqtreports_1_1detail.html#a3ce46912811f49a63ad2d9b6a5d310d3" title="qtreports::detail::\lisEquals" alt="" coords="577,85,709,126"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" title="qtreports::detail::\lParserFromXML::goToElementEnd" alt="" coords="525,150,760,191"/>
+</map>

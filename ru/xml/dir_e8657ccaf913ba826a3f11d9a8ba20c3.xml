@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_e8657ccaf913ba826a3f11d9a8ba20c3" kind="dir">
+    <compoundname>/home/travis/build/PO-31/QtReports/qtreports/src/converters</compoundname>
+    <innerdir refid="dir_80f99c00af8443f5fede38a31e95e422">/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils</innerdir>
+    <innerfile refid="convertertohtml_8cpp">convertertohtml.cpp</innerfile>
+    <innerfile refid="convertertohtml_8hpp">convertertohtml.hpp</innerfile>
+    <innerfile refid="convertertopdf_8cpp">convertertopdf.cpp</innerfile>
+    <innerfile refid="convertertopdf_8hpp">convertertopdf.hpp</innerfile>
+    <innerfile refid="convertertoqwidget_8cpp">convertertoqwidget.cpp</innerfile>
+    <innerfile refid="convertertoqwidget_8hpp">convertertoqwidget.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/"/>
+  </compounddef>
+</doxygen>

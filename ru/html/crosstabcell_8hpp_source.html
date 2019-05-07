@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>QtReports: Исходный файл /home/travis/build/PO-31/QtReports/qtreports/src/tags/crosstabcell.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">QtReports
+   &#160;<span id="projectnumber">0.3.1</span>
+   </div>
+   <div id="projectbrief">Reimplementation of JasperReports in Qt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2b79055025069f98a5acfa173c98b921.html">QtReports</a></li><li class="navelem"><a class="el" href="dir_92bde7d608ceb2cc3747bbfdbcf2bd2c.html">qtreports</a></li><li class="navelem"><a class="el" href="dir_455848a96611f2b29ec6ffbd237ada79.html">src</a></li><li class="navelem"><a class="el" href="dir_95b01a3e7c2e38eb5eedb8e79cda609e.html">tags</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">crosstabcell.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="crosstabcell_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CROSSTABSECTION_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CROSSTABSECTION_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="object_8hpp.html">object.hpp</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cellcontents_8hpp.html">cellcontents.hpp</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceqtreports.html">qtreports</a></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">namespace </span>detail</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classqtreports_1_1detail_1_1_crosstab_cell.html">   11</a></span>&#160;        <span class="keyword">class </span><a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html">CrosstabCell</a> : <span class="keyword">public</span> <a class="code" href="classqtreports_1_1detail_1_1_object.html">Object</a></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">public</span>:</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#ab0e8c9c735e1201c45b05db9e17fdcb0">CrosstabCell</a>();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a0deb58958701790e5af1d0b7000fa2de">~CrosstabCell</a>();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordtype">void</span>                    <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a46969f7dc2d7b18a5508cf6967eb31f1">setCellContents</a>(<span class="keyword">const</span> <a class="code" href="namespaceqtreports_1_1detail.html#ad34a27477a52389b9187b1f0c931569d">CellContentsPtr</a> &amp;cellContents);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keyword">const</span> <a class="code" href="namespaceqtreports_1_1detail.html#ad34a27477a52389b9187b1f0c931569d">CellContentsPtr</a>   <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a793d0835bb4586b2f8a9b24c7c0bca89">getCellContents</a>();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordtype">void</span>                    <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a3ba58bcf1ba3e647936b6cc032d3d3df">setWidth</a>(<span class="keywordtype">int</span> width);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordtype">int</span>                     <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a83961bf9c94b1c127ba7d3f8d803cdd7">getWidth</a>();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keywordtype">void</span>                    <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a69bf471d011507685349983442c42400">setHeight</a>(<span class="keywordtype">int</span> height);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keywordtype">int</span>                     <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#aa72244ec3d22eade4f2771c00c359121">getHeight</a>();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">private</span>:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="comment">// подтэги</span></div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a7a87b69d07f01d3daac186f85bb01292">   27</a></span>&#160;            <a class="code" href="namespaceqtreports_1_1detail.html#ad34a27477a52389b9187b1f0c931569d">CellContentsPtr</a>     <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a7a87b69d07f01d3daac186f85bb01292">m_cellContents</a>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="comment">//атрибуты</span></div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classqtreports_1_1detail_1_1_crosstab_cell.html#ace9a59003c3a1408bc629c0ebcdc15f4">   30</a></span>&#160;            <span class="keywordtype">int</span>                 <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#ace9a59003c3a1408bc629c0ebcdc15f4">m_width</a>;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a9f567ca76c53c3021c8c007bb8346859">   31</a></span>&#160;            <span class="keywordtype">int</span>                 <a class="code" href="classqtreports_1_1detail_1_1_crosstab_cell.html#a9f567ca76c53c3021c8c007bb8346859">m_height</a>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        };</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespaceqtreports_1_1detail.html#a3120cf0c2fbe8af770ad8b9112b34eaa">   33</a></span>&#160;        <span class="keyword">typedef</span> QSharedPointer&lt;CrosstabCell&gt; <a class="code" href="namespaceqtreports_1_1detail.html#a3120cf0c2fbe8af770ad8b9112b34eaa">CrosstabCellPtr</a>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif // CROSSTABSECTION_H</span></div><div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_a83961bf9c94b1c127ba7d3f8d803cdd7"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#a83961bf9c94b1c127ba7d3f8d803cdd7">qtreports::detail::CrosstabCell::getWidth</a></div><div class="ttdeci">int getWidth()</div><div class="ttdef"><b>Definition:</b> crosstabcell.cpp:26</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_a3ba58bcf1ba3e647936b6cc032d3d3df"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#a3ba58bcf1ba3e647936b6cc032d3d3df">qtreports::detail::CrosstabCell::setWidth</a></div><div class="ttdeci">void setWidth(int width)</div><div class="ttdef"><b>Definition:</b> crosstabcell.cpp:21</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_ace9a59003c3a1408bc629c0ebcdc15f4"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#ace9a59003c3a1408bc629c0ebcdc15f4">qtreports::detail::CrosstabCell::m_width</a></div><div class="ttdeci">int m_width</div><div class="ttdef"><b>Definition:</b> crosstabcell.hpp:30</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_a0deb58958701790e5af1d0b7000fa2de"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#a0deb58958701790e5af1d0b7000fa2de">qtreports::detail::CrosstabCell::~CrosstabCell</a></div><div class="ttdeci">~CrosstabCell()</div><div class="ttdef"><b>Definition:</b> crosstabcell.cpp:9</div></div>
+<div class="ttc" id="object_8hpp_html"><div class="ttname"><a href="object_8hpp.html">object.hpp</a></div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_aa72244ec3d22eade4f2771c00c359121"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#aa72244ec3d22eade4f2771c00c359121">qtreports::detail::CrosstabCell::getHeight</a></div><div class="ttdeci">int getHeight()</div><div class="ttdef"><b>Definition:</b> crosstabcell.cpp:36</div></div>
+<div class="ttc" id="namespaceqtreports_1_1detail_html_ad34a27477a52389b9187b1f0c931569d"><div class="ttname"><a href="namespaceqtreports_1_1detail.html#ad34a27477a52389b9187b1f0c931569d">qtreports::detail::CellContentsPtr</a></div><div class="ttdeci">QSharedPointer&lt; CellContents &gt; CellContentsPtr</div><div class="ttdef"><b>Definition:</b> cellcontents.hpp:23</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_a793d0835bb4586b2f8a9b24c7c0bca89"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#a793d0835bb4586b2f8a9b24c7c0bca89">qtreports::detail::CrosstabCell::getCellContents</a></div><div class="ttdeci">const CellContentsPtr getCellContents()</div><div class="ttdef"><b>Definition:</b> crosstabcell.cpp:16</div></div>
+<div class="ttc" id="namespaceqtreports_html"><div class="ttname"><a href="namespaceqtreports.html">qtreports</a></div><div class="ttdef"><b>Definition:</b> engine.hpp:67</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_object_html"><div class="ttname"><a href="classqtreports_1_1detail_1_1_object.html">qtreports::detail::Object</a></div><div class="ttdoc">Базовый класс для любого тэга </div><div class="ttdef"><b>Definition:</b> object.hpp:18</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_ab0e8c9c735e1201c45b05db9e17fdcb0"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#ab0e8c9c735e1201c45b05db9e17fdcb0">qtreports::detail::CrosstabCell::CrosstabCell</a></div><div class="ttdeci">CrosstabCell()</div><div class="ttdef"><b>Definition:</b> crosstabcell.cpp:7</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_a9f567ca76c53c3021c8c007bb8346859"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#a9f567ca76c53c3021c8c007bb8346859">qtreports::detail::CrosstabCell::m_height</a></div><div class="ttdeci">int m_height</div><div class="ttdef"><b>Definition:</b> crosstabcell.hpp:31</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_a7a87b69d07f01d3daac186f85bb01292"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#a7a87b69d07f01d3daac186f85bb01292">qtreports::detail::CrosstabCell::m_cellContents</a></div><div class="ttdeci">CellContentsPtr m_cellContents</div><div class="ttdef"><b>Definition:</b> crosstabcell.hpp:27</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_a69bf471d011507685349983442c42400"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#a69bf471d011507685349983442c42400">qtreports::detail::CrosstabCell::setHeight</a></div><div class="ttdeci">void setHeight(int height)</div><div class="ttdef"><b>Definition:</b> crosstabcell.cpp:31</div></div>
+<div class="ttc" id="namespaceqtreports_1_1detail_html_a3120cf0c2fbe8af770ad8b9112b34eaa"><div class="ttname"><a href="namespaceqtreports_1_1detail.html#a3120cf0c2fbe8af770ad8b9112b34eaa">qtreports::detail::CrosstabCellPtr</a></div><div class="ttdeci">QSharedPointer&lt; CrosstabCell &gt; CrosstabCellPtr</div><div class="ttdef"><b>Definition:</b> crosstabcell.hpp:33</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html">qtreports::detail::CrosstabCell</a></div><div class="ttdef"><b>Definition:</b> crosstabcell.hpp:11</div></div>
+<div class="ttc" id="cellcontents_8hpp_html"><div class="ttname"><a href="cellcontents_8hpp.html">cellcontents.hpp</a></div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_crosstab_cell_html_a46969f7dc2d7b18a5508cf6967eb31f1"><div class="ttname"><a href="classqtreports_1_1detail_1_1_crosstab_cell.html#a46969f7dc2d7b18a5508cf6967eb31f1">qtreports::detail::CrosstabCell::setCellContents</a></div><div class="ttdeci">void setCellContents(const CellContentsPtr &amp;cellContents)</div><div class="ttdef"><b>Definition:</b> crosstabcell.cpp:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

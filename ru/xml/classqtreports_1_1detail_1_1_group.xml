@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_group" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::Group</compoundname>
+    <basecompoundref refid="classqtreports_1_1detail_1_1_section" prot="public" virt="non-virtual">qtreports::detail::Section</basecompoundref>
+    <includes refid="group_8hpp" local="no">group.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_group_1a5c3f7328fffd99fa09de6d67f58850f7" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Group::m_expression</definition>
+        <argsstring></argsstring>
+        <name>m_expression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="59" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_group_1a9d7b2777b916c4d1b5e81a9c2c05be84" compoundref="group_8cpp" startline="10" endline="13">setExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_group_1aeef702054079b890eaf53757bc4c86de" compoundref="group_8cpp" startline="15" endline="18">getExpression</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_group_1a41c8b9bd92064c5a16de3465e7198f88" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref></type>
+        <definition>SectionPtr qtreports::detail::Group::m_header</definition>
+        <argsstring></argsstring>
+        <name>m_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="60" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_group_1a261c409c9208492556bbd64c286b51c1" compoundref="group_8cpp" startline="20" endline="23">setHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_group_1a51962062afa35ee6e6a6b3dd74dae680" compoundref="group_8cpp" startline="25" endline="28">getHeader</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_group_1a6c33aef73c5aa022701bd79456e46c51" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref></type>
+        <definition>SectionPtr qtreports::detail::Group::m_footer</definition>
+        <argsstring></argsstring>
+        <name>m_footer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="61" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_group_1af72354d472fd4eda56a5a4c0c152a2ec" compoundref="group_8cpp" startline="30" endline="33">setFooter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_group_1a5000bc7690a8ba8d5d0dbfb01df3998a" compoundref="group_8cpp" startline="35" endline="38">getFooter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_group_1a8fd22b2d6adf6046a1c495eaae8944d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Group::Group</definition>
+        <argsstring>()</argsstring>
+        <name>Group</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="22" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_group_1afaf8de58c0077d97bebdc8def5098ba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Group::~Group</definition>
+        <argsstring>()</argsstring>
+        <name>~Group</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="23" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_group_1a9d7b2777b916c4d1b5e81a9c2c05be84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Group::setExpression</definition>
+        <argsstring>(const QString &amp;text)</argsstring>
+        <name>setExpression</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает &lt;groupExpression&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Значение &lt;groupExpression&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="29" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="10" bodyend="13"/>
+        <references refid="classqtreports_1_1detail_1_1_group_1a5c3f7328fffd99fa09de6d67f58850f7" compoundref="group_8hpp" startline="59">m_expression</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_group_1aeef702054079b890eaf53757bc4c86de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::Group::getExpression</definition>
+        <argsstring>() const </argsstring>
+        <name>getExpression</name>
+        <briefdescription>
+<para>Возвращает значение &lt;groupExpression&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="34" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="15" bodyend="18"/>
+        <references refid="classqtreports_1_1detail_1_1_group_1a5c3f7328fffd99fa09de6d67f58850f7" compoundref="group_8hpp" startline="59">m_expression</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_group_1a261c409c9208492556bbd64c286b51c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Group::setHeader</definition>
+        <argsstring>(const SectionPtr &amp;header)</argsstring>
+        <name>setHeader</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref> &amp;</type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает &lt;groupHeader&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на &lt;groupHeader&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="40" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="20" bodyend="23"/>
+        <references refid="classqtreports_1_1detail_1_1_group_1a41c8b9bd92064c5a16de3465e7198f88" compoundref="group_8hpp" startline="60">m_header</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_group_1a51962062afa35ee6e6a6b3dd74dae680" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref></type>
+        <definition>const SectionPtr qtreports::detail::Group::getHeader</definition>
+        <argsstring>() const </argsstring>
+        <name>getHeader</name>
+        <briefdescription>
+<para>Возвращает указатель на &lt;groupHeader&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="45" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="25" bodyend="28"/>
+        <references refid="classqtreports_1_1detail_1_1_group_1a41c8b9bd92064c5a16de3465e7198f88" compoundref="group_8hpp" startline="60">m_header</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_group_1af72354d472fd4eda56a5a4c0c152a2ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Group::setFooter</definition>
+        <argsstring>(const SectionPtr &amp;footer)</argsstring>
+        <name>setFooter</name>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref> &amp;</type>
+          <declname>footer</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает &lt;groupFooter&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">footer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Указатель на &lt;groupFooter&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="51" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="30" bodyend="33"/>
+        <references refid="classqtreports_1_1detail_1_1_group_1a6c33aef73c5aa022701bd79456e46c51" compoundref="group_8hpp" startline="61">m_footer</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_group_1a5000bc7690a8ba8d5d0dbfb01df3998a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref></type>
+        <definition>const SectionPtr qtreports::detail::Group::getFooter</definition>
+        <argsstring>() const </argsstring>
+        <name>getFooter</name>
+        <briefdescription>
+<para>Возвращает указатель на &lt;groupFooter&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="56" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="35" bodyend="38"/>
+        <references refid="classqtreports_1_1detail_1_1_group_1a6c33aef73c5aa022701bd79456e46c51" compoundref="group_8hpp" startline="61">m_footer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Класс, реализующий тэг &lt;group&gt; </para>    </briefdescription>
+    <detaileddescription>
+<para>Класс, реализующий тэг &lt;group&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="254">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="253">
+        <label>qtreports::detail::Section</label>
+        <link refid="classqtreports_1_1detail_1_1_section"/>
+        <childnode refid="254" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="252">
+        <label>qtreports::detail::Group</label>
+        <link refid="classqtreports_1_1detail_1_1_group"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="257">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="256">
+        <label>qtreports::detail::Section</label>
+        <link refid="classqtreports_1_1detail_1_1_section"/>
+        <childnode refid="257" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>qtreports::detail::Group</label>
+        <link refid="classqtreports_1_1detail_1_1_group"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="19" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" bodystart="19" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_section_1a1c07823c6ba7650dc7d44dd3d36d0b26" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>addBand</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1a4aa648947eb3f9085a27ea53357b10f6" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getBand</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1a5d49f3c9cde4ad9b38130a1ffbfb83ec" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getBands</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1af083e89bd81c6f339ff7c62fcffe2255" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getBandsSize</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1aeef702054079b890eaf53757bc4c86de" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1a5000bc7690a8ba8d5d0dbfb01df3998a" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getFooter</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1a51962062afa35ee6e6a6b3dd74dae680" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getHeader</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1a2438302ab5c5d6879ac6ee51e8912c2e" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getHeight</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1acc8b77440a962609be7d944f1220032d" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>getWidth</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1a8fd22b2d6adf6046a1c495eaae8944d0" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>Group</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1a38da6f2187e8a2fdd568a18fccae5db2" prot="protected" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_bands</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1a5c3f7328fffd99fa09de6d67f58850f7" prot="private" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_expression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1a6c33aef73c5aa022701bd79456e46c51" prot="private" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_footer</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1a41c8b9bd92064c5a16de3465e7198f88" prot="private" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_header</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1ace4feb8fe2e3fa6c26c24ece74c33530" prot="protected" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_height</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_name</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_tagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1a447e69cfbbb2494422c967466da8f5e9" prot="protected" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>m_width</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1a607d1ac392864724ddb4489f101304ab" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>Section</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1a9d7b2777b916c4d1b5e81a9c2c05be84" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>setExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1af72354d472fd4eda56a5a4c0c152a2ec" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>setFooter</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1a261c409c9208492556bbd64c286b51c1" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>setHeader</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>setName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>setTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1a6adb585c7c54f76414f6b43f241f6591" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>setWidth</name></member>
+      <member refid="classqtreports_1_1detail_1_1_group_1afaf8de58c0077d97bebdc8def5098ba5" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>~Group</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" virt="virtual"><scope>qtreports::detail::Group</scope><name>~Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_section_1a497633bba963335aabc96b1efba1e34c" prot="public" virt="non-virtual"><scope>qtreports::detail::Group</scope><name>~Section</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

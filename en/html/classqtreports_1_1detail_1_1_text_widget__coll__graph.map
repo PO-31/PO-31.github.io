@@ -1,0 +1,4 @@
+<map id="qtreports::detail::TextWidget" name="qtreports::detail::TextWidget">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_widget.html" title="{qtreports::detail::\lWidget\n|# m_isBold\l# m_rect\l# m_alignment\l# m_style\l|+ Widget()\l+ ~Widget()\l+ setPosition()\l+ setX()\l+ setY()\l+ setSize()\l+ setWidth()\l+ setHeight()\l+ setRect()\l+ setStyle()\l+ setAlignment()\l+ getAlignment()\l+ getPos()\l+ getX()\l+ getY()\l+ getSize()\l+ getWidth()\l+ getHeight()\l+ getRect()\l+ getStyle()\l+ isBold()\l+ setBold()\l}" alt="" coords="9,277,143,721"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_object.html" title="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}" alt="" coords="10,5,142,229"/>
+</map>

@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1_engine" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::Engine</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="engine_8hpp" local="no">engine.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::m_isOpened</definition>
+        <argsstring></argsstring>
+        <name>m_isOpened</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="153" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="153" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" compoundref="engine_8cpp" startline="56" endline="61">close</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" compoundref="engine_8cpp" startline="379" endline="382">isOpened</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::Engine::m_lastError</definition>
+        <argsstring></argsstring>
+        <name>m_lastError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="154" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="154" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1ae9db49d130371c1124b270f067026b68" compoundref="engine_8cpp" startline="63" endline="74">setParameters</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a0615663aaca4ce8e80f654f2380fef64" compoundref="engine_8cpp" startline="76" endline="110">setConnection</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a03be86e3a0c711b1e64ab8337f67aa7e" compoundref="engine_8cpp" startline="112" endline="134">setDataSource</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a34b6ccdf31af3bd275d9fb95100c6bda" compoundref="engine_8cpp" startline="171" endline="188">createPDF</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" compoundref="engine_8cpp" startline="190" endline="207">createHTML</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a2a0fef0c95335eec5df4f61e4ffa7434" compoundref="engine_8cpp" startline="209" endline="226">createWidget</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a3966d8f0ebb6c1f94812ec21e21680c0" compoundref="engine_8cpp" startline="228" endline="245">createLayout</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="267">getPrintPreviewDialog</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="269" endline="313">drawPreview</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" compoundref="engine_8cpp" startline="389" endline="392">getLastError</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1_engine_1a10926ee63a333e1b2cc358c0e9e3990d" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::Engine::m_compiledPath</definition>
+        <argsstring></argsstring>
+        <name>m_compiledPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="154" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="154" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" compoundref="engine_8cpp" startline="56" endline="61">close</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">detail::ReportPtr</ref></type>
+        <definition>detail::ReportPtr qtreports::Engine::m_report</definition>
+        <argsstring></argsstring>
+        <name>m_report</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="155" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="155" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" compoundref="engine_8cpp" startline="56" endline="61">close</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1ae9db49d130371c1124b270f067026b68" compoundref="engine_8cpp" startline="63" endline="74">setParameters</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a0615663aaca4ce8e80f654f2380fef64" compoundref="engine_8cpp" startline="76" endline="110">setConnection</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a0c7bf107b4774cccb70577946d67666c" compoundref="engine_8cpp" startline="136" endline="154">setQuery</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a34b6ccdf31af3bd275d9fb95100c6bda" compoundref="engine_8cpp" startline="171" endline="188">createPDF</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" compoundref="engine_8cpp" startline="190" endline="207">createHTML</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a2a0fef0c95335eec5df4f61e4ffa7434" compoundref="engine_8cpp" startline="209" endline="226">createWidget</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a3966d8f0ebb6c1f94812ec21e21680c0" compoundref="engine_8cpp" startline="228" endline="245">createLayout</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="267">getPrintPreviewDialog</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="269" endline="313">drawPreview</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="315" endline="318">prepareDB</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" compoundref="engine_8cpp" startline="384" endline="387">getReport</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1_engine_1a48e81d0de1fc4c6cc70a124e43a8ac56" prot="private" static="no" mutable="no">
+        <type>QVector&lt; QString &gt;</type>
+        <definition>QVector&lt; QString &gt; qtreports::Engine::m_scripts</definition>
+        <argsstring></argsstring>
+        <name>m_scripts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="156" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="156" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1_engine_1a336b9687b971d58798b1a7833ca5a74a" compoundref="engine_8cpp" startline="156" endline="162">addScript</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1_engine_1a869ad6c79a3ac495a217e2c235d1e108" prot="private" static="no" mutable="no">
+        <type>QSqlDatabase</type>
+        <definition>QSqlDatabase qtreports::Engine::m_dbConnection</definition>
+        <argsstring></argsstring>
+        <name>m_dbConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="157" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="157" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1_engine_1a0615663aaca4ce8e80f654f2380fef64" compoundref="engine_8cpp" startline="76" endline="110">setConnection</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="355" endline="377">executeQueries</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a9382ba10f4b06600126b981fca857acc" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::Engine::Engine</definition>
+        <argsstring>(QObject *parent=Q_NULLPTR)</argsstring>
+        <name>Engine</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>Q_NULLPTR</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="80" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a18298bdce3e086347705e133eccfd7fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::Engine::Engine</definition>
+        <argsstring>(const QString &amp;path, QObject *parent=Q_NULLPTR)</argsstring>
+        <name>Engine</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>Q_NULLPTR</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="81" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="23" bodyend="27"/>
+        <references refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1ae8be50a6850dd2b2fbc6a5fd49c85a65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::Engine::~Engine</definition>
+        <argsstring>()</argsstring>
+        <name>~Engine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="82" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::open</definition>
+        <argsstring>(const QString &amp;path)</argsstring>
+        <name>open</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="88" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="31" bodyend="54"/>
+        <references refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" compoundref="engine_8cpp" startline="379" endline="382">isOpened</references>
+        <references refid="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" compoundref="engine_8cpp" startline="56" endline="61">close</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="72" endline="93">qtreports::detail::ParserFromXML::parse</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" compoundref="parserfromxml_8cpp" startline="1233" endline="1236">qtreports::detail::ParserFromXML::getLastError</references>
+        <references refid="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" compoundref="engine_8hpp" startline="153">m_isOpened</references>
+        <references refid="classqtreports_1_1_engine_1a10926ee63a333e1b2cc358c0e9e3990d" compoundref="engine_8hpp" startline="154">m_compiledPath</references>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a02bfc8c0470ec16ff1bb34a5b6b78981" compoundref="parserfromxml_8cpp" startline="1228" endline="1231">qtreports::detail::ParserFromXML::getReport</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1fedf145e441f88832bd7f7e4b890e28" compoundref="parserfromxml_8cpp" startline="1238" endline="1241">qtreports::detail::ParserFromXML::getLog</references>
+        <referencedby refid="classqtreports_1_1_engine_1a18298bdce3e086347705e133eccfd7fa" compoundref="engine_8cpp" startline="23" endline="27">Engine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::Engine::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="93" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="56" bodyend="61"/>
+        <references refid="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" compoundref="engine_8hpp" startline="153">m_isOpened</references>
+        <references refid="classqtreports_1_1_engine_1a10926ee63a333e1b2cc358c0e9e3990d" compoundref="engine_8hpp" startline="154">m_compiledPath</references>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1ae9db49d130371c1124b270f067026b68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::setParameters</definition>
+        <argsstring>(const QMap&lt; QString, QVariant &gt; &amp;map)</argsstring>
+        <name>setParameters</name>
+        <param>
+          <type>const QMap&lt; QString, QVariant &gt; &amp;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="99" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="63" bodyend="74"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a0615663aaca4ce8e80f654f2380fef64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::setConnection</definition>
+        <argsstring>(const QSqlDatabase &amp;connection)</argsstring>
+        <name>setConnection</name>
+        <param>
+          <type>const QSqlDatabase &amp;</type>
+          <declname>connection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="105" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="76" bodyend="110"/>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1a869ad6c79a3ac495a217e2c235d1e108" compoundref="engine_8hpp" startline="157">m_dbConnection</references>
+        <references refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="315" endline="318">prepareDB</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a03be86e3a0c711b1e64ab8337f67aa7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::setDataSource</definition>
+        <argsstring>(const QMap&lt; QString, QVector&lt; QVariant &gt; &gt; &amp;columnsSet)</argsstring>
+        <name>setDataSource</name>
+        <param>
+          <type>const QMap&lt; QString, QVector&lt; QVariant &gt; &gt; &amp;</type>
+          <declname>columnsSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="111" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="112" bodyend="134"/>
+        <references refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a0c7bf107b4774cccb70577946d67666c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::setQuery</definition>
+        <argsstring>(const QString &amp;query)</argsstring>
+        <name>setQuery</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="117" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="136" bodyend="154"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="355" endline="377">executeQueries</references>
+        <referencedby refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="315" endline="318">prepareDB</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a336b9687b971d58798b1a7833ca5a74a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::addScript</definition>
+        <argsstring>(const QString &amp;script)</argsstring>
+        <name>addScript</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>script</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="123" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="156" bodyend="162"/>
+        <references refid="classqtreports_1_1_engine_1a48e81d0de1fc4c6cc70a124e43a8ac56" compoundref="engine_8hpp" startline="156">m_scripts</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1add99be37a72d8a9cec9be7ff4cdaeb78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::setDataModel</definition>
+        <argsstring>(const QAbstractItemModel &amp;model)</argsstring>
+        <name>setDataModel</name>
+        <param>
+          <type>const QAbstractItemModel &amp;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="124" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="164" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a34b6ccdf31af3bd275d9fb95100c6bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::createPDF</definition>
+        <argsstring>(const QString &amp;path)</argsstring>
+        <name>createPDF</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="130" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="171" bodyend="188"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1af39953d8db1bdcbbcf59cc00b05747eb" compoundref="convertertopdf_8cpp" startline="19" endline="22">qtreports::detail::ConverterToPDF::convert</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" compoundref="convertertopdf_8cpp" startline="333" endline="336">qtreports::detail::ConverterToPDF::getLastError</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::createHTML</definition>
+        <argsstring>(const QString &amp;path)</argsstring>
+        <name>createHTML</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="136" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="190" bodyend="207"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1ad91ac333abf7d02f7590970a54ef7aae" compoundref="convertertohtml_8cpp" startline="17" endline="19">qtreports::detail::ConverterToHTML::convert</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_h_t_m_l_1a5a9c398ebd439b443636448e8a3db924" compoundref="convertertohtml_8cpp" startline="603" endline="605">qtreports::detail::ConverterToHTML::getLastError</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a2a0fef0c95335eec5df4f61e4ffa7434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceqtreports_1a8c388f58321d9cf9e0b5d22ed159a65e" kindref="member">QWidgetPtr</ref></type>
+        <definition>QWidgetPtr qtreports::Engine::createWidget</definition>
+        <argsstring>()</argsstring>
+        <name>createWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="141" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="209" bodyend="226"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="24" endline="28">qtreports::detail::ConverterToQWidget::convert</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c">qtreports::detail::ConverterToQWidget::Report</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="60" endline="63">qtreports::detail::ConverterToQWidget::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ab01f3bcd13f00483adbdec4eacc272e8" compoundref="convertertoqwidget_8cpp" startline="45" endline="48">qtreports::detail::ConverterToQWidget::getQWidget</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a3966d8f0ebb6c1f94812ec21e21680c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceqtreports_1a8c388f58321d9cf9e0b5d22ed159a65e" kindref="member">QWidgetPtr</ref></type>
+        <definition>QWidgetPtr qtreports::Engine::createLayout</definition>
+        <argsstring>()</argsstring>
+        <name>createLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="142" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="228" bodyend="245"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="24" endline="28">qtreports::detail::ConverterToQWidget::convert</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7aebd9bec4d70abc789d439c1f136b0538">qtreports::detail::ConverterToQWidget::Layout</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="60" endline="63">qtreports::detail::ConverterToQWidget::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1ab01f3bcd13f00483adbdec4eacc272e8" compoundref="convertertoqwidget_8cpp" startline="45" endline="48">qtreports::detail::ConverterToQWidget::getQWidget</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceqtreports_1acbc249b477c3e177eba4d1fbc0d6b943" kindref="member">QPrintPreviewDialogPtr</ref></type>
+        <definition>QPrintPreviewDialogPtr qtreports::Engine::getPrintPreviewDialog</definition>
+        <argsstring>()</argsstring>
+        <name>getPrintPreviewDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="143" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="247" bodyend="267"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" compoundref="engine_8cpp" startline="315" endline="318">prepareDB</references>
+        <references refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" compoundref="engine_8cpp" startline="269" endline="313">drawPreview</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::isOpened</definition>
+        <argsstring>() const </argsstring>
+        <name>isOpened</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="148" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="379" bodyend="382"/>
+        <references refid="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" compoundref="engine_8hpp" startline="153">m_isOpened</references>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">open</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">detail::ReportPtr</ref></type>
+        <definition>detail::ReportPtr qtreports::Engine::getReport</definition>
+        <argsstring>() const </argsstring>
+        <name>getReport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="149" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="384" bodyend="387"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <referencedby refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::Engine::getLastError</definition>
+        <argsstring>() const </argsstring>
+        <name>getLastError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="150" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="389" bodyend="392"/>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::Engine::drawPreview</definition>
+        <argsstring>(QPrinter *printer)</argsstring>
+        <name>drawPreview</name>
+        <param>
+          <type>QPrinter *</type>
+          <declname>printer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="160" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="269" bodyend="313"/>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a4b42725ccbbc910522dca786da95fbb6" compoundref="convertertoqwidget_8cpp" startline="24" endline="28">qtreports::detail::ConverterToQWidget::convert</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c">qtreports::detail::ConverterToQWidget::Report</references>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1aba09b9782ffddba920ee7b881f3e8f99" compoundref="convertertoqwidget_8cpp" startline="60" endline="63">qtreports::detail::ConverterToQWidget::getLastError</references>
+        <references refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a7ee736dd6be3d2cd5b3407751d94617a" compoundref="convertertoqwidget_8cpp" startline="55" endline="58">qtreports::detail::ConverterToQWidget::getPages</references>
+        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="267">getPrintPreviewDialog</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::prepareDB</definition>
+        <argsstring>()</argsstring>
+        <name>prepareDB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="161" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="315" bodyend="318"/>
+        <references refid="classqtreports_1_1_engine_1a0c7bf107b4774cccb70577946d67666c" compoundref="engine_8cpp" startline="136" endline="154">setQuery</references>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <referencedby refid="classqtreports_1_1_engine_1a0615663aaca4ce8e80f654f2380fef64" compoundref="engine_8cpp" startline="76" endline="110">setConnection</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" compoundref="engine_8cpp" startline="247" endline="267">getPrintPreviewDialog</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::prepareDataSource</definition>
+        <argsstring>(const QMap&lt; QString, QVector&lt; QVariant &gt; &gt; &amp;source)</argsstring>
+        <name>prepareDataSource</name>
+        <param>
+          <type>const QMap&lt; QString, QVector&lt; QVariant &gt; &gt; &amp;</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="162" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="320" bodyend="345"/>
+        <references refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" compoundref="engine_8hpp" startline="154">m_lastError</references>
+        <references refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" compoundref="engine_8hpp" startline="155">m_report</references>
+        <references refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" compoundref="engine_8cpp" startline="384" endline="387">getReport</references>
+        <referencedby refid="classqtreports_1_1_engine_1a03be86e3a0c711b1e64ab8337f67aa7e" compoundref="engine_8cpp" startline="112" endline="134">setDataSource</referencedby>
+        <referencedby refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" compoundref="engine_8cpp" startline="355" endline="377">executeQueries</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::Engine::executeQueries</definition>
+        <argsstring>(const QStringList &amp;queries)</argsstring>
+        <name>executeQueries</name>
+        <param>
+          <type>const QStringList &amp;</type>
+          <declname>queries</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="164" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="355" bodyend="377"/>
+        <references refid="classqtreports_1_1_engine_1a869ad6c79a3ac495a217e2c235d1e108" compoundref="engine_8hpp" startline="157">m_dbConnection</references>
+        <references refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" compoundref="engine_8cpp" startline="320" endline="345">prepareDataSource</references>
+        <referencedby refid="classqtreports_1_1_engine_1a0c7bf107b4774cccb70577946d67666c" compoundref="engine_8cpp" startline="136" endline="154">setQuery</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="245">
+        <label>QObject</label>
+      </node>
+      <node id="244">
+        <label>qtreports::Engine</label>
+        <link refid="classqtreports_1_1_engine"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>QObject</label>
+      </node>
+      <node id="246">
+        <label>qtreports::Engine</label>
+        <link refid="classqtreports_1_1_engine"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="76" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" bodystart="76" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1_engine_1a336b9687b971d58798b1a7833ca5a74a" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>addScript</name></member>
+      <member refid="classqtreports_1_1_engine_1a2a4b818b959aa56fedc37ffbdfae47f6" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>close</name></member>
+      <member refid="classqtreports_1_1_engine_1a551b0db0510d572d56447c471daa0891" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>createHTML</name></member>
+      <member refid="classqtreports_1_1_engine_1a3966d8f0ebb6c1f94812ec21e21680c0" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>createLayout</name></member>
+      <member refid="classqtreports_1_1_engine_1a34b6ccdf31af3bd275d9fb95100c6bda" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>createPDF</name></member>
+      <member refid="classqtreports_1_1_engine_1a2a0fef0c95335eec5df4f61e4ffa7434" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>createWidget</name></member>
+      <member refid="classqtreports_1_1_engine_1a93dc7711446a155f87d9146efb493f9e" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>drawPreview</name></member>
+      <member refid="classqtreports_1_1_engine_1a9382ba10f4b06600126b981fca857acc" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>Engine</name></member>
+      <member refid="classqtreports_1_1_engine_1a18298bdce3e086347705e133eccfd7fa" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>Engine</name></member>
+      <member refid="classqtreports_1_1_engine_1ac214aea9f2f2b795307550290fa1d1ae" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>executeQueries</name></member>
+      <member refid="classqtreports_1_1_engine_1a4503d06842b6ee8150daec29c477b1e8" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1_engine_1aad905c82a23399294dc3a83ba1988c2e" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>getPrintPreviewDialog</name></member>
+      <member refid="classqtreports_1_1_engine_1ad6379f091871349d33f9a59e982160c4" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>getReport</name></member>
+      <member refid="classqtreports_1_1_engine_1aa3bb792af61b2661226814de9c3881ea" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>isOpened</name></member>
+      <member refid="classqtreports_1_1_engine_1a10926ee63a333e1b2cc358c0e9e3990d" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>m_compiledPath</name></member>
+      <member refid="classqtreports_1_1_engine_1a869ad6c79a3ac495a217e2c235d1e108" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>m_dbConnection</name></member>
+      <member refid="classqtreports_1_1_engine_1aa2b333a631191922e9d88f90b559fc61" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>m_isOpened</name></member>
+      <member refid="classqtreports_1_1_engine_1abd064acd26a7bc0ace0fe3f6dfa24a39" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1_engine_1a25a0291b567dcbd20183bffcd9aed420" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>m_report</name></member>
+      <member refid="classqtreports_1_1_engine_1a48e81d0de1fc4c6cc70a124e43a8ac56" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>m_scripts</name></member>
+      <member refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>open</name></member>
+      <member refid="classqtreports_1_1_engine_1a1d96729622d140d02108a29034aecea0" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>prepareDataSource</name></member>
+      <member refid="classqtreports_1_1_engine_1a3dda769530e3713bba33c49124ad1ab6" prot="private" virt="non-virtual"><scope>qtreports::Engine</scope><name>prepareDB</name></member>
+      <member refid="classqtreports_1_1_engine_1a0615663aaca4ce8e80f654f2380fef64" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>setConnection</name></member>
+      <member refid="classqtreports_1_1_engine_1add99be37a72d8a9cec9be7ff4cdaeb78" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>setDataModel</name></member>
+      <member refid="classqtreports_1_1_engine_1a03be86e3a0c711b1e64ab8337f67aa7e" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>setDataSource</name></member>
+      <member refid="classqtreports_1_1_engine_1ae9db49d130371c1124b270f067026b68" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>setParameters</name></member>
+      <member refid="classqtreports_1_1_engine_1a0c7bf107b4774cccb70577946d67666c" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>setQuery</name></member>
+      <member refid="classqtreports_1_1_engine_1ae8be50a6850dd2b2fbc6a5fd49c85a65" prot="public" virt="non-virtual"><scope>qtreports::Engine</scope><name>~Engine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

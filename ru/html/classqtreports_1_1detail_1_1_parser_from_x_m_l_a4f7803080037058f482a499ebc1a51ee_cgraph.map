@@ -1,0 +1,7 @@
+<map id="qtreports::detail::ParserFromXML::parseFont" name="qtreports::detail::ParserFromXML::parseFont">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a478329a44761310039078ee6871a355d" title="Вызывает функцию getAttribute с переданными параметрами и с параметром option &#45; &quot;опциональный аттрибу..." alt="" coords="261,5,464,61"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" title="Устанавлиает курсор reader(а) к к началу следующего тэга или к концу документа " alt="" coords="245,85,480,126"/>
+<area shape="rect" id="node5" href="$namespaceqtreports_1_1detail.html#af0dcf7d492b98dd5908ab3b40edeef55" title="qtreports::detail::\ltoBool" alt="" coords="297,150,429,191"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" title="Записывает в data значение аттрибута с именем name текущего тэга " alt="" coords="528,13,733,54"/>
+<area shape="rect" id="node6" href="$namespaceqtreports_1_1detail.html#a3ce46912811f49a63ad2d9b6a5d310d3" title="qtreports::detail::\lisEquals" alt="" coords="565,150,697,191"/>
+</map>

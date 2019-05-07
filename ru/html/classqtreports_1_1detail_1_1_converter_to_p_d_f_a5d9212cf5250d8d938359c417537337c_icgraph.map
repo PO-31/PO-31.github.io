@@ -1,0 +1,6 @@
+<map id="qtreports::detail::ConverterToPDF::createSection" name="qtreports::detail::ConverterToPDF::createSection">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aad8435572f5ba065f8f2fef428d97b22" title="Конвертирует отчет в PDF документ. " alt="" coords="544,5,715,47"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff" title="Добавляет группу в репорт. " alt="" coords="272,30,496,86"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb" title="Запускает процесс конвертации. " alt="" coords="763,5,941,47"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" title="Создает PDF документ отчета по указанному пути " alt="" coords="989,5,1129,47"/>
+</map>

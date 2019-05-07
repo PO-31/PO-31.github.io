@@ -1,0 +1,21 @@
+<map id="qtreports::detail::Replacer::getLastError" name="qtreports::detail::Replacer::getLastError">
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" title="qtreports::detail::\lConverterToHTML::addBand" alt="" coords="226,75,425,116"/>
+<area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c" title="qtreports::detail::\lConverterToPDF::createSection" alt="" coords="216,169,435,211"/>
+<area shape="rect" id="node13" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" title="qtreports::detail::\lConverterToQWidget::\lcreateSection" alt="" coords="246,263,405,319"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" title="qtreports::detail::\lConverterToHTML::createHTML" alt="" coords="755,63,972,104"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" title="qtreports::detail::\lConverterToHTML::addGroups\lIntoReport" alt="" coords="489,67,700,123"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" title="qtreports::detail::\lConverterToHTML::convert" alt="" coords="1020,63,1209,104"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" title="qtreports::detail::\lConverterToHTML::convert" alt="" coords="1257,5,1447,47"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" title="qtreports::Engine::\lcreateHTML" alt="" coords="1282,71,1422,112"/>
+<area shape="rect" id="node9" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aad8435572f5ba065f8f2fef428d97b22" title="qtreports::detail::\lConverterToPDF::create" alt="" coords="778,152,949,193"/>
+<area shape="rect" id="node12" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff" title="qtreports::detail::\lConverterToPDF::addGroupsInto\lReport" alt="" coords="483,198,707,254"/>
+<area shape="rect" id="node10" href="$classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb" title="qtreports::detail::\lConverterToPDF::convert" alt="" coords="1025,152,1204,193"/>
+<area shape="rect" id="node11" href="$classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" title="qtreports::Engine::\lcreatePDF" alt="" coords="1282,152,1422,193"/>
+<area shape="rect" id="node14" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" title="qtreports::detail::\lConverterToQWidget::\lcreateQWidget" alt="" coords="784,295,943,351"/>
+<area shape="rect" id="node20" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" title="qtreports::detail::\lConverterToQWidget::\laddGroupsIntoReport" alt="" coords="515,329,674,385"/>
+<area shape="rect" id="node15" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" title="qtreports::detail::\lConverterToQWidget::\lconvert" alt="" coords="1035,295,1194,351"/>
+<area shape="rect" id="node16" href="$classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" title="qtreports::Engine::\lcreateWidget" alt="" coords="1282,237,1422,279"/>
+<area shape="rect" id="node17" href="$classqtreports_1_1_engine.html#a3966d8f0ebb6c1f94812ec21e21680c0" title="qtreports::Engine::\lcreateLayout" alt="" coords="1282,303,1422,344"/>
+<area shape="rect" id="node18" href="$classqtreports_1_1_engine.html#a93dc7711446a155f87d9146efb493f9e" title="qtreports::Engine::\ldrawPreview" alt="" coords="1282,368,1422,409"/>
+<area shape="rect" id="node19" href="$classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e" title="qtreports::Engine::\lgetPrintPreviewDialog" alt="" coords="1495,368,1655,409"/>
+</map>

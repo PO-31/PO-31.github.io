@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_92bde7d608ceb2cc3747bbfdbcf2bd2c" kind="dir">
+    <compoundname>/home/travis/build/PO-31/QtReports/qtreports</compoundname>
+    <innerdir refid="dir_be734d7908abc7c5a824e967c65d75ca">/home/travis/build/PO-31/QtReports/qtreports/include</innerdir>
+    <innerdir refid="dir_455848a96611f2b29ec6ffbd237ada79">/home/travis/build/PO-31/QtReports/qtreports/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/"/>
+  </compounddef>
+</doxygen>

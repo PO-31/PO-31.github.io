@@ -1,0 +1,1399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_parser_from_x_m_l" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::ParserFromXML</compoundname>
+    <includes refid="parserfromxml_8hpp" local="no">parserfromxml.hpp</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3f" prot="private" static="no">
+        <name>AttributeOption</name>
+        <enumvalue id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3fab651efdb98a5d6bd2b3935d0c3f4a5e2" prot="private">
+          <name>Required</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>При отсутствии аттрибута будет выдана ошибка. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3faebb061953c0454b2c8ee7b0ac615ebcd" prot="private">
+          <name>Optional</name>
+          <briefdescription>
+<para>При отсутствии аттрибута будет использовано значение по умолчанию. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="85" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae0183c3fb19f0befae617d719b525285" prot="public" static="no">
+        <type>bool(QXmlStreamReader &amp;, const <ref refid="namespaceqtreports_1_1detail_1a958bf79d952dfb0b6382863ae3a4fd5a" kindref="member">ObjectPtr</ref> &amp;)</type>
+        <definition>using qtreports::detail::ParserFromXML::ParseFuncPtr =  bool( QXmlStreamReader &amp;, const ObjectPtr &amp; )</definition>
+        <argsstring></argsstring>
+        <name>ParseFuncPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="72" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a025c60de376de47b95464a744af6cc30" prot="public" static="no">
+        <type>bool(ParserFromXML::*)(QXmlStreamReader &amp;, const <ref refid="namespaceqtreports_1_1detail_1a958bf79d952dfb0b6382863ae3a4fd5a" kindref="member">ObjectPtr</ref> &amp;)</type>
+        <definition>using qtreports::detail::ParserFromXML::ParseMethodPtr =  bool( ParserFromXML::* )( QXmlStreamReader &amp;, const ObjectPtr &amp; )</definition>
+        <argsstring></argsstring>
+        <name>ParseMethodPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="73" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0ec42eb3dff48f43fdaa4d5a68ef87a4" prot="public" static="no">
+        <type>std::function&lt; <ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae0183c3fb19f0befae617d719b525285" kindref="member">ParseFuncPtr</ref> &gt;</type>
+        <definition>using qtreports::detail::ParserFromXML::ParseFunc =  std::function&lt; ParseFuncPtr &gt;</definition>
+        <argsstring></argsstring>
+        <name>ParseFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="74" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1afc21e89b3b0fc2a48f5a2c41ab007673" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref></type>
+        <definition>ReportPtr qtreports::detail::ParserFromXML::m_report</definition>
+        <argsstring></argsstring>
+        <name>m_report</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="77" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="77" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="72" endline="93">parse</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aa67a21faa016b0ef4686b22a390fd446" compoundref="parserfromxml_8cpp" startline="227" endline="238">parseDocument</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a02bfc8c0470ec16ff1bb34a5b6b78981" compoundref="parserfromxml_8cpp" startline="1228" endline="1231">getReport</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::ParserFromXML::m_lastError</definition>
+        <argsstring></argsstring>
+        <name>m_lastError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="78" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="78" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="72" endline="93">parse</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ad0cab06b62d590495eaa6a16465ed2b4" compoundref="parserfromxml_8cpp" startline="116" endline="136">getAttribute</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="340" endline="494">parseStyle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" compoundref="parserfromxml_8cpp" startline="1233" endline="1236">getLastError</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" prot="private" static="no" mutable="no">
+        <type>QTextStream</type>
+        <definition>QTextStream qtreports::detail::ParserFromXML::m_log</definition>
+        <argsstring></argsstring>
+        <name>m_log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="79" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="79" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="72" endline="93">parse</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ad0cab06b62d590495eaa6a16465ed2b4" compoundref="parserfromxml_8cpp" startline="116" endline="136">getAttribute</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1fedf145e441f88832bd7f7e4b890e28" compoundref="parserfromxml_8cpp" startline="1238" endline="1241">getLog</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a165bb9727c93c7a01d0f6ceca9bf1dae" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, <ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0ec42eb3dff48f43fdaa4d5a68ef87a4" kindref="member">ParseFunc</ref> &gt;</type>
+        <definition>QMap&lt; QString, ParseFunc &gt; qtreports::detail::ParserFromXML::m_functions</definition>
+        <argsstring></argsstring>
+        <name>m_functions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="80" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::ParserFromXML::ParserFromXML</definition>
+        <argsstring>()</argsstring>
+        <name>ParserFromXML</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="43" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="32" bodyend="68"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a165bb9727c93c7a01d0f6ceca9bf1dae" compoundref="parserfromxml_8hpp" startline="80">m_functions</references>
+        <references refid="namespaceqtreports_1_1detail_1a7e95fb3972b92694c2f40f3f9e29a3fc" compoundref="parserfromxml_8cpp" startline="20" endline="25">qtreports::detail::toParseFunc</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="240" endline="337">parseReport</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="340" endline="494">parseStyle</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a027c1caea8508dc831486969bc47734c" compoundref="parserfromxml_8cpp" startline="1214" endline="1226">parseQueryString</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a20a5b5081956769e0d219779407ba76c" compoundref="parserfromxml_8cpp" startline="496" endline="531">parseField</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a477a961860b1de77b5a0da28e361987a" compoundref="parserfromxml_8cpp" startline="533" endline="553">parseGroup</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5227072dac0a691b04214b47f55f96ad" compoundref="parserfromxml_8cpp" startline="555" endline="566">parseGroupExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a92ffb4f04daa047da0ddfe3d583262" compoundref="parserfromxml_8cpp" startline="568" endline="581">parseGroupHeader</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1acfd1224b98c50412fd1b1897da5a362a" compoundref="parserfromxml_8cpp" startline="583" endline="596">parseGroupFooter</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a88dc32b7c6b8727e6a7fed5e222a7aab" compoundref="parserfromxml_8cpp" startline="598" endline="611">parseTitle</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79d177b44a8d13065f226fd7940bdde0" compoundref="parserfromxml_8cpp" startline="613" endline="626">parseDetail</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1d2dfaa79bc7e339443ac12d56b3ba11" compoundref="parserfromxml_8cpp" startline="628" endline="640">parseSummary</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" compoundref="parserfromxml_8cpp" startline="642" endline="662">parseBand</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" compoundref="parserfromxml_8cpp" startline="819" endline="831">parseStaticText</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="833" endline="860">parseTextField</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" compoundref="parserfromxml_8cpp" startline="862" endline="874">parseLine</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" compoundref="parserfromxml_8cpp" startline="876" endline="888">parseRect</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" compoundref="parserfromxml_8cpp" startline="890" endline="902">parseEllipse</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" compoundref="parserfromxml_8cpp" startline="904" endline="916">parseImage</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" compoundref="parserfromxml_8cpp" startline="1079" endline="1097">parseImageExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="918" endline="990">parseReportElement</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="992" endline="1023">parseTextElement</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1025" endline="1044">parseFont</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" compoundref="parserfromxml_8cpp" startline="1046" endline="1057">parseText</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1059" endline="1077">parseTextFieldExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" compoundref="parserfromxml_8cpp" startline="664" endline="690">parseCrosstab</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="692" endline="718">parseRowGroup</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="720" endline="746">parseColumnGroup</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="748" endline="775">parseCrosstabCell</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" compoundref="parserfromxml_8cpp" startline="777" endline="789">parseCrosstabRowHeader</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" compoundref="parserfromxml_8cpp" startline="791" endline="803">parseCrosstabColumnHeader</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" compoundref="parserfromxml_8cpp" startline="805" endline="817">parseCrosstabCellContents</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1099" endline="1191">parseVariable</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" compoundref="parserfromxml_8cpp" startline="1193" endline="1201">parseVariableExpression</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" compoundref="parserfromxml_8cpp" startline="1203" endline="1211">parseInitialValueExpression</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af79b52d34c559fa373562d6b2bf174ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::ParserFromXML::~ParserFromXML</definition>
+        <argsstring>()</argsstring>
+        <name>~ParserFromXML</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="44" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parse</definition>
+        <argsstring>(const QString &amp;path)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="50" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="72" bodyend="93"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1afc21e89b3b0fc2a48f5a2c41ab007673" compoundref="parserfromxml_8hpp" startline="77">m_report</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aa67a21faa016b0ef4686b22a390fd446" compoundref="parserfromxml_8cpp" startline="227" endline="238">parseDocument</references>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">qtreports::Engine::open</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a02bfc8c0470ec16ff1bb34a5b6b78981" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref></type>
+        <definition>const ReportPtr qtreports::detail::ParserFromXML::getReport</definition>
+        <argsstring>() const </argsstring>
+        <name>getReport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="60" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1228" bodyend="1231"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1afc21e89b3b0fc2a48f5a2c41ab007673" compoundref="parserfromxml_8hpp" startline="77">m_report</references>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">qtreports::Engine::open</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::ParserFromXML::getLastError</definition>
+        <argsstring>() const </argsstring>
+        <name>getLastError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="65" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1233" bodyend="1236"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">qtreports::Engine::open</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1fedf145e441f88832bd7f7e4b890e28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::ParserFromXML::getLog</definition>
+        <argsstring>() const </argsstring>
+        <name>getLog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="70" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1238" bodyend="1241"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
+        <referencedby refid="classqtreports_1_1_engine_1a12cebdcb817b3c9a0c730b9439b2ff85" compoundref="engine_8cpp" startline="31" endline="54">qtreports::Engine::open</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::getValue</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, QString &amp;data)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>QString &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="95" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="95" bodyend="114"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5227072dac0a691b04214b47f55f96ad" compoundref="parserfromxml_8cpp" startline="555" endline="566">parseGroupExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" compoundref="parserfromxml_8cpp" startline="1046" endline="1057">parseText</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1059" endline="1077">parseTextFieldExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" compoundref="parserfromxml_8cpp" startline="1079" endline="1097">parseImageExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" compoundref="parserfromxml_8cpp" startline="1193" endline="1201">parseVariableExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" compoundref="parserfromxml_8cpp" startline="1203" endline="1211">parseInitialValueExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a027c1caea8508dc831486969bc47734c" compoundref="parserfromxml_8cpp" startline="1214" endline="1226">parseQueryString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ad0cab06b62d590495eaa6a16465ed2b4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::getAttribute</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const QString &amp;name, QString &amp;data, AttributeOption option)</argsstring>
+        <name>getAttribute</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QString &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3f" kindref="member">AttributeOption</ref></type>
+          <declname>option</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="103" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="116" bodyend="136"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3faebb061953c0454b2c8ee7b0ac615ebcd">Optional</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::getRequiredAttribute</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const QString &amp;name, QString &amp;data)</argsstring>
+        <name>getRequiredAttribute</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QString &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="107" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="138" bodyend="141"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ad0cab06b62d590495eaa6a16465ed2b4" compoundref="parserfromxml_8cpp" startline="116" endline="136">getAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3fab651efdb98a5d6bd2b3935d0c3f4a5e2">Required</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="240" endline="337">parseReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="340" endline="494">parseStyle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a20a5b5081956769e0d219779407ba76c" compoundref="parserfromxml_8cpp" startline="496" endline="531">parseField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a477a961860b1de77b5a0da28e361987a" compoundref="parserfromxml_8cpp" startline="533" endline="553">parseGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" compoundref="parserfromxml_8cpp" startline="642" endline="662">parseBand</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="692" endline="718">parseRowGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="720" endline="746">parseColumnGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="748" endline="775">parseCrosstabCell</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="918" endline="990">parseReportElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="992" endline="1023">parseTextElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" compoundref="parserfromxml_8cpp" startline="1059" endline="1077">parseTextFieldExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1099" endline="1191">parseVariable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::getOptionalAttribute</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const QString &amp;name, QString &amp;data)</argsstring>
+        <name>getOptionalAttribute</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QString &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="111" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="143" bodyend="146"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ad0cab06b62d590495eaa6a16465ed2b4" compoundref="parserfromxml_8cpp" startline="116" endline="136">getAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3faebb061953c0454b2c8ee7b0ac615ebcd">Optional</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="240" endline="337">parseReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" compoundref="parserfromxml_8cpp" startline="340" endline="494">parseStyle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" compoundref="parserfromxml_8cpp" startline="664" endline="690">parseCrosstab</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="692" endline="718">parseRowGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="720" endline="746">parseColumnGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="918" endline="990">parseReportElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="992" endline="1023">parseTextElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1025" endline="1044">parseFont</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::goToElementEnd</definition>
+        <argsstring>(QXmlStreamReader &amp;reader)</argsstring>
+        <name>goToElementEnd</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="115" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="148" bodyend="178"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" compoundref="parserfromxml_8cpp" startline="918" endline="990">parseReportElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" compoundref="parserfromxml_8cpp" startline="1025" endline="1044">parseFont</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseChilds</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ObjectPtr &amp;object)</argsstring>
+        <name>parseChilds</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a958bf79d952dfb0b6382863ae3a4fd5a" kindref="member">ObjectPtr</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="120" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="180" bodyend="225"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" compoundref="parserfromxml_8hpp" startline="79">m_log</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a165bb9727c93c7a01d0f6ceca9bf1dae" compoundref="parserfromxml_8hpp" startline="80">m_functions</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aa67a21faa016b0ef4686b22a390fd446" compoundref="parserfromxml_8cpp" startline="227" endline="238">parseDocument</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" compoundref="parserfromxml_8cpp" startline="240" endline="337">parseReport</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a20a5b5081956769e0d219779407ba76c" compoundref="parserfromxml_8cpp" startline="496" endline="531">parseField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a477a961860b1de77b5a0da28e361987a" compoundref="parserfromxml_8cpp" startline="533" endline="553">parseGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a92ffb4f04daa047da0ddfe3d583262" compoundref="parserfromxml_8cpp" startline="568" endline="581">parseGroupHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1acfd1224b98c50412fd1b1897da5a362a" compoundref="parserfromxml_8cpp" startline="583" endline="596">parseGroupFooter</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a88dc32b7c6b8727e6a7fed5e222a7aab" compoundref="parserfromxml_8cpp" startline="598" endline="611">parseTitle</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79d177b44a8d13065f226fd7940bdde0" compoundref="parserfromxml_8cpp" startline="613" endline="626">parseDetail</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1d2dfaa79bc7e339443ac12d56b3ba11" compoundref="parserfromxml_8cpp" startline="628" endline="640">parseSummary</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" compoundref="parserfromxml_8cpp" startline="642" endline="662">parseBand</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" compoundref="parserfromxml_8cpp" startline="664" endline="690">parseCrosstab</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" compoundref="parserfromxml_8cpp" startline="692" endline="718">parseRowGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" compoundref="parserfromxml_8cpp" startline="720" endline="746">parseColumnGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" compoundref="parserfromxml_8cpp" startline="748" endline="775">parseCrosstabCell</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" compoundref="parserfromxml_8cpp" startline="777" endline="789">parseCrosstabRowHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" compoundref="parserfromxml_8cpp" startline="791" endline="803">parseCrosstabColumnHeader</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" compoundref="parserfromxml_8cpp" startline="805" endline="817">parseCrosstabCellContents</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" compoundref="parserfromxml_8cpp" startline="819" endline="831">parseStaticText</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" compoundref="parserfromxml_8cpp" startline="833" endline="860">parseTextField</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" compoundref="parserfromxml_8cpp" startline="862" endline="874">parseLine</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" compoundref="parserfromxml_8cpp" startline="876" endline="888">parseRect</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" compoundref="parserfromxml_8cpp" startline="890" endline="902">parseEllipse</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" compoundref="parserfromxml_8cpp" startline="904" endline="916">parseImage</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" compoundref="parserfromxml_8cpp" startline="992" endline="1023">parseTextElement</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" compoundref="parserfromxml_8cpp" startline="1099" endline="1191">parseVariable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aa67a21faa016b0ef4686b22a390fd446" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseDocument</definition>
+        <argsstring>(const QString &amp;text)</argsstring>
+        <name>parseDocument</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="126" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="227" bodyend="238"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1afc21e89b3b0fc2a48f5a2c41ab007673" compoundref="parserfromxml_8hpp" startline="77">m_report</references>
+        <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea4b1b4dc8cf38b3c64b1d657da8f5ac8c">qtreports::detail::Report</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" compoundref="parserfromxml_8cpp" startline="72" endline="93">parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseReport</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseReport</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="131" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="240" bodyend="337"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <references refid="namespaceqtreports_1_1detail_1a3ce46912811f49a63ad2d9b6a5d310d3" compoundref="object_8cpp" startline="5" endline="7">qtreports::detail::isEquals</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseStyle</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseStyle</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="136" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="340" bodyend="494"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" compoundref="parserfromxml_8hpp" startline="78">m_lastError</references>
+        <references refid="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" compoundref="parserfromxml_8cpp" startline="27" endline="30">qtreports::detail::toBool</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a027c1caea8508dc831486969bc47734c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseQueryString</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseQueryString</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="141" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1214" bodyend="1226"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a20a5b5081956769e0d219779407ba76c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseField</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseField</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="146" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="496" bodyend="531"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a477a961860b1de77b5a0da28e361987a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseGroup</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseGroup</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="151" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="533" bodyend="553"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea03937134cedab9078be39a77ee3a48a0">qtreports::detail::Group</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5227072dac0a691b04214b47f55f96ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseGroupExpression</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const GroupPtr &amp;group)</argsstring>
+        <name>parseGroupExpression</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" kindref="member">GroupPtr</ref> &amp;</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="156" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="555" bodyend="566"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a92ffb4f04daa047da0ddfe3d583262" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseGroupHeader</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const GroupPtr &amp;group)</argsstring>
+        <name>parseGroupHeader</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" kindref="member">GroupPtr</ref> &amp;</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="161" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="568" bodyend="581"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1acfd1224b98c50412fd1b1897da5a362a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseGroupFooter</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const GroupPtr &amp;group)</argsstring>
+        <name>parseGroupFooter</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a85c9c7aa181bd68d1e8fe4d19e4d22c8" kindref="member">GroupPtr</ref> &amp;</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="166" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="583" bodyend="596"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a88dc32b7c6b8727e6a7fed5e222a7aab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseTitle</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseTitle</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="171" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="598" bodyend="611"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79d177b44a8d13065f226fd7940bdde0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseDetail</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseDetail</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="176" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="613" bodyend="626"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1d2dfaa79bc7e339443ac12d56b3ba11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseSummary</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseSummary</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="181" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="628" bodyend="640"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseBand</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const SectionPtr &amp;section)</argsstring>
+        <name>parseBand</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1af2fce6f553fa34eaba536a59045c6471" kindref="member">SectionPtr</ref> &amp;</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="186" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="642" bodyend="662"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseCrosstab</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const BandPtr &amp;band)</argsstring>
+        <name>parseCrosstab</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref> &amp;</type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="191" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="664" bodyend="690"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" compoundref="parserfromxml_8cpp" startline="27" endline="30">qtreports::detail::toBool</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseRowGroup</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const CrosstabPtr &amp;crosstab)</argsstring>
+        <name>parseRowGroup</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref> &amp;</type>
+          <declname>crosstab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="196" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="692" bodyend="718"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseColumnGroup</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const CrosstabPtr &amp;crosstab)</argsstring>
+        <name>parseColumnGroup</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref> &amp;</type>
+          <declname>crosstab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="201" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="720" bodyend="746"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseCrosstabCell</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const CrosstabPtr &amp;crosstab)</argsstring>
+        <name>parseCrosstabCell</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a4f70fbe4623bab9f6e0eed4649f34d6f" kindref="member">CrosstabPtr</ref> &amp;</type>
+          <declname>crosstab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="206" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="748" bodyend="775"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseCrosstabRowHeader</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const CrosstabGroupPtr &amp;rowGroup)</argsstring>
+        <name>parseCrosstabRowHeader</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref> &amp;</type>
+          <declname>rowGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="211" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="777" bodyend="789"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseCrosstabColumnHeader</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const CrosstabGroupPtr &amp;columnGroup)</argsstring>
+        <name>parseCrosstabColumnHeader</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a264a83d6e5bbb06ef191ee31189d2785" kindref="member">CrosstabGroupPtr</ref> &amp;</type>
+          <declname>columnGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="216" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="791" bodyend="803"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseCrosstabCellContents</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const CrosstabCellPtr &amp;crosstabSection)</argsstring>
+        <name>parseCrosstabCellContents</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a3120cf0c2fbe8af770ad8b9112b34eaa" kindref="member">CrosstabCellPtr</ref> &amp;</type>
+          <declname>crosstabSection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="221" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="805" bodyend="817"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseStaticText</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const BandPtr &amp;band)</argsstring>
+        <name>parseStaticText</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref> &amp;</type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="226" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="819" bodyend="831"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseTextField</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const WidgetPtr &amp;widget)</argsstring>
+        <name>parseTextField</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref> &amp;</type>
+          <declname>widget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="231" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="833" bodyend="860"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <references refid="classqtreports_1_1detail_1_1_band_1af4609fb4af26484079ab6e7f9eed8c87" compoundref="band_8cpp" startline="44" endline="47">qtreports::detail::Band::addTextField</references>
+        <references refid="classqtreports_1_1detail_1_1_cell_contents_1a96e5301f40c899895ce60c5562e9b1ca" compoundref="cellcontents_8cpp" startline="10" endline="13">qtreports::detail::CellContents::setTextField</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseLine</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const BandPtr &amp;band)</argsstring>
+        <name>parseLine</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref> &amp;</type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="236" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="862" bodyend="874"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseRect</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const BandPtr &amp;band)</argsstring>
+        <name>parseRect</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref> &amp;</type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="241" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="876" bodyend="888"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseEllipse</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const BandPtr &amp;band)</argsstring>
+        <name>parseEllipse</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref> &amp;</type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="246" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="890" bodyend="902"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseImage</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const BandPtr &amp;band)</argsstring>
+        <name>parseImage</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a34a7ca729f0c85015e21bba86825ce7e" kindref="member">BandPtr</ref> &amp;</type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="251" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="904" bodyend="916"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseReportElement</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const WidgetPtr &amp;widget)</argsstring>
+        <name>parseReportElement</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref> &amp;</type>
+          <declname>widget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="256" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="918" bodyend="990"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseTextElement</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const WidgetPtr &amp;widget)</argsstring>
+        <name>parseTextElement</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref> &amp;</type>
+          <declname>widget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="261" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="992" bodyend="1023"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <references refid="namespaceqtreports_1_1detail_1a3ce46912811f49a63ad2d9b6a5d310d3" compoundref="object_8cpp" startline="5" endline="7">qtreports::detail::isEquals</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseFont</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const WidgetPtr &amp;widget)</argsstring>
+        <name>parseFont</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a310fd67f32772344225a4e685ef01da4" kindref="member">WidgetPtr</ref> &amp;</type>
+          <declname>widget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="266" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1025" bodyend="1044"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" compoundref="parserfromxml_8cpp" startline="143" endline="146">getOptionalAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" compoundref="parserfromxml_8cpp" startline="148" endline="178">goToElementEnd</references>
+        <references refid="namespaceqtreports_1_1detail_1af0dcf7d492b98dd5908ab3b40edeef55" compoundref="parserfromxml_8cpp" startline="27" endline="30">qtreports::detail::toBool</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseText</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const StaticTextPtr &amp;text)</argsstring>
+        <name>parseText</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a8da710b0963ea1b4e5a74b99420d3e4b" kindref="member">StaticTextPtr</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="271" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1046" bodyend="1057"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseTextFieldExpression</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const TextFieldPtr &amp;text)</argsstring>
+        <name>parseTextFieldExpression</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a5eeea9833babe21c57f50c7c401defb6" kindref="member">TextFieldPtr</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="276" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1059" bodyend="1077"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseImageExpression</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ImagePtr &amp;image)</argsstring>
+        <name>parseImageExpression</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a63bee55a8b0ccfcc9fb2050d2c18e917" kindref="member">ImagePtr</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="281" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1079" bodyend="1097"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseVariable</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const ReportPtr &amp;report)</argsstring>
+        <name>parseVariable</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a44f599ffe398f114e5d2edcffdbdc3d8" kindref="member">ReportPtr</ref> &amp;</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="283" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1099" bodyend="1191"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" compoundref="parserfromxml_8cpp" startline="138" endline="141">getRequiredAttribute</references>
+        <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea6adf97f83acf6453d4a6a4b1070f3754">qtreports::detail::None</references>
+        <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea4b1b4dc8cf38b3c64b1d657da8f5ac8c">qtreports::detail::Report</references>
+        <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea193cfc9be3b995831c6af2fea6650e60">qtreports::detail::Page</references>
+        <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea1976d7f704de389d9fe064e08ea35b2d">qtreports::detail::Column</references>
+        <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea03937134cedab9078be39a77ee3a48a0">qtreports::detail::Group</references>
+        <references refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ae93f994f01c537c4e2f7d8528c3eb5e9">qtreports::detail::Count</references>
+        <references refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3aa0ec87054b5e5b7847d0d8780a01a3d5">qtreports::detail::Sum</references>
+        <references refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ab1897515d548a960afe49ecf66a29021">qtreports::detail::Average</references>
+        <references refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ab5b8e20937205384be7b9e0c29a28fdb">qtreports::detail::Lowest</references>
+        <references refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3a582996407922dab08d5cf2b3d2a7c1c9">qtreports::detail::Highest</references>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" compoundref="parserfromxml_8cpp" startline="180" endline="225">parseChilds</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseVariableExpression</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const VariablePtr &amp;variable)</argsstring>
+        <name>parseVariableExpression</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a32a91d41922e9d4408b31af4aa2a9231" kindref="member">VariablePtr</ref> &amp;</type>
+          <declname>variable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="285" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1193" bodyend="1201"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool qtreports::detail::ParserFromXML::parseInitialValueExpression</definition>
+        <argsstring>(QXmlStreamReader &amp;reader, const VariablePtr &amp;variable)</argsstring>
+        <name>parseInitialValueExpression</name>
+        <param>
+          <type>QXmlStreamReader &amp;</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceqtreports_1_1detail_1a32a91d41922e9d4408b31af4aa2a9231" kindref="member">VariablePtr</ref> &amp;</type>
+          <declname>variable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="287" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.cpp" bodystart="1203" bodyend="1211"/>
+        <references refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" compoundref="parserfromxml_8cpp" startline="95" endline="114">getValue</references>
+        <referencedby refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" compoundref="parserfromxml_8cpp" startline="32" endline="68">ParserFromXML</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="300">
+        <label>qtreports::detail::ParserFromXML</label>
+        <link refid="classqtreports_1_1detail_1_1_parser_from_x_m_l"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" line="40" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/parsers/parserfromxml.hpp" bodystart="40" bodyend="289"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0d7770fab9a27418149a44cb48f18a3f" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>AttributeOption</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ad0cab06b62d590495eaa6a16465ed2b4" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>getAttribute</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a39cecb46637a228bcc6135a2cc2eb7a9" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1fedf145e441f88832bd7f7e4b890e28" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>getLog</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a478329a44761310039078ee6871a355d" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>getOptionalAttribute</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a02bfc8c0470ec16ff1bb34a5b6b78981" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>getReport</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab1cbf7385fa2d56c5e8526bf97cda9b1" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>getRequiredAttribute</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79b3db940ae07e1f3128371d529ca38b" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>getValue</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ace9dca09d283384d721c2a985991c9bf" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>goToElementEnd</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a165bb9727c93c7a01d0f6ceca9bf1dae" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>m_functions</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a33ce9e9ce0226d8ae6895a200d5f4893" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a29cacbdc56b832513e58b18184dc4179" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>m_log</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1afc21e89b3b0fc2a48f5a2c41ab007673" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>m_report</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac5de42ec7fdd07773b0435484df51c2e" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parse</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af04b8018f1bb3d60ecb6525f31d29885" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseBand</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a905c36f37ab8c2833ab85e4d8c22716f" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseChilds</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a400e9daf7e859228f6ac7419963bb808" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseColumnGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a55d48b0d7875a6a4366c0e30f6cf5624" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseCrosstab</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ac7539fad6732c571ad578861a5259807" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseCrosstabCell</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7d6ac273ba11965a23a0b0d330ce822f" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseCrosstabCellContents</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8768348db3be505ca13d1bd45173715d" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseCrosstabColumnHeader</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a939abd9300aa969d1a16d822370183cd" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseCrosstabRowHeader</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a79d177b44a8d13065f226fd7940bdde0" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseDetail</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aa67a21faa016b0ef4686b22a390fd446" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseDocument</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7dc4d03466c276ea931ad46b295d5ee7" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseEllipse</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a20a5b5081956769e0d219779407ba76c" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseField</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a4f7803080037058f482a499ebc1a51ee" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseFont</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a0ec42eb3dff48f43fdaa4d5a68ef87a4" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>ParseFunc</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae0183c3fb19f0befae617d719b525285" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>ParseFuncPtr</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a477a961860b1de77b5a0da28e361987a" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5227072dac0a691b04214b47f55f96ad" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseGroupExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1acfd1224b98c50412fd1b1897da5a362a" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseGroupFooter</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a92ffb4f04daa047da0ddfe3d583262" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseGroupHeader</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a877a6f05ca0b9dda625083f9860202cc" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseImage</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5bb40e2d4ed991c7d61f2c16d8aeaf26" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseImageExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a7b3d2910b7db68f10044fa5146c808f6" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseInitialValueExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a14d5b8d1921d17d067c10554864120a2" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseLine</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a025c60de376de47b95464a744af6cc30" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>ParseMethodPtr</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a027c1caea8508dc831486969bc47734c" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseQueryString</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8b364c4886eb32dc960079052e5158ec" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseRect</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a8247dc85ae5cae03ab3f175982a0857e" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseReport</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1aee6cb5359125988f68abfcd2f6fe4514" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseReportElement</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ab548bd252b2e13a315daefae6b43f1d6" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>ParserFromXML</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a9f70ead2687f2b3fc8f21dd6bf85049f" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseRowGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a53c4121976bc3f27125f8f698d4d8304" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseStaticText</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a5a366e39f908935a618b137e7e27496c" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseStyle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a1d2dfaa79bc7e339443ac12d56b3ba11" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseSummary</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae037521ded63aa8447653b9079b4de08" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseText</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a3693d70428f413c6adb999bf0ad69abe" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseTextElement</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a65b13ade0e7ee85dee9c8c1beab76d7a" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseTextField</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a459f21efce7b714320d84d304d304d60" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseTextFieldExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1a88dc32b7c6b8727e6a7fed5e222a7aab" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseTitle</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1abae86fff31affc499e427922f199dfd6" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseVariable</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1ae098d2d009cd6937196461de43652cf1" prot="private" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>parseVariableExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_parser_from_x_m_l_1af79b52d34c559fa373562d6b2bf174ad" prot="public" virt="non-virtual"><scope>qtreports::detail::ParserFromXML</scope><name>~ParserFromXML</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

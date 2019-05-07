@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_variable" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::Variable</compoundname>
+    <basecompoundref refid="classqtreports_1_1detail_1_1_object" prot="public" virt="non-virtual">qtreports::detail::Object</basecompoundref>
+    <includes refid="variable_8hpp" local="no">variable.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_variable_1a72fb9274535c974b1003ae2c5e9c152e" prot="private" static="no" mutable="no">
+        <type>QVariant</type>
+        <definition>QVariant qtreports::detail::Variable::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="77" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="77" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a6bc89f0df22c8d565cb2fabd9b8898ec" compoundref="variable_8cpp" startline="16" endline="19">getValue</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a4e53172658e153e549dbd107cbf14bfd" compoundref="variable_8cpp" startline="56" endline="59">setValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_variable_1abd79a6491c594482b39bcf1b5b6008a9" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Variable::m_expression</definition>
+        <argsstring></argsstring>
+        <name>m_expression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="78" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="78" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a55395f3a51a86bb9695e9b83747ccdf3" compoundref="variable_8cpp" startline="21" endline="24">getExpression</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a26b649328cc903056a56b53dcc8c85bf" compoundref="variable_8cpp" startline="61" endline="64">setExpression</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_variable_1a22275fad2fdab1e5ae3d081543c3af0a" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Variable::m_className</definition>
+        <argsstring></argsstring>
+        <name>m_className</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="79" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="79" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a74465e2c6cdc8ec50381f24a34d73599" compoundref="variable_8cpp" startline="26" endline="29">getClassName</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a68e223a1802d9d3d42e795b03d0fb867" compoundref="variable_8cpp" startline="66" endline="69">setClassName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_variable_1a93fb6a0e4329dd6371071fff2c334371" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Variable::m_resetGroup</definition>
+        <argsstring></argsstring>
+        <name>m_resetGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="80" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a6f861229d6f4bf85c54ae4e97804acd8" compoundref="variable_8cpp" startline="31" endline="34">getResetGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a0948178448db7b4a89adea405720087f" compoundref="variable_8cpp" startline="71" endline="74">setResetGroup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_variable_1acf06ad971243b60174ed63f31f952fc3" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Variable::m_incrementGroup</definition>
+        <argsstring></argsstring>
+        <name>m_incrementGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="81" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a5c703c0df1ee247b88456524d7561d9b" compoundref="variable_8cpp" startline="36" endline="39">getIncrementGroup</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a320b344df6b797697d84619e39fa02cd" compoundref="variable_8cpp" startline="76" endline="79">setIncrementGroup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_variable_1a7f142fef0f43051e03eac827945df52b" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16ee" kindref="member">VariableResetType</ref></type>
+        <definition>VariableResetType qtreports::detail::Variable::m_resetType</definition>
+        <argsstring></argsstring>
+        <name>m_resetType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="82" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="82" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a4eadfd05f0b742e23b6ecc04f3a495cf" compoundref="variable_8cpp" startline="41" endline="44">getResetType</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a44110377ce1bf0e7f2a81c6b3b526f33" compoundref="variable_8cpp" startline="81" endline="84">setResetType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_variable_1a2177a2769ecda054dd662b05941503c6" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1" kindref="member">VariableIncrementType</ref></type>
+        <definition>VariableIncrementType qtreports::detail::Variable::m_incrementType</definition>
+        <argsstring></argsstring>
+        <name>m_incrementType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="83" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="83" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a3b21662c6973349e11cdd16b98adfcbf" compoundref="variable_8cpp" startline="46" endline="49">getIncrementType</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1aadee6832aca48362c197a997d5747a07" compoundref="variable_8cpp" startline="86" endline="89">setIncrementType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_variable_1a7a303b7b58fbb4fe5591fdfeae7f2ea3" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3" kindref="member">VariableCalculation</ref></type>
+        <definition>VariableCalculation qtreports::detail::Variable::m_calculation</definition>
+        <argsstring></argsstring>
+        <name>m_calculation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="84" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="84" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a9dc443b4e9553de292925a4b4fbfc220" compoundref="variable_8cpp" startline="51" endline="54">getCalculation</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_variable_1a5ef7b41b071f58a155d2f88ad29dfa96" compoundref="variable_8cpp" startline="91" endline="94">setCalculation</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a2e8b0b8169381ba4bfbc61bbe70e1728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Variable::Variable</definition>
+        <argsstring>()</argsstring>
+        <name>Variable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="42" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="7" bodyend="14"/>
+        <references refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16eea6adf97f83acf6453d4a6a4b1070f3754">qtreports::detail::None</references>
+        <references refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3ae93f994f01c537c4e2f7d8528c3eb5e9">qtreports::detail::Count</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a6bc89f0df22c8d565cb2fabd9b8898ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QVariant &amp;</type>
+        <definition>const QVariant &amp; qtreports::detail::Variable::getValue</definition>
+        <argsstring>() const </argsstring>
+        <name>getValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="44" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="16" bodyend="19"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a72fb9274535c974b1003ae2c5e9c152e" compoundref="variable_8hpp" startline="77">m_value</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a55395f3a51a86bb9695e9b83747ccdf3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString &amp; qtreports::detail::Variable::getExpression</definition>
+        <argsstring>() const </argsstring>
+        <name>getExpression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="46" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="21" bodyend="24"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1abd79a6491c594482b39bcf1b5b6008a9" compoundref="variable_8hpp" startline="78">m_expression</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a74465e2c6cdc8ec50381f24a34d73599" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString &amp; qtreports::detail::Variable::getClassName</definition>
+        <argsstring>() const </argsstring>
+        <name>getClassName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="48" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="26" bodyend="29"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a22275fad2fdab1e5ae3d081543c3af0a" compoundref="variable_8hpp" startline="79">m_className</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a6f861229d6f4bf85c54ae4e97804acd8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString &amp; qtreports::detail::Variable::getResetGroup</definition>
+        <argsstring>() const </argsstring>
+        <name>getResetGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="50" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="31" bodyend="34"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a93fb6a0e4329dd6371071fff2c334371" compoundref="variable_8hpp" startline="80">m_resetGroup</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a5c703c0df1ee247b88456524d7561d9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString &amp; qtreports::detail::Variable::getIncrementGroup</definition>
+        <argsstring>() const </argsstring>
+        <name>getIncrementGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="52" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="36" bodyend="39"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1acf06ad971243b60174ed63f31f952fc3" compoundref="variable_8hpp" startline="81">m_incrementGroup</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a4eadfd05f0b742e23b6ecc04f3a495cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16ee" kindref="member">VariableResetType</ref></type>
+        <definition>VariableResetType qtreports::detail::Variable::getResetType</definition>
+        <argsstring>() const </argsstring>
+        <name>getResetType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="54" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="41" bodyend="44"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a7f142fef0f43051e03eac827945df52b" compoundref="variable_8hpp" startline="82">m_resetType</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a3b21662c6973349e11cdd16b98adfcbf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1" kindref="member">VariableIncrementType</ref></type>
+        <definition>VariableIncrementType qtreports::detail::Variable::getIncrementType</definition>
+        <argsstring>() const </argsstring>
+        <name>getIncrementType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="56" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="46" bodyend="49"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a2177a2769ecda054dd662b05941503c6" compoundref="variable_8hpp" startline="83">m_incrementType</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a9dc443b4e9553de292925a4b4fbfc220" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3" kindref="member">VariableCalculation</ref></type>
+        <definition>VariableCalculation qtreports::detail::Variable::getCalculation</definition>
+        <argsstring>() const </argsstring>
+        <name>getCalculation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="58" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="51" bodyend="54"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a7a303b7b58fbb4fe5591fdfeae7f2ea3" compoundref="variable_8hpp" startline="84">m_calculation</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a4e53172658e153e549dbd107cbf14bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Variable::setValue</definition>
+        <argsstring>(const QVariant &amp;value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="60" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="56" bodyend="59"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a72fb9274535c974b1003ae2c5e9c152e" compoundref="variable_8hpp" startline="77">m_value</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a26b649328cc903056a56b53dcc8c85bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Variable::setExpression</definition>
+        <argsstring>(const QString &amp;expression)</argsstring>
+        <name>setExpression</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="62" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="61" bodyend="64"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1abd79a6491c594482b39bcf1b5b6008a9" compoundref="variable_8hpp" startline="78">m_expression</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a68e223a1802d9d3d42e795b03d0fb867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Variable::setClassName</definition>
+        <argsstring>(const QString &amp;className)</argsstring>
+        <name>setClassName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>className</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="64" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="66" bodyend="69"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a22275fad2fdab1e5ae3d081543c3af0a" compoundref="variable_8hpp" startline="79">m_className</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a0948178448db7b4a89adea405720087f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Variable::setResetGroup</definition>
+        <argsstring>(const QString &amp;resetGroup)</argsstring>
+        <name>setResetGroup</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>resetGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="66" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="71" bodyend="74"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a93fb6a0e4329dd6371071fff2c334371" compoundref="variable_8hpp" startline="80">m_resetGroup</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a320b344df6b797697d84619e39fa02cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Variable::setIncrementGroup</definition>
+        <argsstring>(const QString &amp;incrementGroup)</argsstring>
+        <name>setIncrementGroup</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>incrementGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="68" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="76" bodyend="79"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1acf06ad971243b60174ed63f31f952fc3" compoundref="variable_8hpp" startline="81">m_incrementGroup</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a44110377ce1bf0e7f2a81c6b3b526f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Variable::setResetType</definition>
+        <argsstring>(VariableResetType resetType)</argsstring>
+        <name>setResetType</name>
+        <param>
+          <type><ref refid="namespaceqtreports_1_1detail_1a9cb3d152e585044a1e4b3057278a16ee" kindref="member">VariableResetType</ref></type>
+          <declname>resetType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="70" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="81" bodyend="84"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a7f142fef0f43051e03eac827945df52b" compoundref="variable_8hpp" startline="82">m_resetType</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1aadee6832aca48362c197a997d5747a07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Variable::setIncrementType</definition>
+        <argsstring>(VariableIncrementType incrementType)</argsstring>
+        <name>setIncrementType</name>
+        <param>
+          <type><ref refid="namespaceqtreports_1_1detail_1a167c97eac4fca15c4622695431746cf1" kindref="member">VariableIncrementType</ref></type>
+          <declname>incrementType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="72" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="86" bodyend="89"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a2177a2769ecda054dd662b05941503c6" compoundref="variable_8hpp" startline="83">m_incrementType</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_variable_1a5ef7b41b071f58a155d2f88ad29dfa96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Variable::setCalculation</definition>
+        <argsstring>(VariableCalculation calculation)</argsstring>
+        <name>setCalculation</name>
+        <param>
+          <type><ref refid="namespaceqtreports_1_1detail_1a9be1f327b6c12c6a7b2ef834065a06c3" kindref="member">VariableCalculation</ref></type>
+          <declname>calculation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="74" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.cpp" bodystart="91" bodyend="94"/>
+        <references refid="classqtreports_1_1detail_1_1_variable_1a7a303b7b58fbb4fe5591fdfeae7f2ea3" compoundref="variable_8hpp" startline="84">m_calculation</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="367">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="366">
+        <label>qtreports::detail::Variable</label>
+        <link refid="classqtreports_1_1detail_1_1_variable"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="369">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="368">
+        <label>qtreports::detail::Variable</label>
+        <link refid="classqtreports_1_1detail_1_1_variable"/>
+        <childnode refid="369" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" line="40" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/variable.hpp" bodystart="39" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a9dc443b4e9553de292925a4b4fbfc220" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getCalculation</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a74465e2c6cdc8ec50381f24a34d73599" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getClassName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a55395f3a51a86bb9695e9b83747ccdf3" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a5c703c0df1ee247b88456524d7561d9b" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getIncrementGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a3b21662c6973349e11cdd16b98adfcbf" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getIncrementType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a6f861229d6f4bf85c54ae4e97804acd8" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getResetGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a4eadfd05f0b742e23b6ecc04f3a495cf" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getResetType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a6bc89f0df22c8d565cb2fabd9b8898ec" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>getValue</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a7a303b7b58fbb4fe5591fdfeae7f2ea3" prot="private" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_calculation</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a22275fad2fdab1e5ae3d081543c3af0a" prot="private" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_className</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1abd79a6491c594482b39bcf1b5b6008a9" prot="private" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_expression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1acf06ad971243b60174ed63f31f952fc3" prot="private" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_incrementGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a2177a2769ecda054dd662b05941503c6" prot="private" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_incrementType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_name</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a93fb6a0e4329dd6371071fff2c334371" prot="private" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_resetGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a7f142fef0f43051e03eac827945df52b" prot="private" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_resetType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_tagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a72fb9274535c974b1003ae2c5e9c152e" prot="private" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>m_value</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a5ef7b41b071f58a155d2f88ad29dfa96" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setCalculation</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a68e223a1802d9d3d42e795b03d0fb867" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setClassName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a26b649328cc903056a56b53dcc8c85bf" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setExpression</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a320b344df6b797697d84619e39fa02cd" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setIncrementGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1aadee6832aca48362c197a997d5747a07" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setIncrementType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a0948178448db7b4a89adea405720087f" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setResetGroup</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a44110377ce1bf0e7f2a81c6b3b526f33" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setResetType</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a4e53172658e153e549dbd107cbf14bfd" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>setValue</name></member>
+      <member refid="classqtreports_1_1detail_1_1_variable_1a2e8b0b8169381ba4bfbc61bbe70e1728" prot="public" virt="non-virtual"><scope>qtreports::detail::Variable</scope><name>Variable</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" virt="virtual"><scope>qtreports::detail::Variable</scope><name>~Object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

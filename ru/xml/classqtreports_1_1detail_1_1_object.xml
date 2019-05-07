@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classqtreports_1_1detail_1_1_object" kind="class" language="C++" prot="public">
+    <compoundname>qtreports::detail::Object</compoundname>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_box" prot="public" virt="non-virtual">qtreports::detail::Box</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_crosstab_cell" prot="public" virt="non-virtual">qtreports::detail::CrosstabCell</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_crosstab_group" prot="public" virt="non-virtual">qtreports::detail::CrosstabGroup</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_crosstab_header" prot="public" virt="non-virtual">qtreports::detail::CrosstabHeader</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_field" prot="public" virt="non-virtual">qtreports::detail::Field</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_query_string" prot="public" virt="non-virtual">qtreports::detail::QueryString</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_report" prot="public" virt="non-virtual">qtreports::detail::Report</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_section" prot="public" virt="non-virtual">qtreports::detail::Section</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_style" prot="public" virt="non-virtual">qtreports::detail::Style</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_variable" prot="public" virt="non-virtual">qtreports::detail::Variable</derivedcompoundref>
+    <derivedcompoundref refid="classqtreports_1_1detail_1_1_widget" prot="public" virt="non-virtual">qtreports::detail::Widget</derivedcompoundref>
+    <includes refid="object_8hpp" local="no">object.hpp</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Object::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="58" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" bodystart="58" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" compoundref="object_8cpp" startline="16" endline="18">setName</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" compoundref="object_8cpp" startline="46" endline="48">getName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Object::m_tagName</definition>
+        <argsstring></argsstring>
+        <name>m_tagName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="59" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" compoundref="object_8cpp" startline="20" endline="22">setTagName</referencedby>
+        <referencedby refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" compoundref="object_8cpp" startline="50" endline="52">getTagName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString qtreports::detail::Object::m_lastError</definition>
+        <argsstring></argsstring>
+        <name>m_lastError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="60" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" compoundref="object_8cpp" startline="54" endline="56">getLastError</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Object::Object</definition>
+        <argsstring>()</argsstring>
+        <name>Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="21" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qtreports::detail::Object::Object</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>Object</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор, создается обьект с именем </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя обьекта </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="11" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>qtreports::detail::Object::~Object</definition>
+        <argsstring>()</argsstring>
+        <name>~Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="28" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Object::setName</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает значение атрибута name. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Значение атрибута name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="34" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="16" bodyend="18"/>
+        <references refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" compoundref="object_8hpp" startline="58">m_name</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::Object::getName</definition>
+        <argsstring>() const </argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>Возвращает значение атрибута name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="39" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="46" bodyend="48"/>
+        <references refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" compoundref="object_8hpp" startline="58">m_name</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qtreports::detail::Object::setTagName</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>setTagName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Устанавливает название тэга </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название тэга </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="45" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="20" bodyend="22"/>
+        <references refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" compoundref="object_8hpp" startline="59">m_tagName</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::Object::getTagName</definition>
+        <argsstring>() const </argsstring>
+        <name>getTagName</name>
+        <briefdescription>
+<para>Возвращает название тэга </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="50" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="50" bodyend="52"/>
+        <references refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" compoundref="object_8hpp" startline="59">m_tagName</references>
+      </memberdef>
+      <memberdef kind="function" id="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString qtreports::detail::Object::getLastError</definition>
+        <argsstring>() const </argsstring>
+        <name>getLastError</name>
+        <briefdescription>
+<para>Возвращает описание последней ошибки </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="55" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="54" bodyend="56"/>
+        <references refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" compoundref="object_8hpp" startline="60">m_lastError</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Базовый класс для любого тэга </para>    </briefdescription>
+    <detaileddescription>
+<para>Базовый класс для любого тэга </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="295">
+        <label>qtreports::detail::Image</label>
+        <link refid="classqtreports_1_1detail_1_1_image"/>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>qtreports::detail::Box</label>
+        <link refid="classqtreports_1_1detail_1_1_box"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>qtreports::detail::Field</label>
+        <link refid="classqtreports_1_1detail_1_1_field"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="292">
+        <label>qtreports::detail::Line</label>
+        <link refid="classqtreports_1_1detail_1_1_line"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="296">
+        <label>qtreports::detail::StaticText</label>
+        <link refid="classqtreports_1_1detail_1_1_static_text"/>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="294">
+        <label>qtreports::detail::TextWidget</label>
+        <link refid="classqtreports_1_1detail_1_1_text_widget"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="272">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+      <node id="287">
+        <label>qtreports::detail::Widget</label>
+        <link refid="classqtreports_1_1detail_1_1_widget"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="286">
+        <label>qtreports::detail::Variable</label>
+        <link refid="classqtreports_1_1detail_1_1_variable"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="283">
+        <label>qtreports::detail::Summary</label>
+        <link refid="classqtreports_1_1detail_1_1_summary"/>
+        <childnode refid="280" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="274">
+        <label>qtreports::detail::CrosstabCell</label>
+        <link refid="classqtreports_1_1detail_1_1_crosstab_cell"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>qtreports::detail::QueryString</label>
+        <link refid="classqtreports_1_1detail_1_1_query_string"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>qtreports::detail::Rect</label>
+        <link refid="classqtreports_1_1detail_1_1_rect"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="284">
+        <label>qtreports::detail::Title</label>
+        <link refid="classqtreports_1_1detail_1_1_title"/>
+        <childnode refid="280" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>qtreports::detail::CrosstabHeader</label>
+        <link refid="classqtreports_1_1detail_1_1_crosstab_header"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>qtreports::detail::CellContents</label>
+        <link refid="classqtreports_1_1detail_1_1_cell_contents"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="297">
+        <label>qtreports::detail::TextField</label>
+        <link refid="classqtreports_1_1detail_1_1_text_field"/>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>qtreports::detail::Section</label>
+        <link refid="classqtreports_1_1detail_1_1_section"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="290">
+        <label>qtreports::detail::Crosstab</label>
+        <link refid="classqtreports_1_1detail_1_1_crosstab"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="288">
+        <label>qtreports::detail::Band</label>
+        <link refid="classqtreports_1_1detail_1_1_band"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>qtreports::detail::Detail</label>
+        <link refid="classqtreports_1_1detail_1_1_detail"/>
+        <childnode refid="280" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>qtreports::detail::Report</label>
+        <link refid="classqtreports_1_1detail_1_1_report"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>qtreports::detail::Group</label>
+        <link refid="classqtreports_1_1detail_1_1_group"/>
+        <childnode refid="280" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="275">
+        <label>qtreports::detail::CrosstabGroup</label>
+        <link refid="classqtreports_1_1detail_1_1_crosstab_group"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="285">
+        <label>qtreports::detail::Style</label>
+        <link refid="classqtreports_1_1detail_1_1_style"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="291">
+        <label>qtreports::detail::Ellipse</label>
+        <link refid="classqtreports_1_1detail_1_1_ellipse"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="298">
+        <label>qtreports::detail::Object</label>
+        <link refid="classqtreports_1_1detail_1_1_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="18" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" bodystart="18" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae5217697b83b0d5d6467a4be188ea1e1" prot="public" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>getLastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1acf3f084ddddcae074dedfe99f28eac9f" prot="public" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>getName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a422e2eea58e5698b7069de43fdca995c" prot="public" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>getTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a738222cc50885d7aaa05166a4e10bed5" prot="protected" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>m_lastError</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aa12a90056f9723d488a0ab9e72a34088" prot="protected" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>m_name</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1ae2a0e7377aeed469cc731286f396d4f9" prot="protected" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>m_tagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1abfb165b205406710c8d76e7e085c18cd" prot="public" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1afcb591b3e6eb863351d731eacaf9d302" prot="public" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>Object</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1aba963d4d22de1be5e7d328293008b976" prot="public" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>setName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a6c91f5a1deb9c5e600d86c50f0301eff" prot="public" virt="non-virtual"><scope>qtreports::detail::Object</scope><name>setTagName</name></member>
+      <member refid="classqtreports_1_1detail_1_1_object_1a3401538436cb5d0e512e635f6225dc3d" prot="public" virt="virtual"><scope>qtreports::detail::Object</scope><name>~Object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

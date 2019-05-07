@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>QtReports: Исходный файл /home/travis/build/PO-31/QtReports/qtreports/src/tags/rect.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">QtReports
+   &#160;<span id="projectnumber">0.3.1</span>
+   </div>
+   <div id="projectbrief">Reimplementation of JasperReports in Qt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2b79055025069f98a5acfa173c98b921.html">QtReports</a></li><li class="navelem"><a class="el" href="dir_92bde7d608ceb2cc3747bbfdbcf2bd2c.html">qtreports</a></li><li class="navelem"><a class="el" href="dir_455848a96611f2b29ec6ffbd237ada79.html">src</a></li><li class="navelem"><a class="el" href="dir_95b01a3e7c2e38eb5eedb8e79cda609e.html">tags</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">rect.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="rect_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef RECT_HPP</span></div><div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="rect_8hpp.html#af1be77553d385d1c6bb3b402b2ae3c76">    3</a></span>&#160;<span class="preprocessor">#define RECT_HPP</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QSharedPointer&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="widget_8hpp.html">widget.hpp</a>&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceqtreports.html">qtreports</a></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">namespace </span>detail</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classqtreports_1_1detail_1_1_rect.html">   18</a></span>&#160;        <span class="keyword">class </span><a class="code" href="classqtreports_1_1detail_1_1_rect.html">Rect</a> : <span class="keyword">public</span> <a class="code" href="classqtreports_1_1detail_1_1_widget.html">Widget</a> {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">public</span>:</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <a class="code" href="classqtreports_1_1detail_1_1_rect.html#a9312f7e221a9c66d37ef7b198f516fb6">Rect</a>();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="classqtreports_1_1detail_1_1_rect.html#ad4a232d5f7fe00c237b870d8726c92a8">~Rect</a>();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">private</span>:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        };</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="namespaceqtreports_1_1detail.html#ab30d690e2ab4bc1cb5d6b2c47fcd1172">   27</a></span>&#160;        <span class="keyword">typedef</span> QSharedPointer&lt; Rect &gt; <a class="code" href="namespaceqtreports_1_1detail.html#ab30d690e2ab4bc1cb5d6b2c47fcd1172">RectPtr</a>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif // RECT_HPP</span></div><div class="ttc" id="widget_8hpp_html"><div class="ttname"><a href="widget_8hpp.html">widget.hpp</a></div></div>
+<div class="ttc" id="namespaceqtreports_1_1detail_html_ab30d690e2ab4bc1cb5d6b2c47fcd1172"><div class="ttname"><a href="namespaceqtreports_1_1detail.html#ab30d690e2ab4bc1cb5d6b2c47fcd1172">qtreports::detail::RectPtr</a></div><div class="ttdeci">QSharedPointer&lt; Rect &gt; RectPtr</div><div class="ttdef"><b>Definition:</b> rect.hpp:27</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_rect_html_a9312f7e221a9c66d37ef7b198f516fb6"><div class="ttname"><a href="classqtreports_1_1detail_1_1_rect.html#a9312f7e221a9c66d37ef7b198f516fb6">qtreports::detail::Rect::Rect</a></div><div class="ttdeci">Rect()</div><div class="ttdef"><b>Definition:</b> rect.cpp:8</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_rect_html_ad4a232d5f7fe00c237b870d8726c92a8"><div class="ttname"><a href="classqtreports_1_1detail_1_1_rect.html#ad4a232d5f7fe00c237b870d8726c92a8">qtreports::detail::Rect::~Rect</a></div><div class="ttdeci">~Rect()</div><div class="ttdef"><b>Definition:</b> rect.cpp:10</div></div>
+<div class="ttc" id="namespaceqtreports_html"><div class="ttname"><a href="namespaceqtreports.html">qtreports</a></div><div class="ttdef"><b>Definition:</b> engine.hpp:67</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_widget_html"><div class="ttname"><a href="classqtreports_1_1detail_1_1_widget.html">qtreports::detail::Widget</a></div><div class="ttdoc">Базовый класс для тэгов, которые подлежат отображению </div><div class="ttdef"><b>Definition:</b> widget.hpp:24</div></div>
+<div class="ttc" id="classqtreports_1_1detail_1_1_rect_html"><div class="ttname"><a href="classqtreports_1_1detail_1_1_rect.html">qtreports::detail::Rect</a></div><div class="ttdoc">Класс, реализующий тэг &lt;rect&gt; </div><div class="ttdef"><b>Definition:</b> rect.hpp:18</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
