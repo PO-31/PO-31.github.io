@@ -90,7 +90,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_band.html" target="_top" xlink:title="Класс, реализующий тэг &lt;band&gt; ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_band.html" target="_top" xlink:title="{qtreports::detail::Band\n|&#45; m_staticTexts\l&#45; m_textFields\l&#45; m_textWidgets\l&#45; m_lines\l&#45; m_rects\l&#45; m_ellipses\l&#45; m_images\l&#45; m_crosstabs\l|+ Band()\l+ ~Band()\l+ addCrosstab()\l+ getCrosstabs()\l+ getCrosstab()\l+ addStaticText()\l+ getStaticTexts()\l+ getStaticText()\l+ getStaticTextsSize()\l+ addTextField()\l+ getTextFields()\l+ getTextField()\l+ getTextFieldsSize()\l+ getTextWidgetsSize()\l+ getTextWidgets()\l+ addLine()\l+ getLine()\l+ getLinesSize()\l+ getLines()\l+ addRect()\l+ getRect()\l+ getRectsSize()\l+ getRects()\l+ addEllipse()\l+ getEllipse()\l+ getEllipsesSize()\l+ getEllipses()\l+ addImage()\l+ getImage()\l+ getImagesSize()\l+ getImages()\l}">
 <polygon fill="none" stroke="black" points="0,-138.5 0,-602.5 128,-602.5 128,-138.5 0,-138.5"/>
 <text text-anchor="middle" x="64" y="-590.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::Band</text>
 <polyline fill="none" stroke="black" points="0,-583.5 128,-583.5 "/>
@@ -207,7 +207,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_ellipse.html" target="_top" xlink:title="Класс, реализующий тэг &lt;ellipse&gt; ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_ellipse.html" target="_top" xlink:title="{qtreports::detail::\lEllipse\n||+ Ellipse()\l+ ~Ellipse()\l}">
 <polygon fill="none" stroke="black" points="462.5,-331 462.5,-410 561.5,-410 561.5,-331 462.5,-331"/>
 <text text-anchor="start" x="470.5" y="-398" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="512" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">Ellipse</text>
@@ -226,7 +226,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classqtreports_1_1detail_1_1_line.html" target="_top" xlink:title="Класс, реализующий тэг &lt;line&gt; ">
+<g id="a_node7"><a xlink:href="classqtreports_1_1detail_1_1_line.html" target="_top" xlink:title="{qtreports::detail::Line\n||+ Line()\l+ ~Line()\l}">
 <polygon fill="none" stroke="black" points="579.5,-336.5 579.5,-404.5 698.5,-404.5 698.5,-336.5 579.5,-336.5"/>
 <text text-anchor="middle" x="639" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::Line</text>
 <polyline fill="none" stroke="black" points="579.5,-385.5 698.5,-385.5 "/>
@@ -244,7 +244,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_rect.html" target="_top" xlink:title="Класс, реализующий тэг &lt;rect&gt; ">
+<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_rect.html" target="_top" xlink:title="{qtreports::detail::Rect\n||+ Rect()\l+ ~Rect()\l}">
 <polygon fill="none" stroke="black" points="716.5,-336.5 716.5,-404.5 835.5,-404.5 835.5,-336.5 716.5,-336.5"/>
 <text text-anchor="middle" x="776" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::Rect</text>
 <polyline fill="none" stroke="black" points="716.5,-385.5 835.5,-385.5 "/>
@@ -262,7 +262,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_text_widget.html" target="_top" xlink:title="Базовый класс для тегов, имеющих текстовое содержание. ">
+<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_text_widget.html" target="_top" xlink:title="{qtreports::detail::\lTextWidget\n|# m_text\l# m_originalText\l|+ TextWidget()\l+ ~TextWidget()\l+ setText()\l+ getText()\l+ setOriginalText()\l+ getOriginalText()\l}">
 <polygon fill="none" stroke="black" points="854,-303.5 854,-437.5 960,-437.5 960,-303.5 854,-303.5"/>
 <text text-anchor="start" x="862" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="907" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextWidget</text>
@@ -286,7 +286,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="Базовый класс для любого тэга ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}">
 <polygon fill="none" stroke="black" points="462.5,-1008.5 462.5,-1175.5 561.5,-1175.5 561.5,-1008.5 462.5,-1008.5"/>
 <text text-anchor="start" x="470.5" y="-1163.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="512" y="-1152.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>
@@ -313,7 +313,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_image.html" target="_top" xlink:title="Класс, реализующий тэг &lt;image&gt; ">
+<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_image.html" target="_top" xlink:title="{qtreports::detail::\lImage\n|&#45; m_image\l|+ Image()\l+ ~Image()\l+ setImage()\l+ getImage()\l}">
 <polygon fill="none" stroke="black" points="740.5,-0.5 740.5,-101.5 839.5,-101.5 839.5,-0.5 740.5,-0.5"/>
 <text text-anchor="start" x="748.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="790" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">Image</text>
@@ -334,7 +334,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classqtreports_1_1detail_1_1_static_text.html" target="_top" xlink:title="Класс, реализующий тэг &lt;staticText&gt; ">
+<g id="a_node11"><a xlink:href="classqtreports_1_1detail_1_1_static_text.html" target="_top" xlink:title="{qtreports::detail::\lStaticText\n||+ StaticText()\l+ ~StaticText()\l}">
 <polygon fill="none" stroke="black" points="857.5,-11.5 857.5,-90.5 956.5,-90.5 956.5,-11.5 857.5,-11.5"/>
 <text text-anchor="start" x="865.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="907" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">StaticText</text>
@@ -353,7 +353,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classqtreports_1_1detail_1_1_text_field.html" target="_top" xlink:title="Класс, реализующий тэг &lt;textField&gt; ">
+<g id="a_node12"><a xlink:href="classqtreports_1_1detail_1_1_text_field.html" target="_top" xlink:title="{qtreports::detail::\lTextField\n|&#45; m_className\l|+ TextField()\l+ ~TextField()\l+ setClassName()\l+ getClassName()\l}">
 <polygon fill="none" stroke="black" points="975,-0.5 975,-101.5 1081,-101.5 1081,-0.5 975,-0.5"/>
 <text text-anchor="start" x="983" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="1028" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextField</text>

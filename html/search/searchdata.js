@@ -9,8 +9,7 @@ var indexSectionsWithContent =
   6: "bcdefgilopqrstvw",
   7: "agvw",
   8: "acghlnoprs",
-  9: "bcdefgiloqrstvw",
-  10: "q"
+  9: "bcdefgiloqrstvw"
 };
 
 var indexSectionNames =
@@ -24,22 +23,20 @@ var indexSectionNames =
   6: "typedefs",
   7: "enums",
   8: "enumvalues",
-  9: "defines",
-  10: "pages"
+  9: "defines"
 };
 
 var indexSectionLabels =
 {
-  0: "Указатель",
-  1: "Классы",
-  2: "Пространства имен",
-  3: "Файлы",
-  4: "Функции",
-  5: "Переменные",
-  6: "Определения типов",
-  7: "Перечисления",
-  8: "Элементы перечислений",
-  9: "Макросы",
-  10: "Страницы"
+  0: "All",
+  1: "Classes",
+  2: "Namespaces",
+  3: "Files",
+  4: "Functions",
+  5: "Variables",
+  6: "Typedefs",
+  7: "Enumerations",
+  8: "Enumerator",
+  9: "Macros"
 };
 

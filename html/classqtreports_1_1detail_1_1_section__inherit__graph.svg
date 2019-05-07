@@ -76,7 +76,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_detail.html" target="_top" xlink:title="Класс, реализующий тэг &lt;detail&gt; ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_detail.html" target="_top" xlink:title="{qtreports::detail::\lDetail\n||+ Detail()\l+ ~Detail()\l}">
 <polygon fill="none" stroke="black" points="0,-44.5 0,-123.5 99,-123.5 99,-44.5 0,-44.5"/>
 <text text-anchor="start" x="8" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="49.5" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">Detail</text>
@@ -95,7 +95,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_group.html" target="_top" xlink:title="Класс, реализующий тэг &lt;group&gt; ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_group.html" target="_top" xlink:title="{qtreports::detail::\lGroup\n|&#45; m_expression\l&#45; m_header\l&#45; m_footer\l|+ Group()\l+ ~Group()\l+ setExpression()\l+ getExpression()\l+ setHeader()\l+ getHeader()\l+ setFooter()\l+ getFooter()\l}">
 <polygon fill="none" stroke="black" points="117,-0.5 117,-167.5 220,-167.5 220,-0.5 117,-0.5"/>
 <text text-anchor="start" x="125" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="168.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">Group</text>
@@ -122,7 +122,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_summary.html" target="_top" xlink:title="Класс, реализующий тэг ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_summary.html" target="_top" xlink:title="{qtreports::detail::\lSummary\n||+ Summary()\l+ ~Summary()\l}">
 <polygon fill="none" stroke="black" points="238,-44.5 238,-123.5 337,-123.5 337,-44.5 238,-44.5"/>
 <text text-anchor="start" x="246" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="287.5" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">Summary</text>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_title.html" target="_top" xlink:title="Класс, реализующий тэг &lt;title&gt; ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_title.html" target="_top" xlink:title="{qtreports::detail::\lTitle\n||+ Title()\l+ ~Title()\l}">
 <polygon fill="none" stroke="black" points="355,-44.5 355,-123.5 454,-123.5 454,-44.5 355,-44.5"/>
 <text text-anchor="start" x="363" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="404.5" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">Title</text>
@@ -160,7 +160,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="Базовый класс для любого тэга ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}">
 <polygon fill="none" stroke="black" points="178,-419.5 178,-586.5 277,-586.5 277,-419.5 178,-419.5"/>
 <text text-anchor="start" x="186" y="-574.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="227.5" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>

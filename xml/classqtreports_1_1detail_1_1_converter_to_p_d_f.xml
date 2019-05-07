@@ -10,7 +10,7 @@
         <argsstring></argsstring>
         <name>m_report</name>
         <briefdescription>
-<para>Объект класса ReportPtr. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -26,7 +26,7 @@
         <argsstring></argsstring>
         <name>m_lastError</name>
         <briefdescription>
-<para>Содержит информацию о последней ошибке, возникшей в процессе конвертации. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -42,9 +42,9 @@
         <argsstring></argsstring>
         <name>m_currentResolution</name>
         <briefdescription>
-<para>Значение текущего разрешения для PDF документа в DPI. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>По умолчанию установлено значение 75. </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="71" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="71" bodyend="-1"/>
@@ -58,9 +58,9 @@
         <argsstring></argsstring>
         <name>m_currentHeight</name>
         <briefdescription>
-<para>Значение текущей высоты кисти, рисующей на листе документа PDF. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Значение постоянно меняется в зависимости от высоты band. Например, если в отчете для band&apos;а, который отрисовывается в данный момент, значение параметра height равняется 35, то после отрисовки данного band&apos;а, кисть переместится вниз на 35 единиц. </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="79" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" bodystart="79" bodyend="-1"/>
@@ -116,20 +116,9 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>Запускает процесс конвертации. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Путь может быть полным или относительным, примеры: &quot;C:/example.pdf&quot; &quot;example.pdf&quot; <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">path</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Путь, по которому будет создан PDF документ. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если конвертация отчета в PDF прошла успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="39" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="19" bodyend="22"/>
@@ -146,17 +135,9 @@
           <declname>dpi</declname>
         </param>
         <briefdescription>
-<para>Устанавливает DPI. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">dpi</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение DPI. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="45" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="24" bodyend="27"/>
@@ -168,7 +149,7 @@
         <argsstring>() const </argsstring>
         <name>getDPI</name>
         <briefdescription>
-<para>Возвращает текущее значение DPI. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -182,7 +163,7 @@
         <argsstring>() const </argsstring>
         <name>getLastError</name>
         <briefdescription>
-<para>Возвращает строку, содержащую описание последней произошедшей ошибки. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -215,41 +196,9 @@
           <declname>detail</declname>
         </param>
         <briefdescription>
-<para>Добавляет группу в репорт. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Если не удалось добавить группу, вернет false. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">writer</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект QPdfWriter. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">painter</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект QPainter. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект ReportPtr. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">detail</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект DetailPtr. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если добавление группы прошло успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="90" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="338" bodyend="428"/>
@@ -267,20 +216,9 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>Конвертирует отчет в PDF документ. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Если не удалось конвертировать в PDF, вернет false. Информация об ошибке содержится в переменной m_lastError. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">path</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Путь к файлу PDF. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если конвертация прошла успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="99" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="34" bodyend="98"/>
@@ -313,42 +251,9 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Создает секцию. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Если не удалось создать секцию, вернет false. Информация об ошибке содержится в переменной m_lastError. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">writer</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект QPdfWriter. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">painter</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект QPainter. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">section</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект SectionPtr. SectionPtr может указывать на такие секции, как: <programlisting><codeline><highlight class="normal">title,<sp/>header,<sp/>footer,<sp/>detail<sp/></highlight></codeline>
-</programlisting>. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">i</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Индекс текущей секции. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если создание секции прошло успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="112" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="100" bodyend="116"/>
@@ -378,34 +283,9 @@
           <declname>section</declname>
         </param>
         <briefdescription>
-<para>Создает band. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">writer</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект QPdfWriter. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">painter</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект QPainter. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">section</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект SectionPtr. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если создание bsnd&apos;a прошло успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.hpp" line="121" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertopdf.cpp" bodystart="118" bodyend="331"/>
@@ -418,10 +298,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, используемый для конвертации документа в PDF формат. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para><simplesect kind="note"><para>Все функции данного класса, возвращающие bool, возвращают true в случае успеха либо false, если во время выполнения произошли ошибки. При этом с помощью метода <ref refid="classqtreports_1_1detail_1_1_converter_to_p_d_f_1a2d5862efb544884825efeafcf6fec683" kindref="member">getLastError()</ref> можно получить описание последней произошедшей ошибки.</para></simplesect>
-Класс, используемый для конвертации документа в PDF формат. Поддерживает установку DPI. </para>    </detaileddescription>
+    </detaileddescription>
     <collaborationgraph>
       <node id="211">
         <label>qtreports::detail::ConverterToPDF</label>

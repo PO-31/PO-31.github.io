@@ -63,7 +63,7 @@ var sectionId = 'dynsection-22';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" target="_top" xlink:title="Функция добавления группировок в отчет. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\laddGroupsIntoReport">
 <polygon fill="none" stroke="black" points="155,-44 155,-85 274,-85 274,-44 155,-44"/>
 <text text-anchor="start" x="163" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="163" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -78,7 +78,7 @@ var sectionId = 'dynsection-22';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" target="_top" xlink:title="Конвертирует отчет в QWidget. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lcreateQWidget">
 <polygon fill="none" stroke="black" points="310,-44 310,-85 429,-85 429,-44 310,-44"/>
 <text text-anchor="start" x="318" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="318" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -93,7 +93,7 @@ var sectionId = 'dynsection-22';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" target="_top" xlink:title="Конвертирует отчет в виджет. ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lconvert">
 <polygon fill="none" stroke="black" points="465,-44 465,-85 584,-85 584,-44 465,-44"/>
 <text text-anchor="start" x="473" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="473" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -108,7 +108,7 @@ var sectionId = 'dynsection-22';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" target="_top" xlink:title="Создает виджет отчета для вывода на экран. ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" target="_top" xlink:title="qtreports::Engine::\lcreateWidget">
 <polygon fill="none" stroke="black" points="620,-98.5 620,-128.5 725,-128.5 725,-98.5 620,-98.5"/>
 <text text-anchor="start" x="628" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="672.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">createWidget</text>

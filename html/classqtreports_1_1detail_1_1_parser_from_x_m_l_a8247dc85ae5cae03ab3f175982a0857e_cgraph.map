@@ -1,8 +1,8 @@
 <map id="qtreports::detail::ParserFromXML::parseReport" name="qtreports::detail::ParserFromXML::parseReport">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab1cbf7385fa2d56c5e8526bf97cda9b1" title="Вызывает функцию getAttribute с переданными параметрами и с параметром option &#45; &quot;обязательный аттрибу..." alt="" coords="259,5,463,61"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a478329a44761310039078ee6871a355d" title="Вызывает функцию getAttribute с переданными параметрами и с параметром option &#45; &quot;опциональный аттрибу..." alt="" coords="259,85,462,141"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f" title="Парсит дочерние тэги объекта object. " alt="" coords="259,165,462,206"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab1cbf7385fa2d56c5e8526bf97cda9b1" title="qtreports::detail::\lParserFromXML::getRequired\lAttribute" alt="" coords="259,5,463,61"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a478329a44761310039078ee6871a355d" title="qtreports::detail::\lParserFromXML::getOptional\lAttribute" alt="" coords="259,85,462,141"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f" title="qtreports::detail::\lParserFromXML::parseChilds" alt="" coords="259,165,462,206"/>
 <area shape="rect" id="node7" href="$namespaceqtreports_1_1detail.html#a3ce46912811f49a63ad2d9b6a5d310d3" title="qtreports::detail::\lisEquals" alt="" coords="295,230,427,271"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" title="Записывает в data значение аттрибута с именем name текущего тэга " alt="" coords="525,53,731,94"/>
-<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" title="Устанавлиает курсор reader(а) к к началу следующего тэга или к концу документа " alt="" coords="511,165,745,206"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" title="qtreports::detail::\lParserFromXML::getAttribute" alt="" coords="525,53,731,94"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" title="qtreports::detail::\lParserFromXML::goToElementEnd" alt="" coords="511,165,745,206"/>
 </map>

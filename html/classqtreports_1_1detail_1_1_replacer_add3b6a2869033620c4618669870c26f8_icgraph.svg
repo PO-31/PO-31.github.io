@@ -63,7 +63,7 @@ var sectionId = 'dynsection-25';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a626052332a0425d71f1f754824dc97dd" target="_top" xlink:title="Заменяет текст всех виджетов секции текстом с подставленными значениями параметров. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a626052332a0425d71f1f754824dc97dd" target="_top" xlink:title="qtreports::detail::\lReplacer::replaceParameters\lInSection">
 <polygon fill="none" stroke="black" points="190,-0.5 190,-41.5 344,-41.5 344,-0.5 190,-0.5"/>
 <text text-anchor="start" x="198" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="198" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replaceParameters</text>
@@ -78,7 +78,7 @@ var sectionId = 'dynsection-25';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a0755107511a830346c28a8e51bcf99e2" target="_top" xlink:title="Заменяет текст всех виджетов с текстом в отчете текстом с подставленными значениями параметров...">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a0755107511a830346c28a8e51bcf99e2" target="_top" xlink:title="qtreports::detail::\lReplacer::replaceParameters">
 <polygon fill="none" stroke="black" points="380,-6 380,-36 534,-36 534,-6 380,-6"/>
 <text text-anchor="start" x="388" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="457" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replaceParameters</text>

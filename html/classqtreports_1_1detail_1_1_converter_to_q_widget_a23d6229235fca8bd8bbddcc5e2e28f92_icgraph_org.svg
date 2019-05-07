@@ -17,7 +17,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" target="_top" xlink:title="Конвертирует отчет в QWidget. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lcreateQWidget">
 <polygon fill="none" stroke="black" points="620,-49.5 620,-90.5 739,-90.5 739,-49.5 620,-49.5"/>
 <text text-anchor="start" x="628" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="628" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -32,7 +32,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#aa3be16e037533a4a5b58596087207187" target="_top" xlink:title="Создает band. ">
+<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#aa3be16e037533a4a5b58596087207187" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lcreateBands">
 <polygon fill="none" stroke="black" points="155,-38.5 155,-79.5 274,-79.5 274,-38.5 155,-38.5"/>
 <text text-anchor="start" x="163" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="163" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -47,7 +47,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" target="_top" xlink:title="Конвертирует отчет в виджет. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lconvert">
 <polygon fill="none" stroke="black" points="775,-49.5 775,-90.5 894,-90.5 894,-49.5 775,-49.5"/>
 <text text-anchor="start" x="783" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="783" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -62,7 +62,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" target="_top" xlink:title="Создает виджет отчета для вывода на экран. ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" target="_top" xlink:title="qtreports::Engine::\lcreateWidget">
 <polygon fill="none" stroke="black" points="930,-104 930,-134 1035,-134 1035,-104 930,-104"/>
 <text text-anchor="start" x="938" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="982.5" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00">createWidget</text>
@@ -118,7 +118,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" target="_top" xlink:title="Создает секцию. ">
+<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lcreateSection">
 <polygon fill="none" stroke="black" points="310,-38.5 310,-79.5 429,-79.5 429,-38.5 310,-38.5"/>
 <text text-anchor="start" x="318" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="318" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -138,7 +138,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" target="_top" xlink:title="Функция добавления группировок в отчет. ">
+<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\laddGroupsIntoReport">
 <polygon fill="none" stroke="black" points="465,-0.5 465,-41.5 584,-41.5 584,-0.5 465,-0.5"/>
 <text text-anchor="start" x="473" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="473" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>

@@ -33,9 +33,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;staticText&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;staticText&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="325">
         <label>qtreports::detail::StaticText</label>

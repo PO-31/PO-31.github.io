@@ -1,4 +1,4 @@
 <map id="qtreports::detail::ConverterToQWidget::addEmptySection" name="qtreports::detail::ConverterToQWidget::addEmptySection">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a76bb37f2855d12afc9056c75cdbc5e0b" title="Проверяет, является ли виджет типа WidgetType::Layout. " alt="" coords="212,5,371,61"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a76bb37f2855d12afc9056c75cdbc5e0b" title="qtreports::detail::\lConverterToQWidget::\lisLayout" alt="" coords="212,5,371,61"/>
 <area shape="rect" id="node3" href="$namespaceqtreports_1_1detail.html#a57ac54d6807a30b13e419a3106735b19" title="qtreports::detail::\lcreateLayout" alt="" coords="225,85,357,126"/>
 </map>

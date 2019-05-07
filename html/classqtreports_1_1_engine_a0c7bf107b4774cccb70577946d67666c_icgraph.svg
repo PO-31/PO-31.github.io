@@ -30,7 +30,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" target="_top" xlink:title="Устанавливает источник данных для отчета из БД ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" target="_top" xlink:title="qtreports::Engine::\lsetConnection">
 <polygon fill="none" stroke="black" points="289.5,-49.5 289.5,-79.5 394.5,-79.5 394.5,-49.5 289.5,-49.5"/>
 <text text-anchor="start" x="297.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="342" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">setConnection</text>

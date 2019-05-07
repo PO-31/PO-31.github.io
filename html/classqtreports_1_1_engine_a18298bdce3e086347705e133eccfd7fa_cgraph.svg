@@ -62,7 +62,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a12cebdcb817b3c9a0c730b9439b2ff85" target="_top" xlink:title="Загружает макет отчета из файла path. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a12cebdcb817b3c9a0c730b9439b2ff85" target="_top" xlink:title="qtreports::Engine::open">
 <polygon fill="none" stroke="black" points="141,-128 141,-147 270,-147 270,-128 141,-128"/>
 <text text-anchor="middle" x="205.5" y="-135" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::open</text>
 </a>
@@ -75,7 +75,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1_engine.html#aa3bb792af61b2661226814de9c3881ea" target="_top" xlink:title="Возвращает true в случае учпешной загрузки отчета, иначе &#45; false. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1_engine.html#aa3bb792af61b2661226814de9c3881ea" target="_top" xlink:title="qtreports::Engine::\lisOpened">
 <polygon fill="none" stroke="black" points="331,-245.5 331,-275.5 436,-275.5 436,-245.5 331,-245.5"/>
 <text text-anchor="start" x="339" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="383.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">isOpened</text>
@@ -89,7 +89,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1_engine.html#a2a4b818b959aa56fedc37ffbdfae47f6" target="_top" xlink:title="Выгружает из оперативной памяти данные об отчете ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1_engine.html#a2a4b818b959aa56fedc37ffbdfae47f6" target="_top" xlink:title="qtreports::Engine::\lclose">
 <polygon fill="none" stroke="black" points="331,-196.5 331,-226.5 436,-226.5 436,-196.5 331,-196.5"/>
 <text text-anchor="start" x="339" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="383.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">close</text>
@@ -103,7 +103,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ac5de42ec7fdd07773b0435484df51c2e" target="_top" xlink:title="Парсит отчет и создает из него внутреннюю структуру данных Report. ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ac5de42ec7fdd07773b0435484df51c2e" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parse">
 <polygon fill="none" stroke="black" points="322,-147.5 322,-177.5 445,-177.5 445,-147.5 322,-147.5"/>
 <text text-anchor="start" x="330" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="383.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parse</text>
@@ -117,7 +117,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a39cecb46637a228bcc6135a2cc2eb7a9" target="_top" xlink:title="Возвращает описание последней произошедшей ошибки. ">
+<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a39cecb46637a228bcc6135a2cc2eb7a9" target="_top" xlink:title="qtreports::detail::\lParserFromXML::getLastError">
 <polygon fill="none" stroke="black" points="306,-98.5 306,-128.5 461,-128.5 461,-98.5 306,-98.5"/>
 <text text-anchor="start" x="314" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="383.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::getLastError</text>
@@ -131,7 +131,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a02bfc8c0470ec16ff1bb34a5b6b78981" target="_top" xlink:title="Возвращает указатель на внутреннюю структуру отчета. ">
+<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a02bfc8c0470ec16ff1bb34a5b6b78981" target="_top" xlink:title="qtreports::detail::\lParserFromXML::getReport">
 <polygon fill="none" stroke="black" points="312,-49.5 312,-79.5 455,-79.5 455,-49.5 312,-49.5"/>
 <text text-anchor="start" x="320" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="383.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::getReport</text>
@@ -145,7 +145,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a1fedf145e441f88832bd7f7e4b890e28" target="_top" xlink:title="Возвращает лог процесса парсинга. ">
+<g id="a_node11"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a1fedf145e441f88832bd7f7e4b890e28" target="_top" xlink:title="qtreports::detail::\lParserFromXML::getLog">
 <polygon fill="none" stroke="black" points="319,-0.5 319,-30.5 448,-30.5 448,-0.5 319,-0.5"/>
 <text text-anchor="start" x="327" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="383.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::getLog</text>
@@ -159,7 +159,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aa67a21faa016b0ef4686b22a390fd446" target="_top" xlink:title="Начинает парсинг документа ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aa67a21faa016b0ef4686b22a390fd446" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseDocument">
 <polygon fill="none" stroke="black" points="497,-147.5 497,-177.5 670,-177.5 670,-147.5 497,-147.5"/>
 <text text-anchor="start" x="505" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="583.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseDocument</text>
@@ -173,7 +173,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f" target="_top" xlink:title="Парсит дочерние тэги объекта object. ">
+<g id="a_node7"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseChilds">
 <polygon fill="none" stroke="black" points="706,-147.5 706,-177.5 858,-177.5 858,-147.5 706,-147.5"/>
 <text text-anchor="start" x="714" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="782" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseChilds</text>
@@ -187,7 +187,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" target="_top" xlink:title="Устанавлиает курсор reader(а) к к началу следующего тэга или к концу документа ">
+<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" target="_top" xlink:title="qtreports::detail::\lParserFromXML::goToElementEnd">
 <polygon fill="none" stroke="black" points="894,-147.5 894,-177.5 1070,-177.5 1070,-147.5 894,-147.5"/>
 <text text-anchor="start" x="902" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="982" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::goToElementEnd</text>

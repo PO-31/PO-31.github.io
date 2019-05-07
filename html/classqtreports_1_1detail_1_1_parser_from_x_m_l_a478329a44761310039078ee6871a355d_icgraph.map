@@ -1,11 +1,11 @@
 <map id="qtreports::detail::ParserFromXML::getOptionalAttribute" name="qtreports::detail::ParserFromXML::getOptionalAttribute">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8247dc85ae5cae03ab3f175982a0857e" title="Парсит тэг report. " alt="" coords="275,5,480,47"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a366e39f908935a618b137e7e27496c" title="Парсит тэг style. " alt="" coords="279,71,475,112"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a55d48b0d7875a6a4366c0e30f6cf5624" title="Парсит тэг Crosstab. " alt="" coords="267,136,488,177"/>
-<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a9f70ead2687f2b3fc8f21dd6bf85049f" title="Парсит тэг rowGroup. " alt="" coords="264,201,491,243"/>
-<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a400e9daf7e859228f6ac7419963bb808" title="Парсит тэг columnGroup. " alt="" coords="271,266,484,322"/>
-<area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aee6cb5359125988f68abfcd2f6fe4514" title="Парсит тэг ReportElement &#45; общие данные о элементе отчета (положение, размеры и пр.) " alt="" coords="275,346,480,402"/>
-<area shape="rect" id="node9" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe" title="Парсит тэг TextElement &#45; общие данные о текстовом элементе (выравнивание текста и пр..." alt="" coords="256,425,499,467"/>
-<area shape="rect" id="node10" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a4f7803080037058f482a499ebc1a51ee" title="Парсит font &#45; данные о шрифте текста " alt="" coords="281,491,473,532"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8247dc85ae5cae03ab3f175982a0857e" title="qtreports::detail::\lParserFromXML::parseReport" alt="" coords="275,5,480,47"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a366e39f908935a618b137e7e27496c" title="qtreports::detail::\lParserFromXML::parseStyle" alt="" coords="279,71,475,112"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a55d48b0d7875a6a4366c0e30f6cf5624" title="qtreports::detail::\lParserFromXML::parseCrosstab" alt="" coords="267,136,488,177"/>
+<area shape="rect" id="node6" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a9f70ead2687f2b3fc8f21dd6bf85049f" title="qtreports::detail::\lParserFromXML::parseRowGroup" alt="" coords="264,201,491,243"/>
+<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a400e9daf7e859228f6ac7419963bb808" title="qtreports::detail::\lParserFromXML::parseColumn\lGroup" alt="" coords="271,266,484,322"/>
+<area shape="rect" id="node8" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aee6cb5359125988f68abfcd2f6fe4514" title="qtreports::detail::\lParserFromXML::parseReport\lElement" alt="" coords="275,346,480,402"/>
+<area shape="rect" id="node9" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe" title="qtreports::detail::\lParserFromXML::parseTextElement" alt="" coords="256,425,499,467"/>
+<area shape="rect" id="node10" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a4f7803080037058f482a499ebc1a51ee" title="qtreports::detail::\lParserFromXML::parseFont" alt="" coords="281,491,473,532"/>
 <area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab548bd252b2e13a315daefae6b43f1d6" title="qtreports::detail::\lParserFromXML::ParserFromXML" alt="" coords="547,237,773,279"/>
 </map>

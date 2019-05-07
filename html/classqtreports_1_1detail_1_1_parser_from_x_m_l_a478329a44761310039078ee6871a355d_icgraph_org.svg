@@ -17,7 +17,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8247dc85ae5cae03ab3f175982a0857e" target="_top" xlink:title="Парсит тэг report. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a8247dc85ae5cae03ab3f175982a0857e" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseReport">
 <polygon fill="none" stroke="black" points="202,-364.5 202,-394.5 356,-394.5 356,-364.5 202,-364.5"/>
 <text text-anchor="start" x="210" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="279" y="-371.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseReport</text>
@@ -31,7 +31,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a366e39f908935a618b137e7e27496c" target="_top" xlink:title="Парсит тэг style. ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5a366e39f908935a618b137e7e27496c" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseStyle">
 <polygon fill="none" stroke="black" points="205.5,-315.5 205.5,-345.5 352.5,-345.5 352.5,-315.5 205.5,-315.5"/>
 <text text-anchor="start" x="213.5" y="-333.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="279" y="-322.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseStyle</text>
@@ -45,7 +45,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a55d48b0d7875a6a4366c0e30f6cf5624" target="_top" xlink:title="Парсит тэг Crosstab. ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a55d48b0d7875a6a4366c0e30f6cf5624" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseCrosstab">
 <polygon fill="none" stroke="black" points="196,-266.5 196,-296.5 362,-296.5 362,-266.5 196,-266.5"/>
 <text text-anchor="start" x="204" y="-284.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="279" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseCrosstab</text>
@@ -59,7 +59,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a9f70ead2687f2b3fc8f21dd6bf85049f" target="_top" xlink:title="Парсит тэг rowGroup. ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a9f70ead2687f2b3fc8f21dd6bf85049f" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseRowGroup">
 <polygon fill="none" stroke="black" points="194,-217.5 194,-247.5 364,-247.5 364,-217.5 194,-217.5"/>
 <text text-anchor="start" x="202" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="279" y="-224.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseRowGroup</text>
@@ -73,7 +73,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a400e9daf7e859228f6ac7419963bb808" target="_top" xlink:title="Парсит тэг columnGroup. ">
+<g id="a_node7"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a400e9daf7e859228f6ac7419963bb808" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseColumn\lGroup">
 <polygon fill="none" stroke="black" points="199,-158 199,-199 359,-199 359,-158 199,-158"/>
 <text text-anchor="start" x="207" y="-187" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="207" y="-176" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseColumn</text>
@@ -88,7 +88,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aee6cb5359125988f68abfcd2f6fe4514" target="_top" xlink:title="Парсит тэг ReportElement &#45; общие данные о элементе отчета (положение, размеры и пр.) ">
+<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#aee6cb5359125988f68abfcd2f6fe4514" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseReport\lElement">
 <polygon fill="none" stroke="black" points="202,-98 202,-139 356,-139 356,-98 202,-98"/>
 <text text-anchor="start" x="210" y="-127" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="210" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseReport</text>
@@ -103,7 +103,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe" target="_top" xlink:title="Парсит тэг TextElement &#45; общие данные о текстовом элементе (выравнивание текста и пр...">
+<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a3693d70428f413c6adb999bf0ad69abe" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseTextElement">
 <polygon fill="none" stroke="black" points="188,-49.5 188,-79.5 370,-79.5 370,-49.5 188,-49.5"/>
 <text text-anchor="start" x="196" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="279" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseTextElement</text>
@@ -117,7 +117,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a4f7803080037058f482a499ebc1a51ee" target="_top" xlink:title="Парсит font &#45; данные о шрифте текста ">
+<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a4f7803080037058f482a499ebc1a51ee" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseFont">
 <polygon fill="none" stroke="black" points="207,-0.5 207,-30.5 351,-30.5 351,-0.5 207,-0.5"/>
 <text text-anchor="start" x="215" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="279" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseFont</text>

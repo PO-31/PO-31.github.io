@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a2be57bd514335f9b9f2a520247562ce1" target="_top" xlink:title="Заменяет текст виджета текстом с подставленными значениями полей из источника данных. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a2be57bd514335f9b9f2a520247562ce1" target="_top" xlink:title="qtreports::detail::\lReplacer::replaceFieldInText\lWidget">
 <polygon fill="none" stroke="black" points="206,-60.5 206,-101.5 352,-101.5 352,-60.5 206,-60.5"/>
 <text text-anchor="start" x="214" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="214" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replaceFieldInText</text>
@@ -31,7 +31,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a4aeb7794f90c0be34a30ab60a6df1920" target="_top" xlink:title="На основе текста виджета вставляет в него изображение из источника данных. ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a4aeb7794f90c0be34a30ab60a6df1920" target="_top" xlink:title="qtreports::detail::\lReplacer::replaceFieldInImage\lWidget">
 <polygon fill="none" stroke="black" points="200,-0.5 200,-41.5 358,-41.5 358,-0.5 200,-0.5"/>
 <text text-anchor="start" x="208" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="208" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replaceFieldInImage</text>
@@ -46,7 +46,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd" target="_top" xlink:title="Возвращает текст с подставленными значениями полей из источника данных. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd" target="_top" xlink:title="qtreports::detail::\lReplacer::replaceField">
 <polygon fill="none" stroke="black" points="409,-66 409,-96 528,-96 528,-66 409,-66"/>
 <text text-anchor="start" x="417" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="468.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replaceField</text>
@@ -60,7 +60,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#ae1ac521aeaf5fdd694e79e2ae52d4704" target="_top" xlink:title="Возвращает изображение на основе первого найденного выражения. ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#ae1ac521aeaf5fdd694e79e2ae52d4704" target="_top" xlink:title="qtreports::detail::\lReplacer::replaceFieldImage">
 <polygon fill="none" stroke="black" points="394,-6 394,-36 543,-36 543,-6 394,-6"/>
 <text text-anchor="start" x="402" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="468.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replaceFieldImage</text>

@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" target="_top" xlink:title="Создает HTML документ при успешной конвертации репорта в HTML формат. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::convert">
 <polygon fill="none" stroke="black" points="178,-49.5 178,-79.5 320,-79.5 320,-49.5 178,-49.5"/>
 <text text-anchor="start" x="186" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="249" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::convert</text>
@@ -30,7 +30,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" target="_top" xlink:title="Создает HTML документ отчета по указанному пути ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" target="_top" xlink:title="qtreports::Engine::\lcreateHTML">
 <polygon fill="none" stroke="black" points="196.5,-0.5 196.5,-30.5 301.5,-30.5 301.5,-0.5 196.5,-0.5"/>
 <text text-anchor="start" x="204.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="249" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">createHTML</text>

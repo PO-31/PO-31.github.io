@@ -62,7 +62,7 @@ var sectionId = 'dynsection-54';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f" target="_top" xlink:title="Парсит дочерние тэги объекта object. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a905c36f37ab8c2833ab85e4d8c22716f" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseChilds">
 <polygon fill="none" stroke="black" points="179,-0.5 179,-30.5 331,-30.5 331,-0.5 179,-0.5"/>
 <text text-anchor="start" x="187" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="255" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseChilds</text>
@@ -76,7 +76,7 @@ var sectionId = 'dynsection-54';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" target="_top" xlink:title="Устанавлиает курсор reader(а) к к началу следующего тэга или к концу документа ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ace9dca09d283384d721c2a985991c9bf" target="_top" xlink:title="qtreports::detail::\lParserFromXML::goToElementEnd">
 <polygon fill="none" stroke="black" points="367,-0.5 367,-30.5 543,-30.5 543,-0.5 367,-0.5"/>
 <text text-anchor="start" x="375" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="455" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::goToElementEnd</text>

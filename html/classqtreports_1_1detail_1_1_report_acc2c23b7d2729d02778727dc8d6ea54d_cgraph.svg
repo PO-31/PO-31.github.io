@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#ad6d9cd7ef861c34b1982b7bec95873ed" target="_top" xlink:title="Возвращает размер отчета ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#ad6d9cd7ef861c34b1982b7bec95873ed" target="_top" xlink:title="qtreports::detail::\lReport::getSize">
 <polygon fill="none" stroke="black" points="137,-0.5 137,-30.5 236,-30.5 236,-0.5 137,-0.5"/>
 <text text-anchor="start" x="145" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="186.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::getSize</text>

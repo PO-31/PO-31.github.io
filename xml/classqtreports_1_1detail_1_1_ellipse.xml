@@ -33,9 +33,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;ellipse&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;ellipse&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="240">
         <label>qtreports::detail::Object</label>

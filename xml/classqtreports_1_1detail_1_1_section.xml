@@ -197,9 +197,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Базовый класс для тэгов &lt;title&gt;, &lt;detail&gt;,. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>и подобных.</para><para>Базовый класс для тэгов &lt;title&gt;, &lt;detail&gt;, </para><para>и подобных. </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="318">
         <label>qtreports::detail::Object</label>

@@ -17,7 +17,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a79b3db940ae07e1f3128371d529ca38b" target="_top" xlink:title="Считывает xml элемент в data. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a79b3db940ae07e1f3128371d529ca38b" target="_top" xlink:title="qtreports::detail::\lParserFromXML::getValue">
 <polygon fill="none" stroke="black" points="184,-6 184,-36 322,-36 322,-6 184,-6"/>
 <text text-anchor="start" x="192" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="253" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::getValue</text>

@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_widget.html#ae54170ff849693281af631b6296cccf5" target="_top" xlink:title="Возвращаем индекс стиля ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_widget.html#ae54170ff849693281af631b6296cccf5" target="_top" xlink:title="qtreports::detail::\lWidget::setBold">
 <polygon fill="none" stroke="black" points="135,-0.5 135,-30.5 234,-30.5 234,-0.5 135,-0.5"/>
 <text text-anchor="start" x="143" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="184.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Widget::setBold</text>

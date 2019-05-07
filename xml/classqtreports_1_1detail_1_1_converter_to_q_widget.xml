@@ -22,7 +22,7 @@
           </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Тип создаваемого виджета. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -37,7 +37,7 @@
         <argsstring></argsstring>
         <name>m_report</name>
         <briefdescription>
-<para>Указатель на отчет, который будет конвертироваться. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -55,7 +55,7 @@
         <argsstring></argsstring>
         <name>m_lastError</name>
         <briefdescription>
-<para>Содержит информацию о последней ошибке, возникшей в процессе конвертации. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -72,7 +72,7 @@
         <argsstring></argsstring>
         <name>m_qwidget</name>
         <briefdescription>
-<para>Указатель на создаваемый QWidget. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -87,10 +87,9 @@
         <argsstring></argsstring>
         <name>m_type</name>
         <briefdescription>
-<para>Содержит информацию о типе виждета. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">ConverterToQWidget::WidgetType</ref> </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="109" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" bodystart="109" bodyend="-1"/>
@@ -105,7 +104,7 @@
         <argsstring></argsstring>
         <name>m_pages</name>
         <briefdescription>
-<para>Содержит список страниц создаваемого виждета. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -122,10 +121,9 @@
         <argsstring></argsstring>
         <name>m_currentHeight</name>
         <briefdescription>
-<para>Содержит текущую высоту виджета. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">ConverterToQWidget::WidgetType</ref> </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="120" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" bodystart="120" bodyend="-1"/>
@@ -182,13 +180,9 @@
           <defval><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c" kindref="member">WidgetType::Report</ref></defval>
         </param>
         <briefdescription>
-<para>Конвертирует отчет в виджет. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>По умолчанию тип виджета <ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c" kindref="member">WidgetType::Report</ref>. <simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если конвертация отчета в виджет прошла успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-<simplesect kind="see"><para><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">ConverterToQWidget::WidgetType</ref> </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="45" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="24" bodyend="28"/>
@@ -205,13 +199,9 @@
         <argsstring>() const </argsstring>
         <name>isReport</name>
         <briefdescription>
-<para>Проверяет, является ли виджет типа <ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c" kindref="member">WidgetType::Report</ref>. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если виджет типа <ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7a4b1b4dc8cf38b3c64b1d657da8f5ac8c" kindref="member">WidgetType::Report</ref>, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-<simplesect kind="see"><para><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">ConverterToQWidget::WidgetType</ref> </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="53" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="30" bodyend="33"/>
@@ -225,13 +215,9 @@
         <argsstring>() const </argsstring>
         <name>isLayout</name>
         <briefdescription>
-<para>Проверяет, является ли виджет типа <ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7aebd9bec4d70abc789d439c1f136b0538" kindref="member">WidgetType::Layout</ref>. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если виджет типа <ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7aebd9bec4d70abc789d439c1f136b0538" kindref="member">WidgetType::Layout</ref>, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-<simplesect kind="see"><para><ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget_1a5a1a0eee82b83313e90b505536a527f7" kindref="member">ConverterToQWidget::WidgetType</ref> </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="61" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="35" bodyend="38"/>
@@ -251,7 +237,7 @@
         <argsstring>() const </argsstring>
         <name>getType</name>
         <briefdescription>
-<para>Возвращает текущий тип виджета. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -265,10 +251,9 @@
         <argsstring>() const </argsstring>
         <name>getQWidget</name>
         <briefdescription>
-<para>Возвращает указатель на объект QWidget. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Если объект QWidget не был создан, то возвращается<programlisting><codeline><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="72" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="45" bodyend="48"/>
@@ -286,7 +271,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Возвращает указатель страницы виджета по индексу. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -300,7 +285,7 @@
         <argsstring>() const </argsstring>
         <name>getPages</name>
         <briefdescription>
-<para>Возвращает список всех страниц виджета. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -315,7 +300,7 @@
         <argsstring>() const </argsstring>
         <name>getLastError</name>
         <briefdescription>
-<para>Возвращает информацию о последней ошибке, возникшей в процессе конвертации. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -346,31 +331,9 @@
           <declname>height</declname>
         </param>
         <briefdescription>
-<para>Добавляет вертикальную границу. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>parent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на QBoxLayout, на который добавляется вертикальная граница. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>margins</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Содержит информацию об отступах для данного QBoxLayout. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>height</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Значение высоты секции. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="128" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="78" bodyend="100"/>
@@ -392,24 +355,9 @@
           <declname>margins</declname>
         </param>
         <briefdescription>
-<para>Добавляет пустую секцию. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>parent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на QBoxLayout, на который пустая секция. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>margins</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Содержит информацию об отступах для данного QBoxLayout. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="135" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="102" bodyend="123"/>
@@ -435,31 +383,9 @@
           <declname>height</declname>
         </param>
         <briefdescription>
-<para>Добавляет секцию. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>parent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на QBoxLayout, на который добавляется секция. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>margins</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Содержит информацию об отступах для данного QBoxLayout. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>height</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Значение высоты секции. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="143" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="125" bodyend="151"/>
@@ -474,7 +400,7 @@
         <argsstring>()</argsstring>
         <name>addPage</name>
         <briefdescription>
-<para>Добавляет новую страницу на виджет. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -503,32 +429,9 @@
           <declname>layout</declname>
         </param>
         <briefdescription>
-<para>Функция добавления группировок в отчет. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет, с которым ведется работа. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>detail</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на блок detail, в котором будут отображаться данные. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>layout</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на layout, который является непосредственным контейнером данных. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>true, если добавление группы произошло успешно, иначе false. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="158" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="216" bodyend="312"/>
@@ -549,18 +452,9 @@
           <declname>report</declname>
         </param>
         <briefdescription>
-<para>Конвертирует отчет в QWidget. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет, с которым ведется работа. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>true, если добавление группы произошло успешно, иначе false. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="165" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="161" bodyend="214"/>
@@ -594,35 +488,9 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Создает секцию. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Если не удалось создать секцию, вернет false. Информация об ошибке содержится в переменной m_lastError. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>parent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>указатель на объект QWidget, на котором создается секция. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>section</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект SectionPtr. SectionPtr может указывать на такие секции, как: <programlisting><codeline><highlight class="normal">title,<sp/>header,<sp/>footer,<sp/>detail<sp/></highlight></codeline>
-</programlisting>. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>i</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Индекс текущей секции. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если создание секции прошло успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="177" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="315" bodyend="342"/>
@@ -649,27 +517,9 @@
           <declname>section</declname>
         </param>
         <briefdescription>
-<para>Создает band. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>parent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>указатель на объект QWidget, на котором создается band. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">section</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект SectionPtr. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>, если создание bsnd&apos;a прошло успешно, иначе<programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting>. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.hpp" line="185" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertoqwidget.cpp" bodystart="344" bodyend="649"/>
@@ -686,7 +536,7 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс <ref refid="classqtreports_1_1detail_1_1_converter_to_q_widget" kindref="compound">ConverterToQWidget</ref> Класс Для преобразования отчета в объект типа QWidget. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>

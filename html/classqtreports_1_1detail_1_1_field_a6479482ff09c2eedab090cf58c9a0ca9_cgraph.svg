@@ -44,7 +44,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_field.html#a53c646a9e83d661e7d19654632e764aa" target="_top" xlink:title="Получить количество строк в &lt;field&gt; ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_field.html#a53c646a9e83d661e7d19654632e764aa" target="_top" xlink:title="qtreports::detail::\lField::getRowCount">
 <polygon fill="none" stroke="black" points="135,-0.5 135,-30.5 241,-30.5 241,-0.5 135,-0.5"/>
 <text text-anchor="start" x="143" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="188" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Field::getRowCount</text>

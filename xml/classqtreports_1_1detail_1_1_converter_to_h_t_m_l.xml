@@ -10,7 +10,7 @@
         <argsstring></argsstring>
         <name>m_report</name>
         <briefdescription>
-<para>Объект класса ReportPtr. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -27,7 +27,7 @@
         <argsstring></argsstring>
         <name>m_lastError</name>
         <briefdescription>
-<para>Содержит информацию о последней ошибке, возникшей в процессе конвертации. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -44,7 +44,7 @@
         <argsstring></argsstring>
         <name>m_html</name>
         <briefdescription>
-<para>Содержит текст документа в формате HTML. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -61,7 +61,7 @@
         <argsstring></argsstring>
         <name>m_defaultStyleName</name>
         <briefdescription>
-<para>Содержит название стиля по умолчанию. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -117,13 +117,9 @@
         <argsstring>()</argsstring>
         <name>convert</name>
         <briefdescription>
-<para>Запускает процесс конвертации репорта в HTML формат. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если конвертация прошла успешно. </para></simplesect>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если конвертация не удалась. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="31" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="17" bodyend="19"/>
@@ -141,21 +137,9 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>Создает HTML документ при успешной конвертации репорта в HTML формат. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Путь может быть полным или относительным, примеры: &quot;C:/example.html&quot; &quot;example.html&quot;</para><para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">path</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Путь, по которому будет создан HTML документ.</para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если создание файла прошло успешно. </para></simplesect>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если создание файла не удалось. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="43" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="21" bodyend="43"/>
@@ -169,10 +153,9 @@
         <argsstring>() const </argsstring>
         <name>getLastError</name>
         <briefdescription>
-<para>Получить описание последней произошедшей ошибки. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>Строка с описанием последней произошедшей ошибки. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="50" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="603" bodyend="605"/>
@@ -185,10 +168,9 @@
         <argsstring>() const </argsstring>
         <name>getHTML</name>
         <briefdescription>
-<para>Получить документ в HTML формате. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>Строка с документом в HTML формате. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="57" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="607" bodyend="609"/>
@@ -202,13 +184,9 @@
         <argsstring>()</argsstring>
         <name>createHTML</name>
         <briefdescription>
-<para>Процесс конвертации репорта в HTML формат. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если конвертация прошла успешно. </para></simplesect>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если конвертация не удалась. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="87" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="45" bodyend="199"/>
@@ -235,21 +213,9 @@
           <declname>detail</declname>
         </param>
         <briefdescription>
-<para>Добавление &lt;group&gt; в документ HTML. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">detail</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_detail" kindref="compound">Detail</ref>.</para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если добавление прошло успешно. </para></simplesect>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если добавление не удалось. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="97" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="201" bodyend="293"/>
@@ -272,29 +238,9 @@
           <declname>sectionIndex</declname>
         </param>
         <briefdescription>
-<para>Добавление &lt;band&gt; в документ HTML. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">section</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_section" kindref="compound">Section</ref>, который содержит объект <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref>. Может указывать на такие секции, как: <programlisting><codeline><highlight class="normal">title,<sp/>header,<sp/>footer,<sp/>detail<sp/></highlight></codeline>
-</programlisting> </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">sectionIndex</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Индекс конкретной секции.</para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если добавление прошло успешно. </para></simplesect>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если добавление не удалось. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="110" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="295" bodyend="401"/>
@@ -323,25 +269,9 @@
           <declname>elementStr</declname>
         </param>
         <briefdescription>
-<para>Добавление объекта Shape в документ HTML. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">band</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref>, который содержит объект Shape: <programlisting><codeline><highlight class="normal">image,<sp/>line,<sp/>rect,<sp/>ellipse<sp/></highlight></codeline>
-</programlisting> </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="out">elemenStr</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Строка с содержимым band. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="119" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="403" bodyend="530"/>
@@ -361,28 +291,9 @@
           <declname>elementStr</declname>
         </param>
         <briefdescription>
-<para>Добавление объектов <ref refid="classqtreports_1_1detail_1_1_crosstab" kindref="compound">Crosstab</ref> в документ HTML. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">band</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Ссылка на объект <ref refid="classqtreports_1_1detail_1_1_band" kindref="compound">Band</ref>, который содержит объекты <ref refid="classqtreports_1_1detail_1_1_crosstab" kindref="compound">Crosstab</ref>. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="out">elemenStr</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Строка с содержимым band. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">true</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если добавление прошло успешно. </para></simplesect>
-<simplesect kind="return"><para><programlisting><codeline><highlight class="keyword">false</highlight><highlight class="normal"><sp/></highlight></codeline>
-</programlisting> если добавление не удалось. </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.hpp" line="128" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/convertertohtml.cpp" bodystart="532" bodyend="601"/>
@@ -395,7 +306,7 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, используемый для конвертации репорта в HTML формат. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>

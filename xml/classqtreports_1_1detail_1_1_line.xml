@@ -33,9 +33,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;line&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;line&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="266">
         <label>qtreports::detail::Line</label>

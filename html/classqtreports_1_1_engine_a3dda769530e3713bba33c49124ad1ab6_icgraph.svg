@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" target="_top" xlink:title="Устанавливает источник данных для отчета из БД ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" target="_top" xlink:title="qtreports::Engine::\lsetConnection">
 <polygon fill="none" stroke="black" points="148.5,-49.5 148.5,-79.5 253.5,-79.5 253.5,-49.5 148.5,-49.5"/>
 <text text-anchor="start" x="156.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="201" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">setConnection</text>

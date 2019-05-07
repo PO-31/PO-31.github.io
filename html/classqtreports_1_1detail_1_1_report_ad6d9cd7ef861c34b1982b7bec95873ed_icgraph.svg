@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a257b935d6c7f136c46bdb3d4bf806041" target="_top" xlink:title="Возвращает ширину отчета ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a257b935d6c7f136c46bdb3d4bf806041" target="_top" xlink:title="qtreports::detail::\lReport::getWidth">
 <polygon fill="none" stroke="black" points="136,-49.5 136,-79.5 235,-79.5 235,-49.5 136,-49.5"/>
 <text text-anchor="start" x="144" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="185.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::getWidth</text>
@@ -30,7 +30,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_report.html#acc2c23b7d2729d02778727dc8d6ea54d" target="_top" xlink:title="Возвращает высоту отчета ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_report.html#acc2c23b7d2729d02778727dc8d6ea54d" target="_top" xlink:title="qtreports::detail::\lReport::getHeight">
 <polygon fill="none" stroke="black" points="135,-0.5 135,-30.5 236,-30.5 236,-0.5 135,-0.5"/>
 <text text-anchor="start" x="143" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="185.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::getHeight</text>

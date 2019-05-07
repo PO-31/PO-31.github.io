@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#aaa6cf15a91127d493bc03603454bfbbb" target="_top" xlink:title="Устанавливает левый отступ ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#aaa6cf15a91127d493bc03603454bfbbb" target="_top" xlink:title="qtreports::detail::\lReport::setLeftMargin">
 <polygon fill="none" stroke="black" points="151,-147.5 151,-177.5 270,-177.5 270,-147.5 151,-147.5"/>
 <text text-anchor="start" x="159" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="210.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::setLeftMargin</text>
@@ -30,7 +30,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a18e54847516cafc89b302e22ae67412d" target="_top" xlink:title="Устанавливает верхний отступ ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a18e54847516cafc89b302e22ae67412d" target="_top" xlink:title="qtreports::detail::\lReport::setTopMargin">
 <polygon fill="none" stroke="black" points="152.5,-98.5 152.5,-128.5 268.5,-128.5 268.5,-98.5 152.5,-98.5"/>
 <text text-anchor="start" x="160.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="210.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::setTopMargin</text>
@@ -44,7 +44,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a7ad10c84c5e8fe2483433f9f54abd0bb" target="_top" xlink:title="Устанавливает правый отступ ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a7ad10c84c5e8fe2483433f9f54abd0bb" target="_top" xlink:title="qtreports::detail::\lReport::setRightMargin">
 <polygon fill="none" stroke="black" points="148,-49.5 148,-79.5 273,-79.5 273,-49.5 148,-49.5"/>
 <text text-anchor="start" x="156" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="210.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::setRightMargin</text>
@@ -58,7 +58,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_report.html#ab7d00202111001a7e5bca8c2a4ae77bd" target="_top" xlink:title="Устанавливает нижний отступ ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_report.html#ab7d00202111001a7e5bca8c2a4ae77bd" target="_top" xlink:title="qtreports::detail::\lReport::setBottomMargin">
 <polygon fill="none" stroke="black" points="142,-0.5 142,-30.5 279,-30.5 279,-0.5 142,-0.5"/>
 <text text-anchor="start" x="150" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="210.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::setBottomMargin</text>

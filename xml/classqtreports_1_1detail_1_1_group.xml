@@ -88,17 +88,9 @@
           <declname>text</declname>
         </param>
         <briefdescription>
-<para>Устанавливает &lt;groupExpression&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Значение &lt;groupExpression&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="29" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="10" bodyend="13"/>
@@ -110,7 +102,7 @@
         <argsstring>() const </argsstring>
         <name>getExpression</name>
         <briefdescription>
-<para>Возвращает значение &lt;groupExpression&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -128,17 +120,9 @@
           <declname>header</declname>
         </param>
         <briefdescription>
-<para>Устанавливает &lt;groupHeader&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">header</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;groupHeader&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="40" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="20" bodyend="23"/>
@@ -150,7 +134,7 @@
         <argsstring>() const </argsstring>
         <name>getHeader</name>
         <briefdescription>
-<para>Возвращает указатель на &lt;groupHeader&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -168,17 +152,9 @@
           <declname>footer</declname>
         </param>
         <briefdescription>
-<para>Устанавливает &lt;groupFooter&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">footer</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;groupFooter&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.hpp" line="51" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/group.cpp" bodystart="30" bodyend="33"/>
@@ -190,7 +166,7 @@
         <argsstring>() const </argsstring>
         <name>getFooter</name>
         <briefdescription>
-<para>Возвращает указатель на &lt;groupFooter&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -200,9 +176,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;group&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;group&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="254">
         <label>qtreports::detail::Object</label>

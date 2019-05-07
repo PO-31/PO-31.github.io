@@ -804,6 +804,4 @@
   </compound>
   <compound refid="dir_80f99c00af8443f5fede38a31e95e422" kind="dir"><name>/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils</name>
   </compound>
-  <compound refid="indexpage" kind="page"><name>index</name>
-  </compound>
 </doxygenindex>

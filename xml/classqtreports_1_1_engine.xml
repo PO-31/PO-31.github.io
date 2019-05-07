@@ -183,17 +183,9 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>Загружает макет отчета из файла path. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">path</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>полное имя макета отчета </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="88" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="31" bodyend="54"/>
@@ -215,7 +207,7 @@
         <argsstring>()</argsstring>
         <name>close</name>
         <briefdescription>
-<para>Выгружает из оперативной памяти данные об отчете </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -236,17 +228,9 @@
           <declname>map</declname>
         </param>
         <briefdescription>
-<para>Передает карту параметров в отчет, для успешной передачи параметров не обязатеьно загружать их описание с макетом отчета </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">map</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>карта параметров в формате (&lt; имя=&quot;&quot; параметра&gt;=&quot;&quot;&gt;, &lt; значение=&quot;&quot; параметра&gt;=&quot;&quot;&gt;) </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="99" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="63" bodyend="74"/>
@@ -263,17 +247,9 @@
           <declname>connection</declname>
         </param>
         <briefdescription>
-<para>Устанавливает источник данных для отчета из БД </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">connection</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>соединение с БД </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="105" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="76" bodyend="110"/>
@@ -292,17 +268,9 @@
           <declname>columnsSet</declname>
         </param>
         <briefdescription>
-<para>Устанавливает источник данных для отчета из таблицы полей </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">columnsSet</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>набор данных в формате (&lt; имя=&quot;&quot; столбца&gt;=&quot;&quot;&gt;, &lt; вектор=&quot;&quot; значений=&quot;&quot; столбца&gt;=&quot;&quot;&gt;) </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="111" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="112" bodyend="134"/>
@@ -319,17 +287,9 @@
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Устанавливает запрос, по которому будут заполнятся поля отчета </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>запрос </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="117" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="136" bodyend="154"/>
@@ -347,17 +307,9 @@
           <declname>script</declname>
         </param>
         <briefdescription>
-<para>Добавить скрипт для отчета </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">script</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>скрипт </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="123" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="156" bodyend="162"/>
@@ -390,17 +342,9 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>Создает PDF документ отчета по указанному пути </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">path</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>полное имя выходного документа </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="130" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="171" bodyend="188"/>
@@ -419,17 +363,9 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>Создает HTML документ отчета по указанному пути </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">path</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>полное имя выходного документа </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/include/qtreports/engine.hpp" line="136" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/engine.cpp" bodystart="190" bodyend="207"/>
@@ -444,7 +380,7 @@
         <argsstring>()</argsstring>
         <name>createWidget</name>
         <briefdescription>
-<para>Создает виджет отчета для вывода на экран. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -499,7 +435,7 @@
         <argsstring>() const </argsstring>
         <name>isOpened</name>
         <briefdescription>
-<para>Возвращает true в случае учпешной загрузки отчета, иначе - false. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>

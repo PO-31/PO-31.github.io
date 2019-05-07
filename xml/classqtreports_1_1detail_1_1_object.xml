@@ -84,17 +84,9 @@
           <declname>name</declname>
         </param>
         <briefdescription>
-<para>Конструктор, создается обьект с именем </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">name</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Имя обьекта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="27" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="11" bodyend="12"/>
@@ -122,17 +114,9 @@
           <declname>name</declname>
         </param>
         <briefdescription>
-<para>Устанавливает значение атрибута name. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">name</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Значение атрибута name </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="34" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="16" bodyend="18"/>
@@ -144,7 +128,7 @@
         <argsstring>() const </argsstring>
         <name>getName</name>
         <briefdescription>
-<para>Возвращает значение атрибута name. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -162,17 +146,9 @@
           <declname>name</declname>
         </param>
         <briefdescription>
-<para>Устанавливает название тэга </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">name</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Название тэга </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.hpp" line="45" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/object.cpp" bodystart="20" bodyend="22"/>
@@ -184,7 +160,7 @@
         <argsstring>() const </argsstring>
         <name>getTagName</name>
         <briefdescription>
-<para>Возвращает название тэга </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -198,7 +174,7 @@
         <argsstring>() const </argsstring>
         <name>getLastError</name>
         <briefdescription>
-<para>Возвращает описание последней ошибки </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -208,9 +184,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Базовый класс для любого тэга </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Базовый класс для любого тэга </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="295">
         <label>qtreports::detail::Image</label>

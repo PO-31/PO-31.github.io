@@ -63,24 +63,9 @@
           <declname>report</declname>
         </param>
         <briefdescription>
-<para>Возвращает текст с подставленными значениями параметров. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Исходный текст </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="31" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="19" bodyend="33"/>
@@ -101,24 +86,9 @@
           <declname>report</declname>
         </param>
         <briefdescription>
-<para>Заменяет текст виджета текстом с подставленными значениями параметров. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Перегружанная функция, предоставленная для удобства. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">widget</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на виджет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="39" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="35" bodyend="42"/>
@@ -139,24 +109,9 @@
           <declname>report</declname>
         </param>
         <briefdescription>
-<para>Заменяет текст всех виджетов секции текстом с подставленными значениями параметров. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Перегружанная функция, предоставленная для удобства. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">section</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на секцию </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="47" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="44" bodyend="64"/>
@@ -174,17 +129,9 @@
           <declname>report</declname>
         </param>
         <briefdescription>
-<para>Заменяет текст всех виджетов с текстом в отчете текстом с подставленными значениями параметров. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Перегружанная функция, предоставленная для удобства. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="55" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="66" bodyend="99"/>
@@ -209,31 +156,9 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Возвращает текст с подставленными значениями полей из источника данных. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Исходный текст </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">i</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Текущая строка </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="63" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="101" bodyend="115"/>
@@ -264,31 +189,9 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Возвращает изображение на основе первого найденного выражения. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Исходный текст </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">i</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Текущая строка </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="71" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="117" bodyend="131"/>
@@ -484,31 +387,9 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Заменяет текст виджета текстом с подставленными значениями полей из источника данных. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Перегружанная функция, предоставленная для удобства. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">widget</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на виджет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">i</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Текущая строка </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="92" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="240" bodyend="247"/>
@@ -533,31 +414,9 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>На основе текста виджета вставляет в него изображение из источника данных. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Перегружанная функция, предоставленная для удобства. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">widget</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на виджет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">i</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Текущая строка </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="101" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="249" bodyend="257"/>
@@ -582,31 +441,9 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Заменяет текст всех виджетов секции текстом с подставленными значениями полей из источника данных. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Перегружанная функция, предоставленная для удобства. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">section</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на секцию </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">i</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Текущая строка </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="111" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="259" bodyend="287"/>
@@ -633,31 +470,9 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Заменяет текст всех виджетов секции текстом с подставленными значениями. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Перегружанная функция, предоставленная для удобства. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">section</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на секцию </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">report</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на отчет </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="in">i</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Текущая строка </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.hpp" line="121" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/converters/utils/replacer.cpp" bodystart="289" bodyend="301"/>
@@ -673,7 +488,7 @@
         <argsstring>() const </argsstring>
         <name>getLastError</name>
         <briefdescription>
-<para>Возвращает описание последней произошедшей ошибки. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -686,9 +501,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, заменяющий параметры на реальные значения. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, заменяющий параметры на реальные значения в тэгах, производных от <ref refid="classqtreports_1_1detail_1_1_text_widget" kindref="compound">TextWidget</ref> </para>    </detaileddescription>
+    </detaileddescription>
     <collaborationgraph>
       <node id="312">
         <label>qtreports::detail::Replacer</label>

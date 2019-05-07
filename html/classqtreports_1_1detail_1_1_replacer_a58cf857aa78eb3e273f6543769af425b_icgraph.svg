@@ -62,7 +62,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#af7ccb83be264f7c72b7485cf38455450" target="_top" xlink:title="Заменяет текст всех виджетов секции текстом с подставленными значениями. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#af7ccb83be264f7c72b7485cf38455450" target="_top" xlink:title="qtreports::detail::\lReplacer::replace">
 <polygon fill="none" stroke="black" points="200,-149.5 200,-179.5 299,-179.5 299,-149.5 200,-149.5"/>
 <text text-anchor="start" x="208" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="249.5" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replace</text>
@@ -76,7 +76,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" target="_top" xlink:title="Добавление &lt;band&gt; в документ HTML. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::addBand">
 <polygon fill="none" stroke="black" points="342.5,-220.5 342.5,-250.5 491.5,-250.5 491.5,-220.5 342.5,-220.5"/>
 <text text-anchor="start" x="350.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="417" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addBand</text>
@@ -90,7 +90,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c" target="_top" xlink:title="Создает секцию. ">
+<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c" target="_top" xlink:title="qtreports::detail::\lConverterToPDF::createSection">
 <polygon fill="none" stroke="black" points="335,-149.5 335,-179.5 499,-179.5 499,-149.5 335,-149.5"/>
 <text text-anchor="start" x="343" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="417" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToPDF::createSection</text>
@@ -104,7 +104,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" target="_top" xlink:title="Создает секцию. ">
+<g id="a_node14"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a3c95daf9bd10efc4feb71e0d976bbd6e" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lcreateSection">
 <polygon fill="none" stroke="black" points="357.5,-68 357.5,-109 476.5,-109 476.5,-68 357.5,-68"/>
 <text text-anchor="start" x="365.5" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="365.5" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -119,7 +119,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" target="_top" xlink:title="Процесс конвертации репорта в HTML формат. ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::createHTML">
 <polygon fill="none" stroke="black" points="739,-229.5 739,-259.5 902,-259.5 902,-229.5 739,-229.5"/>
 <text text-anchor="start" x="747" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="820.5" y="-236.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::createHTML</text>
@@ -133,7 +133,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" target="_top" xlink:title="Добавление &lt;group&gt; в документ HTML. ">
+<g id="a_node8"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::addGroups\lIntoReport">
 <polygon fill="none" stroke="black" points="540,-215 540,-256 698,-256 698,-215 540,-215"/>
 <text text-anchor="start" x="548" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="548" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addGroups</text>
@@ -148,7 +148,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" target="_top" xlink:title="Запускает процесс конвертации репорта в HTML формат. ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::convert">
 <polygon fill="none" stroke="black" points="938,-229.5 938,-259.5 1080,-259.5 1080,-229.5 938,-229.5"/>
 <text text-anchor="start" x="946" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="1009" y="-236.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::convert</text>
@@ -162,7 +162,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" target="_top" xlink:title="Создает HTML документ при успешной конвертации репорта в HTML формат. ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::convert">
 <polygon fill="none" stroke="black" points="1116,-272.5 1116,-302.5 1258,-302.5 1258,-272.5 1116,-272.5"/>
 <text text-anchor="start" x="1124" y="-290.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="1187" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::convert</text>
@@ -176,7 +176,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" target="_top" xlink:title="Создает HTML документ отчета по указанному пути ">
+<g id="a_node7"><a xlink:href="classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" target="_top" xlink:title="qtreports::Engine::\lcreateHTML">
 <polygon fill="none" stroke="black" points="1134.5,-223.5 1134.5,-253.5 1239.5,-253.5 1239.5,-223.5 1134.5,-223.5"/>
 <text text-anchor="start" x="1142.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="1187" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">createHTML</text>
@@ -195,7 +195,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aad8435572f5ba065f8f2fef428d97b22" target="_top" xlink:title="Конвертирует отчет в PDF документ. ">
+<g id="a_node10"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aad8435572f5ba065f8f2fef428d97b22" target="_top" xlink:title="qtreports::detail::\lConverterToPDF::create">
 <polygon fill="none" stroke="black" points="756.5,-162.5 756.5,-192.5 884.5,-192.5 884.5,-162.5 756.5,-162.5"/>
 <text text-anchor="start" x="764.5" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="820.5" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToPDF::create</text>
@@ -209,7 +209,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff" target="_top" xlink:title="Добавляет группу в репорт. ">
+<g id="a_node13"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff" target="_top" xlink:title="qtreports::detail::\lConverterToPDF::addGroupsInto\lReport">
 <polygon fill="none" stroke="black" points="535,-117 535,-158 703,-158 703,-117 535,-117"/>
 <text text-anchor="start" x="543" y="-146" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="543" y="-135" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToPDF::addGroupsInto</text>
@@ -224,7 +224,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb" target="_top" xlink:title="Запускает процесс конвертации. ">
+<g id="a_node11"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb" target="_top" xlink:title="qtreports::detail::\lConverterToPDF::convert">
 <polygon fill="none" stroke="black" points="942,-162.5 942,-192.5 1076,-192.5 1076,-162.5 942,-162.5"/>
 <text text-anchor="start" x="950" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="1009" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToPDF::convert</text>
@@ -238,7 +238,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" target="_top" xlink:title="Создает PDF документ отчета по указанному пути ">
+<g id="a_node12"><a xlink:href="classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" target="_top" xlink:title="qtreports::Engine::\lcreatePDF">
 <polygon fill="none" stroke="black" points="1134.5,-162.5 1134.5,-192.5 1239.5,-192.5 1239.5,-162.5 1134.5,-162.5"/>
 <text text-anchor="start" x="1142.5" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="1187" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00">createPDF</text>
@@ -257,7 +257,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" target="_top" xlink:title="Конвертирует отчет в QWidget. ">
+<g id="a_node15"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lcreateQWidget">
 <polygon fill="none" stroke="black" points="761,-44 761,-85 880,-85 880,-44 761,-44"/>
 <text text-anchor="start" x="769" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="769" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -272,7 +272,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" target="_top" xlink:title="Функция добавления группировок в отчет. ">
+<g id="a_node21"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\laddGroupsIntoReport">
 <polygon fill="none" stroke="black" points="559.5,-19 559.5,-60 678.5,-60 678.5,-19 559.5,-19"/>
 <text text-anchor="start" x="567.5" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="567.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -287,7 +287,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" target="_top" xlink:title="Конвертирует отчет в виджет. ">
+<g id="a_node16"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lconvert">
 <polygon fill="none" stroke="black" points="949.5,-44 949.5,-85 1068.5,-85 1068.5,-44 949.5,-44"/>
 <text text-anchor="start" x="957.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="957.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -302,7 +302,7 @@ var sectionId = 'dynsection-17';
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" target="_top" xlink:title="Создает виджет отчета для вывода на экран. ">
+<g id="a_node17"><a xlink:href="classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" target="_top" xlink:title="qtreports::Engine::\lcreateWidget">
 <polygon fill="none" stroke="black" points="1134.5,-98.5 1134.5,-128.5 1239.5,-128.5 1239.5,-98.5 1134.5,-98.5"/>
 <text text-anchor="start" x="1142.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="1187" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">createWidget</text>

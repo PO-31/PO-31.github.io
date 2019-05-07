@@ -1,8 +1,8 @@
 <map id="qtreports::detail::ConverterToQWidget::isReport" name="qtreports::detail::ConverterToQWidget::isReport">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" title="Функция добавления группировок в отчет. " alt="" coords="212,63,371,119"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" title="Конвертирует отчет в QWidget. " alt="" coords="419,63,577,119"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" title="Конвертирует отчет в виджет. " alt="" coords="625,63,784,119"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" title="Создает виджет отчета для вывода на экран. " alt="" coords="832,5,972,47"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#ac98aceb5ee703053d7691029da84e296" title="qtreports::detail::\lConverterToQWidget::\laddGroupsIntoReport" alt="" coords="212,63,371,119"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a96a53267cf2b8092e174906ea7f0f56f" title="qtreports::detail::\lConverterToQWidget::\lcreateQWidget" alt="" coords="419,63,577,119"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" title="qtreports::detail::\lConverterToQWidget::\lconvert" alt="" coords="625,63,784,119"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" title="qtreports::Engine::\lcreateWidget" alt="" coords="832,5,972,47"/>
 <area shape="rect" id="node6" href="$classqtreports_1_1_engine.html#a3966d8f0ebb6c1f94812ec21e21680c0" title="qtreports::Engine::\lcreateLayout" alt="" coords="832,71,972,112"/>
 <area shape="rect" id="node7" href="$classqtreports_1_1_engine.html#a93dc7711446a155f87d9146efb493f9e" title="qtreports::Engine::\ldrawPreview" alt="" coords="832,136,972,177"/>
 <area shape="rect" id="node8" href="$classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e" title="qtreports::Engine::\lgetPrintPreviewDialog" alt="" coords="1020,136,1180,177"/>

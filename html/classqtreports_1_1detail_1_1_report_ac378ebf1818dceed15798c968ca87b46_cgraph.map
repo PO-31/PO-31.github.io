@@ -1,6 +1,6 @@
 <map id="qtreports::detail::Report::setMargins" name="qtreports::detail::Report::setMargins">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_report.html#aaa6cf15a91127d493bc03603454bfbbb" title="Устанавливает левый отступ " alt="" coords="207,5,365,47"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_report.html#a18e54847516cafc89b302e22ae67412d" title="Устанавливает верхний отступ " alt="" coords="209,71,363,112"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_report.html#a7ad10c84c5e8fe2483433f9f54abd0bb" title="Устанавливает правый отступ " alt="" coords="203,136,369,177"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_report.html#ab7d00202111001a7e5bca8c2a4ae77bd" title="Устанавливает нижний отступ " alt="" coords="195,201,377,243"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_report.html#aaa6cf15a91127d493bc03603454bfbbb" title="qtreports::detail::\lReport::setLeftMargin" alt="" coords="207,5,365,47"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_report.html#a18e54847516cafc89b302e22ae67412d" title="qtreports::detail::\lReport::setTopMargin" alt="" coords="209,71,363,112"/>
+<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_report.html#a7ad10c84c5e8fe2483433f9f54abd0bb" title="qtreports::detail::\lReport::setRightMargin" alt="" coords="203,136,369,177"/>
+<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_report.html#ab7d00202111001a7e5bca8c2a4ae77bd" title="qtreports::detail::\lReport::setBottomMargin" alt="" coords="195,201,377,243"/>
 </map>

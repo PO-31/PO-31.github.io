@@ -17,7 +17,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" target="_top" xlink:title="Добавление &lt;band&gt; в документ HTML. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::addBand">
 <polygon fill="none" stroke="black" points="208,-30 208,-60 357,-60 357,-30 208,-30"/>
 <text text-anchor="start" x="216" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="282.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addBand</text>
@@ -31,7 +31,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" target="_top" xlink:title="Процесс конвертации репорта в HTML формат. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::createHTML">
 <polygon fill="none" stroke="black" points="587,-30 587,-60 750,-60 750,-30 587,-30"/>
 <text text-anchor="start" x="595" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="668.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::createHTML</text>
@@ -45,7 +45,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" target="_top" xlink:title="Добавление &lt;group&gt; в документ HTML. ">
+<g id="a_node7"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::addGroups\lIntoReport">
 <polygon fill="none" stroke="black" points="393,-0.5 393,-41.5 551,-41.5 551,-0.5 393,-0.5"/>
 <text text-anchor="start" x="401" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="401" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::addGroups</text>
@@ -60,7 +60,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" target="_top" xlink:title="Запускает процесс конвертации репорта в HTML формат. ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::convert">
 <polygon fill="none" stroke="black" points="786,-30 786,-60 928,-60 928,-30 786,-30"/>
 <text text-anchor="start" x="794" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="857" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::convert</text>
@@ -74,7 +74,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" target="_top" xlink:title="Создает HTML документ при успешной конвертации репорта в HTML формат. ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" target="_top" xlink:title="qtreports::detail::\lConverterToHTML::convert">
 <polygon fill="none" stroke="black" points="964,-55 964,-85 1106,-85 1106,-55 964,-55"/>
 <text text-anchor="start" x="972" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="1035" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToHTML::convert</text>
@@ -88,7 +88,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" target="_top" xlink:title="Создает HTML документ отчета по указанному пути ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" target="_top" xlink:title="qtreports::Engine::\lcreateHTML">
 <polygon fill="none" stroke="black" points="982.5,-6 982.5,-36 1087.5,-36 1087.5,-6 982.5,-6"/>
 <text text-anchor="start" x="990.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="1035" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">createHTML</text>

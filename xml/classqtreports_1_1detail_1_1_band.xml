@@ -178,17 +178,9 @@
           <declname>crosstab</declname>
         </param>
         <briefdescription>
-<para>Добавляет &lt;crosstab&gt; в &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">crosstab</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;crosstab&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="36" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="11" bodyend="14"/>
@@ -200,7 +192,7 @@
         <argsstring>() const </argsstring>
         <name>getCrosstabs</name>
         <briefdescription>
-<para>Возвращает вектор указателей на &lt;crosstab&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -218,17 +210,9 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para>Возвращает указатель на &lt;crosstab&gt; по индексу </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Индекс </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="47" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="21" bodyend="23"/>
@@ -244,17 +228,9 @@
           <declname>staticText</declname>
         </param>
         <briefdescription>
-<para>Добавляет &lt;staticText&gt; в &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">staticText</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;staticText&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="53" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="25" bodyend="28"/>
@@ -267,7 +243,7 @@
         <argsstring>() const </argsstring>
         <name>getStaticTexts</name>
         <briefdescription>
-<para>Возвращает вектор указателей на &lt;staticText&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -285,17 +261,9 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para>Возвращает указатель на &lt;staticText&gt; по индексу </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Индекс </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="64" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="36" bodyend="38"/>
@@ -307,7 +275,7 @@
         <argsstring>() const </argsstring>
         <name>getStaticTextsSize</name>
         <briefdescription>
-<para>Возращает количество &lt;staticText&gt; в текущем &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -325,17 +293,9 @@
           <declname>textField</declname>
         </param>
         <briefdescription>
-<para>Добавляем &lt;textField&gt; в &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">textField</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;textField&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="75" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="44" bodyend="47"/>
@@ -349,7 +309,7 @@
         <argsstring>() const </argsstring>
         <name>getTextFields</name>
         <briefdescription>
-<para>Возвращает вектор указателей на &lt;textField&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -367,17 +327,9 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para>Возвращает указатель на &lt;textField&gt; по индексу </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>индекс </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="86" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="54" bodyend="56"/>
@@ -389,7 +341,7 @@
         <argsstring>() const </argsstring>
         <name>getTextFieldsSize</name>
         <briefdescription>
-<para>Возращает количество &lt;textField&gt; в текущем &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -403,7 +355,7 @@
         <argsstring>() const </argsstring>
         <name>getTextWidgetsSize</name>
         <briefdescription>
-<para>Возвращает количество текстовых виджетов( &lt;staticText&gt;, &lt;textField&gt; ) </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -417,7 +369,7 @@
         <argsstring>() const </argsstring>
         <name>getTextWidgets</name>
         <briefdescription>
-<para>Возвращает вектор текстовых виджетов( &lt;staticText&gt;, &lt;textField&gt; ) </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -435,17 +387,9 @@
           <declname>line</declname>
         </param>
         <briefdescription>
-<para>Добавить &lt;line&gt; в &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">line</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;line&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="107" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="72" bodyend="75"/>
@@ -461,17 +405,9 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para>Возвращает указатель на &lt;line&gt; по индексу </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>индекс </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="113" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="77" bodyend="80"/>
@@ -483,7 +419,7 @@
         <argsstring>() const </argsstring>
         <name>getLinesSize</name>
         <briefdescription>
-<para>Возращает количество &lt;line&gt; в текущем &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -497,7 +433,7 @@
         <argsstring>() const </argsstring>
         <name>getLines</name>
         <briefdescription>
-<para>Возвращает вектор указателей на &lt;line&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -515,17 +451,9 @@
           <declname>rect</declname>
         </param>
         <briefdescription>
-<para>Добавляем &lt;rect&gt; в &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">rect</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;rect&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="129" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="92" bodyend="95"/>
@@ -541,17 +469,9 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para>Возвращает указатель на &lt;rect&gt; по индексу </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>индекс </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="135" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="97" bodyend="100"/>
@@ -563,7 +483,7 @@
         <argsstring>() const </argsstring>
         <name>getRectsSize</name>
         <briefdescription>
-<para>Возращает количество &lt;rect&gt; в текущем &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -577,7 +497,7 @@
         <argsstring>() const </argsstring>
         <name>getRects</name>
         <briefdescription>
-<para>Возвращает вектор указателей на &lt;rect&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -595,17 +515,9 @@
           <declname>ellipse</declname>
         </param>
         <briefdescription>
-<para>Добавляем &lt;ellipse&gt; в &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">ellipse</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;ellipse&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="151" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="112" bodyend="115"/>
@@ -621,17 +533,9 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para>Возвращает указатель на &lt;ellipse&gt; по индексу </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>индекс </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="157" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="117" bodyend="120"/>
@@ -643,7 +547,7 @@
         <argsstring>() const </argsstring>
         <name>getEllipsesSize</name>
         <briefdescription>
-<para>Возращает количество &lt;ellipse&gt; в текущем &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -657,7 +561,7 @@
         <argsstring>() const </argsstring>
         <name>getEllipses</name>
         <briefdescription>
-<para>Возвращает вектор указателей на &lt;ellipse&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -675,17 +579,9 @@
           <declname>image</declname>
         </param>
         <briefdescription>
-<para>Добавляет &lt;image&gt; в &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">image</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Указатель на &lt;image&gt; </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="173" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="132" bodyend="135"/>
@@ -701,17 +597,9 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para>Возвращает указатель на &lt;image&gt; по индексу </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>индекс </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.hpp" line="179" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/band.cpp" bodystart="137" bodyend="140"/>
@@ -723,7 +611,7 @@
         <argsstring>() const </argsstring>
         <name>getImagesSize</name>
         <briefdescription>
-<para>Возращает количество &lt;image&gt; в текущем &lt;band&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -737,7 +625,7 @@
         <argsstring>() const </argsstring>
         <name>getImages</name>
         <briefdescription>
-<para>Возвращает вектор указателей на &lt;image&gt; </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -747,9 +635,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;band&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;band&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="194">
         <label>qtreports::detail::Object</label>

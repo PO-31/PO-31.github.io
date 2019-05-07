@@ -17,7 +17,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a0755107511a830346c28a8e51bcf99e2" target="_top" xlink:title="Заменяет текст всех виджетов с текстом в отчете текстом с подставленными значениями параметров...">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a0755107511a830346c28a8e51bcf99e2" target="_top" xlink:title="qtreports::detail::\lReplacer::replaceParameters">
 <polygon fill="none" stroke="black" points="190,-6 190,-36 344,-36 344,-6 190,-6"/>
 <text text-anchor="start" x="198" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="267" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replaceParameters</text>

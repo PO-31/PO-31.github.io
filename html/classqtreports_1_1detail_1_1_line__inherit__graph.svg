@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_widget.html" target="_top" xlink:title="Базовый класс для тэгов, которые подлежат отображению ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_widget.html" target="_top" xlink:title="{qtreports::detail::\lWidget\n|# m_isBold\l# m_rect\l# m_alignment\l# m_style\l|+ Widget()\l+ ~Widget()\l+ setPosition()\l+ setX()\l+ setY()\l+ setSize()\l+ setWidth()\l+ setHeight()\l+ setRect()\l+ setStyle()\l+ setAlignment()\l+ getAlignment()\l+ getPos()\l+ getX()\l+ getY()\l+ getSize()\l+ getWidth()\l+ getHeight()\l+ getRect()\l+ getStyle()\l+ isBold()\l+ setBold()\l}">
 <polygon fill="none" stroke="black" points="9.5,-105.5 9.5,-437.5 109.5,-437.5 109.5,-105.5 9.5,-105.5"/>
 <text text-anchor="start" x="17.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="59.5" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">Widget</text>
@@ -108,7 +108,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="Базовый класс для любого тэга ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}">
 <polygon fill="none" stroke="black" points="10,-474.5 10,-641.5 109,-641.5 109,-474.5 10,-474.5"/>
 <text text-anchor="start" x="18" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="59.5" y="-618.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>

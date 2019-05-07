@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#ac378ebf1818dceed15798c968ca87b46" target="_top" xlink:title="Устанавливает отступы от краев ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#ac378ebf1818dceed15798c968ca87b46" target="_top" xlink:title="qtreports::detail::\lReport::setMargins">
 <polygon fill="none" stroke="black" points="155,-0.5 155,-30.5 261,-30.5 261,-0.5 155,-0.5"/>
 <text text-anchor="start" x="163" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="208" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::setMargins</text>

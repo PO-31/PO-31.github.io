@@ -58,17 +58,9 @@
           <declname>name</declname>
         </param>
         <briefdescription>
-<para>Устанавливает имя класса. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Данное значение будет использоваться при вычислении содержимого. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">name</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Имя класса </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/textfield.hpp" line="30" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/textfield.cpp" bodystart="12" bodyend="15"/>
@@ -80,7 +72,7 @@
         <argsstring>() const </argsstring>
         <name>getClassName</name>
         <briefdescription>
-<para>Возвращает текущее имя класса. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -90,9 +82,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;textField&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;textField&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="344">
         <label>qtreports::detail::TextWidget</label>

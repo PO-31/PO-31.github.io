@@ -33,9 +33,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;rect&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;rect&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="307">
         <label>qtreports::detail::Object</label>

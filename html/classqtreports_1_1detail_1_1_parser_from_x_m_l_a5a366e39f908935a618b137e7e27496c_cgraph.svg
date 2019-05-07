@@ -62,7 +62,7 @@ var sectionId = 'dynsection-68';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab1cbf7385fa2d56c5e8526bf97cda9b1" target="_top" xlink:title="Вызывает функцию getAttribute с переданными параметрами и с параметром option &#45; &quot;обязательный аттрибу...">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ab1cbf7385fa2d56c5e8526bf97cda9b1" target="_top" xlink:title="qtreports::detail::\lParserFromXML::getRequired\lAttribute">
 <polygon fill="none" stroke="black" points="183,-109 183,-150 336,-150 336,-109 183,-109"/>
 <text text-anchor="start" x="191" y="-138" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="191" y="-127" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::getRequired</text>
@@ -77,7 +77,7 @@ var sectionId = 'dynsection-68';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a478329a44761310039078ee6871a355d" target="_top" xlink:title="Вызывает функцию getAttribute с переданными параметрами и с параметром option &#45; &quot;опциональный аттрибу...">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a478329a44761310039078ee6871a355d" target="_top" xlink:title="qtreports::detail::\lParserFromXML::getOptional\lAttribute">
 <polygon fill="none" stroke="black" points="183.5,-49 183.5,-90 335.5,-90 335.5,-49 183.5,-49"/>
 <text text-anchor="start" x="191.5" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="191.5" y="-67" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::getOptional</text>
@@ -106,7 +106,7 @@ var sectionId = 'dynsection-68';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" target="_top" xlink:title="Записывает в data значение аттрибута с именем name текущего тэга ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ad0cab06b62d590495eaa6a16465ed2b4" target="_top" xlink:title="qtreports::detail::\lParserFromXML::getAttribute">
 <polygon fill="none" stroke="black" points="372,-84.5 372,-114.5 526,-114.5 526,-84.5 372,-84.5"/>
 <text text-anchor="start" x="380" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="449" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::getAttribute</text>

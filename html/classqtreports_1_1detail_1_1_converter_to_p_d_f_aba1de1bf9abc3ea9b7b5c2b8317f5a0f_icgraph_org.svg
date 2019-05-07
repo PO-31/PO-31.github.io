@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c" target="_top" xlink:title="Создает секцию. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#a5d9212cf5250d8d938359c417537337c" target="_top" xlink:title="qtreports::detail::\lConverterToPDF::createSection">
 <polygon fill="none" stroke="black" points="194,-30 194,-60 358,-60 358,-30 194,-30"/>
 <text text-anchor="start" x="202" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="276" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToPDF::createSection</text>
@@ -30,7 +30,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aad8435572f5ba065f8f2fef428d97b22" target="_top" xlink:title="Конвертирует отчет в PDF документ. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#aad8435572f5ba065f8f2fef428d97b22" target="_top" xlink:title="qtreports::detail::\lConverterToPDF::create">
 <polygon fill="none" stroke="black" points="598,-30 598,-60 726,-60 726,-30 598,-30"/>
 <text text-anchor="start" x="606" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="662" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToPDF::create</text>
@@ -44,7 +44,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff" target="_top" xlink:title="Добавляет группу в репорт. ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#adda58d86ecfee05cdcc5e5ce161926ff" target="_top" xlink:title="qtreports::detail::\lConverterToPDF::addGroupsInto\lReport">
 <polygon fill="none" stroke="black" points="394,-0.5 394,-41.5 562,-41.5 562,-0.5 394,-0.5"/>
 <text text-anchor="start" x="402" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="402" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToPDF::addGroupsInto</text>
@@ -59,7 +59,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb" target="_top" xlink:title="Запускает процесс конвертации. ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_p_d_f.html#af39953d8db1bdcbbcf59cc00b05747eb" target="_top" xlink:title="qtreports::detail::\lConverterToPDF::convert">
 <polygon fill="none" stroke="black" points="762,-30 762,-60 896,-60 896,-30 762,-30"/>
 <text text-anchor="start" x="770" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="829" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToPDF::convert</text>
@@ -73,7 +73,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" target="_top" xlink:title="Создает PDF документ отчета по указанному пути ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" target="_top" xlink:title="qtreports::Engine::\lcreatePDF">
 <polygon fill="none" stroke="black" points="932,-30 932,-60 1037,-60 1037,-30 932,-30"/>
 <text text-anchor="start" x="940" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="984.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">createPDF</text>

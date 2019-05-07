@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" target="_top" xlink:title="Создает PDF документ отчета по указанному пути ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a34b6ccdf31af3bd275d9fb95100c6bda" target="_top" xlink:title="qtreports::Engine::\lcreatePDF">
 <polygon fill="none" stroke="black" points="170,-0.5 170,-30.5 275,-30.5 275,-0.5 170,-0.5"/>
 <text text-anchor="start" x="178" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="222.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">createPDF</text>

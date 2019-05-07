@@ -99,7 +99,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="Базовый класс для любого тэга ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}">
 <polygon fill="none" stroke="black" points="11,-468.5 11,-635.5 110,-635.5 110,-468.5 11,-468.5"/>
 <text text-anchor="start" x="19" y="-623.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="60.5" y="-612.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>

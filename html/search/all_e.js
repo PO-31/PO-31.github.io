@@ -1,7 +1,6 @@
 var searchData=
 [
   ['detail',['detail',['../namespaceqtreports_1_1detail.html',1,'qtreports']]],
-  ['qtreports',['QtReports',['../index.html',1,'']]],
   ['qprintpreviewdialogptr',['QPrintPreviewDialogPtr',['../namespaceqtreports.html#acbc249b477c3e177eba4d1fbc0d6b943',1,'qtreports']]],
   ['qtreports',['qtreports',['../namespaceqtreports.html',1,'']]],
   ['querystring',['QueryString',['../classqtreports_1_1detail_1_1_query_string.html',1,'qtreports::detail']]],

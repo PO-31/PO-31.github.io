@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a0c7bf107b4774cccb70577946d67666c" target="_top" xlink:title="Устанавливает запрос, по которому будут заполнятся поля отчета ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a0c7bf107b4774cccb70577946d67666c" target="_top" xlink:title="qtreports::Engine::\lsetQuery">
 <polygon fill="none" stroke="black" points="141,-24.5 141,-54.5 246,-54.5 246,-24.5 141,-24.5"/>
 <text text-anchor="start" x="149" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="193.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">setQuery</text>
@@ -44,7 +44,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" target="_top" xlink:title="Устанавливает источник данных для отчета из БД ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1_engine.html#a0615663aaca4ce8e80f654f2380fef64" target="_top" xlink:title="qtreports::Engine::\lsetConnection">
 <polygon fill="none" stroke="black" points="430.5,-49.5 430.5,-79.5 535.5,-79.5 535.5,-49.5 430.5,-49.5"/>
 <text text-anchor="start" x="438.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="483" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">setConnection</text>

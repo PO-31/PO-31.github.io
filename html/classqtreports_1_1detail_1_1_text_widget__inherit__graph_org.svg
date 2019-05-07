@@ -26,7 +26,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_image.html" target="_top" xlink:title="Класс, реализующий тэг &lt;image&gt; ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_image.html" target="_top" xlink:title="{qtreports::detail::\lImage\n|&#45; m_image\l|+ Image()\l+ ~Image()\l+ setImage()\l+ getImage()\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-101.5 99,-101.5 99,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="49.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">Image</text>
@@ -47,7 +47,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_static_text.html" target="_top" xlink:title="Класс, реализующий тэг &lt;staticText&gt; ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_static_text.html" target="_top" xlink:title="{qtreports::detail::\lStaticText\n||+ StaticText()\l+ ~StaticText()\l}">
 <polygon fill="none" stroke="black" points="117,-11.5 117,-90.5 216,-90.5 216,-11.5 117,-11.5"/>
 <text text-anchor="start" x="125" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="166.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">StaticText</text>
@@ -66,7 +66,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_text_field.html" target="_top" xlink:title="Класс, реализующий тэг &lt;textField&gt; ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_text_field.html" target="_top" xlink:title="{qtreports::detail::\lTextField\n|&#45; m_className\l|+ TextField()\l+ ~TextField()\l+ setClassName()\l+ getClassName()\l}">
 <polygon fill="none" stroke="black" points="234.5,-0.5 234.5,-101.5 340.5,-101.5 340.5,-0.5 234.5,-0.5"/>
 <text text-anchor="start" x="242.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="287.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextField</text>
@@ -87,7 +87,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_widget.html" target="_top" xlink:title="Базовый класс для тэгов, которые подлежат отображению ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_widget.html" target="_top" xlink:title="{qtreports::detail::\lWidget\n|# m_isBold\l# m_rect\l# m_alignment\l# m_style\l|+ Widget()\l+ ~Widget()\l+ setPosition()\l+ setX()\l+ setY()\l+ setSize()\l+ setWidth()\l+ setHeight()\l+ setRect()\l+ setStyle()\l+ setAlignment()\l+ getAlignment()\l+ getPos()\l+ getX()\l+ getY()\l+ getSize()\l+ getWidth()\l+ getHeight()\l+ getRect()\l+ getStyle()\l+ isBold()\l+ setBold()\l}">
 <polygon fill="none" stroke="black" points="116.5,-309.5 116.5,-641.5 216.5,-641.5 216.5,-309.5 116.5,-309.5"/>
 <text text-anchor="start" x="124.5" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="166.5" y="-618.5" font-family="Helvetica,sans-Serif" font-size="10.00">Widget</text>
@@ -129,7 +129,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="Базовый класс для любого тэга ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}">
 <polygon fill="none" stroke="black" points="117,-678.5 117,-845.5 216,-845.5 216,-678.5 117,-678.5"/>
 <text text-anchor="start" x="125" y="-833.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="166.5" y="-822.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>

@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a12cebdcb817b3c9a0c730b9439b2ff85" target="_top" xlink:title="Загружает макет отчета из файла path. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a12cebdcb817b3c9a0c730b9439b2ff85" target="_top" xlink:title="qtreports::Engine::open">
 <polygon fill="none" stroke="black" points="191,-6 191,-25 320,-25 320,-6 191,-6"/>
 <text text-anchor="middle" x="255.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::open</text>
 </a>

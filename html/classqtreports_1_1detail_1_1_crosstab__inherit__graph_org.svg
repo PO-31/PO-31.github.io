@@ -44,7 +44,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_widget.html" target="_top" xlink:title="Базовый класс для тэгов, которые подлежат отображению ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_widget.html" target="_top" xlink:title="{qtreports::detail::\lWidget\n|# m_isBold\l# m_rect\l# m_alignment\l# m_style\l|+ Widget()\l+ ~Widget()\l+ setPosition()\l+ setX()\l+ setY()\l+ setSize()\l+ setWidth()\l+ setHeight()\l+ setRect()\l+ setStyle()\l+ setAlignment()\l+ getAlignment()\l+ getPos()\l+ getX()\l+ getY()\l+ getSize()\l+ getWidth()\l+ getHeight()\l+ getRect()\l+ getStyle()\l+ isBold()\l+ setBold()\l}">
 <polygon fill="none" stroke="black" points="38,-369.5 38,-701.5 138,-701.5 138,-369.5 38,-369.5"/>
 <text text-anchor="start" x="46" y="-689.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="88" y="-678.5" font-family="Helvetica,sans-Serif" font-size="10.00">Widget</text>
@@ -86,7 +86,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="Базовый класс для любого тэга ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_object.html" target="_top" xlink:title="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}">
 <polygon fill="none" stroke="black" points="38.5,-738.5 38.5,-905.5 137.5,-905.5 137.5,-738.5 38.5,-738.5"/>
 <text text-anchor="start" x="46.5" y="-893.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="88" y="-882.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>

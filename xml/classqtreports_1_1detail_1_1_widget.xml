@@ -122,17 +122,9 @@
           <declname>pos</declname>
         </param>
         <briefdescription>
-<para>Устанавливает положение объекта. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>Аргумент - неотрицательные координаты объекта, с центром координат в верхнем левом углу. Координаты задаются относительно внешнего объекта. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">pos</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Положение объекта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="36" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="13" bodyend="15"/>
@@ -148,17 +140,9 @@
           <declname>x</declname>
         </param>
         <briefdescription>
-<para>устанавливается координата х </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">x</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение координаты х </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="42" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="17" bodyend="19"/>
@@ -174,17 +158,9 @@
           <declname>y</declname>
         </param>
         <briefdescription>
-<para>устанавливается координата у </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">y</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение координаты у </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="48" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="21" bodyend="23"/>
@@ -200,17 +176,9 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Устанавливается размер объекта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">size</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>размер объекта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="54" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="25" bodyend="27"/>
@@ -226,17 +194,9 @@
           <declname>width</declname>
         </param>
         <briefdescription>
-<para>Устанавливается ширина </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">width</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>ширина объекта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="60" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="29" bodyend="31"/>
@@ -252,17 +212,9 @@
           <declname>height</declname>
         </param>
         <briefdescription>
-<para>Устанавливается высота </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">height</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>высота объекта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="66" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="33" bodyend="35"/>
@@ -278,17 +230,9 @@
           <declname>rect</declname>
         </param>
         <briefdescription>
-<para>Устанавливается высота </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">rect</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>высота объекта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="72" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="37" bodyend="39"/>
@@ -304,17 +248,9 @@
           <declname>style</declname>
         </param>
         <briefdescription>
-<para>Устанавливается индекс стиля объекта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">style</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новый стиль объекта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="80" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="45" bodyend="48"/>
@@ -358,7 +294,7 @@
         <argsstring>() const </argsstring>
         <name>getPos</name>
         <briefdescription>
-<para>Устанавливается позиция объекта Возвращается позиция объекта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -372,7 +308,7 @@
         <argsstring>() const </argsstring>
         <name>getX</name>
         <briefdescription>
-<para>Устанавливается координата х Возвращает координату X. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -386,7 +322,7 @@
         <argsstring>() const </argsstring>
         <name>getY</name>
         <briefdescription>
-<para>Устанавливается координата у Возвращает координату Y. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -400,7 +336,7 @@
         <argsstring>() const </argsstring>
         <name>getSize</name>
         <briefdescription>
-<para>Устанавливается размер объекта возвращает размер объекта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -414,7 +350,7 @@
         <argsstring>() const </argsstring>
         <name>getWidth</name>
         <briefdescription>
-<para>Возвращает текущую ширину объекта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -428,7 +364,7 @@
         <argsstring>() const </argsstring>
         <name>getHeight</name>
         <briefdescription>
-<para>Устанавливается высота объекта Возвращает высоту объекта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -456,7 +392,7 @@
         <argsstring>() const </argsstring>
         <name>getStyle</name>
         <briefdescription>
-<para>Получаем индекс стиля Возвращает индекс стиля </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -470,7 +406,7 @@
         <argsstring>() const </argsstring>
         <name>isBold</name>
         <briefdescription>
-<para>Возвращаем индекс стиля </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -489,17 +425,9 @@
           <declname>isBold</declname>
         </param>
         <briefdescription>
-<para>Возвращаем индекс стиля </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">isBold</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- bool </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.hpp" line="140" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/widget.cpp" bodystart="99" bodyend="101"/>
@@ -508,9 +436,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Базовый класс для тэгов, которые подлежат отображению </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Базовый класс для тэгов, которые подлежат отображению. Координаты объекта являются локальными относительно родительского объекта. </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="379">
         <label>qtreports::detail::Image</label>

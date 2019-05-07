@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#aedb49125bf91cbd57285b8c23ff2e4d8" target="_top" xlink:title="Возвращает количество строк ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_report.html#aedb49125bf91cbd57285b8c23ff2e4d8" target="_top" xlink:title="qtreports::detail::\lReport::getRowCount">
 <polygon fill="none" stroke="black" points="135,-0.5 135,-30.5 251,-30.5 251,-0.5 135,-0.5"/>
 <text text-anchor="start" x="143" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="193" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::getRowCount</text>
@@ -30,7 +30,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a11eb3acc6af941af1e2491f6bb0910b8" target="_top" xlink:title="Заполняет таблицу соответствия групп и строк. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_report.html#a11eb3acc6af941af1e2491f6bb0910b8" target="_top" xlink:title="qtreports::detail::\lReport::fillGroupsData">
 <polygon fill="none" stroke="black" points="287,-0.5 287,-30.5 408,-30.5 408,-0.5 287,-0.5"/>
 <text text-anchor="start" x="295" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="347.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Report::fillGroupsData</text>

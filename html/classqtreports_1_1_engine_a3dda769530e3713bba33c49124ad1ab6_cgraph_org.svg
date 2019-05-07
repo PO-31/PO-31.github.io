@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a0c7bf107b4774cccb70577946d67666c" target="_top" xlink:title="Устанавливает запрос, по которому будут заполнятся поля отчета ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1_engine.html#a0c7bf107b4774cccb70577946d67666c" target="_top" xlink:title="qtreports::Engine::\lsetQuery">
 <polygon fill="none" stroke="black" points="141,-0.5 141,-30.5 246,-30.5 246,-0.5 141,-0.5"/>
 <text text-anchor="start" x="149" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::Engine::</text>
 <text text-anchor="middle" x="193.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">setQuery</text>

@@ -204,7 +204,7 @@
         <argsstring>() const </argsstring>
         <name>isDefault</name>
         <briefdescription>
-<para>Возвращает, является ли данный стиль стилем по умолчанию </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -222,17 +222,9 @@
           <declname>flag</declname>
         </param>
         <briefdescription>
-<para>Устанавливает, является ли текущий стиль стилем по умолчанию </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">flag</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="36" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="21" bodyend="23"/>
@@ -244,7 +236,7 @@
         <argsstring>() const </argsstring>
         <name>getFontName</name>
         <briefdescription>
-<para>Возвращает название шрифта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -263,17 +255,9 @@
           <declname>name</declname>
         </param>
         <briefdescription>
-<para>Устанавливает название шрифта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">name</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Название шрифта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="47" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="30" bodyend="33"/>
@@ -285,7 +269,7 @@
         <argsstring>() const </argsstring>
         <name>getFontSize</name>
         <briefdescription>
-<para>Возвращает размер шрифта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -304,17 +288,9 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Устанавливает размер шрифта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">size</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Размер шрифта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="58" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="39" bodyend="41"/>
@@ -326,7 +302,7 @@
         <argsstring>() const </argsstring>
         <name>getFontColor</name>
         <briefdescription>
-<para>Возвращает цвет шрифта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -345,17 +321,9 @@
           <declname>color</declname>
         </param>
         <briefdescription>
-<para>Устанавливает цвет шрифта </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">color</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Цвет шрифта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="69" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="47" bodyend="49"/>
@@ -367,7 +335,7 @@
         <argsstring>() const </argsstring>
         <name>isBold</name>
         <briefdescription>
-<para>Возвращает, является ли шрифт жирным или нет </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -386,17 +354,9 @@
           <declname>flag</declname>
         </param>
         <briefdescription>
-<para>Устанавливает, является ли шрифт жирным или нет </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">flag</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="80" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="56" bodyend="59"/>
@@ -408,7 +368,7 @@
         <argsstring>() const </argsstring>
         <name>isItalic</name>
         <briefdescription>
-<para>Возвращает, является ли шрифт курсивом или нет </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -427,17 +387,9 @@
           <declname>flag</declname>
         </param>
         <briefdescription>
-<para>Устанавливает, является ли шрифт курсивом или нет </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">flag</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="91" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="66" bodyend="69"/>
@@ -449,7 +401,7 @@
         <argsstring>() const </argsstring>
         <name>isUnderline</name>
         <briefdescription>
-<para>Возвращает, является ли шрифт подчеркнутым или нет </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -467,17 +419,9 @@
           <declname>flag</declname>
         </param>
         <briefdescription>
-<para>Устанавливает, является ли шрифт подчеркнутым или нет </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">flag</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="102" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="76" bodyend="79"/>
@@ -489,7 +433,7 @@
         <argsstring>() const </argsstring>
         <name>isStrikeThrough</name>
         <briefdescription>
-<para>Возвращает, является ли шрифт перечеркнутым или нет </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -507,17 +451,9 @@
           <declname>flag</declname>
         </param>
         <briefdescription>
-<para>Устанавливает, является ли шрифт перечеркнутым или нет </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">flag</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="113" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="86" bodyend="89"/>
@@ -529,7 +465,7 @@
         <argsstring>() const </argsstring>
         <name>getPDFFontName</name>
         <briefdescription>
-<para>Возвращает название шрифта в PDF. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -547,17 +483,9 @@
           <declname>name</declname>
         </param>
         <briefdescription>
-<para>Устанавливает название шрифта в PDF. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">name</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Название шрифта </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="124" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="95" bodyend="97"/>
@@ -569,7 +497,7 @@
         <argsstring>() const </argsstring>
         <name>getPDFEncoding</name>
         <briefdescription>
-<para>Возвращает название кодировки в PDF. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
@@ -587,17 +515,9 @@
           <declname>encoding</declname>
         </param>
         <briefdescription>
-<para>Устанавливает название кодировки в PDF. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">encoding</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Название кодировки </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="135" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="103" bodyend="105"/>
@@ -609,9 +529,9 @@
         <argsstring>() const </argsstring>
         <name>isPDFEmbedded</name>
         <briefdescription>
-<para>Возвращает ... </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>в PDF </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="140" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="107" bodyend="109"/>
@@ -627,17 +547,9 @@
           <declname>isEmbedded</declname>
         </param>
         <briefdescription>
-<para>Устанавливает ... </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para>в PDF <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername direction="in">isEmbedded</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Новое значение </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.hpp" line="146" column="1" bodyfile="/home/travis/build/PO-31/QtReports/qtreports/src/tags/style.cpp" bodystart="111" bodyend="113"/>
@@ -645,9 +557,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;style&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;style&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="334">
         <label>qtreports::detail::Object</label>

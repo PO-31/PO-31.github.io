@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5227072dac0a691b04214b47f55f96ad" target="_top" xlink:title="Парсит тэг groupExpression. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5227072dac0a691b04214b47f55f96ad" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseGroupExpression">
 <polygon fill="none" stroke="black" points="174.5,-325.5 174.5,-355.5 378.5,-355.5 378.5,-325.5 174.5,-325.5"/>
 <text text-anchor="start" x="182.5" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="276.5" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseGroupExpression</text>
@@ -30,7 +30,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ae037521ded63aa8447653b9079b4de08" target="_top" xlink:title="Парсит текст для staticText. ">
+<g id="a_node4"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#ae037521ded63aa8447653b9079b4de08" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseText">
 <polygon fill="none" stroke="black" points="205.5,-276.5 205.5,-306.5 347.5,-306.5 347.5,-276.5 205.5,-276.5"/>
 <text text-anchor="start" x="213.5" y="-294.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="276.5" y="-283.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseText</text>
@@ -44,7 +44,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a459f21efce7b714320d84d304d304d60" target="_top" xlink:title="Парсит текст для textField. ">
+<g id="a_node5"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a459f21efce7b714320d84d304d304d60" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseTextField\lExpression">
 <polygon fill="none" stroke="black" points="195,-217 195,-258 358,-258 358,-217 195,-217"/>
 <text text-anchor="start" x="203" y="-246" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="203" y="-235" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseTextField</text>
@@ -59,7 +59,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5bb40e2d4ed991c7d61f2c16d8aeaf26" target="_top" xlink:title="Парсит текст (imageExpression) для image. ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a5bb40e2d4ed991c7d61f2c16d8aeaf26" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseImageExpression">
 <polygon fill="none" stroke="black" points="174,-168.5 174,-198.5 379,-198.5 379,-168.5 174,-168.5"/>
 <text text-anchor="start" x="182" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="276.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseImageExpression</text>
@@ -103,7 +103,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a027c1caea8508dc831486969bc47734c" target="_top" xlink:title="Парсит запросы ">
+<g id="a_node9"><a xlink:href="classqtreports_1_1detail_1_1_parser_from_x_m_l.html#a027c1caea8508dc831486969bc47734c" target="_top" xlink:title="qtreports::detail::\lParserFromXML::parseQueryString">
 <polygon fill="none" stroke="black" points="186.5,-0.5 186.5,-30.5 366.5,-30.5 366.5,-0.5 186.5,-0.5"/>
 <text text-anchor="start" x="194.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="276.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserFromXML::parseQueryString</text>

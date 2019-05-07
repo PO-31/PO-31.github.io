@@ -33,9 +33,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, реализующий тэг &lt;detail&gt; </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>Класс, реализующий тэг &lt;detail&gt; </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
       <node id="234">
         <label>qtreports::detail::Object</label>

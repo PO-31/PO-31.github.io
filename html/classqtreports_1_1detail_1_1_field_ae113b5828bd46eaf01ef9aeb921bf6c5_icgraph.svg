@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_field.html#a6479482ff09c2eedab090cf58c9a0ca9" target="_top" xlink:title="Возвращает содержимое &lt;field&gt;. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_field.html#a6479482ff09c2eedab090cf58c9a0ca9" target="_top" xlink:title="qtreports::detail::\lField::getData">
 <polygon fill="none" stroke="black" points="135,-0.5 135,-30.5 234,-30.5 234,-0.5 135,-0.5"/>
 <text text-anchor="start" x="143" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="184.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Field::getData</text>

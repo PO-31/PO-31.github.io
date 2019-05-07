@@ -1,4 +1,4 @@
 <map id="qtreports::detail::Detail" name="qtreports::detail::Detail">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_section.html" title="Базовый класс для тэгов &lt;title&gt;, &lt;detail&gt;,. " alt="" coords="5,277,140,516"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_object.html" title="Базовый класс для любого тэга " alt="" coords="7,5,139,229"/>
+<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_section.html" title="{qtreports::detail::\lSection\n|# m_bands\l# m_width\l# m_height\l|+ Section()\l+ ~Section()\l+ setWidth()\l+ getWidth()\l+ getHeight()\l+ addBand()\l+ getBand()\l+ getBandsSize()\l+ getBands()\l}" alt="" coords="5,277,140,516"/>
+<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_object.html" title="{qtreports::detail::\lObject\n|# m_name\l# m_tagName\l# m_lastError\l|+ Object()\l+ Object()\l+ ~Object()\l+ setName()\l+ getName()\l+ setTagName()\l+ getTagName()\l+ getLastError()\l}" alt="" coords="7,5,139,229"/>
 </map>

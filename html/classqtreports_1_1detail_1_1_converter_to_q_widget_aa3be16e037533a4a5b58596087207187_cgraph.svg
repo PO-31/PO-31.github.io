@@ -63,7 +63,7 @@ var sectionId = 'dynsection-12';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a23d6229235fca8bd8bbddcc5e2e28f92" target="_top" xlink:title="Добавляет новую страницу на виджет. ">
+<g id="a_node2"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a23d6229235fca8bd8bbddcc5e2e28f92" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\laddPage">
 <polygon fill="none" stroke="black" points="181.5,-207.5 181.5,-248.5 300.5,-248.5 300.5,-207.5 181.5,-207.5"/>
 <text text-anchor="start" x="189.5" y="-236.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="189.5" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -78,7 +78,7 @@ var sectionId = 'dynsection-12';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a76bb37f2855d12afc9056c75cdbc5e0b" target="_top" xlink:title="Проверяет, является ли виджет типа WidgetType::Layout. ">
+<g id="a_node3"><a xlink:href="classqtreports_1_1detail_1_1_converter_to_q_widget.html#a76bb37f2855d12afc9056c75cdbc5e0b" target="_top" xlink:title="qtreports::detail::\lConverterToQWidget::\lisLayout">
 <polygon fill="none" stroke="black" points="181.5,-147.5 181.5,-188.5 300.5,-188.5 300.5,-147.5 181.5,-147.5"/>
 <text text-anchor="start" x="189.5" y="-176.5" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="start" x="189.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConverterToQWidget::</text>
@@ -152,7 +152,7 @@ var sectionId = 'dynsection-12';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd" target="_top" xlink:title="Возвращает текст с подставленными значениями полей из источника данных. ">
+<g id="a_node6"><a xlink:href="classqtreports_1_1detail_1_1_replacer.html#a4642b07160798f2ee4de276e1d0c1ecd" target="_top" xlink:title="qtreports::detail::\lReplacer::replaceField">
 <polygon fill="none" stroke="black" points="772,-60 772,-90 891,-90 891,-60 772,-60"/>
 <text text-anchor="start" x="780" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">qtreports::detail::</text>
 <text text-anchor="middle" x="831.5" y="-67" font-family="Helvetica,sans-Serif" font-size="10.00">Replacer::replaceField</text>
