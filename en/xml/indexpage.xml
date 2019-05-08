@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>QtReports</title>
+    <detaileddescription>
+<para>Welcome to QtReports documentation page.</para><sect1 id="index_1intro_sec">
+<title>Introduction</title>
+<para>The documentation helps you with using QtReports.</para><para>The project repo is located on <ulink url="https://github.com/PO-31/QtReports">Github</ulink>. There you can find instructions of building and using QtReports with your project.</para></sect1>
+<sect1 id="index_1warning_sec">
+<title>Warning</title>
+<para>The translation is in progress. </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>
