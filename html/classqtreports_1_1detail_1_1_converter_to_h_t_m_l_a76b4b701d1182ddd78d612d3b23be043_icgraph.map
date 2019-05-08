@@ -1,8 +1,0 @@
-<map id="qtreports::detail::ConverterToHTML::addShapes" name="qtreports::detail::ConverterToHTML::addShapes">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#acd1d271ed38019d408d8597000e974be" title="qtreports::detail::\lConverterToHTML::addBand" alt="" coords="267,39,465,80"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ace8358a3612fc8085b7c34f1f92341e2" title="qtreports::detail::\lConverterToHTML::createHTML" alt="" coords="772,39,989,80"/>
-<area shape="rect" id="node7" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a602c8f3bd3bc44df48b2edcee8bcdfa0" title="qtreports::detail::\lConverterToHTML::addGroups\lIntoReport" alt="" coords="513,63,724,119"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#ad91ac333abf7d02f7590970a54ef7aae" title="qtreports::detail::\lConverterToHTML::convert" alt="" coords="1037,39,1227,80"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1detail_1_1_converter_to_h_t_m_l.html#a38e92f3fd70f61c44871b22cddffd15a" title="qtreports::detail::\lConverterToHTML::convert" alt="" coords="1275,5,1464,47"/>
-<area shape="rect" id="node6" href="$classqtreports_1_1_engine.html#a551b0db0510d572d56447c471daa0891" title="qtreports::Engine::\lcreateHTML" alt="" coords="1299,71,1439,112"/>
-</map>

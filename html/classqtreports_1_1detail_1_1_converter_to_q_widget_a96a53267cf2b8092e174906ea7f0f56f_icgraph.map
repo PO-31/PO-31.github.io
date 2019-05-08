@@ -1,7 +1,0 @@
-<map id="qtreports::detail::ConverterToQWidget::createQWidget" name="qtreports::detail::ConverterToQWidget::createQWidget">
-<area shape="rect" id="node2" href="$classqtreports_1_1detail_1_1_converter_to_q_widget.html#a4b42725ccbbc910522dca786da95fbb6" title="qtreports::detail::\lConverterToQWidget::\lconvert" alt="" coords="212,63,371,119"/>
-<area shape="rect" id="node3" href="$classqtreports_1_1_engine.html#a2a0fef0c95335eec5df4f61e4ffa7434" title="qtreports::Engine::\lcreateWidget" alt="" coords="419,5,559,47"/>
-<area shape="rect" id="node4" href="$classqtreports_1_1_engine.html#a3966d8f0ebb6c1f94812ec21e21680c0" title="qtreports::Engine::\lcreateLayout" alt="" coords="419,71,559,112"/>
-<area shape="rect" id="node5" href="$classqtreports_1_1_engine.html#a93dc7711446a155f87d9146efb493f9e" title="qtreports::Engine::\ldrawPreview" alt="" coords="419,136,559,177"/>
-<area shape="rect" id="node6" href="$classqtreports_1_1_engine.html#aad905c82a23399294dc3a83ba1988c2e" title="qtreports::Engine::\lgetPrintPreviewDialog" alt="" coords="607,136,767,177"/>
-</map>
